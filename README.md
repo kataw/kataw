@@ -14,7 +14,7 @@ It's conforms to latest ECMA specs, and the AST is designed to fullfill this goa
 * Typescript
 * Pretty printing
 
-**Note** None of these files are not completely up to date with my private code and will not be improved further.
+`None` of these files are not completely up to date with my private code and will not be improved further.
 
 I use this AST in my private project that includes all the bullet point above.
 
