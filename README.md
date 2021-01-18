@@ -4,6 +4,7 @@ This repo exist only to show off an alternative and improved AST than what can b
 
 It's conforms to latest ECMA specs, and the AST is designed to fullfill this goals with high performance:
 
+* CST
 * Error handling / recovery
 * Incremental parsing
 * Transformation
@@ -16,6 +17,12 @@ It's conforms to latest ECMA specs, and the AST is designed to fullfill this goa
 **Note** None of these files are not completely up to date with my private code and will not be improved further.
 
 I use this AST in my private project that includes all the bullet point above.
+
+## CST
+
+This AST supports what I choose to call a "hybrid AST". It's contains enough info to give you a perfect pretty printing.
+
+The CST info is enabled through the `nodeFlags`.
 
 ## Contribution
 
