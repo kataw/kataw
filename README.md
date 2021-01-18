@@ -18,21 +18,22 @@ It's conforms to latest ECMA specs, and the AST is designed to fullfill this goa
 
 I use this AST in my private project that includes all the bullet point above.
 
-The CST info is set using `NodeFlags`.
 
 ## Strict mode and module goal
 
-Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes will contain this masks. 
+Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes will contain this mask. 
 
 `Module goal` is also strict mode, but a `module` boolean property can be enabled on the `RootNode`. 
 
 ## AnnexB
 
-AnnexB is can be set as an boolean property on `IfStatement` and `LabelledStatement`.
+AnnexB is can be set as an boolean property on the `IfStatement` and `LabelledStatement` AST node.
 
 ## CST
 
 This AST supports what I choose to call a "hybrid CST". It's contains enough info to give you a perfect pretty printing.
+
+The CST info is set using `NodeFlags`.
 
 ## Contribution
 
