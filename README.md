@@ -40,6 +40,13 @@ The `NodeKind` flags allow you to do an quick comparison of AST nodes instead of
 For example `kind & NodeKind.IsExpression`, `kind & NodeKind.IsStatement`, `kind & NodeKind.IsBindingPattern` or
 `kind & NodeKind.IsFunctionDeclaration`
 
+# Comments
+
+Comments isn't a part of this AST. Start and end values exist on each AST node. That's all info you need too extract the comments from
+the source file on the `RootNode`. 
+
+Node B
+
 ## AnnexB
 
 AnnexB is can be set as an boolean property on the `IfStatement` and `LabelledStatement` AST node.
