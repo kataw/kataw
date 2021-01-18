@@ -169,14 +169,9 @@ export const enum NodeFlags {
   EscapedKeywordOrIdentifier = 1 << 24,
 
   /**
-   * This node has been decalared (Typescript)
-   */
-  Declare = 1 << 25,
-
-  /**
    * This node is ambient
    */
-  Ambient = 1 << 26
+  Ambient = 1 << 25
 }
 
 export const enum TransformFlags {
