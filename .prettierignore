@@ -1,0 +1,12 @@
+node_modules/
+dist/
+src/token.ts
+src/common.ts
+src/chars.ts
+src/scanner/charClassifier.ts
+src/scanner/unicode.ts
+src/scanner/lookup.ts
+src/parser/nodeFlags.ts
+src/compiler/constants.ts
+src/parser/constants.ts
+package-lock.json
