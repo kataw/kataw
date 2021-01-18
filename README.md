@@ -25,6 +25,21 @@ Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes
 
 `Module goal` is also strict mode, but a `module` boolean property can be enabled on the `RootNode`. 
 
+## Async and generators
+
+You will know if you parse in either async or yield context based on for example the `AsyncFunctionDeclaration` AST node.
+
+See the [ECMA specs for this](https://tc39.es/ecma262/#prod-AsyncGeneratorDeclaration)
+
+The `NodeKind` flags also let you do either `kind & NodeKind.IsGenerator`  or `kind & NodeKind.IsAsync` for async and generator nodes.
+
+## NodeKind
+
+The `NodeKind` flags allow you to do an quick comparison of AST nodes instead of using an huge switch statement that consumes memory.
+
+For example `kind & NodeKind.IsExpression`, `kind & NodeKind.IsStatement`, `kind & NodeKind.IsBindingPattern` or
+`kind & NodeKind.IsFunctionDeclaration`
+
 ## AnnexB
 
 AnnexB is can be set as an boolean property on the `IfStatement` and `LabelledStatement` AST node.
