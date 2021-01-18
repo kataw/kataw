@@ -20,9 +20,9 @@ I use this AST in my private project that includes all the bullet point above.
 
 ## CST
 
-This AST supports what I choose to call a "hybrid AST". It's contains enough info to give you a perfect pretty printing.
+This AST supports what I choose to call a "hybrid CST". It's contains enough info to give you a perfect pretty printing.
 
-The CST info is enabled through the `nodeFlags`.
+The CST info is set using `nodeFlags`.
 
 ## Contribution
 
