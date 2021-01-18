@@ -35,6 +35,10 @@ import { NumberKeyword } from './number-keyword';
 import { TrueType } from './true-type';
 import { FalseType } from './false-type';
 import { MinusType } from './minus-type';
+import { CallSignatureDeclaration } from './call-signature-declaration';
+import { ConstructSignatureDeclaration } from './construct-signature-declaration';
+import { MethodSignature } from './method-signature';
+import { IndexSignature } from './index-signature';
 
 /**
  * The set of all syntax items which are types.
@@ -45,6 +49,11 @@ export type TypeNode =
   | MinusType
   | AnyKeyword
   | ArrayType
+  | IndexSignature
+  | IndexSignature
+  | CallSignatureDeclaration
+  | ConstructSignatureDeclaration
+  | MethodSignature
   | BigIntKeyword
   | BooleanKeyword
   | ConditionalType
@@ -54,9 +63,7 @@ export type TypeNode =
   | IndexedAccessType
   | InferType
   | NumberType
-  //| InterfaceHeritage
   | IntersectionType
-  //  | LiteralType
   | MappedType
   | NamedTupleMember
   | NeverKeyword
@@ -68,7 +75,6 @@ export type TypeNode =
   | RestType
   | StringKeyword
   | SymbolKeyword
-  // | TemplateLiteralType
   | ThisType
   | TupleType
   | TypeLiteral

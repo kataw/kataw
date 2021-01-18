@@ -1,8 +1,8 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { Expression, Binding } from '../expressions/index';
 import { TypeNode } from '../types';
-
 import { updateNode } from '../../../visitor/common';
+import { VariableDeclarationList } from './variable-declarationList';
 
 /**
  * Variable declaration
@@ -10,9 +10,10 @@ import { updateNode } from '../../../visitor/common';
 
 export interface VariableDeclaration extends Node {
   readonly binding: Binding;
-  readonly exclamation: boolean;
-  readonly type: TypeNode | null;
-  readonly initializer: Expression | null;
+  readonly exclamation: boolean;  // Optional definite assignment assertion
+  readonly type: TypeNode | null; // Optional type annotation
+  readonly initializer: Expression | null; // Optional initializer
+  readonly parent: VariableDeclarationList | null
 }
 
 export function createVariableDeclaration(
