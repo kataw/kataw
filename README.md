@@ -45,7 +45,6 @@ For example `kind & NodeKind.IsExpression`, `kind & NodeKind.IsStatement`, `kind
 Comments isn't a part of this AST. Start and end values exist on each AST node. That's all info you need too extract the comments from
 the source file on the `RootNode`. 
 
-Node B
 
 ## AnnexB
 
