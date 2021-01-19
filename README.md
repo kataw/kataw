@@ -10,6 +10,7 @@ It's conforms to latest ECMA specs, and the AST is designed to fullfill this goa
 * Transformation
 * Linter
 * Minification
+* AST traversal
 * JSX
 * Typescript
 * Pretty printing
@@ -69,6 +70,17 @@ ES2021 to older ECMA versions.
 * [AST overview](https://kataw.github.io/kataw/kataw_ast/)
 
 * [Pretty printing with comments](https://kataw.github.io/kataw/kataw_print/)
+
+
+### AST nodes
+
+If you want to test out how AST nodes are created, you can use the `kataw.js` file used in the demo above.
+
+```ts
+import { createIdentifierReference } from ''kataw;
+
+createIdentifierReference('foo', 'foo', /* NodeFlag */ NodeFlag.Strict, /* start */ 1, /* end */ 3);
+```
 
 ## Contribution
 
