@@ -1,6 +1,6 @@
 # kataw
 
-This repo exist only to show off an alternative and improved AST than what can be seen in the EScaya repo.
+This repo exist only to show off an alternative and improved AST than ESTree and Babel AST.
 
 It's conforms to latest ECMA specs, and the AST is designed to fullfill this goals with high performance:
 
