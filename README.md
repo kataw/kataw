@@ -21,9 +21,9 @@ I use this AST in my private project that includes all the bullet point above.
 
 ## Strict mode and module goal
 
-Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes will contain this mask. 
+Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes will contain this mask.
 
-`Module goal` is also strict mode, but a `module` boolean property can be enabled on the `RootNode`. 
+`Module goal` is also strict mode, but a `module` boolean property can be enabled on the `RootNode`.
 
 ## Async and generators
 
@@ -43,7 +43,7 @@ For example `kind & NodeKind.IsExpression`, `kind & NodeKind.IsStatement`, `kind
 ## Comments
 
 Comments isn't a part of this AST. Start and end values exist on each AST node. That's all info you need too extract the comments from
-the source file on the `RootNode`. 
+the source file on the `RootNode`.
 
 
 ## AnnexB
@@ -55,6 +55,20 @@ AnnexB is can be set as an boolean property on the `IfStatement` and `LabelledSt
 This AST supports what I choose to call a "hybrid CST". It's contains enough info to give you a perfect pretty printing.
 
 The CST info is set using `NodeFlags`.
+
+## Demo
+
+There exist an demo for this AST. It's an subset of my own private parser. The demo includes only pretty printing and AST, and
+it doesn't work 110%. I "ripped out" some parts to prevent it from being used to other things than an demo.
+
+TypeScript parsing is enabled, and TS types are removed in the pretty printing.
+
+Transformers has not been added, but maybe I can add a transformer demo later on. The transformer works like Babel. It transpiles from
+ES2021 to older ECMA versions.
+
+* [AST overview](https://kataw.github.io/kataw/kataw_ast/)
+
+* [Pretty printing with comments](https://kataw.github.io/kataw/kataw_print/)
 
 ## Contribution
 
