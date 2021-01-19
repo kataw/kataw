@@ -480,5 +480,8 @@ export const enum NodeKind {
   BigIntLiteral = 238 | IsExpression | IsLeftHandSideExpression,
 
   // unique
-  UniqueIdentifier = 238 | IsIdentifier
+  UniqueIdentifier = 238 | IsIdentifier,
+
+  // internal
+  PrologueDirective  = 239
 }
