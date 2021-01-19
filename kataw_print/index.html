@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Katawa - Demo printer </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style>
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+textarea {
+resize: none;
+}
+
+#input, #output {
+  width: 99%;
+  height: 300px;
+  border-left: 3px solid #ddd;
+  padding: 0 0 0 8px;
+
+}
+#module_code {
+  font-size: 14px;
+  float:right;
+  margin-right:10px;
+  margin-top: 5px;
+}
+.input-title {
+  border: 0 none;
+  margin-bottom: 12px;
+}
+
+.sub {
+  margin-top: 0.5em;
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.footer a {
+  font-weight: bold;
+}
+.footer sub {}
+
+</style>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <div class="row">
+    <div class="twelve columns">
+      <nav class="top-bar">
+        <ul>
+          <li class="name">
+             <h1><a href="https://github.com/kataw/kataw">Kataw</a></h1>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <fieldset>
+          <legend class="input-title">Input
+              <label id ="module_code"><input type="checkbox" id="module"> Module code</label>
+          </legend>
+
+          <textarea id="input" class="form-control" placeholder="Write JavaScript code here."></textarea>
+          <div class="sub">
+            <label><input type="checkbox" id="loc"> Location tracking</label>
+          </div>
+          <div class="sub">
+            <label><input type="checkbox" id="cst"> Concrete syntax</label>
+          </div>
+          <div>
+            <label><input type="checkbox" id="next"> Recovery mode</label>
+          </div>
+              </fieldset>
+      </div>
+      <div class="input-title">
+        <fieldset>
+            <legend class="input-title">Syntax</legend>
+          <textarea id="output" class="form-control" readonly></textarea>
+          <div class="sub">
+            <label for="url" class="control-label">URL for this code:</label>
+            <input type="text" class="form-control" id="url" value="" readonly>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <script src="js1/es5-shim.js"></script>
+  <script src="js1/es5-sham.js"></script>
+  <script src="kataw.umd.min.js"></script>
+  <script src="js1/jquery.js"></script>
+  <script src="js1/underscore.js"></script>
+  <script src="js1/backbone.js"></script>
+  <script src="js1/demo.js"></script>
+</body>
+</html>
