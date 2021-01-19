@@ -11,13 +11,13 @@ import { ThisExpression } from '../expressions/this-expr';
 
 export interface JsxSelfClosingElement extends Node {
   readonly tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess;
-  readonly attributesList: JsxAttributesList;
+  readonly attributes: JsxAttributesList;
   readonly typeArguments: any;
 }
 
 export function createJsxSelfClosingElement(
   tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
-  attributesList: JsxAttributesList,
+  attributes: JsxAttributesList,
   typeArguments: any,
   start: number,
   end: number
@@ -25,11 +25,11 @@ export function createJsxSelfClosingElement(
   return {
     kind: NodeKind.JsxSelfClosingElement,
     tagName,
-    attributesList,
+    attributes,
     typeArguments,
     flags: NodeFlags.None,
     intersects: false,
-    transformFlags: tagName.transformFlags | attributesList.transformFlags,
+    transformFlags: tagName.transformFlags | attributes.transformFlags,
     parent: null,
     emitNode: null,
     start,

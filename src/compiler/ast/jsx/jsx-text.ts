@@ -12,7 +12,7 @@ export interface JsxText extends Node {
 
 export function createJsxText(text: string, start: number, end: number): JsxText {
   return {
-    kind: NodeKind.JsxChildrenList,
+    kind: NodeKind.JsxText,
     text,
     flags: NodeFlags.None,
     intersects: false,
