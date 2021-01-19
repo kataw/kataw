@@ -71,6 +71,8 @@ ES2021 to older ECMA versions.
 
 * [Pretty printing with comments](https://kataw.github.io/kataw/kataw_print/)
 
+* [Strip off Typescript types][https://kataw.github.io/kataw/kataw_print/?code=async%20function%20(x%3A%20string%20%7C%20number%2C%20y%3A%20unknown)%3A%20any%20%7B%7D%0A%0Afunction%20concat%3CT%20extends%20unknown%5B%5D%2C%20U%20extends%20unknown%5B%5D%3E(t%3A%20%5B...T%5D%2C%20u%3A%20%5B...U%5D)%3A%20%5B...T%2C%20...U%5D%20%7B%7D%0A%0A(class%20X%20%7B%0A%20%20static%20prop%20%3D%201%3B%0A%20%20%5BX.prop%5D()%20%7B%7D%20%2F%2F%20no%20error%2C%20fails%20at%20runtime%0A%7D)%0A%0Adeclare%20function%20x()%20%7B%7D%0A%0A&method=parse&range=undefined&loc=false&next=false&cst=false&module=false&raw=undefined&jsx=undefined&directives=undefined&attachComment=undefined&webCompat=undefined&lexical=undefined]
+
 
 ### AST nodes
 
