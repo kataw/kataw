@@ -1,15 +1,15 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
 import { StringLiteral } from '../expressions/string-literal';
 import { ImportClause } from './import-clause';
-import { RootNode } from '../root-node';
+import { Script } from '../script';
+import { Module } from '../module';
 
 export interface ImportDeclaration extends Node {
   readonly fromClause: StringLiteral | null;
   readonly moduleSpecifier: StringLiteral | null;
   readonly importClause: ImportClause | null;
   /* @internal */
-  readonly parent: RootNode | null;
+  readonly parent: Script | Module | null;
 }
 
 export function createImportDeclaration(

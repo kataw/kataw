@@ -1,6 +1,6 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
-import { RootNode } from '../root-node';
+import { Script } from '../script';
+import { Module } from '../module';
 import { Expression } from '../expressions';
 import { FunctionDeclaration } from '../declarations/function-declaration';
 import { ClassDeclaration } from '../declarations/class-declaration';
@@ -10,7 +10,7 @@ import { ClassDeclaration } from '../declarations/class-declaration';
 export interface ExportDefault extends Node {
   readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
   /* @internal */
-  readonly parent: RootNode | null;
+  readonly parent: Script | Module | null;
 }
 
 export function createExportDefault(

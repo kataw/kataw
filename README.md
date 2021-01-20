@@ -24,7 +24,7 @@ I use this AST in my private project that includes all the bullet point above.
 
 Strict mode should be enabled with the `|= NodeFlags.Strict` flag. All AST nodes will contain this mask.
 
-`Module goal` is also strict mode, but a `module` boolean property can be enabled on the `RootNode`.
+`Module goal` is also strict mode, but the `Module` and `ModuleBody` AST nodes should be used for parsing in module goal.
 
 ## Async and generators
 
@@ -44,7 +44,7 @@ For example `kind & NodeKind.IsExpression`, `kind & NodeKind.IsStatement`, `kind
 ## Comments
 
 Comments isn't a part of this AST. Start and end values exist on each AST node. That's all info you need too extract the comments from
-the source file on the `RootNode`.
+the source file on the `Script` and `Module` AST node.
 
 
 ## AnnexB

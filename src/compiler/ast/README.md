@@ -29,30 +29,54 @@ bitwise masks - allows you to group AST nodes very easily. For example
 
 The `start` and `end` are default properties representing the start and end values of each `AST node`.
 
-## RootNode
-
-`RootNode` represent both `Module` and `Script`.
-
-The `module` property should be set to `true` if parsing in [`module mode`](https://tc39.es/ecma262/#sec-modules) or `false` if parsing in
-[`script mode`](https://tc39.es/ecma262/#sec-scripts).
+## Script
 
 The current `flags` property keeps track of which context you are currently parsing in, and it's property contains a serie of
 bitwise masks that can be parsed by reference. This information isn't known from outside, or exposed through any API.
 
 ```js
-interface RootNode <: Node {
-    kind: NodeKind;
-    source: string;
-    filename: string;
-    statements: [ Statements ];
-    jsx: boolean;
-    module: boolean;
-    diagnostics: [ Diagnostics ];
-    parent: Node;
-    emitNode: Node;
-    detached: boolean;
-    incremental: boolean;
-    flags: NodeFlags;
-    transformFlags: TransformFlags;
+interface Script <: Node {
+ source: string;
+ filename: string;
+ scriptBody: ScriptBody;
+ jsx: boolean;
+ diagnostics: Diagnostic[];
+ incremental: boolean;
 }
 ```
+
+## Module
+
+The current `flags` property keeps track of which context you are currently parsing in, and it's property contains a serie of
+bitwise masks that can be parsed by reference. This information isn't known from outside, or exposed through any API.
+
+```js
+interface Module <: Node {
+ source: string;
+ filename: string;
+ scriptBody: ModuleBody;
+ jsx: boolean;
+ diagnostics: Diagnostic[];
+ incremental: boolean;
+}
+```
+
+## ScriptBody
+
+```js
+interface ScriptBody <: Node {
+ statements: Statement[];
+}
+```
+
+
+## ModuleBody
+
+```js
+interface ModuleBody <: Node {
+ statements: Statement[];
+}
+```
+
+
+

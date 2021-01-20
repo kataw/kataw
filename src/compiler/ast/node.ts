@@ -478,10 +478,12 @@ export const enum NodeKind {
   WithStatement = 236 | IsStatement,
   YieldExpression = 237 | IsExpression,
   BigIntLiteral = 238 | IsExpression | IsLeftHandSideExpression,
-
+  Script  = 239,
+  Module  = 240,
+  ModuleBody  = 241,
+  ScriptBody  = 242,
   // unique
-  UniqueIdentifier = 238 | IsIdentifier,
-
+  UniqueIdentifier = 243 | IsIdentifier,
   // internal
-  PrologueDirective  = 239
+  PrologueDirective = 244
 }

@@ -2,7 +2,8 @@ import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 
 import { StringLiteral } from '../expressions/string-literal';
 import { ExportSpecifier } from './export-specifier';
-import { RootNode } from '../root-node';
+import { Script } from '../script';
+import { Module } from '../module';
 import { Statement } from '../statements';
 import { AssignmentExpression } from '../expressions/assignment-expr';
 import { VariableStatement } from '../statements/variable-stmt';
@@ -26,7 +27,7 @@ export interface ExportDeclaration extends Node {
   readonly fromClause: StringLiteral | null;
   readonly exportFromClause: ExportFromClause | null;
   /* @internal */
-  readonly parent: RootNode | null;
+  readonly parent: Script | Module | null;
 }
 
 export function createExportDeclaration(

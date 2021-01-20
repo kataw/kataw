@@ -1,12 +1,13 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 
-import { RootNode } from '../root-node';
+import { Script } from '../script';
+import { Module } from '../module';
 import { Expression } from '../expressions';
 
 export interface ExportAssignment extends Node {
   readonly expression: Expression;
   /* @internal */
-  readonly parent: RootNode | null;
+  readonly parent: Script | Module | null;
 }
 
 export function createExportAssignment(
