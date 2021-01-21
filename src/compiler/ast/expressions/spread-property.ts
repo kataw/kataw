@@ -1,8 +1,6 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../../visitor/common';
-
 import { Expression } from '.';
-import { transformES2018 } from 'transform/transformers/es2018';
 
 // [MODIFIED]
 

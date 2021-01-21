@@ -31,7 +31,10 @@ export function createExportDefault(
   };
 }
 
-export function updateExportDefault(node: ExportDefault, declaration: FunctionDeclaration | ClassDeclaration | Expression): ExportDefault {
+export function updateExportDefault(
+  node: ExportDefault,
+  declaration: FunctionDeclaration | ClassDeclaration | Expression
+): ExportDefault {
   return node.declaration !== declaration
     ? updateNode(createExportDefault(declaration, node.flags, node.start, node.end), node)
     : node;

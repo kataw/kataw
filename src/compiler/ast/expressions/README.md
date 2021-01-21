@@ -987,4 +987,3 @@ interface OmittedExpression <: Expression {
 ```
 
 This node is for `Typescript`.
-

@@ -35,10 +35,18 @@ export function createImportClause(
   };
 }
 
-export function updateImportClause(node: ImportClause, defaultBinding: BindingIdentifier | null,
+export function updateImportClause(
+  node: ImportClause,
+  defaultBinding: BindingIdentifier | null,
   nameSpaceImport: BindingIdentifier | null,
-  namedImports: NamedImports | null): ImportClause {
-  return node.defaultBinding !== defaultBinding || node.nameSpaceImport !== nameSpaceImport || node.namedImports !== namedImports
-    ? updateNode(createImportClause(defaultBinding, nameSpaceImport, namedImports, node.flags, node.start, node.end), node)
+  namedImports: NamedImports | null
+): ImportClause {
+  return node.defaultBinding !== defaultBinding ||
+    node.nameSpaceImport !== nameSpaceImport ||
+    node.namedImports !== namedImports
+    ? updateNode(
+        createImportClause(defaultBinding, nameSpaceImport, namedImports, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }

@@ -34,9 +34,15 @@ export function createImportEqualsDeclaration(
   };
 }
 
-export function updateImportEqualsDeclaration(node: ImportEqualsDeclaration, name: IdentifierReference,
-  moduleReference: ExternalModuleReference | IdentifierReference | IdentifierName | QualifiedName): ImportEqualsDeclaration {
-  return node.name !== name  || node.moduleReference !== moduleReference
-    ? updateNode(createImportEqualsDeclaration(name, moduleReference, node.isTypeOnly, node.flags, node.start, node.end), node)
+export function updateImportEqualsDeclaration(
+  node: ImportEqualsDeclaration,
+  name: IdentifierReference,
+  moduleReference: ExternalModuleReference | IdentifierReference | IdentifierName | QualifiedName
+): ImportEqualsDeclaration {
+  return node.name !== name || node.moduleReference !== moduleReference
+    ? updateNode(
+        createImportEqualsDeclaration(name, moduleReference, node.isTypeOnly, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }

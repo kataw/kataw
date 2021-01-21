@@ -33,10 +33,13 @@ export function createImportSpecifier(
   };
 }
 
-export function updateImportSpecifier(node: ImportSpecifier, moduleExportName: StringLiteral | null,
+export function updateImportSpecifier(
+  node: ImportSpecifier,
+  moduleExportName: StringLiteral | null,
   name: IdentifierName | BindingIdentifier | null,
-  binding: IdentifierName | BindingIdentifier | null): ImportSpecifier {
-  return node.moduleExportName !== moduleExportName  || node.name !== name || node.binding !== binding
+  binding: IdentifierName | BindingIdentifier | null
+): ImportSpecifier {
+  return node.moduleExportName !== moduleExportName || node.name !== name || node.binding !== binding
     ? updateNode(createImportSpecifier(moduleExportName, name, binding, node.flags, node.start, node.end), node)
     : node;
 }

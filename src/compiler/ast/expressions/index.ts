@@ -56,7 +56,7 @@ import { FormalParameter } from './formal-parameter';
 import { FormalParameterList } from './formal-parameter-list';
 import { PropertyDefinitionList } from './property-definition-list';
 import { BindingElementList } from './binding-element-list';
-import { UniqueIdentifier } from './unique-identifier';
+import { UniqueIdentifier } from '../internal/unique-identifier';
 import { ElementAccessExpression } from './element-access-expr';
 import { PropertyAccessExpression } from './property-access-expr';
 

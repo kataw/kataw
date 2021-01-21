@@ -56,15 +56,28 @@ export function createExportDeclaration(
   };
 }
 
-export function updateExportDeclaration(node: ExportDeclaration, declaration: ExportDeclarations | null,
+export function updateExportDeclaration(
+  node: ExportDeclaration,
+  declaration: ExportDeclarations | null,
   namedExports: ExportSpecifier[],
   fromClause: StringLiteral | Expression,
-  exportFromClause: ExportFromClause | null): ExportDeclaration {
-  return node.declaration !== declaration || node.namedExports !== namedExports || node.fromClause !== fromClause || node.exportFromClause !== exportFromClause
-    ? updateNode(createExportDeclaration(
-      declaration,
-      namedExports,
-      fromClause,
-      exportFromClause,node.flags, node.start, node.end), node)
+  exportFromClause: ExportFromClause | null
+): ExportDeclaration {
+  return node.declaration !== declaration ||
+    node.namedExports !== namedExports ||
+    node.fromClause !== fromClause ||
+    node.exportFromClause !== exportFromClause
+    ? updateNode(
+        createExportDeclaration(
+          declaration,
+          namedExports,
+          fromClause,
+          exportFromClause,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
     : node;
 }

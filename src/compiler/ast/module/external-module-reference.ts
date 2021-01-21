@@ -25,7 +25,10 @@ export function createExternalModuleReference(
   };
 }
 
-export function updateExternalModuleReference(node: ExternalModuleReference, expression: Expression): ExternalModuleReference {
+export function updateExternalModuleReference(
+  node: ExternalModuleReference,
+  expression: Expression
+): ExternalModuleReference {
   return node.expression !== expression
     ? updateNode(createExternalModuleReference(expression, node.flags, node.start, node.end), node)
     : node;

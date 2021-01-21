@@ -7,7 +7,7 @@ import { Module } from '../module';
 import { updateNode } from '../../../visitor/common';
 
 export interface ImportDeclaration extends Node {
-  readonly fromClause: StringLiteral  | Expression;
+  readonly fromClause: StringLiteral | Expression;
   readonly moduleSpecifier: Expression | null;
   readonly importClause: ImportClause | null;
   /* @internal */
@@ -38,10 +38,18 @@ export function createImportDeclaration(
   };
 }
 
-export function updateImportDeclaration(node: ImportDeclaration, fromClause: StringLiteral | Expression,
+export function updateImportDeclaration(
+  node: ImportDeclaration,
+  fromClause: StringLiteral | Expression,
   moduleSpecifier: Expression | null,
-  importClause: ImportClause | null): ImportDeclaration {
-  return node.fromClause !== fromClause || node.moduleSpecifier !== moduleSpecifier || node.importClause !== importClause
-    ? updateNode(createImportDeclaration(fromClause, moduleSpecifier, importClause, node.flags, node.start, node.end), node)
+  importClause: ImportClause | null
+): ImportDeclaration {
+  return node.fromClause !== fromClause ||
+    node.moduleSpecifier !== moduleSpecifier ||
+    node.importClause !== importClause
+    ? updateNode(
+        createImportDeclaration(fromClause, moduleSpecifier, importClause, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }

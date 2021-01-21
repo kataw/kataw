@@ -47,6 +47,9 @@ export function updateTaggedTemplaten(
   template: TemplateTail | TemplateExpression
 ): TaggedTemplate {
   return node.member !== member || node.typeArguments !== typeArguments || node.template !== template
-    ? updateNode(createTaggedTemplate(member, typeArguments, template, node.optional, node.flags, node.start, node.end), node)
+    ? updateNode(
+        createTaggedTemplate(member, typeArguments, template, node.optional, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }

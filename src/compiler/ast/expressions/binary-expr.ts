@@ -2,7 +2,7 @@ import { Expression } from './';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../../visitor/common';
 
-import { UniqueIdentifier } from './unique-identifier';
+import { UniqueIdentifier } from '../internal/unique-identifier';
 
 // The set of syntax tokens which are valid binary expression operators
 export type BinaryOperator =

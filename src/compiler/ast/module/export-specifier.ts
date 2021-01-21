@@ -35,9 +35,12 @@ export function createExportSpecifier(
   };
 }
 
-export function updateExportSpecifier(node: ExportSpecifier, name: IdentifierName,
+export function updateExportSpecifier(
+  node: ExportSpecifier,
+  name: IdentifierName,
   binding: IdentifierName | null,
-  moduleExportName: StringLiteral | null): ExportSpecifier {
+  moduleExportName: StringLiteral | null
+): ExportSpecifier {
   return node.name !== name || node.binding !== binding || node.moduleExportName !== moduleExportName
     ? updateNode(createExportSpecifier(name, moduleExportName, binding, node.flags, node.start, node.end), node)
     : node;

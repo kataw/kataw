@@ -32,7 +32,11 @@ export function createExportFromClause(
   };
 }
 
-export function updateExportFromClause(node: ExportFromClause, moduleExportName: StringLiteral | null, namedBinding: IdentifierName | null): ExportFromClause {
+export function updateExportFromClause(
+  node: ExportFromClause,
+  moduleExportName: StringLiteral | null,
+  namedBinding: IdentifierName | null
+): ExportFromClause {
   return node.namedBinding !== namedBinding || node.moduleExportName !== moduleExportName
     ? updateNode(createExportFromClause(namedBinding, moduleExportName, node.flags, node.start, node.end), node)
     : node;

@@ -6,7 +6,12 @@ export interface ExportsList extends Node {
   readonly specifiers: ExportSpecifier[];
 }
 
-export function createExportsList(specifiers: ExportSpecifier[], flags: NodeFlags, start: number, end: number): ExportsList {
+export function createExportsList(
+  specifiers: ExportSpecifier[],
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ExportsList {
   return {
     kind: NodeKind.ExportsList,
     specifiers,
