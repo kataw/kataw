@@ -4,8 +4,7 @@ import { Module } from '../module';
 import { Expression } from '../expressions';
 import { FunctionDeclaration } from '../declarations/function-declaration';
 import { ClassDeclaration } from '../declarations/class-declaration';
-
-// [MODIFIED]
+import { updateNode } from '../../../visitor/common';
 
 export interface ExportDefault extends Node {
   readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
@@ -30,4 +29,10 @@ export function createExportDefault(
     start,
     end
   };
+}
+
+export function updateExportDefault(node: ExportDefault, declaration: FunctionDeclaration | ClassDeclaration | Expression): ExportDefault {
+  return node.declaration !== declaration
+    ? updateNode(createExportDefault(declaration, node.flags, node.start, node.end), node)
+    : node;
 }

@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
+import { updateNode } from '../../../visitor/common';
 import { Expression } from '../expressions';
 
 export interface ExternalModuleReference extends Node {
@@ -23,4 +23,10 @@ export function createExternalModuleReference(
     start,
     end
   };
+}
+
+export function updateExternalModuleReference(node: ExternalModuleReference, expression: Expression): ExternalModuleReference {
+  return node.expression !== expression
+    ? updateNode(createExternalModuleReference(expression, node.flags, node.start, node.end), node)
+    : node;
 }

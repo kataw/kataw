@@ -1,8 +1,8 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
 import { IdentifierName } from '../expressions/identifier-name';
 import { StringLiteral } from '../expressions/string-literal';
 import { ExportDeclaration } from './export-declaration';
+import { updateNode } from '../../../visitor/common';
 
 export interface ExportFromClause extends Node {
   readonly moduleExportName: StringLiteral | null;
@@ -30,4 +30,10 @@ export function createExportFromClause(
     start,
     end
   };
+}
+
+export function updateExportFromClause(node: ExportFromClause, moduleExportName: StringLiteral | null, namedBinding: IdentifierName | null): ExportFromClause {
+  return node.namedBinding !== namedBinding || node.moduleExportName !== moduleExportName
+    ? updateNode(createExportFromClause(namedBinding, moduleExportName, node.flags, node.start, node.end), node)
+    : node;
 }

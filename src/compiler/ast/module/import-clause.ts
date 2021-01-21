@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
+import { updateNode } from '../../../visitor/common';
 import { NamedImports } from './named-imports';
 import { BindingIdentifier } from '../expressions/binding-identifier';
 import { ImportDeclaration } from './import-declaration';
@@ -33,4 +33,12 @@ export function createImportClause(
     start,
     end
   };
+}
+
+export function updateImportClause(node: ImportClause, defaultBinding: BindingIdentifier | null,
+  nameSpaceImport: BindingIdentifier | null,
+  namedImports: NamedImports | null): ImportClause {
+  return node.defaultBinding !== defaultBinding || node.nameSpaceImport !== nameSpaceImport || node.namedImports !== namedImports
+    ? updateNode(createImportClause(defaultBinding, nameSpaceImport, namedImports, node.flags, node.start, node.end), node)
+    : node;
 }

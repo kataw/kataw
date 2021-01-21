@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
+import { updateNode } from '../../../visitor/common';
 import { ExportsList } from './exports-list';
 
 export interface NamedExports extends Node {
@@ -23,4 +23,10 @@ export function createNamedExports(
     start,
     end
   };
+}
+
+export function updateArgumentList(node: NamedExports, exportsList: ExportsList): NamedExports {
+  return node.exportsList !== exportsList
+    ? updateNode(createNamedExports(exportsList, node.flags, node.start, node.end), node)
+    : node;
 }

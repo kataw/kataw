@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
+import { updateNode } from '../../../visitor/common';
 import { IdentifierName } from '../expressions/identifier-name';
 import { BindingIdentifier } from '../expressions/binding-identifier';
 import { StringLiteral } from '../expressions/string-literal';
@@ -31,4 +31,12 @@ export function createImportSpecifier(
     start,
     end
   };
+}
+
+export function updateImportSpecifier(node: ImportSpecifier, moduleExportName: StringLiteral | null,
+  name: IdentifierName | BindingIdentifier | null,
+  binding: IdentifierName | BindingIdentifier | null): ImportSpecifier {
+  return node.moduleExportName !== moduleExportName  || node.name !== name || node.binding !== binding
+    ? updateNode(createImportSpecifier(moduleExportName, name, binding, node.flags, node.start, node.end), node)
+    : node;
 }

@@ -1,8 +1,8 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
 import { Script } from '../script';
 import { Module } from '../module';
 import { Expression } from '../expressions';
+import { updateNode } from '../../../visitor/common';
 
 export interface ExportAssignment extends Node {
   readonly expression: Expression;
@@ -27,4 +27,10 @@ export function createExportAssignment(
     start,
     end
   };
+}
+
+export function updateExportAssignment(node: ExportAssignment, expression: Expression): ExportAssignment {
+  return node.expression !== expression
+    ? updateNode(createExportAssignment(expression, node.flags, node.start, node.end), node)
+    : node;
 }

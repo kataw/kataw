@@ -1,8 +1,8 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
 import { IdentifierName } from '../expressions/identifier-name';
 import { StringLiteral } from '../expressions/string-literal';
 import { ImportDeclaration } from './import-declaration';
+import { updateNode } from '../../../visitor/common';
 
 export interface ExportSpecifier extends Node {
   readonly name: IdentifierName;
@@ -33,4 +33,12 @@ export function createExportSpecifier(
     start,
     end
   };
+}
+
+export function updateExportSpecifier(node: ExportSpecifier, name: IdentifierName,
+  binding: IdentifierName | null,
+  moduleExportName: StringLiteral | null): ExportSpecifier {
+  return node.name !== name || node.binding !== binding || node.moduleExportName !== moduleExportName
+    ? updateNode(createExportSpecifier(name, moduleExportName, binding, node.flags, node.start, node.end), node)
+    : node;
 }

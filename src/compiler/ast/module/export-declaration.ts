@@ -1,5 +1,4 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
 import { StringLiteral } from '../expressions/string-literal';
 import { ExportSpecifier } from './export-specifier';
 import { Script } from '../script';
@@ -11,6 +10,8 @@ import { LexicalDeclaration } from '../declarations/lexical-declaration';
 import { FunctionDeclaration } from '../declarations/function-declaration';
 import { ClassDeclaration } from '../declarations/class-declaration';
 import { ExportFromClause } from './export-from-clause';
+import { Expression } from '../expressions';
+import { updateNode } from '../../../visitor/common';
 
 /** Export declaration */
 export type ExportDeclarations =
@@ -24,7 +25,7 @@ export type ExportDeclarations =
 export interface ExportDeclaration extends Node {
   readonly declaration: ExportDeclarations | null;
   readonly namedExports: ExportSpecifier[];
-  readonly fromClause: StringLiteral | null;
+  readonly fromClause: StringLiteral | Expression;
   readonly exportFromClause: ExportFromClause | null;
   /* @internal */
   readonly parent: Script | Module | null;
@@ -33,7 +34,7 @@ export interface ExportDeclaration extends Node {
 export function createExportDeclaration(
   declaration: ExportDeclarations | null,
   namedExports: ExportSpecifier[],
-  fromClause: StringLiteral | null,
+  fromClause: StringLiteral | Expression,
   exportFromClause: ExportFromClause | null,
   flags: NodeFlags,
   start: number,
@@ -53,4 +54,17 @@ export function createExportDeclaration(
     start,
     end
   };
+}
+
+export function updateExportDeclaration(node: ExportDeclaration, declaration: ExportDeclarations | null,
+  namedExports: ExportSpecifier[],
+  fromClause: StringLiteral | Expression,
+  exportFromClause: ExportFromClause | null): ExportDeclaration {
+  return node.declaration !== declaration || node.namedExports !== namedExports || node.fromClause !== fromClause || node.exportFromClause !== exportFromClause
+    ? updateNode(createExportDeclaration(
+      declaration,
+      namedExports,
+      fromClause,
+      exportFromClause,node.flags, node.start, node.end), node)
+    : node;
 }

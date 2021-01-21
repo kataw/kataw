@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-
+import { updateNode } from '../../../visitor/common';
 import { ImportsList } from './imports-list';
 
 export interface NamedImports extends Node {
@@ -23,4 +23,10 @@ export function createNamedImports(
     start,
     end
   };
+}
+
+export function updateNamedImports(node: NamedImports, importsList: ImportsList): NamedImports {
+  return node.importsList !== importsList
+    ? updateNode(createNamedImports(importsList, node.flags, node.start, node.end), node)
+    : node;
 }
