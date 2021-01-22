@@ -157,7 +157,7 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.toJs(this.$input.val(), 'demo.js', { jsx: false});
+        result = kataw.emitScript(this.$input.val(), { jsx: false});
       } catch (e) {
         result = e.message || e;
       }

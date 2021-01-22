@@ -46,7 +46,7 @@
       'change #range': 'onRangeChange',
       'change #next': 'onNextChange',
       'change #cst': 'onCSTChange',
-      'change #incremental': 'incremental',     
+      'change #incremental': 'incremental',
       'change #raw': 'onRawChange',
       'change #loc': 'onLocChange',
       'change #jsx': 'onJsxChange',
@@ -78,8 +78,8 @@
       this.$attachComment = this.$el.find('#attachComment');
       this.$webCompat = this.$el.find('#webCompat');
       this.$lexical = this.$el.find('#lexical');
-      
-      
+
+
       EventBus.on('resize:window', this.onWindowResize);
       this.onWindowResize();
       this.onRangeChange();
@@ -157,7 +157,7 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.parse(this.$input.val(), 'ast.js', { jsx: true});
+        result = kataw.parseScript(this.$input.val(), { jsx: false});
         result = customStringify(result, null, '    ');
       } catch (e) {
         result = e.message || e;
@@ -222,7 +222,7 @@
       if (params.lexical === 'true') {
         this.lexical.prop('checked', true).change();
       }
-      
+
       if (params.jsx === 'true') {
         this.$jsx.prop('checked', true).change();
       }
