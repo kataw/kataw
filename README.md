@@ -160,7 +160,7 @@ The `parent` property on each node should be used to track the *parent node*. He
 ## Rationale
 This AST was designed for performance because there exist different Javascript tools, and they have many issues and one thing in common - performance issues.
 
-.  Acorn is the most commonly used tool out there because of its support for recent ES standards, but it's slow and it often is too permissive in what it accepts. It's also not optimized for handheld devices, and Acorn loose doesn't confirm to ECMA standards.
+- Acorn is the most commonly used tool out there because of its support for recent ES standards, but it's slow and it often is too permissive in what it accepts. It's also not optimized for handheld devices, and Acorn loose doesn't confirm to ECMA standards.
 
 - Babel. The slowest of them all. It's internal parser is slow and it's an fork of Acorn parser.
 
