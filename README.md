@@ -86,6 +86,86 @@ import { createIdentifierReference } from ''kataw;
 createIdentifierReference('foo', 'foo', /* NodeFlag */ NodeFlag.Strict, /* start */ 1, /* end */ 3);
 ```
 
+### Parent nodes
+
+The `parent` property on each node should be used to track the "parent node". Here is how this will look like
+
+```ts
+<ref *2> {
+  kind: 2097233,
+  expression: <ref *1> {
+    kind: 67592,
+    arrowParameters: {
+      kind: 65545,
+      typeParameters: 1,
+      elements: [],
+      type: null,
+      accessModifiers: 0,
+      trailingComma: false,
+      flags: 0,
+      intersects: false,
+      transformFlags: 0,
+      parent: null,
+      emitNode: null,
+      start: 0,
+      end: 2
+    },
+    isParenthesized: true,
+    contents: {
+      kind: 196710,
+      text: 'a',
+      rawText: 'a',
+      flags: 0,
+      intersects: false,
+      transformFlags: 0,
+      parent: [Circular *1],
+      emitNode: null,
+      start: 5,
+      end: 7
+    },
+    flags: 0,
+    intersects: false,
+    transformFlags: 0,
+    parent: [Circular *2],
+    emitNode: null,
+    start: 0,
+    end: 7
+  },
+  flags: 0,
+  intersects: false,
+  transformFlags: 0,
+  parent: <ref *3> {
+    kind: 242,
+    statements: [ [Circular *2] ],
+    transformFlags: 0,
+    flags: 0,
+    intersects: false,
+    parent: {
+      kind: 239,
+      source: '() => a',
+      filename: '',
+      scriptBody: [Circular *3],
+      jsx: false,
+      diagnostics: [],
+      parent: null,
+      emitNode: null,
+      incremental: false,
+      flags: 0,
+      intersects: false,
+      transformFlags: 0,
+      start: 0,
+      end: 7
+    },
+    emitNode: null,
+    start: 0,
+    end: 7
+  },
+  emitNode: null,
+  start: 0,
+  end: 7
+}
+```
+
 ## Contribution
 
 If you have ideas on how to improve this AST further - contribution is welcome.
