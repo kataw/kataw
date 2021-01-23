@@ -64,28 +64,11 @@ interface PrivateIdentifier <: Expression {
 
 ```js
 interface NumericLiteral <: Expression {
-  kind: NodeKind.NumericLiteral | NodeKind.FloatingPointLiteral;
+  kind: NodeKind.NumericLiteral;
   text: number;
   rawText: string;
-  hasSeparator: boolean;
 }
 ```
-
-`NumericLiteral` has additional `NodeKind`
-
-[`| NonDecimalIntegerLiteral`](https://tc39.es/ecma262/#prod-NonDecimalIntegerLiteral).
-
-`| NodeKind.FloatingPointLiteral`
-
-[`| OctalIntegerLiteral`](https://tc39.es/ecma262/#prod-OctalIntegerLiteral).
-
-[`| NodeKind.HexIntegerLiteral`](https://tc39.es/ecma262/#prod-HexIntegerLiteral).
-
-[`| NodeKind.BinaryIntegerLiteral`](https://tc39.es/ecma262/#prod-BinaryIntegerLiteral).
-
-`| NodeKind.ScientificLiteral`
-
-`| NodeKind.ImplicitOctal`
 
 ### BigIntLiteral
 
@@ -94,7 +77,6 @@ interface BigIntLiteral <: Expression {
   kind: NodeKind.BigIntLiteral;
   text: number | null;
   rawText: string;
-  hasSeparator: boolean;
 }
 ```
 
@@ -133,7 +115,6 @@ interface StringLiteral <: Expression {
   kind: NodeKind.StringLiteral;
   text: string;
   rawText: string;
-  singleQuote: boolean;
 }
 ```
 
