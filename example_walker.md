@@ -5,8 +5,8 @@ This is an short example on how to traverse the AST.
 ### Usage
 
 ```ts
-function visitor(node: any): any {
-   return forEachChild(node, visitor);
+function visitor(node: Node): void {
+   forEachChild(node, visitor);
 }
 
 forEachChild(parseScript('function *foo() { yield bar }'), visitor) });
@@ -18,7 +18,7 @@ forEachChild(parseScript('function *foo() { yield bar }'), visitor) });
 
 import { Node, NodeKind } from '../compiler/ast/node';
 
-export function forEachChild(node: any, visitor: (node: Node) => Node): any {
+export function forEachChild(node: Node, visitor: (node: Node) => Node) {
   const kind = node.kind;
 
   // Childless AST nodes - nodes without any children.
