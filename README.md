@@ -157,6 +157,29 @@ The `parent` property on each node should be used to track the *parent node*. He
 }
 ```
 
+## Rationale
+This AST was designed for performance because there exist different Javascript tools, and they have many issues and one thing in common - performance issues.
+
+.  Acorn is the most commonly used tool out there because of its support for recent ES standards, but it's slow and it often is too permissive in what it accepts. It's also not optimized for handheld devices, and Acorn loose doesn't confirm to ECMA standards.
+
+- Babel. The slowest of them all. It's internal parser is slow and it's an fork of Acorn parser.
+
+- Esprima is a little faster than Acorn, but it's almost never updated, and their test suite has too many invalid tests. It also doesn't support recent ES standards.
+
+- Rome. A wannabe toolchain that does it all. Linting, parsing, pretty printing etc. It's internals are forked from other project and "rewritten" to fit with the Rome project. Over all it's slow in almost everything it does.
+
+- Prettier. Slow. Can't print comments correctly among other issues.
+
+- Typescript. It's not a secret that it's TypeChecker is slow, and so is it's parser. 
+
+
+I figured I could try do better, so I started out creating and AST that could deliver insane performance, conform to the ECMA specs and contain a "hybrid" CST with enough info to get the job done . It should also include Typescript and JSX parsing because that's one of the most common used libraries this days.
+
+That's what this AST is about. I have also build a tool chain around this AST so I know it's fast. 
+
+Maybe one day my toolchain will be open sourced, but the time isn't there yet. Too much work for a single developer, but I managed to use this AST to develop something that Rome wannabe mixed with Babel and API design ideas from TypeSscript. It can perform parsing, transforming, linting, pretty printing and even more, but the time isn't there yet to open source it.
+
+
 ## Contribution
 
 If you have ideas on how to improve this AST further - contribution is welcome.
