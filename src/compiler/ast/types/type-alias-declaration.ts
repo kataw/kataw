@@ -11,7 +11,6 @@ export interface TypeAliasDeclaration extends Node {
   readonly name: IdentifierReference;
   readonly type: TypeNode;
   readonly typeParameters: TypeParameters;
-  readonly isDeclared: boolean;
   readonly isExported: boolean;
 }
 
@@ -19,7 +18,6 @@ export function createTypeAliasDeclaration(
   name: IdentifierReference,
   type: TypeNode,
   typeParameters: TypeParameters,
-  isDeclared: boolean,
   isExported: boolean,
   start: number,
   end: number
@@ -29,7 +27,6 @@ export function createTypeAliasDeclaration(
     name,
     type,
     typeParameters,
-    isDeclared,
     isExported,
     flags: NodeFlags.None,
     intersects: false,

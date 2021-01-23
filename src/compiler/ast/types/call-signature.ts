@@ -1,29 +1,29 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
-import { TypeNode } from './';
+import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
 
 /**
- * ConstructSignatureDeclaration
+ * CallSignature
  */
 
-export interface ConstructSignatureDeclaration extends Node {
-  readonly typeParameters: TypeParameters;
+export interface CallSignature extends Node {
   readonly accessModifiers: AccessModifiers;
+  readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
-export function createConstructSignatureDeclaration(
+export function createCallSignature(
   accessModifiers: AccessModifiers,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
   start: number,
   end: number
-): ConstructSignatureDeclaration {
+): CallSignature {
   return {
-    kind: NodeKind.ConstructSignatureDeclaration,
+    kind: NodeKind.CallSignature,
     accessModifiers,
     typeParameters,
     parameters,

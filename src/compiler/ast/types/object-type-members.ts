@@ -1,6 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { CallSignatureDeclaration } from './call-signature-declaration';
-import { ConstructSignatureDeclaration } from './construct-signature-declaration';
+import { CallSignature } from './call-signature';
+import { ConstructSignature } from './construct-signature';
 import { PropertySignature } from './property-signature';
 import { IndexSignature } from './index-signature';
 
@@ -8,7 +8,7 @@ import { IndexSignature } from './index-signature';
  * ObjectTypeMembers
  */
 
-export type TypeMembers = CallSignatureDeclaration | ConstructSignatureDeclaration | PropertySignature | IndexSignature;
+export type TypeMembers = CallSignature | ConstructSignature | PropertySignature | IndexSignature;
 
 export interface ObjectTypeMembers extends Node {
   readonly members: readonly TypeMembers[];

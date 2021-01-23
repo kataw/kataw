@@ -35,8 +35,8 @@ import { NumberKeyword } from './number-keyword';
 import { TrueType } from './true-type';
 import { FalseType } from './false-type';
 import { MinusType } from './minus-type';
-import { CallSignatureDeclaration } from './call-signature-declaration';
-import { ConstructSignatureDeclaration } from './construct-signature-declaration';
+import { CallSignature } from './call-signature';
+import { ConstructSignature } from './construct-signature';
 import { MethodSignature } from './method-signature';
 import { IndexSignature } from './index-signature';
 
@@ -51,8 +51,8 @@ export type TypeNode =
   | ArrayType
   | IndexSignature
   | IndexSignature
-  | CallSignatureDeclaration
-  | ConstructSignatureDeclaration
+  | CallSignature
+  | ConstructSignature
   | MethodSignature
   | BigIntKeyword
   | BooleanKeyword

@@ -4,26 +4,26 @@ import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
 
 /**
- * CallSignatureDeclaration
+ * ConstructSignature
  */
 
-export interface CallSignatureDeclaration extends Node {
-  readonly accessModifiers: AccessModifiers;
+export interface ConstructSignature extends Node {
   readonly typeParameters: TypeParameters;
+  readonly accessModifiers: AccessModifiers;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
-export function createCallSignatureDeclaration(
+export function createConstructSignature(
   accessModifiers: AccessModifiers,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
   start: number,
   end: number
-): CallSignatureDeclaration {
+): ConstructSignature {
   return {
-    kind: NodeKind.CallSignatureDeclaration,
+    kind: NodeKind.ConstructSignature,
     accessModifiers,
     typeParameters,
     parameters,

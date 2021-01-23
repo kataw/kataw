@@ -13,7 +13,6 @@ export interface InterfaceDeclaration extends Node {
   readonly typeParameters: TypeParameters;
   readonly heritageClauses: HeritageClauses | null;
   readonly objectTypeMembers: ObjectTypeMembers;
-  readonly isDeclared: boolean;
   readonly isExported: boolean;
 }
 
@@ -22,7 +21,6 @@ export function createInterfaceDeclaration(
   typeParameters: TypeParameters,
   heritageClauses: HeritageClauses | null,
   objectTypeMembers: ObjectTypeMembers,
-  isDeclared: boolean,
   isExported: boolean,
   start: number,
   end: number
@@ -33,7 +31,6 @@ export function createInterfaceDeclaration(
     typeParameters,
     heritageClauses,
     objectTypeMembers,
-    isDeclared,
     isExported,
     flags: NodeFlags.None,
     intersects: false,

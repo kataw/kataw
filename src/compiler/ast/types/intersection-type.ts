@@ -11,7 +11,7 @@ export interface IntersectionType extends Node {
 
 export function createIntersectionType(types: readonly TypeNode[], start: number, end: number): IntersectionType {
   return {
-    kind: NodeKind.IntersectionList,
+    kind: NodeKind.IntersectionType,
     types,
     flags: NodeFlags.None,
     intersects: false,

@@ -1,22 +1,25 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
 import { TypeNode } from '.';
 import { Parameters } from './parameters';
+import { TypeParameters } from './type-parameter-list';
 
 /**
  * IndexSignature
  */
 
 export interface IndexSignature extends Node {
+  readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
-  readonly type: TypeNode | null;
+  readonly returnType: TypeNode | null;
   readonly readonly: boolean;
   readonly accessModifiers: AccessModifiers;
 }
 
 export function createIndexSignature(
   accessModifiers: AccessModifiers,
+  typeParameters: TypeParameters,
   parameters: Parameters,
-  type: TypeNode | null,
+  returnType: TypeNode | null,
   readonly: boolean,
   start: number,
   end: number
@@ -24,8 +27,9 @@ export function createIndexSignature(
   return {
     kind: NodeKind.IndexSignature,
     accessModifiers,
+    typeParameters,
     parameters,
-    type,
+    returnType,
     readonly,
     flags: NodeFlags.None,
     intersects: false,

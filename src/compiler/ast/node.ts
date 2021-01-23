@@ -169,9 +169,14 @@ export const enum NodeFlags {
   EscapedKeywordOrIdentifier = 1 << 24,
 
   /**
+   * This node has been decalared (Typescript)
+   */
+  Declared = 1 << 25,
+
+  /**
    * This node is ambient
    */
-  Ambient = 1 << 25
+  Ambient = 1 << 26
 }
 
 export const enum TransformFlags {
@@ -216,6 +221,7 @@ export const enum UniqueIdentifierFlags {
 
 export const enum NodeKind {
   None = 0,
+  IsComments = 1 << 29,
   IsLeftHandSideExpression = 1 << 9,
   IsPropertyNameLiteral = 1 << 10,
   IsBlockScope = 1 << 11,
@@ -280,7 +286,7 @@ export const enum NodeKind {
   BreakStatement = 41 | IsStatement,
   CallChain = 42 | IsExpression,
   CallExpression = 43 | IsExpression | IsLeftHandSideExpression,
-  CallSignatureDeclaration = 44,
+  CallSignature = 44,
   CaseBlock = 45 | IsBlockScope,
   CaseClause = 46,
   Catch = 47 | IsBlockScope,
@@ -294,7 +300,7 @@ export const enum NodeKind {
   ComputedPropertyName = 55,
   ConditionalExpression = 56 | IsExpression,
   ConditionalType = 57,
-  ConstructSignatureDeclaration = 58,
+  ConstructSignature = 58,
   ConstructorType = 59,
   ContinueStatement = 60 | IsStatement,
   CoverInitializedName = 61,
@@ -353,7 +359,7 @@ export const enum NodeKind {
   IndexedAccessType = 113,
   InferType = 114,
   InterfaceDeclaration = 115,
-  IntersectionList = 116,
+  IntersectionType = 116,
   JsxAttribute = 117,
   JsxAttributesList = 118,
   JsxChildrenList = 119,
@@ -381,7 +387,7 @@ export const enum NodeKind {
   MethodDefinition = 141 | IsExpression | IsBlockScope | IsMethod,
   MethodSignature = 142,
   MinusType = 143,
-  MultiLine = 144,
+  MultiLine = 144 | IsComments,
   NamedExports = 145,
   NamedImports = 146,
   NamedTupleMember = 147,
@@ -431,7 +437,7 @@ export const enum NodeKind {
   SheBang = 187,
   ShorthandProperty = 188,
   SignatureMember = 189,
-  SingleLine = 190,
+  SingleLine = 190 | IsComments,
   SingleNameBinding = 191,
   SpreadElement = 192 | IsExpression,
   SpreadProperty = 193 | IsExpression,
@@ -478,10 +484,10 @@ export const enum NodeKind {
   WithStatement = 236 | IsStatement,
   YieldExpression = 237 | IsExpression,
   BigIntLiteral = 238 | IsExpression | IsLeftHandSideExpression,
-  Script  = 239,
-  Module  = 240,
-  ModuleBody  = 241,
-  ScriptBody  = 242,
+  Script = 239,
+  Module = 240,
+  ModuleBody = 241,
+  ScriptBody = 242,
   // unique
   UniqueIdentifier = 243 | IsIdentifier,
   // internal
