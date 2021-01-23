@@ -177,7 +177,7 @@ I figured I could try do better, so I started out creating and AST that could de
 
 That's what this AST is about. I have also build a tool chain around this AST so I know it's fast. 
 
-Maybe one day my toolchain will be open sourced, but the time isn't there yet. Too much work for a single developer, but I managed to use this AST to develop something that Rome wannabe mixed with Babel and API design ideas from TypeSscript. It can perform parsing, transforming, linting, pretty printing and even more, but the time isn't there yet to open source it.
+Maybe one day my toolchain will be open sourced, but the time isn't there yet. Too much work for a single developer, but I managed to use this AST to develop something that Rome wannabe mixed with Babel and API design ideas from TypeSscript. It can perform parsing, transforming, linting, pretty printing and even more, but the time isn't there yet to open source it, but it has an 40 - 60% performance improvement over other libraries thanks to this AST.
 
 
 ## Contribution
