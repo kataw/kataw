@@ -88,7 +88,7 @@ createIdentifierReference('foo', 'foo', /* NodeFlag */ NodeFlag.Strict, /* start
 
 ### Parent nodes
 
-The `parent` property on each node should be used to track the "parent node". Here is how this will look like
+The `parent` property on each node should be used to track the *parent node*. Here is how this could look like.
 
 ```ts
 <ref *2> {
