@@ -488,8 +488,10 @@ export const enum NodeKind {
   Module = 240,
   ModuleBody = 241,
   ScriptBody = 242,
+  Decorator = 243,
+
   // unique
-  UniqueIdentifier = 243 | IsIdentifier,
+  UniqueIdentifier = 244 | IsIdentifier,
   // internal
-  PrologueDirective = 244
+  PrologueDirective = 245
 }
