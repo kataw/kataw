@@ -9,7 +9,6 @@ import { TypeParameters } from './type-parameter-list';
  */
 
 export interface IndexSignature extends Node {
-  readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
   readonly readonly: boolean;
@@ -18,7 +17,6 @@ export interface IndexSignature extends Node {
 
 export function createIndexSignature(
   accessModifiers: AccessModifiers,
-  typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
   readonly: boolean,
@@ -29,7 +27,6 @@ export function createIndexSignature(
   return {
     kind: NodeKind.IndexSignature,
     accessModifiers,
-    typeParameters,
     parameters,
     returnType,
     readonly,
@@ -45,15 +42,13 @@ export function createIndexSignature(
 
 export function updateIndexSignature(
   node: IndexSignature,
-  typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null
 ): IndexSignature {
-  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+  return node.returnType !== returnType || node.parameters !== parameters
     ? updateNode(
         createIndexSignature(
           node.accessModifiers,
-          typeParameters,
           parameters,
           returnType,
           node.readonly,

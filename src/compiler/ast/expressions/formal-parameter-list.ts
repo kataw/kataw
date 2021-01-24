@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { FormalParameter } from './formal-parameter';
 
@@ -31,12 +31,10 @@ export function createFormalParameterList(
 
 export function updateFormalParameterList(
   node: FormalParameterList,
-  formalParameterList: FormalParameter[]
+  formalParameterList: FormalParameter[],
+  trailingComma: boolean
 ): FormalParameterList {
-  return node.formalParameterList !== formalParameterList
-    ? updateNode(
-        createFormalParameterList(formalParameterList, node.trailingComma, node.flags, node.start, node.end),
-        node
-      )
+  return node.formalParameterList !== formalParameterList || node.trailingComma !== trailingComma
+    ? updateNode(createFormalParameterList(formalParameterList, trailingComma, node.flags, node.start, node.end), node)
     : node;
 }

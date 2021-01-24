@@ -2,7 +2,7 @@ import { Expression } from '.';
 import { IdentifierName } from './identifier-name';
 import { CallChain } from './call-chain';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { PropertyAccessChain } from './property-access-chain';
 

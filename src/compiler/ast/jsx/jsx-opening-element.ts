@@ -4,6 +4,8 @@ import { JsxNamespacedName } from './jsx-namespaced-name';
 import { JsxTagNamePropertyAccess } from './jsx-tag-name-property-access';
 import { ThisExpression } from '../expressions/this-expr';
 import { JsxAttributesList } from './jsx-attribute-list';
+import { updateNode } from '../../utils';
+import { TypeArguments } from '../types/type-arguments';
 
 /**
  * Jsx opening element
@@ -12,13 +14,14 @@ import { JsxAttributesList } from './jsx-attribute-list';
 export interface JsxOpeningElement extends Node {
   readonly tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess;
   readonly attributes: JsxAttributesList;
-  readonly typeParameters: any;
+  readonly typeArguments: TypeArguments;
 }
 
 export function createJsxOpeningElement(
   tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
   attributes: JsxAttributesList,
-  typeParameters: any,
+  typeArguments: TypeArguments,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxOpeningElement {
@@ -26,8 +29,8 @@ export function createJsxOpeningElement(
     kind: NodeKind.JsxOpeningElement,
     tagName,
     attributes,
-    typeParameters,
-    flags: NodeFlags.None,
+    typeArguments,
+    flags,
     intersects: false,
     transformFlags: tagName.transformFlags | attributes.transformFlags,
     parent: null,
@@ -35,4 +38,14 @@ export function createJsxOpeningElement(
     start,
     end
   };
+}
+export function updateJsxOpeningElement(
+  node: JsxOpeningElement,
+  tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
+  attributes: JsxAttributesList,
+  typeArguments: TypeArguments
+): JsxOpeningElement {
+  return node.tagName !== tagName || node.typeArguments !== typeArguments || node.attributes !== attributes
+    ? updateNode(createJsxOpeningElement(tagName, attributes, typeArguments, node.flags, node.start, node.end), node)
+    : node;
 }

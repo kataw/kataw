@@ -1,6 +1,6 @@
 import { LeftHandSideExpression } from '.';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 // The set of syntax tokens which are valid unary expression operators
 export type UnaryOperator = '+' | '-' | '!' | '~' | 'delete' | 'void' | 'typeof';

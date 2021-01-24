@@ -2,14 +2,14 @@ import { BindingIdentifier } from './binding-identifier';
 import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
-import { updateNode } from '../../../visitor/common';
-
+import { updateNode } from '../../utils';
+import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
 
 export type ArrowFormals = BindingIdentifier | ArrayBindingPattern | ObjectBindingPattern;
 
 export interface ArrowParameters extends Node {
-  readonly typeParameters: any;
+  readonly typeParameters: TypeParameters;
   readonly elements: readonly ArrowFormals[];
   readonly type: TypeNode | null;
   readonly accessModifiers: AccessModifiers;
@@ -17,7 +17,7 @@ export interface ArrowParameters extends Node {
 }
 
 export function createArrowParameters(
-  typeParameters: any,
+  typeParameters: TypeParameters,
   elements: readonly ArrowFormals[],
   type: TypeNode | null,
   accessModifiers: AccessModifiers,

@@ -2,7 +2,7 @@ import { BindingIdentifier } from './binding-identifier';
 import { FunctionBody } from './function-body';
 import { FormalParameterList } from './formal-parameter-list';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
@@ -72,9 +72,15 @@ export function updateFunctionExpression(
   isGenerator: number,
   isAsync: number,
   formalParameters: FormalParameterList,
-  contents: FunctionBody
+  contents: FunctionBody,
+  typeParameters: TypeParameters,
+  type: TypeNode | null
 ): FunctionExpression {
-  return node.name !== name || node.formalParameters !== formalParameters || node.contents !== contents
+  return node.name !== name ||
+    node.formalParameters !== formalParameters ||
+    node.contents !== contents ||
+    node.typeParameters !== typeParameters ||
+    node.type !== type
     ? updateNode(
         createFunctionExpression(
           name,
@@ -82,8 +88,8 @@ export function updateFunctionExpression(
           isAsync,
           formalParameters,
           contents,
-          node.typeParameters,
-          node.type,
+          typeParameters,
+          type,
           node.flags,
           node.start,
           node.end

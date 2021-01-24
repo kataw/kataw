@@ -44,9 +44,13 @@ export function updateTypeAliasDeclaration(
   node: TypeAliasDeclaration,
   name: IdentifierReference,
   type: TypeNode,
-  typeParameters: TypeParameters
+  typeParameters: TypeParameters,
+  isExported: boolean
 ): TypeAliasDeclaration {
-  return node.name !== name || node.type !== type || node.typeParameters !== typeParameters
+  return node.name !== name ||
+    node.type !== type ||
+    node.typeParameters !== typeParameters ||
+    node.isExported !== isExported
     ? updateNode(
         createTypeAliasDeclaration(name, type, typeParameters, node.isExported, node.flags, node.start, node.end),
         node

@@ -41,10 +41,12 @@ export function createNamedTupleMember(
 
 export function updateNamedTupleMember(
   node: NamedTupleMember,
+  ellipsis: boolean,
   name: IdentifierReference,
+  optional: boolean,
   type: TypeNode
 ): NamedTupleMember {
-  return node.name !== name || node.type !== type
+  return node.ellipsis !== ellipsis || node.type !== type || node.optional !== optional
     ? updateNode(
         createNamedTupleMember(node.ellipsis, name, node.optional, type, node.flags, node.start, node.end),
         node

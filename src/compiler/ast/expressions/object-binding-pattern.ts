@@ -3,7 +3,7 @@ import { VariableDeclaration } from '../declarations/variable-declaration';
 import { Parameter } from '.';
 import { BindingPropertyList } from './binding-property-list';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { ParameterDeclaration } from '../types/parameter-declaration';
 

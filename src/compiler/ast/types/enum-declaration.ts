@@ -38,9 +38,10 @@ export function createEnumDeclaration(
 export function updateEnumDeclaration(
   node: EnumDeclaration,
   name: IdentifierReference,
-  members: EnumMembersList
+  members: EnumMembersList,
+  isConst: boolean
 ): EnumDeclaration {
   return node.name !== name || node.members !== members
-    ? updateNode(createEnumDeclaration(name, members, node.isConst, node.flags, node.start, node.end), node)
+    ? updateNode(createEnumDeclaration(name, members, isConst, node.flags, node.start, node.end), node)
     : node;
 }

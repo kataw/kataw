@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { ObjectLiteral } from './object-literal';
 import { ObjectBindingPattern } from './object-binding-pattern';
 import { ClassDeclaration } from './../declarations/class-declaration';

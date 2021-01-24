@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { LeftHandSideExpression } from '.';
 import { TemplateExpression } from './template-expression';
 import { TemplateTail } from './template-tail';

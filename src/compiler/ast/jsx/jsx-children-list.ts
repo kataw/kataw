@@ -4,6 +4,7 @@ import { JsxMemberExpression } from './jsx-member-expression';
 import { JsxElement } from './jsx-element';
 import { JsxSelfClosingElement } from './jsx-self-closing-element';
 import { JsxFragment } from './jsx-fragment';
+import { updateNode } from '../../utils';
 
 /**
  * Jsx children list
@@ -12,14 +13,19 @@ import { JsxFragment } from './jsx-fragment';
 export type JsxChild = JsxText | JsxMemberExpression | JsxElement | JsxSelfClosingElement | JsxFragment;
 
 export interface JsxChildrenList extends Node {
-  readonly children: JsxChild[] | any;
+  readonly children: JsxChild[];
 }
 
-export function createJsxChildrenList(children: JsxChild[] | any, start: number, end: number): JsxChildrenList {
+export function createJsxChildrenList(
+  children: JsxChild[],
+  flags: NodeFlags,
+  start: number,
+  end: number
+): JsxChildrenList {
   return {
     kind: NodeKind.JsxChildrenList,
     children,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,
@@ -27,4 +33,9 @@ export function createJsxChildrenList(children: JsxChild[] | any, start: number,
     start,
     end
   };
+}
+export function updateJsxChildrenList(node: JsxChildrenList, children: JsxChild[] | any): JsxChildrenList {
+  return node.children !== children
+    ? updateNode(createJsxChildrenList(children, node.flags, node.start, node.end), node)
+    : node;
 }

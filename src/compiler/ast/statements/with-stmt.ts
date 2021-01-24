@@ -1,6 +1,6 @@
 import { BlockStatement } from './block-stmt';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
 

@@ -39,10 +39,11 @@ export function createTypePredicate(
 
 export function updateTypePredicate(
   node: TypePredicate,
+  asserts: boolean,
   parameterName: IdentifierReference | ThisType,
   type: TypeNode | null
 ): TypePredicate {
-  return node.parameterName !== parameterName || node.type !== type
-    ? updateNode(createTypePredicate(node.asserts, parameterName, type, node.flags, node.start, node.end), node)
+  return node.asserts !== asserts || node.parameterName !== parameterName || node.type !== type
+    ? updateNode(createTypePredicate(asserts, parameterName, type, node.flags, node.start, node.end), node)
     : node;
 }

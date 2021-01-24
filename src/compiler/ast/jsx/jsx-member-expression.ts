@@ -1,5 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { Expression } from '../expressions/index';
+import { updateNode } from '../../utils';
 
 /**
  * JsxMemberExpression
@@ -13,6 +14,7 @@ export interface JsxMemberExpression extends Node {
 export function createJsxMemberExpression(
   ellipsis: boolean,
   expression: Expression | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxMemberExpression {
@@ -20,7 +22,7 @@ export function createJsxMemberExpression(
     kind: NodeKind.JsxMemberExpression,
     ellipsis,
     expression,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,
@@ -28,4 +30,12 @@ export function createJsxMemberExpression(
     start,
     end
   };
+}
+export function updateJsxMemberExpression(
+  node: JsxMemberExpression,
+  expression: Expression | null
+): JsxMemberExpression {
+  return node.expression !== expression
+    ? updateNode(createJsxMemberExpression(node.ellipsis, expression, node.flags, node.start, node.end), node)
+    : node;
 }

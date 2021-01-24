@@ -34,8 +34,8 @@ export function createTypeOperator(
   };
 }
 
-export function updateTypeOperator(node: TypeOperator, type: TypeNode | null): TypeOperator {
-  return node.type !== type
+export function updateTypeOperator(node: TypeOperator, operator: TypeOperators, type: TypeNode | null): TypeOperator {
+  return node.operator !== operator || node.type !== type
     ? updateNode(createTypeOperator(node.operator, type, node.flags, node.start, node.end), node)
     : node;
 }

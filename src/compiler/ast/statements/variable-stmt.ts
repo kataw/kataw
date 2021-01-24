@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { VariableDeclarationList } from '../declarations/variable-declarationList';
 
 /**
@@ -7,12 +7,10 @@ import { VariableDeclarationList } from '../declarations/variable-declarationLis
  */
 export interface VariableStatement extends Node {
   readonly declarationList: VariableDeclarationList;
-  readonly isDeclared: boolean;
 }
 
 export function createVariableStatement(
   declarationList: VariableDeclarationList,
-  isDeclared: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -20,10 +18,9 @@ export function createVariableStatement(
   return {
     kind: NodeKind.VariableStatement,
     declarationList,
-    isDeclared,
     flags,
     intersects: false,
-    transformFlags: isDeclared ? TransformFlags.TypeScript : TransformFlags.None,
+    transformFlags: TransformFlags.None,
     parent: null,
     emitNode: null,
     start,
@@ -36,6 +33,6 @@ export function updateVariableStatement(
   declarationList: VariableDeclarationList
 ): VariableStatement {
   return node.declarationList !== declarationList
-    ? updateNode(createVariableStatement(declarationList, node.isDeclared, node.flags, node.start, node.end), node)
+    ? updateNode(createVariableStatement(declarationList, node.flags, node.start, node.end), node)
     : node;
 }

@@ -6,6 +6,7 @@ import { StringLiteral } from '../expressions/string-literal';
 import { JsxFragment } from './jsx-fragment';
 import { JsxElement } from './jsx-element';
 import { JsxSelfClosingElement } from './jsx-self-closing-element';
+import { updateNode } from '../../utils';
 
 /**
  * Jsx attribute
@@ -19,6 +20,7 @@ export interface JsxAttribute extends Node {
 export function createJsxAttribute(
   name: JsxIdentifier | JsxNamespacedName,
   initializer: StringLiteral | JsxMemberExpression | JsxFragment | JsxElement | JsxSelfClosingElement | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxAttribute {
@@ -26,12 +28,22 @@ export function createJsxAttribute(
     kind: NodeKind.JsxAttribute,
     name,
     initializer,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
-    transformFlags: name.transformFlags | TransformFlags.Jsx,
+    transformFlags:
+      name.transformFlags | (initializer ? initializer.transformFlags : NodeFlags.None) | TransformFlags.Jsx,
     parent: null,
     emitNode: null,
     start,
     end
   };
+}
+export function updateJsxAttribute(
+  node: JsxAttribute,
+  name: JsxIdentifier | JsxNamespacedName,
+  initializer: StringLiteral | JsxMemberExpression | JsxFragment | JsxElement | JsxSelfClosingElement | null
+): JsxAttribute {
+  return node.name !== name || node.initializer !== initializer
+    ? updateNode(createJsxAttribute(name, initializer, node.flags, node.start, node.end), node)
+    : node;
 }

@@ -64,7 +64,7 @@ interface PrivateIdentifier <: Expression {
 
 ```js
 interface NumericLiteral <: Expression {
-  kind: NodeKind.NumericLiteral;
+  kind: NodeKind.NumericLiteral | NodeKind.FloatingPointLiteral;
   text: number;
   rawText: string;
 }

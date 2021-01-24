@@ -1,6 +1,6 @@
 import { Expression } from '.';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { OptionalExpression } from './optional-expr';
 

@@ -1,7 +1,7 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 
 import { Expression } from '../expressions/index';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * An expression statement.

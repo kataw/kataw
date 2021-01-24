@@ -1,6 +1,6 @@
 import { Expression } from '.';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * Yield expression.
@@ -31,8 +31,12 @@ export function createYieldExpression(
   };
 }
 
-export function updateYieldExpression(node: YieldExpression, expression: Expression | null): YieldExpression {
-  return node.expression !== expression
-    ? updateNode(createYieldExpression(node.delegate, expression, node.flags, node.start, node.end), node)
+export function updateYieldExpression(
+  node: YieldExpression,
+  delegate: boolean,
+  expression: Expression | null
+): YieldExpression {
+  return node.delegate !== delegate || node.expression !== expression
+    ? updateNode(createYieldExpression(delegate, expression, node.flags, node.start, node.end), node)
     : node;
 }

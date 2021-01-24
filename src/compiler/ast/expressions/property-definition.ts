@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { Expression } from '.';
 import { AssignmentExpression } from './assignment-expr';
 import { BindingElement } from './binding-element';

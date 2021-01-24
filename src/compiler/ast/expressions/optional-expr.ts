@@ -1,7 +1,7 @@
 import { OptionalChain } from './optional-chain';
 import { Expression } from '.';
 import { Node, NodeKind, NodeFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * Optional expression.

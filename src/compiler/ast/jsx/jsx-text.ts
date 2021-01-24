@@ -1,5 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { JsxElement } from './jsx-element';
+import { updateNode } from '../../utils';
 
 /**
  * Jsx Text
@@ -10,11 +11,11 @@ export interface JsxText extends Node {
   readonly parent: JsxElement | null;
 }
 
-export function createJsxText(text: string, start: number, end: number): JsxText {
+export function createJsxText(text: string, flags: NodeFlags, start: number, end: number): JsxText {
   return {
     kind: NodeKind.JsxText,
     text,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,
@@ -22,4 +23,7 @@ export function createJsxText(text: string, start: number, end: number): JsxText
     start,
     end
   };
+}
+export function updateJsxText(node: JsxText, text: string): JsxText {
+  return node.text !== text ? updateNode(createJsxText(text, node.flags, node.start, node.end), node) : node;
 }

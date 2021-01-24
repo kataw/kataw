@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { ClassElement } from '../expressions/class-element';
 import { FieldDefinition } from '../expressions/field-definition';

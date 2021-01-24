@@ -3,7 +3,7 @@ import { IdentifierReference } from './identifier-reference';
 import { MethodDefinition } from './method-definition';
 import { SpreadProperty } from './spread-property';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { PropertyDefinitionList } from './property-definition-list';
 /**
@@ -12,11 +12,7 @@ import { PropertyDefinitionList } from './property-definition-list';
  * https://tc39.es/ecma262/#prod-PropertyDefinition
  */
 
-export type Properties =
-  | IdentifierReference
-  | CoverInitializedName // *recovery mode*
-  | MethodDefinition
-  | SpreadProperty; // [MODIFIED]
+export type Properties = IdentifierReference | CoverInitializedName | MethodDefinition | SpreadProperty; // [MODIFIED]
 
 export interface ObjectLiteral extends Node {
   readonly propertyDefinitionList: PropertyDefinitionList;

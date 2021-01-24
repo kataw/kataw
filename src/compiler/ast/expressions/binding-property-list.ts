@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { BindingProperty } from './binding-property';
 import { BindingElement } from './binding-element';
@@ -41,11 +41,13 @@ export function createBindingPropertyList(
 
 export function updateBindingPropertyList(
   node: BindingPropertyList,
-  properties: BindingProperties[]
+  properties: BindingProperties[],
+  multiline: boolean,
+  trailingComma: boolean
 ): BindingPropertyList {
-  return node.properties !== properties
+  return node.properties !== properties || node.multiline !== multiline || node.trailingComma !== trailingComma
     ? updateNode(
-        createBindingPropertyList(properties, node.multiline, node.trailingComma, node.flags, node.start, node.end),
+        createBindingPropertyList(properties, multiline, trailingComma, node.flags, node.start, node.end),
         node
       )
     : node;

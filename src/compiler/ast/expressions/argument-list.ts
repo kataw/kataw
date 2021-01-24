@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { AssignmentRestElement } from './assignment-rest-element';
 import { AssignmentExpression } from './assignment-expr';

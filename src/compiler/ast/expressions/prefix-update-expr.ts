@@ -1,6 +1,6 @@
 import { LeftHandSideExpression } from '.';
 import { Node, NodeKind, NodeFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 // https://tc39.github.io/ecma262/#prod-UpdateExpression
 

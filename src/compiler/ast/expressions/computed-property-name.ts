@@ -1,7 +1,7 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 
 import { Expression } from '.';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 export interface ComputedPropertyName extends Node {
   readonly expression: Expression;

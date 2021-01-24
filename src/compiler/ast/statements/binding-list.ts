@@ -1,5 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { LexicalBinding } from './lexical-binding';
 

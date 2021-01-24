@@ -9,10 +9,10 @@ export interface JsxOpeningFragment extends Node {
   readonly parent: JsxFragment | null;
 }
 
-export function createJsxOpeningFragment(start: number, end: number): JsxOpeningFragment {
+export function createJsxOpeningFragment(flags: NodeFlags, start: number, end: number): JsxOpeningFragment {
   return {
     kind: NodeKind.JsxOpeningFragment,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,

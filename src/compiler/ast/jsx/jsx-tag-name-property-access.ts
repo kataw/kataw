@@ -2,6 +2,7 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { Expression } from '../expressions';
 import { ThisExpression } from '../expressions/this-expr';
 import { JsxIdentifier } from './jsx-identifier';
+import { updateNode } from '../../utils';
 
 /**
  * JsxTagNamePropertyAccess
@@ -15,6 +16,7 @@ export interface JsxTagNamePropertyAccess extends Node {
 export function createJsxTagNamePropertyAccess(
   member: Expression,
   expression: Expression | JsxIdentifier | ThisExpression,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxTagNamePropertyAccess {
@@ -22,12 +24,24 @@ export function createJsxTagNamePropertyAccess(
     kind: NodeKind.JsxTagNamePropertyAccess,
     member,
     expression,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
-    transformFlags: expression.transformFlags | TransformFlags.Jsx,
+    transformFlags:
+      expression.transformFlags |
+      (member.kind === NodeKind.IdentifierName ? member.transformFlags : NodeFlags.None) |
+      TransformFlags.Jsx,
     parent: null,
     emitNode: null,
     start,
     end
   };
+}
+export function updateJsxTagNamePropertyAccess(
+  node: JsxTagNamePropertyAccess,
+  member: Expression,
+  expression: Expression | JsxIdentifier | ThisExpression
+): JsxTagNamePropertyAccess {
+  return node.member !== member || node.expression !== expression
+    ? updateNode(createJsxTagNamePropertyAccess(member, expression, node.flags, node.start, node.end), node)
+    : node;
 }

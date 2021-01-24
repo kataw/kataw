@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { Expression, Binding } from '../expressions';
 import { TypeNode } from '../types';
 /**
@@ -41,13 +41,14 @@ export function createLexicalBinding(
 export function updateLexicalBinding(
   node: LexicalBinding,
   binding: Binding,
+  exclamation: boolean,
   type: TypeNode | null,
   initializer: Expression | null
 ): LexicalBinding {
-  return node.binding !== binding || node.type !== type || node.initializer !== initializer
-    ? updateNode(
-        createLexicalBinding(binding, node.exclamation, type, initializer, node.flags, node.start, node.end),
-        node
-      )
+  return node.binding !== binding ||
+    node.exclamation !== exclamation ||
+    node.type !== type ||
+    node.initializer !== initializer
+    ? updateNode(createLexicalBinding(binding, exclamation, type, initializer, node.flags, node.start, node.end), node)
     : node;
 }

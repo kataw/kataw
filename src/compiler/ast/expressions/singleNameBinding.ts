@@ -1,6 +1,6 @@
 import { AssignmentExpression } from './assignment-expr';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { BindingIdentifier } from './binding-identifier';
 /**
  * SingleNameBinding
@@ -35,11 +35,12 @@ export function createSingleNameBinding(
 }
 
 export function updateSingleNameBinding(
+  ellipsis: boolean,
   node: SingleNameBinding,
   binding: BindingIdentifier,
   initializer: AssignmentExpression | null
 ): SingleNameBinding {
-  return node.binding !== binding || node.binding !== binding
-    ? updateNode(createSingleNameBinding(node.ellipsis, binding, initializer, node.flags, node.start, node.end), node)
+  return node.ellipsis !== ellipsis || node.binding !== binding || node.binding !== binding
+    ? updateNode(createSingleNameBinding(ellipsis, binding, initializer, node.flags, node.start, node.end), node)
     : node;
 }

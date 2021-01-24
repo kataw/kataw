@@ -1,6 +1,6 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { ElementList } from './element-list';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * An IdentifierReference expression.

@@ -50,16 +50,22 @@ export function createParameterDeclaration(
 
 export function updateParameterDeclaration(
   node: ParameterDeclaration,
+  ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
+  optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null
 ): ParameterDeclaration {
-  return node.binding !== binding || node.type !== type || node.initializer !== initializer
+  return node.ellipsis !== ellipsis ||
+    node.binding !== binding ||
+    node.optional !== optional ||
+    node.type !== type ||
+    node.initializer !== initializer
     ? updateNode(
         createParameterDeclaration(
-          node.ellipsis,
+          ellipsis,
           binding,
-          node.optional,
+          optional,
           type,
           initializer,
           node.accessModifiers,

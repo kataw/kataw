@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
-
+import { updateNode } from '../../utils';
 import { BindingElement } from './binding-element';
 import { SingleNameBinding } from './singleNameBinding';
 import { IdentifierName } from './identifier-name';
@@ -51,11 +50,12 @@ export function createBindingProperty(
 }
 
 export function updateBindingProperty(
+  ellipsis: boolean,
   node: BindingProperty,
   key: PropertyKey,
   value: BindingElement | SingleNameBinding
 ): BindingProperty {
-  return node.key !== key || node.value !== value
-    ? updateNode(createBindingProperty(node.ellipsis, key, value, node.flags, node.start, node.end), node)
+  return node.ellipsis !== ellipsis || node.key !== key || node.value !== value
+    ? updateNode(createBindingProperty(ellipsis, key, value, node.flags, node.start, node.end), node)
     : node;
 }

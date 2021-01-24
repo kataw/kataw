@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { CallChain } from './call-chain';
 import { ElementAccessChain } from './element-access-chain';
 import { PropertyAccessChain } from './property-access-chain';

@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { AssignmentExpression } from './assignment-expr';
 import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
@@ -52,17 +52,23 @@ export function createFormalParameter(
 }
 
 export function updateFormalParameter(
+  ellipsis: boolean,
   node: FormalParameter,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
+  optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null
 ): FormalParameter {
-  return node.binding !== binding || node.initializer !== initializer || node.type !== type
+  return node.binding !== binding ||
+    node.ellipsis !== ellipsis ||
+    node.optional !== optional ||
+    node.initializer !== initializer ||
+    node.type !== type
     ? updateNode(
         createFormalParameter(
-          node.ellipsis,
+          ellipsis,
           binding,
-          node.optional,
+          optional,
           type,
           initializer,
           node.accessModifiers,

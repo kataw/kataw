@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
-
+import { updateNode } from '../../utils';
 import { Statement } from '../statements';
 
 export interface FunctionStatementList extends Node {
@@ -31,9 +30,10 @@ export function createFunctionStatementList(
 
 export function updateFunctionStatementList(
   node: FunctionStatementList,
-  statements: Statement[]
+  statements: Statement[],
+  multiline: boolean
 ): FunctionStatementList {
-  return node.statements !== statements
-    ? updateNode(createFunctionStatementList(statements, node.multiline, node.flags, node.start, node.end), node)
+  return node.statements !== statements || node.multiline !== multiline
+    ? updateNode(createFunctionStatementList(statements, multiline, node.flags, node.start, node.end), node)
     : node;
 }

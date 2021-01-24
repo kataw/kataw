@@ -48,17 +48,23 @@ export function createPropertySignature(
 export function updatePropertySignature(
   node: PropertySignature,
   name: PropertyName,
+  optional: boolean,
   type: TypeNode | null,
+  readonly: boolean,
   initializer: Expression | null
 ): PropertySignature {
-  return node.name !== name || node.type !== type || node.initializer !== initializer
+  return node.name !== name ||
+    node.optional !== optional ||
+    node.type !== type ||
+    node.readonly !== readonly ||
+    node.initializer !== initializer
     ? updateNode(
         createPropertySignature(
           name,
-          node.optional,
+          optional,
           node.accessModifiers,
           type,
-          node.readonly,
+          readonly,
           initializer,
           node.flags,
           node.start,

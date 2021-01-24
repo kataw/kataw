@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { PrivateIdentifier } from './private-identifier';
 import { Expression } from './';
@@ -53,19 +53,27 @@ export function createFieldDefinition(
 export function updateFieldDefinition(
   node: FieldDefinition,
   key: Expression | PrivateIdentifier,
+  optional: boolean,
+  exclamation: boolean,
   type: TypeNode | null,
-  initializer: AssignmentExpression | null
+  initializer: AssignmentExpression | null,
+  isStatic: boolean
 ): FieldDefinition {
-  return node.key !== key || node.type !== type
+  return node.key !== key ||
+    node.optional !== optional ||
+    node.exclamation !== exclamation ||
+    node.type !== type ||
+    node.initializer !== initializer ||
+    node.isStatic !== isStatic
     ? updateNode(
         createFieldDefinition(
           key,
-          node.optional,
-          node.exclamation,
+          optional,
+          exclamation,
           type,
           initializer,
           node.accessModifiers,
-          node.isStatic,
+          isStatic,
           node.flags,
           node.start,
           node.end

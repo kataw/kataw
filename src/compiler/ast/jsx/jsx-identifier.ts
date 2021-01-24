@@ -1,4 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 
 /**
  * Jsx identifier

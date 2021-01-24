@@ -2,7 +2,7 @@ import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 
 import { Binding } from '../expressions';
 import { BlockStatement } from './block-stmt';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * CatchClause.

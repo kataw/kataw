@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { MethodDefinition } from './method-definition';
 
 /**
@@ -32,8 +32,8 @@ export function createClassElement(
   };
 }
 
-export function updateClassElement(node: ClassElement, method: MethodDefinition): ClassElement {
-  return node.method !== method
-    ? updateNode(createClassElement(node.isStatic, method, node.flags, node.start, node.end), node)
+export function updateClassElement(node: ClassElement, isStatic: boolean, method: MethodDefinition): ClassElement {
+  return node.isStatic !== isStatic || node.method !== method
+    ? updateNode(createClassElement(isStatic, method, node.flags, node.start, node.end), node)
     : node;
 }

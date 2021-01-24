@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { Expression } from '.';
 import { SpreadElement } from './spread-element';
@@ -38,11 +38,13 @@ export function createElementList(
   };
 }
 
-export function updateElementList(node: ElementList, elements: (Elison | SpreadElement | Expression)[]): ElementList {
-  return node.elements !== elements
-    ? updateNode(
-        createElementList(elements, node.trailingComma, node.multiline, node.flags, node.start, node.end),
-        node
-      )
+export function updateElementList(
+  node: ElementList,
+  trailingComma: boolean,
+  multiline: boolean,
+  elements: (Elison | SpreadElement | Expression)[]
+): ElementList {
+  return node.trailingComma !== trailingComma || node.multiline !== multiline || node.elements !== elements
+    ? updateNode(createElementList(elements, trailingComma, multiline, node.flags, node.start, node.end), node)
     : node;
 }

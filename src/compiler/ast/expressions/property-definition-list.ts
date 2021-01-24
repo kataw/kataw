@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { SpreadProperty } from './spread-property';
 import { IdentifierReference } from './identifier-reference';
@@ -42,11 +42,13 @@ export function createPropertyDefinitionList(
 
 export function updatePropertyDefinitionList(
   node: PropertyDefinitionList,
-  properties: (SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName)[]
+  properties: (SpreadProperty | PropertyDefinition | IdentifierReference | CoverInitializedName)[],
+  trailingComma: boolean,
+  multiline: boolean
 ): PropertyDefinitionList {
-  return node.properties !== properties
+  return node.properties !== properties || node.trailingComma !== trailingComma || node.multiline !== multiline
     ? updateNode(
-        createPropertyDefinitionList(properties, node.trailingComma, node.multiline, node.flags, node.start, node.end),
+        createPropertyDefinitionList(properties, trailingComma, multiline, node.flags, node.start, node.end),
         node
       )
     : node;

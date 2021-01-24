@@ -52,17 +52,26 @@ export function updateMappedType(
   node: MappedType,
   typeParameter: TypeParameter,
   nameType: TypeNode | null,
+  readonly: boolean,
+  plus: boolean,
+  minus: boolean,
+  optional: boolean,
   type: TypeNode | null
 ): MappedType {
-  return node.typeParameter !== typeParameter || node.nameType !== nameType
+  return node.typeParameter !== typeParameter ||
+    node.nameType !== nameType ||
+    node.readonly !== readonly ||
+    node.plus !== plus ||
+    node.minus !== minus ||
+    node.optional !== optional
     ? updateNode(
         createMappedType(
           typeParameter,
           nameType,
-          node.readonly,
-          node.plus,
-          node.minus,
-          node.optional,
+          readonly,
+          plus,
+          minus,
+          optional,
           type,
           node.flags,
           node.start,

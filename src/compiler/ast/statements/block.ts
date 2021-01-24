@@ -1,5 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { Statement } from '.';
 
@@ -33,8 +33,8 @@ export function createBlock(
   };
 }
 
-export function updateBlock(node: Block, statements: Statement[]): Block {
-  return node.statements !== statements
-    ? updateNode(createBlock(statements, node.multiline, node.flags, node.start, node.end), node)
+export function updateBlock(node: Block, statements: Statement[], multiline: boolean): Block {
+  return node.multiline !== multiline || node.statements !== statements
+    ? updateNode(createBlock(statements, multiline, node.flags, node.start, node.end), node)
     : node;
 }

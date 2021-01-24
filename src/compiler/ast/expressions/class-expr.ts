@@ -1,7 +1,7 @@
 import { Expression } from '.';
 import { BindingIdentifier } from './binding-identifier';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 import { ClassElementList } from '../expressions/class-element-list';
 import { TypeParameters } from '../types/type-parameter-list';

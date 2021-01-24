@@ -1,5 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { JsxIdentifier } from './jsx-identifier';
+import { updateNode } from '../../utils';
 
 /**
  * JsxOpeningElement
@@ -13,6 +14,7 @@ export interface JsxNamespacedName extends Node {
 export function createJsxNamespacedName(
   name: JsxIdentifier,
   namespace: JsxIdentifier,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxNamespacedName {
@@ -20,7 +22,7 @@ export function createJsxNamespacedName(
     kind: NodeKind.JsxNamespacedName,
     name,
     namespace,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,
@@ -28,4 +30,13 @@ export function createJsxNamespacedName(
     start,
     end
   };
+}
+export function updateJsxNamespacedName(
+  node: JsxNamespacedName,
+  name: JsxIdentifier,
+  namespace: JsxIdentifier
+): JsxNamespacedName {
+  return node.name !== name || node.namespace !== namespace
+    ? updateNode(createJsxNamespacedName(name, namespace, node.flags, node.start, node.end), node)
+    : node;
 }

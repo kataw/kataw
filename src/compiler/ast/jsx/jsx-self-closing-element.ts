@@ -4,6 +4,8 @@ import { JsxIdentifier } from './jsx-identifier';
 import { JsxNamespacedName } from './jsx-namespaced-name';
 import { JsxTagNamePropertyAccess } from './jsx-tag-name-property-access';
 import { ThisExpression } from '../expressions/this-expr';
+import { updateNode } from '../../utils';
+import { TypeArguments } from '../types/type-arguments';
 
 /**
  * JsxSelfClosingElement
@@ -12,13 +14,14 @@ import { ThisExpression } from '../expressions/this-expr';
 export interface JsxSelfClosingElement extends Node {
   readonly tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess;
   readonly attributes: JsxAttributesList;
-  readonly typeArguments: any;
+  readonly typeArguments: TypeArguments;
 }
 
 export function createJsxSelfClosingElement(
   tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
   attributes: JsxAttributesList,
-  typeArguments: any,
+  typeArguments: TypeArguments,
+  flags: NodeFlags,
   start: number,
   end: number
 ): JsxSelfClosingElement {
@@ -27,7 +30,7 @@ export function createJsxSelfClosingElement(
     tagName,
     attributes,
     typeArguments,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: tagName.transformFlags | attributes.transformFlags,
     parent: null,
@@ -35,4 +38,17 @@ export function createJsxSelfClosingElement(
     start,
     end
   };
+}
+export function updateJsxSelfClosingElement(
+  node: JsxSelfClosingElement,
+  tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
+  attributes: JsxAttributesList,
+  typeArguments: TypeArguments
+): JsxSelfClosingElement {
+  return node.tagName !== tagName || node.attributes !== attributes || node.typeArguments !== typeArguments
+    ? updateNode(
+        createJsxSelfClosingElement(tagName, attributes, typeArguments, node.flags, node.start, node.end),
+        node
+      )
+    : node;
 }
