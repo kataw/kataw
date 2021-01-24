@@ -11,6 +11,7 @@ import { PropertyKind } from '../../parser/common';
 import { FormalParameterList } from './formal-parameter-list';
 import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
+import { DecoratorList } from './decorator-list';
 
 /**
  * Method definition.
@@ -22,6 +23,7 @@ export interface MethodDefinition extends Node {
   readonly isGetter: boolean;
   readonly isSetter: boolean;
   readonly contents: FunctionBody | null;
+  readonly decorators: DecoratorList;
   readonly accessModifiers: AccessModifiers;
   readonly typeParameters: TypeParameters;
   readonly type: TypeNode | null;
@@ -39,6 +41,7 @@ export function createMethodDefinition(
   typeParameters: TypeParameters,
   type: TypeNode | null,
   contents: FunctionBody | null,
+  decorators: DecoratorList,
   start: number,
   end: number
 ): MethodDefinition {
@@ -73,6 +76,7 @@ export function createMethodDefinition(
     isSetter: (propertyKind & PropertyKind.Setter) !== 0,
     isGetter: (propertyKind & PropertyKind.Getter) !== 0,
     contents,
+    decorators,
     type,
     accessModifiers,
     typeParameters,
@@ -95,7 +99,8 @@ export function updateMethodDefinition(
   name: MethodName,
   typeParameters: TypeParameters,
   type: TypeNode | null,
-  contents: FunctionBody | null
+  contents: FunctionBody | null,
+  decorators: DecoratorList
 ): MethodDefinition {
   let propertyKind = PropertyKind.None;
   if (isGenerator) propertyKind |= PropertyKind.Generator;
@@ -105,7 +110,8 @@ export function updateMethodDefinition(
     node.name !== name ||
     node.typeParameters !== typeParameters ||
     node.type !== type ||
-    node.contents !== contents
+    node.contents !== contents ||
+    node.decorators !== decorators
     ? updateNode(
         createMethodDefinition(
           NodeFlags.None,
@@ -117,6 +123,7 @@ export function updateMethodDefinition(
           typeParameters,
           type,
           contents,
+          decorators,
           node.start,
           node.end
         ),

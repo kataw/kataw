@@ -4,9 +4,7 @@ import { FunctionBody } from '../expressions/function-body';
 import { FormalParameterList } from '../expressions/formal-parameter-list';
 import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
-
-import { updateNode } from '../../../visitor/common';
-import { nodeIsMissing } from 'compiler/parser/incremental';
+import { updateNode } from '../../utils';
 
 /**
  * Function declaration.
@@ -15,7 +13,6 @@ export interface FunctionDeclaration extends Node {
   readonly name: BindingIdentifier | null;
   readonly formalParameters: FormalParameterList;
   readonly contents: FunctionBody | null;
-  readonly isDeclared: boolean;
   readonly typeParameters: TypeParameters;
   readonly type: TypeNode | null;
 }
@@ -26,7 +23,6 @@ export function createFunctionDeclaration(
   isAsync: number,
   formalParameters: FormalParameterList,
   contents: FunctionBody | null,
-  isDeclared: boolean,
   typeParameters: TypeParameters,
   type: TypeNode | null,
   flags: NodeFlags,
@@ -63,7 +59,6 @@ export function createFunctionDeclaration(
     formalParameters,
     type,
     contents,
-    isDeclared,
     typeParameters,
     flags,
     intersects: false,
@@ -81,7 +76,9 @@ export function updateFunctionDeclaration(
   isAsync: number,
   name: BindingIdentifier | null,
   formalParameters: FormalParameterList,
-  contents: FunctionBody | null
+  contents: FunctionBody | null,
+  typeParameters: TypeParameters,
+  type: TypeNode | null
 ): FunctionDeclaration {
   return (node.kind !== NodeKind.AsyncGeneratorDeclaration && isGenerator && isAsync) ||
     (node.kind !== NodeKind.GeneratorDeclaration && isGenerator) ||
@@ -90,7 +87,9 @@ export function updateFunctionDeclaration(
     node.name !== name ||
     node.name !== name ||
     node.formalParameters !== formalParameters ||
-    node.contents !== contents
+    node.contents !== contents ||
+    node.typeParameters !== typeParameters ||
+    node.type !== type
     ? updateNode(
         createFunctionDeclaration(
           name,
@@ -98,9 +97,8 @@ export function updateFunctionDeclaration(
           isAsync,
           formalParameters,
           contents,
-          node.isDeclared,
-          node.typeParameters,
-          node.type,
+          typeParameters,
+          type,
           node.flags,
           node.start,
           node.end

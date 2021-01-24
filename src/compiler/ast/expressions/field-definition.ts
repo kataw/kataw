@@ -1,10 +1,10 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
 import { updateNode } from '../../utils';
-
 import { PrivateIdentifier } from './private-identifier';
 import { Expression } from './';
 import { AssignmentExpression } from './assignment-expr';
 import { TypeNode } from '../types';
+import { DecoratorList } from './decorator-list';
 
 /**
  * FieldDefinition
@@ -15,6 +15,7 @@ export interface FieldDefinition extends Node {
   readonly exclamation: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
+  readonly decorators: DecoratorList;
   readonly accessModifiers: AccessModifiers;
   readonly isStatic: boolean;
 }
@@ -25,6 +26,7 @@ export function createFieldDefinition(
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
+  decorators: DecoratorList,
   accessModifiers: AccessModifiers,
   isStatic: boolean,
   flags: NodeFlags,
@@ -38,6 +40,7 @@ export function createFieldDefinition(
     exclamation,
     type,
     initializer,
+    decorators,
     accessModifiers,
     isStatic,
     flags,
@@ -57,6 +60,7 @@ export function updateFieldDefinition(
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
+  decorators: DecoratorList,
   isStatic: boolean
 ): FieldDefinition {
   return node.key !== key ||
@@ -64,6 +68,7 @@ export function updateFieldDefinition(
     node.exclamation !== exclamation ||
     node.type !== type ||
     node.initializer !== initializer ||
+    node.decorators !== decorators ||
     node.isStatic !== isStatic
     ? updateNode(
         createFieldDefinition(
@@ -72,6 +77,7 @@ export function updateFieldDefinition(
           exclamation,
           type,
           initializer,
+          decorators,
           node.accessModifiers,
           isStatic,
           node.flags,

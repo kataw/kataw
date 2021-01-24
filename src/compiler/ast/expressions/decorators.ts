@@ -1,6 +1,6 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import {  LeftHandSideExpression } from '../expressions';
+import {  LeftHandSideExpression } from '.';
 
 /**
  * Decorator
@@ -29,7 +29,7 @@ export function createDecorator(
   };
 }
 
-export function updateConstructorType(
+export function updateDecorator(
   node: Decorator,
   expression:  LeftHandSideExpression
 ): Decorator {

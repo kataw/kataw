@@ -1,7 +1,7 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { VariableDeclaration } from './variable-declaration';
 
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /**
  * VariableDeclarationList

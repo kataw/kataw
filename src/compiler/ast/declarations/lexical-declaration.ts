@@ -1,7 +1,7 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { BindingList } from '../statements/binding-list';
-
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
+import { DecoratorList } from '../expressions/decorator-list';
 
 /**
  * Lexical declaration statement
@@ -9,13 +9,13 @@ import { updateNode } from '../../../visitor/common';
 export interface LexicalDeclaration extends Node {
   readonly bindingList: BindingList;
   readonly isConst: boolean;
-  readonly isDeclared: boolean;
+  readonly decorator: DecoratorList; // Present for use with reporting a grammar error
 }
 
 export function createLexicalDeclaration(
   isConst: boolean,
   bindingList: BindingList,
-  isDeclared: boolean,
+  decorator: DecoratorList,
   flags: NodeFlags,
   start: number,
   end: number
@@ -24,12 +24,11 @@ export function createLexicalDeclaration(
     kind: NodeKind.LexicalDeclaration,
     isConst,
     bindingList,
-    isDeclared,
+    decorator,
     flags,
     intersects: false,
     transformFlags:
       TransformFlags.HoistedDeclarationOrCompletion |
-      (isDeclared ? TransformFlags.TypeScript : TransformFlags.None) |
       (flags & NodeFlags.BlockScoped ? TransformFlags.ES2015 | TransformFlags.BlockScopedBinding : TransformFlags.None),
     parent: null,
     emitNode: null,
@@ -41,12 +40,10 @@ export function createLexicalDeclaration(
 export function updateLexicalDeclaration(
   node: LexicalDeclaration,
   isConst: boolean,
+  decorator: DecoratorList,
   bindingList: BindingList
 ): LexicalDeclaration {
-  return node.bindingList !== bindingList
-    ? updateNode(
-        createLexicalDeclaration(isConst, bindingList, node.isDeclared, node.flags, node.start, node.end),
-        node
-      )
+  return node.bindingList !== bindingList || node.decorator !== decorator
+    ? updateNode(createLexicalDeclaration(isConst, bindingList,decorator, node.flags, node.start, node.end), node)
     : node;
 }

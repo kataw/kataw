@@ -1,8 +1,8 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { Expression, Binding } from '../expressions/index';
 import { TypeNode } from '../types';
-import { updateNode } from '../../../visitor/common';
 import { VariableDeclarationList } from './variable-declarationList';
+import { updateNode } from '../../utils';
 
 /**
  * Variable declaration
@@ -10,10 +10,10 @@ import { VariableDeclarationList } from './variable-declarationList';
 
 export interface VariableDeclaration extends Node {
   readonly binding: Binding;
-  readonly exclamation: boolean;  // Optional definite assignment assertion
+  readonly exclamation: boolean; // Optional definite assignment assertion
   readonly type: TypeNode | null; // Optional type annotation
   readonly initializer: Expression | null; // Optional initializer
-  readonly parent: VariableDeclarationList | null
+  readonly parent: VariableDeclarationList | null;
 }
 
 export function createVariableDeclaration(
@@ -44,19 +44,16 @@ export function createVariableDeclaration(
 export function updateVariableDeclaration(
   node: VariableDeclaration,
   binding: Binding,
+  exclamation: boolean,
+  type: TypeNode | null,
   initializer: Expression | null
 ): VariableDeclaration {
-  return node.binding !== binding || node.initializer !== initializer
+  return node.binding !== binding ||
+    node.exclamation !== exclamation ||
+    node.type !== type ||
+    node.initializer !== initializer
     ? updateNode(
-        createVariableDeclaration(
-          binding,
-          node.exclamation,
-          node.type,
-          node.initializer,
-          node.flags,
-          node.start,
-          node.end
-        ),
+        createVariableDeclaration(binding, exclamation, type, initializer, node.flags, node.start, node.end),
         node
       )
     : node;
