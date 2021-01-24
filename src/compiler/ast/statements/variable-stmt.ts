@@ -30,7 +30,7 @@ export function createVariableStatement(
 
 export function updateVariableStatement(
   node: VariableStatement,
-  declarationList: VariableDeclarationList
+  declarationList: VariableDeclarationList,
 ): VariableStatement {
   return node.declarationList !== declarationList
     ? updateNode(createVariableStatement(declarationList, node.flags, node.start, node.end), node)
