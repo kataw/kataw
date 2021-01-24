@@ -2,6 +2,7 @@ import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../n
 import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
+import { updateNode } from '../../utils';
 
 /**
  * CallSignature
@@ -19,6 +20,7 @@ export function createCallSignature(
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): CallSignature {
@@ -28,7 +30,7 @@ export function createCallSignature(
     typeParameters,
     parameters,
     returnType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -36,4 +38,26 @@ export function createCallSignature(
     start,
     end
   };
+}
+
+export function updateCallSignature(
+  node: CallSignature,
+  typeParameters: TypeParameters,
+  parameters: Parameters,
+  returnType: TypeNode | null
+): CallSignature {
+  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+    ? updateNode(
+        createCallSignature(
+          node.accessModifiers,
+          typeParameters,
+          parameters,
+          returnType,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

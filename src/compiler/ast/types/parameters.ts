@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { ParameterDeclaration } from './parameter-declaration';
 
 /**
@@ -11,13 +12,14 @@ export interface Parameters extends Node {
 
 export function createParameters(
   parameterList: readonly ParameterDeclaration[],
+  flags: NodeFlags,
   start: number,
   end: number
 ): Parameters {
   return {
     kind: NodeKind.Parameters,
     parameterList,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -25,4 +27,10 @@ export function createParameters(
     start,
     end
   };
+}
+
+export function updateParameters(node: Parameters, parameterList: readonly ParameterDeclaration[]): Parameters {
+  return node.parameterList !== parameterList
+    ? updateNode(createParameters(parameterList, node.flags, node.start, node.end), node)
+    : node;
 }

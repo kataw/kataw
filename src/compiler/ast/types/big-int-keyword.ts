@@ -6,10 +6,10 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 
 export type BigIntKeyword = Node;
 
-export function createBigIntKeyword(start: number, end: number): BigIntKeyword {
+export function createBigIntKeyword(flags: NodeFlags, start: number, end: number): BigIntKeyword {
   return {
     kind: NodeKind.BigIntKeyword,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

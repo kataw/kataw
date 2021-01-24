@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 
 /**
  * UndefinedKeyword
@@ -6,10 +7,10 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 
 export type UndefinedKeyword = Node;
 
-export function createUndefinedKeyword(start: number, end: number): UndefinedKeyword {
+export function createUndefinedKeyword(flags: NodeFlags, start: number, end: number): UndefinedKeyword {
   return {
     kind: NodeKind.UndefinedKeyword,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

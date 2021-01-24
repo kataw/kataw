@@ -9,12 +9,18 @@ export interface StringType extends Node {
   readonly rawValue: string;
 }
 
-export function createStringType(value: string, rawValue: string, start: number, end: number): StringType {
+export function createStringType(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): StringType {
   return {
     kind: NodeKind.StringType,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from './';
 
 /**
@@ -9,11 +10,11 @@ export interface ArrayType extends Node {
   readonly elementType: TypeNode;
 }
 
-export function createArrayType(elementType: TypeNode, start: number, end: number): ArrayType {
+export function createArrayType(elementType: TypeNode, flags: NodeFlags, start: number, end: number): ArrayType {
   return {
     kind: NodeKind.ArrayType,
     elementType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +22,10 @@ export function createArrayType(elementType: TypeNode, start: number, end: numbe
     start,
     end
   };
+}
+
+export function updateArrayType(node: ArrayType, elementType: TypeNode): ArrayType {
+  return node.elementType !== elementType
+    ? updateNode(createArrayType(elementType, node.flags, node.start, node.end), node)
+    : node;
 }

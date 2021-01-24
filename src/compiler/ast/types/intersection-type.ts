@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 
 /**
@@ -9,11 +10,16 @@ export interface IntersectionType extends Node {
   readonly types: readonly TypeNode[];
 }
 
-export function createIntersectionType(types: readonly TypeNode[], start: number, end: number): IntersectionType {
+export function createIntersectionType(
+  types: readonly TypeNode[],
+  flags: NodeFlags,
+  start: number,
+  end: number
+): IntersectionType {
   return {
     kind: NodeKind.IntersectionType,
     types,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +27,10 @@ export function createIntersectionType(types: readonly TypeNode[], start: number
     start,
     end
   };
+}
+
+export function updateIntersectionType(node: IntersectionType, types: readonly TypeNode[]): IntersectionType {
+  return node.types !== types
+    ? updateNode(createIntersectionType(types, node.flags, node.start, node.end), node)
+    : node;
 }

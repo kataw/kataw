@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { updateNode } from '../../utils';
 import { PropertyName } from '../expressions';
 import { TypeNode } from './';
 import { TypeParameters } from './type-parameter-list';
@@ -26,6 +27,7 @@ export function createMethodSignature(
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): MethodSignature {
@@ -38,7 +40,7 @@ export function createMethodSignature(
     typeParameters,
     parameters,
     returnType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -46,4 +48,33 @@ export function createMethodSignature(
     start,
     end
   };
+}
+
+export function updateMethodSignature(
+  node: MethodSignature,
+  name: PropertyName,
+  typeParameters: TypeParameters,
+  parameters: Parameters,
+  returnType: TypeNode | null
+): MethodSignature {
+  return node.name !== name ||
+    node.typeParameters !== typeParameters ||
+    node.parameters !== parameters ||
+    node.returnType !== returnType
+    ? updateNode(
+        createMethodSignature(
+          name,
+          node.optional,
+          node.readonly,
+          node.accessModifiers,
+          typeParameters,
+          parameters,
+          returnType,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

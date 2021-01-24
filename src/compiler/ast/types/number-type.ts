@@ -9,12 +9,18 @@ export interface NumberType extends Node {
   readonly rawValue: string;
 }
 
-export function createNumberType(value: string, rawValue: string, start: number, end: number): NumberType {
+export function createNumberType(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): NumberType {
   return {
     kind: NodeKind.NumberLiteral,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

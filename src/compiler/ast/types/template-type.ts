@@ -10,12 +10,18 @@ export interface TemplateType extends Node {
   readonly literal: any;
 }
 
-export function createTemplateType(type: TypeNode, literal: any, start: number, end: number): TemplateType {
+export function createTemplateType(
+  type: TypeNode,
+  literal: any,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): TemplateType {
   return {
     kind: NodeKind.TemplateType,
     type,
     literal,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

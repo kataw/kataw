@@ -1,5 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { TypeNode } from '.';
+import { updateNode } from '../../utils';
 
 /**
  * Parenthesized type
@@ -9,11 +10,16 @@ export interface ParenthesizedType extends Node {
   readonly type: TypeNode;
 }
 
-export function createParenthesizedType(type: TypeNode, start: number, end: number): ParenthesizedType {
+export function createParenthesizedType(
+  type: TypeNode,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): ParenthesizedType {
   return {
     kind: NodeKind.ParenthesizedType,
     type,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +27,8 @@ export function createParenthesizedType(type: TypeNode, start: number, end: numb
     start,
     end
   };
+}
+
+export function updateParenthesizedType(node: ParenthesizedType, type: TypeNode): ParenthesizedType {
+  return node.type !== type ? updateNode(createParenthesizedType(type, node.flags, node.start, node.end), node) : node;
 }

@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { IdentifierReference } from '../expressions/identifier-reference';
 
@@ -18,6 +19,7 @@ export function createNamedTupleMember(
   name: IdentifierReference,
   optional: boolean,
   type: TypeNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): NamedTupleMember {
@@ -27,7 +29,7 @@ export function createNamedTupleMember(
     name,
     optional,
     type,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -35,4 +37,17 @@ export function createNamedTupleMember(
     start,
     end
   };
+}
+
+export function updateNamedTupleMember(
+  node: NamedTupleMember,
+  name: IdentifierReference,
+  type: TypeNode
+): NamedTupleMember {
+  return node.name !== name || node.type !== type
+    ? updateNode(
+        createNamedTupleMember(node.ellipsis, name, node.optional, type, node.flags, node.start, node.end),
+        node
+      )
+    : node;
 }

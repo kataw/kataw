@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { Parameters } from './parameters';
 import { TypeParameters } from './type-parameter-list';
@@ -21,6 +22,7 @@ export function createIndexSignature(
   parameters: Parameters,
   returnType: TypeNode | null,
   readonly: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): IndexSignature {
@@ -31,7 +33,7 @@ export function createIndexSignature(
     parameters,
     returnType,
     readonly,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -39,4 +41,27 @@ export function createIndexSignature(
     start,
     end
   };
+}
+
+export function updateIndexSignature(
+  node: IndexSignature,
+  typeParameters: TypeParameters,
+  parameters: Parameters,
+  returnType: TypeNode | null
+): IndexSignature {
+  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+    ? updateNode(
+        createIndexSignature(
+          node.accessModifiers,
+          typeParameters,
+          parameters,
+          returnType,
+          node.readonly,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

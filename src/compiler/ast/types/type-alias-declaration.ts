@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { IdentifierReference } from '../expressions/identifier-reference';
 import { TypeNode } from './';
 import { TypeParameters } from './type-parameter-list';
@@ -19,6 +20,7 @@ export function createTypeAliasDeclaration(
   type: TypeNode,
   typeParameters: TypeParameters,
   isExported: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeAliasDeclaration {
@@ -28,7 +30,7 @@ export function createTypeAliasDeclaration(
     type,
     typeParameters,
     isExported,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -36,4 +38,18 @@ export function createTypeAliasDeclaration(
     start,
     end
   };
+}
+
+export function updateTypeAliasDeclaration(
+  node: TypeAliasDeclaration,
+  name: IdentifierReference,
+  type: TypeNode,
+  typeParameters: TypeParameters
+): TypeAliasDeclaration {
+  return node.name !== name || node.type !== type || node.typeParameters !== typeParameters
+    ? updateNode(
+        createTypeAliasDeclaration(name, type, typeParameters, node.isExported, node.flags, node.start, node.end),
+        node
+      )
+    : node;
 }

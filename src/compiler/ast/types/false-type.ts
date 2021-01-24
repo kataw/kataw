@@ -9,12 +9,18 @@ export interface FalseType extends Node {
   readonly rawValue: string;
 }
 
-export function createFalseType(value: string, rawValue: string, start: number, end: number): FalseType {
+export function createFalseType(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): FalseType {
   return {
     kind: NodeKind.FalseType,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

@@ -9,12 +9,18 @@ export interface NullKeyword extends Node {
   readonly rawValue: string;
 }
 
-export function createNullKeyword(value: string, rawValue: string, start: number, end: number): NullKeyword {
+export function createNullKeyword(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): NullKeyword {
   return {
     kind: NodeKind.NullKeyword,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

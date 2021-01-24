@@ -1,4 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { EnumMembersList } from './enum-members-list';
 import { IdentifierReference } from '../expressions/identifier-reference';
 
@@ -15,6 +16,7 @@ export function createEnumDeclaration(
   name: IdentifierReference,
   members: EnumMembersList,
   isConst: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): EnumDeclaration {
@@ -23,7 +25,7 @@ export function createEnumDeclaration(
     name,
     members,
     isConst,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -31,4 +33,14 @@ export function createEnumDeclaration(
     start,
     end
   };
+}
+
+export function updateEnumDeclaration(
+  node: EnumDeclaration,
+  name: IdentifierReference,
+  members: EnumMembersList
+): EnumDeclaration {
+  return node.name !== name || node.members !== members
+    ? updateNode(createEnumDeclaration(name, members, node.isConst, node.flags, node.start, node.end), node)
+    : node;
 }

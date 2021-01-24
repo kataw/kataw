@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 
 /**
@@ -9,11 +10,11 @@ export interface UnionType extends Node {
   readonly types: readonly TypeNode[];
 }
 
-export function createUnionType(types: readonly TypeNode[], start: number, end: number): UnionType {
+export function createUnionType(types: readonly TypeNode[], flags: NodeFlags, start: number, end: number): UnionType {
   return {
     kind: NodeKind.UnionType,
     types,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +22,8 @@ export function createUnionType(types: readonly TypeNode[], start: number, end: 
     start,
     end
   };
+}
+
+export function updateUnionType(node: UnionType, types: readonly TypeNode[]): UnionType {
+  return node.types !== types ? updateNode(createUnionType(types, node.flags, node.start, node.end), node) : node;
 }

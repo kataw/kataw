@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from './';
 
 /**
@@ -15,6 +16,7 @@ export interface TypeOperator extends Node {
 export function createTypeOperator(
   operator: TypeOperators,
   type: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeOperator {
@@ -22,7 +24,7 @@ export function createTypeOperator(
     kind: NodeKind.TypeOperator,
     operator,
     type,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -30,4 +32,10 @@ export function createTypeOperator(
     start,
     end
   };
+}
+
+export function updateTypeOperator(node: TypeOperator, type: TypeNode | null): TypeOperator {
+  return node.type !== type
+    ? updateNode(createTypeOperator(node.operator, type, node.flags, node.start, node.end), node)
+    : node;
 }

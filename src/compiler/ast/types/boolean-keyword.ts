@@ -6,10 +6,10 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 
 export type BooleanKeyword = Node;
 
-export function createBooleanKeyword(start: number, end: number): BooleanKeyword {
+export function createBooleanKeyword(flags: NodeFlags, start: number, end: number): BooleanKeyword {
   return {
     kind: NodeKind.BooleanKeyword,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { updateNode } from '../../utils';
 import { Expression, PropertyName } from '../expressions';
 import { TypeNode } from './';
 
@@ -22,6 +23,7 @@ export function createPropertySignature(
   type: TypeNode | null,
   readonly: boolean,
   initializer: Expression | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): PropertySignature {
@@ -33,7 +35,7 @@ export function createPropertySignature(
     type,
     readonly,
     initializer,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -41,4 +43,28 @@ export function createPropertySignature(
     start,
     end
   };
+}
+
+export function updatePropertySignature(
+  node: PropertySignature,
+  name: PropertyName,
+  type: TypeNode | null,
+  initializer: Expression | null
+): PropertySignature {
+  return node.name !== name || node.type !== type || node.initializer !== initializer
+    ? updateNode(
+        createPropertySignature(
+          name,
+          node.optional,
+          node.accessModifiers,
+          type,
+          node.readonly,
+          initializer,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

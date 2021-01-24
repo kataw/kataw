@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from './';
 
 /**
@@ -9,11 +10,11 @@ export interface RestType extends Node {
   readonly type: TypeNode;
 }
 
-export function createRestType(type: TypeNode, start: number, end: number): RestType {
+export function createRestType(type: TypeNode, flags: NodeFlags, start: number, end: number): RestType {
   return {
     kind: NodeKind.RestType,
     type,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +22,8 @@ export function createRestType(type: TypeNode, start: number, end: number): Rest
     start,
     end
   };
+}
+
+export function updateRestType(node: RestType, type: TypeNode): RestType {
+  return node.type !== type ? updateNode(createRestType(type, node.flags, node.start, node.end), node) : node;
 }

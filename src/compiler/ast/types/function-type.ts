@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
@@ -17,6 +18,7 @@ export function createFunctionType(
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): FunctionType {
@@ -25,7 +27,7 @@ export function createFunctionType(
     typeParameters,
     parameters,
     returnType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -33,4 +35,15 @@ export function createFunctionType(
     start,
     end
   };
+}
+
+export function updateFunctionType(
+  node: FunctionType,
+  typeParameters: TypeParameters,
+  parameters: Parameters,
+  returnType: TypeNode | null
+): FunctionType {
+  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+    ? updateNode(createFunctionType(typeParameters, parameters, returnType, node.flags, node.start, node.end), node)
+    : node;
 }

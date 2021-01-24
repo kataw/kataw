@@ -1,5 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { TypeNode } from '.';
+import { updateNode } from '../../utils';
 
 /**
  * Optional type
@@ -9,11 +10,11 @@ export interface OptionalType extends Node {
   readonly valueType: TypeNode;
 }
 
-export function createOptionalType(valueType: TypeNode, start: number, end: number): OptionalType {
+export function createOptionalType(valueType: TypeNode, flags: NodeFlags, start: number, end: number): OptionalType {
   return {
     kind: NodeKind.OptionalType,
     valueType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +22,10 @@ export function createOptionalType(valueType: TypeNode, start: number, end: numb
     start,
     end
   };
+}
+
+export function updateOptionalType(node: OptionalType, valueType: TypeNode): OptionalType {
+  return node.valueType !== valueType
+    ? updateNode(createOptionalType(valueType, node.flags, node.start, node.end), node)
+    : node;
 }

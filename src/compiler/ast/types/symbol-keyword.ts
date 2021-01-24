@@ -6,10 +6,10 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 
 export type SymbolKeyword = Node;
 
-export function createSymbolKeyword(start: number, end: number): SymbolKeyword {
+export function createSymbolKeyword(flags: NodeFlags, start: number, end: number): SymbolKeyword {
   return {
     kind: NodeKind.SymbolKeyword,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

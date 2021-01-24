@@ -1,4 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { updateNode } from '../../utils';
 import { AssignmentExpression } from '../expressions/assignment-expr';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
@@ -25,6 +26,7 @@ export function createParameterDeclaration(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   accessModifiers: AccessModifiers,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ParameterDeclaration {
@@ -36,7 +38,7 @@ export function createParameterDeclaration(
     type,
     initializer,
     accessModifiers,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None),
     parent: null,
@@ -44,4 +46,28 @@ export function createParameterDeclaration(
     start,
     end
   };
+}
+
+export function updateParameterDeclaration(
+  node: ParameterDeclaration,
+  binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
+  type: TypeNode | null,
+  initializer: AssignmentExpression | null
+): ParameterDeclaration {
+  return node.binding !== binding || node.type !== type || node.initializer !== initializer
+    ? updateNode(
+        createParameterDeclaration(
+          node.ellipsis,
+          binding,
+          node.optional,
+          type,
+          initializer,
+          node.accessModifiers,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

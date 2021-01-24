@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
@@ -19,6 +20,7 @@ export function createConstructSignature(
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ConstructSignature {
@@ -28,7 +30,7 @@ export function createConstructSignature(
     typeParameters,
     parameters,
     returnType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -36,4 +38,26 @@ export function createConstructSignature(
     start,
     end
   };
+}
+
+export function updateConstructSignature(
+  node: ConstructSignature,
+  typeParameters: TypeParameters,
+  parameters: Parameters,
+  returnType: TypeNode | null
+): ConstructSignature {
+  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+    ? updateNode(
+        createConstructSignature(
+          node.accessModifiers,
+          typeParameters,
+          parameters,
+          returnType,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

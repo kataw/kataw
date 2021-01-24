@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeParameter } from './type-parameter';
 
 /**
@@ -9,11 +10,11 @@ export interface InferType extends Node {
   readonly typeParameter: TypeParameter;
 }
 
-export function createInferType(typeParameter: TypeParameter, start: number, end: number): InferType {
+export function createInferType(typeParameter: TypeParameter, flags: NodeFlags, start: number, end: number): InferType {
   return {
     kind: NodeKind.InferType,
     typeParameter,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -21,4 +22,10 @@ export function createInferType(typeParameter: TypeParameter, start: number, end
     start,
     end
   };
+}
+
+export function updateInferType(node: InferType, typeParameter: TypeParameter): InferType {
+  return node.typeParameter !== typeParameter
+    ? updateNode(createInferType(typeParameter, node.flags, node.start, node.end), node)
+    : node;
 }

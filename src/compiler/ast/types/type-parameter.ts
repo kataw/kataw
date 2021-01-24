@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { IdentifierReference } from '../expressions/identifier-reference';
 import { TypeNode } from './';
 
@@ -16,6 +17,7 @@ export function createTypeParameter(
   name: string | IdentifierReference,
   constraint: TypeNode | null,
   defaultType: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeParameter {
@@ -24,7 +26,7 @@ export function createTypeParameter(
     name,
     constraint,
     defaultType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -32,4 +34,15 @@ export function createTypeParameter(
     start,
     end
   };
+}
+
+export function updateTypeParameter(
+  node: TypeParameter,
+  name: string | IdentifierReference,
+  constraint: TypeNode | null,
+  defaultType: TypeNode | null
+): TypeParameter {
+  return node.name !== name || node.constraint !== constraint || node.defaultType !== defaultType
+    ? updateNode(createTypeParameter(name, constraint, defaultType, node.flags, node.start, node.end), node)
+    : node;
 }

@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { TypeParameter } from './type-parameter';
 
@@ -24,6 +25,7 @@ export function createMappedType(
   minus: boolean,
   optional: boolean,
   type: TypeNode | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): MappedType {
@@ -36,7 +38,7 @@ export function createMappedType(
     minus,
     optional,
     type,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -44,4 +46,29 @@ export function createMappedType(
     start,
     end
   };
+}
+
+export function updateMappedType(
+  node: MappedType,
+  typeParameter: TypeParameter,
+  nameType: TypeNode | null,
+  type: TypeNode | null
+): MappedType {
+  return node.typeParameter !== typeParameter || node.nameType !== nameType
+    ? updateNode(
+        createMappedType(
+          typeParameter,
+          nameType,
+          node.readonly,
+          node.plus,
+          node.minus,
+          node.optional,
+          type,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

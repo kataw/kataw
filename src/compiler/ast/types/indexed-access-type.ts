@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 
 /**
@@ -13,6 +14,7 @@ export interface IndexedAccessType extends Node {
 export function createIndexedAccessType(
   objectType: TypeNode,
   indexType: TypeNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): IndexedAccessType {
@@ -20,7 +22,7 @@ export function createIndexedAccessType(
     kind: NodeKind.IndexedAccessType,
     objectType,
     indexType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -28,4 +30,14 @@ export function createIndexedAccessType(
     start,
     end
   };
+}
+
+export function updateIndexedAccessType(
+  node: IndexedAccessType,
+  objectType: TypeNode,
+  indexType: TypeNode
+): IndexedAccessType {
+  return node.objectType !== objectType || node.indexType !== indexType
+    ? updateNode(createIndexedAccessType(objectType, indexType, node.flags, node.start, node.end), node)
+    : node;
 }

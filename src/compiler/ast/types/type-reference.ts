@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { IdentifierReference } from '../expressions/identifier-reference';
 import { QualifiedName } from './qualified-name';
 import { TypeArguments } from './type-arguments';
@@ -16,6 +17,7 @@ export interface TypeReference extends Node {
 export function createTypeReference(
   typeName: IdentifierReference | string | QualifiedName,
   typeArguments: TypeArguments,
+  flags: NodeFlags,
   start: number,
   end: number
 ): TypeReference {
@@ -23,7 +25,7 @@ export function createTypeReference(
     kind: NodeKind.TypeReference,
     typeName,
     typeArguments,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -31,4 +33,14 @@ export function createTypeReference(
     start,
     end
   };
+}
+
+export function updateTypeReference(
+  node: TypeReference,
+  typeName: IdentifierReference | string | QualifiedName,
+  typeArguments: TypeArguments
+): TypeReference {
+  return node.typeName !== typeName || node.typeArguments !== typeArguments
+    ? updateNode(createTypeReference(typeName, typeArguments, node.flags, node.start, node.end), node)
+    : node;
 }

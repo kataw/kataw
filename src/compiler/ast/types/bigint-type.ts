@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 
 /**
  * BigIntType
@@ -9,12 +10,18 @@ export interface BigIntType extends Node {
   readonly rawValue: string;
 }
 
-export function createBigIntType(value: string, rawValue: string, start: number, end: number): BigIntType {
+export function createBigIntType(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): BigIntType {
   return {
     kind: NodeKind.BigIntType,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

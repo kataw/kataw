@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { IdentifierReference } from '../expressions/identifier-reference';
 import { IdentifierName } from '../expressions/identifier-name';
 
@@ -14,6 +15,7 @@ export interface QualifiedName extends Node {
 export function createQualifiedName(
   left: IdentifierReference | IdentifierName | QualifiedName,
   right: IdentifierName,
+  flags: NodeFlags,
   start: number,
   end: number
 ): QualifiedName {
@@ -21,7 +23,7 @@ export function createQualifiedName(
     kind: NodeKind.QualifiedName,
     left,
     right,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -29,4 +31,14 @@ export function createQualifiedName(
     start,
     end
   };
+}
+
+export function updateQualifiedName(
+  node: QualifiedName,
+  left: IdentifierReference | IdentifierName | QualifiedName,
+  right: IdentifierName
+): QualifiedName {
+  return node.left !== left || node.right !== right
+    ? updateNode(createQualifiedName(left, right, node.flags, node.start, node.end), node)
+    : node;
 }

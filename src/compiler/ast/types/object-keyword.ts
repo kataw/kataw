@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 
 /**
  * ObjectKeyword
@@ -6,10 +7,10 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 
 export type ObjectKeyword = Node;
 
-export function createObjectKeyword(start: number, end: number): ObjectKeyword {
+export function createObjectKeyword(flags: NodeFlags, start: number, end: number): ObjectKeyword {
   return {
     kind: NodeKind.ObjectKeyword,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

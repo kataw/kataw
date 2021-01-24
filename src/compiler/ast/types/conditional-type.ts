@@ -1,4 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { TypeNode } from './';
 
 /**
@@ -17,6 +18,7 @@ export function createConditionalType(
   extendsType: TypeNode,
   trueType: TypeNode,
   falseType: TypeNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ConditionalType {
@@ -26,7 +28,7 @@ export function createConditionalType(
     extendsType,
     trueType,
     falseType,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -34,4 +36,22 @@ export function createConditionalType(
     start,
     end
   };
+}
+
+export function updateConditionalType(
+  node: ConditionalType,
+  checkType: TypeNode,
+  extendsType: TypeNode,
+  trueType: TypeNode,
+  falseType: TypeNode
+): ConditionalType {
+  return node.checkType !== checkType ||
+    node.extendsType !== extendsType ||
+    node.trueType !== trueType ||
+    node.falseType !== falseType
+    ? updateNode(
+        createConditionalType(checkType, extendsType, trueType, falseType, node.flags, node.start, node.end),
+        node
+      )
+    : node;
 }

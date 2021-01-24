@@ -9,12 +9,18 @@ export interface TrueType extends Node {
   readonly rawValue: string;
 }
 
-export function createTrueType(value: string, rawValue: string, start: number, end: number): TrueType {
+export function createTrueType(
+  value: string,
+  rawValue: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): TrueType {
   return {
     kind: NodeKind.TrueType,
     value,
     rawValue,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,

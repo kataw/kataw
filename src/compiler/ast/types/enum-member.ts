@@ -1,4 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
+import { updateNode } from '../../utils';
 import { Expression, PropertyName } from '../expressions';
 import { EnumMembersList } from './enum-members-list';
 
@@ -14,6 +15,7 @@ export interface EnumMember extends Node {
 export function createEnumMember(
   name: PropertyName,
   initializer: Expression | null,
+  flags: NodeFlags,
   start: number,
   end: number
 ): EnumMember {
@@ -21,7 +23,7 @@ export function createEnumMember(
     kind: NodeKind.EnumMembers,
     name,
     initializer,
-    flags: NodeFlags.None,
+    flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
     parent: null,
@@ -29,4 +31,10 @@ export function createEnumMember(
     start,
     end
   };
+}
+
+export function updateEnumMember(node: EnumMember, name: PropertyName, initializer: Expression | null): EnumMember {
+  return node.name !== name || node.initializer !== initializer
+    ? updateNode(createEnumMember(name, initializer, node.flags, node.start, node.end), node)
+    : node;
 }
