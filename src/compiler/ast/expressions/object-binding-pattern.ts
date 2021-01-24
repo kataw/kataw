@@ -1,5 +1,5 @@
 import { BindingElement } from './binding-element';
-import { VariableDeclaration } from '../declarations/variable-declaration';
+import { VariableDeclaration } from '../statements/variable-declaration';
 import { Parameter } from '.';
 import { BindingPropertyList } from './binding-property-list';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';

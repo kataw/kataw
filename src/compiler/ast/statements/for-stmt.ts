@@ -3,7 +3,7 @@ import { updateNode } from '../../utils';
 
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
-import { VariableDeclarationList } from '../declarations/variable-declarationList';
+import { VariableDeclarationList } from '../statements/variable-declarationList';
 
 /**
  * Represents a `for` statement

@@ -1,10 +1,8 @@
-# 12 ECMAScript Language: Expressions
+# 13 ECMAScript Language: Expressions
 
 ```js
 interface Expression <: Node { }
 ```
-
-## 12.1 Identifiers
 
 ### IdentifierName
 
@@ -57,8 +55,6 @@ interface PrivateIdentifier <: Expression {
   rawText: string;
 }
 ```
-
-## 12.2.4 Literals
 
 ### NumericLiteral
 
@@ -127,7 +123,7 @@ interface RegularExpressionLiteral <: Expression {
 }
 ```
 
-## 12.16 Comma Operator
+## Comma Operator
 
 ```js
 interface CommaOperator  <: Expression {
@@ -138,7 +134,8 @@ interface CommaOperator  <: Expression {
 
 A sequence expression, i.e., a comma-separated sequence of expressions.
 
-## 12.2 Primary Expression and others
+See [13.16](https://tc39.es/ecma262/#sec-comma-operator)
+
 
 ### ThisExpression
 

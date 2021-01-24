@@ -3,7 +3,7 @@ import { updateNode } from '../../utils';
 
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
-import { LexicalDeclaration } from '../declarations/lexical-declaration';
+import { LexicalDeclaration } from '../statements/lexical-declaration';
 import { ForBinding } from './forBinding';
 
 /**

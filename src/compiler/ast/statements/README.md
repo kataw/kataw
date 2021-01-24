@@ -1,4 +1,4 @@
-# 13 ECMAScript Language: Statements and Declarations
+# 14 ECMAScript Language: Statements and Declarations
 
 ```js
 interface Statements <: Node { }
@@ -274,3 +274,98 @@ interface LexicalBinding <: Statements {
 }
 ```
 `exclamation` and `type` is not necessary and is part of `TypeScript`
+
+## AsyncGeneratorDeclaration
+
+```js
+interface AsyncGeneratorDeclaration <: Statements {
+    kind: NodeKind.AsyncGeneratorDeclaration;
+    name: BindingIdentifier;
+    formalParameters: FormalParameterList;
+    contents: FunctionBody;
+    isDeclared: boolean;
+    typeParameters: TypeParameters;
+    type: TypeNode | null;
+}
+```
+
+## AsyncFunctionDeclaration
+
+```js
+interface AsyncFunctionDeclaration <: Statements {
+    kind: NodeKind.AsyncFunctionDeclaration;
+    name: BindingIdentifier;
+    formalParameters: FormalParameterList;
+    contents: FunctionBody;
+    isDeclared: boolean;
+    typeParameters: TypeParameters;
+    type: TypeNode | null;
+}
+```
+
+## GeneratorDeclaration
+
+```js
+interface GeneratorDeclaration <: Statements {
+    kind: NodeKind.GeneratorDeclaration;
+    name: BindingIdentifier;
+    formalParameters: FormalParameterList;
+    contents: FunctionBody;
+    isDeclared: boolean;
+    isAbstract: boolean;
+    typeParameters: TypeParameters;
+    type: TypeNode | null;
+}
+```
+
+## FunctionDeclaration
+
+```js
+interface FunctionDeclaration <: Statements {
+    kind: NodeKind.FunctionDeclaration;
+    name: BindingIdentifier;
+    formalParameters: FormalParameterList;
+    contents: FunctionBody;
+    isDeclared: boolean;
+    typeParameters: TypeParameters;
+    type: TypeNode | null;
+}
+```
+
+## ClassDeclaration
+
+```js
+interface ClassDeclaration <: Statements {
+    kind: NodeKind.ClassDeclaration;
+    name: BindingIdentifier | null;
+    typeParameters: TypeParameters;
+    classHeritage: Expression | null;
+    classElementList: ClassElementList;
+    isDeclared: boolean;
+}
+```
+
+## AbstractClassDeclaration
+
+```js
+interface AbstractClassDeclaration <: Statements {
+    kind: NodeKind.AbstractClassDeclaration;
+    name: BindingIdentifier | null;
+    typeParameters: TypeParameters;
+    classHeritage: Expression | null;
+    classElementList: ClassElementList;
+    isDeclared: boolean;
+}
+```
+
+## LexicalDeclaration
+
+```js
+interface LexicalDeclaration <: Statements {
+    kind: NodeKind.LexicalDeclaration;
+    bindingList: BindingList;
+    isConst: boolean;
+    isDeclared: boolean,
+}
+```
+`isConst` should be set to `true` for lexical `const` declarations

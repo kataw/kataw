@@ -9,6 +9,7 @@ import { NumericLiteral } from './numeric-literal';
 import { BigIntLiteral } from './bigint-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
+import { DecoratorList } from './decorator-list';
 
 export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
 
@@ -18,12 +19,14 @@ export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | Stri
 export interface PropertyDefinition extends Node {
   readonly key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly value: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
+  readonly decorators: DecoratorList;
   readonly accessModifiers: AccessModifiers;
 }
 
 export function createPropertyDefinition(
   key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   value: AssignmentExpression | BindingElement | BindingIdentifier,
+  decorators: DecoratorList,
   accessModifiers: AccessModifiers,
   flags: NodeFlags,
   start: number,
@@ -34,6 +37,7 @@ export function createPropertyDefinition(
     key,
     value,
     accessModifiers,
+    decorators,
     flags,
     intersects: false,
     transformFlags: accessModifiers ? TransformFlags.TypeScript : TransformFlags.None,
@@ -50,6 +54,6 @@ export function updatePropertyDefinition(
   value: AssignmentExpression | BindingElement | BindingIdentifier
 ): PropertyDefinition {
   return node.key !== key || node.value !== value
-    ? updateNode(createPropertyDefinition(key, value, node.accessModifiers, node.flags, node.start, node.end), node)
+    ? updateNode(createPropertyDefinition(key, value, node.decorators, node.accessModifiers, node.flags, node.start, node.end), node)
     : node;
 }

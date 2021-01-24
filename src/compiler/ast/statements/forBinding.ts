@@ -1,7 +1,7 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 
-import { VariableDeclarationList } from '../declarations/variable-declarationList';
+import { VariableDeclarationList } from '../statements/variable-declarationList';
 
 /**
  * ForBinding

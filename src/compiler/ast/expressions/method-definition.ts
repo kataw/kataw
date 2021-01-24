@@ -2,7 +2,7 @@ import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../n
 import { updateNode } from '../../utils';
 import { ObjectLiteral } from './object-literal';
 import { ObjectBindingPattern } from './object-binding-pattern';
-import { ClassDeclaration } from './../declarations/class-declaration';
+import { ClassDeclaration } from '../statements/class-declaration';
 import { ClassExpression } from './class-expr';
 import { MethodName } from '.';
 import { FormalParameter } from './formal-parameter';
