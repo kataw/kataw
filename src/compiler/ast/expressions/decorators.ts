@@ -1,6 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import {  LeftHandSideExpression } from '.';
+import { LeftHandSideExpression } from '.';
 
 /**
  * Decorator
@@ -11,7 +11,7 @@ export interface Decorator extends Node {
 }
 
 export function createDecorator(
-  expression:  LeftHandSideExpression,
+  expression: LeftHandSideExpression,
   flags: NodeFlags,
   start: number,
   end: number
@@ -29,19 +29,8 @@ export function createDecorator(
   };
 }
 
-export function updateDecorator(
-  node: Decorator,
-  expression:  LeftHandSideExpression
-): Decorator {
+export function updateDecorator(node: Decorator, expression: LeftHandSideExpression): Decorator {
   return node.expression !== expression
-    ? updateNode(
-      createDecorator(
-          expression,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
+    ? updateNode(createDecorator(expression, node.flags, node.start, node.end), node)
     : node;
 }

@@ -57,6 +57,8 @@ export function createMethodDefinition(
 
   if (propertyKind & PropertyKind.Generator) transformFlags |= TransformFlags.TypeScript;
 
+  if (propertyKind & PropertyKind.Abstract) flags |= NodeFlags.Abstract;
+
   return {
     kind:
       propertyKind & PropertyKind.Async && propertyKind & PropertyKind.Generator

@@ -28,8 +28,9 @@ export function createClassDeclaration(
   start: number,
   end: number
 ): ClassDeclaration {
+
   return {
-    kind: flags & NodeFlags.Abstract ? NodeKind.AbstractClassDeclaration : NodeKind.ClassDeclaration,
+    kind: NodeKind.ClassDeclaration,
     name,
     typeParameters,
     heritageClauses,
@@ -37,7 +38,8 @@ export function createClassDeclaration(
     decorators,
     flags,
     intersects: false,
-    transformFlags: TransformFlags.ES2015 | (flags & NodeFlags.Abstract ? TransformFlags.TypeScript : TransformFlags.None),
+    transformFlags:
+      TransformFlags.ES2015 | (flags & NodeFlags.Abstract ? TransformFlags.TypeScript : TransformFlags.None),
     parent: null,
     emitNode: null,
     start,
@@ -54,7 +56,7 @@ export function updateClassDeclaration(
   decorators: DecoratorList
 ): ClassDeclaration {
   return (
-    node.name !== name || (node.kind !== NodeKind.AbstractClassDeclaration && node.flags & NodeFlags.Abstract),
+    node.name !== name ||
     node.typeParameters !== typeParameters ||
     node.heritageClauses !== heritageClauses ||
     node.members !== members ||

@@ -245,7 +245,6 @@ export const enum NodeKind {
   IsArrayBindingElement = 1 << 27,
   IsDeclarationBindingElement = 1 << 28,
 
-  AbstractClassDeclaration = 1,
   AnyKeyword = 2,
   ArgumentList = 3,
   ArrayAssignmentPattern = 4,
@@ -493,8 +492,10 @@ export const enum NodeKind {
   Decorator = 243,
   DecoratorList = 244,
   AbstractConstructorType = 245,
+  IntrinsicKeyword = 246,
+
   // unique
-  UniqueIdentifier = 246 | IsIdentifier,
+  UniqueIdentifier = 247 | IsIdentifier,
   // internal
-  PrologueDirective = 247
+  PrologueDirective = 248
 }

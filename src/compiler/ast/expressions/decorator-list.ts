@@ -1,7 +1,7 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import {  LeftHandSideExpression } from '.';
-import {  Decorator } from './decorators';
+import { LeftHandSideExpression } from '.';
+import { Decorator } from './decorators';
 
 /**
  * Decorator list
@@ -12,7 +12,7 @@ export interface DecoratorList extends Node {
 }
 
 export function createDecoratorList(
-  decoratorList:  Decorator[],
+  decoratorList: Decorator[],
   flags: NodeFlags,
   start: number,
   end: number
@@ -30,19 +30,8 @@ export function createDecoratorList(
   };
 }
 
-export function updateDecoratorList(
-  node: DecoratorList,
-  decoratorList:  Decorator[]
-): DecoratorList {
+export function updateDecoratorList(node: DecoratorList, decoratorList: Decorator[]): DecoratorList {
   return node.decoratorList !== decoratorList
-    ? updateNode(
-      createDecoratorList(
-        decoratorList,
-          node.flags,
-          node.start,
-          node.end
-        ),
-        node
-      )
+    ? updateNode(createDecoratorList(decoratorList, node.flags, node.start, node.end), node)
     : node;
 }

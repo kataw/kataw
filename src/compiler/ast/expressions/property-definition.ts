@@ -54,6 +54,9 @@ export function updatePropertyDefinition(
   value: AssignmentExpression | BindingElement | BindingIdentifier
 ): PropertyDefinition {
   return node.key !== key || node.value !== value
-    ? updateNode(createPropertyDefinition(key, value, node.decorators, node.accessModifiers, node.flags, node.start, node.end), node)
+    ? updateNode(
+        createPropertyDefinition(key, value, node.decorators, node.accessModifiers, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }
