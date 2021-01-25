@@ -312,7 +312,6 @@ interface GeneratorDeclaration <: Statements {
     formalParameters: FormalParameterList;
     contents: FunctionBody;
     isDeclared: boolean;
-    isAbstract: boolean;
     typeParameters: TypeParameters;
     type: TypeNode | null;
 }

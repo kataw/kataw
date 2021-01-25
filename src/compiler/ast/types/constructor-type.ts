@@ -10,7 +10,6 @@ import { Parameters } from './parameters';
 
 export interface ConstructorType extends Node {
   readonly accessModifiers: AccessModifiers;
-  readonly isAbstract: boolean;
   readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
@@ -18,7 +17,6 @@ export interface ConstructorType extends Node {
 
 export function createConstructorType(
   accessModifiers: AccessModifiers,
-  isAbstract: boolean,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode,
@@ -27,9 +25,8 @@ export function createConstructorType(
   end: number
 ): ConstructorType {
   return {
-    kind: NodeKind.ConstructorType,
+    kind: flags & NodeFlags.Abstract ? NodeKind.AbstractConstructorType : NodeKind.ConstructorType,
     accessModifiers,
-    isAbstract,
     typeParameters,
     parameters,
     returnType,
@@ -53,7 +50,6 @@ export function updateConstructorType(
     ? updateNode(
         createConstructorType(
           node.accessModifiers,
-          node.isAbstract,
           typeParameters,
           parameters,
           returnType,

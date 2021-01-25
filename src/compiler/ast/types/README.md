@@ -77,7 +77,18 @@ interface ConstructSignatureDeclaration  <: TypeNode {
 interface ConstructorType <: TypeNode {
   kind: NodeKind.ConstructorType;
   accessModifiers: AccessModifiers;
-  isAbstract: boolean;
+  typeParameters: TypeParameters;
+  parameters: Parameters;
+  returnType: TypeNode | null;
+}
+```
+
+### AbstractConstructorType
+
+```js
+interface AbstractConstructorType <: TypeNode {
+  kind: NodeKind.AbstractConstructorType;
+  accessModifiers: AccessModifiers;
   typeParameters: TypeParameters;
   parameters: Parameters;
   returnType: TypeNode | null;

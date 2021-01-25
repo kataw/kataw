@@ -25,12 +25,11 @@ export function createClassDeclaration(
   members: ClassElementList,
   decorators: DecoratorList,
   flags: NodeFlags,
-  isAbstract: boolean,
   start: number,
   end: number
 ): ClassDeclaration {
   return {
-    kind: isAbstract ? NodeKind.AbstractClassDeclaration : NodeKind.ClassDeclaration,
+    kind: flags & NodeFlags.Abstract ? NodeKind.AbstractClassDeclaration : NodeKind.ClassDeclaration,
     name,
     typeParameters,
     heritageClauses,
@@ -38,7 +37,7 @@ export function createClassDeclaration(
     decorators,
     flags,
     intersects: false,
-    transformFlags: TransformFlags.ES2015 | (isAbstract ? TransformFlags.TypeScript : TransformFlags.None),
+    transformFlags: TransformFlags.ES2015 | (flags & NodeFlags.Abstract ? TransformFlags.TypeScript : TransformFlags.None),
     parent: null,
     emitNode: null,
     start,
@@ -48,7 +47,6 @@ export function createClassDeclaration(
 
 export function updateClassDeclaration(
   node: ClassDeclaration,
-  isAbstract: boolean,
   name: BindingIdentifier | null,
   typeParameters: TypeParameters,
   heritageClauses: Expression | null,
@@ -56,9 +54,11 @@ export function updateClassDeclaration(
   decorators: DecoratorList
 ): ClassDeclaration {
   return (
-    node.name !== name || (node.kind !== NodeKind.AbstractClassDeclaration && isAbstract),
-    node.typeParameters !== typeParameters || node.heritageClauses !== heritageClauses || node.members !== members
-    || node.decorators !== decorators
+    node.name !== name || (node.kind !== NodeKind.AbstractClassDeclaration && node.flags & NodeFlags.Abstract),
+    node.typeParameters !== typeParameters ||
+    node.heritageClauses !== heritageClauses ||
+    node.members !== members ||
+    node.decorators !== decorators
       ? updateNode(
           createClassDeclaration(
             name,
@@ -67,7 +67,6 @@ export function updateClassDeclaration(
             members,
             decorators,
             node.flags,
-            isAbstract,
             node.start,
             node.end
           ),

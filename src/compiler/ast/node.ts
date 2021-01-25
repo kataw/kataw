@@ -176,7 +176,9 @@ export const enum NodeFlags {
   /**
    * This node is ambient
    */
-  Ambient = 1 << 26
+  Ambient = 1 << 26,
+
+  Abstract = 1 << 27
 }
 
 export const enum TransformFlags {
@@ -221,7 +223,7 @@ export const enum UniqueIdentifierFlags {
 
 export const enum NodeKind {
   None = 0,
-  IsComments = 1 << 29,
+
   IsLeftHandSideExpression = 1 << 9,
   IsPropertyNameLiteral = 1 << 10,
   IsBlockScope = 1 << 11,
@@ -387,7 +389,7 @@ export const enum NodeKind {
   MethodDefinition = 141 | IsExpression | IsBlockScope | IsMethod,
   MethodSignature = 142,
   MinusType = 143,
-  MultiLine = 144 | IsComments,
+  MultiLine = 144,
   NamedExports = 145,
   NamedImports = 146,
   NamedTupleMember = 147,
@@ -437,7 +439,7 @@ export const enum NodeKind {
   SheBang = 187,
   ShorthandProperty = 188,
   SignatureMember = 189,
-  SingleLine = 190 | IsComments,
+  SingleLine = 190,
   SingleNameBinding = 191,
   SpreadElement = 192 | IsExpression,
   SpreadProperty = 193 | IsExpression,
@@ -490,9 +492,9 @@ export const enum NodeKind {
   ScriptBody = 242,
   Decorator = 243,
   DecoratorList = 244,
-
+  AbstractConstructorType = 245,
   // unique
-  UniqueIdentifier = 245 | IsIdentifier,
+  UniqueIdentifier = 246 | IsIdentifier,
   // internal
-  PrologueDirective = 246
+  PrologueDirective = 247
 }
