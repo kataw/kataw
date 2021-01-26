@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { IdentifierName } from '../expressions/identifier-name';
 import { BindingIdentifier } from '../expressions/binding-identifier';
 import { StringLiteral } from '../expressions/string-literal';

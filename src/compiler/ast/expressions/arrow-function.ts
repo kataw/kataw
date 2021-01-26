@@ -8,7 +8,6 @@ import { ArrowParameters } from './arrow-parameters';
 export interface ArrowFunction extends Node {
   readonly arrowParameters: ArrowParameters;
   readonly contents: Expression | FunctionBody;
-  readonly isParenthesized: boolean;
 }
 
 export function createArrowFunction(
@@ -20,6 +19,7 @@ export function createArrowFunction(
   start: number,
   end: number
 ): ArrowFunction {
+  if (isParenthesized) flags |= NodeFlags.ParenthesizedArrow;
   return {
     kind: isAsync
       ? // https://tc39.es/ecma262/#prod-AsyncArrowFunction
@@ -27,7 +27,6 @@ export function createArrowFunction(
       : // https://tc39.es/ecma262/#prod-ArrowFunction
         NodeKind.ArrowFunction,
     arrowParameters,
-    isParenthesized,
     contents,
     flags,
     intersects: false,
@@ -42,12 +41,13 @@ export function createArrowFunction(
 export function updateArrowFunction(
   node: ArrowFunction,
   isAsync: boolean,
+  isParenthesized: boolean,
   arrowParameters: ArrowParameters,
   contents: Expression | FunctionBody
 ): ArrowFunction {
   return node.arrowParameters !== arrowParameters || node.contents !== contents
     ? updateNode(
-        createArrowFunction(arrowParameters, contents, isAsync, node.isParenthesized, node.flags, node.start, node.end),
+        createArrowFunction(arrowParameters, contents, isAsync, isParenthesized, node.flags, node.start, node.end),
         node
       )
     : node;

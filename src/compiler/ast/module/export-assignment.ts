@@ -2,7 +2,7 @@ import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { Script } from '../script';
 import { Module } from '../module';
 import { Expression } from '../expressions';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 export interface ExportAssignment extends Node {
   readonly expression: Expression;

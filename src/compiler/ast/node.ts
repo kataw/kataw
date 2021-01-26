@@ -41,144 +41,156 @@ export const enum NodeFlags {
    */
   Synthetic = 1 << 2,
   /**
-   * This node has side effects
+   * This node contains '__PROTO___' property
    */
-  HasSideEffects = 1 << 3,
+  HasProto = 1 << 3,
 
   /**
    * This node const either 'let' or 'const' bindings
    */
 
-  BlockScoped = 1 << 5,
+  BlockScoped = 1 << 4,
 
   /**
    * This code contains chained MemberExpression rooted to a pseudo-OptionalExpression
    */
 
-  OptionalChain = 1 << 6,
+  OptionalChain = 1 << 5,
 
   /**
    * This node const numeric literal values
    */
 
-  Scientific = 1 << 7,
+  Scientific = 1 << 6,
 
   /**
    * This node const numeric literal values
    */
 
-  BinaryIntegerLiteral = 1 << 8,
+  BinaryIntegerLiteral = 1 << 7,
 
   /**
    * This node const numeric literal values
    */
 
-  HexIntegerLiteral = 1 << 9,
+  HexIntegerLiteral = 1 << 8,
 
   /**
    * This node const numeric literal values
    */
 
-  OctalIntegerLiteral = 1 << 10,
+  OctalIntegerLiteral = 1 << 9,
 
   /**
    * This node const numeric literal values
    */
 
-  FloatingPointLiteral = 1 << 11,
+  FloatingPointLiteral = 1 << 10,
 
   /**
    * This node const numeric literal values
    */
 
-  ScientificLiteral = 1 << 12,
+  ScientificLiteral = 1 << 11,
 
   /**
    * This node const numeric literal values
    */
 
-  NonDecimalIntegerLiteral = 1 << 13,
+  NonDecimalIntegerLiteral = 1 << 12,
 
   /**
    * This node const numeric literal values
    */
 
-  ImplicitOctal = 1 << 14,
+  ImplicitOctal = 1 << 13,
 
   /**
     This node constains a preceding linebreak
    */
 
-  PrecedingLineBreak = 1 << 15,
+  PrecedingLineBreak = 1 << 14,
 
   /**
    * This node is an async function (initialized by binding)
    */
 
-  HasAsyncFunctions = 1 << 16,
+  HasAsyncFunctions = 1 << 15,
 
   /**
    * This node is in strict mode
    */
 
-  Strict = 1 << 18,
+  Strict = 1 << 16,
 
   /**
    * This node is in module mode
    */
 
-  Module = 1 << 19,
+  Module = 1 << 17,
 
   /**
-   * This node has arange start on same line as range end
+   * This node contains a construcor (Methoddefinition)
    */
 
-  IsEmptyList = 1 << 16,
+  Constructor = 1 << 28,
 
   /**
    * This node has an unterminated string literal or regular expression
    */
-  Unterminated = 1 << 18,
+  Unterminated = 1 << 19,
+
   /**
    * This node contains an invalid escape (template rev.)
    */
-  ContainsInvalidEscape = 1 << 19,
+  ContainsInvalidEscape = 1 << 20,
 
   /**
    * This node contains extended unicode escape
    */
-  ExtendedUnicodeEscape = 1 << 20,
+  ExtendedUnicodeEscape = 1 << 21,
+
   /**
    * This node contains an unicode escapa
    */
-  UnicodeEscape = 1 << 21,
+  UnicodeEscape = 1 << 22,
 
   /**
    * This node has numeric separators
    */
-  ContainsSeparator = 1 << 22,
+  ContainsSeparator = 1 << 23,
 
   /**
    * This node has an string literal starting with single quote
    */
-  SingleQuote = 1 << 23,
+  SingleQuote = 1 << 24,
 
   /**
    * This node has an escaped keyword or identifier
    */
-  EscapedKeywordOrIdentifier = 1 << 24,
+  EscapedKeywordOrIdentifier = 1 << 25,
 
   /**
    * This node has been decalared (Typescript)
    */
-  Declared = 1 << 25,
+  Declared = 1 << 26,
 
   /**
    * This node is ambient
    */
-  Ambient = 1 << 26,
+  Ambient = 1 << 27,
 
-  Abstract = 1 << 27
+  /**
+   * This node is abstract
+   */
+
+  Abstract = 1 << 28,
+
+  /**
+   * This node is an parenthesized arrow
+   */
+
+  ParenthesizedArrow = 1 << 29
 }
 
 export const enum TransformFlags {
@@ -497,5 +509,7 @@ export const enum NodeKind {
   // unique
   UniqueIdentifier = 247 | IsIdentifier,
   // internal
-  PrologueDirective = 248
+  PrologueDirective = 248,
+  ImplementClauses = 249,
+  ImplementClause = 250
 }

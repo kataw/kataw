@@ -4,7 +4,7 @@ import { Expression } from '../expressions';
 import { ImportClause } from './import-clause';
 import { Script } from '../script';
 import { Module } from '../module';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 export interface ImportDeclaration extends Node {
   readonly fromClause: StringLiteral | Expression;

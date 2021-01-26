@@ -59,6 +59,8 @@ export function createMethodDefinition(
 
   if (propertyKind & PropertyKind.Abstract) flags |= NodeFlags.Abstract;
 
+  if (propertyKind & PropertyKind.Constructor) flags |= NodeFlags.Constructor;
+
   return {
     kind:
       propertyKind & PropertyKind.Async && propertyKind & PropertyKind.Generator

@@ -6,12 +6,12 @@ import { Module } from '../module';
 import { Statement } from '../statements';
 import { AssignmentExpression } from '../expressions/assignment-expr';
 import { VariableStatement } from '../statements/variable-stmt';
-import { LexicalDeclaration } from '../declarations/lexical-declaration';
-import { FunctionDeclaration } from '../declarations/function-declaration';
-import { ClassDeclaration } from '../declarations/class-declaration';
+import { LexicalDeclaration } from '../statements/lexical-declaration';
+import { FunctionDeclaration } from '../statements/function-declaration';
+import { ClassDeclaration } from '../statements/class-declaration';
 import { ExportFromClause } from './export-from-clause';
 import { Expression } from '../expressions';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 /** Export declaration */
 export type ExportDeclarations =

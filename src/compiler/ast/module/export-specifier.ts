@@ -2,7 +2,7 @@ import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { IdentifierName } from '../expressions/identifier-name';
 import { StringLiteral } from '../expressions/string-literal';
 import { ImportDeclaration } from './import-declaration';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 
 export interface ExportSpecifier extends Node {
   readonly name: IdentifierName;

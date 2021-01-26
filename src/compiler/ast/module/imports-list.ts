@@ -1,5 +1,5 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
-import { updateNode } from '../../../visitor/common';
+import { updateNode } from '../../utils';
 import { ImportSpecifier } from './import-specifier';
 
 export interface ImportsList extends Node {

@@ -2,9 +2,9 @@ import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { Script } from '../script';
 import { Module } from '../module';
 import { Expression } from '../expressions';
-import { FunctionDeclaration } from '../declarations/function-declaration';
-import { ClassDeclaration } from '../declarations/class-declaration';
-import { updateNode } from '../../../visitor/common';
+import { FunctionDeclaration } from '../statements/function-declaration';
+import { ClassDeclaration } from '../statements/class-declaration';
+import { updateNode } from '../../utils';
 
 export interface ExportDefault extends Node {
   readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
