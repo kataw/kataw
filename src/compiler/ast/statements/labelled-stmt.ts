@@ -1,20 +1,19 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { Statement } from '.';
-import { LabelIdentifier } from '../expressions/labelled-Identifier';
+import { IdentifierReference } from '../expressions/identifier-reference';
 
 /**
  * Labelled statement
  */
 export interface LabelledStatement extends Node {
-  readonly label: LabelIdentifier;
+  readonly label: IdentifierReference;
   readonly statement: Statement;
   readonly isWebCompat: boolean;
 }
 
 export function createLabelledStatement(
-  label: LabelIdentifier,
+  label: IdentifierReference,
   statement: Statement,
   isWebCompat: boolean,
   flags: NodeFlags,
@@ -38,7 +37,7 @@ export function createLabelledStatement(
 
 export function updateLabelledStatement(
   node: LabelledStatement,
-  label: LabelIdentifier,
+  label: IdentifierReference,
   statement: Statement
 ): LabelledStatement {
   return node.label !== label || node.statement !== statement

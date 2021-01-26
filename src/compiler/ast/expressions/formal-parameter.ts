@@ -4,6 +4,7 @@ import { AssignmentExpression } from './assignment-expr';
 import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
 import { BindingIdentifier } from './binding-identifier';
+import { DecoratorList } from './decorator-list';
 import { TypeNode } from '../types';
 
 /**
@@ -16,6 +17,7 @@ export interface FormalParameter extends Node {
   readonly optional: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
+  readonly decorators: DecoratorList | null; // Only for error recovery
   readonly accessModifiers: AccessModifiers;
 }
 
@@ -25,6 +27,7 @@ export function createFormalParameter(
   optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
+  decorators: DecoratorList | null,
   accessModifiers: AccessModifiers,
   flags: NodeFlags,
   start: number,
@@ -37,6 +40,7 @@ export function createFormalParameter(
     optional,
     type,
     initializer,
+    decorators,
     accessModifiers,
     flags,
     intersects: false,
@@ -57,13 +61,15 @@ export function updateFormalParameter(
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
   optional: boolean,
   type: TypeNode | null,
-  initializer: AssignmentExpression | null
+  initializer: AssignmentExpression | null,
+  decorators: DecoratorList
 ): FormalParameter {
   return node.binding !== binding ||
     node.ellipsis !== ellipsis ||
     node.optional !== optional ||
     node.initializer !== initializer ||
-    node.type !== type
+    node.type !== type ||
+    node.decorators !== decorators
     ? updateNode(
         createFormalParameter(
           ellipsis,
@@ -71,6 +77,7 @@ export function updateFormalParameter(
           optional,
           type,
           initializer,
+          decorators,
           node.accessModifiers,
           node.flags,
           node.start,

@@ -5,6 +5,7 @@ import { ClassElementList } from '../expressions/class-element-list';
 import { TypeParameters } from '../types/type-parameter-list';
 import { updateNode } from '../../utils';
 import { DecoratorList } from '../expressions/decorator-list';
+import { ImplementClauses } from '../types/implement-clauses';
 
 /**
  * Class expression.
@@ -12,7 +13,8 @@ import { DecoratorList } from '../expressions/decorator-list';
 export interface ClassDeclaration extends Node {
   readonly name: BindingIdentifier | null;
   readonly typeParameters: TypeParameters;
-  readonly heritageClauses: Expression | null;
+  readonly classHeritage: Expression | null;
+  readonly implementClauses: ImplementClauses;
   readonly members: ClassElementList;
   readonly decorators: DecoratorList;
 }
@@ -21,19 +23,20 @@ export function createClassDeclaration(
   // May be undefined in `export default class { ... }`.
   name: BindingIdentifier | null,
   typeParameters: TypeParameters,
-  heritageClauses: Expression | null,
+  classHeritage: Expression | null,
+  implementClauses: ImplementClauses,
   members: ClassElementList,
   decorators: DecoratorList,
   flags: NodeFlags,
   start: number,
   end: number
 ): ClassDeclaration {
-
   return {
     kind: NodeKind.ClassDeclaration,
     name,
     typeParameters,
-    heritageClauses,
+    classHeritage,
+    implementClauses,
     members,
     decorators,
     flags,
@@ -51,29 +54,30 @@ export function updateClassDeclaration(
   node: ClassDeclaration,
   name: BindingIdentifier | null,
   typeParameters: TypeParameters,
-  heritageClauses: Expression | null,
+  classHeritage: Expression | null,
+  implementClauses: ImplementClauses,
   members: ClassElementList,
   decorators: DecoratorList
 ): ClassDeclaration {
-  return (
-    node.name !== name ||
+  return node.name !== name ||
     node.typeParameters !== typeParameters ||
-    node.heritageClauses !== heritageClauses ||
+    node.classHeritage !== classHeritage ||
+    node.implementClauses !== implementClauses ||
     node.members !== members ||
     node.decorators !== decorators
-      ? updateNode(
-          createClassDeclaration(
-            name,
-            typeParameters,
-            heritageClauses,
-            members,
-            decorators,
-            node.flags,
-            node.start,
-            node.end
-          ),
-          node
-        )
-      : node
-  );
+    ? updateNode(
+        createClassDeclaration(
+          name,
+          typeParameters,
+          classHeritage,
+          implementClauses,
+          members,
+          decorators,
+          node.flags,
+          node.start,
+          node.end
+        ),
+        node
+      )
+    : node;
 }

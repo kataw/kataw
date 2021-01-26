@@ -1,8 +1,6 @@
 import { Expression } from './';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
-import { AssignmentExpression } from './assignment-expr';
 import { BinaryExpression } from './binary-expr';
 
 /**
@@ -10,14 +8,14 @@ import { BinaryExpression } from './binary-expr';
  */
 export interface ConditionalExpression extends Node {
   readonly shortCircuit: Expression;
-  readonly consequent: AssignmentExpression;
-  readonly alternate: AssignmentExpression;
+  readonly consequent: Expression;
+  readonly alternate: Expression;
 }
 
 export function createConditionalExpression(
   shortCircuit: BinaryExpression | Expression,
-  consequent: AssignmentExpression,
-  alternate: AssignmentExpression,
+  consequent: Expression,
+  alternate: Expression,
   flags: NodeFlags,
   start: number,
   end: number
@@ -40,8 +38,8 @@ export function createConditionalExpression(
 export function updateConditionalExpression(
   node: ConditionalExpression,
   shortCircuit: BinaryExpression | Expression,
-  consequent: AssignmentExpression,
-  alternate: AssignmentExpression
+  consequent: Expression,
+  alternate: Expression
 ): ConditionalExpression {
   return node.shortCircuit !== shortCircuit || node.consequent !== consequent || node.alternate !== alternate
     ? updateNode(

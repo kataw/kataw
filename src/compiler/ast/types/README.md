@@ -165,6 +165,24 @@ interface HeritageClauses <: TypeNode {
 }
 ```
 
+### ImplementClause
+
+```js
+interface ImplementClause <: TypeNode {
+  kind: NodeKind.ImplementClause;
+  type: TypeNode;
+}
+```
+
+### ImplementClauses
+
+```js
+interface ImplementClauses <: TypeNode {
+ kind: NodeKind.ImplementClauses;
+ clauses: [ HeritageClause ];
+}
+```
+
 ### ImportType
 
 ```js

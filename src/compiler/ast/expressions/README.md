@@ -36,16 +36,6 @@ interface BindingIdentifier <: Expression {
 }
 ```
 
-### LabelIdentifier
-
-```js
-interface LabelIdentifier <: Expression {
-  kind: NodeKind.LabelIdentifier;
-  text: string;
-  rawText: string;
-}
-```
-
 ### PrivateIdentifier
 
 ```js

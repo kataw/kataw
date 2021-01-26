@@ -223,8 +223,8 @@ interface ReturnStatement <: Statements {
 ```js
 interface LabeledStatement <: Statements {
     kind: NodeKind.LabeledStatement;
-    label: LabelIdentifier;
-    labelledItem: Statement;
+    label: IdentifierReference;
+    statement: Statement;
 }
 ```
 

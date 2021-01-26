@@ -46,7 +46,6 @@ import { TemplateTail } from './template-tail';
 import { NewTarget } from './new-target';
 import { ImportCall } from './import-call';
 import { AssignmentRestElement } from './assignment-rest-element';
-import { LabelIdentifier } from './labelled-Identifier';
 import { ImportMeta } from './import-meta';
 import { PrivateIdentifier } from './private-identifier';
 import { AsExpression } from './as-epr';
@@ -77,7 +76,7 @@ export type MethodName =
   | PrivateIdentifier
   | IdentifierName;
 
-export type Identifiers = IdentifierName | IdentifierReference | LabelIdentifier | BindingIdentifier;
+export type Identifiers = IdentifierName | IdentifierReference | BindingIdentifier;
 
 /**
  * The set of all syntax items which are expressions.
@@ -102,7 +101,6 @@ export type Expression =
   | ArrowFunction
   | AwaitExpression
   | YieldExpression
-  | LabelIdentifier
   | AsExpression
   | NonNullExpression
   | OmittedExpression
