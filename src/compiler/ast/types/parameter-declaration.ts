@@ -1,10 +1,11 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { AssignmentExpression } from '../expressions/assignment-expr';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
 import { BindingIdentifier } from '../expressions/binding-identifier';
 import { TypeNode } from '../types';
+import { AccessModifier } from './access-modifier';
 
 /**
  * ParameterDeclaration
@@ -16,7 +17,7 @@ export interface ParameterDeclaration extends Node {
   readonly optional: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
 }
 
 export function createParameterDeclaration(
@@ -25,7 +26,7 @@ export function createParameterDeclaration(
   optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -37,7 +38,7 @@ export function createParameterDeclaration(
     optional,
     type,
     initializer,
-    accessModifiers,
+    accessModifier,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None),
@@ -54,13 +55,15 @@ export function updateParameterDeclaration(
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
   optional: boolean,
   type: TypeNode | null,
-  initializer: AssignmentExpression | null
+  initializer: AssignmentExpression | null,
+  accessModifier: AccessModifier | null
 ): ParameterDeclaration {
   return node.ellipsis !== ellipsis ||
     node.binding !== binding ||
     node.optional !== optional ||
     node.type !== type ||
-    node.initializer !== initializer
+    node.initializer !== initializer ||
+    node.accessModifier !== accessModifier
     ? updateNode(
         createParameterDeclaration(
           ellipsis,
@@ -68,7 +71,7 @@ export function updateParameterDeclaration(
           optional,
           type,
           initializer,
-          node.accessModifiers,
+          accessModifier,
           node.flags,
           node.start,
           node.end

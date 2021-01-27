@@ -625,3 +625,16 @@ interface VoidKeyword <: TypeNode {
   kind: NodeKind. VoidKeyword;
 }
 ```
+
+### AccessModifier
+
+
+```js
+interface AccessModifier <: TypeNode {
+  kind: NodeKind.Private | NodeKind.Public | NodeKind.Protected;
+}
+```
+
+The `kind` should be either `Protected`, `Private` or `Public`.
+
+

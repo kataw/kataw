@@ -17,11 +17,18 @@ export interface Node {
 }
 
 export const enum AccessModifiers {
-  None = 0,
-  Private = 1 << 0,
-  Public = 1 << 1,
-  Protected = 1 << 2
+  Private = 0,
+  Public = 1,
+  Protected = 2
 }
+
+// Note: this *must* be kept in sync with the enum's order.
+//
+// It exploits the enum value ordering, and it's necessarily a complete and
+// utter hack.
+//
+// All to lower it to a single monomorphic array access.
+export const AccessModifierTypes = [NodeKind.PrivateModifier, NodeKind.PublicModifier, NodeKind.ProtectedModifier];
 
 export const enum NodeFlags {
   /**
@@ -133,7 +140,7 @@ export const enum NodeFlags {
    * This node contains a construcor (Methoddefinition)
    */
 
-  Constructor = 1 << 28,
+  Constructor = 1 << 18,
 
   /**
    * This node has an unterminated string literal or regular expression
@@ -511,5 +518,9 @@ export const enum NodeKind {
   // internal
   PrologueDirective = 248,
   ImplementClauses = 249,
-  ImplementClause = 250
+  ImplementClause = 250,
+
+  PrivateModifier = 251 | IsChildless,
+  ProtectedModifier = 252 | IsChildless,
+  PublicModifier = 253 | IsChildless
 }

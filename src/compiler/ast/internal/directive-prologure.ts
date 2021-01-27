@@ -2,20 +2,16 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { StringLiteral } from '../expressions/string-literal';
 
 /**
- * Prologue directive
+ * Jsx attributes list
  */
 
-  /* @internal */
+/* @internal */
 export interface PrologueDirective extends Node {
   readonly expression: StringLiteral;
 }
 
-  /* @internal */
-export function createPrologueDirective(
-  expression: StringLiteral,
-  start: number,
-  end: number
-): PrologueDirective {
+/* @internal */
+export function createPrologueDirective(expression: StringLiteral, start: number, end: number): PrologueDirective {
   return {
     kind: NodeKind.PrologueDirective,
     expression,

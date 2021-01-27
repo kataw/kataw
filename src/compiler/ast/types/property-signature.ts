@@ -1,7 +1,8 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Expression, PropertyName } from '../expressions';
 import { TypeNode } from './';
+import { AccessModifier } from './access-modifier';
 
 /**
  * PropertySignature
@@ -12,14 +13,14 @@ export interface PropertySignature extends Node {
   readonly optional: boolean;
   readonly type: TypeNode | null;
   readonly readonly: boolean;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly initializer: Expression | null;
 }
 
 export function createPropertySignature(
   name: PropertyName,
   optional: boolean,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   type: TypeNode | null,
   readonly: boolean,
   initializer: Expression | null,
@@ -31,7 +32,7 @@ export function createPropertySignature(
     kind: NodeKind.PropertySignature,
     name,
     optional,
-    accessModifiers,
+    accessModifier,
     type,
     readonly,
     initializer,
@@ -51,18 +52,20 @@ export function updatePropertySignature(
   optional: boolean,
   type: TypeNode | null,
   readonly: boolean,
-  initializer: Expression | null
+  initializer: Expression | null,
+  accessModifier: AccessModifier | null
 ): PropertySignature {
   return node.name !== name ||
     node.optional !== optional ||
     node.type !== type ||
     node.readonly !== readonly ||
+    node.accessModifier !== accessModifier ||
     node.initializer !== initializer
     ? updateNode(
         createPropertySignature(
           name,
           optional,
-          node.accessModifiers,
+          accessModifier,
           type,
           readonly,
           initializer,

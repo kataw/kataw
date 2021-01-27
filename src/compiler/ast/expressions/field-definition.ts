@@ -1,10 +1,11 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { PrivateIdentifier } from './private-identifier';
 import { Expression } from './';
 import { AssignmentExpression } from './assignment-expr';
 import { TypeNode } from '../types';
 import { DecoratorList } from './decorator-list';
+import { AccessModifier } from '../types/access-modifier';
 
 /**
  * FieldDefinition
@@ -16,7 +17,7 @@ export interface FieldDefinition extends Node {
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
   readonly decorators: DecoratorList;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly isStatic: boolean;
 }
 
@@ -27,7 +28,7 @@ export function createFieldDefinition(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   isStatic: boolean,
   flags: NodeFlags,
   start: number,
@@ -41,7 +42,7 @@ export function createFieldDefinition(
     type,
     initializer,
     decorators,
-    accessModifiers,
+    accessModifier,
     isStatic,
     flags,
     intersects: false,
@@ -61,6 +62,7 @@ export function updateFieldDefinition(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList,
+  accessModifier: AccessModifier | null,
   isStatic: boolean
 ): FieldDefinition {
   return node.key !== key ||
@@ -69,6 +71,7 @@ export function updateFieldDefinition(
     node.type !== type ||
     node.initializer !== initializer ||
     node.decorators !== decorators ||
+    node.accessModifier !== accessModifier ||
     node.isStatic !== isStatic
     ? updateNode(
         createFieldDefinition(
@@ -78,7 +81,7 @@ export function updateFieldDefinition(
           type,
           initializer,
           decorators,
-          node.accessModifiers,
+          accessModifier,
           isStatic,
           node.flags,
           node.start,

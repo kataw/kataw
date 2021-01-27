@@ -1,8 +1,8 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { Parameters } from './parameters';
-import { TypeParameters } from './type-parameter-list';
+import { AccessModifier } from './access-modifier';
 
 /**
  * IndexSignature
@@ -12,11 +12,11 @@ export interface IndexSignature extends Node {
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
   readonly readonly: boolean;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
 }
 
 export function createIndexSignature(
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   parameters: Parameters,
   returnType: TypeNode | null,
   readonly: boolean,
@@ -26,7 +26,7 @@ export function createIndexSignature(
 ): IndexSignature {
   return {
     kind: NodeKind.IndexSignature,
-    accessModifiers,
+    accessModifier,
     parameters,
     returnType,
     readonly,
@@ -41,21 +41,14 @@ export function createIndexSignature(
 }
 
 export function updateIndexSignature(
+  accessModifier: AccessModifier | null,
   node: IndexSignature,
   parameters: Parameters,
   returnType: TypeNode | null
 ): IndexSignature {
-  return node.returnType !== returnType || node.parameters !== parameters
+  return node.accessModifier !== accessModifier || node.returnType !== returnType || node.parameters !== parameters
     ? updateNode(
-        createIndexSignature(
-          node.accessModifiers,
-          parameters,
-          returnType,
-          node.readonly,
-          node.flags,
-          node.start,
-          node.end
-        ),
+        createIndexSignature(accessModifier, parameters, returnType, node.readonly, node.flags, node.start, node.end),
         node
       )
     : node;

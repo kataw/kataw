@@ -1,9 +1,10 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { PropertyName } from '../expressions';
 import { TypeNode } from './';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
+import { AccessModifier } from './access-modifier';
 
 /**
  * Method signature
@@ -13,7 +14,7 @@ export interface MethodSignature extends Node {
   readonly name: PropertyName;
   readonly optional: boolean;
   readonly readonly: boolean;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
@@ -23,7 +24,7 @@ export function createMethodSignature(
   name: PropertyName,
   optional: boolean,
   readonly: boolean,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
@@ -36,7 +37,7 @@ export function createMethodSignature(
     name,
     readonly,
     optional,
-    accessModifiers,
+    accessModifier,
     typeParameters,
     parameters,
     returnType,
@@ -51,6 +52,7 @@ export function createMethodSignature(
 }
 
 export function updateMethodSignature(
+  accessModifier: AccessModifier | null,
   node: MethodSignature,
   name: PropertyName,
   typeParameters: TypeParameters,
@@ -60,13 +62,14 @@ export function updateMethodSignature(
   return node.name !== name ||
     node.typeParameters !== typeParameters ||
     node.parameters !== parameters ||
-    node.returnType !== returnType
+    node.returnType !== returnType ||
+    node.accessModifier !== accessModifier
     ? updateNode(
         createMethodSignature(
           name,
           node.optional,
           node.readonly,
-          node.accessModifiers,
+          accessModifier,
           typeParameters,
           parameters,
           returnType,

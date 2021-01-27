@@ -1,10 +1,11 @@
 import { BindingIdentifier } from './binding-identifier';
 import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
+import { AccessModifier } from '../types/access-modifier';
 
 export type ArrowFormals = BindingIdentifier | ArrayBindingPattern | ObjectBindingPattern;
 
@@ -12,7 +13,7 @@ export interface ArrowParameters extends Node {
   readonly typeParameters: TypeParameters;
   readonly elements: readonly ArrowFormals[];
   readonly type: TypeNode | null;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly trailingComma: boolean;
 }
 
@@ -20,7 +21,7 @@ export function createArrowParameters(
   typeParameters: TypeParameters,
   elements: readonly ArrowFormals[],
   type: TypeNode | null,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   trailingComma: boolean,
   flags: NodeFlags,
   start: number,
@@ -31,7 +32,7 @@ export function createArrowParameters(
     typeParameters,
     elements,
     type,
-    accessModifiers,
+    accessModifier,
     trailingComma,
     flags,
     intersects: false,
@@ -47,16 +48,22 @@ export function updateArrowParameters(
   node: ArrowParameters,
   typeParameters: any,
   elements: readonly ArrowFormals[],
-  type: TypeNode | null
+  type: TypeNode | null,
+  accessModifier: AccessModifier | null,
+  trailingComma: boolean
 ): ArrowParameters {
-  return node.typeParameters !== typeParameters || node.elements !== elements || node.type !== type
+  return node.typeParameters !== typeParameters ||
+    node.elements !== elements ||
+    node.type !== type ||
+    node.accessModifier !== accessModifier ||
+    node.trailingComma !== trailingComma
     ? updateNode(
         createArrowParameters(
           typeParameters,
           elements,
           type,
-          node.accessModifiers,
-          node.trailingComma,
+          accessModifier,
+          trailingComma,
           node.flags,
           node.start,
           node.end

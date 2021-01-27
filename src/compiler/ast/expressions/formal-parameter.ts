@@ -6,7 +6,7 @@ import { ObjectBindingPattern } from './object-binding-pattern';
 import { BindingIdentifier } from './binding-identifier';
 import { DecoratorList } from './decorator-list';
 import { TypeNode } from '../types';
-import { AccessModifiers } from '../types/access-modifiers';
+import { AccessModifier } from '../types/access-modifier';
 
 /**
  * Formal parameter
@@ -19,7 +19,7 @@ export interface FormalParameter extends Node {
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
   readonly decorators: DecoratorList | null; // Only for error recovery
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
 }
 
 export function createFormalParameter(
@@ -29,7 +29,7 @@ export function createFormalParameter(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList | null,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -42,13 +42,13 @@ export function createFormalParameter(
     type,
     initializer,
     decorators,
-    accessModifiers,
+    accessModifier,
     flags,
     intersects: false,
     transformFlags:
       TransformFlags.ES2015 |
       (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None) |
-      (accessModifiers ? TransformFlags.TypeScript : TransformFlags.None),
+      (accessModifier ? TransformFlags.TypeScript : TransformFlags.None),
     parent: null,
     emitNode: null,
     start,
@@ -57,20 +57,22 @@ export function createFormalParameter(
 }
 
 export function updateFormalParameter(
-  ellipsis: boolean,
   node: FormalParameter,
+  ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
   optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
-  decorators: DecoratorList
+  decorators: DecoratorList,
+  accessModifier: AccessModifier | null
 ): FormalParameter {
   return node.binding !== binding ||
     node.ellipsis !== ellipsis ||
     node.optional !== optional ||
     node.initializer !== initializer ||
     node.type !== type ||
-    node.decorators !== decorators
+    node.decorators !== decorators ||
+    node.accessModifier !== accessModifier
     ? updateNode(
         createFormalParameter(
           ellipsis,
@@ -79,7 +81,7 @@ export function updateFormalParameter(
           type,
           initializer,
           decorators,
-          node.accessModifiers,
+          accessModifier,
           node.flags,
           node.start,
           node.end

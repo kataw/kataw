@@ -10,7 +10,7 @@ import { BigIntLiteral } from './bigint-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
 import { DecoratorList } from './decorator-list';
-import { AccessModifiers } from '../types/access-modifiers';
+import { AccessModifier } from '../types/access-modifier';
 
 export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
 
@@ -21,14 +21,14 @@ export interface PropertyDefinition extends Node {
   readonly key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly value: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
   readonly decorators: DecoratorList;
-  readonly accessModifiers: AccessModifiers[];
+  readonly accessModifier: AccessModifier | null;
 }
 
 export function createPropertyDefinition(
   key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   value: AssignmentExpression | BindingElement | BindingIdentifier,
   decorators: DecoratorList,
-  accessModifiers: AccessModifiers[],
+  accessModifier: AccessModifier | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -37,11 +37,11 @@ export function createPropertyDefinition(
     kind: NodeKind.PropertyDefinition,
     key,
     value,
-    accessModifiers,
+    accessModifier,
     decorators,
     flags,
     intersects: false,
-    transformFlags: accessModifiers ? TransformFlags.TypeScript : TransformFlags.None,
+    transformFlags: accessModifier ? TransformFlags.TypeScript : TransformFlags.None,
     parent: null,
     emitNode: null,
     start,
@@ -52,11 +52,16 @@ export function createPropertyDefinition(
 export function updatePropertyDefinition(
   node: PropertyDefinition,
   key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
-  value: AssignmentExpression | BindingElement | BindingIdentifier
+  value: AssignmentExpression | BindingElement | BindingIdentifier,
+  decorators: DecoratorList,
+  accessModifier: AccessModifier | null
 ): PropertyDefinition {
-  return node.key !== key || node.value !== value
+  return node.key !== key ||
+    node.value !== value ||
+    node.decorators !== decorators ||
+    node.accessModifier !== accessModifier
     ? updateNode(
-        createPropertyDefinition(key, value, node.decorators, node.accessModifiers, node.flags, node.start, node.end),
+        createPropertyDefinition(key, value, decorators, accessModifier, node.flags, node.start, node.end),
         node
       )
     : node;

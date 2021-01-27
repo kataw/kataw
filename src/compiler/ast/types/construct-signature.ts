@@ -1,8 +1,9 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
+import { AccessModifier } from './access-modifier';
 
 /**
  * ConstructSignature
@@ -10,13 +11,13 @@ import { Parameters } from './parameters';
 
 export interface ConstructSignature extends Node {
   readonly typeParameters: TypeParameters;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createConstructSignature(
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
@@ -26,7 +27,7 @@ export function createConstructSignature(
 ): ConstructSignature {
   return {
     kind: NodeKind.ConstructSignature,
-    accessModifiers,
+    accessModifier,
     typeParameters,
     parameters,
     returnType,
@@ -41,15 +42,19 @@ export function createConstructSignature(
 }
 
 export function updateConstructSignature(
+  accessModifier: AccessModifier | null,
   node: ConstructSignature,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null
 ): ConstructSignature {
-  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+  return node.accessModifier !== accessModifier ||
+    node.typeParameters !== typeParameters ||
+    node.parameters !== parameters ||
+    node.returnType !== returnType
     ? updateNode(
         createConstructSignature(
-          node.accessModifiers,
+          accessModifier,
           typeParameters,
           parameters,
           returnType,

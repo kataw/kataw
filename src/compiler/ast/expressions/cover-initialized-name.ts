@@ -1,4 +1,4 @@
-import { AccessModifiers } from './../types/access-modifiers';
+import { AccessModifier } from '../types/access-modifier';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { AssignmentExpression } from './assignment-expr';
@@ -12,7 +12,7 @@ export interface CoverInitializedName extends Node {
   readonly optional: boolean;
   readonly exclamation: boolean;
   readonly initializer: AssignmentExpression;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
 }
 
 export function createCoverInitializedName(
@@ -20,7 +20,7 @@ export function createCoverInitializedName(
   optional: boolean,
   exclamation: boolean,
   initializer: AssignmentExpression,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -31,7 +31,7 @@ export function createCoverInitializedName(
     optional,
     exclamation,
     initializer,
-    accessModifiers,
+    accessModifier,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
@@ -45,16 +45,19 @@ export function createCoverInitializedName(
 export function updateCoverInitializedName(
   node: CoverInitializedName,
   identifierReference: IdentifierReference,
-  initializer: AssignmentExpression
+  initializer: AssignmentExpression,
+  accessModifier: AccessModifier | null
 ): CoverInitializedName {
-  return node.identifierReference !== identifierReference || node.initializer !== initializer
+  return node.identifierReference !== identifierReference ||
+    node.initializer !== initializer ||
+    node.accessModifier !== accessModifier
     ? updateNode(
         createCoverInitializedName(
           identifierReference,
           node.optional,
           node.exclamation,
           initializer,
-          node.accessModifiers,
+          accessModifier,
           node.flags,
           node.start,
           node.end

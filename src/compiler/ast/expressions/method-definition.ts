@@ -1,4 +1,4 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { ObjectLiteral } from './object-literal';
 import { ObjectBindingPattern } from './object-binding-pattern';
@@ -12,6 +12,7 @@ import { FormalParameterList } from './formal-parameter-list';
 import { TypeParameters } from '../types/type-parameter-list';
 import { TypeNode } from '../types';
 import { DecoratorList } from './decorator-list';
+import { AccessModifier } from '../types/access-modifier';
 
 /**
  * Method definition.
@@ -24,7 +25,7 @@ export interface MethodDefinition extends Node {
   readonly isSetter: boolean;
   readonly contents: FunctionBody | null;
   readonly decorators: DecoratorList;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters;
   readonly type: TypeNode | null;
   /* @internal*/
@@ -37,7 +38,7 @@ export function createMethodDefinition(
   propertySetParameterList: FormalParameter | null,
   uniqueFormalParameters: FormalParameterList | null,
   name: MethodName,
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   type: TypeNode | null,
   contents: FunctionBody | null,
@@ -47,7 +48,7 @@ export function createMethodDefinition(
 ): MethodDefinition {
   let transformFlags = TransformFlags.None;
 
-  if (accessModifiers) transformFlags |= TransformFlags.TypeScript;
+  if (accessModifier) transformFlags |= TransformFlags.TypeScript;
 
   if (typeParameters) transformFlags |= TransformFlags.TypeScript;
 
@@ -82,7 +83,7 @@ export function createMethodDefinition(
     contents,
     decorators,
     type,
-    accessModifiers,
+    accessModifier,
     typeParameters,
     flags,
     intersects: false,
@@ -101,6 +102,7 @@ export function updateMethodDefinition(
   propertySetParameterList: FormalParameter | null,
   uniqueFormalParameters: FormalParameterList | null,
   name: MethodName,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   type: TypeNode | null,
   contents: FunctionBody | null,
@@ -112,6 +114,7 @@ export function updateMethodDefinition(
   return node.propertySetParameterList !== propertySetParameterList ||
     node.uniqueFormalParameters !== uniqueFormalParameters ||
     node.name !== name ||
+    node.accessModifier !== accessModifier ||
     node.typeParameters !== typeParameters ||
     node.type !== type ||
     node.contents !== contents ||
@@ -123,7 +126,7 @@ export function updateMethodDefinition(
           propertySetParameterList,
           uniqueFormalParameters,
           name,
-          node.accessModifiers,
+          accessModifier,
           typeParameters,
           type,
           contents,

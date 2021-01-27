@@ -3,13 +3,11 @@ import { Node, NodeKind, NodeFlags, TransformFlags, UniqueIdentifierFlags } from
 /**
  * Unique identifier
  */
-/* @internal */
 export interface UniqueIdentifier extends Node {
   readonly uniqueFlags: UniqueIdentifierFlags;
   readonly uniqueId: number;
 }
 
-/* @internal */
 export function createUniqueIdentifier(
   uniqueFlags: UniqueIdentifierFlags,
   uniqueId: number,

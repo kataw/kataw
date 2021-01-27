@@ -1,22 +1,23 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { TypeNode } from '.';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
 import { updateNode } from '../../utils';
+import { AccessModifier } from './access-modifier';
 
 /**
  * CallSignature
  */
 
 export interface CallSignature extends Node {
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createCallSignature(
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null,
@@ -26,7 +27,7 @@ export function createCallSignature(
 ): CallSignature {
   return {
     kind: NodeKind.CallSignature,
-    accessModifiers,
+    accessModifier,
     typeParameters,
     parameters,
     returnType,
@@ -42,21 +43,17 @@ export function createCallSignature(
 
 export function updateCallSignature(
   node: CallSignature,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters,
   parameters: Parameters,
   returnType: TypeNode | null
 ): CallSignature {
-  return node.typeParameters !== typeParameters || node.parameters !== parameters || node.returnType !== returnType
+  return node.accessModifier !== accessModifier ||
+    node.typeParameters !== typeParameters ||
+    node.parameters !== parameters ||
+    node.returnType !== returnType
     ? updateNode(
-        createCallSignature(
-          node.accessModifiers,
-          typeParameters,
-          parameters,
-          returnType,
-          node.flags,
-          node.start,
-          node.end
-        ),
+        createCallSignature(accessModifier, typeParameters, parameters, returnType, node.flags, node.start, node.end),
         node
       )
     : node;
