@@ -1,4 +1,4 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { Expression } from '.';
 import { AssignmentExpression } from './assignment-expr';
@@ -10,6 +10,7 @@ import { BigIntLiteral } from './bigint-literal';
 import { StringLiteral } from './string-literal';
 import { ComputedPropertyName } from './computed-property-name';
 import { DecoratorList } from './decorator-list';
+import { AccessModifiers } from '../types/access-modifiers';
 
 export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
 
@@ -20,14 +21,14 @@ export interface PropertyDefinition extends Node {
   readonly key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly value: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
   readonly decorators: DecoratorList;
-  readonly accessModifiers: AccessModifiers;
+  readonly accessModifiers: AccessModifiers[];
 }
 
 export function createPropertyDefinition(
   key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   value: AssignmentExpression | BindingElement | BindingIdentifier,
   decorators: DecoratorList,
-  accessModifiers: AccessModifiers,
+  accessModifiers: AccessModifiers[],
   flags: NodeFlags,
   start: number,
   end: number

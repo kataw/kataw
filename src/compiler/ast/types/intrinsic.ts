@@ -4,7 +4,7 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
  * IntrinsicKeyword
  */
 
-export interface IntrinsicKeyword extends Node {}
+export type IntrinsicKeyword = Node;
 
 export function createIntrinsicKeyword(flags: NodeFlags, start: number, end: number): IntrinsicKeyword {
   return {

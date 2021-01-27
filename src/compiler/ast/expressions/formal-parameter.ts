@@ -1,4 +1,4 @@
-import { Node, NodeKind, NodeFlags, TransformFlags, AccessModifiers } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { AssignmentExpression } from './assignment-expr';
 import { ArrayBindingPattern } from './array-binding-pattern';
@@ -6,6 +6,7 @@ import { ObjectBindingPattern } from './object-binding-pattern';
 import { BindingIdentifier } from './binding-identifier';
 import { DecoratorList } from './decorator-list';
 import { TypeNode } from '../types';
+import { AccessModifiers } from '../types/access-modifiers';
 
 /**
  * Formal parameter
