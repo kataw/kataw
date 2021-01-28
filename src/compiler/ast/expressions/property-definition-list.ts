@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { SpreadProperty } from './spread-property';
 import { IdentifierReference } from './identifier-reference';
 import { CoverInitializedName } from './cover-initialized-name';

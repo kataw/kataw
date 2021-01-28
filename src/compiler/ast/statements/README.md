@@ -57,8 +57,8 @@ A `switch` statement.
 
 ```js
 interface CaseBlock <: Statements {
-    kind: NodeKind.CaseBlock;
-    clauses: [ CaseClause | DefaultClause ];
+  kind: NodeKind.CaseBlock;
+  clauses: [ CaseClause | DefaultClause ];
 }
 ```
 
@@ -66,9 +66,9 @@ interface CaseBlock <: Statements {
 
 ```js
 interface CaseClause <: Statements {
-    kind: NodeKind.CaseClause;
-    expression: Expression;
-    statements: [ Statement ];
+  kind: NodeKind.CaseClause;
+  expression: Expression;
+  statements: [ Statement ];
 }
 ```
 
@@ -76,8 +76,8 @@ interface CaseClause <: Statements {
 
 ```js
 interface DefaultClause <: Statements {
-    kind: NodeKind.DefaultClause;
-    statements: [ Statement ];
+  kind: NodeKind.DefaultClause;
+  statements: [ Statement ];
 }
 ```
 
@@ -85,8 +85,8 @@ interface DefaultClause <: Statements {
 
 ```js
 interface ThrowStatement <: Statements {
-    kind: NodeKind.ThrowStatement;
-    expression: Expression;
+  kind: NodeKind.ThrowStatement;
+  expression: Expression;
 }
 ```
 
@@ -96,10 +96,10 @@ A `throw` statement.
 
 ```js
 interface TryStatement <: Statements {
-    kind: NodeKind.TryStatement;
-    block: BlockStatement;
-    catchClause: CatchClause | null;
-    finallyBlock: BlockStatement;
+  kind: NodeKind.TryStatement;
+  block: BlockStatement;
+  catchClause: CatchClause | null;
+  finallyBlock: BlockStatement;
 }
 ```
 
