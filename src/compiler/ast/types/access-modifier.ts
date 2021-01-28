@@ -7,7 +7,12 @@ import { updateNode } from '../../utils';
 
 export type AccessModifier = Node;
 
-export function createAccessModifier(accessModifiers: AccessModifiers, flags: NodeFlags, start: number, end: number): any {
+export function createAccessModifier(
+  accessModifiers: AccessModifiers,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): any {
   return {
     kind: AccessModifierTypes[accessModifiers],
     flags,

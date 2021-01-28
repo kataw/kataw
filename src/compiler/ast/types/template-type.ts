@@ -1,26 +1,28 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { TypeNode } from '.';
+import { TemplateLiteralTypeSpan } from './template-type-span';
+import { updateNode } from '../../utils';
+import { TemplateTail } from '../expressions/template-tail';
 
 /**
- * TemplateType
+ * TemplateLiteralType
  */
 
-export interface TemplateType extends Node {
-  readonly type: TypeNode;
-  readonly literal: any;
+export interface TemplateLiteralType extends Node {
+  readonly spans: TemplateLiteralTypeSpan[];
+  readonly tail: TemplateTail;
 }
 
-export function createTemplateType(
-  type: TypeNode,
-  literal: any,
+export function createTemplateLiteralType(
+  spans: TemplateLiteralTypeSpan[],
+  tail: TemplateTail,
   flags: NodeFlags,
   start: number,
   end: number
-): TemplateType {
+): TemplateLiteralType {
   return {
     kind: NodeKind.TemplateType,
-    type,
-    literal,
+    spans,
+    tail,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -29,4 +31,14 @@ export function createTemplateType(
     start,
     end
   };
+}
+
+export function updateTemplateLiteralType(
+  node: TemplateLiteralType,
+  spans: TemplateLiteralTypeSpan[],
+  tail: TemplateTail
+): TemplateLiteralType {
+  return node.spans !== spans || node.tail !== tail
+    ? updateNode(createTemplateLiteralType(spans, tail, node.flags, node.start, node.end), node)
+    : node;
 }

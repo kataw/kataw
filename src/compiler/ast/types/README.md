@@ -458,8 +458,19 @@ interface SymbolKeyword <: TypeNode {
 ```js
 interface TemplateType <: TypeNode {
   kind: NodeKind.TemplateType;
-  type: TypeNode;
-  literal: any;
+  spans: TemplateTypeSpan[];
+  tail: TemplateTail;
+}
+```
+
+### TemplateTypeSpan
+
+```js
+interface TemplateTypeSpan <: TypeNode {
+  kind: NodeKind.TemplateTypeSpan;
+  type: TypeNode,
+  rawText: string,
+  text: string,
 }
 ```
 

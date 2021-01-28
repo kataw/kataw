@@ -1,7 +1,6 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import { ObjectTypeMembers } from './object-type-members';
-import { UnaryExpression } from '../expressions/unary-expr';
+import { Expression } from '../expressions';
 import { TypeNode } from '.';
 
 /**
@@ -10,12 +9,12 @@ import { TypeNode } from '.';
 
 export interface TypeAssertion extends Node {
   readonly type: TypeNode;
-  readonly expression: UnaryExpression;
+  readonly expression: Expression;
 }
 
 export function createTypeAssertion(
   type: TypeNode,
-  expression: UnaryExpression,
+  expression: Expression,
   flags: NodeFlags,
   start: number,
   end: number
@@ -34,7 +33,7 @@ export function createTypeAssertion(
   };
 }
 
-export function updateTypeAssertion(node: TypeAssertion, type: TypeNode, expression: UnaryExpression): TypeAssertion {
+export function updateTypeAssertion(node: TypeAssertion, type: TypeNode, expression: Expression): TypeAssertion {
   return node.type !== type || node.expression !== expression
     ? updateNode(createTypeAssertion(type, expression, node.flags, node.start, node.end), node)
     : node;
