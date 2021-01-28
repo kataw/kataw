@@ -1,6 +1,6 @@
 import { NodeKind, Node, NodeFlags, TransformFlags } from './node';
 import { Diagnostic } from '../diagnostics/diagnostic';
-import { updateNode } from '../../visitor/common';
+import { updateNode } from '../utils';
 import { ModuleBody } from './moduleBody';
 
 /**
@@ -43,8 +43,6 @@ export function createModule(
 
 export function updateModule(node: Module, moduleBody: ModuleBody): Module {
   return node.moduleBody !== moduleBody
-    ? updateNode(createModule(node.source, node.filename, moduleBody, node.jsx, node.diagnostics),
-        node
-      )
+    ? updateNode(createModule(node.source, node.filename, moduleBody, node.jsx, node.diagnostics), node)
     : node;
 }

@@ -264,7 +264,7 @@ export const enum NodeKind {
   IsArrayBindingElement = 1 << 27,
   IsDeclarationBindingElement = 1 << 28,
 
-  AnyKeyword = 2,
+  AnyKeyword = 2 | IsChildless,
   ArgumentList = 3,
   ArrayAssignmentPattern = 4,
   ArrayBindingPattern = 5 | IsBindingPattern,
@@ -277,7 +277,6 @@ export const enum NodeKind {
   AssignToken = 12,
   AssignmentElement = 13,
   AssignmentExpression = 14 | IsExpression,
-  AssignmentRestElement = 15,
   AssignmentRestProperty = 16,
   AsyncArrowFunction = 17,
   AsyncFunctionDeclaration = 18 | IsFunctionDeclaration | IsAsync | IsBlockScope,
@@ -330,7 +329,6 @@ export const enum NodeKind {
   ElementAccessChain = 65 | IsExpression,
   ElementAccessExpression = 66 | IsExpression | IsElementOrPropertyAccess | IsLeftHandSideExpression,
   ElementList = 67 | IsExpression,
-  Elison = 68 | IsExpression | IsChildless | IsArrayBindingElement,
   EmptyStatement = 70 | IsChildless | IsStatement,
   EnumDeclaration = 71,
   EnumMembers = 72,
@@ -411,7 +409,7 @@ export const enum NodeKind {
   NamedExports = 145,
   NamedImports = 146,
   NamedTupleMember = 147,
-  NeverKeyword = 148,
+  NeverKeyword = 148 | IsChildless,
   NewExpression = 149 | IsExpression | IsLeftHandSideExpression,
   NewTarget = 150 | IsChildless | IsLeftHandSideExpression,
   NonNullExpression = 151 | IsExpression | IsLeftHandSideExpression,
@@ -423,7 +421,7 @@ export const enum NodeKind {
   NumericLiteral = 157 | IsExpression | IsChildless | IsPropertyNameLiteral | IsLeftHandSideExpression,
   ObjectAssignmentPattern = 158,
   ObjectBindingPattern = 159 | IsBindingPattern,
-  ObjectKeyword = 160,
+  ObjectKeyword = 160 | IsChildless,
   ObjectLiteral = 161 |
     IsArrayOrObjectLiteral |
     IsObjectLiteralOrClassExpression |
@@ -461,7 +459,7 @@ export const enum NodeKind {
   SingleNameBinding = 191,
   SpreadElement = 192 | IsExpression,
   SpreadProperty = 193 | IsExpression,
-  StringKeyword = 194,
+  StringKeyword = 194 | IsChildless,
   StringLiteral = 195 | IsExpression | IsPropertyNameLiteral | IsLeftHandSideExpression,
   StringType = 196,
   Super = 197 | IsExpression | IsChildless | IsLeftHandSideExpression,
@@ -493,13 +491,13 @@ export const enum NodeKind {
   TypeReference = 225,
   TypeofKeyword = 226,
   UnaryExpression = 227 | IsExpression,
-  UndefinedKeyword = 228,
+  UndefinedKeyword = 228 | IsChildless,
   UnionType = 229,
-  UnknownKeyword = 230,
+  UnknownKeyword = 230 | IsChildless,
   VariableDeclaration = 231,
   VariableDeclarationList = 232,
   VariableStatement = 233 | IsStatement,
-  VoidKeyword = 234,
+  VoidKeyword = 234 | IsChildless,
   WhileStatement = 235 | IsStatement,
   WithStatement = 236 | IsStatement,
   YieldExpression = 237 | IsExpression,
@@ -522,5 +520,6 @@ export const enum NodeKind {
 
   PrivateModifier = 251 | IsChildless,
   ProtectedModifier = 252 | IsChildless,
-  PublicModifier = 253 | IsChildless
+  PublicModifier = 253 | IsChildless,
+  TemplateTypeSpan = 254
 }

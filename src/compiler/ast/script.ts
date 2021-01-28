@@ -1,7 +1,7 @@
 import { ScriptBody } from './scriptBody';
 import { NodeKind, Node, NodeFlags, TransformFlags } from './node';
 import { Diagnostic } from '../diagnostics/diagnostic';
-import { updateNode } from '../../visitor/common';
+import { updateNode } from '../utils';
 
 /**
  * A top level node which contains the list of statements in a program,
@@ -43,8 +43,6 @@ export function createScript(
 
 export function updateScript(node: Script, scriptBody: ScriptBody): Script {
   return node.scriptBody !== scriptBody
-    ? updateNode(createScript(node.source, node.filename, scriptBody, node.jsx, node.diagnostics),
-        node
-      )
+    ? updateNode(createScript(node.source, node.filename, scriptBody, node.jsx, node.diagnostics), node)
     : node;
 }

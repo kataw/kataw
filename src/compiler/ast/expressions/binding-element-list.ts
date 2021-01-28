@@ -1,15 +1,14 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { BindingElement } from './binding-element';
-import { Elison } from './elison';
+import { OmittedExpression } from './omitted-expr';
 import { ArrayBindingPattern } from './array-binding-pattern';
 
 /**
  * BindingElementList
  */
 
-export type BindingListElements = Elison | BindingElement;
+export type BindingListElements = OmittedExpression | BindingElement;
 
 export interface BindingElementList extends Node {
   readonly elements: BindingListElements[];

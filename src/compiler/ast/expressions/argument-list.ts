@@ -1,10 +1,9 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
-import { AssignmentRestElement } from './assignment-rest-element';
+import { SpreadElement } from './spread-element';
 import { AssignmentExpression } from './assignment-expr';
 
-export type ArgumentListElement = AssignmentRestElement | AssignmentExpression;
+export type ArgumentListElement = SpreadElement | AssignmentExpression;
 
 /**
  * Argument list

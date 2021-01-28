@@ -1,6 +1,6 @@
 import { NodeKind, Node, NodeFlags, TransformFlags } from './node';
 import { Statement } from './statements';
-import { updateNode } from '../../visitor/common';
+import { updateNode } from '../utils';
 
 /**
  * A top level node which contains the list of statements in a program,
@@ -10,12 +10,7 @@ export interface ScriptBody extends Node {
   readonly statements: Statement[];
 }
 
-export function createScriptBody(
-  statements: Statement[],
-  flags: NodeFlags,
-  start: number,
-  end: number
-): ScriptBody {
+export function createScriptBody(statements: Statement[], flags: NodeFlags, start: number, end: number): ScriptBody {
   return {
     kind: NodeKind.ScriptBody,
     statements,
@@ -31,9 +26,6 @@ export function createScriptBody(
 
 export function updateScriptBody(node: ScriptBody, statements: Statement[]): ScriptBody {
   return node.statements !== statements
-    ? updateNode(
-      createScriptBody(statements, node.flags, node.start, node.end),
-        node
-      )
+    ? updateNode(createScriptBody(statements, node.flags, node.start, node.end), node)
     : node;
 }

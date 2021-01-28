@@ -32,7 +32,6 @@ import { ArrayBindingPattern } from './array-binding-pattern';
 import { BindingElement } from './binding-element';
 import { AwaitExpression } from './await-expr';
 import { Super } from './super';
-import { Elison } from './elison';
 import { CoverInitializedName } from './cover-initialized-name';
 import { YieldExpression } from './yield-expr';
 import { NumericLiteral } from './numeric-literal';
@@ -45,7 +44,6 @@ import { TemplateSpan } from './template-span';
 import { TemplateTail } from './template-tail';
 import { NewTarget } from './new-target';
 import { ImportCall } from './import-call';
-import { AssignmentRestElement } from './assignment-rest-element';
 import { ImportMeta } from './import-meta';
 import { PrivateIdentifier } from './private-identifier';
 import { AsExpression } from './as-epr';
@@ -97,7 +95,6 @@ export type Expression =
   | ObjectLiteral
   | MethodDefinition
   | FunctionExpression
-  | Elison
   | ArrowFunction
   | AwaitExpression
   | YieldExpression
@@ -138,7 +135,6 @@ export type LeftHandSideExpression =
   | NewTarget
   | PrivateIdentifier
   | ImportCall
-  | AssignmentRestElement
   | ComputedPropertyName
   | ImportMeta
   | NumericLiteral
