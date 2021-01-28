@@ -1,5 +1,4 @@
-import { Node, NodeFlags, NodeKind, TransformFlags, AccessModifiers, AccessModifierTypes } from '../node';
-import { updateNode } from '../../utils';
+import { Node, NodeFlags, TransformFlags, AccessModifiers, AccessModifierTypes } from '../node';
 
 /**
  * AccessModifier
@@ -8,13 +7,13 @@ import { updateNode } from '../../utils';
 export type AccessModifier = Node;
 
 export function createAccessModifier(
-  accessModifiers: AccessModifiers,
+  accessModifier: AccessModifiers,
   flags: NodeFlags,
   start: number,
   end: number
 ): any {
   return {
-    kind: AccessModifierTypes[accessModifiers],
+    kind: AccessModifierTypes[accessModifier],
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
