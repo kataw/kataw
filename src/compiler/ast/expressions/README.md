@@ -866,7 +866,7 @@ interface PostfixUpdateExpression <: Expression {
 ```js
 interface ObjectLiteral <: Expression {
   kind: NodeKind.ObjectLiteral;
-  propertyDefinitionList: PropertyDefinitionList;
+  propertyList: PropertyDefinitionList;
 }
 ```
 
@@ -881,12 +881,24 @@ interface PropertyDefinitionList <: Expression {
 }
 ```
 
+### PropertyDefinition
+
+```js
+interface PropertyDefinition <: Expression {
+  kind: NodeKind.PropertyDefinition;
+  left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
+  right: AssignmentExpression | BindingElement | BindingIdentifier,
+  decorators: DecoratorList,
+  accessModifier: AccessModifier | null,
+}
+```
+
 ### ObjectBindingPattern
 
 ```js
 interface ObjectBindingPattern <: Expression {
   kind: NodeKind.ObjectBindingPattern;
-  bindingPropertyList: BindingPropertyList;
+  propertyList: BindingPropertyList;
 }
 ```
 

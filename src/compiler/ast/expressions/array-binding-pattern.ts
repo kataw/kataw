@@ -7,18 +7,18 @@ import { BindingElementList } from './binding-element-list';
  * Array binding pattern
  */
 export interface ArrayBindingPattern extends Node {
-  readonly bindingElementList: BindingElementList;
+  readonly elementList: BindingElementList;
 }
 
 export function createArrayBindingPattern(
-  bindingElementList: BindingElementList,
+  elementList: BindingElementList,
   flags: NodeFlags,
   start: number,
   end: number
 ): ArrayBindingPattern {
   return {
     kind: NodeKind.ArrayBindingPattern,
-    bindingElementList,
+    elementList,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
@@ -31,9 +31,9 @@ export function createArrayBindingPattern(
 
 export function updateArrayBindingPattern(
   node: ArrayBindingPattern,
-  bindingElementList: BindingElementList
+  elementList: BindingElementList
 ): ArrayBindingPattern {
-  return node.bindingElementList !== bindingElementList
-    ? updateNode(createArrayBindingPattern(bindingElementList, node.flags, node.start, node.end), node)
+  return node.elementList !== elementList
+    ? updateNode(createArrayBindingPattern(elementList, node.flags, node.start, node.end), node)
     : node;
 }

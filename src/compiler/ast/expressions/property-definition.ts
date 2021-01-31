@@ -18,15 +18,15 @@ export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | Stri
  * Property name
  */
 export interface PropertyDefinition extends Node {
-  readonly key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
-  readonly value: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
+  readonly left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
+  readonly right: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
   readonly decorators: DecoratorList;
   readonly accessModifier: AccessModifier | null;
 }
 
 export function createPropertyDefinition(
-  key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
-  value: AssignmentExpression | BindingElement | BindingIdentifier,
+  left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
+  right: AssignmentExpression | BindingElement | BindingIdentifier,
   decorators: DecoratorList,
   accessModifier: AccessModifier | null,
   flags: NodeFlags,
@@ -35,8 +35,8 @@ export function createPropertyDefinition(
 ): PropertyDefinition {
   return {
     kind: NodeKind.PropertyDefinition,
-    key,
-    value,
+    left,
+    right,
     accessModifier,
     decorators,
     flags,
@@ -51,17 +51,17 @@ export function createPropertyDefinition(
 
 export function updatePropertyDefinition(
   node: PropertyDefinition,
-  key: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
-  value: AssignmentExpression | BindingElement | BindingIdentifier,
+  left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
+  right: AssignmentExpression | BindingElement | BindingIdentifier,
   decorators: DecoratorList,
   accessModifier: AccessModifier | null
 ): PropertyDefinition {
-  return node.key !== key ||
-    node.value !== value ||
+  return node.left !== left ||
+    node.right !== right ||
     node.decorators !== decorators ||
     node.accessModifier !== accessModifier
     ? updateNode(
-        createPropertyDefinition(key, value, decorators, accessModifier, node.flags, node.start, node.end),
+        createPropertyDefinition(left, right, decorators, accessModifier, node.flags, node.start, node.end),
         node
       )
     : node;

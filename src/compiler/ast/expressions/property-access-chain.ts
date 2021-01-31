@@ -12,12 +12,12 @@ import { ElementAccessChain } from './element-access-chain';
  */
 export interface PropertyAccessChain extends Node {
   readonly chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
-  readonly expression: Expression | IdentifierName | PrivateIdentifier | null;
+  readonly expression: IdentifierName | PrivateIdentifier;
 }
 
 export function createPropertyAccessChain(
   chain: ElementAccessChain | PropertyAccessChain | CallChain | null,
-  expression: Expression | IdentifierName | PrivateIdentifier | null,
+  expression: IdentifierName | PrivateIdentifier,
   flags: NodeFlags,
   start: number,
   end: number
@@ -39,7 +39,7 @@ export function createPropertyAccessChain(
 export function updatePropertyAccessChain(
   node: PropertyAccessChain,
   chain: PropertyAccessChain | ElementAccessChain | CallChain | null,
-  expression: Expression | IdentifierName | PrivateIdentifier | null
+  expression: IdentifierName | PrivateIdentifier
 ): PropertyAccessChain {
   return node.chain !== chain || node.expression !== expression
     ? updateNode(createPropertyAccessChain(chain, expression, node.flags, node.start, node.end), node)

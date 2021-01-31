@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { BindingProperty } from './binding-property';
 import { BindingElement } from './binding-element';
 

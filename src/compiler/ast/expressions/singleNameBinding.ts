@@ -7,14 +7,14 @@ import { BindingIdentifier } from './binding-identifier';
  */
 export interface SingleNameBinding extends Node {
   readonly ellipsis: boolean;
-  readonly binding: BindingIdentifier;
-  readonly initializer: AssignmentExpression | null;
+  readonly left: BindingIdentifier;
+  readonly right: AssignmentExpression | null;
 }
 
 export function createSingleNameBinding(
   ellipsis: boolean,
-  binding: BindingIdentifier,
-  initializer: AssignmentExpression | null,
+  left: BindingIdentifier,
+  right: AssignmentExpression | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -22,8 +22,8 @@ export function createSingleNameBinding(
   return {
     kind: NodeKind.SingleNameBinding,
     ellipsis,
-    binding,
-    initializer,
+    left,
+    right,
     flags,
     intersects: false,
     transformFlags: TransformFlags.BindingPattern,
@@ -37,10 +37,10 @@ export function createSingleNameBinding(
 export function updateSingleNameBinding(
   ellipsis: boolean,
   node: SingleNameBinding,
-  binding: BindingIdentifier,
-  initializer: AssignmentExpression | null
+  left: BindingIdentifier,
+  right: AssignmentExpression | null
 ): SingleNameBinding {
-  return node.ellipsis !== ellipsis || node.binding !== binding || node.binding !== binding
-    ? updateNode(createSingleNameBinding(ellipsis, binding, initializer, node.flags, node.start, node.end), node)
+  return node.ellipsis !== ellipsis || node.left !== left || node.right !== right
+    ? updateNode(createSingleNameBinding(ellipsis, left, right, node.flags, node.start, node.end), node)
     : node;
 }

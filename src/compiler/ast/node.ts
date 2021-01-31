@@ -409,7 +409,6 @@ export const enum NodeKind {
   LexicalBinding = 141,
   LexicalDeclaration = 142,
   MappedType = 143,
-  MemberAccessChain = 144 | IsExpression,
   MemberExpression = 145 | IsExpression,
   MethodDefinition = 146 | IsExpression | IsBlockScope | IsMethod,
   MethodSignature = 147,
@@ -519,5 +518,6 @@ export const enum NodeKind {
   VoidKeyword = 246 | IsChildless,
   WhileStatement = 247 | IsStatement,
   WithStatement = 248 | IsStatement,
-  YieldExpression = 249 | IsExpression
+  YieldExpression = 249 | IsExpression,
+  DummyIdentifier = 250 | IsIdentifier
 }

@@ -15,18 +15,18 @@ import { PropertyDefinitionList } from './property-definition-list';
 export type Properties = IdentifierReference | CoverInitializedName | MethodDefinition | SpreadProperty; // [MODIFIED]
 
 export interface ObjectLiteral extends Node {
-  readonly propertyDefinitionList: PropertyDefinitionList;
+  readonly propertyList: PropertyDefinitionList;
 }
 
 export function createObjectLiteral(
-  propertyDefinitionList: PropertyDefinitionList,
+  propertyList: PropertyDefinitionList,
   flags: NodeFlags,
   start: number,
   end: number
 ): ObjectLiteral {
   return {
     kind: NodeKind.ObjectLiteral,
-    propertyDefinitionList,
+    propertyList,
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
@@ -41,7 +41,7 @@ export function updateObjectLiteral(
   node: ObjectLiteral,
   propertyDefinitionList: PropertyDefinitionList
 ): ObjectLiteral {
-  return node.propertyDefinitionList !== propertyDefinitionList
+  return node.propertyList !== propertyDefinitionList
     ? updateNode(createObjectLiteral(propertyDefinitionList, node.flags, node.start, node.end), node)
     : node;
 }

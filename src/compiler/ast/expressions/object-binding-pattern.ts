@@ -4,27 +4,26 @@ import { Parameter } from '.';
 import { BindingPropertyList } from './binding-property-list';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { ParameterDeclaration } from '../types/parameter-declaration';
 
 /**
  * Object binding pattern.
  */
 export interface ObjectBindingPattern extends Node {
-  readonly bindingPropertyList: BindingPropertyList;
+  readonly propertyList: BindingPropertyList;
   /* @internal */
   readonly parent: BindingElement | VariableDeclaration | Parameter | ParameterDeclaration | null;
 }
 
 export function createObjectBindingPattern(
-  bindingPropertyList: BindingPropertyList,
+  propertyList: BindingPropertyList,
   flags: NodeFlags | NodeFlags,
   start: number,
   end: number
 ): ObjectBindingPattern {
   return {
     kind: NodeKind.ObjectBindingPattern,
-    bindingPropertyList,
+    propertyList,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
@@ -37,9 +36,9 @@ export function createObjectBindingPattern(
 
 export function updateObjectBindingPattern(
   node: ObjectBindingPattern,
-  bindingPropertyList: BindingPropertyList
+  propertyList: BindingPropertyList
 ): ObjectBindingPattern {
-  return node.bindingPropertyList !== bindingPropertyList
-    ? updateNode(createObjectBindingPattern(bindingPropertyList, node.flags, node.start, node.end), node)
+  return node.propertyList !== propertyList
+    ? updateNode(createObjectBindingPattern(propertyList, node.flags, node.start, node.end), node)
     : node;
 }
