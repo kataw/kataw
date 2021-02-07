@@ -11,7 +11,7 @@ import { ObjectTypeMembers } from './object-type-members';
 
 export interface InterfaceDeclaration extends Node {
   readonly name: string | IdentifierReference;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly heritageClauses: HeritageClauses | null;
   readonly objectTypeMembers: ObjectTypeMembers;
   readonly isExported: boolean;
@@ -19,7 +19,7 @@ export interface InterfaceDeclaration extends Node {
 
 export function createInterfaceDeclaration(
   name: IdentifierReference,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   heritageClauses: HeritageClauses | null,
   objectTypeMembers: ObjectTypeMembers,
   isExported: boolean,
@@ -47,7 +47,7 @@ export function createInterfaceDeclaration(
 export function updateInterfaceDeclaration(
   node: InterfaceDeclaration,
   name: IdentifierReference,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   heritageClauses: HeritageClauses | null,
   objectTypeMembers: ObjectTypeMembers
 ): InterfaceDeclaration {

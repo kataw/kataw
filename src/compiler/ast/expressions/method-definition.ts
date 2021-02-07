@@ -26,7 +26,7 @@ export interface MethodDefinition extends Node {
   readonly contents: FunctionBody | null;
   readonly decorators: DecoratorList;
   readonly accessModifier: AccessModifier | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly type: TypeNode | null;
   /* @internal*/
   readonly parent: ClassExpression | ClassDeclaration | ObjectBindingPattern | ObjectLiteral | null;
@@ -39,7 +39,7 @@ export function createMethodDefinition(
   uniqueFormalParameters: FormalParameterList | null,
   name: MethodName,
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null,
   contents: FunctionBody | null,
   decorators: DecoratorList,
@@ -103,7 +103,7 @@ export function updateMethodDefinition(
   uniqueFormalParameters: FormalParameterList | null,
   name: MethodName,
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null,
   contents: FunctionBody | null,
   decorators: DecoratorList

@@ -7,12 +7,12 @@ import { TypeArguments } from '../types/type-arguments';
  * Import call
  */
 export interface ImportCall extends Node {
-  readonly typeArguments: TypeArguments;
+  readonly typeArguments: TypeArguments | null;
   readonly expression: Expression;
 }
 
 export function createImportCall(
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   expression: Expression,
   flags: NodeFlags,
   start: number,
@@ -31,7 +31,11 @@ export function createImportCall(
     end
   };
 }
-export function updateImportCall(node: ImportCall, expression: Expression, typeArguments: TypeArguments): ImportCall {
+export function updateImportCall(
+  node: ImportCall,
+  expression: Expression,
+  typeArguments: TypeArguments | null
+): ImportCall {
   return node.expression !== expression || node.typeArguments !== typeArguments
     ? updateNode(createImportCall(typeArguments, expression, node.flags, node.start, node.end), node)
     : node;

@@ -9,13 +9,13 @@ import { Parameters } from './parameters';
  */
 
 export interface FunctionType extends Node {
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createFunctionType(
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null,
   flags: NodeFlags,
@@ -39,7 +39,7 @@ export function createFunctionType(
 
 export function updateFunctionType(
   node: FunctionType,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): FunctionType {

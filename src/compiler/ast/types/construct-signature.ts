@@ -10,7 +10,7 @@ import { AccessModifier } from './access-modifier';
  */
 
 export interface ConstructSignature extends Node {
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly accessModifier: AccessModifier | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
@@ -18,7 +18,7 @@ export interface ConstructSignature extends Node {
 
 export function createConstructSignature(
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null,
   flags: NodeFlags,
@@ -44,7 +44,7 @@ export function createConstructSignature(
 export function updateConstructSignature(
   accessModifier: AccessModifier | null,
   node: ConstructSignature,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): ConstructSignature {

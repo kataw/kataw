@@ -15,7 +15,7 @@ export interface MethodSignature extends Node {
   readonly optional: boolean;
   readonly readonly: boolean;
   readonly accessModifier: AccessModifier | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
@@ -25,7 +25,7 @@ export function createMethodSignature(
   optional: boolean,
   readonly: boolean,
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null,
   flags: NodeFlags,
@@ -55,7 +55,7 @@ export function updateMethodSignature(
   accessModifier: AccessModifier | null,
   node: MethodSignature,
   name: PropertyName,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): MethodSignature {

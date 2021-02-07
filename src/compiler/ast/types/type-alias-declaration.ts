@@ -11,14 +11,14 @@ import { TypeParameters } from './type-parameter-list';
 export interface TypeAliasDeclaration extends Node {
   readonly name: IdentifierReference;
   readonly type: TypeNode;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly isExported: boolean;
 }
 
 export function createTypeAliasDeclaration(
   name: IdentifierReference,
   type: TypeNode,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   isExported: boolean,
   flags: NodeFlags,
   start: number,
@@ -44,7 +44,7 @@ export function updateTypeAliasDeclaration(
   node: TypeAliasDeclaration,
   name: IdentifierReference,
   type: TypeNode,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   isExported: boolean
 ): TypeAliasDeclaration {
   return node.name !== name ||

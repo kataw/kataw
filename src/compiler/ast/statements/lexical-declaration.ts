@@ -6,13 +6,13 @@ import { updateNode } from '../../utils';
  * Lexical declaration statement
  */
 export interface LexicalDeclaration extends Node {
-  readonly bindingList: BindingList;
+  readonly binding: BindingList;
   readonly isConst: boolean;
 }
 
 export function createLexicalDeclaration(
   isConst: boolean,
-  bindingList: BindingList,
+  binding: BindingList,
   flags: NodeFlags,
   start: number,
   end: number
@@ -20,7 +20,7 @@ export function createLexicalDeclaration(
   return {
     kind: NodeKind.LexicalDeclaration,
     isConst,
-    bindingList,
+    binding,
     flags,
     intersects: false,
     transformFlags:
@@ -36,9 +36,9 @@ export function createLexicalDeclaration(
 export function updateLexicalDeclaration(
   node: LexicalDeclaration,
   isConst: boolean,
-  bindingList: BindingList
+  binding: BindingList
 ): LexicalDeclaration {
-  return node.bindingList !== bindingList
-    ? updateNode(createLexicalDeclaration(isConst, bindingList, node.flags, node.start, node.end), node)
+  return node.binding !== binding
+    ? updateNode(createLexicalDeclaration(isConst, binding, node.flags, node.start, node.end), node)
     : node;
 }

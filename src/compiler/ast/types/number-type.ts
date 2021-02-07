@@ -17,7 +17,7 @@ export function createNumberType(
   end: number
 ): NumberType {
   return {
-    kind: NodeKind.NumberLiteral,
+    kind: NodeKind.NumberType,
     value,
     rawValue,
     flags,

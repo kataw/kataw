@@ -14,7 +14,7 @@ export interface FunctionExpression extends Node {
   readonly name: BindingIdentifier | null;
   readonly formalParameters: FormalParameterList;
   readonly contents: FunctionBody;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly type: TypeNode | null;
 }
 
@@ -24,7 +24,7 @@ export function createFunctionExpression(
   isAsync: number,
   formalParameters: FormalParameterList,
   contents: FunctionBody,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null,
   flags: NodeFlags,
   start: number,
@@ -73,7 +73,7 @@ export function updateFunctionExpression(
   isAsync: number,
   formalParameters: FormalParameterList,
   contents: FunctionBody,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null
 ): FunctionExpression {
   return node.name !== name ||

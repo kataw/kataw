@@ -11,14 +11,14 @@ import { AccessModifier } from './access-modifier';
 
 export interface CallSignature extends Node {
   readonly accessModifier: AccessModifier | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createCallSignature(
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null,
   flags: NodeFlags,
@@ -44,7 +44,7 @@ export function createCallSignature(
 export function updateCallSignature(
   node: CallSignature,
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): CallSignature {

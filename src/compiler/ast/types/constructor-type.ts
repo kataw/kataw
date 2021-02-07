@@ -11,14 +11,14 @@ import { AccessModifier } from './access-modifier';
 
 export interface ConstructorType extends Node {
   readonly accessModifier: AccessModifier | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createConstructorType(
   accessModifier: AccessModifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode,
   flags: NodeFlags,
@@ -44,7 +44,7 @@ export function createConstructorType(
 export function updateConstructorType(
   accessModifier: AccessModifier | null,
   node: ConstructorType,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode
 ): ConstructorType {

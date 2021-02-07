@@ -13,7 +13,7 @@ export interface FunctionDeclaration extends Node {
   readonly name: BindingIdentifier | null;
   readonly formalParameters: FormalParameterList;
   readonly contents: FunctionBody | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly type: TypeNode | null;
 }
 
@@ -23,7 +23,7 @@ export function createFunctionDeclaration(
   isAsync: number,
   formalParameters: FormalParameterList,
   contents: FunctionBody | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null,
   flags: NodeFlags,
   start: number,
@@ -77,7 +77,7 @@ export function updateFunctionDeclaration(
   name: BindingIdentifier | null,
   formalParameters: FormalParameterList,
   contents: FunctionBody | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   type: TypeNode | null
 ): FunctionDeclaration {
   return (node.kind !== NodeKind.AsyncGeneratorDeclaration && isGenerator && isAsync) ||

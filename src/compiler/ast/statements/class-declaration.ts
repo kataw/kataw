@@ -12,7 +12,7 @@ import { ImplementClauses } from '../types/implement-clauses';
  */
 export interface ClassDeclaration extends Node {
   readonly name: BindingIdentifier | null;
-  readonly typeParameters: TypeParameters;
+  readonly typeParameters: TypeParameters | null;
   readonly classHeritage: Expression | null;
   readonly implementClauses: ImplementClauses;
   readonly members: ClassElementList;
@@ -22,7 +22,7 @@ export interface ClassDeclaration extends Node {
 export function createClassDeclaration(
   // May be undefined in `export default class { ... }`.
   name: BindingIdentifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
   members: ClassElementList,
@@ -53,7 +53,7 @@ export function createClassDeclaration(
 export function updateClassDeclaration(
   node: ClassDeclaration,
   name: BindingIdentifier | null,
-  typeParameters: TypeParameters,
+  typeParameters: TypeParameters | null,
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
   members: ClassElementList,

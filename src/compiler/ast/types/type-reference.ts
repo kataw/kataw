@@ -11,12 +11,12 @@ import { TypeArguments } from './type-arguments';
 
 export interface TypeReference extends Node {
   readonly typeName: IdentifierReference | string | QualifiedName;
-  readonly typeArguments: TypeArguments;
+  readonly typeArguments: TypeArguments | null;
 }
 
 export function createTypeReference(
   typeName: IdentifierReference | string | QualifiedName,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -38,7 +38,7 @@ export function createTypeReference(
 export function updateTypeReference(
   node: TypeReference,
   typeName: IdentifierReference | string | QualifiedName,
-  typeArguments: TypeArguments
+  typeArguments: TypeArguments | null
 ): TypeReference {
   return node.typeName !== typeName || node.typeArguments !== typeArguments
     ? updateNode(createTypeReference(typeName, typeArguments, node.flags, node.start, node.end), node)
