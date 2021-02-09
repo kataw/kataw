@@ -10,12 +10,12 @@ import { TypeArguments } from '../types/type-arguments';
 export interface CallExpression extends Node {
   readonly expression: LeftHandSideExpression;
   readonly argumentList: ArgumentList;
-  readonly typeArguments: TypeArguments;
+  readonly typeArguments: TypeArguments | null;
 }
 
 export function createCallExpression(
   expression: LeftHandSideExpression,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   argumentList: ArgumentList,
   flags: NodeFlags,
   start: number,
@@ -43,7 +43,7 @@ export function createCallExpression(
 export function updateCallExpression(
   node: CallExpression,
   expression: LeftHandSideExpression,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   argumentList: ArgumentList
 ): CallExpression {
   return node.expression !== expression || node.typeArguments !== typeArguments || node.argumentList !== argumentList

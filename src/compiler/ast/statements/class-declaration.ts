@@ -16,7 +16,7 @@ export interface ClassDeclaration extends Node {
   readonly classHeritage: Expression | null;
   readonly implementClauses: ImplementClauses;
   readonly members: ClassElementList;
-  readonly decorators: DecoratorList;
+  readonly decorators: DecoratorList | null;
 }
 
 export function createClassDeclaration(
@@ -26,7 +26,7 @@ export function createClassDeclaration(
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
   members: ClassElementList,
-  decorators: DecoratorList,
+  decorators: DecoratorList | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -57,7 +57,7 @@ export function updateClassDeclaration(
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
   members: ClassElementList,
-  decorators: DecoratorList
+  decorators: DecoratorList | null
 ): ClassDeclaration {
   return node.name !== name ||
     node.typeParameters !== typeParameters ||

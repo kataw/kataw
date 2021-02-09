@@ -9,13 +9,13 @@ import { TypeArguments } from '../types/type-arguments';
  */
 export interface NewExpression extends Node {
   readonly expression: Expression;
-  readonly typeArguments: TypeArguments;
+  readonly typeArguments: TypeArguments | null;
   readonly argumentList: ArgumentList;
 }
 
 export function createNewExpression(
   expression: Expression,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   argumentList: ArgumentList,
   flags: NodeFlags,
   start: number,
@@ -39,7 +39,7 @@ export function createNewExpression(
 export function updateNewExpression(
   node: NewExpression,
   expression: Expression,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   argumentList: ArgumentList
 ): NewExpression {
   return node.expression !== expression || node.typeArguments !== typeArguments || node.argumentList !== argumentList

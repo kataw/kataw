@@ -14,13 +14,13 @@ import { TypeArguments } from '../types/type-arguments';
 export interface JsxSelfClosingElement extends Node {
   readonly tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess;
   readonly attributes: JsxAttributesList;
-  readonly typeArguments: TypeArguments;
+  readonly typeArguments: TypeArguments | null;
 }
 
 export function createJsxSelfClosingElement(
   tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
   attributes: JsxAttributesList,
-  typeArguments: TypeArguments,
+  typeArguments: TypeArguments | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -43,7 +43,7 @@ export function updateJsxSelfClosingElement(
   node: JsxSelfClosingElement,
   tagName: ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess,
   attributes: JsxAttributesList,
-  typeArguments: TypeArguments
+  typeArguments: TypeArguments | null
 ): JsxSelfClosingElement {
   return node.tagName !== tagName || node.attributes !== attributes || node.typeArguments !== typeArguments
     ? updateNode(

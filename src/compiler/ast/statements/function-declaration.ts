@@ -30,7 +30,6 @@ export function createFunctionDeclaration(
   end: number
 ): FunctionDeclaration {
   let transformFlags = TransformFlags.None;
-
   if (!contents) {
     transformFlags |= TransformFlags.TypeScript;
   } else {

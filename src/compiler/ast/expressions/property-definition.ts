@@ -20,14 +20,14 @@ export type PropertyKey = IdentifierName | NumericLiteral | BigIntLiteral | Stri
 export interface PropertyDefinition extends Node {
   readonly left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName;
   readonly right: AssignmentExpression | BindingElement | BindingIdentifier | Expression;
-  readonly decorators: DecoratorList;
+  readonly decorators: DecoratorList | null;
   readonly accessModifier: AccessModifier | null;
 }
 
 export function createPropertyDefinition(
   left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: AssignmentExpression | BindingElement | BindingIdentifier,
-  decorators: DecoratorList,
+  decorators: DecoratorList | null,
   accessModifier: AccessModifier | null,
   flags: NodeFlags,
   start: number,
@@ -53,7 +53,7 @@ export function updatePropertyDefinition(
   node: PropertyDefinition,
   left: IdentifierName | NumericLiteral | BigIntLiteral | StringLiteral | ComputedPropertyName,
   right: AssignmentExpression | BindingElement | BindingIdentifier,
-  decorators: DecoratorList,
+  decorators: DecoratorList | null,
   accessModifier: AccessModifier | null
 ): PropertyDefinition {
   return node.left !== left ||

@@ -16,7 +16,7 @@ export interface FieldDefinition extends Node {
   readonly exclamation: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
-  readonly decorators: DecoratorList;
+  readonly decorators: DecoratorList | null;
   readonly accessModifier: AccessModifier | null;
   readonly isStatic: boolean;
 }
@@ -27,7 +27,7 @@ export function createFieldDefinition(
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
-  decorators: DecoratorList,
+  decorators: DecoratorList | null,
   accessModifier: AccessModifier | null,
   isStatic: boolean,
   flags: NodeFlags,
@@ -61,7 +61,7 @@ export function updateFieldDefinition(
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
-  decorators: DecoratorList,
+  decorators: DecoratorList | null,
   accessModifier: AccessModifier | null,
   isStatic: boolean
 ): FieldDefinition {
