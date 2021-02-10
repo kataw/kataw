@@ -6,12 +6,14 @@ import { AssignmentExpression } from './assignment-expr';
 import { TypeNode } from '../types';
 import { DecoratorList } from './decorator-list';
 import { AccessModifier } from '../types/access-modifier';
+import { PropertyKind } from '../../parser/common';
 
 /**
  * FieldDefinition
  */
 export interface FieldDefinition extends Node {
   readonly key: Expression | PrivateIdentifier;
+  readonly isReadOnly: boolean;
   readonly optional: boolean;
   readonly exclamation: boolean;
   readonly type: TypeNode | null;
@@ -23,6 +25,7 @@ export interface FieldDefinition extends Node {
 
 export function createFieldDefinition(
   key: Expression | PrivateIdentifier,
+  propertyKind: PropertyKind,
   optional: boolean,
   exclamation: boolean,
   type: TypeNode | null,
@@ -34,9 +37,11 @@ export function createFieldDefinition(
   start: number,
   end: number
 ): FieldDefinition {
+  if (propertyKind & PropertyKind.Declare) flags |= NodeFlags.Declared;
   return {
     kind: NodeKind.FieldDefinition,
     key,
+    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
     optional,
     exclamation,
     type,
@@ -57,6 +62,7 @@ export function createFieldDefinition(
 export function updateFieldDefinition(
   node: FieldDefinition,
   key: Expression | PrivateIdentifier,
+  isReadOnly: boolean,
   optional: boolean,
   exclamation: boolean,
   type: TypeNode | null,
@@ -76,6 +82,7 @@ export function updateFieldDefinition(
     ? updateNode(
         createFieldDefinition(
           key,
+          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
           optional,
           exclamation,
           type,

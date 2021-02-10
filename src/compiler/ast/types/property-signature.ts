@@ -3,6 +3,7 @@ import { updateNode } from '../../utils';
 import { Expression, PropertyName } from '../expressions';
 import { TypeNode } from './';
 import { AccessModifier } from './access-modifier';
+import { PropertyKind } from '../../parser/common';
 
 /**
  * PropertySignature
@@ -12,7 +13,7 @@ export interface PropertySignature extends Node {
   readonly name: PropertyName;
   readonly optional: boolean;
   readonly type: TypeNode | null;
-  readonly readonly: boolean;
+  readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly initializer: Expression | null;
 }
@@ -22,19 +23,23 @@ export function createPropertySignature(
   optional: boolean,
   accessModifier: AccessModifier | null,
   type: TypeNode | null,
-  readonly: boolean,
+  propertyKind: PropertyKind,
   initializer: Expression | null,
   flags: NodeFlags,
   start: number,
   end: number
 ): PropertySignature {
+  if (propertyKind & PropertyKind.Declare) flags | NodeFlags.Declared;
+
+  if (propertyKind & PropertyKind.Abstract) flags | NodeFlags.Abstract;
+
   return {
     kind: NodeKind.PropertySignature,
     name,
     optional,
     accessModifier,
     type,
-    readonly,
+    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
     initializer,
     flags,
     intersects: false,
@@ -51,14 +56,13 @@ export function updatePropertySignature(
   name: PropertyName,
   optional: boolean,
   type: TypeNode | null,
-  readonly: boolean,
+  isReadOnly: boolean,
   initializer: Expression | null,
   accessModifier: AccessModifier | null
 ): PropertySignature {
   return node.name !== name ||
     node.optional !== optional ||
     node.type !== type ||
-    node.readonly !== readonly ||
     node.accessModifier !== accessModifier ||
     node.initializer !== initializer
     ? updateNode(
@@ -67,7 +71,7 @@ export function updatePropertySignature(
           optional,
           accessModifier,
           type,
-          readonly,
+          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
           initializer,
           node.flags,
           node.start,

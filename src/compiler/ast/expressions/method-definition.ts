@@ -23,6 +23,7 @@ export interface MethodDefinition extends Node {
   readonly name: MethodName;
   readonly isGetter: boolean;
   readonly isSetter: boolean;
+  readonly isReadOnly: boolean;
   readonly contents: FunctionBody | null;
   readonly decorators: DecoratorList;
   readonly accessModifier: AccessModifier | null;
@@ -62,6 +63,8 @@ export function createMethodDefinition(
 
   if (propertyKind & PropertyKind.Constructor) flags |= NodeFlags.Constructor;
 
+  if (propertyKind & PropertyKind.Declare) flags |= NodeFlags.Declared;
+
   return {
     kind:
       propertyKind & PropertyKind.Async && propertyKind & PropertyKind.Generator
@@ -80,6 +83,7 @@ export function createMethodDefinition(
     uniqueFormalParameters,
     isSetter: (propertyKind & PropertyKind.Setter) !== 0,
     isGetter: (propertyKind & PropertyKind.Getter) !== 0,
+    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
     contents,
     decorators,
     type,
@@ -99,6 +103,7 @@ export function updateMethodDefinition(
   node: MethodDefinition,
   isGenerator: boolean,
   isAsync: boolean,
+  isReadOnly: boolean,
   propertySetParameterList: FormalParameter | null,
   uniqueFormalParameters: FormalParameterList | null,
   name: MethodName,
@@ -111,6 +116,7 @@ export function updateMethodDefinition(
   let propertyKind = PropertyKind.None;
   if (isGenerator) propertyKind |= PropertyKind.Generator;
   if (isAsync) propertyKind |= PropertyKind.Async;
+  if (isReadOnly) propertyKind |= PropertyKind.Readonly;
   return node.propertySetParameterList !== propertySetParameterList ||
     node.uniqueFormalParameters !== uniqueFormalParameters ||
     node.name !== name ||

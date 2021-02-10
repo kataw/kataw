@@ -8,10 +8,12 @@ import { ParameterDeclaration } from './parameter-declaration';
 
 export interface Parameters extends Node {
   readonly parameterList: readonly ParameterDeclaration[];
+  readonly trailingcomma: boolean;
 }
 
 export function createParameters(
   parameterList: readonly ParameterDeclaration[],
+  trailingcomma: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -19,6 +21,7 @@ export function createParameters(
   return {
     kind: NodeKind.Parameters,
     parameterList,
+    trailingcomma,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -31,6 +34,6 @@ export function createParameters(
 
 export function updateParameters(node: Parameters, parameterList: readonly ParameterDeclaration[]): Parameters {
   return node.parameterList !== parameterList
-    ? updateNode(createParameters(parameterList, node.flags, node.start, node.end), node)
+    ? updateNode(createParameters(parameterList, node.trailingcomma, node.flags, node.start, node.end), node)
     : node;
 }

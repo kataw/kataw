@@ -5,6 +5,7 @@ import { TypeNode } from './';
 import { TypeParameters } from './type-parameter-list';
 import { Parameters } from './parameters';
 import { AccessModifier } from './access-modifier';
+import { PropertyKind } from '../../parser/common';
 
 /**
  * Method signature
@@ -13,7 +14,7 @@ import { AccessModifier } from './access-modifier';
 export interface MethodSignature extends Node {
   readonly name: PropertyName;
   readonly optional: boolean;
-  readonly readonly: boolean;
+  readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
@@ -23,7 +24,7 @@ export interface MethodSignature extends Node {
 export function createMethodSignature(
   name: PropertyName,
   optional: boolean,
-  readonly: boolean,
+  propertyKind: PropertyKind,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -32,10 +33,14 @@ export function createMethodSignature(
   start: number,
   end: number
 ): MethodSignature {
+  if (propertyKind & PropertyKind.Declare) flags | NodeFlags.Declared;
+
+  if (propertyKind & PropertyKind.Abstract) flags | NodeFlags.Abstract;
+
   return {
     kind: NodeKind.MethodSignature,
     name,
-    readonly,
+    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
     optional,
     accessModifier,
     typeParameters,
@@ -52,9 +57,11 @@ export function createMethodSignature(
 }
 
 export function updateMethodSignature(
-  accessModifier: AccessModifier | null,
   node: MethodSignature,
+  accessModifier: AccessModifier | null,
   name: PropertyName,
+  optional: boolean,
+  isReadOnly: boolean,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
@@ -67,8 +74,8 @@ export function updateMethodSignature(
     ? updateNode(
         createMethodSignature(
           name,
-          node.optional,
-          node.readonly,
+          optional,
+          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
           accessModifier,
           typeParameters,
           parameters,
