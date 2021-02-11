@@ -12,6 +12,8 @@ Kataw is a Javascript toolchain with insane performance that can
 
 - Pretty printing (*like Prettier*)
 
+- Gammar checker
+
 - Linting (*like ESLint*)
 
 - Minify (*Like Terser*)
@@ -22,3 +24,13 @@ Kataw is a Javascript toolchain with insane performance that can
 Only the Kataw parser, transformers, walkers, AST manipulation through global API is available as of now.
 
 Soon as this code is in a "stable state" I will add the rest of the tools
+
+
+## Future
+
+Soon as everything is in a "stable state" a "hook system" for adding additional rules for the linter and the
+grammar checker will be published.
+
+It's already now possible to manipulate the AST to support alternative productions, but it will be released hooks so
+ECMA proposals and other experimental syntax can be supported.
+
