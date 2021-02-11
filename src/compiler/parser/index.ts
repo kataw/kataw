@@ -1516,7 +1516,7 @@ function parseUpdateExpression(
       return parseJsxElementOrFragment(parser, context, /*inExpressionContext*/ true);
     }
 
-    if (context & Context.InArrowContext) return parseTypeAssertion(parser, context);
+    if ((context & Context.InArrowContext) === 0) return parseTypeAssertion(parser, context);
 
     const typeParameters = tryParse(parser, context, nextProductionIsTypeParameter);
 
@@ -3528,27 +3528,31 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 }
 
 // Returns true if this is an valid identifier
-function isIdentifier(t: Token, context: Context): boolean {
+function isIdentifier(t: Token, context: Context, allowKeywords?: boolean): boolean {
   // If we have a 'yield' keyword, and we're in the [yield] context, then 'yield' is
   // considered a keyword and is not an identifier.
   if (context & (Context.Strict | Context.InYieldContext) && t === Token.YieldKeyword) return false;
   // If we have a 'await' keyword, and we're in the [Await] context, then 'await' is
   // considered a keyword and is not an identifier.
   if (context & (Context.Module | Context.InAwaitContext) && t === Token.AwaitKeyword) return false;
-
-  return (t & Token.IsIdentifier) === Token.IsIdentifier || (t & Token.FutureReserved) === Token.FutureReserved;
+  return allowKeywords
+    ? (t & Token.IsIdentifier) === Token.IsIdentifier ||
+        (t & Token.Keyword) === Token.Keyword ||
+        (t & Token.FutureReserved) === Token.FutureReserved
+    : (t & Token.IsIdentifier) === Token.IsIdentifier || (t & Token.FutureReserved) === Token.FutureReserved;
 }
 
 function parseIdentifierReference(
   parser: ParserState,
   context: Context,
-  diagnosticMessage?: DiagnosticCode
+  diagnosticMessage?: DiagnosticCode,
+  allowKeywords?: boolean
 ): IdentifierReference | DummyIdentifier | any {
   const pos = parser.startPos;
   const raw = parser.raw;
   const flags = parser.nodeFlags;
 
-  if (isIdentifier(parser.token, context)) {
+  if (isIdentifier(parser.token, context, allowKeywords)) {
     const name = parser.tokenValue;
     nextToken(parser, context);
     return createIdentifierReference(name, raw, flags, pos, parser.startPos);
@@ -5181,17 +5185,35 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode | Ind
   return type;
 }
 
-function parseFunctionType(
-  parser: ParserState,
-  context: Context,
-  typeParameters: TypeParameters | null,
-  pos: number
-): FunctionType {
+function parseFunctionTypeWithTypeParameters(parser: ParserState, context: Context): FunctionType {
+  const pos = parser.startPos;
+  const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
+  consume(parser, context, Token.LeftParen);
   const parameters = parseFunctionTypeParams(parser, context);
   consume(parser, context, Token.RightParen);
   consume(parser, context, Token.Arrow);
-  const type = parseTypeOrTypePredicate(parser, context);
-  return createFunctionType(typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos);
+  return createFunctionType(
+    typeParameters,
+    parameters,
+    parseTypeOrTypePredicate(parser, context),
+    parser.nodeFlags,
+    pos,
+    parser.startPos
+  );
+}
+
+function parseFunctionType(parser: ParserState, context: Context, pos: number): FunctionType {
+  const parameters = parseFunctionTypeParams(parser, context);
+  consume(parser, context, Token.RightParen);
+  consume(parser, context, Token.Arrow);
+  return createFunctionType(
+    null,
+    parameters,
+    parseTypeOrTypePredicate(parser, context),
+    parser.nodeFlags,
+    pos,
+    parser.startPos
+  );
 }
 
 function parseConstructorType(
@@ -5277,12 +5299,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
     case Token.InferKeyword:
       return parseInferType(parser, context);
     case Token.LessThan:
-      return parseFunctionType(
-        parser,
-        context,
-        parseTypeParameters(parser, context | Context.AllowConditionalTypes),
-        parser.pos
-      );
+      return parseFunctionTypeWithTypeParameters(parser, context);
     case Token.AbstractKeyword:
     case Token.NewKeyword:
       return parseConstructorType(parser, context, null);
@@ -5887,7 +5904,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): Parenthe
   nextToken(parser, context);
 
   if (parser.token === Token.RightParen || parser.token & Token.IsEllipsis) {
-    return parseFunctionType(parser, context, /* typeParameters */ null, pos);
+    return parseFunctionType(parser, context, pos);
   }
 
   if (
@@ -5919,7 +5936,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): Parenthe
       return false;
     })
   ) {
-    return parseFunctionType(parser, context, /* typeParameters */ null, pos);
+    return parseFunctionType(parser, context, pos);
   }
 
   const type = parseType(parser, context | Context.AllowConditionalTypes);
@@ -6168,23 +6185,23 @@ function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context
   return null;
 }
 
+function parseTypePredicatePrefix(parser: ParserState, context: Context): IdentifierReference | null {
+  const id = parseIdentifierReference(parser, context, DiagnosticCode.Type_expected, /* allowKeywords */ true);
+  if (parser.token === Token.IsKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0) {
+    nextToken(parser, context);
+    return id;
+  }
+  return null;
+}
+
 function parseTypeOrTypePredicate(parser: ParserState, context: Context): TypeNode | TypePredicate {
   const pos = parser.startPos;
   const typePredicateVariable =
-    parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved) &&
-    tryParse(parser, context, () => {
-      const id = parseIdentifierReference(parser, context);
-      if (parser.token === Token.IsKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0) {
-        nextToken(parser, context);
-        return id;
-      }
-      return null;
-    });
+    parser.token & 0b00000000000000000111000000000000 && tryParse(parser, context, parseTypePredicatePrefix);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
-  if (typePredicateVariable) {
-    return createTypePredicate(false, typePredicateVariable, type, parser.nodeFlags, pos, parser.startPos);
-  }
-  return type;
+  return typePredicateVariable
+    ? createTypePredicate(false, typePredicateVariable, type, parser.nodeFlags, pos, parser.startPos)
+    : type;
 }
 
 function parseTypeAssertion(parser: ParserState, context: Context): TypeAssertion {
