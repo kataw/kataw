@@ -28,9 +28,7 @@ Soon as this code is in a "stable state" I will add the rest of the tools
 
 ## Future
 
-Soon as everything is in a "stable state" a "hook system" for adding additional rules for the linter and the
-grammar checker will be published.
+- A "hook system" for adding additional rules for the linter and the grammar checker will be published.
 
-It's already now possible to manipulate the AST to support alternative productions, but it will be released hooks so
-ECMA proposals and other experimental syntax can be supported.
+- Hooks to support experimental syntax and ECMA proposals in an sandboxed envirnonment
 
