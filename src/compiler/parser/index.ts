@@ -1516,7 +1516,7 @@ function parseUpdateExpression(
       return parseJsxElementOrFragment(parser, context, /*inExpressionContext*/ true);
     }
 
-    if ((context & Context.InArrowContext) === 0) return parseTypeAssertion(parser, context);
+    if (context & Context.InArrowContext) return parseTypeAssertion(parser, context);
 
     const typeParameters = tryParse(parser, context, nextProductionIsTypeParameter);
 
@@ -2512,7 +2512,7 @@ function parsePropertyDefinition(
       key = createIdentifierReference(tokenValue, raw, nodeFlags, startPos, parser.startPos);
 
       // If we have "{ foo =" or "{ foo?"  or "{ foo!" then this is a cover initialized name. However. Cases
-      // like "{ a?! =" or "{ a? =" isn't valid, but accepted here for error recovery resons.
+      // like "{ a?! =" or "{ a? =" isn't valid, but accepted here for error recovery reasons.
       if (parser.token === Token.Assign || parser.token === Token.QuestionMark || parser.token === Token.Negate) {
         const optional = consumeOpt(parser, context, Token.QuestionMark);
         const exclamation = consumeOpt(parser, context, Token.Negate);
@@ -4254,17 +4254,7 @@ function parseImportDeclaration(parser: ParserState, context: Context): ImportDe
     if (parser.token & (Token.FutureReserved | Token.IsIdentifier)) {
       defaultBinding = parseBindingIdentifier(parser, context);
       if (parser.token === Token.Assign) {
-        nextToken(parser, context);
-        const moduleReference = parseModuleReference(parser, context);
-        parseSemicolon(parser, context);
-        return createImportEqualsDeclaration(
-          defaultBinding,
-          moduleReference,
-          false,
-          parser.nodeFlags,
-          afterImportPos,
-          parser.startPos
-        );
+        return parseImportEqualsDeclaration(parser, context, defaultBinding, pos);
       }
 
       if (
@@ -4299,6 +4289,18 @@ function parseImportDeclaration(parser: ParserState, context: Context): ImportDe
   }
   parseSemicolon(parser, context);
   return createImportDeclaration(fromClause as any, moduleSpecifier, importClause, nodeFlags, pos, parser.startPos);
+}
+
+function parseImportEqualsDeclaration(
+  parser: ParserState,
+  context: Context,
+  identifier: any,
+  start: number
+): ImportEqualsDeclaration {
+  consume(parser, context, Token.Assign);
+  const moduleReference = parseModuleReference(parser, context);
+  parseSemicolon(parser, context);
+  return createImportEqualsDeclaration(identifier, moduleReference, false, parser.nodeFlags, start, parser.startPos);
 }
 
 function isExternalModuleReference(parser: ParserState, context: Context) {
@@ -4423,7 +4425,7 @@ function parseFromClause(parser: ParserState, context: Context): StringLiteral |
 function parseExportDeclaration(
   parser: ParserState,
   context: Context
-): ExportDeclaration | ExportDefault | ExpressionStatement | LabelledStatement {
+): ExportDeclaration | ExportDefault | ExpressionStatement | LabelledStatement | ImportEqualsDeclaration {
   const pos = parser.startPos;
   const nodeFlags = parser.nodeFlags;
   nextToken(parser, context | Context.AllowRegExp);
@@ -4438,6 +4440,9 @@ function parseExportDeclaration(
   switch (parser.token) {
     case Token.DefaultKeyword:
       return parseExportDefault(parser, context, pos);
+    case Token.ImportKeyword:
+      nextToken(parser, context);
+      return parseImportEqualsDeclaration(parser, context, parseIdentifierName(parser, context), pos);
     case Token.LetKeyword:
       nextToken(parser, context);
       declaration = parseLexicalDeclaration(parser, context, /* isConst */ false, parser.nodeFlags, pos);
@@ -4963,7 +4968,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       kind |= PropertyKind.Setter;
     }
 
-    // Cases like "{ declare (" isn't valid, but accepted here for error recovery resons.
+    // Cases like "{ declare (" isn't valid, but accepted here for error recovery reasons.
     // We will handle this in the grammar checker. If we consume this as an modifier, it will
     // block us from doing "auto fix" in the linter.
     if (token === Token.DeclareKeyword) {
@@ -5009,7 +5014,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     if (parser.token === Token.LeftBracket) {
       nextToken(parser, context);
 
-      // If we have "[..." or "[]" then we parse this as an index signature for error recovery resons
+      // If we have "[..." or "[]" then we parse this as an index signature for error recovery reasons
       if (parser.token & Token.IsEllipsis || parser.token === Token.RightBracket) {
         return parseIndexSignatureDeclaration(parser, context, PropertyKind.None, modifiers);
       }
@@ -5109,7 +5114,23 @@ function parseTypeAnnotation(parser: ParserState, context: Context): TypeNode | 
   return consumeOpt(parser, context, Token.Colon) ? parseType(parser, context | Context.AllowConditionalTypes) : null;
 }
 
+function isAnyModifier(t: Token): boolean {
+  // Added here for for error recovery reasons
+  return (
+    t === Token.ProtectedKeyword ||
+    t === Token.PrivateKeyword ||
+    t === Token.PublicKeyword ||
+    t === Token.ReadonlyKeyword ||
+    t === Token.DeclareKeyword ||
+    t === Token.StaticKeyword ||
+    t === Token.AbstractKeyword
+  );
+}
+
 function skipParameterStart(parser: ParserState, context: Context): boolean {
+  if (isAnyModifier(parser.token)) {
+    nextToken(parser, context);
+  }
   if (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
     nextToken(parser, context);
     return true;
@@ -5594,7 +5615,7 @@ function parseTypeMember(parser: ParserState, context: Context): any {
   if (token === Token.LeftBracket) {
     nextToken(parser, context);
 
-    // If we have "[..." or "[]" then we parse this as an index signature for error recovery resons
+    // If we have "[..." or "[]" then we parse this as an index signature for error recovery reasons
     if (parser.token & Token.IsEllipsis || parser.token === Token.RightBracket) {
       return parseIndexSignatureDeclaration(parser, context, kind, modifiers);
     }
@@ -5843,9 +5864,6 @@ function parseTypeParameters(parser: ParserState, context: Context): TypeParamet
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
 
-  if (parser.startPos === pos) {
-    reportErrorDiagnostic(parser, 0, DiagnosticCode.Type_parameter_list_cannot_be_empty);
-  }
   const result = createTypeParameters(params, parser.nodeFlags, pos, parser.startPos);
   consume(parser, context, Token.GreaterThan);
   return result;

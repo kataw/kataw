@@ -59,14 +59,15 @@ function speculationHelper(
   parser: ParserState,
   context: Context,
   callback: (parser: ParserState, context: Context) => any,
-  isLookahead: boolean
+  alwaysResetState: boolean
 ): any {
-  const { pos, startPos, tokenPos, raw, token, tokenValue, nodeFlags, diagnostics } = parser;
+  const { pos, startPos, tokenPos, raw, token, tokenValue, nodeFlags } = parser;
+  const diagnostics = parser.diagnostics;
   const result = callback(parser, context);
 
   // If our callback returned something 'falsy' or we're just looking ahead,
   // then unconditionally restore us to where we were.
-  if (!result || isLookahead) {
+  if (!result || alwaysResetState) {
     parser.pos = pos;
     parser.startPos = startPos;
     parser.tokenPos = tokenPos;
@@ -74,7 +75,7 @@ function speculationHelper(
     parser.tokenValue = tokenValue;
     parser.nodeFlags = nodeFlags;
     parser.raw = raw;
-    parser.diagnostics = []; //diagnostics;
+    parser.diagnostics = []; // diagnostics;
   }
   return result;
 }
@@ -84,7 +85,7 @@ export function lookAhead<T>(
   context: Context,
   callback: (parser: ParserState, context: Context) => T
 ): T {
-  return speculationHelper(parser, context, callback, /*isLookahead:*/ true);
+  return speculationHelper(parser, context, callback, /*alwaysResetState:*/ true);
 }
 
 export function tryParse<T>(
