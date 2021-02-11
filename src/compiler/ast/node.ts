@@ -1,5 +1,3 @@
-import { EmitNode } from './emit';
-
 /**
  * Every single valid AST Node type.
  */
@@ -9,7 +7,7 @@ export interface Node {
   flags: NodeFlags;
   intersects: boolean;
   transformFlags: TransformFlags;
-  emitNode: EmitNode | null;
+  emitNode: any | null;
   original?: Node | null;
   uniqueId?: number;
   start: number;

@@ -202,7 +202,7 @@ interface IndexSignature <: TypeNode {
   kind: NodeKind.IndexSignature;
   parameters: Parameters;
   type: TypeNode | null;
-  readonly: boolean;
+  isReadOnly: boolean;
   accessModifiers: AccessModifiers;
 }
 ```
@@ -256,7 +256,7 @@ interface MappedType <: TypeNode {
   kind: NodeKind.MappedType;
   typeParameter: TypeParameter;
   nameType: TypeNode | null;
-  readonly: boolean;
+  isReadOnly: boolean;
   plus: boolean;
   minus: boolean;
   optional: boolean;
@@ -271,7 +271,7 @@ interface MethodSignature <: TypeNode {
   kind: NodeKind.MethodSignature;
   name: PropertyName;
   optional: boolean;
-  readonly: boolean;
+  isReadOnly: boolean;
   accessModifiers: AccessModifiers;
   typeParameters: TypeParameters;
   parameters: Parameters;
@@ -402,7 +402,7 @@ interface PropertySignature <: TypeNode {
   name: PropertyName;
   optional: boolean;
   type: TypeNode | null;
-  readonly: boolean;
+  isReadOnly: boolean;
   accessModifiers: AccessModifiers;
   initializer: Expression | null;
 }

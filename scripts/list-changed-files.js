@@ -19,14 +19,10 @@ const exec = (command, args) => {
   return execFileSync(command, args, options);
 };
 
-const execGitCmd = args =>
-  exec('git', args)
-    .trim()
-    .toString()
-    .split('\n');
+const execGitCmd = (args) => exec('git', args).trim().toString().split('\n');
 
 const listChangedFiles = () => {
-  const mergeBase = execGitCmd(['merge-base', 'HEAD', 'master']);
+  const mergeBase = execGitCmd(['merge-base', 'HEAD', 'main']);
   return new Set([
     ...execGitCmd(['diff', '--name-only', '--diff-filter=ACMRTUB', mergeBase]),
     ...execGitCmd(['ls-files', '--others', '--exclude-standard'])

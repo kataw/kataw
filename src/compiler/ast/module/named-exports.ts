@@ -25,7 +25,7 @@ export function createNamedExports(
   };
 }
 
-export function updateArgumentList(node: NamedExports, exportsList: ExportsList): NamedExports {
+export function updateNamedExports(node: NamedExports, exportsList: ExportsList): NamedExports {
   return node.exportsList !== exportsList
     ? updateNode(createNamedExports(exportsList, node.flags, node.start, node.end), node)
     : node;

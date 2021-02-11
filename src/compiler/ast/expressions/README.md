@@ -382,6 +382,7 @@ The `isStatic` boolean is true if `static` of ClassElement is true.
 interface FieldDefinition <: Expression {
   key: Expression | PrivateIdentifier;
   optional: boolean;
+  isReadOnly: boolean;
   exclamation: boolean;
   type: TypeNode | null;
   initializer: Expression | null;
@@ -606,6 +607,7 @@ interface MethodDefinition <: Expression {
   async: boolean;
   generator: boolean;
   getter: boolean;
+  isReadOnly: boolean;
   propertySetParameterList: BindingIdentifier | BindingElement | null;
   uniqueFormalParameters: [ BindingIdentifier | BindingElement | BindingRestElement ];
   name: IdentifierReference | StringLiteral | BigIntLiteral | NumericLiteral | IdentifierName;
