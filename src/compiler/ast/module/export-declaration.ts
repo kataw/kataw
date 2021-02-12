@@ -27,6 +27,7 @@ export interface ExportDeclaration extends Node {
   readonly namedExports: ExportSpecifier[];
   readonly fromClause: StringLiteral | Expression;
   readonly exportFromClause: ExportFromClause | null;
+  readonly isTypeOnly: boolean;
   /* @internal */
   readonly parent: Script | Module | null;
 }
@@ -36,6 +37,7 @@ export function createExportDeclaration(
   namedExports: ExportSpecifier[],
   fromClause: StringLiteral | Expression,
   exportFromClause: ExportFromClause | null,
+  isTypeOnly: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -46,6 +48,7 @@ export function createExportDeclaration(
     namedExports,
     exportFromClause,
     fromClause,
+    isTypeOnly,
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
@@ -61,18 +64,21 @@ export function updateExportDeclaration(
   declaration: ExportDeclarations | null,
   namedExports: ExportSpecifier[],
   fromClause: StringLiteral | Expression,
-  exportFromClause: ExportFromClause | null
+  exportFromClause: ExportFromClause | null,
+  isTypeOnly: boolean
 ): ExportDeclaration {
   return node.declaration !== declaration ||
     node.namedExports !== namedExports ||
     node.fromClause !== fromClause ||
-    node.exportFromClause !== exportFromClause
+    node.exportFromClause !== exportFromClause ||
+    node.isTypeOnly !== isTypeOnly
     ? updateNode(
         createExportDeclaration(
           declaration,
           namedExports,
           fromClause,
           exportFromClause,
+          isTypeOnly,
           node.flags,
           node.start,
           node.end

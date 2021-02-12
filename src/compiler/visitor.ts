@@ -888,7 +888,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         visitNode(node.defaultBinding, visitor),
         visitNode(node.nameSpaceImport, visitor),
-        visitNode(node.namedImports, visitor)
+        visitNode(node.namedImports, visitor),
+        node.isTypeOnly
       );
     case NodeKind.ExportAssignment:
       return updateExportAssignment(node, visitNode(node.expression, visitor));
@@ -900,7 +901,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.declaration, visitor),
         visitNode(node.namedExports, visitor),
         visitNode(node.fromClause, visitor),
-        visitNode(node.exportFromClause, visitor)
+        visitNode(node.exportFromClause, visitor),
+        node.isTypeOnly
       );
     case NodeKind.ExportFromClause:
       return updateExportFromClause(

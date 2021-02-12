@@ -8,6 +8,7 @@ export interface ImportClause extends Node {
   readonly defaultBinding: BindingIdentifier | null;
   readonly nameSpaceImport: BindingIdentifier | null;
   readonly namedImports: NamedImports | null;
+  readonly isTypeOnly: boolean;
   /* @internal */
   readonly parent: ImportDeclaration | null;
 }
@@ -16,6 +17,7 @@ export function createImportClause(
   defaultBinding: BindingIdentifier | null,
   nameSpaceImport: BindingIdentifier | null,
   namedImports: NamedImports | null,
+  isTypeOnly: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -25,6 +27,7 @@ export function createImportClause(
     defaultBinding,
     nameSpaceImport,
     namedImports,
+    isTypeOnly,
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
@@ -39,13 +42,15 @@ export function updateImportClause(
   node: ImportClause,
   defaultBinding: BindingIdentifier | null,
   nameSpaceImport: BindingIdentifier | null,
-  namedImports: NamedImports | null
+  namedImports: NamedImports | null,
+  isTypeOnly: boolean
 ): ImportClause {
   return node.defaultBinding !== defaultBinding ||
     node.nameSpaceImport !== nameSpaceImport ||
-    node.namedImports !== namedImports
+    node.namedImports !== namedImports ||
+    node.isTypeOnly !== isTypeOnly
     ? updateNode(
-        createImportClause(defaultBinding, nameSpaceImport, namedImports, node.flags, node.start, node.end),
+        createImportClause(defaultBinding, nameSpaceImport, namedImports, isTypeOnly, node.flags, node.start, node.end),
         node
       )
     : node;
