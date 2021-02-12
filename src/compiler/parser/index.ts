@@ -4427,19 +4427,9 @@ function parseExportDeclaration(
     case Token.ConstKeyword: {
       const { startPos, nodeFlags } = parser;
       nextToken(parser, context);
-      if (consumeOpt(parser, context, Token.EnumKeyword)) {
-        declaration = parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, startPos);
-      } else {
-        const bindingList = parseBindingList(parser, context, /* inForStatement */ false);
-        parseSemicolon(parser, context);
-        declaration = createLexicalDeclaration(
-          /* isConst */ true,
-          bindingList,
-          nodeFlags | parser.nodeFlags,
-          pos,
-          parser.startPos
-        );
-      }
+      declaration = consumeOpt(parser, context, Token.EnumKeyword)
+        ? parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, startPos)
+        : parseLexicalDeclaration(parser, context, /* isConst */ true, parser.nodeFlags, pos);
       break;
     }
     case Token.LeftBrace: {
@@ -4484,8 +4474,12 @@ function parseExportDeclaration(
     case Token.TypeKeyword:
     case Token.InterfaceKeyword:
     case Token.EnumKeyword:
+    case Token.AbstractKeyword:
     case Token.DeclareKeyword:
       const node = parseStatementListItem(parser, context) as any;
+      if (node.expression) {
+        reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
+      }
       node.nodeFlags |= NodeFlags.Exported;
       return node;
     default:
@@ -4604,29 +4598,31 @@ function parseExportDefault(
   pos: number
 ): ExportDefault | ExpressionStatement | LabelledStatement {
   nextToken(parser, context | Context.AllowRegExp);
-  let declaration;
+
+  let declaration!: Statement | Expression;
+
   switch (parser.token) {
-    case Token.InterfaceKeyword:
-      const node = parseStatementListItem(parser, context) as any;
-      node.nodeFlags |= NodeFlags.Exported;
-      return node;
     case Token.FunctionKeyword:
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ true);
       break;
     case Token.ClassKeyword:
       declaration = parseClassDeclaration(parser, context);
       break;
-    case Token.AbstractKeyword:
-      if (tryParse(parser, context, nextTokenIsClassDeclOnSameLine)) {
-        parser.nodeFlags |= NodeFlags.Abstract;
-        declaration = parseClassDeclaration(parser, context);
-      } else declaration = parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
-
     case Token.AsyncKeyword:
       if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {
         declaration = parseFunctionDeclaration(parser, context, /* isDefault */ true);
         break;
       }
+    case Token.InterfaceKeyword:
+    case Token.AbstractKeyword:
+      const node = parseStatementListItem(parser, context) as any;
+      if (!node.expression) {
+        node.nodeFlags |= NodeFlags.Exported;
+        return node;
+      }
+      declaration = node.expression;
+      parseSemicolon(parser, context);
+      break;
     default:
       // export default {};
       // export default [];
@@ -4634,12 +4630,7 @@ function parseExportDefault(
       declaration = parseAssignmentExpression(parser, context);
       parseSemicolon(parser, context);
   }
-  return createExportDefault(declaration as any, parser.nodeFlags, pos, parser.startPos);
-}
-
-function nextTokenIsClassDeclOnSameLine(parser: ParserState, context: Context): boolean {
-  nextToken(parser, context);
-  return parser.token === Token.ClassKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0;
+  return createExportDefault(declaration, parser.nodeFlags, pos, parser.startPos);
 }
 
 function parseClassDeclaration(parser: ParserState, context: Context): ClassDeclaration {
