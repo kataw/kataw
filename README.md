@@ -16,7 +16,7 @@ Kataw is a Javascript toolchain with insane performance that can
 
 - Pretty printing (*like Prettier*)
 
-- Gammar checker
+- Grammar checker
 
 - Linting (*like ESLint*)
 
