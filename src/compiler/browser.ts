@@ -1,4 +1,4 @@
-import { parseModuleBody, parseScriptBody } from './parser';
+import { parseScriptOrModuleBody, parseStatementListItem, parseModuleItemList } from './parser';
 import { Context } from './parser/common';
 import { createScript, Script } from './ast/script';
 import { createModule, Module } from './ast/module';
@@ -85,7 +85,7 @@ export function parseScript(
   return createScript(
     source,
     '',
-    parseScriptBody(parser, context),
+    parseScriptOrModuleBody(parser, context, parseStatementListItem),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );
@@ -126,7 +126,7 @@ export function parseModule(
   return createModule(
     source,
     '',
-    parseModuleBody(parser, context | Context.Strict | Context.Module),
+    parseScriptOrModuleBody(parser, context | Context.Strict | Context.Module, parseModuleItemList),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );

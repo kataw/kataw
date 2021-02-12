@@ -229,13 +229,15 @@ const enum Tristate {
 }
 
 // ScriptBody : StatementList
-export function parseScriptBody(parser: ParserState, context: Context): ScriptBody {
+// ModuleBody :
+//   ModuleItemList
+export function parseScriptOrModuleBody(parser: ParserState, context: Context, cb: any): ScriptBody | ModuleBody {
   const pos = parser.startPos;
   const statements: Statement[] = [];
 
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
-      statements.push(getCurrentNode(parser, context, parseStatementListItem));
+      statements.push(getCurrentNode(parser, context, cb));
       continue;
     }
 
@@ -253,35 +255,7 @@ export function parseScriptBody(parser: ParserState, context: Context): ScriptBo
   return createScriptBody(statements, parser.nodeFlags, pos, parser.startPos);
 }
 
-// ScriptBody : StatementList
-// ModuleBody :
-//   ModuleItemList
-export function parseModuleBody(parser: ParserState, context: Context): ModuleBody {
-  const pos = parser.startPos;
-  const statements: Statement[] = [];
-
-  while (parser.token !== Token.EndOfSource) {
-    if (parser.token & Constants.SourceElements) {
-      statements.push(getCurrentNode(parser, context, parseModuleItemList));
-      continue;
-    }
-
-    reportErrorDiagnostic(
-      parser,
-      0,
-      parser.token === Token.PrivateIdentifier
-        ? DiagnosticCode.Private_identifiers_are_not_allowed_outside_class_bodies
-        : DiagnosticCode.Declaration_or_statement_expected
-    );
-
-    // '/' in an statement position should be parsed as an unterminated regular expression
-    nextToken(parser, context | Context.AllowRegExp);
-  }
-
-  return createModuleBody(statements, parser.nodeFlags, pos, parser.startPos);
-}
-
-function parseModuleItemList(parser: ParserState, context: Context): Statement {
+export function parseModuleItemList(parser: ParserState, context: Context): Statement {
   switch (parser.token) {
     case Token.ImportKeyword:
       if (lookAhead(parser, context, nextTokenCanFollowImportKeyword)) {
@@ -308,7 +282,7 @@ function nextTokenIsFunctionKeywordOnSameLine(parser: ParserState, context: Cont
 //   HoistableDeclaration
 //   ClassDeclaration
 //   LexicalDeclaration
-function parseStatementListItem(parser: ParserState, context: Context): Statement {
+export function parseStatementListItem(parser: ParserState, context: Context): Statement {
   switch (parser.token) {
     case Token.FunctionKeyword:
       return parseFunctionDeclaration(parser, context, false);
