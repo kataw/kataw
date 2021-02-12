@@ -12,14 +12,12 @@ export interface TypeAliasDeclaration extends Node {
   readonly name: IdentifierReference;
   readonly type: TypeNode;
   readonly typeParameters: TypeParameters | null;
-  readonly isExported: boolean;
 }
 
 export function createTypeAliasDeclaration(
   name: IdentifierReference,
   type: TypeNode,
   typeParameters: TypeParameters | null,
-  isExported: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -29,7 +27,6 @@ export function createTypeAliasDeclaration(
     name,
     type,
     typeParameters,
-    isExported,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -44,16 +41,9 @@ export function updateTypeAliasDeclaration(
   node: TypeAliasDeclaration,
   name: IdentifierReference,
   type: TypeNode,
-  typeParameters: TypeParameters | null,
-  isExported: boolean
+  typeParameters: TypeParameters | null
 ): TypeAliasDeclaration {
-  return node.name !== name ||
-    node.type !== type ||
-    node.typeParameters !== typeParameters ||
-    node.isExported !== isExported
-    ? updateNode(
-        createTypeAliasDeclaration(name, type, typeParameters, node.isExported, node.flags, node.start, node.end),
-        node
-      )
+  return node.name !== name || node.type !== type || node.typeParameters !== typeParameters
+    ? updateNode(createTypeAliasDeclaration(name, type, typeParameters, node.flags, node.start, node.end), node)
     : node;
 }

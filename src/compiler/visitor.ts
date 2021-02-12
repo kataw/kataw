@@ -774,8 +774,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         visitNode(node.name, visitor),
         visitNode(node.type, visitor),
-        visitNode(node.typeParameters, visitor),
-        node.isExported
+        visitNode(node.typeParameters, visitor)
       );
 
     case NodeKind.EnumDeclaration:

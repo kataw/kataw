@@ -1,5 +1,5 @@
 /**
- * Every single valid AST Node type.
+ * Properties for every single valid AST Node type.
  */
 export interface Node {
   kind: NodeKind;
@@ -14,6 +14,9 @@ export interface Node {
   end: number;
 }
 
+/**
+ * Access modifiers
+ */
 export const enum AccessModifiers {
   Private = 0,
   Public = 1,
@@ -57,10 +60,10 @@ export const enum NodeFlags {
   BlockScoped = 1 << 4,
 
   /**
-   * This code contains chained MemberExpression rooted to a pseudo-OptionalExpression
+   * This node has been "exported"
    */
 
-  OptionalChain = 1 << 5,
+  Exported = 1 << 5,
 
   /**
    * This node const numeric literal values
@@ -198,10 +201,11 @@ export const enum NodeFlags {
   ParenthesizedArrow = 1 << 29
 }
 
+/**
+ * Transformation flags
+ */
+
 export const enum TransformFlags {
-  /**
-   * This node has no flags.
-   */
   None = 0,
   ES2015 = 1 << 0,
   ES2016 = 1 << 1,

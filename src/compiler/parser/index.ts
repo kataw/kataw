@@ -231,7 +231,12 @@ const enum Tristate {
 // ScriptBody : StatementList
 // ModuleBody :
 //   ModuleItemList
-export function parseScriptOrModuleBody(parser: ParserState, context: Context, cb: any): ScriptBody | ModuleBody {
+export function parseScriptOrModuleBody(
+  parser: ParserState,
+  context: Context,
+  cb: any,
+  factory: any
+): ScriptBody | ModuleBody {
   const pos = parser.startPos;
   const statements: Statement[] = [];
 
@@ -252,7 +257,7 @@ export function parseScriptOrModuleBody(parser: ParserState, context: Context, c
     // '/' in an statement position should be parsed as an unterminated regular expression
     nextToken(parser, context | Context.AllowRegExp);
   }
-  return createScriptBody(statements, parser.nodeFlags, pos, parser.startPos);
+  return factory(statements, parser.nodeFlags, pos, parser.startPos);
 }
 
 export function parseModuleItemList(parser: ParserState, context: Context): Statement {
@@ -332,7 +337,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       const pos = parser.startPos;
       const nodeFlags = parser.nodeFlags;
       if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
-        return parseInterfaceDeclaration(parser, context, /* isExported */ false, nodeFlags, pos);
+        return parseInterfaceDeclaration(parser, context, nodeFlags, pos);
       }
       return parseStatement(parser, context, /* allowFunction */ true);
     case Token.ImportKeyword:
@@ -472,7 +477,6 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
 function parseInterfaceDeclaration(
   parser: ParserState,
   context: Context,
-  isExported: boolean,
   nodeFlags: NodeFlags,
   pos: number
 ): InterfaceDeclaration {
@@ -481,7 +485,6 @@ function parseInterfaceDeclaration(
     parseTypeParameters(parser, context | Context.AllowConditionalTypes),
     parseHeritageClauses(parser, context),
     parseObjectType(parser, context),
-    isExported,
     nodeFlags | parser.nodeFlags,
     pos,
     parser.startPos
@@ -533,7 +536,7 @@ function parseTypeAliasDeclaration(
 ): TypeAliasDeclaration | LabelledStatement | ExpressionStatement {
   const { startPos, nodeFlags } = parser;
   if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
-    return parseTypeAliasDeclarationRest(parser, context, /* isExported */ false, nodeFlags, startPos);
+    return parseTypeAliasDeclarationRest(parser, context, nodeFlags, startPos);
   }
   return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
 }
@@ -541,7 +544,6 @@ function parseTypeAliasDeclaration(
 function parseTypeAliasDeclarationRest(
   parser: ParserState,
   context: Context,
-  isExported: boolean,
   nodeFlags: NodeFlags,
   pos: number
 ): TypeAliasDeclaration {
@@ -552,15 +554,7 @@ function parseTypeAliasDeclarationRest(
     (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
     parseType(parser, context | Context.AllowConditionalTypes);
   parseSemicolon(parser, context);
-  return createTypeAliasDeclaration(
-    name,
-    type,
-    typeParameters,
-    isExported,
-    nodeFlags | parser.nodeFlags,
-    pos,
-    parser.startPos
-  );
+  return createTypeAliasDeclaration(name, type, typeParameters, nodeFlags | parser.nodeFlags, pos, parser.startPos);
 }
 
 function parseIntrinsic(parser: ParserState, context: Context): IntrinsicKeyword | undefined {
@@ -4280,6 +4274,7 @@ function parseImportEqualsDeclaration(
   consume(parser, context, Token.Assign);
   const moduleReference = parseModuleReference(parser, context);
   parseSemicolon(parser, context);
+  if (isTypeOnly) reportErrorDiagnostic(parser, 0, DiagnosticCode.Only_ECMAScript_imports_may_use_import_type);
   return createImportEqualsDeclaration(
     identifier,
     moduleReference,
@@ -4416,28 +4411,15 @@ function parseExportDeclaration(
   const pos = parser.startPos;
   const nodeFlags = parser.nodeFlags;
   nextToken(parser, context | Context.AllowRegExp);
-
-  const isTypeOnly = consumeOpt(parser, context, Token.TypeKeyword);
-
   let declaration: any = null;
   let fromClause: StringLiteral | Expression | null = null;
   let namedExports: any | null = null;
   let exportFromClause: any | null = null;
-
-  if (consumeOpt(parser, context, Token.DeclareKeyword)) parser.nodeFlags |= NodeFlags.Declared;
+  let isTypeOnly = parser.token === Token.TypeKeyword && tryParse(parser, context, canFollowExportTypeKeyword);
 
   switch (parser.token) {
     case Token.DefaultKeyword:
       return parseExportDefault(parser, context, pos);
-    case Token.ImportKeyword:
-      nextToken(parser, context);
-      return parseImportEqualsDeclaration(
-        parser,
-        context,
-        parseIdentifierName(parser, context),
-        /* isTypeOnly */ false,
-        pos
-      );
     case Token.LetKeyword:
       nextToken(parser, context);
       declaration = parseLexicalDeclaration(parser, context, /* isConst */ false, parser.nodeFlags, pos);
@@ -4460,32 +4442,9 @@ function parseExportDeclaration(
       }
       break;
     }
-    case Token.ClassKeyword:
-      declaration = parseClassDeclaration(parser, context);
-      break;
-    case Token.FunctionKeyword:
-      declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
-      break;
-    case Token.AsyncKeyword:
-      if (
-        lookAhead(parser, context, () => {
-          nextToken(parser, context);
-          return (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 && parser.token === Token.FunctionKeyword;
-        })
-      ) {
-        declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
-        break;
-      }
-      reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
-      return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
-    case Token.VarKeyword:
-      declaration = parseVariableStatement(parser, context);
-      break;
     case Token.LeftBrace: {
       namedExports = parseNamedExports(parser, context);
-      if (parser.token === Token.FromKeyword) {
-        fromClause = parseFromClause(parser, context);
-      }
+      if (parser.token === Token.FromKeyword) fromClause = parseFromClause(parser, context);
       parseSemicolon(parser, context);
       break;
     }
@@ -4495,10 +4454,40 @@ function parseExportDeclaration(
       parseSemicolon(parser, context);
       break;
     }
+    case Token.ClassKeyword:
+      declaration = parseClassDeclaration(parser, context);
+      break;
+    case Token.FunctionKeyword:
+      declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
+      break;
+    case Token.AsyncKeyword:
+      if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {
+        declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
+        break;
+      }
+      reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
+      return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+    case Token.VarKeyword:
+      declaration = parseVariableStatement(parser, context);
+      break;
+    case Token.ImportKeyword:
+      nextToken(parser, context);
+      return parseImportEqualsDeclaration(
+        parser,
+        context,
+        parseIdentifierName(parser, context),
+        /* isTypeOnly */ false,
+        pos
+      );
     case Token.Assign:
       return parseExportAssignment(parser, context);
+    case Token.TypeKeyword:
     case Token.InterfaceKeyword:
-      return parseExportInterfaceDeclaration(parser, context);
+    case Token.EnumKeyword:
+    case Token.DeclareKeyword:
+      const node = parseStatementListItem(parser, context) as any;
+      node.nodeFlags |= NodeFlags.Exported;
+      return node;
     default:
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
@@ -4523,14 +4512,9 @@ function parseExportAssignment(parser: ParserState, context: Context): ExportAss
   return createExportAssignment(expression, parser.nodeFlags, pos, parser.startPos);
 }
 
-function parseExportInterfaceDeclaration(parser: ParserState, context: Context): any {
-  const { startPos, nodeFlags } = parser;
-  if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
-    return parseInterfaceDeclaration(parser, context, /* isExported */ true, nodeFlags, startPos);
-  }
-  // 'interface' isn't valid in module goal
-  reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
-  return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
+function canFollowExportTypeKeyword(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return parser.token === Token.LeftBrace && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0;
 }
 
 // ExportFromClause :
@@ -4623,7 +4607,9 @@ function parseExportDefault(
   let declaration;
   switch (parser.token) {
     case Token.InterfaceKeyword:
-      return parseExportInterfaceDeclaration(parser, context);
+      const node = parseStatementListItem(parser, context) as any;
+      node.nodeFlags |= NodeFlags.Exported;
+      return node;
     case Token.FunctionKeyword:
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ true);
       break;

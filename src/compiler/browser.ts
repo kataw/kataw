@@ -2,23 +2,15 @@ import { parseScriptOrModuleBody, parseStatementListItem, parseModuleItemList } 
 import { Context } from './parser/common';
 import { createScript, Script } from './ast/script';
 import { createModule, Module } from './ast/module';
+import { createModuleBody } from './ast/moduleBody';
+import { createScriptBody } from './ast/scriptBody';
 import { Char } from './parser/scanner/char';
 import { Token } from './ast/token';
 import { NodeFlags } from './ast/node';
 import { ParserState, NodeCursor } from './types';
 import { isLineTerminator } from './parser/scanner/common';
 import { nextToken } from './parser/scanner/scan';
-
-/**
- * Allows the Kataw parser to be run in a browser environment. Will work like other
- * parsers
- *
- * API:
- *
- * - parseScript(source, OPTIONS?);
- *
- * - parseModule(source, OPTIONS?);
- */
+import { transform } from './transform/index';
 
 export function createParser(source: string, pos: number, isModule: boolean, nodeCursor?: NodeCursor): ParserState {
   return {
@@ -85,7 +77,7 @@ export function parseScript(
   return createScript(
     source,
     '',
-    parseScriptOrModuleBody(parser, context, parseStatementListItem),
+    parseScriptOrModuleBody(parser, context, parseStatementListItem, createScriptBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );
@@ -126,7 +118,7 @@ export function parseModule(
   return createModule(
     source,
     '',
-    parseScriptOrModuleBody(parser, context | Context.Strict | Context.Module, parseModuleItemList),
+    parseScriptOrModuleBody(parser, context | Context.Strict | Context.Module, parseModuleItemList, createModuleBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );

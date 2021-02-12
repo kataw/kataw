@@ -14,7 +14,6 @@ export interface InterfaceDeclaration extends Node {
   readonly typeParameters: TypeParameters | null;
   readonly heritageClauses: HeritageClauses | null;
   readonly objectTypeMembers: ObjectTypeMembers;
-  readonly isExported: boolean;
 }
 
 export function createInterfaceDeclaration(
@@ -22,7 +21,6 @@ export function createInterfaceDeclaration(
   typeParameters: TypeParameters | null,
   heritageClauses: HeritageClauses | null,
   objectTypeMembers: ObjectTypeMembers,
-  isExported: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -33,7 +31,6 @@ export function createInterfaceDeclaration(
     typeParameters,
     heritageClauses,
     objectTypeMembers,
-    isExported,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -61,7 +58,6 @@ export function updateInterfaceDeclaration(
           typeParameters,
           heritageClauses,
           objectTypeMembers,
-          node.isExported,
           node.flags,
           node.start,
           node.end
