@@ -11,6 +11,17 @@ import { Options, ParserState, NodeCursor } from './types';
 import { isLineTerminator } from './parser/scanner/common';
 import { nextToken } from './parser/scanner/scan';
 
+/**
+ * Allows the Kataw parser to be run in a browser environment. Will work like other
+ * parsers
+ *
+ * API:
+ *
+ * - parseScript(source, OPTIONS?);
+ *
+ * - parseModule(source, OPTIONS?);
+ */
+
 export function createParser(source: string, pos: number, isModule: boolean, nodeCursor?: NodeCursor): ParserState {
   return {
     source,

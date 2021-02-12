@@ -5,7 +5,7 @@ import { ImportDeclaration } from './import-declaration';
 import { updateNode } from '../../utils';
 
 export interface ExportSpecifier extends Node {
-  readonly name: IdentifierName;
+  readonly name: IdentifierName | StringLiteral;
   readonly binding: IdentifierName | null;
   readonly moduleExportName: StringLiteral | null;
   /* @internal */
@@ -13,7 +13,7 @@ export interface ExportSpecifier extends Node {
 }
 
 export function createExportSpecifier(
-  name: IdentifierName,
+  name: IdentifierName | StringLiteral,
   moduleExportName: StringLiteral | null,
   binding: IdentifierName | null,
   flags: NodeFlags,
@@ -37,7 +37,7 @@ export function createExportSpecifier(
 
 export function updateExportSpecifier(
   node: ExportSpecifier,
-  name: IdentifierName,
+  name: IdentifierName | StringLiteral,
   binding: IdentifierName | null,
   moduleExportName: StringLiteral | null
 ): ExportSpecifier {

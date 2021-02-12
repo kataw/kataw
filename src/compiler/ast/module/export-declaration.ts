@@ -1,6 +1,6 @@
 import { Node, NodeKind, TransformFlags, NodeFlags } from '../node';
 import { StringLiteral } from '../expressions/string-literal';
-import { ExportSpecifier } from './export-specifier';
+import { NamedExports } from './named-exports';
 import { Script } from '../script';
 import { Module } from '../module';
 import { Statement } from '../statements';
@@ -24,7 +24,7 @@ export type ExportDeclarations =
 
 export interface ExportDeclaration extends Node {
   readonly declaration: ExportDeclarations | null;
-  readonly namedExports: ExportSpecifier[];
+  readonly namedExports: NamedExports | null;
   readonly fromClause: StringLiteral | Expression;
   readonly exportFromClause: ExportFromClause | null;
   readonly isTypeOnly: boolean;
@@ -34,7 +34,7 @@ export interface ExportDeclaration extends Node {
 
 export function createExportDeclaration(
   declaration: ExportDeclarations | null,
-  namedExports: ExportSpecifier[],
+  namedExports: NamedExports | null,
   fromClause: StringLiteral | Expression,
   exportFromClause: ExportFromClause | null,
   isTypeOnly: boolean,
@@ -62,7 +62,7 @@ export function createExportDeclaration(
 export function updateExportDeclaration(
   node: ExportDeclaration,
   declaration: ExportDeclarations | null,
-  namedExports: ExportSpecifier[],
+  namedExports: NamedExports | null,
   fromClause: StringLiteral | Expression,
   exportFromClause: ExportFromClause | null,
   isTypeOnly: boolean

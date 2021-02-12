@@ -145,10 +145,10 @@ import { updateDecoratorList } from './ast/expressions/decorator-list';
 import { updateDecorator } from './ast/expressions/decorators';
 import { updateFormalParameterList } from './ast/expressions/formal-parameter-list';
 import { updateFormalParameter } from './ast/expressions/formal-parameter';
-import { updateImportClause } from './ast/module/import-clause';
+import { updateImportClause, ImportClause } from './ast/module/import-clause';
 import { updateExportAssignment } from './ast/module/export-assignment';
 import { updateExportDefault } from './ast/module/export-default';
-import { updateExportDeclaration } from './ast/module/export-declaration';
+import { updateExportDeclaration, ExportDeclaration } from './ast/module/export-declaration';
 import { updateExportFromClause } from './ast/module/export-from-clause';
 import { updateExportSpecifier } from './ast/module/export-specifier';
 import { updateExportsList } from './ast/module/exports-list';
@@ -523,7 +523,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.typeParameters, visitor),
         visitNode(node.classHeritage, visitor),
         visitNode(node.implementClauses, visitor),
-        visitNode(node.members, visitor)
+        visitNode(node.members, visitor),
+        visitNode(node.decorators, visitor)
       );
     case NodeKind.BreakStatement:
       return updateBreakStatement(node, visitNode(node.label, visitor));
@@ -593,12 +594,10 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.typeArguments, visitor),
         visitNode(node.argumentList, visitor)
       );
-
     case NodeKind.Decorator:
       return updateDecorator(node, visitNode(node.expression, visitor));
     case NodeKind.DecoratorList:
       return updateDecoratorList(node, visitNodes(node.decoratorList, visitor));
-
     case NodeKind.ImportCall:
       return updateImportCall(node, visitNode(node.expression, visitor), visitNode(node.typeArguments, visitor));
     case NodeKind.WhileStatement:
@@ -607,7 +606,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateWithStatement(node, visitNode(node.expression, visitor), visitNode(node.statement, visitor));
     case NodeKind.AsExpression:
       return updateAsExpression(node, visitNode(node.expression, visitor), visitNode(node.type, visitor));
-
     case NodeKind.TypePredicate:
       return updateTypePredicate(
         node,
@@ -888,7 +886,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.defaultBinding, visitor),
         visitNode(node.nameSpaceImport, visitor),
         visitNode(node.namedImports, visitor),
-        node.isTypeOnly
+        (node as ImportClause).isTypeOnly
       );
     case NodeKind.ExportAssignment:
       return updateExportAssignment(node, visitNode(node.expression, visitor));
@@ -901,7 +899,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.namedExports, visitor),
         visitNode(node.fromClause, visitor),
         visitNode(node.exportFromClause, visitor),
-        node.isTypeOnly
+        (node as ExportDeclaration).isTypeOnly
       );
     case NodeKind.ExportFromClause:
       return updateExportFromClause(

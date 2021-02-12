@@ -6,6 +6,7 @@ import { TypeNode } from '../types';
 import { ClassElementList } from '../expressions/class-element-list';
 import { TypeParameters } from '../types/type-parameter-list';
 import { ImplementClauses } from '../types/implement-clauses';
+import { DecoratorList } from './decorator-list';
 
 /**
  * Class expression.
@@ -16,6 +17,7 @@ export interface ClassExpression extends Node {
   readonly classHeritage: Expression | null;
   readonly implementClauses: ImplementClauses;
   readonly members: ClassElementList;
+  readonly decorators: DecoratorList | null;
 }
 
 export function createClassExpression(
@@ -24,6 +26,7 @@ export function createClassExpression(
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
   members: ClassElementList,
+  decorators: DecoratorList | null,
   flags: NodeFlags,
   start: number,
   end: number
@@ -35,6 +38,7 @@ export function createClassExpression(
     classHeritage,
     implementClauses,
     members,
+    decorators,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
@@ -51,13 +55,15 @@ export function updateClassExpression(
   typeParameters: TypeParameters | null,
   classHeritage: Expression | null,
   implementClauses: ImplementClauses,
-  members: ClassElementList
+  members: ClassElementList,
+  decorators: DecoratorList | null
 ): ClassExpression {
   return node.name !== name ||
     node.typeParameters !== typeParameters ||
     node.classHeritage !== classHeritage ||
     node.implementClauses !== implementClauses ||
-    node.members !== members
+    node.members !== members ||
+    node.decorators !== decorators
     ? updateNode(
         createClassExpression(
           name,
@@ -65,6 +71,7 @@ export function updateClassExpression(
           classHeritage,
           implementClauses,
           members,
+          decorators,
           node.flags,
           node.start,
           node.end

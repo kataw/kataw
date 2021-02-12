@@ -68,20 +68,20 @@ import { createClassElement, ClassElement } from '../ast/expressions/class-eleme
 import { createSemicolon, Semicolon } from '../ast/expressions/semicolon';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
 import { Expression, MethodName } from '../ast/expressions/index';
-import { createNamedExports } from '../ast/module/named-exports';
+import { createNamedExports, NamedExports } from '../ast/module/named-exports';
 import { createExternalModuleReference, ExternalModuleReference } from '../ast/module/external-module-reference';
 import { createExportAssignment, ExportAssignment } from '../ast/module/export-assignment';
 import { createImportEqualsDeclaration, ImportEqualsDeclaration } from '../ast/module/import-equals-declaration';
 import { createImportsList, ImportsList } from '../ast/module/imports-list';
 import { createExportDeclaration, ExportDeclaration } from '../ast/module/export-declaration';
 import { createExportDefault, ExportDefault } from '../ast/module/export-default';
-import { createExportFromClause } from '../ast/module/export-from-clause';
+import { createExportFromClause, ExportFromClause } from '../ast/module/export-from-clause';
 import { createExportSpecifier, ExportSpecifier } from '../ast/module/export-specifier';
 import { createImportClause } from '../ast/module/import-clause';
 import { createImportDeclaration, ImportDeclaration } from '../ast/module/import-declaration';
 import { createImportSpecifier, ImportSpecifier } from '../ast/module/import-specifier';
 import { createNamedImports, NamedImports } from '../ast/module/named-imports';
-import { createExportsList } from '../ast/module/exports-list';
+import { createExportsList, ExportsList } from '../ast/module/exports-list';
 import { createJsxIdentifier, JsxIdentifier } from '../ast/jsx/jsx-identifier';
 import { createJsxNamespacedName, JsxNamespacedName } from '../ast/jsx/jsx-namespaced-name';
 import { createJsxSelfClosingElement, JsxSelfClosingElement } from '../ast/jsx/jsx-self-closing-element';
@@ -267,6 +267,7 @@ export function parseModuleItemList(parser: ParserState, context: Context): Stat
         return parseImportDeclaration(parser, context);
       }
       return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+    case Token.Decorator:
     case Token.ExportKeyword:
       return parseExportDeclaration(parser, context);
     default:
@@ -1372,7 +1373,6 @@ function parseBinaryExpression(
   const bit = -((context & Context.DisallowIn) > 0) & Token.InKeyword;
   let t: Token;
   let prec: number;
-  let right: any;
 
   while ((parser.token & Token.IsBinaryOp) > 0) {
     t = parser.token;
@@ -1464,7 +1464,7 @@ function parseAwaitExpression(parser: ParserState, context: Context): AwaitExpre
 function parseUpdateExpression(
   parser: ParserState,
   context: Context
-): PrefixUpdateExpression | PostfixUpdateExpression | any {
+): PrefixUpdateExpression | PostfixUpdateExpression | Expression {
   const pos = parser.startPos;
 
   if (parser.token & Token.IsUpdateOp) {
@@ -1534,7 +1534,7 @@ function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Contex
   return createIdentifierName('', '', parser.nodeFlags, pos, pos);
 }
 
-function parseLeftHandSideExpression(parser: ParserState, context: Context, allowCalls: boolean): any {
+function parseLeftHandSideExpression(parser: ParserState, context: Context, allowCalls: boolean): Expression {
   let member = parsePrimaryExpression(parser, context);
 
   const check = allowCalls ? Token.IsPropertyOrCall : Token.IsMember;
@@ -2738,6 +2738,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseObjectLiteral(parser, context);
     case Token.LeftParen:
       return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context | Context.InArrowContext, 1);
+    case Token.Decorator:
     case Token.ClassKeyword:
       return parseClassExpression(parser, context);
     case Token.FunctionKeyword:
@@ -4377,7 +4378,7 @@ function parseImportSpecifier(parser: ParserState, context: Context): ImportSpec
 }
 
 // ModulemoduleExportName : StringLiteral
-function parseModuleExportName(parser: ParserState, context: Context) {
+function parseModuleExportName(parser: ParserState, context: Context): StringLiteral {
   return parseStringLiteral(parser, context);
 }
 
@@ -4413,7 +4414,7 @@ function parseExportDeclaration(
   nextToken(parser, context | Context.AllowRegExp);
   let declaration: any = null;
   let fromClause: StringLiteral | Expression | null = null;
-  let namedExports: any | null = null;
+  let namedExports: NamedExports | null = null;
   let exportFromClause: any | null = null;
   let isTypeOnly = parser.token === Token.TypeKeyword && tryParse(parser, context, canFollowExportTypeKeyword);
 
@@ -4444,11 +4445,15 @@ function parseExportDeclaration(
       parseSemicolon(parser, context);
       break;
     }
+    case Token.Decorator:
     case Token.ClassKeyword:
       declaration = parseClassDeclaration(parser, context);
       break;
     case Token.FunctionKeyword:
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ false);
+      break;
+    case Token.VarKeyword:
+      declaration = parseVariableStatement(parser, context);
       break;
     case Token.AsyncKeyword:
       if (lookAhead(parser, context, nextTokenIsFunctionKeywordOnSameLine)) {
@@ -4457,9 +4462,6 @@ function parseExportDeclaration(
       }
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
       return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
-    case Token.VarKeyword:
-      declaration = parseVariableStatement(parser, context);
-      break;
     case Token.ImportKeyword:
       nextToken(parser, context);
       return parseImportEqualsDeclaration(
@@ -4515,10 +4517,10 @@ function canFollowExportTypeKeyword(parser: ParserState, context: Context): bool
 //   `*`
 //   `*` as IdentifierName
 //   `*` as ModulemoduleExportName
-function parseExportFromClause(parser: ParserState, context: Context, pos: number): any {
+function parseExportFromClause(parser: ParserState, context: Context, pos: number): ExportFromClause {
   nextToken(parser, context);
-  let moduleExportName: any | null = null;
-  let namedBinding: any | null = null;
+  let moduleExportName: StringLiteral | null = null;
+  let namedBinding: IdentifierName | null = null;
   if (consumeOpt(parser, context, Token.AsKeyword)) {
     if (parser.token === Token.StringLiteral) {
       moduleExportName = parseModuleExportName(parser, context);
@@ -4526,14 +4528,14 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
       namedBinding = parseIdentifierName(parser, context);
     }
   }
-  return createExportFromClause(namedBinding, moduleExportName, parser.nodeFlags, pos, parser.startPos);
+  return createExportFromClause(namedBinding, moduleExportName, NodeFlags.None, pos, parser.startPos);
 }
 
 // NamedExports :
 //   `{` `}`
 //   `{` ExportsList `}`
 //   `{` ExportsList `,` `}`
-function parseNamedExports(parser: ParserState, context: Context): any {
+function parseNamedExports(parser: ParserState, context: Context): NamedExports {
   const pos = parser.startPos;
   consume(parser, context, Token.LeftBrace);
   const exportsList = parseExportsList(parser, context);
@@ -4541,7 +4543,7 @@ function parseNamedExports(parser: ParserState, context: Context): any {
   return createNamedExports(exportsList, parser.nodeFlags, pos, parser.startPos);
 }
 
-function parseExportsList(parser: ParserState, context: Context): any {
+function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const pos = parser.startPos;
   const specifiers = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
@@ -4563,7 +4565,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
   // ExportSpecifier:
   //   IdentifierName
   //   IdentifierName as IdentifierName
-  let moduleExportName: any | null = null;
+  let moduleExportName: StringLiteral | null = null;
   if (parser.token === Token.StringLiteral) {
     const name = parseModuleExportName(parser, context);
     let exportedName = null;
@@ -4574,7 +4576,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
         exportedName = parseIdentifierName(parser, context);
       }
     }
-    return createExportSpecifier(name as any, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
+    return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
   }
   const name = parseIdentifierName(parser, context);
   let exportedName = null;
@@ -4585,7 +4587,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
       exportedName = parseIdentifierName(parser, context);
     }
   }
-  return createExportSpecifier(name as any, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
+  return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
 }
 
 // ExportDefault :
@@ -4605,6 +4607,7 @@ function parseExportDefault(
     case Token.FunctionKeyword:
       declaration = parseFunctionDeclaration(parser, context, /* isDefault */ true);
       break;
+    case Token.Decorator:
     case Token.ClassKeyword:
       declaration = parseClassDeclaration(parser, context);
       break;
@@ -4690,6 +4693,7 @@ function parseImplementClause(parser: ParserState, context: Context): ImplementC
 
 function parseClassExpression(parser: ParserState, context: Context): ClassExpression {
   const pos = parser.startPos;
+  const decorator = parseDecorators(parser, context);
   nextToken(parser, context | Context.AllowRegExp);
   const name =
     parser.token & (Token.IsIdentifier | Token.FutureReserved) &&
@@ -4709,6 +4713,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
       ? parseClassElementList(parser, context)
       : // Empty list
         createClassElementList([], parser.nodeFlags, pos, pos),
+    decorator,
     parser.nodeFlags,
     pos,
     parser.startPos
@@ -4777,7 +4782,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
   // If we have "{ abstract foo" or "{ abstract foo(" then this must be a abstract class field or method
   if (parser.token === Token.AbstractKeyword) {
-    const key: any = parseIdentifierName(parser, context);
+    const key = parseIdentifierName(parser, context);
 
     // If we have "{ private abstract" or "{ abstract: string" etc. then this is a class field
     if (parser.token & Token.IsClassField) {
@@ -4798,7 +4803,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
   // If we have "{ abstract foo" or "{ abstract foo(" then this must be a abstract class field or method
   if (parser.token === Token.ReadonlyKeyword) {
-    const key: any = parseIdentifierName(parser, context);
+    const key = parseIdentifierName(parser, context);
 
     // If we have "{ private readonly" or "{ readonly: string" etc. then this is a class field
     if (parser.token & Token.IsClassField) {
@@ -5048,7 +5053,7 @@ function parseFieldDefinition(
   isStatic: boolean,
   isAbstract: boolean,
   decorators: DecoratorList | null,
-  key: any,
+  key: Expression | PrivateIdentifier,
   pos: number
 ): FieldDefinition {
   const optional = consumeOpt(parser, context, Token.QuestionMark);
@@ -5512,7 +5517,10 @@ function isIndexSignature(parser: ParserState, context: Context): boolean {
   return parser.token === Token.Colon || parser.token === Token.Comma || parser.token === Token.RightBracket;
 }
 
-function parseTypeMember(parser: ParserState, context: Context): any {
+function parseTypeMember(
+  parser: ParserState,
+  context: Context
+): ConstructSignature | CallSignature | PropertySignature | IndexSignature {
   const pos = parser.startPos;
   let token = parser.token;
   let kind = PropertyKind.None;
@@ -5627,7 +5635,7 @@ function parseIndexSignatureDeclaration(
   parser: ParserState,
   context: Context,
   kind: PropertyKind,
-  accessModifier: any
+  accessModifier: AccessModifier | null
 ): IndexSignature {
   const pos = parser.startPos;
   const parameters = parseBracketList(parser, context);
@@ -5661,7 +5669,7 @@ function parsePropertyOrMethodSignature(
   context: Context,
   name: any,
   kind: PropertyKind,
-  accessModifier: any,
+  accessModifier: AccessModifier | null,
   pos: number
 ): MethodSignature | PropertySignature {
   const optional = consumeOpt(parser, context, Token.QuestionMark);
@@ -5706,7 +5714,7 @@ function parsePropertySignature(
   context: Context,
   name: any,
   kind: PropertyKind,
-  accessModifier: any,
+  accessModifier: AccessModifier | null,
   pos: number
 ): PropertySignature {
   const optional = consumeOpt(parser, context, Token.QuestionMark);
@@ -5789,7 +5797,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
 function parseSignatureMember(
   parser: ParserState,
   context: Context,
-  AccessModifier: any,
+  accessModifier: AccessModifier | null,
   kind: NodeKind
 ): ConstructSignature | CallSignature {
   const pos = parser.startPos;
@@ -5801,8 +5809,8 @@ function parseSignatureMember(
   }
   parseTypeMemberSemicolon(parser, context);
   return kind === NodeKind.ConstructSignature
-    ? createConstructSignature(AccessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos)
-    : createCallSignature(AccessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos);
+    ? createConstructSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos)
+    : createCallSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos);
 }
 
 function isTypeParametersTerminator(token: Token): boolean {
@@ -6210,13 +6218,6 @@ function parseDecorators(parser: ParserState, context: Context): DecoratorList |
 
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
   const pos = parser.startPos;
-  if (context & Context.InAwaitContext && parser.token === Token.AwaitKeyword) {
-    return parseLeftHandSideExpression(parser, context | Context.InDecoratorContext, /*allowCalls*/ true);
-  }
-  return createDecorator(
-    parseLeftHandSideExpression(parser, context, /* allowCalls */ true),
-    parser.nodeFlags,
-    pos,
-    parser.startPos
-  );
+  let expression = parseLeftHandSideExpression(parser, context, /* allowCalls */ true);
+  return createDecorator(expression, parser.nodeFlags, pos, parser.startPos);
 }
