@@ -8,19 +8,8 @@ import { Diagnostic } from './diagnostics/diagnostic';
 export interface Options {
   next?: boolean;
   jsx?: boolean;
-  minify?: boolean;
-  prettify?: boolean;
-  lint?: boolean;
-  autoCorrect?: boolean;
   disableWebCompat?: boolean;
-  module: boolean;
-  es2015?: boolean;
-  es2016?: boolean;
-  es2017?: boolean;
-  es2018?: boolean;
-  es2019?: boolean;
-  es2020?: boolean;
-  esNext?: boolean;
+  impliedStrict?: boolean;
 }
 
 /**
@@ -69,15 +58,4 @@ export interface SynthesizedComment extends CommentRange {
   pos: -1;
   end: -1;
   hasLeadingNewline?: boolean;
-}
-
-export interface SourceMapRange extends TextRange {
-  source?: SourceMapSource;
-}
-
-export interface SourceMapSource {
-  fileName: string;
-  text: string;
-  /* @internal */ lineMap: readonly number[];
-  skipTrivia?: (pos: number) => number;
 }

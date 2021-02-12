@@ -7,10 +7,9 @@ import { createScriptBody } from './ast/scriptBody';
 import { Char } from './parser/scanner/char';
 import { Token } from './ast/token';
 import { NodeFlags } from './ast/node';
-import { ParserState, NodeCursor } from './types';
+import { Options, ParserState, NodeCursor } from './types';
 import { isLineTerminator } from './parser/scanner/common';
 import { nextToken } from './parser/scanner/scan';
-import { transform } from './transform/index';
 
 export function createParser(source: string, pos: number, isModule: boolean, nodeCursor?: NodeCursor): ParserState {
   return {
@@ -32,19 +31,13 @@ export function createParser(source: string, pos: number, isModule: boolean, nod
   };
 }
 
-export function parseScript(
-  // Source text of the file, or `null` to indicate not found.
-  source: string,
-  options?: any,
-  // Incremental helper function
-  nodeCursor?: NodeCursor
-): Script {
+export function parseScript(source: string, options?: Options, nodeCursor?: NodeCursor): Script {
   let pos = 0;
   let context = Context.None;
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.jsx) context |= Context.OptionsJSX;
-    if (options.module) context |= Context.Module | Context.Strict;
+    if (options.impliedStrict) context |= Context.Strict;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
   // Hashbang Grammar
@@ -69,14 +62,14 @@ export function parseScript(
     }
   }
 
-  const parser = createParser(source, /* pos */ pos, /* isModule */ false, nodeCursor);
+  const parser = createParser(source, pos, /* isModule */ false, nodeCursor);
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);
 
   return createScript(
     source,
-    '',
+    /* filename */ '',
     parseScriptOrModuleBody(parser, context, parseStatementListItem, createScriptBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
@@ -84,19 +77,12 @@ export function parseScript(
 }
 
 // Module : ModuleBody?
-export function parseModule(
-  // Source text of the file, or `null` to indicate not found.
-  source: string,
-  options?: any,
-  // Incremental helper function
-  nodeCursor?: NodeCursor
-): Module {
+export function parseModule(source: string, options?: Options, nodeCursor?: NodeCursor): Module {
   let pos = 0;
-  let context = Context.None;
+  let context = Context.Strict | Context.Module;
   if (options != null) {
     if (options.next) context |= Context.OptionsNext;
     if (options.jsx) context |= Context.OptionsJSX;
-    if (options.module) context |= Context.Module | Context.Strict;
     if (options.disableWebCompat) context |= Context.OptionsDisableWebCompat;
   }
   // Hashbang Grammar
@@ -110,15 +96,15 @@ export function parseModule(
     }
   }
 
-  const parser = createParser(source, /* pos */ pos, /* isModule */ true, nodeCursor);
+  const parser = createParser(source, pos, /* isModule */ true, nodeCursor);
 
   // Prime the scanner
   nextToken(parser, context | Context.AllowRegExp);
 
   return createModule(
     source,
-    '',
-    parseScriptOrModuleBody(parser, context | Context.Strict | Context.Module, parseModuleItemList, createModuleBody),
+    /* filename */ '',
+    parseScriptOrModuleBody(parser, context, parseModuleItemList, createModuleBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );
