@@ -6,10 +6,10 @@ import { Diagnostic } from './diagnostics/diagnostic';
  * Kataw options
  */
 export interface Options {
-  next?: boolean;
-  jsx?: boolean;
-  disableWebCompat?: boolean;
-  impliedStrict?: boolean;
+  next?: boolean; // Enable stage 3 support (ESNext)
+  jsx?: boolean; // Enable React JSX parsing
+  disableWebCompat?: boolean; // Disable web compatibility
+  impliedStrict?: boolean; // Enables implied strict mode
 }
 
 /**

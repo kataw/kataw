@@ -100,8 +100,8 @@ export const enum Token {
   Complement = 54 | IsUnaryOp, // ~
   Add = 55 | (10 << PrecStart) | IsBinaryOp | IsUnaryOp, // +
   Subtract = 56 | (10 << PrecStart) | IsBinaryOp | IsUnaryOp, // -
-  InKeyword = 57 | (8 << PrecStart) | IsBinaryOp | IsUnaryOp | IsInOrOf,
-  InstanceofKeyword = 58 | (8 << PrecStart) | IsBinaryOp | IsUnaryOp,
+  InKeyword = 57 | (8 << PrecStart) | IsBinaryOp | IsUnaryOp | IsInOrOf | Keyword,
+  InstanceofKeyword = 58 | (8 << PrecStart) | IsBinaryOp | IsUnaryOp | Keyword,
   Multiply = 59 | (11 << PrecStart) | IsBinaryOp | IsProperty, // *
   Modulo = 60 | (11 << PrecStart) | IsBinaryOp, // %
   Divide = 61 | (11 << PrecStart) | IsBinaryOp, // /
