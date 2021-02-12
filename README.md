@@ -1,4 +1,8 @@
-# kataw
+<h1 align="center">Kataw</h1>
+
+<p align="center"> An insane fast Javascript toolchain supporting both Javascript and Typescript.</p>
+
+<br>
 
 **WIP**
 
