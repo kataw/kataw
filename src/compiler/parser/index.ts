@@ -3,6 +3,7 @@ import { Token, KeywordDescTable } from '../ast/token';
 import { NodeKind, NodeFlags, AccessModifiers } from '../ast/node';
 import { TypeNode } from '../ast/types';
 import { Statement } from '../ast/statements/index';
+import { createCatchParameter, CatchParameter } from '../ast/statements/catch-parameter';
 import { createTypeLiteral, TypeLiteral } from '../ast/types/type-literal';
 import { createParameterDeclaration, ParameterDeclaration } from '../ast/types/parameter-declaration';
 import { createTemplateLiteralTypeSpan, TemplateLiteralTypeSpan } from '../ast/types/template-type-span';
@@ -658,13 +659,31 @@ function parseCatchClause(parser: ParserState, context: Context): CatchClause {
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
   if (consumeOpt(parser, context, Token.LeftParen)) {
-    catchParameter = parseIdentifierOrPattern(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
+    catchParameter = parseCatchParameter(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
     if (parser.token === Token.Assign) {
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Catch_clause_variable_cannot_have_an_initializer);
     }
     consume(parser, context | Context.AllowRegExp, Token.RightParen);
   }
   return createCatch(catchParameter, parseBlockStatement(parser, context), parser.nodeFlags, pos, parser.startPos);
+}
+
+function parseCatchParameter(parser: ParserState, context: Context): CatchParameter {
+  const pos = parser.startPos;
+  const binding = parseIdentifierOrPattern(
+    parser,
+    (context | Context.DisallowIn) ^ Context.DisallowIn,
+    DiagnosticCode.Private_identifiers_cannot_be_used_as_parameters
+  );
+
+  return createCatchParameter(
+    binding,
+    parseTypeAnnotation(parser, context),
+    parseInitializer(parser, context),
+    parser.nodeFlags,
+    pos,
+    parser.startPos
+  );
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`

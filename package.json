@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A blazing fast Javascript toolchain that parses TypeScript and Javascript",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",

@@ -1,19 +1,19 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
-
 import { Binding } from '../expressions';
 import { BlockStatement } from './block-stmt';
 import { updateNode } from '../../utils';
+import { CatchParameter } from './catch-parameter';
 
 /**
  * CatchClause.
  */
 export interface CatchClause extends Node {
-  readonly catchParameter: Binding | null;
+  readonly catchParameter: CatchParameter | null;
   readonly block: BlockStatement;
 }
 
 export function createCatch(
-  catchParameter: Binding | null,
+  catchParameter: CatchParameter | null,
   block: BlockStatement,
   flags: NodeFlags,
   start: number,
@@ -33,7 +33,11 @@ export function createCatch(
   };
 }
 
-export function updateCatch(node: CatchClause, catchParameter: Binding | null, block: BlockStatement): CatchClause {
+export function updateCatch(
+  node: CatchClause,
+  catchParameter: CatchParameter | null,
+  block: BlockStatement
+): CatchClause {
   return node.catchParameter !== catchParameter || node.block !== block
     ? updateNode(createCatch(catchParameter, block, node.flags, node.start, node.end), node)
     : node;

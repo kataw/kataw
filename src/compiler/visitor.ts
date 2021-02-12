@@ -85,6 +85,7 @@ import { updateFunctionDeclaration } from './ast/statements/function-declaration
 import { updateLexicalDeclaration } from './ast/statements/lexical-declaration';
 import { updateClassDeclaration } from './ast/statements/class-declaration';
 import { updateCatch } from './ast/statements/catch-stmt';
+import { updateCatchParameter } from './ast/statements/catch-parameter';
 import { updateArrayType } from './ast/types/array-type';
 import { updateCallSignature } from './ast/types/call-signature';
 import { updateConditionalType } from './ast/types/conditional-type';
@@ -536,6 +537,13 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateDefaultClause(node, visitNodes(node.statements, visitor));
     case NodeKind.Catch:
       return updateCatch(node, visitNodes(node.catchParameter, visitor), visitNodes(node.block, visitor));
+    case NodeKind.CatchParameter:
+      return updateCatchParameter(
+        node,
+        visitNodes(node.binding, visitor),
+        visitNodes(node.type, visitor),
+        visitNodes(node.initializer, visitor)
+      );
     case NodeKind.DoWhileStatement:
       return updateDoWhileStatement(node, visitNode(node.expression, visitor), visitNode(node.statement, visitor));
     case NodeKind.ForBinding:

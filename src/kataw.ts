@@ -189,6 +189,7 @@ export { createDoWhileStatement, updateDoWhileStatement } from './compiler/ast/s
 export { createWhileStatement, updateWhileStatement } from './compiler/ast/statements/while-stmt';
 export { createIfStatement, updateIfStatement } from './compiler/ast/statements/if-stmt';
 export { createCatch, updateCatch } from './compiler/ast/statements/catch-stmt';
+export { createCatchParameter, updateCatchParameter } from './compiler/ast/statements/catch-parameter';
 export { createTryStatement, updateTryStatement } from './compiler/ast/statements/try-stmt';
 export { createLexicalBinding, updateLexicalBinding } from './compiler/ast/statements/lexical-binding';
 export { createLexicalDeclaration, updateLexicalDeclaration } from './compiler/ast/statements/lexical-declaration';

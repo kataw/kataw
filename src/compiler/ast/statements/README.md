@@ -110,8 +110,19 @@ A `try` statement. If `handler` is `null` then `finalizer` must be a `BlockState
 ```js
 interface CatchClause <: Statements {
     kind: NodeKind.CatchClause;
-    catchParameter: BindingIdentifier | ObjectBindingPattern | ArrayBindingPattern | null;
+    catchParameter: CatchParameter | null;
     block: BlockStatement;
+}
+```
+
+### CatchParameter
+
+```js
+interface CatchParameter <: Statements {
+    kind: NodeKind.CatchParameter;
+    binding: BindingIdentifier | ObjectBindingPattern | ArrayBindingPattern | null;
+    type: TypeNode | null;
+    initializer: AssignmentExpression | null;
 }
 ```
 

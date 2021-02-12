@@ -225,6 +225,10 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNodes(node.statements, visitor);
     case NodeKind.Catch:
       return visitNodes(node.catchParameter, visitor) || visitNodes(node.block, visitor);
+    case NodeKind.CatchParameter:
+      return (
+        visitNodes(node.binding, visitor) || visitNodes(node.type, visitor) || visitNodes(node.initializer, visitor)
+      );
     case NodeKind.DoWhileStatement:
       return visitNode(node.expression, visitor) || visitNode(node.statement, visitor);
     case NodeKind.ForBinding:
