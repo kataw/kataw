@@ -25,8 +25,10 @@ export interface FieldDefinition extends Node {
 
 export function createFieldDefinition(
   key: Expression | PrivateIdentifier,
-  propertyKind: PropertyKind,
   isOptional: boolean,
+  isDeclared: boolean,
+  isReadOnly: boolean,
+  isAbstract: boolean,
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
@@ -37,11 +39,12 @@ export function createFieldDefinition(
   start: number,
   end: number
 ): FieldDefinition {
-  if (propertyKind & PropertyKind.Declare) flags |= NodeFlags.Declared;
+  if (isAbstract) flags |= NodeFlags.Abstract;
+  if (isDeclared) flags |= NodeFlags.Declared;
   return {
     kind: NodeKind.FieldDefinition,
     key,
-    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
+    isReadOnly,
     isOptional,
     exclamation,
     type,
@@ -62,8 +65,10 @@ export function createFieldDefinition(
 export function updateFieldDefinition(
   node: FieldDefinition,
   key: Expression | PrivateIdentifier,
-  isReadOnly: boolean,
   isOptional: boolean,
+  isDeclared: boolean,
+  isReadOnly: boolean,
+  isAbstract: boolean,
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
@@ -82,8 +87,10 @@ export function updateFieldDefinition(
     ? updateNode(
         createFieldDefinition(
           key,
-          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
           isOptional,
+          isDeclared,
+          isReadOnly,
+          isAbstract,
           exclamation,
           type,
           initializer,

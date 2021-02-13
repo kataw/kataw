@@ -4466,7 +4466,7 @@ function parseExportDeclaration(
   let fromClause: StringLiteral | Expression | null = null;
   let namedExports: NamedExports | null = null;
   let exportFromClause: any | null = null;
-  let isTypeOnly = parser.token === Token.TypeKeyword && tryParse(parser, context, canFollowExportTypeKeyword);
+  const isTypeOnly = parser.token === Token.TypeKeyword && tryParse(parser, context, canFollowExportTypeKeyword);
 
   switch (parser.token) {
     case Token.DefaultKeyword:
@@ -4786,14 +4786,16 @@ function parseClassElementList(parser: ParserState, context: Context): ClassElem
   return createClassElementList(elements, parser.nodeFlags, pos, parser.startPos);
 }
 
-function nextTokenFollowAPropertyOnTheSameLine(parser: ParserState, context: Context) {
+function canFollowAPropertyOnSameLine(parser: ParserState, context: Context) {
   nextToken(parser, context);
   return (
-    (parser.token & (Token.IsProperty | Token.IsIdentifier | Token.FutureReserved | Token.Keyword)) !== 0 &&
-    (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
+    (parser.token & 0b00010000000000000111000000000000) !== 0 && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
   );
 }
 
+// ClassElement :
+//   `static` MethodDefinition
+//   MethodDefinition
 function parseClassElement(parser: ParserState, context: Context): ClassElement | Semicolon | FieldDefinition | any {
   const pos = parser.startPos;
 
@@ -4802,30 +4804,40 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     return createSemicolon(parser.nodeFlags, pos, parser.startPos);
   }
 
+  // If we have "{ @foo xxx" then this is definitely an class decorator.
   const decorators = parseDecorators(parser, context);
+
+  let kind = PropertyKind.None;
+  let isStatic = false;
 
   // We need to check for the 'readOnly' keyword first in case we have something like "{ readonly private foo;".
   // A accessor modifier must precede 'readonly' modifier, so this isn't allowed here. We will
   // handle this in the grammar checker
-  let kind = PropertyKind.None;
-  let isStatic = false;
-  let isReadOnly =
-    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
+  let isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+
+  // Access modifiers are "{ private xxx(" or "{ protected foo<x>(" or "{ readonly public xxx".
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
-  let isAbstract =
-    parser.token === Token.AbstractKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
-  isReadOnly =
-    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
+
+  // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
+  const isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+
+  // Simple cases like "{ private readonly foo(" or "{ readonly foo<x>(" or "{ readonly static set(".
+  isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
 
-  if (parser.token & (Token.IsIdentifier | Token.FutureReserved | Token.Keyword)) {
+  // Cases like "{ declare (" isn't valid, but accepted here for error recovery reasons.
+  // We will handle this in the grammar checker. If we consume this as an modifier, it will
+  // block us from doing "auto fix" in the linter.
+  let isDeclared = parser.token === Token.DeclareKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+
+  if (parser.token & 0b00000000000000000111000000000000) {
     let token = parser.token;
     let key: any = parseIdentifierName(parser, context);
 
     // Simple cases like "{ static foo(" or "{ static foo<x>(" or "{ private static set(" or
-    // "{ private static constructor<x>(" etc.
+    // "{ private static constructor<x>(".
     if (token === Token.StaticKeyword) {
       if (parser.token & Token.IsClassField) {
         return parseFieldDefinition(
@@ -4836,6 +4848,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           isStatic,
           isAbstract,
           isReadOnly,
+          isDeclared,
           decorators,
           key,
           pos
@@ -4905,6 +4918,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         isStatic,
         isAbstract,
         isReadOnly,
+        isDeclared,
         decorators,
         key,
         pos
@@ -4975,41 +4989,15 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       kind |= PropertyKind.Setter;
     }
 
-    // Cases like "{ declare (" isn't valid, but accepted here for error recovery reasons.
-    // We will handle this in the grammar checker. If we consume this as an modifier, it will
-    // block us from doing "auto fix" in the linter.
-    if (token === Token.DeclareKeyword) {
-      // If we have "{ declare" or "{ declare: string" etc. then this is a class field
-      if (parser.token & Token.IsClassField) {
-        return parseFieldDefinition(
-          parser,
-          context,
-          kind,
-          null,
-          isStatic,
-          isAbstract,
-          isReadOnly,
-          decorators,
-          key,
-          pos
-        );
-      }
-
-      // If we have "{ async declare babel(" etc then this is definitely not an class field.
-      if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-        return createClassElement(
-          isStatic,
-          isAbstract,
-          isReadOnly,
-          /* isOptional */ false,
-          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
-          parser.nodeFlags,
-          pos,
-          parser.startPos
-        );
-      }
+    // For error recovery reasons we need to check for the existence of the 'declare' keyword again. Cases like
+    // "{ async declare xxx(" and "{ async declare xxx = yyy". This will be handled in the grammar checker.
+    if (
+      token === Token.DeclareKeyword &&
+      (parser.token & 0b00010000000000000111000000000000) !== 0 &&
+      (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
+    ) {
       key = parsePropertyName(parser, context);
-      kind |= PropertyKind.Declare;
+      isDeclared = true;
     }
 
     // If we have "{ private static x (" or "{ static async (" or "{ private static async x(" or "{ get foo()"
@@ -5037,6 +5025,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       isStatic,
       isAbstract,
       isReadOnly,
+      isDeclared,
       decorators,
       key,
       pos
@@ -5127,6 +5116,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       isStatic,
       isAbstract,
       isReadOnly,
+      isDeclared,
       decorators,
       key,
       pos
@@ -5142,6 +5132,7 @@ function parseFieldDefinition(
   isStatic: boolean,
   isAbstract: boolean,
   isReadOnly: boolean,
+  isDeclared: boolean,
   decorators: DecoratorList | null,
   key: Expression | PrivateIdentifier,
   pos: number
@@ -5168,13 +5159,15 @@ function parseFieldDefinition(
   const exclamation = consumeOpt(parser, context, Token.Negate);
   const type = parseTypeAnnotation(parser, context);
   const initializer = parseInitializer(parser, context);
-  if (isAbstract) parser.nodeFlags |= NodeFlags.Abstract;
 
   parseSemicolon(parser, context);
+
   return createFieldDefinition(
     key,
-    kind,
     optional,
+    isDeclared,
+    isReadOnly,
+    isAbstract,
     exclamation,
     type,
     initializer,
@@ -6336,6 +6329,6 @@ function parseDecorators(parser: ParserState, context: Context): DecoratorList |
 
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
   const pos = parser.startPos;
-  let expression = parseLeftHandSideExpression(parser, context, /* allowCalls */ true);
+  const expression = parseLeftHandSideExpression(parser, context, /* allowCalls */ true);
   return createDecorator(expression, parser.nodeFlags, pos, parser.startPos);
 }

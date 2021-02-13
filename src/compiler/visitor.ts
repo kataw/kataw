@@ -595,8 +595,10 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateFieldDefinition(
         node,
         visitNode(node.key, visitor),
-        node.isReadOnly,
         node.isOptional,
+        node.isDeclared,
+        node.isReadOnly,
+        node.isAbstract,
         node.exclamation,
         visitNode(node.type, visitor),
         visitNode(node.initializer, visitor),
