@@ -2480,7 +2480,6 @@ function parsePropertyDefinition(
         parser,
         context,
         createIdentifierName(tokenValue, raw, nodeFlags, startPos, parser.startPos),
-        false,
         kind,
         decorators,
         modifiers
@@ -2555,7 +2554,7 @@ function parsePropertyDefinition(
       if (kind & 0b00000000000000000000000000000111) {
         key = parsePropertyName(parser, context);
         if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-          return parseMethodDefinition(parser, context, key, false, kind, decorators, modifiers) as any;
+          return parseMethodDefinition(parser, context, key, kind, decorators, modifiers) as any;
         }
         return key as IdentifierName;
       }
@@ -2573,7 +2572,7 @@ function parsePropertyDefinition(
   }
 
   if (kind & PropertyKind.Generator || parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-    return parseMethodDefinition(parser, context, key, false, kind, decorators, modifiers) as any;
+    return parseMethodDefinition(parser, context, key, kind, decorators, modifiers) as any;
   }
 
   consume(parser, context | Context.AllowRegExp, Token.Colon);
@@ -2593,7 +2592,6 @@ function parseMethodDefinition(
   parser: ParserState,
   context: Context,
   key: MethodName,
-  isStatic: boolean,
   kind: PropertyKind,
   decorators: any,
   accessModifier: AccessModifier | null
@@ -2636,8 +2634,6 @@ function parseMethodDefinition(
   } else {
     uniqueFormalParameters = parseFormalParameterList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   }
-
-  if (isStatic) parser.nodeFlags |= NodeFlags.Abstract;
 
   return createMethodDefinition(
     parser.nodeFlags,
@@ -4721,10 +4717,10 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
   );
 }
 
-function parseimplementClauses(parser: ParserState, context: Context): ImplementClauses {
-  const pos = parser.startPos;
-  const clauses = [];
+function parseimplementClauses(parser: ParserState, context: Context): ImplementClauses | null {
   if (consumeOpt(parser, context, Token.ImplementsKeyword)) {
+    const pos = parser.startPos;
+    const clauses = [];
     while (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
       clauses.push(parseImplementClause(parser, context));
       if (parser.token & Token.IsPatternStart) break;
@@ -4735,9 +4731,9 @@ function parseimplementClauses(parser: ParserState, context: Context): Implement
       if (consumeOpt(parser, context, Token.Comma)) continue;
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
     }
+    return createImplementClauses(clauses, parser.nodeFlags, pos, parser.startPos);
   }
-
-  return createImplementClauses(clauses, parser.nodeFlags, pos, parser.startPos);
+  return null;
 }
 
 function parseImplementClause(parser: ParserState, context: Context): ImplementClause {
@@ -4790,6 +4786,14 @@ function parseClassElementList(parser: ParserState, context: Context): ClassElem
   return createClassElementList(elements, parser.nodeFlags, pos, parser.startPos);
 }
 
+function nextTokenFollowAPropertyOnTheSameLine(parser: ParserState, context: Context) {
+  nextToken(parser, context);
+  return (
+    (parser.token & (Token.IsProperty | Token.IsIdentifier | Token.FutureReserved | Token.Keyword)) !== 0 &&
+    (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
+  );
+}
+
 function parseClassElement(parser: ParserState, context: Context): ClassElement | Semicolon | FieldDefinition | any {
   const pos = parser.startPos;
 
@@ -4805,79 +4809,13 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   // handle this in the grammar checker
   let kind = PropertyKind.None;
   let isStatic = false;
-  let isAbstract = false;
-
-  if (parser.token === Token.ReadonlyKeyword) {
-    const key: any = parseIdentifierName(parser, context);
-
-    // If we have "{ readonly" or "{ readonly: string" etc. then this is a class field
-    if (parser.token & Token.IsClassField) {
-      return parseFieldDefinition(parser, context, kind, null, isStatic, isAbstract, decorators, key, pos);
-    }
-
-    // Simple cases like "{ readonly (" or "{ * readonly (" etc.
-    // Class fields are forbidden in this context.
-    if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return createClassElement(
-        isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind, decorators, null),
-        parser.nodeFlags,
-        pos,
-        parser.startPos
-      );
-    }
-    // If we have "{ private readonly" or "{ public readonly" or "{ protected readonly" or "{ readonly" then this is
-    // either a class field or a class method. However. Class methods cannot have the 'readonly' modifier so we will handle
-    // this in the grammar checker
-    kind |= PropertyKind.Readonly;
-  }
-
+  let isReadOnly =
+    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
-
-  // If we have "{ abstract foo" or "{ abstract foo(" then this must be a abstract class field or method
-  if (parser.token === Token.AbstractKeyword) {
-    const key = parseIdentifierName(parser, context);
-
-    // If we have "{ private abstract" or "{ abstract: string" etc. then this is a class field
-    if (parser.token & Token.IsClassField) {
-      return parseFieldDefinition(parser, context, kind, null, isStatic, isAbstract, decorators, key, pos);
-    }
-    // Simple cases like "{ abstract * function (" or "{ abstract foo (" or "{ abstract foo<x>(" etc.
-    if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return createClassElement(
-        isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
-        parser.nodeFlags,
-        pos,
-        parser.startPos
-      );
-    }
-    isAbstract = true;
-  }
-
-  // If we have "{ abstract foo" or "{ abstract foo(" then this must be a abstract class field or method
-  if (parser.token === Token.ReadonlyKeyword) {
-    const key = parseIdentifierName(parser, context);
-
-    // If we have "{ private readonly" or "{ readonly: string" etc. then this is a class field
-    if (parser.token & Token.IsClassField) {
-      return parseFieldDefinition(parser, context, kind, null, isStatic, isAbstract, decorators, key, pos);
-    }
-
-    // If we have "{ private readonly (" or "{ readonly readonly(" etc then this is a class method
-    if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return createClassElement(
-        isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind, decorators, null),
-        parser.nodeFlags,
-        pos,
-        parser.startPos
-      );
-    }
-    // Cases like "{ private readonly" or "{ public readonly" or "{ protected readonly" isn't valid becase a class
-    // method cannot have the 'readonly' modifier so we will handle this in the grammar checker
-    kind |= PropertyKind.Readonly;
-  }
+  let isAbstract =
+    parser.token === Token.AbstractKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
+  isReadOnly =
+    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenFollowAPropertyOnTheSameLine);
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
@@ -4890,7 +4828,18 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     // "{ private static constructor<x>(" etc.
     if (token === Token.StaticKeyword) {
       if (parser.token & Token.IsClassField) {
-        return parseFieldDefinition(parser, context, kind, modifiers, isStatic, isAbstract, decorators, key, pos);
+        return parseFieldDefinition(
+          parser,
+          context,
+          kind,
+          modifiers,
+          isStatic,
+          isAbstract,
+          isReadOnly,
+          decorators,
+          key,
+          pos
+        );
       }
 
       if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
@@ -4898,7 +4847,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
         return createClassElement(
           isStatic,
-          parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+          isAbstract,
+          isReadOnly,
+          /* isOptional */ false,
+          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
           parser.startPos
@@ -4919,7 +4871,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       // a valid case.
       return createClassElement(
         isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind | PropertyKind.Constructor, decorators, modifiers),
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ false,
+        parseMethodDefinition(parser, context, key, kind | PropertyKind.Constructor, decorators, modifiers),
         parser.nodeFlags,
         pos,
         parser.startPos
@@ -4928,12 +4883,32 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
     // Simple cases like "{ readonly foo(" or "{ readonly foo<x>(" etc.
     if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers);
+      return createClassElement(
+        isStatic,
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ false,
+        parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
+        parser.nodeFlags,
+        pos,
+        parser.startPos
+      );
     }
 
     // Simple class field cases like "{ readonly y" or "{ private y" or "{ private readonly y = " etc.
     if (parser.token & Token.IsClassField) {
-      return parseFieldDefinition(parser, context, kind, modifiers, isStatic, isAbstract, decorators, key, pos);
+      return parseFieldDefinition(
+        parser,
+        context,
+        kind,
+        modifiers,
+        isStatic,
+        isAbstract,
+        isReadOnly,
+        decorators,
+        key,
+        pos
+      );
     }
 
     if (token === Token.AsyncKeyword) {
@@ -4942,7 +4917,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
         return createClassElement(
           isStatic,
-          parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+          isAbstract,
+          isReadOnly,
+          /* isOptional */ false,
+          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
           parser.startPos
@@ -4963,7 +4941,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
         return createClassElement(
           isStatic,
-          parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+          isAbstract,
+          isReadOnly,
+          /* isOptional */ false,
+          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
           parser.startPos
@@ -4981,7 +4962,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
         return createClassElement(
           isStatic,
-          parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+          isAbstract,
+          isReadOnly,
+          /* isOptional */ false,
+          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
           parser.startPos
@@ -4997,14 +4981,28 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     if (token === Token.DeclareKeyword) {
       // If we have "{ declare" or "{ declare: string" etc. then this is a class field
       if (parser.token & Token.IsClassField) {
-        return parseFieldDefinition(parser, context, kind, null, isStatic, isAbstract, decorators, key, pos);
+        return parseFieldDefinition(
+          parser,
+          context,
+          kind,
+          null,
+          isStatic,
+          isAbstract,
+          isReadOnly,
+          decorators,
+          key,
+          pos
+        );
       }
 
       // If we have "{ async declare babel(" etc then this is definitely not an class field.
       if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
         return createClassElement(
           isStatic,
-          parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+          isAbstract,
+          isReadOnly,
+          /* isOptional */ false,
+          parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
           parser.startPos
@@ -5020,7 +5018,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
       return createClassElement(
         isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind, decorators, modifiers),
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ false,
+        parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
         parser.nodeFlags,
         pos,
         parser.startPos
@@ -5028,7 +5029,18 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     }
 
     // This has to be something like "{ async" or "{ foo?" or "{ foo?: string" or "{ static = async" etc.
-    return parseFieldDefinition(parser, context, kind, modifiers, isStatic, isAbstract, decorators, key, pos);
+    return parseFieldDefinition(
+      parser,
+      context,
+      kind,
+      modifiers,
+      isStatic,
+      isAbstract,
+      isReadOnly,
+      decorators,
+      key,
+      pos
+    );
   }
 
   if (parser.token & Token.IsProperty) {
@@ -5081,7 +5093,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       // a valid case.
       return createClassElement(
         isStatic,
-        parseMethodDefinition(parser, context, key, isStatic, kind | PropertyKind.Constructor, decorators, modifiers),
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ false,
+        parseMethodDefinition(parser, context, key, kind | PropertyKind.Constructor, decorators, modifiers),
         parser.nodeFlags,
         pos,
         parser.startPos
@@ -5091,11 +5106,31 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
     if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
 
     if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return parseMethodDefinition(parser, context, key, isStatic, PropertyKind.None, decorators, modifiers);
+      return createClassElement(
+        isStatic,
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ false,
+        parseMethodDefinition(parser, context, key, kind | PropertyKind.None, decorators, modifiers),
+        parser.nodeFlags,
+        pos,
+        parser.startPos
+      );
     }
 
     // This has to be something like "{ async" or "{ foo?" or "{ foo?: string" or "{ static = async" etc.
-    return parseFieldDefinition(parser, context, kind, modifiers, isStatic, isAbstract, decorators, key, pos);
+    return parseFieldDefinition(
+      parser,
+      context,
+      kind,
+      modifiers,
+      isStatic,
+      isAbstract,
+      isReadOnly,
+      decorators,
+      key,
+      pos
+    );
   }
 }
 
@@ -5106,6 +5141,7 @@ function parseFieldDefinition(
   accessModifier: AccessModifier | null,
   isStatic: boolean,
   isAbstract: boolean,
+  isReadOnly: boolean,
   decorators: DecoratorList | null,
   key: Expression | PrivateIdentifier,
   pos: number
@@ -5118,15 +5154,10 @@ function parseFieldDefinition(
     if (parser.token === Token.LeftParen) {
       return createClassElement(
         isStatic,
-        parseMethodDefinition(
-          parser,
-          context,
-          key as any,
-          isStatic,
-          kind | PropertyKind.Optional,
-          decorators,
-          accessModifier
-        ),
+        isAbstract,
+        isReadOnly,
+        /* isOptional */ true,
+        parseMethodDefinition(parser, context, key as any, kind, decorators, accessModifier),
         parser.nodeFlags,
         pos,
         parser.startPos

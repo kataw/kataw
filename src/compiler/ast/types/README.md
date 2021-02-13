@@ -259,7 +259,7 @@ interface MappedType <: TypeNode {
   isReadOnly: boolean;
   plus: boolean;
   minus: boolean;
-  optional: boolean;
+  isOptional: boolean;
   type: TypeNode | null;
 }
 ```
@@ -270,7 +270,7 @@ interface MappedType <: TypeNode {
 interface MethodSignature <: TypeNode {
   kind: NodeKind.MethodSignature;
   name: PropertyName;
-  optional: boolean;
+  isOptional: boolean;
   isReadOnly: boolean;
   accessModifiers: AccessModifiers;
   typeParameters: TypeParameters;
@@ -295,7 +295,7 @@ interface NamedTupleMember <: TypeNode {
   kind: NodeKind.NamedTupleMember;
   ellipsis: boolean;
   name: IdentifierReference;
-  optional: boolean;
+  isOptional: boolean;
   type: TypeNode;
 }
 ```
@@ -368,7 +368,8 @@ interface ParameterDeclaration  <: TypeNode {
   kind: NodeKind.ParameterDeclaration;
   ellipsis: boolean;
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  optional: boolean;
+  isOptional: boolean;
+  isReadOnly: boolean;
   type: TypeNode | null;
   initializer: AssignmentExpression | null;
   accessModifiers: AccessModifiers;
@@ -400,7 +401,7 @@ interface ParenthesizedType <: TypeNode {
 interface PropertySignature <: TypeNode {
   kind: NodeKind.PropertySignature;
   name: PropertyName;
-  optional: boolean;
+  isOptional: boolean;
   type: TypeNode | null;
   isReadOnly: boolean;
   accessModifiers: AccessModifiers;

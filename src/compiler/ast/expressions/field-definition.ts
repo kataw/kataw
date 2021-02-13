@@ -14,7 +14,7 @@ import { PropertyKind } from '../../parser/common';
 export interface FieldDefinition extends Node {
   readonly key: Expression | PrivateIdentifier;
   readonly isReadOnly: boolean;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly exclamation: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
@@ -26,7 +26,7 @@ export interface FieldDefinition extends Node {
 export function createFieldDefinition(
   key: Expression | PrivateIdentifier,
   propertyKind: PropertyKind,
-  optional: boolean,
+  isOptional: boolean,
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
@@ -42,7 +42,7 @@ export function createFieldDefinition(
     kind: NodeKind.FieldDefinition,
     key,
     isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
-    optional,
+    isOptional,
     exclamation,
     type,
     initializer,
@@ -63,7 +63,7 @@ export function updateFieldDefinition(
   node: FieldDefinition,
   key: Expression | PrivateIdentifier,
   isReadOnly: boolean,
-  optional: boolean,
+  isOptional: boolean,
   exclamation: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
@@ -72,7 +72,7 @@ export function updateFieldDefinition(
   isStatic: boolean
 ): FieldDefinition {
   return node.key !== key ||
-    node.optional !== optional ||
+    node.isOptional !== isOptional ||
     node.exclamation !== exclamation ||
     node.type !== type ||
     node.initializer !== initializer ||
@@ -83,7 +83,7 @@ export function updateFieldDefinition(
         createFieldDefinition(
           key,
           isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
-          optional,
+          isOptional,
           exclamation,
           type,
           initializer,

@@ -13,7 +13,7 @@ import { PropertyKind } from '../../parser/common';
 
 export interface MethodSignature extends Node {
   readonly name: PropertyName;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters | null;
@@ -23,7 +23,7 @@ export interface MethodSignature extends Node {
 
 export function createMethodSignature(
   name: PropertyName,
-  optional: boolean,
+  isOptional: boolean,
   propertyKind: PropertyKind,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
@@ -41,7 +41,7 @@ export function createMethodSignature(
     kind: NodeKind.MethodSignature,
     name,
     isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
-    optional,
+    isOptional,
     accessModifier,
     typeParameters,
     parameters,
@@ -60,7 +60,7 @@ export function updateMethodSignature(
   node: MethodSignature,
   accessModifier: AccessModifier | null,
   name: PropertyName,
-  optional: boolean,
+  isOptional: boolean,
   isReadOnly: boolean,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -74,7 +74,7 @@ export function updateMethodSignature(
     ? updateNode(
         createMethodSignature(
           name,
-          optional,
+          isOptional,
           isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
           accessModifier,
           typeParameters,

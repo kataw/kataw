@@ -268,8 +268,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       node,
       (kind & NodeKind.IsGenerator) !== 0,
       (kind & NodeKind.IsAsync) !== 0,
-      node.isReadOnly,
-      node.optional,
       visitNode(node.propertySetParameterList, visitor),
       visitNode(node.uniqueFormalParameters, visitor),
       visitNode(node.name, visitor),
@@ -339,7 +337,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         node.ellipsis,
         visitNode(node.binding, visitor),
-        node.optional,
+        node.isOptional,
         visitNode(node.type, visitor),
         visitNode(node.initializer, visitor),
         visitNode(node.decorators, visitor),
@@ -428,7 +426,14 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.OptionalChain:
       return updateOptionalChain(node, visitNode(node.chain, visitor));
     case NodeKind.ClassElement:
-      return updateClassElement(node, node.isSttic, visitNode(node.method, visitor));
+      return updateClassElement(
+        node,
+        node.isStatic,
+        node.isAbstract,
+        node.isReadOnly,
+        node.isOptional,
+        visitNode(node.method, visitor)
+      );
     case NodeKind.ClassElementList:
       return updateClassElementList(node, visitNodes(node.elements, visitor));
     case NodeKind.ClassDeclaration:
@@ -457,7 +462,9 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         visitNode(node.left, visitor),
         visitNode(node.right, visitor),
-        visitNode(node.accessModifier, visitor)
+        visitNode(node.accessModifier, visitor),
+        node.isOptional,
+        node.exclamation
       );
     case NodeKind.ReturnStatement:
       return updateReturnStatement(node, visitNode(node.expression, visitor));
@@ -589,7 +596,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         visitNode(node.key, visitor),
         node.isReadOnly,
-        node.optional,
+        node.isOptional,
         node.exclamation,
         visitNode(node.type, visitor),
         visitNode(node.initializer, visitor),
@@ -708,7 +715,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node.readOnly,
         node.plus,
         node.minus,
-        node.optional
+        node.isOptional
       );
 
     case NodeKind.CallSignature:
@@ -742,7 +749,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updatePropertySignature(
         node,
         visitNode(node.name, visitor),
-        node.optional,
+        node.isOptional,
         visitNode(node.type, visitor),
         node.readonly,
         visitNode(node.initializer, visitor),
@@ -754,7 +761,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node,
         visitNode(node.accessModifier, visitor),
         visitNode(node.name, visitor),
-        node.optional,
+        node.isOptional,
         node.isReadOnly,
         visitNode(node.typeParameters, visitor),
         visitNode(node.parameters, visitor),
@@ -802,7 +809,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node.ellipsis,
         visitNode(node.name, visitor),
         visitNode(node.type, visitor),
-        node.optional
+        node.isOptional
       );
 
     case NodeKind.ObjectTypeMembers:
@@ -814,7 +821,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         node.ellipsis,
         visitNode(node.binding, visitor),
         visitNode(node.type, visitor),
-        node.optional,
+        node.isOptional,
         visitNode(node.initializer, visitor),
         visitNode(node.accessModifier, visitor),
         node.isReadOnly

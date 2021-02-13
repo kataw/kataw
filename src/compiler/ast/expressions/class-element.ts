@@ -8,11 +8,17 @@ import { MethodDefinition } from './method-definition';
 export interface ClassElement extends Node {
   // True if `IsStatic` of ClassElement is true.
   readonly isStatic: boolean;
+  readonly isAbstract: boolean;
+  readonly isReadOnly: boolean;
+  readonly isOptional: boolean;
   readonly method: MethodDefinition;
 }
 
 export function createClassElement(
   isStatic: boolean,
+  isAbstract: boolean,
+  isReadOnly: boolean,
+  isOptional: boolean,
   method: MethodDefinition,
   flags: NodeFlags,
   start: number,
@@ -21,6 +27,9 @@ export function createClassElement(
   return {
     kind: NodeKind.ClassElement,
     isStatic,
+    isAbstract,
+    isReadOnly,
+    isOptional,
     method,
     flags,
     intersects: false,
@@ -32,8 +41,22 @@ export function createClassElement(
   };
 }
 
-export function updateClassElement(node: ClassElement, isStatic: boolean, method: MethodDefinition): ClassElement {
-  return node.isStatic !== isStatic || node.method !== method
-    ? updateNode(createClassElement(isStatic, method, node.flags, node.start, node.end), node)
+export function updateClassElement(
+  node: ClassElement,
+  isStatic: boolean,
+  isAbstract: boolean,
+  isReadOnly: boolean,
+  isOptional: boolean,
+  method: MethodDefinition
+): ClassElement {
+  return node.isStatic !== isStatic ||
+    node.isStatic !== isAbstract ||
+    node.isStatic !== isReadOnly ||
+    node.isStatic !== isOptional ||
+    node.method !== method
+    ? updateNode(
+        createClassElement(isStatic, isAbstract, isReadOnly, isOptional, method, node.flags, node.start, node.end),
+        node
+      )
     : node;
 }

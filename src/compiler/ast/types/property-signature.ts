@@ -11,7 +11,7 @@ import { PropertyKind } from '../../parser/common';
 
 export interface PropertySignature extends Node {
   readonly name: PropertyName;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly type: TypeNode | null;
   readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
@@ -20,7 +20,7 @@ export interface PropertySignature extends Node {
 
 export function createPropertySignature(
   name: PropertyName,
-  optional: boolean,
+  isOptional: boolean,
   accessModifier: AccessModifier | null,
   type: TypeNode | null,
   propertyKind: PropertyKind,
@@ -36,7 +36,7 @@ export function createPropertySignature(
   return {
     kind: NodeKind.PropertySignature,
     name,
-    optional,
+    isOptional,
     accessModifier,
     type,
     isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
@@ -54,21 +54,21 @@ export function createPropertySignature(
 export function updatePropertySignature(
   node: PropertySignature,
   name: PropertyName,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   isReadOnly: boolean,
   initializer: Expression | null,
   accessModifier: AccessModifier | null
 ): PropertySignature {
   return node.name !== name ||
-    node.optional !== optional ||
+    node.isOptional !== isOptional ||
     node.type !== type ||
     node.accessModifier !== accessModifier ||
     node.initializer !== initializer
     ? updateNode(
         createPropertySignature(
           name,
-          optional,
+          isOptional,
           accessModifier,
           type,
           isReadOnly ? PropertyKind.Readonly : PropertyKind.None,

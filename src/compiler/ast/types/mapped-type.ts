@@ -13,7 +13,7 @@ export interface MappedType extends Node {
   readonly readonly: boolean;
   readonly plus: boolean;
   readonly minus: boolean;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly type: TypeNode | null;
 }
 
@@ -23,7 +23,7 @@ export function createMappedType(
   readonly: boolean,
   plus: boolean,
   minus: boolean,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   flags: NodeFlags,
   start: number,
@@ -36,7 +36,7 @@ export function createMappedType(
     readonly,
     plus,
     minus,
-    optional,
+    isOptional,
     type,
     flags,
     intersects: false,
@@ -55,7 +55,7 @@ export function updateMappedType(
   readonly: boolean,
   plus: boolean,
   minus: boolean,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null
 ): MappedType {
   return node.typeParameter !== typeParameter ||
@@ -63,7 +63,7 @@ export function updateMappedType(
     node.readonly !== readonly ||
     node.plus !== plus ||
     node.minus !== minus ||
-    node.optional !== optional
+    node.isOptional !== isOptional
     ? updateNode(
         createMappedType(
           typeParameter,
@@ -71,7 +71,7 @@ export function updateMappedType(
           readonly,
           plus,
           minus,
-          optional,
+          isOptional,
           type,
           node.flags,
           node.start,

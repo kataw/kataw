@@ -14,7 +14,7 @@ export interface ClassDeclaration extends Node {
   readonly name: BindingIdentifier | null;
   readonly typeParameters: TypeParameters | null;
   readonly classHeritage: Expression | null;
-  readonly implementClauses: ImplementClauses;
+  readonly implementClauses: ImplementClauses | null;
   readonly members: ClassElementList;
   readonly decorators: DecoratorList | null;
 }
@@ -24,7 +24,7 @@ export function createClassDeclaration(
   name: BindingIdentifier | null,
   typeParameters: TypeParameters | null,
   classHeritage: Expression | null,
-  implementClauses: ImplementClauses,
+  implementClauses: ImplementClauses | null,
   members: ClassElementList,
   decorators: DecoratorList | null,
   flags: NodeFlags,
@@ -55,7 +55,7 @@ export function updateClassDeclaration(
   name: BindingIdentifier | null,
   typeParameters: TypeParameters | null,
   classHeritage: Expression | null,
-  implementClauses: ImplementClauses,
+  implementClauses: ImplementClauses | null,
   members: ClassElementList,
   decorators: DecoratorList | null
 ): ClassDeclaration {

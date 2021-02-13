@@ -14,7 +14,7 @@ import { AccessModifier } from './access-modifier';
 export interface ParameterDeclaration extends Node {
   readonly ellipsis: boolean; // Present on rest parameter
   readonly binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
   readonly accessModifier: AccessModifier | null;
@@ -24,7 +24,7 @@ export interface ParameterDeclaration extends Node {
 export function createParameterDeclaration(
   ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   accessModifier: AccessModifier | null,
@@ -37,7 +37,7 @@ export function createParameterDeclaration(
     kind: NodeKind.ParameterDeclaration,
     ellipsis,
     binding,
-    optional,
+    isOptional,
     type,
     initializer,
     accessModifier,
@@ -56,7 +56,7 @@ export function updateParameterDeclaration(
   node: ParameterDeclaration,
   ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   accessModifier: AccessModifier | null,
@@ -64,7 +64,7 @@ export function updateParameterDeclaration(
 ): ParameterDeclaration {
   return node.ellipsis !== ellipsis ||
     node.binding !== binding ||
-    node.optional !== optional ||
+    node.isOptional !== isOptional ||
     node.type !== type ||
     node.initializer !== initializer ||
     node.accessModifier !== accessModifier
@@ -72,7 +72,7 @@ export function updateParameterDeclaration(
         createParameterDeclaration(
           ellipsis,
           binding,
-          optional,
+          isOptional,
           type,
           initializer,
           accessModifier,

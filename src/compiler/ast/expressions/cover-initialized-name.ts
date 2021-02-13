@@ -9,7 +9,7 @@ import { IdentifierReference } from './identifier-reference';
  */
 export interface CoverInitializedName extends Node {
   readonly left: IdentifierReference;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly exclamation: boolean;
   readonly right: AssignmentExpression;
   readonly accessModifier: AccessModifier | null;
@@ -17,7 +17,7 @@ export interface CoverInitializedName extends Node {
 
 export function createCoverInitializedName(
   left: IdentifierReference,
-  optional: boolean,
+  isOptional: boolean,
   exclamation: boolean,
   right: AssignmentExpression,
   accessModifier: AccessModifier | null,
@@ -28,7 +28,7 @@ export function createCoverInitializedName(
   return {
     kind: NodeKind.CoverInitializedName,
     left,
-    optional,
+    isOptional,
     exclamation,
     right,
     accessModifier,
@@ -46,14 +46,20 @@ export function updateCoverInitializedName(
   node: CoverInitializedName,
   left: IdentifierReference,
   right: AssignmentExpression,
-  accessModifier: AccessModifier | null
+  accessModifier: AccessModifier | null,
+  isOptional: boolean,
+  exclamation: boolean
 ): CoverInitializedName {
-  return node.left !== left || node.right !== right || node.accessModifier !== accessModifier
+  return node.left !== left ||
+    node.right !== right ||
+    node.accessModifier !== accessModifier ||
+    node.isOptional !== isOptional ||
+    node.exclamation !== exclamation
     ? updateNode(
         createCoverInitializedName(
           left,
-          node.optional,
-          node.exclamation,
+          isOptional,
+          exclamation,
           right,
           accessModifier,
           node.flags,

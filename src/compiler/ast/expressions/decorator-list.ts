@@ -1,6 +1,5 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-import { LeftHandSideExpression } from '.';
 import { Decorator } from './decorators';
 
 /**

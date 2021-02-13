@@ -10,31 +10,31 @@ import { DiagnosticCode } from '../../diagnostics/diagnosticMessages.generated';
 // prettier-ignore
 const enum NumberKind {
   None                   = 0,
-  Decimal                = 1 << 0,
-  Hex                    = 1 << 1,
-  Octal                  = 1 << 2,
-  Binary                 = 1 << 3,
-  DecimalWithLeadingZero = 1 << 9,
-  ImplicitOctal          = 1 << 10
+  Decimal                = 1 << 0, // e.g. `123456`
+  Hex                    = 1 << 1,// e.g. `0x00000000`
+  Octal                  = 1 << 2, // e.g. `0o777`
+  Binary                 = 1 << 3,// e.g. `0b0110010000000000`
+  DecimalWithLeadingZero = 1 << 9, // e.g. `000123`
+  ImplicitOctal          = 1 << 10 // e.g. `0777`
 }
 
 // prettier-ignore
 const enum ZeroDigitKind {
   Unknown               = -1,
-  Hexadecimal           = 1 << 0,
-  Binary                = 1 << 1,
-  Octal                 = 1 << 2,
+  Hexadecimal           = 1 << 0, // `x` or `X`
+  Binary                = 1 << 1, // `b` or `B`
+  Octal                 = 1 << 2, // `o` or `O`
   LetterB               = 1 << 3,
   LetterO               = 1 << 4,
   LetterX               = 1 << 5,
-  BigInt                = 1 << 6,
-  Underscore            = 1 << 7
+  BigInt                = 1 << 6, // `n`
+  Underscore            = 1 << 7  // `_`
 }
 
 // prettier-ignore
 const enum SeparatorAndBigIntState {
   None                   = 0,
-  AllowSeparator         = 1 << 0,
+  AllowSeparator         = 1 << 0,// e.g. `0b1100_0101`
   PreviousTokenSeparator = 1 << 1,
   DisallowBigInt         = 1 << 2,
 }

@@ -370,6 +370,9 @@ interface ClassElementList <: Expression {
 interface ClassElement <: Expression {
   kind: NodeKind.ClassElement;
   isStatic: boolean;
+  isAbstract: boolean;
+  isReadOnly: boolean;
+  isOptional: boolean;
   method: MethodDefinition;
 }
 ```
@@ -381,7 +384,7 @@ The `isStatic` boolean is true if `static` of ClassElement is true.
 ```js
 interface FieldDefinition <: Expression {
   key: Expression | PrivateIdentifier;
-  optional: boolean;
+  isOptional: boolean;
   isReadOnly: boolean;
   exclamation: boolean;
   type: TypeNode | null;
@@ -443,7 +446,7 @@ value should start with `|` - right above  `&&`, `||` and `??`.
 interface CoverInitializedName <: Expression {
   kind: NodeKind.CoverInitializedName;
   identifierReference: IdentifierReference;
-  optional: boolean;
+  isOptional: boolean;
   exclamation: boolean;
   initializer: AssignmentExpression;
 }
@@ -554,7 +557,8 @@ interface FormalParameterList <: Expression {
 interface FormalParameter <: Expression {
   ellipsis: boolean;
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  optional: boolean;
+  isOptional: boolean;
+  isReadOnly: boolean;
   type: TypeNode | null;
   initializer: AssignmentExpression | null;
   accessModifiers: AccessModifiers;
@@ -607,7 +611,6 @@ interface MethodDefinition <: Expression {
   async: boolean;
   generator: boolean;
   getter: boolean;
-  isReadOnly: boolean;
   propertySetParameterList: BindingIdentifier | BindingElement | null;
   uniqueFormalParameters: [ BindingIdentifier | BindingElement | BindingRestElement ];
   name: IdentifierReference | StringLiteral | BigIntLiteral | NumericLiteral | IdentifierName;

@@ -15,7 +15,7 @@ import { AccessModifier } from '../types/access-modifier';
 export interface FormalParameter extends Node {
   readonly ellipsis: boolean; // Present on rest parameter
   readonly binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
   readonly decorators: DecoratorList | null; // Only for error recovery
@@ -26,7 +26,7 @@ export interface FormalParameter extends Node {
 export function createFormalParameter(
   ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList | null,
@@ -40,7 +40,7 @@ export function createFormalParameter(
     kind: NodeKind.FormalParameter,
     ellipsis,
     binding,
-    optional,
+    isOptional,
     type,
     initializer,
     decorators,
@@ -63,7 +63,7 @@ export function updateFormalParameter(
   node: FormalParameter,
   ellipsis: boolean,
   binding: ObjectBindingPattern | ArrayBindingPattern | BindingIdentifier,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList,
@@ -72,7 +72,7 @@ export function updateFormalParameter(
 ): FormalParameter {
   return node.binding !== binding ||
     node.ellipsis !== ellipsis ||
-    node.optional !== optional ||
+    node.isOptional !== isOptional ||
     node.initializer !== initializer ||
     node.type !== type ||
     node.decorators !== decorators ||
@@ -82,7 +82,7 @@ export function updateFormalParameter(
         createFormalParameter(
           ellipsis,
           binding,
-          optional,
+          isOptional,
           type,
           initializer,
           decorators,
