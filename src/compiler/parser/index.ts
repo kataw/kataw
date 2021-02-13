@@ -238,7 +238,7 @@ export function parseScriptOrModuleBody(
   cb: any,
   factory: any
 ): ScriptBody | ModuleBody {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const statements: Statement[] = [];
 
   while (parser.token !== Token.EndOfSource) {
@@ -258,7 +258,7 @@ export function parseScriptOrModuleBody(
     // '/' in an statement position should be parsed as an unterminated regular expression
     nextToken(parser, context | Context.AllowRegExp);
   }
-  return factory(statements, parser.nodeFlags, pos, parser.startPos);
+  return factory(statements, parser.nodeFlags, pos, parser.curPos);
 }
 
 export function parseModuleItemList(parser: ParserState, context: Context): Statement {
@@ -319,7 +319,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       return parseStatement(parser, context, /* allowFunction */ true);
     }
     case Token.LetKeyword: {
-      const pos = parser.startPos;
+      const pos = parser.curPos;
       const flags = parser.nodeFlags;
       if (tryParse(parser, context, nextKeywordCanFollowLexicalLet)) {
         return parseLexicalDeclaration(parser, context, /* isConst */ false, flags, pos);
@@ -336,7 +336,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     case Token.TypeKeyword:
       return parseTypeAliasDeclaration(parser, context);
     case Token.InterfaceKeyword:
-      const pos = parser.startPos;
+      const pos = parser.curPos;
       const nodeFlags = parser.nodeFlags;
       if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
         return parseInterfaceDeclaration(parser, context, nodeFlags, pos);
@@ -466,9 +466,9 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Class_declaration_cannot_appear_in_single_statement_context);
       return parseClassDeclaration(parser, context);
     case Token.EnumKeyword:
-      const { startPos, nodeFlags } = parser;
+      const { curPos, nodeFlags } = parser;
       if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
-        return parseEnumDeclaration(parser, context, /* isConst */ false, nodeFlags, startPos);
+        return parseEnumDeclaration(parser, context, /* isConst */ false, nodeFlags, curPos);
       }
     /* falls through */
     default:
@@ -489,12 +489,12 @@ function parseInterfaceDeclaration(
     parseObjectType(parser, context),
     nodeFlags | parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseHeritageClauses(parser: ParserState, context: Context): HeritageClauses {
-  let listPos = parser.startPos;
+  let listPos = parser.curPos;
 
   const clauses = [];
 
@@ -507,7 +507,7 @@ function parseHeritageClauses(parser: ParserState, context: Context): HeritageCl
     }
 
     nextToken(parser, context);
-    listPos = parser.startPos;
+    listPos = parser.curPos;
     while (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
       clauses.push(parseHeritageClause(parser, context));
       if (parser.token & Token.IsPatternStart) break;
@@ -516,12 +516,12 @@ function parseHeritageClauses(parser: ParserState, context: Context): HeritageCl
     }
   }
 
-  return createHeritageClauses(clauses, parser.nodeFlags, listPos, parser.startPos);
+  return createHeritageClauses(clauses, parser.nodeFlags, listPos, parser.curPos);
 }
 
 function parseHeritageClause(parser: ParserState, context: Context): HeritageClause {
-  const pos = parser.startPos;
-  return createHeritageClause(parseTypeReference(parser, context), parser.nodeFlags, pos, parser.startPos);
+  const pos = parser.curPos;
+  return createHeritageClause(parseTypeReference(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function nextTokenIsIdentifierOnSameLine(parser: ParserState, context: Context): boolean {
@@ -536,9 +536,9 @@ function parseTypeAliasDeclaration(
   parser: ParserState,
   context: Context
 ): TypeAliasDeclaration | LabelledStatement | ExpressionStatement {
-  const { startPos, nodeFlags } = parser;
+  const { curPos, nodeFlags } = parser;
   if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
-    return parseTypeAliasDeclarationRest(parser, context, nodeFlags, startPos);
+    return parseTypeAliasDeclarationRest(parser, context, nodeFlags, curPos);
   }
   return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
 }
@@ -556,18 +556,18 @@ function parseTypeAliasDeclarationRest(
     (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
     parseType(parser, context | Context.AllowConditionalTypes);
   parseSemicolon(parser, context);
-  return createTypeAliasDeclaration(name, type, typeParameters, nodeFlags | parser.nodeFlags, pos, parser.startPos);
+  return createTypeAliasDeclaration(name, type, typeParameters, nodeFlags | parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseIntrinsic(parser: ParserState, context: Context): IntrinsicKeyword | undefined {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   if (parser.token === Token.Period) return undefined;
-  return createIntrinsicKeyword(parser.nodeFlags, pos, parser.startPos);
+  return createIntrinsicKeyword(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseLexicalOrEnumDeclaration(parser: ParserState, context: Context): EnumDeclaration | LexicalDeclaration {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
   nextToken(parser, context);
   if (consumeOpt(parser, context, Token.EnumKeyword)) {
@@ -588,11 +588,11 @@ function parseEnumDeclaration(
   consume(parser, context, Token.LeftBrace);
   const enumMembersList = parseEnumMembersList(parser, context);
   consume(parser, context, Token.RightBrace);
-  return createEnumDeclaration(name, enumMembersList, isConst, nodeFlags | parser.nodeFlags, pos, parser.startPos);
+  return createEnumDeclaration(name, enumMembersList, isConst, nodeFlags | parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseEnumMembersList(parser: ParserState, context: Context): EnumMembersList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const members = [];
   while (parser.token & Constants.EnumMembers) {
     members.push(getCurrentNode(parser, context, parseEnumMember));
@@ -600,17 +600,17 @@ function parseEnumMembersList(parser: ParserState, context: Context): EnumMember
     if (consumeOpt(parser, context, Token.Comma)) continue;
     reportErrorDiagnostic(parser, 0, DiagnosticCode.An_enum_member_name_must_be_followed_by_a_or);
   }
-  return createEnumMembersList(members, parser.nodeFlags, pos, parser.startPos);
+  return createEnumMembersList(members, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseEnumMember(parser: ParserState, context: Context): EnumMember {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   return createEnumMember(
     parsePropertyName(parser, context),
     parseInitializer(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -630,7 +630,7 @@ function parseEnumMember(parser: ParserState, context: Context): EnumMember {
 //   BindingIdentifier
 //   BindingPattern
 function parseTryStatement(parser: ParserState, context: Context): TryStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   consume(parser, context | Context.AllowRegExp, Token.TryKeyword);
   const block = parseBlockStatement(parser, context);
@@ -643,7 +643,7 @@ function parseTryStatement(parser: ParserState, context: Context): TryStatement 
     consume(parser, context | Context.AllowRegExp, Token.FinallyKeyword);
     finallyBlock = parseBlockStatement(parser, context);
   }
-  return createTryStatement(block, catchClause, finallyBlock, parser.nodeFlags, pos, parser.startPos);
+  return createTryStatement(block, catchClause, finallyBlock, parser.nodeFlags, pos, parser.curPos);
 }
 
 // Catch :
@@ -654,7 +654,7 @@ function parseTryStatement(parser: ParserState, context: Context): TryStatement 
 //   BindingIdentifier
 //   BindingPattern
 function parseCatchClause(parser: ParserState, context: Context): CatchClause {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, Token.CatchKeyword);
   // Keep shape of node to avoid degrading performance.
   let catchParameter = null;
@@ -665,11 +665,11 @@ function parseCatchClause(parser: ParserState, context: Context): CatchClause {
     }
     consume(parser, context | Context.AllowRegExp, Token.RightParen);
   }
-  return createCatch(catchParameter, parseBlockStatement(parser, context), parser.nodeFlags, pos, parser.startPos);
+  return createCatch(catchParameter, parseBlockStatement(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseCatchParameter(parser: ParserState, context: Context): CatchParameter {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(
     parser,
     (context | Context.DisallowIn) ^ Context.DisallowIn,
@@ -682,24 +682,24 @@ function parseCatchParameter(parser: ParserState, context: Context): CatchParame
     parseInitializer(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
 function parseVariableStatement(parser: ParserState, context: Context): VariableStatement {
-  const { startPos, nodeFlags } = parser;
+  const { curPos, nodeFlags } = parser;
   nextToken(parser, context | Context.AllowRegExp);
   const declarationList = parseVariableDeclarationList(parser, context, /* inForStatement */ false);
   parseSemicolon(parser, context);
-  return createVariableStatement(declarationList, nodeFlags | parser.nodeFlags, startPos, parser.startPos);
+  return createVariableStatement(declarationList, nodeFlags | parser.nodeFlags, curPos, parser.curPos);
 }
 
 // VariableDeclaration :
 //   BindingIdentifier Initializer?
 //   BindingPattern Initializer
 function parseVariableDeclaration(parser: ParserState, context: Context): VariableDeclaration {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(
     parser,
     (context | Context.DisallowIn) ^ Context.DisallowIn,
@@ -711,7 +711,7 @@ function parseVariableDeclaration(parser: ParserState, context: Context): Variab
     consumeOpt(parser, context, Token.Negate);
   const type = parseTypeAnnotation(parser, context);
   const initializer = parser.token & Token.IsInOrOf ? null : parseInitializer(parser, context);
-  return createVariableDeclaration(binding, exclamation, type, initializer, pos, parser.nodeFlags, parser.startPos);
+  return createVariableDeclaration(binding, exclamation, type, initializer, pos, parser.nodeFlags, parser.curPos);
 }
 
 // LexicalDeclaration : LetOrConst BindingList `;`
@@ -729,7 +729,7 @@ function parseLexicalDeclaration(
     bindingList,
     nodeFlags | parser.nodeFlags | NodeFlags.BlockScoped,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -742,7 +742,7 @@ function parseLexicalDeclaration(
 //   BindingPattern Initializer
 function parseBindingList(parser: ParserState, context: Context, inForStatement: boolean): BindingList {
   const declarations = [];
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   while (parser.token & 0b00000000000010000101000000000000) {
     declarations.push(getCurrentNode(parser, context, parseLexicalBinding));
     if (inForStatement && parser.token & Token.IsInOrOf) break;
@@ -755,14 +755,14 @@ function parseBindingList(parser: ParserState, context: Context, inForStatement:
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createBindingList(declarations, parser.nodeFlags | NodeFlags.BlockScoped, pos, parser.startPos);
+  return createBindingList(declarations, parser.nodeFlags | NodeFlags.BlockScoped, pos, parser.curPos);
 }
 
 // LexicalBinding :
 //   BindingIdentifier Initializer?
 //   BindingPattern Initializer
 function parseLexicalBinding(parser: ParserState, context: Context): LexicalBinding {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const binding = parseIdentifierOrPattern(
     parser,
     (context | Context.DisallowIn) ^ Context.DisallowIn,
@@ -777,7 +777,7 @@ function parseLexicalBinding(parser: ParserState, context: Context): LexicalBind
   const type = parseTypeAnnotation(parser, context);
   // Initializers are not allowed in ambient contexts, but we will handle this in the grammar checker
   const initializer = parser.token & Token.IsInOrOf ? null : parseInitializer(parser, context);
-  return createLexicalBinding(binding, exclamation, type, initializer, parser.nodeFlags, pos, parser.startPos);
+  return createLexicalBinding(binding, exclamation, type, initializer, parser.nodeFlags, pos, parser.curPos);
 }
 
 // VariableDeclarationList :
@@ -788,7 +788,7 @@ function parseVariableDeclarationList(
   context: Context,
   inForStatement: boolean
 ): VariableDeclarationList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const declarations = [];
   while (parser.token & 0b00000000000010000101000000000000) {
     declarations.push(getCurrentNode(parser, context, parseVariableDeclaration));
@@ -801,14 +801,14 @@ function parseVariableDeclarationList(
     consumeOpt(parser, context, Token.Period);
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
-  return createVariableDeclarationList(declarations, parser.nodeFlags, pos, parser.startPos);
+  return createVariableDeclarationList(declarations, parser.nodeFlags, pos, parser.curPos);
 }
 
 // IfStatement :
 //  `if` `(` Expression `)` Statement `else` Statement
 //  `if` `(` Expression `)` Statement
 function parseIfStatement(parser: ParserState, context: Context): IfStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
   const expression = parseExpression(parser, context);
@@ -829,7 +829,7 @@ function parseIfStatement(parser: ParserState, context: Context): IfStatement {
     (context & Context.OptionsDisableWebCompat) !== Context.OptionsDisableWebCompat,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -846,18 +846,18 @@ export function parseConsequentOrAlternative(parser: ParserState, context: Conte
 // WhileStatement :
 //   `while` `(` Expression `)` Statement
 function parseWhileStatement(parser: ParserState, context: Context): WhileStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
   const expression = parseExpression(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.RightParen);
   const statement = parseStatement(parser, context, /* allowFunction */ true);
-  return createWhileStatement(expression, statement, parser.nodeFlags, pos, parser.startPos);
+  return createWhileStatement(expression, statement, parser.nodeFlags, pos, parser.curPos);
 }
 
 // `do` Statement `while` `(` Expression `)` `;`
 function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const statement = parseStatement(parser, context, /* allowFunction */ true);
   consume(parser, context, Token.WhileKeyword);
@@ -865,12 +865,12 @@ function parseDoWhileStatement(parser: ParserState, context: Context): DoWhileSt
   const expression = parseExpression(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.RightParen);
   consumeOpt(parser, context | Context.AllowRegExp, Token.Semicolon);
-  return createDoWhileStatement(expression, statement, parser.nodeFlags, pos, parser.startPos);
+  return createDoWhileStatement(expression, statement, parser.nodeFlags, pos, parser.curPos);
 }
 
 // BlockStatement : Block
 function parseBlockStatement(parser: ParserState, context: Context): BlockStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, Token.LeftBrace)) {
     const block = parseBlock(parser, context);
     consume(parser, context | Context.AllowRegExp, Token.RightBrace);
@@ -881,11 +881,11 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
         DiagnosticCode.Declaration_or_statement_expected_This_follows_a_block_of_statements_so_if_you_intended_to_write_a_destructuring_assignment_you_might_need_to_wrap_the_the_whole_assignment_in_parentheses
       );
     }
-    return createBlockStatement(block, parser.nodeFlags, pos, parser.startPos);
+    return createBlockStatement(block, parser.nodeFlags, pos, parser.curPos);
   }
 
   return createBlockStatement(
-    createBlock([], /* multiline */ false, NodeFlags.None, pos, parser.startPos),
+    createBlock([], /* multiline */ false, NodeFlags.None, pos, parser.curPos),
     NodeFlags.None,
     pos,
     pos
@@ -894,21 +894,21 @@ function parseBlockStatement(parser: ParserState, context: Context): BlockStatem
 
 // Block : `{` StatementList `}`
 function parseBlock(parser: ParserState, context: Context): Block {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   const statements = [];
   while (parser.token & Constants.BlockStatements) {
     statements.push(getCurrentNode(parser, context, parseStatementListItem));
   }
-  return createBlock(statements, multiline, parser.nodeFlags, pos, parser.startPos);
+  return createBlock(statements, multiline, parser.nodeFlags, pos, parser.curPos);
 }
 
 // DebuggerStatement : `debugger` `;
 function parseDebuggerStatement(parser: ParserState, context: Context): DebuggerStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   parseSemicolon(parser, context);
-  return createDebuggerStatement(parser.nodeFlags, pos, parser.startPos);
+  return createDebuggerStatement(parser.nodeFlags, pos, parser.curPos);
 }
 
 // BreakStatement :
@@ -923,7 +923,7 @@ function parseBreakOrContinueStatement(
   context: Context,
   isContinue: boolean
 ): BreakStatement | ContinueStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   let label = null;
   if (!canParseSemicolon(parser)) label = parseIdentifierReference(parser, context | Context.AllowRegExp);
@@ -931,48 +931,48 @@ function parseBreakOrContinueStatement(
   parseSemicolon(parser, context);
 
   return isContinue
-    ? createContinueStatement(label as IdentifierReference, parser.nodeFlags, pos, parser.startPos)
-    : createBreakStatement(label as IdentifierReference, parser.nodeFlags, pos, parser.startPos);
+    ? createContinueStatement(label as IdentifierReference, parser.nodeFlags, pos, parser.curPos)
+    : createBreakStatement(label as IdentifierReference, parser.nodeFlags, pos, parser.curPos);
 }
 
 // EmptyStatement :
 // ';'
 function parseEmptyStatement(parser: ParserState, context: Context): EmptyStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
-  return createEmptyStatement(parser.nodeFlags, pos, parser.startPos);
+  return createEmptyStatement(parser.nodeFlags, pos, parser.curPos);
 }
 
 // ReturnStatement :
 //   `return` `;`
 //   `return` [no LineTerminator here] Expression `;`
 function parseReturnStatement(parser: ParserState, context: Context): ReturnStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const expression = canParseSemicolon(parser)
     ? null
     : parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   parseSemicolon(parser, context);
-  return createReturnStatement(expression, parser.nodeFlags, pos, parser.startPos);
+  return createReturnStatement(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 // SwitchStatement :
 //   `switch` `(` Expression `)` CaseBlock
 function parseSwitchStatement(parser: ParserState, context: Context): SwitchStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.SwitchKeyword);
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
   const expression = parseExpression(parser, context);
   consume(parser, context, Token.RightParen);
   const caseBlock = parseCaseBlock(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
-  return createSwitchStatement(expression, caseBlock, parser.nodeFlags, pos, parser.startPos);
+  return createSwitchStatement(expression, caseBlock, parser.nodeFlags, pos, parser.curPos);
 }
 
 // CaseBlock :
 //   `{` CaseClauses? `}`
 //   `{` CaseClauses? DefaultClause CaseClauses? `}`
 function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LeftBrace);
   const clauses = [];
   while (isCaseOrDefaultClause(parser.token)) {
@@ -980,7 +980,7 @@ function parseCaseBlock(parser: ParserState, context: Context): CaseBlock {
   }
 
   consume(parser, context | Context.AllowRegExp, Token.RightBrace);
-  return createCaseBlock(clauses, parser.nodeFlags, pos, parser.startPos);
+  return createCaseBlock(clauses, parser.nodeFlags, pos, parser.curPos);
 }
 
 function isCaseOrDefaultClause(t: Token): boolean {
@@ -997,14 +997,14 @@ function isCaseOrDefaultClause(t: Token): boolean {
 //   `default` `:` StatementList?
 function parseCaseOrDefaultClause(parser: ParserState, context: Context): CaseClause | DefaultClause {
   const statements = [];
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   if (consumeOpt(parser, context | Context.AllowRegExp, Token.CaseKeyword)) {
     const expression = parseExpression(parser, context);
     consume(parser, context | Context.AllowRegExp, Token.Colon);
     while (parser.token & (Token.IsBinaryOp | Token.IsUnaryOp | 0b00000000000000110101000000000000)) {
       statements.push(getCurrentNode(parser, context, parseStatementListItem));
     }
-    return createCaseClause(expression, statements, parser.nodeFlags, pos, parser.startPos);
+    return createCaseClause(expression, statements, parser.nodeFlags, pos, parser.curPos);
   }
 
   consume(parser, context, Token.DefaultKeyword);
@@ -1013,29 +1013,29 @@ function parseCaseOrDefaultClause(parser: ParserState, context: Context): CaseCl
   while (parser.token & (Token.IsBinaryOp | Token.IsUnaryOp | 0b00000000000000110101000000000000)) {
     statements.push(getCurrentNode(parser, context, parseStatementListItem));
   }
-  return createDefaultClause(statements, parser.nodeFlags, pos, parser.startPos);
+  return createDefaultClause(statements, parser.nodeFlags, pos, parser.curPos);
 }
 
 // WithStatement :
 //   `with` `(` Expression `)` Statement
 function parseWithStatement(parser: ParserState, context: Context): WithStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
   const expression = parseExpression(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.RightParen);
   const statement = parseStatement(parser, context, /* allowFunction */ false);
-  return createWithStatement(expression, statement, parser.nodeFlags, pos, parser.startPos);
+  return createWithStatement(expression, statement, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ThrowStatement :
 //   `throw` [no LineTerminator here] Expression `;`
 function parseThrowStatement(parser: ParserState, context: Context): ThrowStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const expression = parseExpression(parser, context);
   parseSemicolon(parser, context);
-  return createThrowStatement(expression, parser.nodeFlags, pos, parser.startPos);
+  return createThrowStatement(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function canFollowContextualOfKeyword(parser: ParserState, context: Context) {
@@ -1059,7 +1059,7 @@ function canFollowContextualOfKeyword(parser: ParserState, context: Context) {
 // `for` `await` `(` ForDeclaration `of` AssignmentExpression `)` Statement
 
 function parseForStatement(parser: ParserState, context: Context): ForStatement | ForInStatement | ForOfStatement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let isVariableDeclarationList = false;
   consume(parser, context, Token.ForKeyword);
 
@@ -1088,13 +1088,13 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       parseStatement(parser, context, /* allowFunction */ false),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
   let initializer!: Expression;
 
-  const innerPos = parser.startPos;
+  const innerPos = parser.curPos;
 
   // 'var', 'let', 'const'
   if (parser.token === Token.VarKeyword || parser.token === Token.LetKeyword || parser.token === Token.ConstKeyword) {
@@ -1103,25 +1103,25 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
         nextToken(parser, context);
         const bindingList =
           parser.token === Token.OfKeyword && lookAhead(parser, context, canFollowContextualOfKeyword)
-            ? createBindingList([], NodeFlags.None, pos, parser.startPos)
+            ? createBindingList([], NodeFlags.None, pos, parser.curPos)
             : parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true);
 
-        initializer = createLexicalDeclaration(false, bindingList, parser.nodeFlags, innerPos, parser.startPos);
+        initializer = createLexicalDeclaration(false, bindingList, parser.nodeFlags, innerPos, parser.curPos);
       } else {
         initializer = parseExpression(parser, context | Context.DisallowIn);
       }
     } else if (consumeOpt(parser, context, Token.ConstKeyword)) {
       const bindingList =
         parser.token === Token.OfKeyword && lookAhead(parser, context, canFollowContextualOfKeyword)
-          ? createBindingList([], NodeFlags.None, pos, parser.startPos)
+          ? createBindingList([], NodeFlags.None, pos, parser.curPos)
           : parseBindingList(parser, context | Context.DisallowIn, /* inForStatement */ true);
-      initializer = createLexicalDeclaration(true, bindingList, parser.nodeFlags, innerPos, parser.startPos);
+      initializer = createLexicalDeclaration(true, bindingList, parser.nodeFlags, innerPos, parser.curPos);
     } else {
       nextToken(parser, context);
       initializer = parseVariableDeclarationList(parser, context, /* inForStatement */ true);
 
       if (parser.token & Token.IsInOrOf) {
-        initializer = createForBinding(initializer as any, parser.nodeFlags, innerPos, parser.startPos);
+        initializer = createForBinding(initializer as any, parser.nodeFlags, innerPos, parser.curPos);
       }
 
       isVariableDeclarationList = true;
@@ -1144,7 +1144,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       isAwait,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -1157,7 +1157,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
       parseStatement(parser, context, /* allowFunction */ false),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -1179,7 +1179,7 @@ function parseForStatement(parser: ParserState, context: Context): ForStatement 
     parseStatement(parser, context, /* allowFunction */ false),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -1190,7 +1190,7 @@ function parseExpressionOrLabeledStatement(
   context: Context,
   allowFunction: boolean
 ): ExpressionStatement | LabelledStatement {
-  const { startPos, token } = parser;
+  const { curPos, token } = parser;
   const expression = parseExpression(parser, context);
   if (isIdentifier(token, context) && consumeOpt(parser, context | Context.AllowRegExp, Token.Colon)) {
     // ES#sec-labelled-function-declarations Labelled Function Declarations
@@ -1211,20 +1211,20 @@ function parseExpressionOrLabeledStatement(
       statement,
       (context & Context.OptionsDisableWebCompat) !== Context.OptionsDisableWebCompat,
       parser.nodeFlags,
-      startPos,
-      parser.startPos
+      curPos,
+      parser.curPos
     );
   }
   parseSemicolon(parser, context);
 
-  return createExpressionStatement(expression, NodeFlags.None, startPos, parser.startPos);
+  return createExpressionStatement(expression, NodeFlags.None, curPos, parser.curPos);
 }
 
 // Expression :
 //   AssignmentExpression
 //   Expression `,` AssignmentExpression
 function parseExpression(parser: ParserState, context: Context): Expression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   // clear the decorator context when parsing Expression, as it should be unambiguous when parsing a decorator
   context = (context | Context.InDecoratorContext) ^ Context.InDecoratorContext;
   const expression = parseAssignmentExpression(parser, context);
@@ -1234,17 +1234,17 @@ function parseExpression(parser: ParserState, context: Context): Expression {
     do {
       expressions.push(parseAssignmentExpression(parser, context));
     } while (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma));
-    return createCommaOperator(expressions, parser.nodeFlags, pos, parser.startPos);
+    return createCommaOperator(expressions, parser.nodeFlags, pos, parser.curPos);
   }
   return expression;
 }
 
 function parseAssignmentExpression(parser: ParserState, context: Context): Expression {
-  const { token, startPos } = parser;
+  const { token, curPos } = parser;
   if (context & Context.InYieldContext && token === Token.YieldKeyword) {
-    return parseYieldExpression(parser, context, startPos);
+    return parseYieldExpression(parser, context, curPos);
   }
-  const left = parseBinaryExpression(parser, context, parseUnaryExpression(parser, context), 4, startPos);
+  const left = parseBinaryExpression(parser, context, parseUnaryExpression(parser, context), 4, curPos);
 
   if (parser.token & Token.IsAssignOp) {
     const operator = KeywordDescTable[parser.token & Token.Type] as AssignOp | LogicalOp;
@@ -1254,8 +1254,8 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
       operator,
       parseAssignmentExpression(parser, context),
       parser.nodeFlags,
-      startPos,
-      parser.startPos
+      curPos,
+      parser.curPos
     );
   }
 
@@ -1283,19 +1283,19 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
               /* isReadOnly */ false,
               NodeFlags.None,
               parser.pos,
-              parser.startPos
+              parser.curPos
             )
           ],
           null,
           null,
           /* trailingComma */ false,
           parser.nodeFlags,
-          startPos,
-          parser.startPos
+          curPos,
+          parser.curPos
         ),
         token === Token.AsyncKeyword,
         /* isParenthesized */ false,
-        startPos
+        curPos
       );
     }
 
@@ -1317,26 +1317,26 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
               null,
               /* isReadOnly */ false,
               NodeFlags.None,
-              parser.startPos,
-              parser.startPos
+              parser.curPos,
+              parser.curPos
             )
           ],
           null,
           null,
           /* trailingComma */ false,
           parser.nodeFlags,
-          startPos,
-          parser.startPos
+          curPos,
+          parser.curPos
         ),
         token === Token.AsyncKeyword,
         /* isParenthesized */ false,
-        startPos
+        curPos
       );
     }
   }
   return left.kind === NodeKind.ArrowParameters && parser.token === Token.Arrow
-    ? parseArrowFunction(parser, context, left, token === Token.AsyncKeyword, /* isParenthesized */ true, startPos)
-    : parseConditionalExpression(parser, context, left, startPos);
+    ? parseArrowFunction(parser, context, left, token === Token.AsyncKeyword, /* isParenthesized */ true, curPos)
+    : parseConditionalExpression(parser, context, left, curPos);
 }
 
 // YieldExpression :
@@ -1354,12 +1354,12 @@ function parseYieldExpression(parser: ParserState, context: Context, pos: number
       parseExpression(parser, context),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
   // if the next token is not on the same line as yield.  or we don't have an '*' or
   // the start of an expression, then this is just a simple "yield" expression.
-  return createYieldExpression(false, null, parser.nodeFlags, pos, parser.startPos);
+  return createYieldExpression(false, null, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ConditionalExpression :
@@ -1379,7 +1379,7 @@ function parseConditionalExpression(
     );
     consume(parser, context | Context.AllowRegExp, Token.Colon);
     const alternate = parseAssignmentExpression(parser, context);
-    return createConditionalExpression(shortCircuit, consequent, alternate, parser.nodeFlags, pos, parser.startPos);
+    return createConditionalExpression(shortCircuit, consequent, alternate, parser.nodeFlags, pos, parser.curPos);
   }
   return shortCircuit;
 }
@@ -1412,10 +1412,10 @@ function parseBinaryExpression(
       left = createBinaryExpression(
         left,
         KeywordDescTable[t & Token.Type] as BinaryOperator,
-        parseBinaryExpression(parser, context, parseUnaryExpression(parser, context), prec, parser.startPos),
+        parseBinaryExpression(parser, context, parseUnaryExpression(parser, context), prec, parser.curPos),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
   }
@@ -1423,14 +1423,14 @@ function parseBinaryExpression(
 }
 
 function parseAsExpression(parser: ParserState, context: Context, left: Expression): AsExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   return createAsExpression(
     left,
     parseType(parser, context | Context.AllowConditionalTypes),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -1449,7 +1449,7 @@ function parseUnaryExpression(parser: ParserState, context: Context): Expression
     return parseAwaitExpression(parser, context);
   }
   if ((parser.token & Token.IsUnaryOp) === 0) return parseUpdateExpression(parser, context);
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const operator = KeywordDescTable[parser.token & Token.Type] as UnaryOperator;
   nextToken(parser, context | Context.AllowRegExp);
   const operand = parseUnaryExpression(parser, context) as UnaryExpression;
@@ -1461,18 +1461,18 @@ function parseUnaryExpression(parser: ParserState, context: Context): Expression
       KeywordDescTable[parser.token & Token.Type]
     );
   }
-  return createUnaryExpression(operator, operand, parser.nodeFlags, pos, parser.startPos);
+  return createUnaryExpression(operator, operand, parser.nodeFlags, pos, parser.curPos);
 }
 
 // AwaitExpression : `await` UnaryExpression
 function parseAwaitExpression(parser: ParserState, context: Context): AwaitExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   return createAwaitExpression(
     parseUnaryExpression(parser, context) as UnaryExpression,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -1486,7 +1486,7 @@ function parseUpdateExpression(
   parser: ParserState,
   context: Context
 ): PrefixUpdateExpression | PostfixUpdateExpression | Expression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   if (parser.token & Token.IsUpdateOp) {
     const operator = KeywordDescTable[parser.token & Token.Type] as UpdateOp;
@@ -1496,7 +1496,7 @@ function parseUpdateExpression(
       parseUnaryExpression(parser, context) as UnaryExpression,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -1523,7 +1523,7 @@ function parseUpdateExpression(
   if (parser.token & Token.IsUpdateOp && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0) {
     const operator = KeywordDescTable[parser.token & Token.Type] as UpdateOp;
     nextToken(parser, context);
-    return createPostfixUpdateExpression(operator, operand, parser.nodeFlags, pos, parser.startPos);
+    return createPostfixUpdateExpression(operator, operand, parser.nodeFlags, pos, parser.curPos);
   }
   return operand;
 }
@@ -1541,7 +1541,7 @@ function nextTokenIsIdentifierOrKeywordOrGreaterThan(parser: ParserState, contex
 // IdentifierName
 // IdentifierReference
 function parsePropertyOrPrivatePropertyName(parser: ParserState, context: Context): IdentifierName | PrivateIdentifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   if (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
     return parser.token === Token.PrivateIdentifier
       ? parsePrivateIdentifier(parser, context)
@@ -1560,7 +1560,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
 
   const check = allowCalls ? Token.IsPropertyOrCall : Token.IsMember;
   while (parser.token & check) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
 
     switch (parser.token) {
       /* Property */
@@ -1571,7 +1571,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           parsePropertyOrPrivatePropertyName(parser, context),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
         break;
 
@@ -1588,7 +1588,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
             expression = parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
           }
           consume(parser, context, Token.RightBracket);
-          member = createElementAccessExpression(member, expression, parser.nodeFlags, pos, parser.startPos);
+          member = createElementAccessExpression(member, expression, parser.nodeFlags, pos, parser.curPos);
         }
         break;
 
@@ -1600,7 +1600,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           (context | Context.DisallowIn) ^ Context.DisallowIn
         );
         if (member.text === 'async' && argumentList.kind === NodeKind.ArrowParameters) return argumentList;
-        member = createCallExpression(member, null, argumentList, parser.nodeFlags, pos, parser.startPos);
+        member = createCallExpression(member, null, argumentList, parser.nodeFlags, pos, parser.curPos);
         break;
 
       /* ! */
@@ -1623,7 +1623,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           parseArguments(parser, context),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
         break;
 
@@ -1635,7 +1635,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           chain: parseOptionalChain(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
           flags: NodeFlags.None,
           pos,
-          end: parser.startPos
+          end: parser.curPos
         };
         break;
 
@@ -1649,14 +1649,14 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           false,
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
     }
   }
   return member;
 }
 
-function nextTokenIsIdentifierOrPatternOnSameLine(parser: ParserState, context: Context): boolean {
+function nextTokenIsBindingPatternOnSameLine(parser: ParserState, context: Context): boolean {
   nextToken(parser, context);
   return (
     (parser.token & (Token.IsIdentifier | Token.IsPatternStart | Token.FutureReserved)) !== 0 &&
@@ -1682,10 +1682,10 @@ function parseCoverCallExpressionAndAsyncArrowHead(
     state = Tristate.Unknown;
   }
 
-  let innerPos = parser.startPos;
+  let innerPos = parser.curPos;
 
   while (parser.token & 0b00000110001001100101000000000000) {
-    if (parser.token & Token.IsAccessModifier && lookAhead(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
+    if (parser.token & Token.IsAccessModifier && lookAhead(parser, context, nextTokenIsBindingPatternOnSameLine)) {
       state = Tristate.True;
       expression = parseFormalParameter(parser, context);
     } else if (parser.token & 0b00000000000010000101000000000000) {
@@ -1712,7 +1712,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   parseAssignmentExpression(parser, context),
                   parser.nodeFlags, // this *could* contain a parse error bit
                   innerPos,
-                  parser.startPos
+                  parser.curPos
                 );
               }
               // This has to be something like "async (a?" or "async (a?:"
@@ -1729,7 +1729,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 /* isReadOnly */ false,
                 NodeFlags.None,
                 innerPos,
-                parser.startPos
+                parser.curPos
               );
             }
 
@@ -1748,7 +1748,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               /* isReadOnly */ false,
               parser.nodeFlags,
               innerPos,
-              parser.startPos
+              parser.curPos
             );
           } else {
             // If we have "async a," or "async (a=" or "async (a)" this *could* be an async arrow function
@@ -1764,7 +1764,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 parseAssignmentExpression(parser, context) as any,
                 parser.nodeFlags,
                 innerPos,
-                parser.startPos
+                parser.curPos
               );
             }
 
@@ -1791,8 +1791,8 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                       /* accessModifier */ null,
                       /* isReadOnly */ false,
                       NodeFlags.None,
-                      parser.startPos,
-                      parser.startPos
+                      parser.curPos,
+                      parser.curPos
                     )
                   ],
                   null,
@@ -1800,7 +1800,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   trailingComma,
                   parser.nodeFlags,
                   innerPos,
-                  parser.startPos
+                  parser.curPos
                 ),
                 token === Token.AsyncKeyword,
                 /* isParenthesized */ false,
@@ -1818,7 +1818,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
             parseAssignmentExpression(parser, context),
             parser.nodeFlags,
             innerPos,
-            parser.startPos
+            parser.curPos
           );
         }
 
@@ -1842,7 +1842,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               trailingComma,
               parser.nodeFlags,
               innerPos,
-              parser.startPos
+              parser.curPos
             );
           }
           expression = parseArrowFunction(
@@ -1879,7 +1879,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   parseAssignmentExpression(parser, context),
                   parser.nodeFlags, // this *could* contain a parse error bit
                   innerPos,
-                  parser.startPos
+                  parser.curPos
                 );
               } else if (parser.token === Token.Assign) {
                 state = Tristate.True;
@@ -1894,7 +1894,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   /* isReadOnly */ false,
                   NodeFlags.None,
                   innerPos,
-                  parser.startPos
+                  parser.curPos
                 );
               }
               // This has to be something like "async (a?" or "async (a?:"
@@ -1911,7 +1911,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 /* isReadOnly */ false,
                 NodeFlags.None,
                 innerPos,
-                parser.startPos
+                parser.curPos
               );
             }
 
@@ -1931,7 +1931,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               /* isReadOnly */ false,
               parser.nodeFlags,
               innerPos,
-              parser.startPos
+              parser.curPos
             );
           } else {
             // If we have something like "async (...a," or "async (...a=" or "async (...[]" or "async (...{a}" this *could* be an arrow function
@@ -1949,7 +1949,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 parseAssignmentExpression(parser, context),
                 parser.nodeFlags,
                 innerPos,
-                parser.startPos
+                parser.curPos
               );
             }
           }
@@ -1993,8 +1993,8 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   null,
                   /* isReadOnly */ false,
                   NodeFlags.None,
-                  parser.startPos,
-                  parser.startPos
+                  parser.curPos,
+                  parser.curPos
                 )
               ],
               null,
@@ -2002,7 +2002,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               trailingComma,
               parser.nodeFlags,
               innerPos,
-              parser.startPos
+              parser.curPos
             );
           }
           expression = parseArrowFunction(
@@ -2015,14 +2015,14 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           );
         }
 
-        expression = createSpreadElement(expression, parser.nodeFlags, innerPos, parser.startPos);
+        expression = createSpreadElement(expression, parser.nodeFlags, innerPos, parser.curPos);
       } else {
         state = Tristate.False;
         expression = createSpreadElement(
           parseAssignmentExpression(parser, context),
           parser.nodeFlags,
           innerPos,
-          parser.startPos
+          parser.curPos
         );
       }
       // If we had "(" followed by something that's not an identifier, '...' or binding pattern,
@@ -2042,11 +2042,11 @@ function parseCoverCallExpressionAndAsyncArrowHead(
         trailingComma = true;
         break;
       }
-      innerPos = parser.startPos;
+      innerPos = parser.curPos;
       continue;
     }
 
-    innerPos = parser.startPos;
+    innerPos = parser.curPos;
 
     // We didn't get a comma, and the list wasn't terminated, explicitly so give
     // a good error message instead
@@ -2080,7 +2080,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           false,
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
     }
@@ -2094,12 +2094,12 @@ function parseCoverCallExpressionAndAsyncArrowHead(
         trailingComma,
         NodeFlags.None,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
   }
 
-  return createArgumentList(elements, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createArgumentList(elements, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function nextTokenIsArrow(parser: ParserState, context: Context): boolean | any {
@@ -2116,7 +2116,7 @@ function nextIsMaybeConditionalExpr(parser: ParserState, context: Context): Expr
 
 function parseTypeArgumentsInExpression(parser: ParserState, context: Context): any {
   nextToken(parser, context);
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const typeArguments = [];
   while (parser.token & 0b01100000000010000101000000000000) {
     typeArguments.push(getCurrentNode(parser, context, parseType));
@@ -2126,8 +2126,8 @@ function parseTypeArgumentsInExpression(parser: ParserState, context: Context): 
 
   if (parser.token !== Token.GreaterThan) return false;
   nextToken(parser, context);
-  return pos !== parser.startPos && canFollowTypeArgumentsInExpression(parser)
-    ? createTypeArguments(typeArguments, parser.nodeFlags, pos, parser.startPos)
+  return pos !== parser.curPos && canFollowTypeArgumentsInExpression(parser)
+    ? createTypeArguments(typeArguments, parser.nodeFlags, pos, parser.curPos)
     : false;
 }
 
@@ -2172,26 +2172,26 @@ function canFollowTypeArgumentsInExpression(parser: ParserState): boolean {
 }
 function parseNonNullExpression(parser: ParserState, context: Context, member: any, pos: number): NonNullExpression {
   nextToken(parser, context);
-  return createNonNullExpression(member, parser.nodeFlags, pos, parser.startPos);
+  return createNonNullExpression(member, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseOptionalChain(parser: ParserState, context: Context): any {
   consume(parser, context, Token.QuestionMarkPeriod);
   let chain = null;
-  let pos = parser.startPos;
+  let pos = parser.curPos;
 
   if (consumeOpt(parser, context | Context.AllowRegExp, Token.LeftBracket)) {
     consumeOpt(parser, context, Token.RightBracket);
-    chain = createElementAccessChain(chain, parseExpression(parser, context), parser.nodeFlags, pos, parser.startPos);
+    chain = createElementAccessChain(chain, parseExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
   } else if (parser.token === Token.LeftParen) {
-    chain = createCallChain(chain, null, parseArguments(parser, context), parser.nodeFlags, pos, parser.startPos);
+    chain = createCallChain(chain, null, parseArguments(parser, context), parser.nodeFlags, pos, parser.curPos);
   } else if (parser.token & (Token.Keyword | Token.FutureReserved | Token.IsIdentifier)) {
     chain = createPropertyAccessChain(
       chain,
       parsePropertyOrPrivatePropertyName(parser, context),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   } else {
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Invalid_optional_chain_in_tagged_template);
@@ -2204,7 +2204,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
       true,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -2213,18 +2213,18 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
     chain,
     flags: NodeFlags.None,
     pos,
-    end: parser.startPos
+    end: parser.curPos
   };
 
   while (true) {
-    pos = parser.startPos;
+    pos = parser.curPos;
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Period)) {
       chain = createPropertyAccessChain(
         chain as any,
         parsePropertyOrPrivatePropertyName(parser, context),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
       if (chain.expression.kind === NodeKind.PrivateIdentifier) {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.An_optional_chain_cannot_contain_private_identifiers);
@@ -2236,7 +2236,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         parseArguments(parser, context),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     } else if (consumeOpt(parser, context | Context.AllowRegExp, Token.LeftBracket)) {
       chain = createElementAccessChain(
@@ -2244,7 +2244,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         parseExpression(parser, context),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
       consumeOpt(parser, context, Token.RightBracket);
     } else if (parser.token & (Token.Keyword | Token.FutureReserved | Token.IsIdentifier)) {
@@ -2253,7 +2253,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
         parsePropertyOrPrivatePropertyName(parser, context),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
       if (chain.expression.kind === NodeKind.PrivateIdentifier) {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.An_optional_chain_cannot_contain_private_identifiers);
@@ -2270,7 +2270,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
           true,
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
 
@@ -2290,12 +2290,12 @@ function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Contex
   return parser.token & Token.IsEllipsis
     ? parseSpreadElement(parser, context)
     : parser.token & Token.IsComma
-    ? createOmittedExpression(NodeFlags.None, parser.startPos, parser.startPos)
+    ? createOmittedExpression(NodeFlags.None, parser.curPos, parser.curPos)
     : parseAssignmentExpression(parser, context);
 }
 
 function parseArgumentList(parser: ParserState, context: Context): ArgumentList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   let trailingComma = false;
 
@@ -2317,17 +2317,17 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createArgumentList(elements, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createArgumentList(elements, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseSpreadElement(parser: ParserState, context: Context): SpreadElement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
-  return createSpreadElement(parseAssignmentExpression(parser, context), parser.nodeFlags, pos, parser.startPos);
+  return createSpreadElement(parseAssignmentExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTemplateExpression(parser: ParserState, context: Context): TemplateExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const templateSpans = [];
   do {
     templateSpans.push(parseTemplateSpan(parser, context));
@@ -2337,21 +2337,21 @@ function parseTemplateExpression(parser: ParserState, context: Context): Templat
     parseTemplateTail(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan {
-  const { startPos, tokenValue, templateRaw } = parser;
+  const { curPos, tokenValue, templateRaw } = parser;
   consume(parser, context | Context.AllowRegExp, Token.TemplateCont);
   const expression = parseExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
-  return createTemplateSpan(templateRaw, tokenValue, expression, parser.nodeFlags, startPos, parser.startPos);
+  return createTemplateSpan(templateRaw, tokenValue, expression, parser.nodeFlags, curPos, parser.curPos);
 }
 
 function parseTemplateTail(parser: ParserState, context: Context): TemplateTail {
-  const { startPos, tokenValue, nodeFlags, templateRaw } = parser;
+  const { curPos, tokenValue, nodeFlags, templateRaw } = parser;
   consume(parser, context | Context.AllowRegExp, Token.TemplateTail);
-  return createTemplateTail(templateRaw, tokenValue, nodeFlags, startPos, parser.startPos);
+  return createTemplateTail(templateRaw, tokenValue, nodeFlags, curPos, parser.curPos);
 }
 
 // ArrayLiteral :
@@ -2361,7 +2361,7 @@ function parseTemplateTail(parser: ParserState, context: Context): TemplateTail 
 //   `[` ElementList `,` `]`
 //   `[` ElementList `,` Elision `]`
 function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const elementList = parseElementList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   consume(parser, context, Token.RightBracket);
@@ -2373,11 +2373,11 @@ function parseArrayLiteral(parser: ParserState, context: Context): ArrayLiteral 
       DiagnosticCode.Expression_exprected_A_compound_assignment_cannot_follow_an_array_literal
     );
   }
-  return createArrayLiteral(elementList, parser.nodeFlags, pos, parser.startPos);
+  return createArrayLiteral(elementList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseElementList(parser: ParserState, context: Context): ElementList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const elements = [];
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   let trailingComma = false;
@@ -2394,11 +2394,11 @@ function parseElementList(parser: ParserState, context: Context): ElementList {
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createElementList(elements, trailingComma, multiline, parser.nodeFlags, pos, parser.startPos);
+  return createElementList(elements, trailingComma, multiline, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseObjectLiteral(parser: ParserState, context: Context): ObjectLiteral {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const propertyDefinitionList = parsePropertyDefinitionList(
     parser,
@@ -2413,11 +2413,11 @@ function parseObjectLiteral(parser: ParserState, context: Context): ObjectLitera
       DiagnosticCode.Expression_exprected_A_compound_assignment_cannot_follow_an_object_literal
     );
   }
-  return createObjectLiteral(propertyDefinitionList, parser.nodeFlags, pos, parser.startPos);
+  return createObjectLiteral(propertyDefinitionList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parsePropertyDefinitionList(parser: ParserState, context: Context): PropertyDefinitionList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const properties = [];
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   const trailingComma = false;
@@ -2427,12 +2427,12 @@ function parsePropertyDefinitionList(parser: ParserState, context: Context): Pro
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) continue;
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
-  return createPropertyDefinitionList(properties, trailingComma, multiline, parser.nodeFlags, pos, parser.startPos);
+  return createPropertyDefinitionList(properties, trailingComma, multiline, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parsSpreadProperty(parser: ParserState, context: Context): SpreadProperty {
-  const pos = parser.startPos;
-  return createSpreadProperty(parseAssignmentExpression(parser, context), parser.nodeFlags, pos, parser.startPos);
+  const pos = parser.curPos;
+  return createSpreadProperty(parseAssignmentExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function isAccessModifier(t: Token): boolean {
@@ -2441,14 +2441,14 @@ function isAccessModifier(t: Token): boolean {
 
 function parseAccessModifier(parser: ParserState, context: Context, endToken: Token): AccessModifier | null {
   if (isAccessModifier(parser.token)) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     if (
       tryParse(parser, context, () => {
         nextToken(parser, context);
         return (parser.token & 0b00010000000010000101000000000000) !== 0 || !endToken;
       })
     ) {
-      return createAccessModifier(AccessModifiers.Protected, NodeFlags.None, pos, parser.startPos);
+      return createAccessModifier(AccessModifiers.Protected, NodeFlags.None, pos, parser.curPos);
     }
   }
   return null;
@@ -2470,7 +2470,7 @@ function parsePropertyDefinition(
 
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
 
-  const { startPos, tokenValue, raw, nodeFlags, token } = parser;
+  const { curPos, tokenValue, raw, nodeFlags, token } = parser;
 
   if (token & 0b00000000000000000111000000000000) {
     nextToken(parser, context);
@@ -2479,7 +2479,7 @@ function parsePropertyDefinition(
       return parseMethodDefinition(
         parser,
         context,
-        createIdentifierName(tokenValue, raw, nodeFlags, startPos, parser.startPos),
+        createIdentifierName(tokenValue, raw, nodeFlags, curPos, parser.curPos),
         kind,
         decorators,
         modifiers
@@ -2491,7 +2491,7 @@ function parsePropertyDefinition(
     if (parser.token & Token.IsClassField) {
       // If we have "{ foo:" then this is a valid 'PropertyDefinition'.
       if (parser.token === Token.Colon) {
-        key = createIdentifierName(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+        key = createIdentifierName(tokenValue, raw, nodeFlags, curPos, parser.curPos);
         nextToken(parser, context | Context.AllowRegExp);
         return createPropertyDefinition(
           key,
@@ -2499,12 +2499,12 @@ function parsePropertyDefinition(
           decorators,
           modifiers,
           parser.nodeFlags,
-          startPos,
-          parser.startPos
+          curPos,
+          parser.curPos
         );
       }
 
-      key = createIdentifierReference(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+      key = createIdentifierReference(tokenValue, raw, nodeFlags, curPos, parser.curPos);
 
       // If we have "{ foo =" or "{ foo?"  or "{ foo!" then this is a cover initialized name. However. Cases
       // like "{ a?! =" or "{ a? =" isn't valid, but accepted here for error recovery reasons.
@@ -2519,8 +2519,8 @@ function parsePropertyDefinition(
           parseAssignmentExpression(parser, context) as AssignmentExpression,
           modifiers,
           parser.nodeFlags,
-          startPos,
-          parser.startPos
+          curPos,
+          parser.curPos
         );
       }
 
@@ -2533,8 +2533,8 @@ function parsePropertyDefinition(
             decorators,
             modifiers,
             parser.nodeFlags,
-            startPos,
-            parser.startPos
+            curPos,
+            parser.curPos
           )
         : key;
     }
@@ -2559,10 +2559,10 @@ function parsePropertyDefinition(
         return key as IdentifierName;
       }
 
-      return createIdentifierName(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+      return createIdentifierName(tokenValue, raw, nodeFlags, curPos, parser.curPos);
     }
 
-    key = createIdentifierName(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+    key = createIdentifierName(tokenValue, raw, nodeFlags, curPos, parser.curPos);
 
     if (parser.token !== Token.Colon && parser.token !== Token.LessThan && parser.token !== Token.LeftParen) {
       return key;
@@ -2583,8 +2583,8 @@ function parsePropertyDefinition(
     decorators,
     modifiers,
     parser.nodeFlags,
-    startPos,
-    parser.startPos
+    curPos,
+    parser.curPos
   );
 }
 
@@ -2596,7 +2596,7 @@ function parseMethodDefinition(
   decorators: any,
   accessModifier: AccessModifier | null
 ): MethodDefinition {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let propertySetParameterList = null;
   let uniqueFormalParameters = null;
 
@@ -2618,7 +2618,7 @@ function parseMethodDefinition(
         if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) continue;
         reportErrorDiagnostic(parser, 0, DiagnosticCode.Expression_or_comma_expected);
       }
-      uniqueFormalParameters = createFormalParameterList(parameters, false, parser.nodeFlags, pos, parser.startPos);
+      uniqueFormalParameters = createFormalParameterList(parameters, false, parser.nodeFlags, pos, parser.curPos);
     }
     nextToken(parser, context);
   } else if (kind & PropertyKind.Setter) {
@@ -2647,7 +2647,7 @@ function parseMethodDefinition(
     parseFunctionBlockOrSemicolon(parser, context, /* isStatement */ false),
     decorators,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -2672,19 +2672,19 @@ function parsePropertyName(
 }
 
 function parsePrivateIdentifier(parser: ParserState, context: Context): PrivateIdentifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const raw = parser.raw;
   const name = parser.tokenValue;
   nextToken(parser, context);
-  return createPrivateIdentifier(name, raw, parser.nodeFlags, pos, parser.startPos);
+  return createPrivateIdentifier(name, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseComputedPropertyName(parser: ParserState, context: Context): ComputedPropertyName {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context | Context.AllowRegExp, Token.LeftBracket);
   const expression = parseAssignmentExpression(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   consume(parser, context, Token.RightBracket);
-  return createComputedPropertyName(expression, parser.nodeFlags, pos, parser.startPos);
+  return createComputedPropertyName(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ArrowFunction :
@@ -2710,7 +2710,7 @@ function parseArrowFunction(
     isParenthesized,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -2728,14 +2728,14 @@ function parseConciseOrFunctionBody(parser: ParserState, context: Context): Func
 }
 
 function parseImportCallOrMeta(parser: ParserState, context: Context): ImportCall | ImportMeta {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   const typeArguments = parseTypeArgumentsOfTypeReference(parser, context | Context.InTypes);
-  if (parser.token === Token.Period) return createImportMeta(parser.nodeFlags, pos, parser.startPos);
+  if (parser.token === Token.Period) return createImportMeta(parser.nodeFlags, pos, parser.curPos);
   consume(parser, context | Context.AllowRegExp, Token.LeftParen);
   const expression = parseAssignmentExpression(parser, context);
   consume(parser, context, Token.RightParen);
-  return createImportCall(typeArguments, expression, parser.nodeFlags, pos, parser.startPos);
+  return createImportCall(typeArguments, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parsePrimaryExpression(parser: ParserState, context: Context): any {
@@ -2779,7 +2779,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
         return parseFunctionExpression(parser, context);
       }
 
-      const pos = parser.startPos;
+      const pos = parser.curPos;
 
       const typeParameters = tryParse(parser, context, () => {
         nextToken(parser, context);
@@ -2821,7 +2821,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
 }
 
 function parseSuperExpression(parser: ParserState, context: Context): Super | PropertyAccessExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   if (parser.token === Token.LessThan) {
     if (
@@ -2834,7 +2834,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Pr
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Super_may_not_use_type_arguments);
     }
   }
-  const expression = createSuper(parser.nodeFlags, pos, parser.startPos);
+  const expression = createSuper(parser.nodeFlags, pos, parser.curPos);
   if (parser.token === Token.LeftParen || parser.token === Token.LeftBracket || parser.token === Token.Period) {
     return expression;
   }
@@ -2848,15 +2848,15 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | Pr
     parsePropertyOrPrivatePropertyName(parser, context),
     pos,
     parser.nodeFlags,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseNewExpressionOrNewDotTarget(parser: ParserState, context: Context): NewTarget | NewExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   if (consumeOpt(parser, context, Token.Period)) {
-    return createNewTarget(parseIdentifierName(parser, context), parser.nodeFlags, pos, parser.startPos);
+    return createNewTarget(parseIdentifierName(parser, context), parser.nodeFlags, pos, parser.curPos);
   }
   const expression = parseLeftHandSideExpression(parser, context, /* allowCalls*/ false);
   return createNewExpression(
@@ -2865,7 +2865,7 @@ function parseNewExpressionOrNewDotTarget(parser: ParserState, context: Context)
     parser.token === Token.LeftParen ? parseArguments(parser, context) : (null as any),
     pos,
     parser.nodeFlags,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -2874,7 +2874,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context: Context,
   typeParameters: any
 ): ParenthesizedExpression | ArrowParameters | DummyIdentifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
 
   if (consumeOpt(parser, context, Token.RightParen)) {
@@ -2907,12 +2907,12 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | Context.DisallowIn) ^ Context.DisallowIn;
 
   let expression!: Expression;
-  const commaOperatorStart = parser.startPos;
+  const commaOperatorStart = parser.curPos;
   let state = Tristate.False;
 
   // If we have something like "public (" or "protected (" or "private (" then this isn't legal syntax.
   // However, we choose too allow this so that we can report it in the grammar checker.
-  if (parser.token & Token.IsAccessModifier && lookAhead(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
+  if (parser.token & Token.IsAccessModifier && lookAhead(parser, context, nextTokenIsBindingPatternOnSameLine)) {
     state = Tristate.True;
     expression = parseFormalParameter(parser, context);
   } else if (parser.token & 0b00000000000010000101000000000000) {
@@ -2939,7 +2939,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 parseAssignmentExpression(parser, context),
                 parser.nodeFlags, // this *could* contain a parse error bit
                 pos,
-                parser.startPos
+                parser.curPos
               );
             }
             // This isn't part of an conditional expression, so this has to be "(a?" or "(a?:"
@@ -2956,7 +2956,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               /* isReadOnly */ false,
               NodeFlags.None,
               pos,
-              parser.startPos
+              parser.curPos
             );
           }
 
@@ -2974,7 +2974,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             /* isReadOnly */ false,
             parser.nodeFlags,
             pos,
-            parser.startPos
+            parser.curPos
           );
         } else {
           // If we have "(a," or "(a=" or "(a" this *could* be an arrow function
@@ -2990,7 +2990,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               parseAssignmentExpression(parser, context),
               parser.nodeFlags,
               pos,
-              parser.startPos
+              parser.curPos
             );
           }
 
@@ -3019,7 +3019,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     /* isReadOnly */ false,
                     NodeFlags.None,
                     pos,
-                    parser.startPos
+                    parser.curPos
                   )
                 ],
                 null,
@@ -3027,7 +3027,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 /* trailingComma */ false,
                 parser.nodeFlags,
                 pos,
-                parser.startPos
+                parser.curPos
               ),
               true,
               /* isParenthesized */ false,
@@ -3045,7 +3045,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parseAssignmentExpression(parser, context),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
 
@@ -3077,7 +3077,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 /* isReadOnly */ false,
                 NodeFlags.None,
                 pos,
-                parser.startPos
+                parser.curPos
               )
             ],
             null,
@@ -3085,7 +3085,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             /* trailingComma */ false,
             parser.nodeFlags,
             pos,
-            parser.startPos
+            parser.curPos
           );
         }
         expression = parseArrowFunction(
@@ -3139,7 +3139,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 /* isReadOnly */ false,
                 NodeFlags.None,
                 pos,
-                parser.startPos
+                parser.curPos
               )
             ],
             type,
@@ -3147,7 +3147,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             false,
             NodeFlags.None,
             pos,
-            parser.startPos
+            parser.curPos
           );
         }
       }
@@ -3165,7 +3165,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             /* isReadOnly */ false,
             NodeFlags.None,
             pos,
-            parser.startPos
+            parser.curPos
           );
         }
 
@@ -3177,22 +3177,22 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           false,
           NodeFlags.None,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
     }
-    return createParenthesizedExpression(expression, parser.nodeFlags, pos, parser.startPos);
+    return createParenthesizedExpression(expression, parser.nodeFlags, pos, parser.curPos);
   }
 
   if (parser.token === Token.Comma) {
     const expressions = [expression];
     if (state) {
-      let innerPos = parser.startPos;
+      let innerPos = parser.curPos;
       while (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
         if (parser.token & 0b00000000000010000101000000000000) {
           if (
             parser.token & Token.IsAccessModifier &&
-            lookAhead(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)
+            lookAhead(parser, context, nextTokenIsBindingPatternOnSameLine)
           ) {
             state = Tristate.True;
             expression = parseFormalParameter(parser, context);
@@ -3220,7 +3220,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         parseAssignmentExpression(parser, context),
                         parser.nodeFlags, // this *could* contain a parse error bit
                         innerPos,
-                        parser.startPos
+                        parser.curPos
                       );
                     } else {
                       state = Tristate.True;
@@ -3235,7 +3235,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         /* isReadOnly */ false,
                         NodeFlags.None,
                         innerPos,
-                        parser.startPos
+                        parser.curPos
                       );
                     }
                   } else if (parser.token === Token.Colon) {
@@ -3251,7 +3251,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                       /* isReadOnly */ false,
                       NodeFlags.None,
                       innerPos,
-                      parser.startPos
+                      parser.curPos
                     );
                   }
                   // If we have something like "(a:", then we must have a
@@ -3269,7 +3269,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     /* isReadOnly */ false,
                     parser.nodeFlags,
                     innerPos,
-                    parser.startPos
+                    parser.curPos
                   );
                 } else {
                   // If we have "(a," or "(a=" or "(a)" this *could* be an arrow function
@@ -3285,7 +3285,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                       parseAssignmentExpression(parser, context),
                       parser.nodeFlags,
                       innerPos,
-                      parser.startPos
+                      parser.curPos
                     );
                   }
 
@@ -3313,7 +3313,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                             /* isReadOnly */ false,
                             NodeFlags.None,
                             pos,
-                            parser.startPos
+                            parser.curPos
                           )
                         ],
                         null,
@@ -3321,7 +3321,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         /* trailingComma */ false,
                         parser.nodeFlags,
                         innerPos,
-                        parser.startPos
+                        parser.curPos
                       ),
                       token === Token.AsyncKeyword,
                       /* isParenthesized */ false,
@@ -3340,7 +3340,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     parseAssignmentExpression(parser, context),
                     parser.nodeFlags,
                     innerPos,
-                    parser.startPos
+                    parser.curPos
                   );
                 }
 
@@ -3372,7 +3372,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         /* isReadOnly */ false,
                         NodeFlags.None,
                         pos,
-                        parser.startPos
+                        parser.curPos
                       )
                     ],
                     null,
@@ -3380,7 +3380,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     /* trailingComma */ false,
                     parser.nodeFlags,
                     innerPos,
-                    parser.startPos
+                    parser.curPos
                   );
                 }
                 expression = parseArrowFunction(
@@ -3406,7 +3406,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           state = Tristate.False;
           expression = parseAssignmentExpression(parser, context);
         }
-        innerPos = parser.startPos;
+        innerPos = parser.curPos;
         expressions.push(expression);
       }
     } else {
@@ -3418,7 +3418,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       }
     }
 
-    const commaOPeratorEnd = parser.startPos;
+    const commaOPeratorEnd = parser.curPos;
 
     consume(parser, context, Token.RightParen);
 
@@ -3465,7 +3465,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     expression = createCommaOperator(expressions, parser.nodeFlags, commaOperatorStart, commaOPeratorEnd);
   }
 
-  return createParenthesizedExpression(expression, parser.nodeFlags, pos, parser.startPos);
+  return createParenthesizedExpression(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function convertToArrowParams(parser: ParserState, context: Context, expressions: any[], pos: number): any {
@@ -3487,7 +3487,7 @@ function convertToArrowParams(parser: ParserState, context: Context, expressions
             /* isReadOnly */ false,
             NodeFlags.None,
             pos,
-            parser.startPos
+            parser.curPos
           )
         : id
     );
@@ -3496,40 +3496,40 @@ function convertToArrowParams(parser: ParserState, context: Context, expressions
 }
 
 function parseBooleanLiteral(parser: ParserState, context: Context): BooleanLiteral {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = KeywordDescTable[parser.token & Token.Type] === 'true';
   nextToken(parser, context);
-  return createBooleanLiteral(value, parser.nodeFlags, pos, parser.startPos);
+  return createBooleanLiteral(value, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseThisExpression(parser: ParserState, context: Context): ThisExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createThisExpression(parser.nodeFlags, pos, parser.startPos);
+  return createThisExpression(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseNullLiteral(parser: ParserState, context: Context): NullLiteral {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createNullLiteral(parser.nodeFlags, pos, parser.startPos);
+  return createNullLiteral(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseNumericLiteral(parser: ParserState, context: Context): NumericLiteral {
-  const { startPos, tokenValue, raw, nodeFlags } = parser;
+  const { curPos, tokenValue, raw, nodeFlags } = parser;
   nextToken(parser, context);
-  return createNumericLiteral(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+  return createNumericLiteral(tokenValue, raw, nodeFlags, curPos, parser.curPos);
 }
 
 function parseBigIntLiteral(parser: ParserState, context: Context): BigIntLiteral {
-  const { startPos, tokenValue, raw, nodeFlags } = parser;
+  const { curPos, tokenValue, raw, nodeFlags } = parser;
   nextToken(parser, context);
-  return createBigIntLiteral(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+  return createBigIntLiteral(tokenValue, raw, nodeFlags, curPos, parser.curPos);
 }
 
 function parseStringLiteral(parser: ParserState, context: Context): StringLiteral {
-  const { startPos, raw, tokenValue, nodeFlags } = parser;
+  const { curPos, raw, tokenValue, nodeFlags } = parser;
   nextToken(parser, context);
-  return createStringLiteral(tokenValue, raw, nodeFlags, startPos, parser.startPos);
+  return createStringLiteral(tokenValue, raw, nodeFlags, curPos, parser.curPos);
 }
 
 // Returns true if this is an valid identifier
@@ -3553,14 +3553,14 @@ function parseIdentifierReference(
   diagnosticMessage?: DiagnosticCode,
   allowKeywords?: boolean
 ): IdentifierReference | DummyIdentifier | any {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const raw = parser.raw;
   const flags = parser.nodeFlags;
 
   if (isIdentifier(parser.token, context, allowKeywords)) {
     const name = parser.tokenValue;
     nextToken(parser, context);
-    return createIdentifierReference(name, raw, flags, pos, parser.startPos);
+    return createIdentifierReference(name, raw, flags, pos, parser.curPos);
   }
   reportErrorDiagnostic(parser, 0, diagnosticMessage ? diagnosticMessage : DiagnosticCode.Identifier_expected);
   return createDummyIdentifier(pos, pos);
@@ -3571,13 +3571,13 @@ function parseIdentifierName(
   context: Context,
   diagnosticMessage?: DiagnosticCode
 ): IdentifierName {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
   if (parser.token & Constants.TokenIsIdentifierOrKeyword) {
     const name = parser.tokenValue;
     const raw = parser.raw;
     nextToken(parser, context);
-    return createIdentifierName(name, raw, nodeFlags, pos, parser.startPos);
+    return createIdentifierName(name, raw, nodeFlags, pos, parser.curPos);
   }
   reportErrorDiagnostic(parser, 0, diagnosticMessage ? diagnosticMessage : DiagnosticCode.Identifier_expected);
   return createIdentifierReference('', '', nodeFlags | NodeFlags.HasErrors, pos, pos);
@@ -3588,7 +3588,7 @@ function parseBindingIdentifier(
   context: Context,
   privateIdentifierDiagnosticMessage?: DiagnosticCode
 ): BindingIdentifier {
-  const { startPos, raw, nodeFlags } = parser;
+  const { curPos, raw, nodeFlags } = parser;
   if (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
     if (parser.token === Token.PrivateIdentifier) {
       reportErrorDiagnostic(
@@ -3600,7 +3600,7 @@ function parseBindingIdentifier(
     }
     const name = parser.tokenValue;
     nextToken(parser, context);
-    return createBindingIdentifier(name, raw, nodeFlags | parser.nodeFlags, startPos, parser.startPos);
+    return createBindingIdentifier(name, raw, nodeFlags | parser.nodeFlags, curPos, parser.curPos);
   }
   reportErrorDiagnostic(
     parser,
@@ -3611,17 +3611,17 @@ function parseBindingIdentifier(
     KeywordDescTable[parser.token & Token.Type]
   );
 
-  return createBindingIdentifier('', '', parser.nodeFlags, startPos, startPos);
+  return createBindingIdentifier('', '', parser.nodeFlags, curPos, curPos);
 }
 
 function parseRegularExpression(parser: ParserState, context: Context): RegularExpressionLiteral {
-  const { startPos, tokenValue, nodeFlags } = parser;
+  const { curPos, tokenValue, nodeFlags } = parser;
   nextToken(parser, context);
-  return createRegularExpressionLiteral(tokenValue, nodeFlags, startPos, parser.startPos);
+  return createRegularExpressionLiteral(tokenValue, nodeFlags, curPos, parser.curPos);
 }
 
 function parseFunctionDeclaration(parser: ParserState, context: Context, isDefault: boolean): FunctionDeclaration {
-  const { startPos, nodeFlags } = parser;
+  const { curPos, nodeFlags } = parser;
 
   const isAsync = consumeOptAsBitwise(parser, context, Token.AsyncKeyword);
 
@@ -3637,7 +3637,7 @@ function parseFunctionDeclaration(parser: ParserState, context: Context, isDefau
 
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   const formalParameterList = parseFormalParameterList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
-  const type = consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null;
+  const type = parseReturnType(parser, context);
 
   context =
     ((context | 0b00011100011000010000000000000000) ^ 0b00011100011000010000000000000000) | generatorAndAsyncFlags;
@@ -3653,8 +3653,8 @@ function parseFunctionDeclaration(parser: ParserState, context: Context, isDefau
     typeParameters,
     type,
     nodeFlags | parser.nodeFlags,
-    startPos,
-    parser.startPos
+    curPos,
+    parser.curPos
   );
 }
 
@@ -3663,7 +3663,7 @@ function parseOptionalBindingIdentifier(parser: ParserState, context: Context): 
 }
 
 function parseFunctionExpression(parser: ParserState, context: Context): FunctionExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   const isAsync = consumeOptAsBitwise(parser, context, Token.AsyncKeyword);
 
@@ -3683,7 +3683,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
 
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   const formalParameterList = parseFormalParameterList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
-  const type = consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null;
+  const type = parseReturnType(parser, context);
 
   context =
     ((context | 0b00011100011000010000000000000000) ^ 0b00011100011000010000000000000000) | generatorAndAsyncFlags;
@@ -3699,7 +3699,7 @@ function parseFunctionExpression(parser: ParserState, context: Context): Functio
     type,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -3712,19 +3712,19 @@ function parseFunctionBlockOrSemicolon(
     parseSemicolon(parser, context);
     return null;
   }
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const statementList = parseFunctionStatementList(parser, context);
   consume(parser, isStatement ? context | Context.AllowRegExp : context, Token.RightBrace);
-  return createFunctionBody(statementList, parser.nodeFlags, pos, parser.startPos);
+  return createFunctionBody(statementList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseFunctionBody(parser: ParserState, context: Context, isStatement: boolean): FunctionBody {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   if (consume(parser, context | Context.AllowRegExp, Token.LeftBrace)) {
     const statementList = parseFunctionStatementList(parser, context);
     consume(parser, isStatement ? context | Context.AllowRegExp : context, Token.RightBrace);
-    return createFunctionBody(statementList, parser.nodeFlags, pos, parser.startPos);
+    return createFunctionBody(statementList, parser.nodeFlags, pos, parser.curPos);
   }
 
   reportErrorDiagnostic(parser, 0, DiagnosticCode.Statement_expected);
@@ -3739,7 +3739,7 @@ function parseFunctionBody(parser: ParserState, context: Context, isStatement: b
 
 // FunctionBody : FunctionStatementList
 function parseFunctionStatementList(parser: ParserState, context: Context): FunctionStatementList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const statements = [];
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   while (
@@ -3762,16 +3762,16 @@ function parseFunctionStatementList(parser: ParserState, context: Context): Func
       )
     );
   }
-  return createFunctionStatementList(statements, multiline, parser.nodeFlags, pos, parser.startPos);
+  return createFunctionStatementList(statements, multiline, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseFormalParameterList(parser: ParserState, context: Context): FormalParameterList {
-  const parameters: any = [];
-  let startOfList = parser.startPos;
+  const parameters = [];
+  let startOfList = parser.curPos;
   let endOfList = startOfList;
   let trailingComma = false;
   if (consume(parser, context, Token.LeftParen)) {
-    startOfList = parser.startPos;
+    startOfList = parser.curPos;
     while (parser.token & 0b00000100000010000101000000000000 || parser.token === Token.Decorator) {
       parameters.push(getCurrentNode(parser, context, parseFormalParameter));
       if (parser.token === Token.RightParen) break;
@@ -3792,44 +3792,39 @@ function parseFormalParameterList(parser: ParserState, context: Context): Formal
 }
 
 function parseFormalParameter(parser: ParserState, context: Context): FormalParameter {
-  const pos = parser.startPos;
-  const decorators = parseDecorators(parser, context);
-  const accessModifier = parseAccessModifier(parser, context, Token.RightParen);
-  const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
-
-  let isReadOnly = false;
-
-  // Check if we have something like "function x ( readonly xxx". The 'readonly' modifier is the only
-  // modifier we care about here. Others like "abstract" and "declare" are invalid, so we parse them
-  // out as normal and report a missing "," instead. This so we can handle this correctly in the grammar
-  // checker and the linter.
-  if (parser.token === Token.ReadonlyKeyword) {
-    if (tryParse(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
-      isReadOnly = true;
-    }
-  }
+  const pos = parser.curPos;
 
   if (parser.token === Token.ThisKeyword) {
-    const { tokenValue, raw, nodeFlags } = parser;
-    if (accessModifier) reportErrorDiagnostic(parser, 0, DiagnosticCode.Identifier_expected);
     nextToken(parser, context);
     return createFormalParameter(
-      false,
-      createBindingIdentifier(tokenValue, raw, nodeFlags, pos, parser.startPos),
-      false,
+      /* ellipsis */ false,
+      createBindingIdentifier('this', /* raw */ 'this', NodeFlags.None, pos, parser.curPos),
+      /* isOptional */ false,
       parseTypeAnnotation(parser, context),
-      null,
-      decorators,
-      accessModifier,
-      isReadOnly,
+      /* initializer */ null,
+      /* decorators*/ null,
+      /* accessModifier */ null,
+      /* isReadOnly */ false,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
   // FormalParameter [Yield,Await]:
   //      BindingElement[?Yield,?Await]
+
+  const decorators = parseDecorators(parser, context);
+  const accessModifier = parseAccessModifier(parser, context, Token.RightParen);
+  const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
+
+  // Check if we have something like "function x ( readonly xxx". The 'readonly' modifier is the only
+  // modifier we care about here. Others like "abstract" and "declare" are invalid, so we parse them
+  // out as normal and report a missing "," instead. This so we can handle this correctly in the grammar
+  // checker and the linter.
+  let isReadOnly =
+    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenIsBindingPatternOnSameLine);
+
   const binding = parseIdentifierOrPattern(
     parser,
     (context | Context.DisallowIn) ^ Context.DisallowIn,
@@ -3847,7 +3842,7 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
     isReadOnly,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -3872,15 +3867,15 @@ function parseInitializer(parser: ParserState, context: Context): any {
 }
 
 function parseObjectBindingPattern(parser: ParserState, context: Context): ObjectBindingPattern {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LeftBrace);
   const bindingPropertyList = parseBindingPropertyList(parser, context);
   consume(parser, context, Token.RightBrace);
-  return createObjectBindingPattern(bindingPropertyList, parser.nodeFlags, pos, parser.startPos);
+  return createObjectBindingPattern(bindingPropertyList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBindingPropertyList(parser: ParserState, context: Context): BindingPropertyList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const properties = [];
   let trailingComma = false;
   const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
@@ -3896,11 +3891,11 @@ function parseBindingPropertyList(parser: ParserState, context: Context): Bindin
     }
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
-  return createBindingPropertyList(properties, multiline, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createBindingPropertyList(properties, multiline, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBindingProperty(parser: ParserState, context: Context): BindingProperty | SingleNameBinding {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
   if (parser.token & (Token.FutureReserved | Token.Keyword | Token.IsIdentifier)) {
     const { tokenValue, raw, nodeFlags } = parser;
@@ -3908,20 +3903,20 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Colon)) {
       return createBindingProperty(
         ellipsis,
-        createIdentifierName(tokenValue, raw, nodeFlags, pos, parser.startPos),
+        createIdentifierName(tokenValue, raw, nodeFlags, pos, parser.curPos),
         parseBindingElement(parser, context),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
     return createSingleNameBinding(
       ellipsis,
-      createBindingIdentifier(tokenValue, raw, nodeFlags, pos, parser.startPos),
+      createBindingIdentifier(tokenValue, raw, nodeFlags, pos, parser.curPos),
       parseInitializer(parser, context),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
   const key = parsePropertyName(parser, context);
@@ -3932,7 +3927,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
     parseBindingElement(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -3942,7 +3937,7 @@ function parseBindingProperty(parser: ParserState, context: Context): BindingPro
 // SingleNameBinding :
 //   BindingIdentifier Initializer?
 function parseBindingElement(parser: ParserState, context: Context): BindingElement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
   const binding = parseIdentifierOrPattern(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   return createBindingElement(
@@ -3951,20 +3946,20 @@ function parseBindingElement(parser: ParserState, context: Context): BindingElem
     parseInitializer(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseArrayBindingPattern(parser: ParserState, context: Context): ArrayBindingPattern {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
   const bindingElementList = parseBindingElementList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
   consume(parser, context, Token.RightBracket);
-  return createArrayBindingPattern(bindingElementList, parser.nodeFlags, pos, parser.startPos);
+  return createArrayBindingPattern(bindingElementList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBindingElementList(parser: ParserState, context: Context): BindingElementList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const elements = [];
   let trailingComma = false;
 
@@ -3980,11 +3975,11 @@ function parseBindingElementList(parser: ParserState, context: Context): Binding
     }
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
-  return createBindingElementList(elements, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createBindingElementList(elements, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseArrayBindingElement(parser: ParserState, context: Context): OmittedExpression | BindingElement {
-  if (parser.token & Token.IsComma) return createOmittedExpression(NodeFlags.None, parser.startPos, parser.startPos);
+  if (parser.token & Token.IsComma) return createOmittedExpression(NodeFlags.None, parser.curPos, parser.curPos);
   return parseBindingElement(parser, context);
 }
 
@@ -3993,7 +3988,7 @@ function parseJsxElementOrFragment(
   context: Context,
   inExpressionContext: boolean
 ): JsxElement | JsxSelfClosingElement | JsxFragment {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   consume(parser, context, Token.LessThan);
 
@@ -4005,7 +4000,7 @@ function parseJsxElementOrFragment(
       parseJsxClosingFragment(parser, context, inExpressionContext),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -4021,7 +4016,7 @@ function parseJsxElementOrFragment(
         openingElement.tagName.name.text
       );
     }
-    return createJsxElement(openingElement, jsxChildren, closingElement, parser.nodeFlags, pos, parser.startPos);
+    return createJsxElement(openingElement, jsxChildren, closingElement, parser.nodeFlags, pos, parser.curPos);
   }
 
   return openingElement;
@@ -4029,7 +4024,7 @@ function parseJsxElementOrFragment(
 
 function parseJsxOpeningFragment(parser: ParserState, pos: number): JsxOpeningFragment {
   scanJsxToken(parser);
-  return createJsxOpeningFragment(parser.nodeFlags, pos, parser.startPos);
+  return createJsxOpeningFragment(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxClosingElement(
@@ -4037,7 +4032,7 @@ function parseJsxClosingElement(
   context: Context,
   inExpressionContext: boolean
 ): JsxClosingElement {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   consume(parser, context, Token.JSXClose);
   const tagName = parseJsxElementName(parser, context);
@@ -4047,7 +4042,7 @@ function parseJsxClosingElement(
   } else {
     reScanJsxToken(parser);
   }
-  return createJsxClosingElement(tagName, parser.nodeFlags, pos, parser.startPos);
+  return createJsxClosingElement(tagName, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxClosingFragment(
@@ -4055,7 +4050,7 @@ function parseJsxClosingFragment(
   context: Context,
   inExpressionContext: boolean
 ): JsxClosingFragment {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   consume(parser, context, Token.JSXClose);
 
@@ -4069,25 +4064,25 @@ function parseJsxClosingFragment(
     reScanJsxToken(parser);
   }
 
-  return createJsxClosingFragment(parser.nodeFlags, pos, parser.startPos);
+  return createJsxClosingFragment(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxChildren(parser: ParserState, context: Context): JsxChildrenList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const children = [];
   while (parser.pos < parser.end) {
     reScanJsxToken(parser);
     if (parser.token === Token.JSXClose) break;
     children.push(parseJsxChild(parser, context));
   }
-  return createJsxChildrenList(children as any, parser.nodeFlags, pos, parser.startPos);
+  return createJsxChildrenList(children as any, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxText(parser: ParserState): JsxText {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const name = parser.tokenValue;
   scanJsxToken(parser);
-  return createJsxText(name, parser.nodeFlags, pos, parser.startPos);
+  return createJsxText(name, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxChild(parser: ParserState, context: Context): JsxChild | null {
@@ -4098,12 +4093,12 @@ function parseJsxChild(parser: ParserState, context: Context): JsxChild | null {
 }
 
 function parseJsxAttributes(parser: ParserState, context: Context): JsxAttributesList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const attributes = [];
   while (parser.token & 0b00000000000010000111000000000000) {
     attributes.push(parseJsxAttribute(parser, context));
   }
-  return createJsxAttributesList(attributes, parser.nodeFlags, pos, parser.startPos);
+  return createJsxAttributesList(attributes, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxAttribute(parser: ParserState, context: Context): JsxAttribute | JsxSpreadAttribute {
@@ -4111,7 +4106,7 @@ function parseJsxAttribute(parser: ParserState, context: Context): JsxAttribute 
 
   scanJsxIdentifier(parser);
 
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   const name = parseJsxAttributeName(parser, context, pos);
   let initializer = null;
@@ -4126,16 +4121,16 @@ function parseJsxAttribute(parser: ParserState, context: Context): JsxAttribute 
         : parseJsxMemberExpression(parser, context, /*inExpressionContext*/ true);
   }
 
-  return createJsxAttribute(name, initializer, parser.nodeFlags, pos, parser.startPos);
+  return createJsxAttribute(name, initializer, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxSpreadAttribute(parser: ParserState, context: Context): JsxSpreadAttribute {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LeftBrace);
   consume(parser, context, Token.Ellipsis);
   const expression = parseExpression(parser, context);
   consume(parser, context, Token.RightBrace);
-  return createJsxSpreadAttribute(expression, parser.nodeFlags, pos, parser.startPos);
+  return createJsxSpreadAttribute(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxMemberExpression(
@@ -4143,7 +4138,7 @@ function parseJsxMemberExpression(
   context: Context,
   inExpressionContext: boolean
 ): JsxMemberExpression | null {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   // JSX attributes must only be assigned a non-empty 'expression'
   if (!consume(parser, context, Token.LeftBrace)) return null;
@@ -4163,7 +4158,7 @@ function parseJsxMemberExpression(
     scanJsxToken(parser);
   }
 
-  return createJsxMemberExpression(ellipsis, expression, parser.nodeFlags, pos, parser.startPos);
+  return createJsxMemberExpression(ellipsis, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxOpeningOrSelfClosingElement(
@@ -4182,7 +4177,7 @@ function parseJsxOpeningOrSelfClosingElement(
 
   if (parser.token === Token.GreaterThan) {
     scanJsxToken(parser);
-    return createJsxOpeningElement(tagName, jsxAttributes, typeArguments, parser.nodeFlags, pos, parser.startPos);
+    return createJsxOpeningElement(tagName, jsxAttributes, typeArguments, parser.nodeFlags, pos, parser.curPos);
   }
 
   consume(parser, context, Token.Divide);
@@ -4193,14 +4188,14 @@ function parseJsxOpeningOrSelfClosingElement(
     scanJsxToken(parser);
   }
 
-  return createJsxSelfClosingElement(tagName, jsxAttributes, typeArguments, parser.nodeFlags, pos, parser.startPos);
+  return createJsxSelfClosingElement(tagName, jsxAttributes, typeArguments, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxElementName(
   parser: ParserState,
   context: Context
 ): ThisExpression | JsxNamespacedName | JsxIdentifier | JsxTagNamePropertyAccess {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   scanJsxIdentifier(parser);
 
@@ -4215,7 +4210,7 @@ function parseJsxElementName(
       expression,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
 
@@ -4235,14 +4230,14 @@ function parseJsxNamespacedName(
 ): JsxNamespacedName {
   consume(parser, context, Token.Colon);
   const namespace = parseJsxIdentifier(parser, context);
-  return createJsxNamespacedName(name, namespace, parser.nodeFlags, pos, parser.startPos);
+  return createJsxNamespacedName(name, namespace, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseJsxIdentifier(parser: ParserState, context: Context): JsxIdentifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const name = parser.tokenValue;
   nextToken(parser, context);
-  return createJsxIdentifier(name, pos, parser.startPos);
+  return createJsxIdentifier(name, pos, parser.curPos);
 }
 
 // ImportDeclaration :
@@ -4253,11 +4248,11 @@ function parseImportDeclaration(parser: ParserState, context: Context): ImportDe
   let importClause = null;
   let fromClause: StringLiteral | Expression | null = null;
   const nodeFlags = parser.nodeFlags;
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   nextToken(parser, context);
 
-  const afterImportPos = parser.startPos;
+  const afterImportPos = parser.curPos;
 
   if (parser.token === Token.StringLiteral) {
     moduleSpecifier = parseStringLiteral(parser, context);
@@ -4305,14 +4300,14 @@ function parseImportDeclaration(parser: ParserState, context: Context): ImportDe
       isTypeOnly,
       parser.nodeFlags,
       afterImportPos,
-      parser.startPos
+      parser.curPos
     );
     fromClause = parseFromClause(parser, context);
   } else {
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
   parseSemicolon(parser, context);
-  return createImportDeclaration(fromClause as any, moduleSpecifier, importClause, nodeFlags, pos, parser.startPos);
+  return createImportDeclaration(fromClause as any, moduleSpecifier, importClause, nodeFlags, pos, parser.curPos);
 }
 
 function parseImportEqualsDeclaration(
@@ -4326,14 +4321,7 @@ function parseImportEqualsDeclaration(
   const moduleReference = parseModuleReference(parser, context);
   parseSemicolon(parser, context);
   if (isTypeOnly) reportErrorDiagnostic(parser, 0, DiagnosticCode.Only_ECMAScript_imports_may_use_import_type);
-  return createImportEqualsDeclaration(
-    identifier,
-    moduleReference,
-    isTypeOnly,
-    parser.nodeFlags,
-    start,
-    parser.startPos
-  );
+  return createImportEqualsDeclaration(identifier, moduleReference, isTypeOnly, parser.nodeFlags, start, parser.curPos);
 }
 
 function isExternalModuleReference(parser: ParserState, context: Context) {
@@ -4353,13 +4341,13 @@ function parseModuleReference(parser: ParserState, context: Context) {
 }
 
 function parseExternalModuleReference(parser: ParserState, context: Context): ExternalModuleReference {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.RequireKeyword);
   consume(parser, context, Token.LeftParen);
 
   const expression = parseModuleSpecifier(parser, context);
   consume(parser, context, Token.RightParen);
-  return createExternalModuleReference(expression, parser.nodeFlags, pos, parser.startPos);
+  return createExternalModuleReference(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseModuleSpecifier(parser: ParserState, context: Context): any {
@@ -4382,15 +4370,15 @@ function parseNameSpaceImport(parser: ParserState, context: Context): any {
 //   `{` ImportsList `}`
 //   `{` ImportsList `,` `}`
 function parseNamedImports(parser: ParserState, context: Context): NamedImports {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LeftBrace);
   const importsList = parseImportsList(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.RightBrace);
-  return createNamedImports(importsList, parser.nodeFlags, pos, parser.startPos);
+  return createNamedImports(importsList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseImportsList(parser: ParserState, context: Context): ImportsList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const specifiers = [];
 
   while (parser.token === Token.StringLiteral) {
@@ -4398,7 +4386,7 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
     consume(parser, context, Token.AsKeyword);
     const importedBinding = parseBindingIdentifier(parser, context);
     specifiers.push(
-      createImportSpecifier(moduleExportName, null, importedBinding, parser.nodeFlags, pos, parser.startPos)
+      createImportSpecifier(moduleExportName, null, importedBinding, parser.nodeFlags, pos, parser.curPos)
     );
   }
 
@@ -4407,14 +4395,14 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }
-  return createImportsList(specifiers, parser.nodeFlags, pos, parser.startPos);
+  return createImportsList(specifiers, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ImportSpecifier :
 //   ImportedBinding
 //   IdentifierName `as` ImportedBinding
 function parseImportSpecifier(parser: ParserState, context: Context): ImportSpecifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let importedBinding: BindingIdentifier | null = null;
   const identifierName = parseIdentifierName(parser, context);
   if (consumeOpt(parser, context, Token.AsKeyword)) {
@@ -4424,7 +4412,7 @@ function parseImportSpecifier(parser: ParserState, context: Context): ImportSpec
     importedBinding = identifierName;
   }
 
-  return createImportSpecifier(null, identifierName, importedBinding, parser.nodeFlags, pos, parser.startPos);
+  return createImportSpecifier(null, identifierName, importedBinding, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ModulemoduleExportName : StringLiteral
@@ -4459,7 +4447,7 @@ function parseExportDeclaration(
   parser: ParserState,
   context: Context
 ): ExportDeclaration | ExportDefault | ExpressionStatement | LabelledStatement | ImportEqualsDeclaration {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
   nextToken(parser, context | Context.AllowRegExp);
   let declaration: any = null;
@@ -4476,10 +4464,10 @@ function parseExportDeclaration(
       declaration = parseLexicalDeclaration(parser, context, /* isConst */ false, parser.nodeFlags, pos);
       break;
     case Token.ConstKeyword: {
-      const { startPos, nodeFlags } = parser;
+      const { curPos, nodeFlags } = parser;
       nextToken(parser, context);
       declaration = consumeOpt(parser, context, Token.EnumKeyword)
-        ? parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, startPos)
+        ? parseEnumDeclaration(parser, context, /* isConst */ true, nodeFlags, curPos)
         : parseLexicalDeclaration(parser, context, /* isConst */ true, parser.nodeFlags, pos);
       break;
     }
@@ -4546,16 +4534,16 @@ function parseExportDeclaration(
     isTypeOnly,
     nodeFlags | parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseExportAssignment(parser: ParserState, context: Context): ExportAssignment {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   const expression = parseAssignmentExpression(parser, context | Context.InAwaitContext);
   parseSemicolon(parser, context);
-  return createExportAssignment(expression, parser.nodeFlags, pos, parser.startPos);
+  return createExportAssignment(expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function canFollowExportTypeKeyword(parser: ParserState, context: Context): boolean {
@@ -4578,7 +4566,7 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
       namedBinding = parseIdentifierName(parser, context);
     }
   }
-  return createExportFromClause(namedBinding, moduleExportName, NodeFlags.None, pos, parser.startPos);
+  return createExportFromClause(namedBinding, moduleExportName, NodeFlags.None, pos, parser.curPos);
 }
 
 // NamedExports :
@@ -4586,29 +4574,29 @@ function parseExportFromClause(parser: ParserState, context: Context, pos: numbe
 //   `{` ExportsList `}`
 //   `{` ExportsList `,` `}`
 function parseNamedExports(parser: ParserState, context: Context): NamedExports {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LeftBrace);
   const exportsList = parseExportsList(parser, context);
   consume(parser, context | Context.AllowRegExp, Token.RightBrace);
-  return createNamedExports(exportsList, parser.nodeFlags, pos, parser.startPos);
+  return createNamedExports(exportsList, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseExportsList(parser: ParserState, context: Context): ExportsList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const specifiers = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
     specifiers.push(getCurrentNode(parser, context, parseExportSpecifier));
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }
-  return createExportsList(specifiers, parser.nodeFlags, pos, parser.startPos);
+  return createExportsList(specifiers, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ExportSpecifier :
 //   IdentifierName
 //   IdentifierName `as` IdentifierName
 function parseExportSpecifier(parser: ParserState, context: Context): ExportSpecifier {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   // ImportSpecifier:
   //   BindingIdentifier
   //   IdentifierName as BindingIdentifier
@@ -4626,7 +4614,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
         exportedName = parseIdentifierName(parser, context);
       }
     }
-    return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
+    return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.curPos);
   }
   const name = parseIdentifierName(parser, context);
   let exportedName = null;
@@ -4637,7 +4625,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
       exportedName = parseIdentifierName(parser, context);
     }
   }
-  return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.startPos);
+  return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ExportDefault :
@@ -4683,11 +4671,11 @@ function parseExportDefault(
       declaration = parseAssignmentExpression(parser, context);
       parseSemicolon(parser, context);
   }
-  return createExportDefault(declaration, parser.nodeFlags, pos, parser.startPos);
+  return createExportDefault(declaration, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseClassDeclaration(parser: ParserState, context: Context): ClassDeclaration {
-  const { startPos, nodeFlags } = parser;
+  const { curPos, nodeFlags } = parser;
   const decorator = parseDecorators(parser, context);
   nextToken(parser, context | Context.AllowRegExp);
 
@@ -4709,17 +4697,17 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
     consume(parser, context, Token.LeftBrace)
       ? parseClassElementList(parser, context)
       : // Empty list
-        createClassElementList([], parser.nodeFlags, startPos, startPos),
+        createClassElementList([], parser.nodeFlags, curPos, curPos),
     decorator,
     nodeFlags | parser.nodeFlags,
-    startPos,
-    parser.startPos
+    curPos,
+    parser.curPos
   );
 }
 
 function parseimplementClauses(parser: ParserState, context: Context): ImplementClauses | null {
   if (consumeOpt(parser, context, Token.ImplementsKeyword)) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const clauses = [];
     while (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
       clauses.push(parseImplementClause(parser, context));
@@ -4731,18 +4719,18 @@ function parseimplementClauses(parser: ParserState, context: Context): Implement
       if (consumeOpt(parser, context, Token.Comma)) continue;
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
     }
-    return createImplementClauses(clauses, parser.nodeFlags, pos, parser.startPos);
+    return createImplementClauses(clauses, parser.nodeFlags, pos, parser.curPos);
   }
   return null;
 }
 
 function parseImplementClause(parser: ParserState, context: Context): ImplementClause {
-  const pos = parser.startPos;
-  return createImplementClause(parseTypeReference(parser, context), parser.nodeFlags, pos, parser.startPos);
+  const pos = parser.curPos;
+  return createImplementClause(parseTypeReference(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseClassExpression(parser: ParserState, context: Context): ClassExpression {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const decorator = parseDecorators(parser, context);
   nextToken(parser, context | Context.AllowRegExp);
   const name =
@@ -4766,12 +4754,12 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
     decorator,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseClassElementList(parser: ParserState, context: Context): ClassElementList {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const elements = [];
 
   while (
@@ -4783,7 +4771,7 @@ function parseClassElementList(parser: ParserState, context: Context): ClassElem
     if (parser.token === Token.RightBrace) break;
   }
   consume(parser, context, Token.RightBrace);
-  return createClassElementList(elements, parser.nodeFlags, pos, parser.startPos);
+  return createClassElementList(elements, parser.nodeFlags, pos, parser.curPos);
 }
 
 function canFollowAPropertyOnSameLine(parser: ParserState, context: Context) {
@@ -4797,11 +4785,11 @@ function canFollowAPropertyOnSameLine(parser: ParserState, context: Context) {
 //   `static` MethodDefinition
 //   MethodDefinition
 function parseClassElement(parser: ParserState, context: Context): ClassElement | Semicolon | FieldDefinition | any {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   if (parser.token === Token.Semicolon) {
     nextToken(parser, context);
-    return createSemicolon(parser.nodeFlags, pos, parser.startPos);
+    return createSemicolon(parser.nodeFlags, pos, parser.curPos);
   }
 
   // If we have "{ @foo xxx" then this is definitely an class decorator.
@@ -4827,7 +4815,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
 
-  // Cases like "{ declare (" isn't valid, but accepted here for error recovery reasons.
+  // Cases like "{ declare xxx (" isn't valid, but accepted here for error recovery reasons.
   // We will handle this in the grammar checker. If we consume this as an modifier, it will
   // block us from doing "auto fix" in the linter.
   let isDeclared = parser.token === Token.DeclareKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
@@ -4866,7 +4854,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
 
@@ -4890,7 +4878,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         parseMethodDefinition(parser, context, key, kind | PropertyKind.Constructor, decorators, modifiers),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
 
@@ -4904,7 +4892,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
 
@@ -4937,7 +4925,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
 
@@ -4961,7 +4949,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
       key = parsePropertyName(parser, context);
@@ -4982,7 +4970,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
           parser.nodeFlags,
           pos,
-          parser.startPos
+          parser.curPos
         );
       }
       key = parsePropertyName(parser, context);
@@ -5012,7 +5000,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         parseMethodDefinition(parser, context, key, kind, decorators, modifiers),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
 
@@ -5069,7 +5057,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
       // We have "[ expr" and this is a valid computed property
       const expression = parseAssignmentExpression(parser, context);
       consume(parser, context, Token.RightBracket);
-      key = createComputedPropertyName(expression, parser.nodeFlags, pos, parser.startPos);
+      key = createComputedPropertyName(expression, parser.nodeFlags, pos, parser.curPos);
     } else {
       key = parsePropertyName(parser, context);
     }
@@ -5088,7 +5076,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         parseMethodDefinition(parser, context, key, kind | PropertyKind.Constructor, decorators, modifiers),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
 
@@ -5103,7 +5091,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         parseMethodDefinition(parser, context, key, kind | PropertyKind.None, decorators, modifiers),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
 
@@ -5151,7 +5139,7 @@ function parseFieldDefinition(
         parseMethodDefinition(parser, context, key as any, kind, decorators, accessModifier),
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     }
     optional = true;
@@ -5176,7 +5164,7 @@ function parseFieldDefinition(
     isStatic,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5215,7 +5203,7 @@ function skipParameterStart(parser: ParserState, context: Context): boolean {
 }
 
 function parseType(parser: ParserState, context: Context): TypeNode | ConditionalType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const type = parseUnionType(parser, context | Context.AllowConditionalTypes);
   if (context & Context.AllowConditionalTypes && parser.token === Token.ExtendsKeyword) {
     if (parser.nodeFlags & NodeFlags.PrecedingLineBreak) return type;
@@ -5226,7 +5214,7 @@ function parseType(parser: ParserState, context: Context): TypeNode | Conditiona
     const trueType = parseType(parser, context | Context.AllowConditionalTypes);
     consume(parser, context, Token.Colon);
     const falseType = parseType(parser, context | Context.AllowConditionalTypes);
-    return createConditionalType(type, extendsType, trueType, falseType, parser.nodeFlags, pos, parser.startPos);
+    return createConditionalType(type, extendsType, trueType, falseType, parser.nodeFlags, pos, parser.curPos);
   }
   return type;
 }
@@ -5235,12 +5223,12 @@ function parseUnionType(parser: ParserState, context: Context): TypeNode | Union
   consumeOpt(parser, context, Token.BitwiseOr);
   const type = parseIntersectionType(parser, context);
   if (parser.token === Token.BitwiseOr) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, Token.BitwiseOr)) {
       types.push(getCurrentNode(parser, context, parseIntersectionType));
     }
-    return createUnionType(types, parser.nodeFlags, pos, parser.startPos);
+    return createUnionType(types, parser.nodeFlags, pos, parser.curPos);
   }
   return type;
 }
@@ -5249,18 +5237,18 @@ function parseIntersectionType(parser: ParserState, context: Context): TypeNode 
   consumeOpt(parser, context, Token.BitwiseAnd);
   const type = parsePostfixType(parser, context);
   if (parser.token === Token.BitwiseAnd) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const types = [type];
     while (consumeOpt(parser, context, Token.BitwiseAnd)) {
       types.push(getCurrentNode(parser, context, parsePostfixType));
     }
-    return createIntersectionType(types, parser.nodeFlags, pos, parser.startPos);
+    return createIntersectionType(types, parser.nodeFlags, pos, parser.curPos);
   }
   return type;
 }
 
 function parsePostfixType(parser: ParserState, context: Context): TypeNode | IndexedAccessType | ArrayType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let type = parsePrimaryType(parser, context);
   while ((parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 && consumeOpt(parser, context, Token.LeftBracket)) {
     if (parser.token & 0b00100000000010000101000000000000) {
@@ -5277,7 +5265,7 @@ function parsePostfixType(parser: ParserState, context: Context): TypeNode | Ind
 }
 
 function parseFunctionTypeWithTypeParameters(parser: ParserState, context: Context): FunctionType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   consume(parser, context, Token.LeftParen);
   const parameters = parseFunctionTypeParams(parser, context);
@@ -5289,7 +5277,7 @@ function parseFunctionTypeWithTypeParameters(parser: ParserState, context: Conte
     parseTypeOrTypePredicate(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5303,7 +5291,7 @@ function parseFunctionType(parser: ParserState, context: Context, pos: number): 
     parseTypeOrTypePredicate(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5312,7 +5300,7 @@ function parseConstructorType(
   context: Context,
   accessModifier: AccessModifier | null
 ): ConstructorType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const isAbstract = consumeOpt(parser, context, Token.AbstractKeyword);
   nextToken(parser, context);
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
@@ -5320,19 +5308,11 @@ function parseConstructorType(
   consume(parser, context, Token.Arrow);
   const type = parseTypeOrTypePredicate(parser, context);
   if (isAbstract) parser.nodeFlags |= NodeFlags.Abstract;
-  return createConstructorType(
-    accessModifier,
-    typeParameters,
-    parameters,
-    type,
-    parser.nodeFlags,
-    pos,
-    parser.startPos
-  );
+  return createConstructorType(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTypeOperator(parser: ParserState, context: Context): TypeOperator | TypeNode {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const operator = KeywordDescTable[parser.token & Token.Type] as TypeOperators;
   nextToken(parser, context);
   return createTypeOperator(
@@ -5340,18 +5320,18 @@ function parseTypeOperator(parser: ParserState, context: Context): TypeOperator 
     parseType(parser, context | Context.AllowConditionalTypes),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseInferType(parser: ParserState, context: Context): InferType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createInferType(parseTypeParameterOfInferType(parser, context), parser.nodeFlags, pos, parser.startPos);
+  return createInferType(parseTypeParameterOfInferType(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTypeParameterOfInferType(parser: ParserState, context: Context): TypeParameter {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   return createTypeParameter(
     parseIdentifierReference(parser, context),
     null,
@@ -5359,7 +5339,7 @@ function parseTypeParameterOfInferType(parser: ParserState, context: Context): T
     null,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5417,7 +5397,7 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
     case Token.LeftParen:
       return parseParenthesizedType(parser, context);
     case Token.ImportKeyword:
-      return parseImportType(parser, context, /* isTypeOf */ false, parser.startPos);
+      return parseImportType(parser, context, /* isTypeOf */ false, parser.curPos);
     case Token.AssertsKeyword:
       if (lookAhead(parser, context, nextTokenIsIdentifierOrKeywordOnSameLine)) {
         return parseAssertsTypePredicate(parser, context);
@@ -5440,7 +5420,7 @@ function parseThisTypeOrTypePredicate(parser: ParserState, context: Context): Th
       parseType(parser, context | Context.AllowConditionalTypes),
       parser.nodeFlags,
       thisKeyword.start,
-      parser.startPos
+      parser.curPos
     );
   }
   return thisKeyword;
@@ -5465,7 +5445,7 @@ function nextTokenIsInKeyword(parser: ParserState, context: Context): boolean {
 }
 
 function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): TypeLiteral | MappedType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
   // try speculative parsing here...
   const mappedType =
@@ -5532,13 +5512,13 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
         type,
         parser.nodeFlags,
         pos,
-        parser.startPos
+        parser.curPos
       );
     });
 
   if (mappedType) return mappedType;
 
-  const innerPos = parser.startPos;
+  const innerPos = parser.curPos;
   const members = [];
   while (parser.token & 0b00110000000000000111000000000000) {
     members.push(getCurrentNode(parser, context, parseTypeMember));
@@ -5547,15 +5527,15 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
   consume(parser, context, Token.RightBrace);
 
   return createTypeLiteral(
-    createObjectTypeMembers(members, parser.nodeFlags, innerPos, parser.startPos),
+    createObjectTypeMembers(members, parser.nodeFlags, innerPos, parser.curPos),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseTemplateType(parser: ParserState, context: Context): TemplateLiteralType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const templateSpans = [];
   do {
     templateSpans.push(parseTemplateTypeSpan(parser, context));
@@ -5565,26 +5545,26 @@ function parseTemplateType(parser: ParserState, context: Context): TemplateLiter
     parseTemplateTail(parser, context),
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseTemplateTypeSpan(parser: ParserState, context: Context): TemplateLiteralTypeSpan {
-  const { startPos, tokenValue, templateRaw } = parser;
+  const { curPos, tokenValue, templateRaw } = parser;
   consume(parser, context | Context.AllowRegExp, Token.TemplateCont);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
-  return createTemplateLiteralTypeSpan(type, templateRaw, tokenValue, parser.nodeFlags, startPos, parser.startPos);
+  return createTemplateLiteralTypeSpan(type, templateRaw, tokenValue, parser.nodeFlags, curPos, parser.curPos);
 }
 
 function parseObjectType(parser: ParserState, context: Context): ObjectTypeMembers {
-  let pos = parser.startPos;
+  let pos = parser.curPos;
   if (consume(parser, context, Token.LeftBrace)) {
     const members = [];
-    pos = parser.startPos;
+    pos = parser.curPos;
     while (parser.token & 0b00110000000000000111000000000000) {
       members.push(getCurrentNode(parser, context, parseTypeMember));
     }
-    const result = createObjectTypeMembers(members, parser.nodeFlags, pos, parser.startPos);
+    const result = createObjectTypeMembers(members, parser.nodeFlags, pos, parser.curPos);
     consume(parser, context, Token.RightBrace);
     return result;
   }
@@ -5593,6 +5573,8 @@ function parseObjectType(parser: ParserState, context: Context): ObjectTypeMembe
 }
 
 function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
+  // We allow type members to be separated by commas or (possibly ASI) semicolons.
+  // First check if it was a comma.  If so, we're done with the member.
   if (consumeOpt(parser, context, Token.Comma)) return;
   // Didn't have a comma.  We must have a (possible ASI) semicolon.
   parseSemicolon(parser, context);
@@ -5622,7 +5604,7 @@ function parseTypeMember(
   parser: ParserState,
   context: Context
 ): ConstructSignature | CallSignature | PropertySignature | IndexSignature {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let token = parser.token;
   let kind = PropertyKind.None;
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
@@ -5722,7 +5704,7 @@ function parseTypeMember(
     return parsePropertyOrMethodSignature(
       parser,
       context,
-      createComputedPropertyName(expression, parser.nodeFlags, pos, parser.startPos),
+      createComputedPropertyName(expression, parser.nodeFlags, pos, parser.curPos),
       kind,
       modifiers,
       pos
@@ -5738,16 +5720,16 @@ function parseIndexSignatureDeclaration(
   kind: PropertyKind,
   accessModifier: AccessModifier | null
 ): IndexSignature {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const parameters = parseBracketList(parser, context);
   consume(parser, context, Token.RightBracket);
   const type = parseTypeAnnotation(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createIndexSignature(accessModifier, parameters, type, kind, parser.nodeFlags, pos, parser.startPos);
+  return createIndexSignature(accessModifier, parameters, type, kind, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBracketList(parser: ParserState, context: Context): Parameters {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const parameters = [];
   let trailingComma = false;
   while (parser.token & 0b00000100000010000101000000000000) {
@@ -5762,7 +5744,11 @@ function parseBracketList(parser: ParserState, context: Context): Parameters {
     }
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
-  return createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.curPos);
+}
+
+function parseReturnType(parser: ParserState, context: Context): TypeNode | null {
+  return consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null;
 }
 
 function parsePropertyOrMethodSignature(
@@ -5776,9 +5762,11 @@ function parsePropertyOrMethodSignature(
   const optional = consumeOpt(parser, context, Token.QuestionMark);
 
   if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
+    // Method signatures don't exist in expression contexts.  So they have neither
+    // [Yield] nor [Await]
     const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
     const parameters = parseParameterList(parser, context);
-    const type = consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null;
+    const type = parseReturnType(parser, context);
     if (consumeOpt(parser, context, Token.Arrow)) reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, '=>');
     parseTypeMemberSemicolon(parser, context);
     return createMethodSignature(
@@ -5791,7 +5779,7 @@ function parsePropertyOrMethodSignature(
       type,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
   const type = parseTypeAnnotation(parser, context);
@@ -5806,7 +5794,7 @@ function parsePropertyOrMethodSignature(
     initializer,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5834,13 +5822,13 @@ function parsePropertySignature(
     initializer,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
 function parseParameterList(parser: ParserState, context: Context): Parameters {
   if (consume(parser, context, Token.LeftParen)) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const parameters = [];
     let trailingComma = false;
     while (parser.token & 0b00000100000010000101000000000000) {
@@ -5856,40 +5844,35 @@ function parseParameterList(parser: ParserState, context: Context): Parameters {
 
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
     }
-    const result = createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.startPos);
+    const result = createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.curPos);
     consume(parser, context, Token.RightParen);
     return result;
   }
-  return createParameters([], /* trailingComma */ false, parser.nodeFlags, parser.startPos, parser.startPos);
+  return createParameters([], /* trailingComma */ false, parser.nodeFlags, parser.curPos, parser.curPos);
 }
 
 function parseParameter(parser: ParserState, context: Context): ParameterDeclaration {
-  const pos = parser.startPos;
-  const modifier = parseAccessModifier(parser, context, Token.RightParen);
-  let isReadOnly = false;
-
-  if (parser.token === Token.ReadonlyKeyword) {
-    if (tryParse(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
-      isReadOnly = true;
-    }
-  }
+  const pos = parser.curPos;
 
   if (parser.token === Token.ThisKeyword) {
-    const { tokenValue, raw, nodeFlags } = parser;
     nextToken(parser, context);
     return createParameterDeclaration(
-      false,
-      createIdentifierReference(tokenValue, raw, nodeFlags, pos, parser.startPos),
-      false,
+      /* ellipsis */ false,
+      createBindingIdentifier('this', /* raw */ 'this', NodeFlags.None, pos, parser.curPos),
+      /* isOptional */ false,
       parseTypeAnnotation(parser, context),
-      null,
-      modifier,
-      isReadOnly,
+      /* initializer */ null,
+      /* accessModifier */ null,
+      /* isReadOnly */ false,
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
+
+  const modifier = parseAccessModifier(parser, context, Token.RightParen);
+  const isReadOnly =
+    parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenIsBindingPatternOnSameLine);
 
   return createParameterDeclaration(
     consumeOpt(parser, context, Token.Ellipsis),
@@ -5901,7 +5884,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
     isReadOnly,
     parser.nodeFlags,
     pos,
-    parser.startPos
+    parser.curPos
   );
 }
 
@@ -5911,17 +5894,17 @@ function parseSignatureMember(
   accessModifier: AccessModifier | null,
   kind: NodeKind
 ): ConstructSignature | CallSignature {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   const parameters = parseParameterList(parser, context);
-  const type = consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null;
+  const type = parseReturnType(parser, context);
   if (consumeOpt(parser, context, Token.Arrow)) {
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, KeywordDescTable[Token.Arrow & Token.Type]);
   }
   parseTypeMemberSemicolon(parser, context);
   return kind === NodeKind.ConstructSignature
-    ? createConstructSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos)
-    : createCallSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.startPos);
+    ? createConstructSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos)
+    : createCallSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos);
 }
 
 function isTypeParametersTerminator(token: Token): boolean {
@@ -5938,7 +5921,7 @@ function isTypeParametersTerminator(token: Token): boolean {
 function parseTypeParameters(parser: ParserState, context: Context): TypeParameters | null {
   if (parser.token !== Token.LessThan) return null;
   nextToken(parser, context);
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const params = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
     params.push(getCurrentNode(parser, context, parseTypeParameter));
@@ -5947,13 +5930,13 @@ function parseTypeParameters(parser: ParserState, context: Context): TypeParamet
     reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
   }
 
-  const result = createTypeParameters(params, parser.nodeFlags, pos, parser.startPos);
+  const result = createTypeParameters(params, parser.nodeFlags, pos, parser.curPos);
   consume(parser, context, Token.GreaterThan);
   return result;
 }
 
 function parseTypeParameter(parser: ParserState, context: Context): TypeParameter {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const name = parseIdentifierName(parser, context);
   let constraint: TypeNode | null = null;
   let expression: Expression | null = null;
@@ -5967,7 +5950,7 @@ function parseTypeParameter(parser: ParserState, context: Context): TypeParamete
   const defaultType = consumeOpt(parser, context, Token.Assign)
     ? parseType(parser, context | Context.AllowConditionalTypes)
     : null;
-  return createTypeParameter(name, constraint, defaultType, expression, parser.nodeFlags, pos, parser.startPos);
+  return createTypeParameter(name, constraint, defaultType, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseImportType(parser: ParserState, context: Context, isTypeOf: boolean, pos: number): ImportType {
@@ -5982,25 +5965,20 @@ function parseImportType(parser: ParserState, context: Context, isTypeOf: boolea
     parser,
     context | Context.InTypes | Context.AllowConditionalTypes
   );
-  return createImportType(isTypeOf, type, qualifier, typeArguments, parser.nodeFlags, pos, parser.startPos);
+  return createImportType(isTypeOf, type, qualifier, typeArguments, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTypeQueryOrImportType(parser: ParserState, context: Context): TypeQuery | ImportType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
 
   return parser.token === Token.ImportKeyword
     ? parseImportType(parser, context, /* isTypeOf */ true, pos)
-    : createTypeQuery(
-        parseEntityName(parser, context, /* allowKeywords */ true),
-        parser.nodeFlags,
-        pos,
-        parser.startPos
-      );
+    : createTypeQuery(parseEntityName(parser, context, /* allowKeywords */ true), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseParenthesizedType(parser: ParserState, context: Context): ParenthesizedType | FunctionType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
 
   nextToken(parser, context);
 
@@ -6044,11 +6022,11 @@ function parseParenthesizedType(parser: ParserState, context: Context): Parenthe
 
   consume(parser, context, Token.RightParen);
 
-  return createParenthesizedType(type, parser.nodeFlags, pos, parser.startPos);
+  return createParenthesizedType(type, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseFunctionTypeParams(parser: ParserState, context: Context): Parameters {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const parameters = [];
   let trailingComma = false;
   while (parser.token & (Token.IsEllipsis | Token.IsPatternStart | Token.IsIdentifier | Token.FutureReserved)) {
@@ -6064,30 +6042,30 @@ function parseFunctionTypeParams(parser: ParserState, context: Context): Paramet
     reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
   }
 
-  return createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.startPos);
+  return createParameters(parameters, trailingComma, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseAssertsTypePredicate(parser: ParserState, context: Context): TypePredicate {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const assertsModifier = consume(parser, context, Token.AssertsKeyword);
   const parameterName =
     parser.token === Token.ThisKeyword ? parseThisType(parser, context) : parseIdentifierReference(parser, context);
   const type = consumeOpt(parser, context, Token.IsKeyword)
     ? parseType(parser, context | Context.AllowConditionalTypes)
     : null;
-  return createTypePredicate(assertsModifier, parameterName, type, parser.nodeFlags, pos, parser.startPos);
+  return createTypePredicate(assertsModifier, parameterName, type, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseMappedTypeParameter(parser: ParserState, context: Context): TypeParameter {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const name = parseIdentifierName(parser, context);
   consume(parser, context, Token.InKeyword);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
-  return createTypeParameter(name, type, null, null, parser.nodeFlags, pos, parser.startPos);
+  return createTypeParameter(name, type, null, null, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTupleType(parser: ParserState, context: Context): TupleType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const elements = [];
   nextToken(parser, context);
   while (parser.token & 0b01100100000010000101000000000000) {
@@ -6096,20 +6074,19 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
     if (consumeOpt(parser, context, Token.Comma)) continue;
   }
   consume(parser, context, Token.RightBracket);
-  return createTupleType(elements, parser.nodeFlags, pos, parser.startPos);
+  return createTupleType(elements, parser.nodeFlags, pos, parser.curPos);
+}
+
+function isTupleElementName(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context); // skips identifier
+  if (parser.token === Token.QuestionMark) nextToken(parser, context);
+  return parser.token === Token.Colon;
 }
 
 function parseTupleElementNameOrTupleElementType(parser: ParserState, context: Context): NamedTupleMember | TypeNode {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
-  if (
-    parser.token & (Token.IsIdentifier | Token.FutureReserved) &&
-    lookAhead(parser, context, () => {
-      nextToken(parser, context); // skips identifier
-      if (parser.token === Token.QuestionMark) nextToken(parser, context);
-      return parser.token === Token.Colon;
-    })
-  ) {
+  if (parser.token & (Token.IsIdentifier | Token.FutureReserved) && lookAhead(parser, context, isTupleElementName)) {
     const name = parseIdentifierName(parser, context);
     const optional = consumeOpt(parser, context, Token.QuestionMark);
     consume(parser, context, Token.Colon);
@@ -6120,7 +6097,7 @@ function parseTupleElementNameOrTupleElementType(parser: ParserState, context: C
       parseTupleElementType(parser, context, ellipsis, pos),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
   return parseTupleElementType(parser, context, ellipsis, pos);
@@ -6134,109 +6111,109 @@ function parseTupleElementType(
 ): RestType | TypeNode {
   let type = parseType(parser, context | Context.AllowConditionalTypes);
   if (parser.token === Token.QuestionMark) type = parseOptionalType(parser, context, type);
-  return ellipsis ? createRestType(type, parser.nodeFlags, pos, parser.startPos) : type;
+  return ellipsis ? createRestType(type, parser.nodeFlags, pos, parser.curPos) : type;
 }
 
 function parseOptionalType(parser: ParserState, context: Context, type: TypeNode): OptionalType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createOptionalType(type, parser.nodeFlags, pos, parser.startPos);
+  return createOptionalType(type, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseThisType(parser: ParserState, context: Context): ThisType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createThisType(parser.nodeFlags, pos, parser.startPos);
+  return createThisType(parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseFalseType(parser: ParserState, context: Context): FalseType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = parser.tokenValue;
   const raw = parser.raw;
   nextToken(parser, context);
-  return createFalseType(value, raw, parser.nodeFlags, pos, parser.startPos);
+  return createFalseType(value, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseTrueType(parser: ParserState, context: Context): TrueType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = parser.tokenValue;
   const raw = parser.raw;
   nextToken(parser, context);
-  return createTrueType(value, raw, parser.nodeFlags, pos, parser.startPos);
+  return createTrueType(value, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseMinusType(parser: ParserState, context: Context): MinusType {
-  const pos = parser.startPos;
-  return createMinusType(parseUnaryExpression(parser, context), parser.nodeFlags, pos, parser.startPos);
+  const pos = parser.curPos;
+  return createMinusType(parseUnaryExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseStringType(parser: ParserState, context: Context): StringType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = parser.tokenValue;
   const raw = parser.raw;
   nextToken(parser, context);
-  return createStringType(value, raw, parser.nodeFlags, pos, parser.startPos);
+  return createStringType(value, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseNumberType(parser: ParserState, context: Context): NumberType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = parser.tokenValue;
   const raw = parser.raw;
   nextToken(parser, context);
-  return createNumberType(value, raw, parser.nodeFlags, pos, parser.startPos);
+  return createNumberType(value, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBigIntType(parser: ParserState, context: Context): BigIntType {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const value = parser.tokenValue;
   const raw = parser.raw;
   nextToken(parser, context);
-  return createBigIntType(value, raw, parser.nodeFlags, pos, parser.startPos);
+  return createBigIntType(value, raw, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseVoidKeyword(parser: ParserState, context: Context): KeywordTypeNode {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createKeywordTypeNode(NodeKind.VoidKeyword, pos, parser.startPos);
+  return createKeywordTypeNode(NodeKind.VoidKeyword, pos, parser.curPos);
 }
 
 function parseNullKeyword(parser: ParserState, context: Context): KeywordTypeNode {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   nextToken(parser, context);
-  return createKeywordTypeNode(NodeKind.NullKeyword, pos, parser.startPos);
+  return createKeywordTypeNode(NodeKind.NullKeyword, pos, parser.curPos);
 }
 
 function parseKeywordAndNoDot(parser: ParserState, context: Context): KeywordTypeNode | undefined {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const token = parser.token;
   nextToken(parser, context);
   if (parser.token === Token.Period) return undefined;
   switch (token) {
     case Token.AnyKeyword:
-      return createKeywordTypeNode(NodeKind.AnyKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.AnyKeyword, pos, parser.curPos);
     case Token.UnknownKeyword:
-      return createKeywordTypeNode(NodeKind.UnknownKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.UnknownKeyword, pos, parser.curPos);
     case Token.ObjectKeyword:
-      return createKeywordTypeNode(NodeKind.ObjectKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.ObjectKeyword, pos, parser.curPos);
     case Token.NumberKeyword:
-      return createKeywordTypeNode(NodeKind.NumberKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.NumberKeyword, pos, parser.curPos);
     case Token.BigIntKeyword:
-      return createKeywordTypeNode(NodeKind.BigIntKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.BigIntKeyword, pos, parser.curPos);
     case Token.SymbolKeyword:
-      return createKeywordTypeNode(NodeKind.SymbolKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.SymbolKeyword, pos, parser.curPos);
     case Token.BooleanKeyword:
-      return createKeywordTypeNode(NodeKind.BooleanKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.BooleanKeyword, pos, parser.curPos);
     case Token.UndefinedKeyword:
-      return createKeywordTypeNode(NodeKind.UndefinedKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.UndefinedKeyword, pos, parser.curPos);
     case Token.NeverKeyword:
-      return createKeywordTypeNode(NodeKind.NeverKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.NeverKeyword, pos, parser.curPos);
     default:
-      return createKeywordTypeNode(NodeKind.StringKeyword, pos, parser.startPos);
+      return createKeywordTypeNode(NodeKind.StringKeyword, pos, parser.curPos);
   }
 }
 
 function parseTypeReference(parser: ParserState, context: Context): TypeReference {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   return createTypeReference(
     parseEntityName(parser, context, /* allowKeywords */ true, DiagnosticCode.Type_expected),
     parseTypeArgumentsOfTypeReference(parser, context | Context.InTypes),
@@ -6252,7 +6229,7 @@ function parseEntityName(
   allowKeywords: boolean,
   diagnosticMessage?: DiagnosticCode
 ): QualifiedName | IdentifierName | IdentifierReference {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   let entity: IdentifierReference | IdentifierName | QualifiedName = allowKeywords
     ? parseIdentifierName(parser, context, diagnosticMessage)
     : parseIdentifierReference(parser, context, diagnosticMessage);
@@ -6263,7 +6240,7 @@ function parseEntityName(
       parsePropertyOrPrivatePropertyName(parser, context),
       parser.nodeFlags,
       pos,
-      parser.startPos
+      parser.curPos
     );
   }
   return entity;
@@ -6271,7 +6248,7 @@ function parseEntityName(
 
 function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context): TypeArguments | null {
   if ((parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 && consumeOpt(parser, context, Token.LessThan)) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const typeArguments = [];
     while (parser.token & 0b01100000000010000101000000000000) {
       typeArguments.push(getCurrentNode(parser, context, parseType));
@@ -6279,7 +6256,7 @@ function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context
       if (consumeOpt(parser, context, Token.Comma)) continue;
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
     }
-    const result = createTypeArguments(typeArguments, parser.nodeFlags, pos, parser.startPos);
+    const result = createTypeArguments(typeArguments, parser.nodeFlags, pos, parser.curPos);
     consume(parser, context, Token.GreaterThan);
     return result;
   }
@@ -6296,39 +6273,39 @@ function parseTypePredicatePrefix(parser: ParserState, context: Context): Identi
 }
 
 function parseTypeOrTypePredicate(parser: ParserState, context: Context): TypeNode | TypePredicate {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const typePredicateVariable =
     parser.token & 0b00000000000000000111000000000000 && tryParse(parser, context, parseTypePredicatePrefix);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
   return typePredicateVariable
-    ? createTypePredicate(false, typePredicateVariable, type, parser.nodeFlags, pos, parser.startPos)
+    ? createTypePredicate(false, typePredicateVariable, type, parser.nodeFlags, pos, parser.curPos)
     : type;
 }
 
 function parseTypeAssertion(parser: ParserState, context: Context): TypeAssertion {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   consume(parser, context, Token.LessThan);
   const type = parseType(parser, context | Context.AllowConditionalTypes);
   consume(parser, context | Context.AllowRegExp, Token.GreaterThan);
   const expression = parseUnaryExpression(parser, context);
-  return createTypeAssertion(type, expression, parser.nodeFlags, pos, parser.startPos);
+  return createTypeAssertion(type, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseDecorators(parser: ParserState, context: Context): DecoratorList | null {
   if (consumeOpt(parser, context, Token.Decorator)) {
-    const pos = parser.startPos;
+    const pos = parser.curPos;
     const decorators = [];
     while (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
       decorators.push(parseDecoratorExpression(parser, context));
       if (!consumeOpt(parser, context, Token.Decorator)) break;
     }
-    return createDecoratorList(decorators, parser.nodeFlags, pos, parser.startPos);
+    return createDecoratorList(decorators, parser.nodeFlags, pos, parser.curPos);
   }
   return null;
 }
 
 function parseDecoratorExpression(parser: ParserState, context: Context): Decorator {
-  const pos = parser.startPos;
+  const pos = parser.curPos;
   const expression = parseLeftHandSideExpression(parser, context, /* allowCalls */ true);
-  return createDecorator(expression, parser.nodeFlags, pos, parser.startPos);
+  return createDecorator(expression, parser.nodeFlags, pos, parser.curPos);
 }

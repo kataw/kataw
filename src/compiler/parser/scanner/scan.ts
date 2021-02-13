@@ -144,7 +144,7 @@ export const firstCharKinds = [
 
 export function nextToken(parser: ParserState, context: Context): void {
   parser.nodeFlags = context & Context.Strict ? NodeFlags.Strict : NodeFlags.None;
-  parser.startPos = parser.pos;
+  parser.curPos = parser.pos;
   parser.token = scan(parser, context);
 }
 
@@ -535,14 +535,14 @@ export function scan(parser: ParserState, context: Context): Token {
         const cooked = scanIdentifierEscape(parser);
         if (cooked > 0) {
           parser.tokenValue = fromCodePoint(cooked) + scanIdentifierParts(parser, source);
-          parser.raw = source.slice(parser.startPos, parser.pos);
+          parser.raw = source.slice(parser.curPos, parser.pos);
           const keyword = descKeywordTable[parser.tokenValue];
           if (keyword !== undefined) return keyword;
           return Token.Identifier;
         }
         if (source.charCodeAt(parser.pos) === Char.Backslash) parser.pos++;
         parser.tokenValue = fromCodePoint(cooked);
-        parser.raw = source.slice(parser.startPos, parser.pos);
+        parser.raw = source.slice(parser.curPos, parser.pos);
         return Token.Unknown;
 
       default:
@@ -567,7 +567,7 @@ export function scan(parser: ParserState, context: Context): Token {
           }
 
           parser.tokenValue = scanIdentifierParts(parser, source);
-          parser.raw = source.slice(parser.startPos, parser.pos);
+          parser.raw = source.slice(parser.curPos, parser.pos);
           return Token.Identifier;
         }
 

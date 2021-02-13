@@ -61,15 +61,14 @@ function speculationHelper(
   callback: (parser: ParserState, context: Context) => any,
   alwaysResetState: boolean
 ): any {
-  const { pos, startPos, tokenPos, raw, token, tokenValue, nodeFlags } = parser;
-  const diagnostics = parser.diagnostics;
+  const { pos, curPos, tokenPos, raw, token, tokenValue, nodeFlags } = parser;
   const result = callback(parser, context);
 
   // If our callback returned something 'falsy' or we're just looking ahead,
   // then unconditionally restore us to where we were.
   if (!result || alwaysResetState) {
     parser.pos = pos;
-    parser.startPos = startPos;
+    parser.curPos = curPos;
     parser.tokenPos = tokenPos;
     parser.token = token;
     parser.tokenValue = tokenValue;

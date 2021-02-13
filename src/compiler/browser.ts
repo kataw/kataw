@@ -27,7 +27,7 @@ export function createParser(source: string, pos: number, isModule: boolean, nod
     source,
     // Current position (end position of text of current token)
     pos,
-    startPos: pos,
+    curPos: pos,
     tokenPos: pos,
     // end of text
     end: source.length,

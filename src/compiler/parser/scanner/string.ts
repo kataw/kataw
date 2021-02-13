@@ -190,7 +190,7 @@ export function scanString(parser: ParserState, quote: number, source: string): 
   );
 
   parser.tokenValue = result += source.substring(start, parser.pos);
-  parser.raw = source.slice(parser.startPos, parser.pos);
+  parser.raw = source.slice(parser.curPos, parser.pos);
   return Token.StringLiteral;
 }
 

@@ -18,7 +18,7 @@ export interface Options {
 export interface ParserState {
   source: string;
   pos: number;
-  startPos: number;
+  curPos: number;
   tokenPos: number;
   end: number;
   token: Token;

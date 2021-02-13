@@ -10,13 +10,13 @@ import { DiagnosticCode } from '../../diagnostics/diagnosticMessages.generated';
 import { AsciiCharFlags, AsciiCharTypes } from './asciiChar';
 
 export function reScanJsxToken(parser: ParserState): Token {
-  parser.pos = parser.tokenPos = parser.startPos;
+  parser.pos = parser.tokenPos = parser.curPos;
   parser.token = scanJsxToken(parser);
   return parser.token;
 }
 
 export function scanJsxToken(parser: ParserState): Token {
-  parser.startPos = parser.tokenPos = parser.pos;
+  parser.curPos = parser.tokenPos = parser.pos;
 
   if (parser.pos >= parser.end) return Token.EndOfSource;
 
@@ -66,7 +66,7 @@ export function scanJsxToken(parser: ParserState): Token {
     parser.pos++;
   }
 
-  parser.tokenValue = parser.source.slice(parser.startPos, lastNonWhitespace === -1 ? parser.pos : lastNonWhitespace);
+  parser.tokenValue = parser.source.slice(parser.curPos, lastNonWhitespace === -1 ? parser.pos : lastNonWhitespace);
 
   return Token.JsxText;
 }
@@ -136,7 +136,7 @@ export function scanJsxIdentifier(parser: ParserState): void {
 }
 
 export function scanJsxAttributeValue(parser: ParserState, context: Context): Token {
-  parser.startPos = parser.pos;
+  parser.curPos = parser.pos;
   switch (parser.source.charCodeAt(parser.pos)) {
     case Char.DoubleQuote:
     case Char.SingleQuote:
