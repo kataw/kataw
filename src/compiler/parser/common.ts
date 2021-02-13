@@ -41,7 +41,8 @@ export const enum PropertyKind {
   Readonly = 1 << 5,
   Constructor = 1 << 6,
   Declare = 1 << 7,
-  Static = 1 << 8
+  Static = 1 << 8,
+  Optional = 1 << 9
 }
 
 export function consumeOpt(parser: ParserState, context: Context, t: Token): boolean {

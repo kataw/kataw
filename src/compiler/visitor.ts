@@ -269,6 +269,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       (kind & NodeKind.IsGenerator) !== 0,
       (kind & NodeKind.IsAsync) !== 0,
       node.isReadOnly,
+      node.optional,
       visitNode(node.propertySetParameterList, visitor),
       visitNode(node.uniqueFormalParameters, visitor),
       visitNode(node.name, visitor),
@@ -342,7 +343,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.type, visitor),
         visitNode(node.initializer, visitor),
         visitNode(node.decorators, visitor),
-        visitNode(node.accessModifier, visitor)
+        visitNode(node.accessModifier, visitor),
+        node.isReadOnly
       );
     case NodeKind.SingleNameBinding:
       return updateSingleNameBinding(
@@ -814,7 +816,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.type, visitor),
         node.optional,
         visitNode(node.initializer, visitor),
-        visitNode(node.accessModifier, visitor)
+        visitNode(node.accessModifier, visitor),
+        node.isReadOnly
       );
 
     case NodeKind.TypeArguments:

@@ -1280,6 +1280,7 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
               /* initializer */ null,
               /* decorators */ null,
               /* accessModifier */ null,
+              /* isReadOnly */ false,
               NodeFlags.None,
               parser.pos,
               parser.startPos
@@ -1314,6 +1315,7 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
               null,
               null,
               null,
+              /* isReadOnly */ false,
               NodeFlags.None,
               parser.startPos,
               parser.startPos
@@ -1724,6 +1726,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 parseInitializer(parser, context),
                 null,
                 null,
+                /* isReadOnly */ false,
                 NodeFlags.None,
                 innerPos,
                 parser.startPos
@@ -1742,6 +1745,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               parseInitializer(parser, context),
               null,
               null,
+              /* isReadOnly */ false,
               parser.nodeFlags,
               innerPos,
               parser.startPos
@@ -1785,6 +1789,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                       /* initializer */ null,
                       /* decorators */ null,
                       /* accessModifier */ null,
+                      /* isReadOnly */ false,
                       NodeFlags.None,
                       parser.startPos,
                       parser.startPos
@@ -1886,6 +1891,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   parseInitializer(parser, context),
                   null,
                   null as any,
+                  /* isReadOnly */ false,
                   NodeFlags.None,
                   innerPos,
                   parser.startPos
@@ -1902,6 +1908,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 parseInitializer(parser, context),
                 null,
                 null,
+                /* isReadOnly */ false,
                 NodeFlags.None,
                 innerPos,
                 parser.startPos
@@ -1921,6 +1928,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               parseInitializer(parser, context),
               null,
               null,
+              /* isReadOnly */ false,
               parser.nodeFlags,
               innerPos,
               parser.startPos
@@ -1983,6 +1991,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                   null,
                   null,
                   null,
+                  /* isReadOnly */ false,
                   NodeFlags.None,
                   parser.startPos,
                   parser.startPos
@@ -2948,6 +2957,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               parseInitializer(parser, context),
               null,
               null,
+              /* isReadOnly */ false,
               NodeFlags.None,
               pos,
               parser.startPos
@@ -2965,6 +2975,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parseInitializer(parser, context),
             null,
             null as any,
+            /* isReadOnly */ false,
             parser.nodeFlags,
             pos,
             parser.startPos
@@ -3009,6 +3020,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     /* initializer */ null,
                     /* decorators */ null,
                     /* accessModifier */ null,
+                    /* isReadOnly */ false,
                     NodeFlags.None,
                     pos,
                     parser.startPos
@@ -3066,6 +3078,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 null,
                 null,
                 null,
+                /* isReadOnly */ false,
                 NodeFlags.None,
                 pos,
                 parser.startPos
@@ -3127,6 +3140,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 null,
                 null,
                 null,
+                /* isReadOnly */ false,
                 NodeFlags.None,
                 pos,
                 parser.startPos
@@ -3152,6 +3166,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             null,
             null,
             null,
+            /* isReadOnly */ false,
             NodeFlags.None,
             pos,
             parser.startPos
@@ -3221,6 +3236,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         parseInitializer(parser, context),
                         null,
                         null,
+                        /* isReadOnly */ false,
                         NodeFlags.None,
                         innerPos,
                         parser.startPos
@@ -3236,6 +3252,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                       parseInitializer(parser, context),
                       null,
                       null,
+                      /* isReadOnly */ false,
                       NodeFlags.None,
                       innerPos,
                       parser.startPos
@@ -3253,6 +3270,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     parseInitializer(parser, context),
                     null,
                     null,
+                    /* isReadOnly */ false,
                     parser.nodeFlags,
                     innerPos,
                     parser.startPos
@@ -3296,6 +3314,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                             /* initializer */ null,
                             /* decorators */ null,
                             /* accessModifier */ null,
+                            /* isReadOnly */ false,
                             NodeFlags.None,
                             pos,
                             parser.startPos
@@ -3354,6 +3373,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                         null,
                         null,
                         null,
+                        /* isReadOnly */ false,
                         NodeFlags.None,
                         pos,
                         parser.startPos
@@ -3468,6 +3488,7 @@ function convertToArrowParams(parser: ParserState, context: Context, expressions
             null,
             null,
             null,
+            /* isReadOnly */ false,
             NodeFlags.None,
             pos,
             parser.startPos
@@ -3777,9 +3798,24 @@ function parseFormalParameterList(parser: ParserState, context: Context): Formal
 function parseFormalParameter(parser: ParserState, context: Context): FormalParameter {
   const pos = parser.startPos;
   const decorators = parseDecorators(parser, context);
+  const accessModifier = parseAccessModifier(parser, context, Token.RightParen);
+  const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
+
+  let isReadOnly = false;
+
+  // Check if we have something like "function x ( readonly xxx". The 'readonly' modifier is the only
+  // modifier we care about here. Others like "abstract" and "declare" are invalid, so we parse them
+  // out as normal and report a missing "," instead. This so we can handle this correctly in the grammar
+  // checker and the linter.
+  if (parser.token === Token.ReadonlyKeyword) {
+    if (tryParse(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
+      isReadOnly = true;
+    }
+  }
 
   if (parser.token === Token.ThisKeyword) {
     const { tokenValue, raw, nodeFlags } = parser;
+    if (accessModifier) reportErrorDiagnostic(parser, 0, DiagnosticCode.Identifier_expected);
     nextToken(parser, context);
     return createFormalParameter(
       false,
@@ -3788,15 +3824,13 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
       parseTypeAnnotation(parser, context),
       null,
       decorators,
-      null,
+      accessModifier,
+      isReadOnly,
       parser.nodeFlags,
       pos,
       parser.startPos
     );
   }
-
-  const accessModifier = parseAccessModifier(parser, context, Token.RightParen);
-  const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
 
   // FormalParameter [Yield,Await]:
   //      BindingElement[?Yield,?Await]
@@ -3814,6 +3848,7 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
     parseInitializer(parser, context),
     decorators,
     accessModifier,
+    isReadOnly,
     parser.nodeFlags,
     pos,
     parser.startPos
@@ -5074,8 +5109,31 @@ function parseFieldDefinition(
   decorators: DecoratorList | null,
   key: Expression | PrivateIdentifier,
   pos: number
-): FieldDefinition {
-  const optional = consumeOpt(parser, context, Token.QuestionMark);
+): FieldDefinition | ClassElement {
+  let optional = false;
+  if (consumeOpt(parser, context, Token.QuestionMark)) {
+    // This has to be an optional method "{ async?(". We check it here so we can avoid having to do
+    // the lookahead for this by just trying to parse out '?' and then seeing if it is followed
+    // by '('
+    if (parser.token === Token.LeftParen) {
+      return createClassElement(
+        isStatic,
+        parseMethodDefinition(
+          parser,
+          context,
+          key as any,
+          isStatic,
+          kind | PropertyKind.Optional,
+          decorators,
+          accessModifier
+        ),
+        parser.nodeFlags,
+        pos,
+        parser.startPos
+      );
+    }
+    optional = true;
+  }
   const exclamation = consumeOpt(parser, context, Token.Negate);
   const type = parseTypeAnnotation(parser, context);
   const initializer = parseInitializer(parser, context);
@@ -5784,6 +5842,14 @@ function parseParameterList(parser: ParserState, context: Context): Parameters {
 function parseParameter(parser: ParserState, context: Context): ParameterDeclaration {
   const pos = parser.startPos;
   const modifier = parseAccessModifier(parser, context, Token.RightParen);
+  let isReadOnly = false;
+
+  if (parser.token === Token.ReadonlyKeyword) {
+    if (tryParse(parser, context, nextTokenIsIdentifierOrPatternOnSameLine)) {
+      isReadOnly = true;
+    }
+  }
+
   if (parser.token === Token.ThisKeyword) {
     const { tokenValue, raw, nodeFlags } = parser;
     nextToken(parser, context);
@@ -5794,6 +5860,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
       parseTypeAnnotation(parser, context),
       null,
       modifier,
+      isReadOnly,
       parser.nodeFlags,
       pos,
       parser.startPos
@@ -5807,6 +5874,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
     parseTypeAnnotation(parser, context),
     parseInitializer(parser, context),
     modifier,
+    isReadOnly,
     parser.nodeFlags,
     pos,
     parser.startPos

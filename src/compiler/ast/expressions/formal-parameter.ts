@@ -20,6 +20,7 @@ export interface FormalParameter extends Node {
   readonly initializer: AssignmentExpression | null;
   readonly decorators: DecoratorList | null; // Only for error recovery
   readonly accessModifier: AccessModifier | null;
+  readonly isReadOnly: boolean;
 }
 
 export function createFormalParameter(
@@ -30,6 +31,7 @@ export function createFormalParameter(
   initializer: AssignmentExpression | null,
   decorators: DecoratorList | null,
   accessModifier: AccessModifier | null,
+  isReadOnly: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -43,6 +45,7 @@ export function createFormalParameter(
     initializer,
     decorators,
     accessModifier,
+    isReadOnly,
     flags,
     intersects: false,
     transformFlags:
@@ -64,7 +67,8 @@ export function updateFormalParameter(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   decorators: DecoratorList,
-  accessModifier: AccessModifier | null
+  accessModifier: AccessModifier | null,
+  isReadOnly: boolean
 ): FormalParameter {
   return node.binding !== binding ||
     node.ellipsis !== ellipsis ||
@@ -72,7 +76,8 @@ export function updateFormalParameter(
     node.initializer !== initializer ||
     node.type !== type ||
     node.decorators !== decorators ||
-    node.accessModifier !== accessModifier
+    node.accessModifier !== accessModifier ||
+    node.isReadOnly !== isReadOnly
     ? updateNode(
         createFormalParameter(
           ellipsis,
@@ -82,6 +87,7 @@ export function updateFormalParameter(
           initializer,
           decorators,
           accessModifier,
+          isReadOnly,
           node.flags,
           node.start,
           node.end

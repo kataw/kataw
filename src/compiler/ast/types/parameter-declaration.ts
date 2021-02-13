@@ -18,6 +18,7 @@ export interface ParameterDeclaration extends Node {
   readonly type: TypeNode | null;
   readonly initializer: AssignmentExpression | null;
   readonly accessModifier: AccessModifier | null;
+  readonly isReadOnly: boolean;
 }
 
 export function createParameterDeclaration(
@@ -27,6 +28,7 @@ export function createParameterDeclaration(
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
   accessModifier: AccessModifier | null,
+  isReadOnly: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -39,6 +41,7 @@ export function createParameterDeclaration(
     type,
     initializer,
     accessModifier,
+    isReadOnly,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None),
@@ -56,7 +59,8 @@ export function updateParameterDeclaration(
   optional: boolean,
   type: TypeNode | null,
   initializer: AssignmentExpression | null,
-  accessModifier: AccessModifier | null
+  accessModifier: AccessModifier | null,
+  isReadOnly: boolean
 ): ParameterDeclaration {
   return node.ellipsis !== ellipsis ||
     node.binding !== binding ||
@@ -72,6 +76,7 @@ export function updateParameterDeclaration(
           type,
           initializer,
           accessModifier,
+          isReadOnly,
           node.flags,
           node.start,
           node.end
