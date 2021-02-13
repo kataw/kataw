@@ -40,8 +40,10 @@ interface Script <: Node {
  filename: string;
  scriptBody: ScriptBody;
  jsx: boolean;
+ printable: boolean;
  diagnostics: Diagnostic[];
  incremental: boolean;
+ parent: Node | null;
 }
 ```
 
@@ -56,8 +58,10 @@ interface Module <: Node {
  filename: string;
  scriptBody: ModuleBody;
  jsx: boolean;
+ printable: boolean;
  diagnostics: Diagnostic[];
  incremental: boolean;
+ parent: Node | null;
 }
 ```
 

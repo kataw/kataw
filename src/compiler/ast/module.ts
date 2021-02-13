@@ -12,6 +12,7 @@ export interface Module extends Node {
   readonly filename: string;
   readonly moduleBody: ModuleBody;
   readonly jsx: boolean;
+  readonly printable: boolean;
   readonly diagnostics: Diagnostic[];
   incremental: boolean;
 }
@@ -29,6 +30,7 @@ export function createModule(
     filename,
     moduleBody,
     jsx,
+    printable: true,
     diagnostics,
     parent: null,
     emitNode: null,

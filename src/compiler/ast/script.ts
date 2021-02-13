@@ -12,6 +12,7 @@ export interface Script extends Node {
   readonly filename: string;
   readonly scriptBody: ScriptBody;
   readonly jsx: boolean;
+  readonly printable: boolean;
   readonly diagnostics: Diagnostic[];
   incremental: boolean;
 }
@@ -29,6 +30,7 @@ export function createScript(
     filename,
     scriptBody,
     jsx,
+    printable: true,
     diagnostics,
     parent: null,
     emitNode: null,
