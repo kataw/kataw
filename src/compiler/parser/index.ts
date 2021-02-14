@@ -377,6 +377,7 @@ function canFollowAbstractOrDeclareKeyword(token: Token): boolean {
     case Token.InterfaceKeyword: // declare interface x {};
     case Token.TypeKeyword:      // declare type x = y;
     case Token.EnumKeyword:      // declare enum x {};
+    case Token.NamespaceKeyword: // declare namespace x {};
       return true;
     default:
       return false;
@@ -557,18 +558,19 @@ function parseNameSpaceDeclarationRest(parser: ParserState, context: Context, no
 function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBlock {
   if (consume(parser, context, Token.LeftBrace)) {
     const curPos = parser.curPos;
+    const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
     let statements = [];
     while (parser.token & Constants.SourceElements) {
       statements.push(
         getCurrentNode(parser, context, context & Context.Module ? parseModuleItemList : parseStatementListItem)
       );
     }
-    const result = createNamespaceBlock(statements, parser.nodeFlags, curPos, parser.curPos);
+    const result = createNamespaceBlock(statements, multiline, parser.nodeFlags, curPos, parser.curPos);
 
     consume(parser, context, Token.RightBrace);
     return result;
   }
-  return createNamespaceBlock([], parser.nodeFlags, parser.curPos, parser.curPos);
+  return createNamespaceBlock([], /* multiline */ false, parser.nodeFlags, parser.curPos, parser.curPos);
 }
 
 function parseTypeAliasDeclaration(
@@ -4566,6 +4568,7 @@ function parseExportDeclaration(
     case Token.InterfaceKeyword:
     case Token.EnumKeyword:
     case Token.AbstractKeyword:
+    case Token.NamespaceKeyword:
     case Token.DeclareKeyword:
       const node = parseStatementListItem(parser, context) as any;
       if (node.expression) {

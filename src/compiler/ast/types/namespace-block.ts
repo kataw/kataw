@@ -8,10 +8,12 @@ import { Statement } from '../statements';
 
 export interface NamespaceBlock extends Node {
   readonly statements: Statement[];
+  readonly multiline: boolean;
 }
 
 export function createNamespaceBlock(
   statements: Statement[],
+  multiline: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -19,6 +21,7 @@ export function createNamespaceBlock(
   return {
     kind: NodeKind.NamespaceBlock,
     statements,
+    multiline,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -31,6 +34,6 @@ export function createNamespaceBlock(
 
 export function updateNamespaceBlock(node: NamespaceBlock, statements: Statement[]): NamespaceBlock {
   return node.statements !== statements
-    ? updateNode(createNamespaceBlock(statements, node.flags, node.start, node.end), node)
+    ? updateNode(createNamespaceBlock(statements, node.multiline, node.flags, node.start, node.end), node)
     : node;
 }
