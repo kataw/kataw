@@ -23,23 +23,19 @@ export function createPropertySignature(
   isOptional: boolean,
   accessModifier: AccessModifier | null,
   type: TypeNode | null,
-  propertyKind: PropertyKind,
+  isReadOnly: boolean,
   initializer: Expression | null,
   flags: NodeFlags,
   start: number,
   end: number
 ): PropertySignature {
-  if (propertyKind & PropertyKind.Declare) flags | NodeFlags.Declared;
-
-  if (propertyKind & PropertyKind.Abstract) flags | NodeFlags.Abstract;
-
   return {
     kind: NodeKind.PropertySignature,
     name,
     isOptional,
     accessModifier,
     type,
-    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
+    isReadOnly,
     initializer,
     flags,
     intersects: false,
@@ -63,6 +59,7 @@ export function updatePropertySignature(
   return node.name !== name ||
     node.isOptional !== isOptional ||
     node.type !== type ||
+    node.isReadOnly !== isReadOnly ||
     node.accessModifier !== accessModifier ||
     node.initializer !== initializer
     ? updateNode(
@@ -71,7 +68,7 @@ export function updatePropertySignature(
           isOptional,
           accessModifier,
           type,
-          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
+          isReadOnly,
           initializer,
           node.flags,
           node.start,

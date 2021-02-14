@@ -12,7 +12,7 @@ import { updateArrayBindingPattern } from './ast/expressions/array-binding-patte
 import { updateArrayLiteral } from './ast/expressions/array-literal';
 import { updateArrowFunction } from './ast/expressions/arrow-function';
 import { updateArrowParameters } from './ast/expressions/arrow-parameters';
-import { updateAsExpression } from './ast/expressions/as-epr';
+import { updateAsExpression } from './ast/expressions/as-expr';
 import { updateAssignmentExpression } from './ast/expressions/assignment-expr';
 import { updateAwaitExpression } from './ast/expressions/await-expr';
 import { updateBindingElement } from './ast/expressions/binding-element';
@@ -648,6 +648,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.ConstructorType:
       return updateConstructorType(
         node,
+        node.isReadOnly,
         visitNode(node.accessModifier, visitor),
         visitNode(node.typeParameters, visitor),
         visitNode(node.parameters, visitor),
@@ -723,6 +724,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.CallSignature:
       return updateCallSignature(
         node,
+        node.isReadOnly,
         visitNode(node.accessModifier, visitor),
         visitNode(node.typeParameters, visitor),
         visitNode(node.parameters, visitor),
@@ -732,6 +734,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.ConstructSignature:
       return updateConstructSignature(
         node,
+        node.isReadOnly,
         visitNode(node.accessModifier, visitor),
         visitNode(node.typeParameters, visitor),
         visitNode(node.parameters, visitor),

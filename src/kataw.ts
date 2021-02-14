@@ -45,7 +45,7 @@ export { createIntersectionType, updateIntersectionType } from './compiler/ast/t
 export { createTypeOperator, updateTypeOperator } from './compiler/ast/types/type-operator';
 export { createIndexedAccessType, updateIndexedAccessType } from './compiler/ast/types/indexed-access-type';
 export { createArrayType, updateArrayType } from './compiler/ast/types/array-type';
-export { createAsExpression, updateAsExpression } from './compiler/ast/expressions/as-epr';
+export { createAsExpression, updateAsExpression } from './compiler/ast/expressions/as-expr';
 export { createFormalParameter, updateFormalParameter } from './compiler/ast/expressions/formal-parameter';
 export { createNonNullExpression, updateNonNullExpression } from './compiler/ast/expressions/non-null-expr';
 export { createPrivateIdentifier } from './compiler/ast/expressions/private-identifier';

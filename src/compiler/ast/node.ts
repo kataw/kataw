@@ -360,7 +360,7 @@ export const enum NodeKind {
   FormalParameterList = 90,
   FunctionBody = 91,
   FunctionDeclaration = 92 | IsFunctionDeclaration | IsBlockScope,
-  FunctionExpression = 93 | IsExpression | IsBlockScope,
+  FunctionExpression = 93 | IsExpression | IsBlockScope | IsFunctionExpression,
   FunctionStatementList = 94,
   FunctionType = 95,
   GeneratorDeclaration = 96 | IsFunctionDeclaration | IsGenerator | IsBlockScope,

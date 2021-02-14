@@ -24,7 +24,7 @@ export interface MethodSignature extends Node {
 export function createMethodSignature(
   name: PropertyName,
   isOptional: boolean,
-  propertyKind: PropertyKind,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -33,14 +33,10 @@ export function createMethodSignature(
   start: number,
   end: number
 ): MethodSignature {
-  if (propertyKind & PropertyKind.Declare) flags | NodeFlags.Declared;
-
-  if (propertyKind & PropertyKind.Abstract) flags | NodeFlags.Abstract;
-
   return {
     kind: NodeKind.MethodSignature,
     name,
-    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
+    isReadOnly,
     isOptional,
     accessModifier,
     typeParameters,
@@ -68,6 +64,8 @@ export function updateMethodSignature(
 ): MethodSignature {
   return node.name !== name ||
     node.typeParameters !== typeParameters ||
+    node.isOptional !== isOptional ||
+    node.isReadOnly !== isReadOnly ||
     node.parameters !== parameters ||
     node.returnType !== returnType ||
     node.accessModifier !== accessModifier
@@ -75,7 +73,7 @@ export function updateMethodSignature(
         createMethodSignature(
           name,
           isOptional,
-          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
+          isReadOnly,
           accessModifier,
           typeParameters,
           parameters,

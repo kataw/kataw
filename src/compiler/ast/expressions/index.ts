@@ -46,7 +46,7 @@ import { NewTarget } from './new-target';
 import { ImportCall } from './import-call';
 import { ImportMeta } from './import-meta';
 import { PrivateIdentifier } from './private-identifier';
-import { AsExpression } from './as-epr';
+import { AsExpression } from './as-expr';
 import { NonNullExpression } from './non-null-expr';
 import { OmittedExpression } from './omitted-expr';
 import { FormalParameter } from './formal-parameter';

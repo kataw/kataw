@@ -12,11 +12,13 @@ import { AccessModifier } from './access-modifier';
 export interface ConstructSignature extends Node {
   readonly typeParameters: TypeParameters | null;
   readonly accessModifier: AccessModifier | null;
+  readonly isReadOnly: boolean;
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
 }
 
 export function createConstructSignature(
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -27,6 +29,7 @@ export function createConstructSignature(
 ): ConstructSignature {
   return {
     kind: NodeKind.ConstructSignature,
+    isReadOnly,
     accessModifier,
     typeParameters,
     parameters,
@@ -42,18 +45,21 @@ export function createConstructSignature(
 }
 
 export function updateConstructSignature(
-  accessModifier: AccessModifier | null,
   node: ConstructSignature,
+  isReadOnly: boolean,
+  accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): ConstructSignature {
-  return node.accessModifier !== accessModifier ||
+  return node.isReadOnly !== isReadOnly ||
+    node.accessModifier !== accessModifier ||
     node.typeParameters !== typeParameters ||
     node.parameters !== parameters ||
     node.returnType !== returnType
     ? updateNode(
         createConstructSignature(
+          isReadOnly,
           accessModifier,
           typeParameters,
           parameters,

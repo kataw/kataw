@@ -10,6 +10,7 @@ import { AccessModifier } from './access-modifier';
  */
 
 export interface CallSignature extends Node {
+  readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
@@ -17,6 +18,7 @@ export interface CallSignature extends Node {
 }
 
 export function createCallSignature(
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -27,6 +29,7 @@ export function createCallSignature(
 ): CallSignature {
   return {
     kind: NodeKind.CallSignature,
+    isReadOnly,
     accessModifier,
     typeParameters,
     parameters,
@@ -43,17 +46,28 @@ export function createCallSignature(
 
 export function updateCallSignature(
   node: CallSignature,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
   returnType: TypeNode | null
 ): CallSignature {
-  return node.accessModifier !== accessModifier ||
+  return node.isReadOnly !== isReadOnly ||
+    node.accessModifier !== accessModifier ||
     node.typeParameters !== typeParameters ||
     node.parameters !== parameters ||
     node.returnType !== returnType
     ? updateNode(
-        createCallSignature(accessModifier, typeParameters, parameters, returnType, node.flags, node.start, node.end),
+        createCallSignature(
+          isReadOnly,
+          accessModifier,
+          typeParameters,
+          parameters,
+          returnType,
+          node.flags,
+          node.start,
+          node.end
+        ),
         node
       )
     : node;

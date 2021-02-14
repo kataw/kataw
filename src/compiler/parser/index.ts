@@ -57,7 +57,7 @@ import { createIntersectionType, IntersectionType } from '../ast/types/intersect
 import { createTypeOperator, TypeOperator, TypeOperators } from '../ast/types/type-operator';
 import { createIndexedAccessType, IndexedAccessType } from '../ast/types/indexed-access-type';
 import { createArrayType, ArrayType } from '../ast/types/array-type';
-import { createAsExpression, AsExpression } from '../ast/expressions/as-epr';
+import { createAsExpression, AsExpression } from '../ast/expressions/as-expr';
 import { createFormalParameter, FormalParameter } from '../ast/expressions/formal-parameter';
 import { createNonNullExpression, NonNullExpression } from '../ast/expressions/non-null-expr';
 import { createDummyIdentifier, DummyIdentifier } from '../ast/internal/dummy-identifier';
@@ -5028,7 +5028,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
       // If we have "[..." or "[]" then we parse this as an index signature for error recovery reasons
       if (parser.token & Token.IsEllipsis || parser.token === Token.RightBracket) {
-        return parseIndexSignatureDeclaration(parser, context, PropertyKind.None, modifiers);
+        return parseIndexSignatureDeclaration(parser, context, isReadOnly, modifiers);
       }
 
       if (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
@@ -5038,10 +5038,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
           // If we have "[readonly ...id" or "[readonly id" or then this is an index signature even if
           // a modifier isn't allowed here, but we will handle this in the grammar checker
           if (parser.token & (Token.IsEllipsis | Token.IsIdentifier | Token.FutureReserved)) {
-            return parseIndexSignatureDeclaration(parser, context, PropertyKind.Readonly, modifiers);
+            return parseIndexSignatureDeclaration(parser, context, /* isReadOnly */ true, modifiers);
           }
           consume(parser, context, Token.RightBracket);
-          return parsePropertyOrMethodSignature(parser, context, name, PropertyKind.None, modifiers, pos);
+          return parsePropertyOrMethodSignature(parser, context, name, isReadOnly, modifiers, pos);
         }
 
         // If we have "[private id" or "[protected id" or "[public id" then this *maybe* is an index signature.
@@ -5051,7 +5051,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
         // It's needed to do lookahead and try too figure out if this is an valid index signature
         // if we don't have any access modifiers follow by "...". Speculative parsing will not help us here.
         if ((modifiers && parser.token & Token.Ellipsis) || lookAhead(parser, context, isIndexSignature)) {
-          return parseIndexSignatureDeclaration(parser, context, PropertyKind.None, modifiers);
+          return parseIndexSignatureDeclaration(parser, context, isReadOnly, modifiers);
         }
       }
       // We have "[ expr" and this is a valid computed property
@@ -5308,7 +5308,16 @@ function parseConstructorType(
   consume(parser, context, Token.Arrow);
   const type = parseTypeOrTypePredicate(parser, context);
   if (isAbstract) parser.nodeFlags |= NodeFlags.Abstract;
-  return createConstructorType(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos);
+  return createConstructorType(
+    /* isReadOnly */ false,
+    accessModifier,
+    typeParameters,
+    parameters,
+    type,
+    parser.nodeFlags,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseTypeOperator(parser: ParserState, context: Context): TypeOperator | TypeNode {
@@ -5600,70 +5609,32 @@ function isIndexSignature(parser: ParserState, context: Context): boolean {
   return parser.token === Token.Colon || parser.token === Token.Comma || parser.token === Token.RightBracket;
 }
 
+function isModifierCanFollowTypeMember(parser: ParserState, context: Context) {
+  nextToken(parser, context);
+  return (parser.token & (Token.IsIdentifier | Token.FutureReserved | Token.Keyword)) !== 0;
+}
+
 function parseTypeMember(
   parser: ParserState,
   context: Context
 ): ConstructSignature | CallSignature | PropertySignature | IndexSignature {
   const pos = parser.curPos;
   let token = parser.token;
-  let kind = PropertyKind.None;
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
 
+  const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
+
   if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-    return parseSignatureMember(parser, context, modifiers, NodeKind.CallSignature);
-  }
-
-  if (token === Token.StaticKeyword) {
-    const name = parseIdentifierName(parser, context);
-    if ((parser.token & 0b00010000000000000101000000000000) === 0) {
-      return parser.token === Token.LeftParen || parser.token === Token.LessThan
-        ? parseSignatureMember(parser, context, modifiers, NodeKind.ConstructSignature)
-        : parsePropertySignature(parser, context, name, PropertyKind.None, modifiers, pos);
-    }
-    kind |= PropertyKind.Static;
-    token = parser.token;
-  }
-
-  if (token === Token.DeclareKeyword) {
-    const name = parseIdentifierName(parser, context);
-    if ((parser.token & 0b00010000000000000101000000000000) === 0) {
-      return parser.token === Token.LeftParen || parser.token === Token.LessThan
-        ? parseSignatureMember(parser, context, modifiers, NodeKind.ConstructSignature)
-        : parsePropertySignature(parser, context, name, PropertyKind.None, modifiers, pos);
-    }
-    kind |= PropertyKind.Declare;
-    token = parser.token;
-  }
-
-  if (token === Token.AbstractKeyword) {
-    const name = parseIdentifierName(parser, context);
-    if ((parser.token & 0b00010000000000000101000000000000) === 0) {
-      return parser.token === Token.LeftParen || parser.token === Token.LessThan
-        ? parseSignatureMember(parser, context, modifiers, NodeKind.ConstructSignature)
-        : parsePropertySignature(parser, context, name, PropertyKind.None, modifiers, pos);
-    }
-    kind |= PropertyKind.Abstract;
-    token = parser.token;
-  }
-
-  if (token === Token.ReadonlyKeyword) {
-    const name = parseIdentifierName(parser, context);
-    if ((parser.token & 0b00010000000000000101000000000000) === 0) {
-      return parser.token === Token.LeftParen || parser.token === Token.LessThan
-        ? parseSignatureMember(parser, context, modifiers, NodeKind.ConstructSignature)
-        : parsePropertySignature(parser, context, name, PropertyKind.None, modifiers, pos);
-    }
-    kind |= PropertyKind.Readonly;
-    token = parser.token;
+    return parseSignatureMember(parser, context, isReadOnly, modifiers, NodeKind.CallSignature);
   }
 
   if (token === Token.NewKeyword) {
     const name = parseIdentifierName(parser, context);
     if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
-      return parseSignatureMember(parser, context, modifiers, NodeKind.ConstructSignature);
+      return parseSignatureMember(parser, context, isReadOnly, modifiers, NodeKind.ConstructSignature);
     }
 
-    return parsePropertySignature(parser, context, name, kind, modifiers, pos);
+    return parsePropertySignature(parser, context, name, isReadOnly, modifiers, pos);
   }
 
   // Check if this is an unambiguous index signature or computed property
@@ -5672,7 +5643,7 @@ function parseTypeMember(
 
     // If we have "[..." or "[]" then we parse this as an index signature for error recovery reasons
     if (parser.token & Token.IsEllipsis || parser.token === Token.RightBracket) {
-      return parseIndexSignatureDeclaration(parser, context, kind, modifiers);
+      return parseIndexSignatureDeclaration(parser, context, isReadOnly, modifiers);
     }
 
     if (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
@@ -5682,10 +5653,10 @@ function parseTypeMember(
         // If we have "[readonly ...id" or "[readonly id" or then this is an index signature even if
         // a modifier isn't allowed here, but we will handle this in the grammar checker.
         if (parser.token & (Token.IsEllipsis | Token.IsIdentifier | Token.FutureReserved)) {
-          return parseIndexSignatureDeclaration(parser, context, PropertyKind.Readonly, modifiers);
+          return parseIndexSignatureDeclaration(parser, context, /* isReadOnly */ true, modifiers);
         }
         consume(parser, context, Token.RightBracket);
-        return parsePropertyOrMethodSignature(parser, context, name, kind, modifiers, pos);
+        return parsePropertyOrMethodSignature(parser, context, name, isReadOnly, modifiers, pos);
       }
 
       // If we have "[private id" or "[protected id" or "[public id" then this *maybe* is an index signature.
@@ -5695,7 +5666,7 @@ function parseTypeMember(
       // It's needed to do lookahead and try too figure out if this is an valid index signature
       // if we don't have any access modifiers follow by "...". Speculative parsing will not help us here.
       if ((modifiers && parser.token & Token.Ellipsis) || lookAhead(parser, context, isIndexSignature)) {
-        return parseIndexSignatureDeclaration(parser, context, kind, modifiers);
+        return parseIndexSignatureDeclaration(parser, context, isReadOnly, modifiers);
       }
     }
     // We have "[ expr" and this is a valid computed property
@@ -5705,19 +5676,26 @@ function parseTypeMember(
       parser,
       context,
       createComputedPropertyName(expression, parser.nodeFlags, pos, parser.curPos),
-      kind,
+      isReadOnly,
       modifiers,
       pos
     );
   }
 
-  return parsePropertyOrMethodSignature(parser, context, parsePropertyName(parser, context), kind, modifiers, pos);
+  return parsePropertyOrMethodSignature(
+    parser,
+    context,
+    parsePropertyName(parser, context),
+    isReadOnly,
+    modifiers,
+    pos
+  );
 }
 
 function parseIndexSignatureDeclaration(
   parser: ParserState,
   context: Context,
-  kind: PropertyKind,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null
 ): IndexSignature {
   const pos = parser.curPos;
@@ -5725,7 +5703,7 @@ function parseIndexSignatureDeclaration(
   consume(parser, context, Token.RightBracket);
   const type = parseTypeAnnotation(parser, context);
   parseTypeMemberSemicolon(parser, context);
-  return createIndexSignature(accessModifier, parameters, type, kind, parser.nodeFlags, pos, parser.curPos);
+  return createIndexSignature(accessModifier, parameters, type, isReadOnly, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseBracketList(parser: ParserState, context: Context): Parameters {
@@ -5755,7 +5733,7 @@ function parsePropertyOrMethodSignature(
   parser: ParserState,
   context: Context,
   name: any,
-  kind: PropertyKind,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   pos: number
 ): MethodSignature | PropertySignature {
@@ -5772,7 +5750,7 @@ function parsePropertyOrMethodSignature(
     return createMethodSignature(
       name,
       optional,
-      kind,
+      isReadOnly,
       accessModifier,
       typeParameters,
       parameters,
@@ -5790,7 +5768,7 @@ function parsePropertyOrMethodSignature(
     optional,
     accessModifier,
     type,
-    kind,
+    isReadOnly,
     initializer,
     parser.nodeFlags,
     pos,
@@ -5802,7 +5780,7 @@ function parsePropertySignature(
   parser: ParserState,
   context: Context,
   name: any,
-  kind: PropertyKind,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   pos: number
 ): PropertySignature {
@@ -5818,7 +5796,7 @@ function parsePropertySignature(
     optional,
     accessModifier,
     type,
-    kind,
+    isReadOnly,
     initializer,
     parser.nodeFlags,
     pos,
@@ -5891,6 +5869,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
 function parseSignatureMember(
   parser: ParserState,
   context: Context,
+  isReadOnly: boolean,
   accessModifier: AccessModifier | null,
   kind: NodeKind
 ): ConstructSignature | CallSignature {
@@ -5903,8 +5882,26 @@ function parseSignatureMember(
   }
   parseTypeMemberSemicolon(parser, context);
   return kind === NodeKind.ConstructSignature
-    ? createConstructSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos)
-    : createCallSignature(accessModifier, typeParameters, parameters, type, parser.nodeFlags, pos, parser.curPos);
+    ? createConstructSignature(
+        isReadOnly,
+        accessModifier,
+        typeParameters,
+        parameters,
+        type,
+        parser.nodeFlags,
+        pos,
+        parser.curPos
+      )
+    : createCallSignature(
+        isReadOnly,
+        accessModifier,
+        typeParameters,
+        parameters,
+        type,
+        parser.nodeFlags,
+        pos,
+        parser.curPos
+      );
 }
 
 function isTypeParametersTerminator(token: Token): boolean {

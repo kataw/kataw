@@ -20,21 +20,17 @@ export function createIndexSignature(
   accessModifier: AccessModifier | null,
   parameters: Parameters,
   returnType: TypeNode | null,
-  propertyKind: PropertyKind,
+  isReadOnly: boolean,
   flags: NodeFlags,
   start: number,
   end: number
 ): IndexSignature {
-  if (propertyKind & PropertyKind.Declare) flags | NodeFlags.Declared;
-
-  if (propertyKind & PropertyKind.Abstract) flags | NodeFlags.Abstract;
-
   return {
     kind: NodeKind.IndexSignature,
     accessModifier,
     parameters,
     returnType,
-    isReadOnly: (propertyKind & PropertyKind.Readonly) !== 0,
+    isReadOnly,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
@@ -52,17 +48,12 @@ export function updateIndexSignature(
   parameters: Parameters,
   returnType: TypeNode | null
 ): IndexSignature {
-  return node.accessModifier !== accessModifier || node.returnType !== returnType || node.parameters !== parameters
+  return node.accessModifier !== accessModifier ||
+    node.isReadOnly !== isReadOnly ||
+    node.returnType !== returnType ||
+    node.parameters !== parameters
     ? updateNode(
-        createIndexSignature(
-          accessModifier,
-          parameters,
-          returnType,
-          isReadOnly ? PropertyKind.Readonly : PropertyKind.None,
-          node.flags,
-          node.start,
-          node.end
-        ),
+        createIndexSignature(accessModifier, parameters, returnType, isReadOnly, node.flags, node.start, node.end),
         node
       )
     : node;
