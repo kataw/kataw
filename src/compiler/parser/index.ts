@@ -1,6 +1,6 @@
 import { ParserState } from '../types';
 import { Token, KeywordDescTable } from '../ast/token';
-import { NodeKind, NodeFlags, AccessModifiers } from '../ast/node';
+import { NodeKind, NodeFlags, AccessModifierTypes, AccessModifiers } from '../ast/node';
 import { TypeNode } from '../ast/types';
 import { Statement } from '../ast/statements/index';
 import { createCatchParameter, CatchParameter } from '../ast/statements/catch-parameter';
@@ -493,11 +493,7 @@ function parseInterfaceDeclaration(
   );
 }
 
-function parseHeritageClauses(parser: ParserState, context: Context): HeritageClauses {
-  let listPos = parser.curPos;
-
-  const clauses = [];
-
+function parseHeritageClauses(parser: ParserState, context: Context): HeritageClauses | null {
   if (parser.token === Token.ExtendsKeyword || parser.token === Token.ImplementsKeyword) {
     // Interface declaration cannot have implements clause. However, we choose too
     // allow this so that we can avoid tons of parse errors. We will report them later in the grammar checker.
@@ -507,16 +503,19 @@ function parseHeritageClauses(parser: ParserState, context: Context): HeritageCl
     }
 
     nextToken(parser, context);
-    listPos = parser.curPos;
+    let curPos = parser.curPos;
+
+    const clauses = [];
+
     while (parser.token & (Token.IsIdentifier | Token.FutureReserved)) {
       clauses.push(parseHeritageClause(parser, context));
       if (parser.token & Token.IsPatternStart) break;
       if (consumeOpt(parser, context, Token.Comma)) continue;
       reportErrorDiagnostic(parser, 0, DiagnosticCode._0_expected, ',');
     }
+    return createHeritageClauses(clauses, parser.nodeFlags, curPos, parser.curPos);
   }
-
-  return createHeritageClauses(clauses, parser.nodeFlags, listPos, parser.curPos);
+  return null;
 }
 
 function parseHeritageClause(parser: ParserState, context: Context): HeritageClause {
@@ -2442,13 +2441,25 @@ function isAccessModifier(t: Token): boolean {
 function parseAccessModifier(parser: ParserState, context: Context, endToken: Token): AccessModifier | null {
   if (isAccessModifier(parser.token)) {
     const pos = parser.curPos;
+    let token = parser.token;
     if (
       tryParse(parser, context, () => {
         nextToken(parser, context);
         return (parser.token & 0b00010000000010000101000000000000) !== 0 || !endToken;
       })
     ) {
-      return createAccessModifier(AccessModifiers.Protected, NodeFlags.None, pos, parser.curPos);
+      let modifier!: AccessModifiers;
+      switch (token) {
+        case Token.PublicKeyword:
+          modifier = AccessModifiers.Public;
+        case Token.ProtectedKeyword:
+          modifier = AccessModifiers.Protected;
+          break;
+        case Token.PrivateKeyword:
+          modifier = AccessModifiers.Private;
+          break;
+      }
+      return createAccessModifier(modifier, NodeFlags.None, pos, parser.curPos);
     }
   }
   return null;
@@ -4810,7 +4821,9 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   const isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Simple cases like "{ private readonly foo(" or "{ readonly foo<x>(" or "{ readonly static set(".
-  isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  if (!isReadOnly) {
+    isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  }
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
@@ -5611,7 +5624,7 @@ function isIndexSignature(parser: ParserState, context: Context): boolean {
 
 function isModifierCanFollowTypeMember(parser: ParserState, context: Context) {
   nextToken(parser, context);
-  return (parser.token & (Token.IsIdentifier | Token.FutureReserved | Token.Keyword)) !== 0;
+  return (parser.token & (Token.IsIdentifier | Token.FutureReserved | Token.Keyword | Token.IsPatternStart)) !== 0;
 }
 
 function parseTypeMember(
@@ -5619,7 +5632,6 @@ function parseTypeMember(
   context: Context
 ): ConstructSignature | CallSignature | PropertySignature | IndexSignature {
   const pos = parser.curPos;
-  let token = parser.token;
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
 
   const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
@@ -5628,7 +5640,7 @@ function parseTypeMember(
     return parseSignatureMember(parser, context, isReadOnly, modifiers, NodeKind.CallSignature);
   }
 
-  if (token === Token.NewKeyword) {
+  if (parser.token === Token.NewKeyword) {
     const name = parseIdentifierName(parser, context);
     if (parser.token === Token.LeftParen || parser.token === Token.LessThan) {
       return parseSignatureMember(parser, context, isReadOnly, modifiers, NodeKind.ConstructSignature);
@@ -5638,7 +5650,7 @@ function parseTypeMember(
   }
 
   // Check if this is an unambiguous index signature or computed property
-  if (token === Token.LeftBracket) {
+  if (parser.token === Token.LeftBracket) {
     nextToken(parser, context);
 
     // If we have "[..." or "[]" then we parse this as an index signature for error recovery reasons

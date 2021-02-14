@@ -1,7 +1,7 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 import { TypeNode } from '../types';
-import { Expression } from './';
+import { Expression } from '.';
 
 export interface AsExpression extends Node {
   readonly expression: Expression;
