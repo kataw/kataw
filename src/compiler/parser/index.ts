@@ -4531,7 +4531,7 @@ function parseExportDeclaration(
       if (node.expression) {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
       }
-      node.nodeFlags |= NodeFlags.Exported;
+      node.flags |= NodeFlags.Exported;
       return node;
     default:
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Unexpected_token);
@@ -4669,7 +4669,7 @@ function parseExportDefault(
     case Token.AbstractKeyword:
       const node = parseStatementListItem(parser, context) as any;
       if (!node.expression) {
-        node.nodeFlags |= NodeFlags.Exported;
+        node.flags |= NodeFlags.Exported;
         return node;
       }
       declaration = node.expression;
