@@ -522,5 +522,7 @@ export const enum NodeKind {
   WithStatement = 248 | IsStatement,
   YieldExpression = 249 | IsExpression,
   DummyIdentifier = 250 | IsIdentifier,
-  CatchParameter = 251
+  CatchParameter = 251 | IsStatement,
+  NamespaceBlock = 252 | IsStatement,
+  NamespaceDeclaration = 253 | IsStatement
 }

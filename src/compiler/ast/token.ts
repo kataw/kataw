@@ -213,7 +213,8 @@ export const enum Token {
   KeyOfKeyword = 151 | IsIdentifier,
   IntrinsicKeyword = 152 | IsIdentifier,
   AbstractKeyword = 153 | IsIdentifier,
-  Decorator = 154 | IsProperty | IsStatementStart
+  NamespaceKeyword = 154 | IsIdentifier,
+  Decorator = 155 | IsProperty
 }
 
 // Note: this *must* be kept in sync with the enum's order.
@@ -449,5 +450,6 @@ export const descKeywordTable: { [key: string]: Token } = Object.create(null, {
   bigint: { value: Token.BigIntKeyword },
   undefined: { value: Token.UndefinedKeyword },
   abstract: { value: Token.AbstractKeyword },
-  require: { value: Token.RequireKeyword }
+  require: { value: Token.RequireKeyword },
+  namespace: { value: Token.NamespaceKeyword }
 });

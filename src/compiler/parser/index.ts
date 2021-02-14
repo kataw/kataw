@@ -19,6 +19,8 @@ import { createSingleNameBinding, SingleNameBinding } from '../ast/expressions/s
 import { createOmittedExpression, OmittedExpression } from '../ast/expressions/omitted-expr';
 import { createHeritageClauses, HeritageClauses } from '../ast/types/heritage-clauses';
 import { createHeritageClause, HeritageClause } from '../ast/types/heritage-clause';
+import { createNamespaceBlock, NamespaceBlock } from '../ast/types/namespace-block';
+import { createNamespaceDeclaration, NamespaceDeclaration } from '../ast/types/namespace-declaration';
 import { createImplementClauses, ImplementClauses } from '../ast/types/implement-clauses';
 import { createImplementClause, ImplementClause } from '../ast/types/implement-clause';
 import { createThisType, ThisType } from '../ast/types/this-type';
@@ -291,6 +293,8 @@ function nextTokenIsFunctionKeywordOnSameLine(parser: ParserState, context: Cont
 //   LexicalDeclaration
 export function parseStatementListItem(parser: ParserState, context: Context): Statement {
   switch (parser.token) {
+    case Token.NamespaceKeyword:
+      return parseNameSpaceDeclaration(parser, context);
     case Token.FunctionKeyword:
       return parseFunctionDeclaration(parser, context, false);
     case Token.Decorator:
@@ -529,6 +533,42 @@ function nextTokenIsIdentifierOnSameLine(parser: ParserState, context: Context):
     (parser.token & (Token.IsIdentifier | Token.FutureReserved)) !== 0 &&
     (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
   );
+}
+
+function parseNameSpaceDeclaration(parser: ParserState, context: Context): any {
+  const { curPos, nodeFlags } = parser;
+  if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
+    return parseNameSpaceDeclarationRest(parser, context, nodeFlags, curPos);
+  }
+  return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
+}
+
+function parseNameSpaceDeclarationRest(parser: ParserState, context: Context, nodeFlags: NodeFlags, pos: number): any {
+  const name = parseIdentifierReference(parser, context);
+  return createNamespaceDeclaration(
+    name,
+    parseNamespaceBlock(parser, context),
+    nodeFlags | parser.nodeFlags,
+    pos,
+    parser.curPos
+  );
+}
+
+function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBlock {
+  if (consume(parser, context, Token.LeftBrace)) {
+    const curPos = parser.curPos;
+    let statements = [];
+    while (parser.token & Constants.SourceElements) {
+      statements.push(
+        getCurrentNode(parser, context, context & Context.Module ? parseModuleItemList : parseStatementListItem)
+      );
+    }
+    const result = createNamespaceBlock(statements, parser.nodeFlags, curPos, parser.curPos);
+
+    consume(parser, context, Token.RightBrace);
+    return result;
+  }
+  return createNamespaceBlock([], parser.nodeFlags, parser.curPos, parser.curPos);
 }
 
 function parseTypeAliasDeclaration(

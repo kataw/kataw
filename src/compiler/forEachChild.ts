@@ -463,6 +463,10 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNodes(node.decoratorList, visitor);
     case NodeKind.Decorator:
       return visitNode(node.expression, visitor);
+    case NodeKind.NamespaceDeclaration:
+      return visitNode(node.body, visitor);
+    case NodeKind.NamespaceBlock:
+      return visitNodes(node.statements, visitor);
     default:
       return node;
   }

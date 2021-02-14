@@ -87,6 +87,8 @@ import { updateClassDeclaration } from './ast/statements/class-declaration';
 import { updateCatch } from './ast/statements/catch-stmt';
 import { updateCatchParameter } from './ast/statements/catch-parameter';
 import { updateArrayType } from './ast/types/array-type';
+import { updateNamespaceDeclaration } from './ast/types/namespace-declaration';
+import { updateNamespaceBlock } from './ast/types/namespace-block';
 import { updateCallSignature } from './ast/types/call-signature';
 import { updateConditionalType } from './ast/types/conditional-type';
 import { updateConstructorType } from './ast/types/constructor-type';
@@ -967,6 +969,13 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.name, visitor),
         visitNode(node.binding, visitor)
       );
+
+    case NodeKind.NamespaceDeclaration:
+      return updateNamespaceDeclaration(node, visitNode(node.name, visitor), visitNode(node.body, visitor));
+
+    case NodeKind.NamespaceBlock:
+      return updateNamespaceBlock(node, visitNodes(node.statements, visitor));
+
     case NodeKind.NamedImports:
       return updateNamedImports(node, visitNode(node.importsList, visitor));
     case NodeKind.JsxSpreadAttribute:
