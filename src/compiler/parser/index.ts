@@ -242,7 +242,6 @@ export function parseScriptOrModuleBody(
 ): ScriptBody | ModuleBody {
   const pos = parser.curPos;
   const statements: Statement[] = [];
-
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
       statements.push(getCurrentNode(parser, context, cb));
@@ -2078,7 +2077,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
     if (parser.token === Token.RightParen) break;
 
     if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) {
-      if (!state) elements.push(createOmittedExpression(NodeFlags.None, innerPos, innerPos));
+      //if (!state) elements.push(createOmittedExpression(NodeFlags.None, innerPos, innerPos));
       if (parser.token === Token.RightParen) {
         trailingComma = true;
         break;
@@ -5527,10 +5526,14 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
         if (parser.token !== Token.ReadonlyKeyword) return false;
       }
 
-      const isReadOnly = consumeOpt(parser, context, Token.ReadonlyKeyword);
+      // If we don't have "readonly" modifer or "[", then this cannot be a valid MappedType
+      if (parser.token !== Token.LeftBracket || parser.token === Token.ReadonlyKeyword) return false;
 
-      // If we don't have "[", then this cannot be a valid MappedType
-      if (parser.token !== Token.LeftBracket) return false;
+
+     const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, function () {
+      nextToken(parser, context);
+       return parser.token === Token.LeftBracket;
+     });
 
       nextToken(parser, context);
 

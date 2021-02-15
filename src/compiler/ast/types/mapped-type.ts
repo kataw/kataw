@@ -10,7 +10,7 @@ import { TypeParameter } from './type-parameter';
 export interface MappedType extends Node {
   readonly typeParameter: TypeParameter;
   readonly nameType: TypeNode | null;
-  readonly readonly: boolean;
+  readonly isReadOnly: boolean;
   readonly plus: boolean;
   readonly minus: boolean;
   readonly isOptional: boolean;
@@ -20,7 +20,7 @@ export interface MappedType extends Node {
 export function createMappedType(
   typeParameter: TypeParameter,
   nameType: TypeNode | null,
-  readonly: boolean,
+  isReadOnly: boolean,
   plus: boolean,
   minus: boolean,
   isOptional: boolean,
@@ -33,7 +33,7 @@ export function createMappedType(
     kind: NodeKind.MappedType,
     typeParameter,
     nameType,
-    readonly,
+    isReadOnly,
     plus,
     minus,
     isOptional,
@@ -52,7 +52,7 @@ export function updateMappedType(
   node: MappedType,
   typeParameter: TypeParameter,
   nameType: TypeNode | null,
-  readonly: boolean,
+  isReadOnly: boolean,
   plus: boolean,
   minus: boolean,
   isOptional: boolean,
@@ -60,7 +60,7 @@ export function updateMappedType(
 ): MappedType {
   return node.typeParameter !== typeParameter ||
     node.nameType !== nameType ||
-    node.readonly !== readonly ||
+    node.isReadOnly !== isReadOnly ||
     node.plus !== plus ||
     node.minus !== minus ||
     node.isOptional !== isOptional
@@ -68,7 +68,7 @@ export function updateMappedType(
         createMappedType(
           typeParameter,
           nameType,
-          readonly,
+          isReadOnly,
           plus,
           minus,
           isOptional,

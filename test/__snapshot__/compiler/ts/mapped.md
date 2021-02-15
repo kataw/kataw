@@ -78,7 +78,7 @@
                                     "end": 24
                                 },
                                 "nameType": null,
-                                "readonly": false,
+                                "isReadOnly": false,
                                 "plus": false,
                                 "minus": false,
                                 "isOptional": false,
