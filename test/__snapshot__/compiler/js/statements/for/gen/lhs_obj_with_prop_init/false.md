@@ -210,6 +210,6 @@ for ({ p : x = 0 } = 0 in { })
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

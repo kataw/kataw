@@ -197,6 +197,6 @@ for ([...[a]] = 0 in { })
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

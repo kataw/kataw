@@ -174,6 +174,6 @@ for ([...x,] in [[]])
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

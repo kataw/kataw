@@ -1,0 +1,125 @@
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-02-15
+- From: kataw_dev\test\__snapshot__/compiler/js/statements/with/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\statements\with\gen\catch_stand_alone
+> :: test: catch stand alone
+> :: case: /)finally
+## Input
+
+`````js
+with /)finally
+`````
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "with /)finally",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 2097400,
+                "expression": {
+                    "kind": 4260544,
+                    "text": "/)finally",
+                    "flags": 524290,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 4,
+                    "end": 14
+                },
+                "statement": {
+                    "kind": 2097233,
+                    "expression": {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 6,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 14,
+                        "end": 14
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 14,
+                    "end": 14
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "parent": null,
+                "emitNode": null,
+                "start": 0,
+                "end": 14
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 0,
+        "intersects": false,
+        "parent": null,
+        "emitNode": null,
+        "start": 0,
+        "end": 14
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Unterminated regular expression literal",
+            "start": 14,
+            "length": 1
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'(' expected.",
+            "start": 5,
+            "length": 0
+        }
+    ],
+    "parent": null,
+    "emitNode": null,
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 14
+}
+```
+
+### Printed
+
+
+```javascript
+
+with(/)finally)
+    undefined
+
+```
+
+### Diagnostics
+
+
+```javascript
+✖ Unterminated regular expression literal - start: 16, end: 1
+✖ ')' expected. - start: 21, end: 0
+
+```
+

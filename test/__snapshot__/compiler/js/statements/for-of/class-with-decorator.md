@@ -131,6 +131,6 @@ class x {
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

@@ -207,6 +207,6 @@ async function f() { for ({ x } in y) {} }
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

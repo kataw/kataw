@@ -126,6 +126,6 @@ for ((a++) in c)
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

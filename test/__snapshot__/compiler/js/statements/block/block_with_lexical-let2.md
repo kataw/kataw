@@ -176,6 +176,6 @@
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

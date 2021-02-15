@@ -114,6 +114,6 @@ function x() { }
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

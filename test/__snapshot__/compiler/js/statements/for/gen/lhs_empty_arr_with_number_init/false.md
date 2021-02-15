@@ -150,6 +150,6 @@ for ([] = 0 in { })
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

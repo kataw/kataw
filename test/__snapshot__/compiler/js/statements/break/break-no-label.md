@@ -114,6 +114,6 @@ while (x) {
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

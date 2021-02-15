@@ -171,6 +171,6 @@ for ((a in b).x in { })
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

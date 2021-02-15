@@ -115,6 +115,6 @@ for (/foo/ in { })
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 

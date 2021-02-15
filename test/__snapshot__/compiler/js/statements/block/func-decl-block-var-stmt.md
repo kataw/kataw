@@ -163,6 +163,6 @@ var f;
 
 
 ```javascript
-No errors!
+✔ No errors
 ```
 
