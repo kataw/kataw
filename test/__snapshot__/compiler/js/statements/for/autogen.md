@@ -1,27 +1,8 @@
 # Tenko parser test cases
 
-- Path: zeparser3/tests/testcases/for_statement/for-in/webcompat_regressions_x00238/autogen.md
-
-> :: for statement : for-in
->
-> ::> webcompat regressions #8
->
-> In web compat assignments are allowed in the lhs of a `for-in` with `var` decl (but that's it)
->
-> https://tc39.github.io/ecma262/#sec-initializers-in-forin-statement-heads
->
-> As reported by https://github.com/pvdz/zeparser3/issues/8
-
-These cases are automatically extrapolated and written to their own file.
-Each case is applied to each test by simply replacing `#` with the actual case.
-
 ## Input
 
 ### Cases
-
-TODO: this is a legacy autogen because in the old system tests weren't called
-with web but in the new they are and these autogens were for both. So I need
-to move them to their own test files and then drop this file.
 
 > `````js
 > false
