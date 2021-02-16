@@ -191,21 +191,13 @@ function x(){
 
 
 ```javascript
-
-function x() {
-    if (x)
-        debugger;
-    / /
-}
-
-;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

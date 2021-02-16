@@ -141,15 +141,13 @@ var v30 = [1, 2];
 
 
 ```javascript
-
-var v30 = [1, 2];
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

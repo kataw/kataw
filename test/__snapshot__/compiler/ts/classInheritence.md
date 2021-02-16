@@ -144,21 +144,13 @@ class A extends A { }
 
 
 ```javascript
-
-class B extends A {
-
-}
-
-class A extends A {
-
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

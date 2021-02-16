@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for-of/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for-of\gen\catch_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for-of\gen\catch_stand_alone
 > :: test: catch stand alone
 > :: case: async try while { catch }
 ## Input
@@ -290,24 +290,13 @@ catch async try while { catch }
 
 
 ```javascript
-
-try {}
-catch {}
-
-async
-
-try {}
-finally {}
-
-while ({ catch })
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

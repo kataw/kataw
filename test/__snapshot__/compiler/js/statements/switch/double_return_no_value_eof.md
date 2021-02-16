@@ -129,15 +129,13 @@ return   }
 
 
 ```javascript
-
-function f() { return; return; }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

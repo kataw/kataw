@@ -227,17 +227,13 @@ var v = { * foo() {
 
 
 ```javascript
-
-var v = { * foo() {
-        yield (foo)
-    } };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

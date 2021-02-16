@@ -152,18 +152,13 @@ while(y)
 
 
 ```javascript
-
-do
-    if (8)
-        function s() { }
-while (y);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

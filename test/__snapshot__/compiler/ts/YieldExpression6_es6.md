@@ -141,17 +141,13 @@ function* foo() {
 
 
 ```javascript
-
- function* foo() {
-    yield* foo
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

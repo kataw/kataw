@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\do-while\gen\do_parens
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\do_parens
 > :: test: do parens
 > :: case: while try this and !foo
 ## Input
@@ -317,29 +317,13 @@ do( while try this and !foo while
 
 
 ```javascript
-
-do
-    (undefined)
-while (undefined);
-
-try {}
-finally {}
-
-this
-
-
-
-foo
-
-while (undefined)
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

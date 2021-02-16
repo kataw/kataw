@@ -106,15 +106,13 @@ let x: "foo";
 
 
 ```javascript
-
-let x: "foo";
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

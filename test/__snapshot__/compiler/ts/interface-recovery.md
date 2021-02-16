@@ -382,25 +382,13 @@ interface Foo {
 
 
 ```javascript
-
-interface Foo {
-    a;
-    b;
-    c;
-    static;
-    d;
-    declare;
-    e;
-    abstract;
-    f;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

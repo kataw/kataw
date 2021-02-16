@@ -137,16 +137,13 @@ while (function* () {} += x);
 
 
 ```javascript
-
-while ( function* () { } += x)
-    ;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

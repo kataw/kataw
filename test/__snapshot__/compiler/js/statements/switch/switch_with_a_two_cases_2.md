@@ -195,22 +195,13 @@ switch (A) {case B: C; break; case D: E; break;}
 
 
 ```javascript
-
-switch (A) {
-    case B:
-        C
-        break;
-    case D:
-        E
-        break;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

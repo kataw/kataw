@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\block\gen\with_unclosed_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\block\gen\with_unclosed_block
 > :: test: with unclosed block
 > :: case: /if
 ## Input
@@ -263,24 +263,13 @@
 
 
 ```javascript
-
-{
-    {}
-    try {}
-    finally {}
-    (x)
-    {
-        /if
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 61, end: 1
 
 ```
 

@@ -190,18 +190,13 @@ interface JSONSchema4 {
 
 
 ```javascript
-
-interface JSONSchema4 {
-    a?: number;
-    extends?: string | string[];
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

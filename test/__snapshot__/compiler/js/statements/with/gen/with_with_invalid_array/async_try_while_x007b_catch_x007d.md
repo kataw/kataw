@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/with/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\with\gen\with_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/with/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\with\gen\with_with_invalid_array
 > :: test: with with invalid array
 > :: case: async try while { catch }
 ## Input
@@ -323,25 +323,13 @@ with [catch] async try while { catch }
 
 
 ```javascript
-
-with([])
-    try {}
-    catch {}
-
-async
-
-try {}
-finally {}
-
-while ({ catch })
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

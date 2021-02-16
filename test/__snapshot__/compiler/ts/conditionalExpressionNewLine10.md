@@ -213,15 +213,13 @@ var v = a
 
 
 ```javascript
-
-var v = a ? b ? d : e : c ? f : g;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

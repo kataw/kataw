@@ -780,32 +780,13 @@ foo();
 
 
 ```javascript
-
-function foo(a: number) {
-    if (a === 10) {
-        function foo() { }
-        foo()
-        foo(10)
-    }
-    else {
-        function foo() { }
-        foo()
-        foo(10)
-    }
-    foo(10)
-    foo()
-}
-
-foo(10)
-
-foo()
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

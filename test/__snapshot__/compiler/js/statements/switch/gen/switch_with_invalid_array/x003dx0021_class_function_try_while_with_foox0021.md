@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\switch_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\switch_with_invalid_array
 > :: test: switch with invalid array
 > :: case: =! class function try while with foo!
 ## Input
@@ -405,28 +405,13 @@ switch [catch] =! class function try while with foo!
 
 
 ```javascript
-
-switch ([]) {
-}
-
-try {}
-catch {}
-
-! class {
-}
-
-function () { while (undefined)
-    with()
-        undefined }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 57, end: 0
-✖ Identifier expected - start: 89, end: 0
 
 ```
 

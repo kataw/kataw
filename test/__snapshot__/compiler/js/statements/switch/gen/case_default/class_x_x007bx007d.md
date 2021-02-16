@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\case_default
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\case_default
 > :: test: case default
 > :: case: class x {}
 ## Input
@@ -103,17 +103,13 @@ case class x {} default
 
 
 ```javascript
-
-class x {
-
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

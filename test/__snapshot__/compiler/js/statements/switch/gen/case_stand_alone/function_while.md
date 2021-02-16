@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\case_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\case_stand_alone
 > :: test: case stand alone
 > :: case: function while
 ## Input
@@ -124,16 +124,13 @@ case function while
 
 
 ```javascript
-
-function () { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 10, end: 0
 
 ```
 

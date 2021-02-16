@@ -345,18 +345,13 @@ class List<U> implements IList<U> {
 
 
 ```javascript
-
-class List implements IList<U> {
-    data(): U;
-    next(): string;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

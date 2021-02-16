@@ -188,15 +188,13 @@ let x: [string, number?, (string | number)?]
 
 
 ```javascript
-
-let x: [string, number?, (string | number)?];
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

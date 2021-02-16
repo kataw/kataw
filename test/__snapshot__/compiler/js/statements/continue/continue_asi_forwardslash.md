@@ -123,19 +123,13 @@ for (x of 3) continue
 
 
 ```javascript
-
-for (x of 3)
-    continue;
-
-/
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 30, end: 1
 
 ```
 

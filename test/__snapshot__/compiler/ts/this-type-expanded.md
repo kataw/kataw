@@ -1458,37 +1458,13 @@ class A {
 
 
 ```javascript
-
-class A {
-    protected a: number;
-    private method(this: this): number {
-        return this.a;
-    }
-    private method2(this: A): this {
-        return this.a;
-    }
-    private method3(this: this): number {
-        var fn = () => this.a;
-        return fn();
-    }
-    private method4(this: A): number {
-        var fn = () => this.a;
-        return fn();
-    }
-    static staticMethod(this: A): number {
-        return this.a;
-    }
-    static typeof(this: A): this {
-        return typeof this;
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

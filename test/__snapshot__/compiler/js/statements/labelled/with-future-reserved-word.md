@@ -92,15 +92,13 @@ interface: x;
 
 
 ```javascript
-
-interface: x
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

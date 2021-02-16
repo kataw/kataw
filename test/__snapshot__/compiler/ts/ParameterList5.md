@@ -189,16 +189,13 @@ function A(): (public B) => C {
 
 
 ```javascript
-
-function A(): (B) => C {
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

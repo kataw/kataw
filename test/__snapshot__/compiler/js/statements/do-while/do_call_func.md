@@ -162,17 +162,13 @@ do h(function(){});while(x)
 
 
 ```javascript
-
-do
-    h(function () { })
-while (x);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

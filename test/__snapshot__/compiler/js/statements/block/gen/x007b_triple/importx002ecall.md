@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\block\gen\x007b_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\block\gen\x007b_triple
 > :: test: { triple
 > :: case: import.call
 ## Input
@@ -170,25 +170,13 @@
 
 
 ```javascript
-
-{
-    {
-        {
-            .call
-        }
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ '}' expected. - start: 31, end: 0
-✖ Declaration or statement expected - start: 45, end: 0
-✖ Declaration or statement expected - start: 51, end: 0
-✖ Declaration or statement expected - start: 53, end: 0
 
 ```
 

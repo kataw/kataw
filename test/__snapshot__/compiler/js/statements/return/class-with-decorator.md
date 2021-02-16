@@ -118,19 +118,13 @@ class x {}
 
 
 ```javascript
-
-
-@A
-class x {
-
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

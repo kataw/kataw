@@ -139,18 +139,13 @@ switch (x) { case y: break; default: return; }
 
 
 ```javascript
-
-switch (x) {
-    case y: break;
-    default: return;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

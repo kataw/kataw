@@ -167,16 +167,13 @@
 
 
 ```javascript
-
-var v = { * (); };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 13, end: 0
 
 ```
 

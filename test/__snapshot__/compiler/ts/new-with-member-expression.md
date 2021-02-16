@@ -114,15 +114,13 @@ new foo.bar();
 
 
 ```javascript
-
-new foo.bar()
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -69,15 +69,13 @@ throw.500
 
 
 ```javascript
-
-throw .500;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -162,16 +162,13 @@ for (var v of [true]) { }
 
 
 ```javascript
-
-for ( of [true]) {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ';' expected. - start: 16, end: 0
 
 ```
 

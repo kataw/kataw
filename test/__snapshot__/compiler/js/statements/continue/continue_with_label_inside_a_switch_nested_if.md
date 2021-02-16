@@ -151,18 +151,13 @@ switch (x) { case x: if (foo) continue foo; }
 
 
 ```javascript
-
-switch (x) {
-    case x: if (foo)
-        continue foo;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

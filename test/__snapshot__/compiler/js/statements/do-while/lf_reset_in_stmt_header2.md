@@ -198,20 +198,13 @@ while(y
 
 
 ```javascript
-
-do
-    if (x =>  { })
-        ;
-    else
-        n
-while (y);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

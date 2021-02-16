@@ -420,21 +420,13 @@ let precedence2: number & string | boolean;
 
 
 ```javascript
-
-let union: number | null | undefined;
-
-let intersection: number & string;
-
-let precedence1: number | string & boolean;
-
-let precedence2: number & string | boolean;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

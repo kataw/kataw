@@ -174,15 +174,13 @@ async () => { \u{61}wait: x }
 
 
 ```javascript
-
-async () =>  { await undefined }: x
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

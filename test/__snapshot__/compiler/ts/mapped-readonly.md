@@ -185,17 +185,13 @@
 
 
 ```javascript
-
-let map: {
-    readonly [P in string]?: number;
-};
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

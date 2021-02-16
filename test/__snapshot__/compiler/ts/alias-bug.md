@@ -487,20 +487,13 @@ function use() {
 
 
 ```javascript
-
-function use() {
-    var p1: provide.Provide;
-    var p2: foo.Provide;
-    var p3: booz.bar;
-    var p22 = new provide.Provide();
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

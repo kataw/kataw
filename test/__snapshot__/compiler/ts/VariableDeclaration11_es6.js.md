@@ -92,17 +92,13 @@ let
 
 
 ```javascript
-
-"use strict"
-
-let
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

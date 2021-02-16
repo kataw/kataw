@@ -366,22 +366,13 @@ function foo(a) {
 
 
 ```javascript
-
- function* foo(a = yield) {
-}
-
-function foo(a) {
-    if (a === void 0) {
-        a = yield
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

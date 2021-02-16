@@ -152,17 +152,13 @@
 
 
 ```javascript
-
-function f() { }
-
-var f;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

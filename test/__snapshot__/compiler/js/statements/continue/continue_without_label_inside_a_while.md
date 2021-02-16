@@ -80,16 +80,13 @@ while (x) continue
 
 
 ```javascript
-
-while (x)
-    continue;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

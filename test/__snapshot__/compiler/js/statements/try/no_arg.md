@@ -144,17 +144,13 @@ try {} catch(){}
 
 
 ```javascript
-
-try {}
-catch () {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 15, end: 0
 
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_let
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_let
 > :: test: for await with let
 > :: case: false
 ## Input
@@ -210,16 +210,13 @@ async function f() { for await (let x in y) {} }
 
 
 ```javascript
-
-async function f() { for (let x; in y) {} }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ';' expected. - start: 38, end: 0
 
 ```
 

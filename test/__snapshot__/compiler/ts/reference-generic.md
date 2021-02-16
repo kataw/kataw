@@ -138,15 +138,13 @@ let x: Array<number>;
 
 
 ```javascript
-
-let x: Array<number>;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

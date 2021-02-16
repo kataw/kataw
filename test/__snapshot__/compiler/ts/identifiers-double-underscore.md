@@ -208,22 +208,13 @@ function __Bar() {
 
 
 ```javascript
-
-var __test = "ff";
-
-class __Foo {
-
-}
-
-function __Bar() {
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

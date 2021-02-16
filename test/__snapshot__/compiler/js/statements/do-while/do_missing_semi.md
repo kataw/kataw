@@ -134,20 +134,13 @@ do;while(j)try{}finally{}
 
 
 ```javascript
-
-do
-    ;
-while (j);
-
-try {}
-finally {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

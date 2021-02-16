@@ -161,19 +161,13 @@ function f() {
 
 
 ```javascript
-
-function f() {
-    do
-        throw pass;
-    while (x);
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

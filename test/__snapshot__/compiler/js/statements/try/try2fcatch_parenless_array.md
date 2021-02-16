@@ -183,20 +183,13 @@ try {} catch [] {}
 
 
 ```javascript
-
-try {}
-catch {}
-
-[]
-
-{}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

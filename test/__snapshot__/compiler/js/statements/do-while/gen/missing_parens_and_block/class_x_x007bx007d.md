@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\do-while\gen\missing_parens_and_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\missing_parens_and_block
 > :: test: missing parens and block
 > :: case: class x {}
 ## Input
@@ -124,20 +124,13 @@ do class x {} while
 
 
 ```javascript
-
-do
-    class x {
-
-    }
-while (undefined);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Class declaration cannot appear in single-statement context - start: 8, end: 0
 
 ```
 

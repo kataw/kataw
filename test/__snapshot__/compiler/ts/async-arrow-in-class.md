@@ -202,17 +202,13 @@ class Test {
 
 
 ```javascript
-
-class Test {
-    static member = async (x: string) =>  { };
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

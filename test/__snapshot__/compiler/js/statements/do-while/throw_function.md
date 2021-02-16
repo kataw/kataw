@@ -164,20 +164,13 @@ for(;;)x
 
 
 ```javascript
-
-do
-    throw function () { };
-while (y);
-
-for (;;)
-    x
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -318,21 +318,13 @@ class C123 {
 
 
 ```javascript
-
-class C123 {
-    [s: string]: number;
-    x: number;
-    y: string;
-    constructor() {
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -139,19 +139,13 @@ for(x of 3)break/
 
 
 ```javascript
-
-for (x of 3)
-    break undefined;
-
-/
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 37, end: 1
 
 ```
 

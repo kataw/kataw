@@ -223,16 +223,13 @@ var v = { get foo() { yield foo; } }
 
 
 ```javascript
-
-var v = { get foo() { yield foo } };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ';' expected. - start: 29, end: 0
 
 ```
 

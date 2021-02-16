@@ -298,18 +298,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    set X(v = 0) { }
-    static set X(v2 = 0) { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

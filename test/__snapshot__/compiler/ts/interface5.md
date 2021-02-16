@@ -128,17 +128,13 @@ interface Foo { public foo: string; }
 
 
 ```javascript
-
-interface Foo {
-    foo: string;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

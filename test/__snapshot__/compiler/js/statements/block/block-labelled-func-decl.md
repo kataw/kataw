@@ -174,17 +174,13 @@
 
 
 ```javascript
-
-{
-    foo: bar: function f() { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

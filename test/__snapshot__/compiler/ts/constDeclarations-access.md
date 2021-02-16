@@ -142,17 +142,13 @@ x++;
 
 
 ```javascript
-
-const x = 0;
-
-x++
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

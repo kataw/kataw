@@ -106,16 +106,13 @@ switch {}
 
 
 ```javascript
-
-switch ({ }) {
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

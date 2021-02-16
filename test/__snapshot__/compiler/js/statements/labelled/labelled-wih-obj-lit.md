@@ -138,17 +138,13 @@ a: { a: x }
 
 
 ```javascript
-
-a: {
-    a: x
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

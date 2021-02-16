@@ -137,18 +137,13 @@ foo: { while(z) continue foo }
 
 
 ```javascript
-
-foo: {
-    while (z)
-        continue foo;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

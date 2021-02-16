@@ -265,18 +265,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    constructor(C: (A) => any) {
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

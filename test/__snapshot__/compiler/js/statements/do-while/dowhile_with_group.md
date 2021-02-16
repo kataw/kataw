@@ -138,17 +138,13 @@ while(y)
 
 
 ```javascript
-
-do
-    (function () { })
-while (y);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

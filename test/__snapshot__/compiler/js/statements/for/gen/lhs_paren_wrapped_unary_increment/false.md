@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for\gen\lhs_paren_wrapped_unary_increment
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\lhs_paren_wrapped_unary_increment
 > :: test: lhs paren wrapped unary increment
 > :: case: false
 ## Input
@@ -116,16 +116,13 @@ for ((a++) in c);
 
 
 ```javascript
-
-for ((a++) in c)
-    ;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -203,21 +203,13 @@ class Foo { private readonly foo; }
 
 
 ```javascript
-
-class Foo {
-    private readonly foo;
-}
-
-class Foo {
-    private readonly foo;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

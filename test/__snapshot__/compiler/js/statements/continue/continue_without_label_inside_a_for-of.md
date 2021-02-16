@@ -93,16 +93,13 @@ for (x of y) continue
 
 
 ```javascript
-
-for (x of y)
-    continue;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

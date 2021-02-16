@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\if\gen\unclosed_parens
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\if\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: =! class function try while with foo!
 ## Input
@@ -298,21 +298,13 @@ if( =! class function try while with foo!
 
 
 ```javascript
-
-if (undefined = ! class {
-})
-    function () { while (undefined)
-        with()
-            undefined }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 43, end: 0
-✖ Identifier expected - start: 79, end: 0
 
 ```
 

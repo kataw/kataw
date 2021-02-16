@@ -699,29 +699,13 @@ var c = x(x);
 
 
 ```javascript
-
-var x: any;
-
-var a = x();
-
-var b = x("hello");
-
-var c = x(x);
-
-var x;
-
-var a = x();
-
-var b = x("hello");
-
-var c = x(x);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

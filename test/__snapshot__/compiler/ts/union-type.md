@@ -102,15 +102,13 @@ type Foo = string & number
 
 
 ```javascript
-
-type Foo = string & number;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

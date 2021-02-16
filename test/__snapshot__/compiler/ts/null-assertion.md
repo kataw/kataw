@@ -196,19 +196,13 @@ const x = foo()!;
 
 
 ```javascript
-
- / 2
-
-const x = ;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 5, end: 1
-✖ Identifier expected - start: 17, end: 0
 
 ```
 

@@ -221,18 +221,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    foo();
-    constructor() { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

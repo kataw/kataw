@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/labelled/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\labelled\gen\try_with_unclosed_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/labelled/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\labelled\gen\try_with_unclosed_block
 > :: test: try with unclosed block
 > :: case: function while
 ## Input
@@ -241,23 +241,13 @@ try {} finally(x) { function while
 
 
 ```javascript
-
-try {}
-finally {}
-
-(x)
-
-{
-    function () { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 40, end: 0
 
 ```
 

@@ -286,24 +286,13 @@ class A {
 
 
 ```javascript
-
-class A {
-
-    @configurable(true)
-
-    static prop1;
-
-    @configurable(false)
-
-    static prop2;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

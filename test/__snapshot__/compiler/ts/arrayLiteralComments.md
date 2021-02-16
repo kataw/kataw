@@ -381,23 +381,13 @@ var testArrayWithFunc = [
 
 
 ```javascript
-
-var testArrayWithFunc = [
-    function () {
-        let x = 1;
-    },
-    "1",
-    2,
-    { a : 1 },
-    [1, 2, 3]
-];
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

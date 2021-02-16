@@ -2971,34 +2971,13 @@ var LanguageSpec_section_4_5_error_cases = (function () {
 
 
 ```javascript
-
-class LanguageSpec_section_4_5_error_cases {
-    private set AnnotatedSetter_SetterFirst(a: number) { }
-    private get AnnotatedSetter_SetterFirst() { return ""; }
-    private get AnnotatedSetter_SetterLast() { return ""; }
-    private set AnnotatedSetter_SetterLast(a: number) { }
-    private get AnnotatedGetter_GetterFirst(): string { return ""; }
-    private set AnnotatedGetter_GetterFirst(aStr) { aStr = 0 }
-    private set AnnotatedGetter_GetterLast(aStr) { aStr = 0 }
-    private get AnnotatedGetter_GetterLast(): string { return ""; }
-}
-
-var LanguageSpec_section_4_5_error_cases = (function () {
-    function LanguageSpec_section_4_5_error_cases() {
-    }
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterFirst", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterLast", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterFirst", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterLast", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
-    return LanguageSpec_section_4_5_error_cases;
-})();
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

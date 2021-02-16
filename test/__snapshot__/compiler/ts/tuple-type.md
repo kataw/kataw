@@ -112,15 +112,13 @@ type Foo = [string, string?]
 
 
 ```javascript
-
-type Foo = [string, string?];
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

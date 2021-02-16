@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\if\gen\if_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\if\gen\if_with_invalid_array
 > :: test: if with invalid array
 > :: case: /)finally
 ## Input
@@ -177,23 +177,13 @@ if [else] /)finally
 
 
 ```javascript
-
-if ([])
-    undefined
-else
-    undefined
-
-/)finally
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 44, end: 0
-✖ 'try' expected. - start: 45, end: 0
-✖ '{' expected. - start: 52, end: 0
 
 ```
 

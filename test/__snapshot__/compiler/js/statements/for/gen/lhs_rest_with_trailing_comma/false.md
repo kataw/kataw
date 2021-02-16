@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for\gen\lhs_rest_with_trailing_comma
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\lhs_rest_with_trailing_comma
 > :: test: lhs rest with trailing comma
 > :: case: false
 ## Input
@@ -164,16 +164,13 @@ for ([...x,] in [[]]);
 
 
 ```javascript
-
-for ([...x,] in [[]])
-    ;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

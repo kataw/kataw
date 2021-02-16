@@ -202,16 +202,13 @@ var v = (a, b) => {
 
 
 ```javascript
-
-var v = (b, a) =>  {
-};
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

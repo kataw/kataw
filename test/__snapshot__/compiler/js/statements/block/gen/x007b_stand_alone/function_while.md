@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\block\gen\x007b_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\block\gen\x007b_stand_alone
 > :: test: { stand alone
 > :: case: function while
 ## Input
@@ -140,18 +140,13 @@
 
 
 ```javascript
-
-{
-    function () { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 16, end: 0
 
 ```
 

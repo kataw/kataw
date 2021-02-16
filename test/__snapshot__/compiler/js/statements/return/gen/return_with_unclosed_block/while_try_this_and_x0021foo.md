@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\return\gen\return_with_unclosed_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\return\gen\return_with_unclosed_block
 > :: test: return with unclosed block
 > :: case: while try this and !foo
 ## Input
@@ -332,26 +332,13 @@ return {} return(x) { while try this and !foo
 
 
 ```javascript
-
-return { };
-
-return (x);
-
-{
-    while (undefined)
-        try {}
-        finally {}
-    this
-
-    foo
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

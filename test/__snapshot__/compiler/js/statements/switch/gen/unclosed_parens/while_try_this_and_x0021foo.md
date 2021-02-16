@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\unclosed_parens
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: while try this and !foo
 ## Input
@@ -276,26 +276,13 @@ switch( while try this and !foo case
 
 
 ```javascript
-
-switch (undefined) {
-}
-
-while (undefined)
-    try {}
-    finally {}
-
-this
-
-
-
-foo
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

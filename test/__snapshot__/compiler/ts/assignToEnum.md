@@ -400,26 +400,13 @@ A.foo = A.bar;  // invalid LHS
 
 
 ```javascript
-
-enum A {
-    foo,
-    bar
-}
-
-A = undefined
-
-A = A.bar
-
-A.foo = 1
-
-A.foo = A.bar
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -148,15 +148,13 @@ var v = { get foo() }
 
 
 ```javascript
-
-var v = { get foo(); };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

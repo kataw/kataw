@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\while\gen\missing_parens_and_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\while\gen\missing_parens_and_block
 > :: test: missing parens and block
 > :: case: async try while { catch }
 ## Input
@@ -245,21 +245,13 @@ while while async try while { catch }
 
 
 ```javascript
-
-while (undefined)
-    while (async)
-        try {}
-        finally {}
-
-while ({ catch })
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

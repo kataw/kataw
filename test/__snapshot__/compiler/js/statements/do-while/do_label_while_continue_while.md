@@ -136,18 +136,13 @@ do wow: while (x) continue wow; while (x)
 
 
 ```javascript
-
-do
-    wow: while (x)
-        continue wow;
-while (x);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

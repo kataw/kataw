@@ -175,15 +175,13 @@ const a = new A<B>();
 
 
 ```javascript
-
-const a = new A<B>();
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

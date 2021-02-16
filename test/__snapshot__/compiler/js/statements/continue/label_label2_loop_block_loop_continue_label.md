@@ -182,19 +182,13 @@ foo: bar: do { do continue foo; while(z); } while(z)
 
 
 ```javascript
-
-foo: bar: do {
-    do
-        continue foo;
-    while (z);
-} while (z);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

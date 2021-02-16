@@ -196,19 +196,13 @@ class Message {
 
 
 ```javascript
-
-class Message {
-    clone(): this {
-        return this;
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

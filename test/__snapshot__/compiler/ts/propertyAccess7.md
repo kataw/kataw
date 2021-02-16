@@ -171,17 +171,13 @@ foo.toUpperCase();
 
 
 ```javascript
-
-var foo: string;
-
-foo.toUpperCase()
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -402,23 +402,13 @@ function saySize(message: Message | Message[]) {
 
 
 ```javascript
-
-class Message {
-    value: string;
-}
-
-function saySize(message: Message | Message[]) {
-    if (message instanceof Array) {
-        return message.length;
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

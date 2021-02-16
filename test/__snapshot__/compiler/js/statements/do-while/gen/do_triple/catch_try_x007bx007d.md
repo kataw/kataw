@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\do-while\gen\do_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\do_triple
 > :: test: do triple
 > :: case: catch try {}
 ## Input
@@ -355,30 +355,13 @@ do do do catch try {} while while while
 
 
 ```javascript
-
-do
-    do
-        do
-            try {}
-            catch {}
-        while (undefined);
-    while (undefined);
-while (undefined);
-
-try {}
-finally {}
-
-while (undefined)
-    while (undefined)
-        while (undefined)
-            undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

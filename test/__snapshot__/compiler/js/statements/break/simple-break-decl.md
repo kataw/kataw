@@ -137,17 +137,13 @@ loop: while (x) { break loop; }
 
 
 ```javascript
-
-loop: while (x) {
-    break loop;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -674,38 +674,13 @@
 
 
 ```javascript
-
-type Mapped<T> = {
-    readonly [K in keyof];
-    T;
-};
-
-T[K]
-
-type Mapped<T> = {
-};
-
-+ readonly[K in keyof]
-
-T
-
-T[K]
-
-type Mapped<T> = {
-    [K in undefined T]?: T[K];
-};
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ']' expected. - start: 159, end: 0
-✖ ';' expected. - start: 160, end: 0
-✖ Declaration or statement expected - start: 161, end: 0
-✖ Declaration or statement expected - start: 162, end: 0
-✖ Declaration or statement expected - start: 170, end: 0
 
 ```
 

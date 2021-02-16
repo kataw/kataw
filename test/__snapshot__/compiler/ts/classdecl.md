@@ -3258,73 +3258,13 @@ class e {
 
 
 ```javascript
-
-class a {
-    constructor(n: number);
-    constructor(s: string);
-    constructor(ns: any) {
-    }
-    private pgF() { }
-    protected pv;
-    private get d() {
-        return 30;
-    }
-    private set d(a: number) {
-    }
-    private static get p2() {
-        return { x : 30, y : 40 };
-    }
-    private static d2() {
-    }
-    private static get p3() {
-        return "string";
-    }
-    private pv3;
-    private foo(n: number): string;
-    private foo(s: string): string;
-    private foo(ns: any) {
-        return ns.toString();
-    }
-}
-
-declare class aAmbient {
-    constructor(n: number);
-    constructor(s: string);
-    private pgF(): void;
-    protected pv;
-    protected d: number;
-    static p2: {
-        x: number;
-        y: number;
-    };
-    static d2();
-    static p3;
-    private pv3;
-    private foo(s);
-}
-
-class d {
-    private foo(n: number): string;
-    private foo(s: string): string;
-    private foo(ns: any) {
-        return ns.toString();
-    }
-}
-
-class e {
-    private foo(s: string): string;
-    private foo(n: number): string;
-    private foo(ns: any) {
-        return ns.toString();
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

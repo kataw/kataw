@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\if\gen\else_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\if\gen\else_stand_alone
 > :: test: else stand alone
 > :: case: function while
 ## Input
@@ -124,16 +124,13 @@ else function while
 
 
 ```javascript
-
-function () { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 10, end: 0
 
 ```
 

@@ -101,16 +101,13 @@ x!.y;
 
 
 ```javascript
-
-.y
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Declaration or statement expected - start: 1, end: 0
 
 ```
 

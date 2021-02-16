@@ -198,15 +198,13 @@ var v = (public x: string) => { };
 
 
 ```javascript
-
-var v = (x: string) =>  { };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

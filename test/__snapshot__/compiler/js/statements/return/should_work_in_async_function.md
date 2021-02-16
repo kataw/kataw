@@ -117,15 +117,13 @@ async function f(){ return; }
 
 
 ```javascript
-
-async function f() { return; }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

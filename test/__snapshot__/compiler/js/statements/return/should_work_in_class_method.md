@@ -174,17 +174,13 @@ class x {foo(){ return }}
 
 
 ```javascript
-
-class x {
-    foo() { return; }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\if\gen\if_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\if\gen\if_with_invalid_array
 > :: test: if with invalid array
 > :: case: function while
 ## Input
@@ -214,21 +214,13 @@ if [else] function while
 
 
 ```javascript
-
-if ([])
-    undefined
-else
-    undefined
-
-function () { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 52, end: 0
 
 ```
 

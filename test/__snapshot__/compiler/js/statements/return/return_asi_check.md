@@ -140,15 +140,13 @@ function f(){   return
 
 
 ```javascript
-
-function f() { return; foo }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

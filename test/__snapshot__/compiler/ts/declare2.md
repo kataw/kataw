@@ -657,27 +657,13 @@ declare function decodeURI(encodedURI: string): string;
 
 
 ```javascript
-
-declare var NaN: number;
-
-declare function eval(x: string): any;
-
-declare function parseInt(s: string, radix?: number): number;
-
-declare function parseFloat(string: string): number;
-
-declare function isNaN(number: number): boolean;
-
-declare function isFinite(number: number): boolean;
-
-declare function decodeURI(encodedURI: string): string;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

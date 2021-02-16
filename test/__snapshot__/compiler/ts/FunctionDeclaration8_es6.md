@@ -163,15 +163,13 @@ var v = { [yield]: foo }
 
 
 ```javascript
-
-var v = { [yield] : foo };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

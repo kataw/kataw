@@ -610,32 +610,13 @@ var b = +(<any>"");
 
 
 ```javascript
-
-var a = + 1;
-
-enum E {
-    some,
-    thing
-}
-
-;
-
-var c = + E.some;
-
-var x = + "3";
-
-var y = - "3";
-
-var z = ~ "3";
-
-var b = + (<any>"");
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

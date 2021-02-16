@@ -114,15 +114,13 @@ function x (): string {}
 
 
 ```javascript
-
-function x(): string { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -976,33 +976,13 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
 
 
 ```javascript
-
-var i: IHasVisualizationModel;
-
-var d1 = i || moduleA;
-
-var d2: IHasVisualizationModel = i || moduleA;
-
-var d2: IHasVisualizationModel = moduleA || i;
-
-var e: {
-    x: IHasVisualizationModel;
-} = <{
-    x: IHasVisualizationModel;
-}>null || { x : moduleA };
-
-var f: {
-    x: IHasVisualizationModel;
-} = <{
-    x: IHasVisualizationModel;
-}>null ? { x : moduleA } : null;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

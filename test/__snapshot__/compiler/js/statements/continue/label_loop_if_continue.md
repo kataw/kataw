@@ -138,17 +138,13 @@ foo: while(z) if (x) continue foo
 
 
 ```javascript
-
-foo: while (z)
-    if (x)
-        continue foo;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -198,20 +198,13 @@ class D {
 
 
 ```javascript
-
-class D {
-
-    @Foo
-
-    static staticMethod() { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\missing_parens_and_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\missing_parens_and_block
 > :: test: missing parens and block
 > :: case: /)finally
 ## Input
@@ -128,20 +128,13 @@ switch case /)finally
 
 
 ```javascript
-
-switch (undefined) {
-    case /)finally:
-
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 41, end: 1
-✖ ':' expected. - start: 43, end: 0
 
 ```
 

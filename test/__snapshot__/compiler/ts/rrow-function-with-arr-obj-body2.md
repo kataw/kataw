@@ -211,15 +211,13 @@ var v = a => <any><any>{}
 
 
 ```javascript
-
-var v = a => <any><any>{ };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

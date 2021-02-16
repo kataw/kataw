@@ -69,15 +69,13 @@ throw foo
 
 
 ```javascript
-
-throw foo;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

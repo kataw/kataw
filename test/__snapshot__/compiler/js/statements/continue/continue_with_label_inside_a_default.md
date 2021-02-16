@@ -115,17 +115,13 @@ switch (x) { default: continue foo; }
 
 
 ```javascript
-
-switch (x) {
-    default: continue foo;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

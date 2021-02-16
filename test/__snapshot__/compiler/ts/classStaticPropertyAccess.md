@@ -353,22 +353,13 @@ class A {
 
 
 ```javascript
-
-class A {
-    private static """() { }
-    protected static x: number = 1;
-    protected static y: number = 1;
-    private static _b: number = 2;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated string literal - start: 39, end: 1
-✖ ';' expected. - start: 32, end: 0
 
 ```
 

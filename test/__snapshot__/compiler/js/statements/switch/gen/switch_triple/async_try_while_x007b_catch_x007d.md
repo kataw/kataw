@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\switch\gen\switch_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\switch_triple
 > :: test: switch triple
 > :: case: async try while { catch }
 ## Input
@@ -299,28 +299,13 @@ switch switch switch async try while { catch }
 
 
 ```javascript
-
-switch (undefined) {
-}
-
-switch (undefined) {
-}
-
-switch (async) {
-}
-
-try {}
-finally {}
-
-while ({ catch })
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

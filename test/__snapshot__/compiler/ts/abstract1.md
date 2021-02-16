@@ -1056,44 +1056,13 @@ abstract class B extends A { abstract bar(); }
 
 
 ```javascript
-
-abstract class x {
-    constructor(str: string, other: number) { }
-}
-
-abstract class x {
-    prop: string;
-}
-
-abstract class x {
-    other = a.b;
-    fn = () => this.prop;
-}
-
-abstract class x {
-    other = a.b[c];
-    fn = () => this.prop;
-}
-
-abstract class x {
-    other = this.prop;
-    fn = () => this.prop;
-}
-
-abstract class B extends A {
-
-}
-
-abstract class B extends A {
-    abstract bar();
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

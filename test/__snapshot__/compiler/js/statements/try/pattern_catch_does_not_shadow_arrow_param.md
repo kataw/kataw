@@ -262,18 +262,13 @@ g => {
 
 
 ```javascript
-
-g =>  {
-    try {}
-    catch ([g]) {}
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

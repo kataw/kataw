@@ -143,17 +143,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    foo();
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -91,16 +91,13 @@ while (foo) bar;
 
 
 ```javascript
-
-while (foo)
-    bar
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

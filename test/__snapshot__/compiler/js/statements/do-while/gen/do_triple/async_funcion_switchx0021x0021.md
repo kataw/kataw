@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\do-while\gen\do_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\do_triple
 > :: test: do triple
 > :: case: async funcion switch!!
 ## Input
@@ -318,29 +318,13 @@ do do do async funcion switch!! while while while
 
 
 ```javascript
-
-do
-    do
-        do
-            async
-        while (funcion);
-    while (undefined);
-while (undefined);
-
-switch (! ! undefined) {
-}
-
-while (undefined)
-    while (undefined)
-        while (undefined)
-            undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

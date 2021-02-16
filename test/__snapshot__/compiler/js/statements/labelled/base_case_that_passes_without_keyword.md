@@ -92,15 +92,13 @@ foo: x;
 
 
 ```javascript
-
-foo: x
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

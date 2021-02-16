@@ -103,20 +103,13 @@ switch(x) { default: default: }
 
 
 ```javascript
-
-switch (x) {
-    default:
-
-    default:
-
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

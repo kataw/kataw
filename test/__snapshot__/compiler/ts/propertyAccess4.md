@@ -113,15 +113,13 @@ null.toBAZ();
 
 
 ```javascript
-
-null.toBAZ()
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

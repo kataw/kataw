@@ -173,22 +173,13 @@ switch(x) { default: default: case y: break; case z: break; }
 
 
 ```javascript
-
-switch (x) {
-    default:
-
-    default:
-
-    case y: break;
-    case z: break;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

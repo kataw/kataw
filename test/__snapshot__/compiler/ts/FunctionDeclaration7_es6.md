@@ -209,18 +209,13 @@ function*bar() {
 
 
 ```javascript
-
- function* bar() {
-     function* foo(a = yield ) {
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

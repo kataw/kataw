@@ -132,18 +132,13 @@ for (x of 3) continue/x/
 
 
 ```javascript
-
-for (x of 3)
-    continue undefined;
-
-/x/
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

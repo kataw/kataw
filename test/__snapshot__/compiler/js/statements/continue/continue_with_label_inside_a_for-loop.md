@@ -106,16 +106,13 @@ foo: for (;;) continue foo
 
 
 ```javascript
-
-foo: for (;;)
-    continue foo;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

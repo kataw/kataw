@@ -116,16 +116,13 @@ class Foo extends {
 
 
 ```javascript
-
-class Foo extends { } {
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -173,18 +173,13 @@ switch (A) {case B: C; case D: E;}
 
 
 ```javascript
-
-switch (A) {
-    case B: C
-    case D: E
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

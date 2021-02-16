@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\while\gen\while_with_unclosed_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\while\gen\while_with_unclosed_block
 > :: test: while with unclosed block
 > :: case: function while
 ## Input
@@ -209,19 +209,13 @@ while {} while(x) { function while
 
 
 ```javascript
-
-while ({ })
-    while (x) {
-        function () { }
-    }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 46, end: 0
 
 ```
 

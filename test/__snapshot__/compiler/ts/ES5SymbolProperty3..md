@@ -286,19 +286,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    [Symbol.iterator]() { }
-}
-
-(new C)[Symbol.iterator]
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

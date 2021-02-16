@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/try/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\try\gen\try_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/try/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\try\gen\try_triple
 > :: test: try triple
 > :: case: try { !xxx
 ## Input
@@ -334,27 +334,13 @@ try try try try { !xxx
 
 
 ```javascript
-
-try {}
-finally {}
-
-try {}
-finally {}
-
-try {}
-finally {}
-
-try {
-    ! xxx
-}
-finally {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

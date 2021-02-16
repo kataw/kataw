@@ -1282,47 +1282,13 @@ var Test = (function () {
 
 
 ```javascript
-
-class Result {
-
-}
-
-class Test {
-    get Property(): Result {
-        var x = 1;
-        return null;
-    }
-}
-
-class Test2 {
-    get Property() {
-        var x = 1;
-        return null;
-    }
-}
-
-var Result = (function () {
-    function Result() {
-    }
-    return Result;
-})();
-
-var Test = (function () {
-    function Test() {
-    }
-    Object.defineProperty(Test.prototype, "Property", { get : function () {
-            var x = 1;
-            return null;
-        }, enumerable : true, configurable : true })
-    return Test;
-})();
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -139,19 +139,13 @@ switch (x) { case x: {continue;} }
 
 
 ```javascript
-
-switch (x) {
-    case x: {
-        continue;
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

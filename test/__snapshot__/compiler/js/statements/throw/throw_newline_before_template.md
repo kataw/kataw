@@ -71,17 +71,13 @@ throw
 
 
 ```javascript
-
-throw 
-;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 8, end: 0
 
 ```
 

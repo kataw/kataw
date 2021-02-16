@@ -619,28 +619,13 @@ var y = {
 
 
 ```javascript
-
-class C {
-    get x() {
-        return 1;
-    }
-}
-
-class D {
-    set x(v) {
-    }
-}
-
-var x = { get a() { return 1; } };
-
-var y = { set b(v) { } };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

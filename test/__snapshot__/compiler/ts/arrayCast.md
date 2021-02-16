@@ -416,23 +416,13 @@
 
 
 ```javascript
-
-<{
-    id: number;
-}[]>[{ foo : "s" }]
-
-<{
-    id: number;
-}[]>[{ foo : "s" }, { }]
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ',' expected. - start: 58, end: 0
-✖ Declaration or statement expected - start: 60, end: 0
 
 ```
 

@@ -1053,37 +1053,13 @@ class C extends B {
 
 
 ```javascript
-
-interface A {
-    prop: string;
-    raw: string;
-    m(): void;
-}
-
-abstract class B implements A {
-    prop: string;
-    raw: string;
-    readonly ro: string;
-    abstract get readonlyProp(): string;
-    abstract set readonlyProp(val: string);
-    abstract m(): void;
-}
-
-class C extends B {
-    get prop() { return "foo"; }
-    set prop(v) { }
-    raw = "edge";
-    readonly ro = "readonly please";
-    readonlyProp: string;
-    m() { }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

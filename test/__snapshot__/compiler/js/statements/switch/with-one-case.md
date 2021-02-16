@@ -116,17 +116,13 @@ switch (x) { case y: break; }
 
 
 ```javascript
-
-switch (x) {
-    case y: break;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

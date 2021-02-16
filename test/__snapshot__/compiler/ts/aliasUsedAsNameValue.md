@@ -157,15 +157,13 @@ function b(a) { return null; }
 
 
 ```javascript
-
-function b(a) { return null; }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

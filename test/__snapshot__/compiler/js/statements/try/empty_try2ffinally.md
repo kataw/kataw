@@ -102,16 +102,13 @@ try {} finally {}
 
 
 ```javascript
-
-try {}
-finally {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

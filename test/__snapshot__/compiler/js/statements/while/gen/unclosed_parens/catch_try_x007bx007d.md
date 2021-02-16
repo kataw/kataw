@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\while\gen\unclosed_parens
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\while\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: catch try {}
 ## Input
@@ -215,20 +215,13 @@ while( catch try {}
 
 
 ```javascript
-
-while (undefined)
-    try {}
-    catch {}
-
-try {}
-finally {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

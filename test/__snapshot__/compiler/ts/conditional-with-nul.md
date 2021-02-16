@@ -144,15 +144,13 @@ let x: number extends string ? boolean : null;
 
 
 ```javascript
-
-let x: number extends string ? boolean : null;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

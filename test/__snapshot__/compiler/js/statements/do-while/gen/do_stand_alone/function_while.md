@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\do-while\gen\do_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\do_stand_alone
 > :: test: do stand alone
 > :: case: function while
 ## Input
@@ -145,19 +145,13 @@ do function while
 
 
 ```javascript
-
-do
-    function () { }
-while (undefined);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ In non-strict mode code, functions can only be declared at top level, inside a block, or as the body of an if statement - start: 8, end: 0
-✖ Identifier expected - start: 17, end: 0
 
 ```
 

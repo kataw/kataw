@@ -76,16 +76,13 @@ throw/("
 
 
 ```javascript
-
-throw /(";
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 11, end: 1
 
 ```
 

@@ -101,15 +101,13 @@ do {} while ((""));
 
 
 ```javascript
-
-do {} while ((""));
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

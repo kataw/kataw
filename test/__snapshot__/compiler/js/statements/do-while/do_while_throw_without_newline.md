@@ -228,19 +228,13 @@ do throw function (v, h) {
 
 
 ```javascript
-
-do
-    throw function (v, h) {
-        "use strict"
-    };
-while ((""));
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -131,19 +131,13 @@ f += '';
 
 
 ```javascript
-
-class f {
-
-}
-
-f += ""
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

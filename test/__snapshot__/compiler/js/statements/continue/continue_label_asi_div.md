@@ -136,19 +136,13 @@ x: for(;;) continue x
 
 
 ```javascript
-
-x: for (;;)
-    continue x;
-
-/y
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 32, end: 1
 
 ```
 

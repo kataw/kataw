@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\while\gen\try_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\while\gen\try_with_invalid_array
 > :: test: try with invalid array
 > :: case: /)finally
 ## Input
@@ -200,20 +200,13 @@ while [catch] /)finally
 
 
 ```javascript
-
-while ([])
-    try {}
-    catch {}
-
-/)finally
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 46, end: 1
 
 ```
 

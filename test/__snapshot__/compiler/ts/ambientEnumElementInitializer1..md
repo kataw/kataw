@@ -118,17 +118,13 @@ declare enum E {
 
 
 ```javascript
-
-declare enum E {
-    e = 3
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

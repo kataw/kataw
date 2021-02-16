@@ -148,16 +148,13 @@ catch (v = b) {}
 
 
 ```javascript
-
-try {}
-catch (v = b) {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\block\gen\block_with_invalid_array
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\block\gen\block_with_invalid_array
 > :: test: block with invalid array
 > :: case: /false//a
 ## Input
@@ -232,21 +232,13 @@
 
 
 ```javascript
-
-{
-    []
-    try {}
-    catch {}
-}
-
-/false/ / a
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

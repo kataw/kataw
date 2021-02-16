@@ -1006,45 +1006,13 @@ class F {
 
 
 ```javascript
-
-class C {
-    get x() {
-        return 1;
-    }
-    private set x(v) {
-    }
-}
-
-class D {
-    private get x() {
-        return 1;
-    }
-    private set x(v) {
-    }
-}
-
-class E {
-    private set x(v) {
-    }
-    get x() {
-        return 1;
-    }
-}
-
-class F {
-    private static set x(v) {
-    }
-    static get x() {
-        return 1;
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

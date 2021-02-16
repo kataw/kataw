@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/labelled/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\labelled\gen\try_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/labelled/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\labelled\gen\try_triple
 > :: test: try triple
 > :: case: function while
 ## Input
@@ -303,25 +303,13 @@ try try try function while
 
 
 ```javascript
-
-try {}
-finally {}
-
-try {}
-finally {}
-
-try {}
-finally {}
-
-function () { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Identifier expected - start: 67, end: 0
 
 ```
 

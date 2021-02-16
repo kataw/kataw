@@ -139,17 +139,13 @@
 
 
 ```javascript
-
-() =>  { {
-    break;
-} }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

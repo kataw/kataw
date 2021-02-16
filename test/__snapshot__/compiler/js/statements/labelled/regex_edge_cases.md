@@ -87,18 +87,13 @@ debugger
 
 
 ```javascript
-
-debugger;
-
-/bar
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Unterminated regular expression literal - start: 16, end: 1
 
 ```
 

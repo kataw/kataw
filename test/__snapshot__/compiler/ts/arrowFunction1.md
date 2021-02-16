@@ -212,17 +212,13 @@ var v = (a: ) => {
 
 
 ```javascript
-
-var v = (a: ) =>  {
-};
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ Type expected - start: 13, end: 0
 
 ```
 

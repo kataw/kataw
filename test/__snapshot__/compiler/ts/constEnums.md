@@ -1757,49 +1757,13 @@ const enum Enum1 {
 
 
 ```javascript
-
-const enum Enum1 {
-    A0 = 100
-}
-
-const enum Enum1 {
-    A,
-    B,
-    C = 10,
-    D = A | B,
-    E = A | 1,
-    F = 1 | A,
-    G = (1 & 1),
-    H = ~ (A | B),
-    I = A >>> 1,
-    J = 1 & A,
-    K = ~ (1 | 5),
-    L = ~ D,
-    M = E << B,
-    N = E << 1,
-    O = E >> B,
-    P = E >> 1,
-    PQ = E ** 2,
-    Q = - D,
-    R = C & 5,
-    S = 5 & C,
-    T = C | D,
-    U = C | 1,
-    V = 10 | D,
-    W = Enum1.V,
-    W1 = A0,
-    W2 = Enum1.A0,
-    W3 = Enum1["A0"],
-    W4 = Enum1["W"],
-    W5 = Enum1[V]
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

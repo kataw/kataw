@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/if/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\if\gen\if_else
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\if\gen\if_else
 > :: test: if else
 > :: case: catch { try
 ## Input
@@ -231,22 +231,13 @@ if catch { try else
 
 
 ```javascript
-
-if (undefined)
-    try {}
-    catch {
-        try {}
-        finally {}
-    }
-else
-    undefined
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

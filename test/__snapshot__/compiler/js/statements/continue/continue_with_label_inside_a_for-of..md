@@ -127,16 +127,13 @@ foo: for (x of y) continue foo
 
 
 ```javascript
-
-foo: for (x of y)
-    continue foo;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

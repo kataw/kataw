@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/throw/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\throw\gen\throw_stand_alone
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/throw/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\throw\gen\throw_stand_alone
 > :: test: throw stand alone
 > :: case: catch try {
 ## Input
@@ -215,21 +215,13 @@ throw catch try {
 
 
 ```javascript
-
-throw undefined;
-
-try {}
-catch {}
-
-try {}
-finally {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

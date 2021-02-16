@@ -3967,110 +3967,13 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
 
 
 ```javascript
-
-for (let x = 1, y = 2;; ++x; x < y)
-    undefined, --y
-
-{
-    let a = () => x++ + y++;
-    if (x == 1) {
-        break;
-    }
-    else {
-        for (let a = 1;; --a; a < 5) {
-            let f = () => a;
-            if (a) {
-                a = x
-                break;
-            }
-            else {
-                y++
-            }
-        }
-        y = 5
-    }
-}
-
-for (let x = 1, y = 2;; ++x; x < y)
-    undefined, --y
-
-{
-    let a = () => x++ + y++;
-    if (x == 1) {
-        continue;
-    }
-    else {
-        for (let a = 1;; --a; a < 5) {
-            let f = () => a;
-            if (a) {
-                a = x
-                continue;
-            }
-            else {
-                y++
-            }
-        }
-        y = 5
-    }
-}
-
-loop2: for (let x = 1, y = 2;; ++x; x < y)
-    undefined, --y
-
-{
-    let a = () => x++ + y++;
-    if (x == 1) {
-        break loop2;
-    }
-    else {
-        loop1: for (let a = 1;; --a; a < 5) {
-            let f = () => a;
-            if (a) {
-                a = x
-                break loop1;
-            }
-            else {
-                y++
-                break loop2;
-            }
-        }
-        y = 5
-    }
-}
-
-loop2: for (let x = 1, y = 2;; ++x; x < y)
-    undefined, --y
-
-{
-    let a = () => x++ + y++;
-    if (x == 1) {
-        continue loop2;
-    }
-    else {
-        loop1: for (let a = 1;; --a; a < 5) {
-            let f = () => a;
-            if (a) {
-                a = x
-                continue loop1;
-            }
-            else {
-                y++
-                continue loop2;
-            }
-        }
-        y = 5
-    }
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ';' expected. - start: 1370, end: 0
-✖ Declaration or statement expected - start: 1605, end: 0
-✖ Declaration or statement expected - start: 1607, end: 0
 
 ```
 

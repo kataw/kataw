@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/with/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\with\gen\with_triple
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/with/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\with\gen\with_triple
 > :: test: with triple
 > :: case: catch { try
 ## Input
@@ -265,22 +265,13 @@ with with with catch { try
 
 
 ```javascript
-
-with(undefined)
-    with(undefined)
-        with(undefined)
-            try {}
-            catch {
-                try {}
-                finally {}
-            }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

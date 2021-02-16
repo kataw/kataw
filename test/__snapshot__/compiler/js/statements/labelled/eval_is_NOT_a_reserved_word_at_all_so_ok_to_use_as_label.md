@@ -92,15 +92,13 @@ eval: x;
 
 
 ```javascript
-
-eval: x
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

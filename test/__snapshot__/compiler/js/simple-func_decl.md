@@ -1,5 +1,11 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
@@ -87,7 +93,7 @@ function x () {}
         "start": 0,
         "end": 16
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
     "diagnostics": [],
     "parent": null,
@@ -105,15 +111,13 @@ function x () {}
 
 
 ```javascript
-
-function x() { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -163,20 +163,13 @@ function x(){
 
 
 ```javascript
-
-function x() {
-    if (x)
-        return / /;
-    else
-        ;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

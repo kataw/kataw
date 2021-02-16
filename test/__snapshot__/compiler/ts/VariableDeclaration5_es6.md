@@ -115,15 +115,13 @@ const a: number = 1
 
 
 ```javascript
-
-const a: number = 1;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

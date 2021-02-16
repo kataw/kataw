@@ -748,29 +748,13 @@ function x ( { (function !! function): string
 
 
 ```javascript
-
-function x(x: string);
-
-function x() { }
-
-string
-
-function x(x: string);
-
-function x() { (x: string) {
-    function x({ }) { function () { ! function () { } } }
-} }
-
-string
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ ';' expected. - start: 102, end: 0
-✖ Identifier expected - start: 135, end: 0
 
 ```
 

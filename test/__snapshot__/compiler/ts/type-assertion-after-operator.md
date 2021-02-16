@@ -112,15 +112,13 @@
 
 
 ```javascript
-
-1 + <number>1
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

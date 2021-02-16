@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\return\gen\return_return
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\return\gen\return_return
 > :: test: return return
 > :: case: function while
 ## Input
@@ -155,18 +155,13 @@ return function while return
 
 
 ```javascript
-
-return function () { };
-
-while (undefined)
-    return;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

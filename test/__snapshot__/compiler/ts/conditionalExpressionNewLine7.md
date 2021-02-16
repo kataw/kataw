@@ -141,15 +141,13 @@ var v = a ?
 
 
 ```javascript
-
-var v = a ? b : c;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

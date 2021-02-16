@@ -116,17 +116,13 @@ do async
 
 
 ```javascript
-
-do
-    async()
-while (y);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

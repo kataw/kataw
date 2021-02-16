@@ -171,16 +171,13 @@ try {} catch([e]){}
 
 
 ```javascript
-
-try {}
-catch ([e]) {}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

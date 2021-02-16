@@ -925,33 +925,13 @@ var d = new x(x); // no error
 
 
 ```javascript
-
-var x: any;
-
-var a = new x();
-
-var b = new x("hello");
-
-var c = new x(x);
-
-var d = new x<any>(x);
-
-var x;
-
-var a = new x();
-
-var b = new x("hello");
-
-var c = new x(x);
-
-var d = new x(x);
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

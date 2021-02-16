@@ -126,19 +126,13 @@ switch (A) {default: B; break;}
 
 
 ```javascript
-
-switch (A) {
-    default:
-        B
-        break;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -166,15 +166,13 @@
 
 
 ```javascript
-
-({ foo() { return; } })
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

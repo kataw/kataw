@@ -122,15 +122,13 @@
 
 
 ```javascript
-
-(a as number) = 42
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

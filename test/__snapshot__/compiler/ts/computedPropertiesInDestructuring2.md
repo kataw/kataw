@@ -294,17 +294,13 @@ let {[foo2()]: bar3} = {};
 
 
 ```javascript
-
-let foo2 = () => "bar";
-
-let { [foo2()]: bar3 } = { };
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

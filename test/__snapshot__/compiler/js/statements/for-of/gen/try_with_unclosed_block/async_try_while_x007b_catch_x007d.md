@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for-of/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for-of\gen\try_with_unclosed_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for-of\gen\try_with_unclosed_block
 > :: test: try with unclosed block
 > :: case: async try while { catch }
 ## Input
@@ -334,26 +334,13 @@ try {} finally(x) { async try while { catch }
 
 
 ```javascript
-
-try {}
-finally {}
-
-(x)
-
-{
-    async
-    try {}
-    finally {}
-    while ({ catch })
-        undefined
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

@@ -142,15 +142,13 @@
 
 
 ```javascript
-
-(a as number as any) = 42
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

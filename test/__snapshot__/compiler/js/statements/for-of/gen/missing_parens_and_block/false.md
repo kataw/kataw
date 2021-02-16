@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/for-of/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for-of\gen\missing_parens_and_block
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\for-of\gen\missing_parens_and_block
 > :: test: missing parens and block
 > :: case: false
 ## Input
@@ -153,18 +153,13 @@ try catch false
 
 
 ```javascript
-
-try {}
-catch {}
-
-false
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✔ No errors
+
 ```
 

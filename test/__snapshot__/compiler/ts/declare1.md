@@ -333,19 +333,13 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 
 
 ```javascript
-
-declare const c1: boolean = true;
-
-declare const c2: number = 0;
-
-declare const c3 = null, c4: string = "", c5: any = 0;
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

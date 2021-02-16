@@ -144,15 +144,13 @@ func(a: T);
 
 
 ```javascript
-
-func(a: T)
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

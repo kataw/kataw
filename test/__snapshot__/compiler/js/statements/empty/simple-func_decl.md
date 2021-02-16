@@ -105,15 +105,13 @@ function x () {}
 
 
 ```javascript
-
-function x() { }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-15
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/while/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\while\gen\unclosed_parens
+- Regenerated: 2021-02-16
+- From: kataw8\test\__snapshot__/compiler/js/statements/while/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\while\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: =! class function try while with foo!
 ## Input
@@ -296,22 +296,13 @@ while( =! class function try while with foo!
 
 
 ```javascript
-
-while (undefined = ! class {
-})
-    function () { while (undefined)
-        with()
-            undefined }
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-✖ In non-strict mode code, functions can only be declared at top level, inside a block, or as the body of an if statement - start: 37, end: 0
-✖ Identifier expected - start: 46, end: 0
-✖ Identifier expected - start: 82, end: 0
 
 ```
 

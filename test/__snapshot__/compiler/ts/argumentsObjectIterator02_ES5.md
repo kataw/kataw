@@ -737,22 +737,13 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
 
 
 ```javascript
-
-function doubleAndReturnAsArray(x: number, y: number, z: number): [number, number, number] {
-    let blah = arguments[Symbol.iterator];
-    let result = [];
-    for (let arg; of blah()) {
-        result.push(arg + arg)
-    }
-    return <[any, any, any]>result;
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 

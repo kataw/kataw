@@ -457,21 +457,13 @@ function bar<T>(x: Foo<T> | string): T {
 
 
 ```javascript
-
-interface Foo<T> {
-    x: T;
-}
-
-function bar<T>(x: Foo<T> | string): T {
-    return bar(x);
-}
-
+✖ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-No errors!
+
 ```
 
