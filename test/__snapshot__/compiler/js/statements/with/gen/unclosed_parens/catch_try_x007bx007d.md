@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-16
-- From: kataw8\test\__snapshot__/compiler/js/statements/with/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\with\gen\unclosed_parens
+- From: kataw_dev\test\__snapshot__/compiler/js/statements/with/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\statements\with\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: catch try {}
 ## Input

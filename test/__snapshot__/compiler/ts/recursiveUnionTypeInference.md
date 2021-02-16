@@ -457,7 +457,7 @@ function bar<T>(x: Foo<T> | string): T {
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

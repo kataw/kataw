@@ -420,7 +420,7 @@ let precedence2: number & string | boolean;
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

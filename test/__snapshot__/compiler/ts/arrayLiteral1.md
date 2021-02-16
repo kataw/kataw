@@ -141,7 +141,7 @@ var v30 = [1, 2];
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

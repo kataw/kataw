@@ -228,7 +228,7 @@ do throw function (v, h) {
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

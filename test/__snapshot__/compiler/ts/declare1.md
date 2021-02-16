@@ -333,7 +333,7 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

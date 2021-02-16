@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-16
-- From: kataw8\test\__snapshot__/compiler/js/statements/labelled/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\labelled\gen\catch_stand_alone
+- From: kataw_dev\test\__snapshot__/compiler/js/statements/labelled/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\statements\labelled\gen\catch_stand_alone
 > :: test: catch stand alone
 > :: case: =! class function try while with foo!
 ## Input

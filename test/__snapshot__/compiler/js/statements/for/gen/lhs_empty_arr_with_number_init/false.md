@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-16
-- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\lhs_empty_arr_with_number_init
+- From: kataw_dev\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for\gen\lhs_empty_arr_with_number_init
 > :: test: lhs empty arr with number init
 > :: case: false
 ## Input

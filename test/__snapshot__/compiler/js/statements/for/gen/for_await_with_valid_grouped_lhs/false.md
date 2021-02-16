@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-16
-- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_valid_grouped_lhs
+- From: kataw_dev\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_valid_grouped_lhs
 > :: test: for await with valid grouped lhs
 > :: case: false
 ## Input

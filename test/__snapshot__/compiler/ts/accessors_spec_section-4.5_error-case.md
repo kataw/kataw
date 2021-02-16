@@ -2971,7 +2971,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics

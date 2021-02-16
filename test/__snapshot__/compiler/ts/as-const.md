@@ -4552,7 +4552,7 @@ let q5 = <const> { x: 10, y: 20 };
 
 
 ```javascript
-✖ Soon to be open sourced
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
