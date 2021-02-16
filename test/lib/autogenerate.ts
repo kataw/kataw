@@ -24,14 +24,14 @@ export async function autogen(files: string[], conservative: boolean) {
 
   files = files.filter((f: string) => f.endsWith('autogen.md'));
 
-  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
+  let list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
     throw new Error(e);
   });
 
   list.forEach((obj: any) => {
-    const genDir = join(dirname(obj.file), 'gen');
+    let genDir = join(dirname(obj.file), 'gen');
     if (!conservative) {
-      const oldFiles: string[] = [];
+      let oldFiles: string[] = [];
       getTestFiles(genDir, '', oldFiles, true, true);
       // Note: the folder should only contain generated files and folders which should delete just fine
       oldFiles.forEach((file: string) => {
@@ -45,12 +45,12 @@ export async function autogen(files: string[], conservative: boolean) {
       mkdirSync(genDir, { recursive: true });
     }
 
-    const caseOffset = obj.data.indexOf(Constants.CASE_HEAD);
-    const templateOffset = obj.data.indexOf(Constants.TPL_HEAD, Constants.CASE_HEAD);
-    const outputOffset = obj.data.indexOf(Constants.OUT_HEAD, Constants.TPL_HEAD);
+    let caseOffset = obj.data.indexOf(Constants.Cases);
+    let templateOffset = obj.data.indexOf(Constants.Templates, Constants.Cases);
+    let outputOffset = obj.data.indexOf(Constants.AutoGenOutput, Constants.Templates);
 
-    const cases = obj.data
-      .slice(caseOffset + Constants.CASE_HEAD.length, templateOffset)
+    let cases = obj.data
+      .slice(caseOffset + Constants.Cases.length, templateOffset)
       .split('> `````js\n')
       .slice(1)
       .map((s: string) => {
@@ -63,16 +63,15 @@ export async function autogen(files: string[], conservative: boolean) {
           .join('\n');
       });
 
-    const params = obj.data
+    let params = obj.data
       .slice(
-        templateOffset + Constants.TPL_HEAD.length,
-        obj.data.indexOf('####', templateOffset + Constants.TPL_HEAD.length)
+        templateOffset + Constants.Templates.length,
+        obj.data.indexOf('####', templateOffset + Constants.Templates.length)
       )
       .split('\n')
       .map((s: any) => s.trim())
       .filter((s: any) => s[0] === '-')
       .reduce((obj: any, s: any) => {
-        //ASSERT(s[1] === ' ' && s[2] === '`' && s[s.length - 1] === '`', 'param composition', obj.file, s);
         let [k, v] = s.slice(2, -1).split(' = ');
         if (String(parseInt(v, 10)) === v) v = parseInt(k, 10);
         else if (v === 'true') v = true;
@@ -83,24 +82,24 @@ export async function autogen(files: string[], conservative: boolean) {
       }, {});
 
     // Temlates have a header and also have a ``js codeblock
-    const templates = obj.data
-      .slice(templateOffset + Constants.TPL_HEAD.length, outputOffset)
+    let templates = obj.data
+      .slice(templateOffset + Constants.Templates.length, outputOffset)
       .split('\n#### ')
       .slice(1) // first element is the header
       .map((s: any) => {
         // We split on the #### so the title should be at the start of `s` now
-        const title = s.split('\n')[0].trim();
+        let title = s.split('\n')[0].trim();
         // Get everything inside the js code block
-        const code = s.split('`````js\n')[1].split('\n`````')[0];
+        let code = s.split('`````js\n')[1].split('\n`````')[0];
         return { title, code };
       });
     // Now generate all cases with each # in the params and templates replaced with each case
 
     templates.forEach(({ title, code }: any) => {
-      const caseDir = join(genDir, san(String(title)));
+      let caseDir = join(genDir, san(String(title)));
       mkdirSync(caseDir, { recursive: true });
       cases.forEach((c: any) => {
-        const testFile = join(caseDir, san(String(c)) + '.md');
+        let testFile = join(caseDir, san(String(c)) + '.md');
 
         // immediately generate a test case for it, as well
         writeFileSync(

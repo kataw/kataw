@@ -1,7 +1,7 @@
 import { parseScript, parseModule } from '../src/kataw';
 //import { toJs } from '../src/compiler/printer/';
 import { Options } from '../src/compiler/types';
-import { getTestFiles, promiseToReadFile, Constants, ColorCodes } from './lib/utils';
+import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './lib/utils';
 import { autogen } from './lib/autogenerate';
 import { writeFile } from 'fs';
 import { resolve } from 'path';
@@ -42,10 +42,10 @@ async function runTest(list: any) {
   console.time(
     ColorCodes.GREEN + 'Running ' + ColorCodes.RESET + list.length + ' test cases.' + ColorCodes.yellow + ' Total time'
   );
-  const set = await Promise.all(
+  let set = await Promise.all(
     list.map(async (obj: any) => {
-      const { input, options } = obj;
-      const result = await generateSourceFile(
+      let { input, options } = obj;
+      let result = await generateSourceFile(
         input,
         {
           // Enable stage 3 support (ESNext)
@@ -100,11 +100,7 @@ async function writeNewOutput(list: any) {
       if (data !== previous) {
         if (AUTO_UPDATE) {
           ++updated;
-          let res: any,
-            rej: any,
-            p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
-          writeFile(file, data, 'utf8', (err: any) => (err ? rej(err) : res()));
-          return p;
+          promiseToWriteFile(file, data);
         } else {
           console.log('Output mismatch for', file);
           return Promise.resolve();
@@ -144,32 +140,32 @@ function parseTestFile(obj: any): any {
   if (!previous) return;
 
   // find the options
-  const optionsOffset = data.indexOf(Constants.Options_HEADER);
-  const start1 = data.indexOf(Constants.INPUT_START, optionsOffset);
-  const end1 = data.indexOf(Constants.INPUT_END, optionsOffset);
+  let optionsOffset = data.indexOf(Constants.Options);
+  let start1 = data.indexOf(Constants.JsStart, optionsOffset);
+  let end1 = data.indexOf(Constants.JsEnd, optionsOffset);
 
   // Negative if no opions are set, so we pass a empty obj
   const options =
-    optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + Constants.INPUT_START.length, end1) + '');
+    optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + Constants.JsStart.length, end1) + '');
 
-  const inputOffset = data.indexOf(Constants.INPUT_HEADER);
-  const start = data.indexOf(Constants.INPUT_START, inputOffset);
-  const end = data.indexOf(Constants.INPUT_END, inputOffset);
-  const input = data.slice(start + Constants.INPUT_START.length, end);
+  let inputOffset = data.indexOf(Constants.Input);
+  let start = data.indexOf(Constants.JsStart, inputOffset);
+  let end = data.indexOf(Constants.JsEnd, inputOffset);
+  let input = data.slice(start + Constants.JsStart.length, end);
 
   return { options, input };
 }
 
 function generateOutputBlock(currentOutput: any, ast: any, printed: any) {
   ast = JSON.stringify(ast, null, '    ');
-  let outputIndex = currentOutput.indexOf(Constants.OUTPUT_HEADER);
+  let outputIndex = currentOutput.indexOf(Constants.Output);
 
   if (outputIndex < 0) outputIndex = currentOutput.length;
 
   let diagnosticString = '';
 
   if (printed !== '✖ Soon to be open sourced') {
-    const diagnostics = parseScript(printed).diagnostics;
+    let diagnostics = parseScript(printed).diagnostics;
 
     if (diagnostics.length) {
       diagnostics.forEach(function (a: any) {
@@ -183,24 +179,24 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any) {
   return (
     '' +
     currentOutput.slice(0, outputIndex) +
-    Constants.OUTPUT_HEADER +
+    Constants.Output +
     '\n' +
-    Constants.OUTPUT_HEADER_SLOPPY +
+    Constants.Header +
     '\n' +
-    Constants.OUTPUT_CODE +
+    Constants.JavascriptStart +
     '' +
     ast +
-    Constants.OUTPUT_CODE1 +
-    Constants.OUTPUT_HEADER_PRINTED +
+    Constants.JavascriptEnd +
+    Constants.Printed +
     '\n' +
-    Constants.OUTPUT_CODE +
+    Constants.JavascriptStart +
     printed +
-    Constants.OUTPUT_CODE1 +
-    Constants.OUTPUT_HEADER_DIAGNOSTICS +
+    Constants.JavascriptEnd +
+    Constants.Diagnostics +
     '\n' +
-    Constants.OUTPUT_CODE +
+    Constants.JavascriptStart +
     diagnosticString +
-    Constants.OUTPUT_CODE1 +
+    Constants.JavascriptEnd +
     '\n' +
     ''
   );
