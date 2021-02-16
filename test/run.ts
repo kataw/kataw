@@ -1,5 +1,6 @@
-import { parseScript } from '../src/kataw';
+import { parseScript, parseModule } from '../src/kataw';
 //import { toJs } from '../src/compiler/printer/';
+import { Options } from '../src/compiler/types';
 import { readFiles, getTestFiles, Templates, ColorCodes } from './lib/utils';
 import { autogen } from './lib/autogenerate';
 import { writeFile } from 'fs';
@@ -27,23 +28,33 @@ if (process.argv.includes('-?') || process.argv.includes('--help')) {
 if (AUTO_UPDATE && AUTO_GENERATE) throw new Error('Cannot use auto update and auto generate together');
 
 async function extractFiles(list: any) {
-
   list.forEach((obj: any) => {
     ({ options: obj.options, input: obj.input } = parseTestFile(obj.data, obj.file));
   });
 }
 
 async function runTest(list: any) {
-
-  let bytes = 0;
   console.time(
     ColorCodes.GREEN + 'Running ' + ColorCodes.RESET + list.length + ' test cases.' + ColorCodes.yellow + ' Total time'
   );
   let set = await Promise.all(
     list.map(async (obj: any) => {
-      let { input } = obj;
-      bytes += input.length;
-      let result = parseScript(input, obj.options);
+      let { input, options } = obj;
+      let result = await generateSourceFile(
+        input,
+        {
+          // Enable stage 3 support (ESNext)
+          next: options.next,
+          // Enable React JSX parsing
+          jsx: options.jsx,
+          // Disable web compatibility
+          disableWebCompat: options.disableWebCompat,
+          // Enables implied strict mode
+          impliedStrict: options.impliedStrict
+        },
+        obj.module,
+        obj.incremental
+      );
 
       return { obj, result };
     })
@@ -54,10 +65,19 @@ async function runTest(list: any) {
 
   await Promise.all(
     set.map(async ({ obj, result }: any) => {
-      obj.newoutput.sloppy = result, obj.file;
-      obj.newoutput.pretty = '✖ Soon to be open sourced';//toJs(result);
+      (obj.newoutput.ast = result), obj.file;
+      obj.newoutput.pretty = '✖ Soon to be open sourced'; //toJs(result);
     })
   );
+}
+
+async function generateSourceFile(
+  input: string,
+  options: Options,
+  isModule: boolean,
+  /* TODO */ _isIncremental: boolean
+) {
+  return isModule ? parseModule(input, options) : parseScript(input, options);
 }
 
 async function runTests(list: any) {
@@ -67,7 +87,7 @@ async function runTests(list: any) {
 }
 async function constructNewOutput(list: any) {
   list.forEach((obj: any) => {
-    obj.data = generateOutputBlock(obj.data, obj.newoutput.sloppy, obj.newoutput.pretty);
+    obj.data = generateOutputBlock(obj.data, obj.newoutput.ast, obj.newoutput.pretty);
   });
 }
 
@@ -113,31 +133,26 @@ const Options_HEADER = '\n## Options\n';
 const INPUT_HEADER = '\n## Input\n';
 const INPUT_START = '\n`````js\n';
 const INPUT_END = '\n`````\n';
+
 function parseTestFile(data: any, _file: any): any {
   // find the options
   let optionsOffset = data.indexOf(Options_HEADER);
   let start1 = data.indexOf(INPUT_START, optionsOffset);
   let end1 = data.indexOf(INPUT_END, optionsOffset);
 
-  const options = optionsOffset === -1 ? {} : eval("0||"+ data.slice(start1 + INPUT_START.length, end1) + "");
+  // Negative if no options are set, so we pass a empty obj instead
+  const options = optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + INPUT_START.length, end1) + '');
 
-  // find the input
   let inputOffset = data.indexOf(INPUT_HEADER);
-  //ASSERT(inputOffset >= 0, 'should have an input header', file);
   let start = data.indexOf(INPUT_START, inputOffset);
-  //ASSERT(start >= 0, 'Should have the start of a test case', file);
   let end = data.indexOf(INPUT_END, inputOffset);
-  //ASSERT(end >= 0, 'Should have the end of a test case', file);
-
-
-  // Find the test case between START and END
   let input = data.slice(start + INPUT_START.length, end);
 
   return { options, input };
 }
 
-function generateOutputBlock(currentOutput: any, sloppyOutput: any, printed: any) {
-  sloppyOutput = JSON.stringify(sloppyOutput, null, '    ');
+function generateOutputBlock(currentOutput: any, ast: any, printed: any) {
+  ast = JSON.stringify(ast, null, '    ');
   let outputIndex = currentOutput.indexOf(Templates.OUTPUT_HEADER);
 
   if (outputIndex < 0) outputIndex = currentOutput.length;
@@ -145,17 +160,17 @@ function generateOutputBlock(currentOutput: any, sloppyOutput: any, printed: any
   let diagnosticString = '';
 
   if (printed !== '✖ Soon to be open sourced') {
-  let diagnostics = parseScript(printed).diagnostics;
+    let diagnostics = parseScript(printed).diagnostics;
 
-  if (diagnostics.length) {
-    diagnostics.forEach(function (a: any) {
-      diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
-      diagnosticString += '\n';
-    });
-  } else {
-    diagnosticString += '✔ No errors';
+    if (diagnostics.length) {
+      diagnostics.forEach(function (a: any) {
+        diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
+        diagnosticString += '\n';
+      });
+    } else {
+      diagnosticString += '✔ No errors';
+    }
   }
-}
   return (
     '' +
     currentOutput.slice(0, outputIndex) +
@@ -165,7 +180,7 @@ function generateOutputBlock(currentOutput: any, sloppyOutput: any, printed: any
     '\n' +
     Templates.OUTPUT_CODE +
     '' +
-    sloppyOutput +
+    ast +
     Templates.OUTPUT_CODE1 +
     Templates.OUTPUT_HEADER_PRINTED +
     '\n' +
