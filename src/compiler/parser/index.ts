@@ -507,7 +507,7 @@ function parseHeritageClauses(parser: ParserState, context: Context): HeritageCl
     }
 
     nextToken(parser, context);
-    let curPos = parser.curPos;
+    const curPos = parser.curPos;
 
     const clauses = [];
 
@@ -558,7 +558,7 @@ function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBl
   if (consume(parser, context, Token.LeftBrace)) {
     const curPos = parser.curPos;
     const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
-    let statements = [];
+    const statements = [];
     while (parser.token & Constants.SourceElements) {
       statements.push(
         getCurrentNode(parser, context, context & Context.Module ? parseModuleItemList : parseStatementListItem)
@@ -2482,7 +2482,7 @@ function isAccessModifier(t: Token): boolean {
 function parseAccessModifier(parser: ParserState, context: Context, endToken: Token): AccessModifier | null {
   if (isAccessModifier(parser.token)) {
     const pos = parser.curPos;
-    let token = parser.token;
+    const token = parser.token;
     if (
       tryParse(parser, context, () => {
         nextToken(parser, context);
@@ -3874,7 +3874,7 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
   // modifier we care about here. Others like "abstract" and "declare" are invalid, so we parse them
   // out as normal and report a missing "," instead. This so we can handle this correctly in the grammar
   // checker and the linter.
-  let isReadOnly =
+  const isReadOnly =
     parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenIsBindingPatternOnSameLine);
 
   const binding = parseIdentifierOrPattern(
@@ -5529,11 +5529,12 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
       // If we don't have "readonly" modifer or "[", then this cannot be a valid MappedType
       if (parser.token !== Token.LeftBracket || parser.token === Token.ReadonlyKeyword) return false;
 
-
-     const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, function () {
-      nextToken(parser, context);
-       return parser.token === Token.LeftBracket;
-     });
+      const isReadOnly =
+        parser.token === Token.ReadonlyKeyword &&
+        tryParse(parser, context, function () {
+          nextToken(parser, context);
+          return parser.token === Token.LeftBracket;
+        });
 
       nextToken(parser, context);
 

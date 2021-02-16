@@ -1,4 +1,4 @@
-import { readFile, statSync, readdirSync } from 'fs';
+import { readFile, statSync, readdirSync, writeFile, existsSync } from 'fs';
 
 export const enum ColorCodes {
   BOLD = '\x1b[;1;1m',
@@ -9,7 +9,7 @@ export const enum ColorCodes {
   RESET = '\x1b[0m'
 }
 
-export const enum Templates {
+export const enum Constants {
   OUTPUT_HEADER = '\n## Output\n',
   OUTPUT_HEADER_SLOPPY = '\n### Hybrid CST\n',
   OUTPUT_HEADER_PRINTED = '\n### Printed\n',
@@ -18,7 +18,14 @@ export const enum Templates {
   OUTPUT_HEADER_WEB = '\n### Web compat mode\n',
   OUTPUT_HEADER_DIAGNOSTICS = '\n### Diagnostics\n',
   OUTPUT_CODE = '\n```javascript\n',
-  OUTPUT_CODE1 = '\n```\n'
+  OUTPUT_CODE1 = '\n```\n',
+  Options_HEADER = '\n## Options\n',
+  INPUT_HEADER = '\n## Input\n',
+  INPUT_START = '\n`````js\n',
+  INPUT_END = '\n`````\n',
+  CASE_HEAD = '### Cases',
+  TPL_HEAD = '### Templates',
+  OUT_HEAD = '## Output'
 }
 export const enum State {
   True = 1,
@@ -40,7 +47,7 @@ export function san(dir: any) {
 }
 
 export function getTestFiles(path: any, file: any, files: any, silent: any, dirsToo?: any): any {
-  let combo = path + file;
+  const combo = path + file;
   if (!statSync(combo).isFile()) {
     //    if (!silent) LOG('getTestFiles dir:', path + file);
     readdirSync(combo + '/').forEach((s) => getTestFiles(combo + '/', s, files, silent, dirsToo));
@@ -52,16 +59,30 @@ export function getTestFiles(path: any, file: any, files: any, silent: any, dirs
     }
   }
 }
+/*
+export function encodeUnicode(str: string): string {
+  return str.replace(/[^\u0020-\u007e\n]/ug, m => '@{x'+m.codePointAt(0).toString(16)+'}@');
+}
 
-export async function readFiles(files: any) {
-  let list = await Promise.all(
-    files.map((file: any) => {
-      let res: any,
-        rej: any,
-        p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
-      readFile(file, 'utf8', (err, data) => (err ? rej(err) : res({ file, _data: data, data })));
-      return p;
-    })
-  );
-  return list;
+export function decodeUnicode(str: string): string {
+  return str.replace(/@\{x?([0-9a-z]+)\}@/gi, (_, g) => String.fromCodePoint(parseInt(g, 16)));
+}
+*/
+
+export function promiseToWriteFile(file: any, data: any): any {
+  let res: any;
+  let rej: any;
+  const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
+  // data = encodeUnicode(data);
+  writeFile(file, data, 'utf8', (err: any) => (err ? rej(err) : res()));
+  return p;
+}
+
+export function promiseToReadFile(file: any) {
+  if (!existsSync(file)) console.error(ColorCodes.BLINK + 'File does not exist:' + ColorCodes.RESET + ' ' + file);
+  let res: any,
+    rej: any,
+    p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
+  readFile(file, 'utf8', (err, data) => (err ? rej(err) : res({ file, previous: data, data })));
+  return p;
 }

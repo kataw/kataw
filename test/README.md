@@ -25,5 +25,7 @@ The second argument allows you to specify various options:
 
 | Option        | Description |
 | ----------- | ------------------------------------------------------------ |
-| `-u`          | Regenerate computed test case blocks (*process all autogen.md files*) |
-| `-g`          | Auto-update tests with the results |
+| `-f "path"` | Only test *this* file / dir
+| `-u`        | Regenerate computed test case blocks (*process all autogen.md files*) |
+| `-g`        | Auto-update tests with the results |
+| `-G`        | Same as -g except it skips existing files |
