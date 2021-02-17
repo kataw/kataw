@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-16
-- From: kataw_dev\test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_static_setter_in_class
+- Regenerated: 2021-02-17
+- From: kataw8\test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_static_setter_in_class
 > :: test: as static setter in class
 > :: case: with
 ## Input

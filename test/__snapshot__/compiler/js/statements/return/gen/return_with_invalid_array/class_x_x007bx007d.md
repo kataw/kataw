@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-16
-- From: kataw_dev\test\__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\statements\return\gen\return_with_invalid_array
+- Regenerated: 2021-02-17
+- From: kataw8\test\__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\statements\return\gen\return_with_invalid_array
 > :: test: return with invalid array
 > :: case: class x {}
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-16
-- From: kataw_dev\test\__snapshot__/compiler/js/expressions/assign/keyword_with_escapes_check/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\expressions\assign\keyword_with_escapes_check\gen\assignment_unwrapped
+- Regenerated: 2021-02-17
+- From: kataw8\test\__snapshot__/compiler/js/expressions/assign/keyword_with_escapes_check/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\expressions\assign\keyword_with_escapes_check\gen\assignment_unwrapped
 > :: test: assignment unwrapped
 > :: case: \u0070ackage
 ## Input
