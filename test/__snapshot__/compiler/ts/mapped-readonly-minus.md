@@ -42,79 +42,11 @@
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 230,
-                                "objectTypeMembers": {
-                                    "kind": 169,
-                                    "members": [],
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 11,
-                                    "end": 11
-                                },
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 9,
-                                "end": 11
-                            },
-                            "initializer": null,
-                            "flags": 2,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 4,
-                            "end": 11
-                        }
-                    ],
-                    "flags": 18,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 4,
-                    "end": 11
-                },
-                "flags": 18,
-                "intersects": false,
-                "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
-                "start": 0,
-                "end": 11
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65592,
-                    "shortCircuit": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 65774,
-                            "operator": "-",
-                            "operand": {
-                                "kind": 74308,
-                                "member": {
-                                    "kind": 196712,
-                                    "text": "readonly",
-                                    "rawText": "readonly",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 13,
-                                    "end": 21
-                                },
-                                "expression": {
-                                    "kind": 65563,
-                                    "left": {
-                                        "kind": 196712,
+                                "kind": 143,
+                                "typeParameter": {
+                                    "kind": 232,
+                                    "name": {
+                                        "kind": 196711,
                                         "text": "P",
                                         "rawText": "P",
                                         "flags": 0,
@@ -125,110 +57,73 @@
                                         "start": 23,
                                         "end": 24
                                     },
-                                    "operator": "in",
-                                    "right": {
-                                        "kind": 196712,
-                                        "text": "string",
-                                        "rawText": "string",
+                                    "constraint": {
+                                        "kind": 4194510,
                                         "flags": 0,
                                         "intersects": false,
-                                        "transformFlags": 0,
+                                        "transformFlags": 2097152,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 27,
                                         "end": 34
                                     },
+                                    "defaultType": null,
+                                    "expression": null,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 0,
+                                    "transformFlags": 2097152,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 23,
                                     "end": 34
                                 },
+                                "nameType": null,
+                                "isReadOnly": true,
+                                "plus": true,
+                                "minus": false,
+                                "isOptional": true,
+                                "type": {
+                                    "kind": 161,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 2097152,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 38,
+                                    "end": 45
+                                },
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 2097152,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 21,
-                                "end": 35
+                                "start": 9,
+                                "end": 47
                             },
+                            "initializer": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 11,
-                            "end": 35
-                        },
-                        "operator": "-",
-                        "right": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 36,
-                            "end": 36
-                        },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 11,
-                        "end": 36
-                    },
-                    "consequent": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 37,
-                        "end": 37
-                    },
-                    "alternate": {
-                        "kind": 196712,
-                        "text": "number",
-                        "rawText": "number",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 38,
-                        "end": 45
-                    },
-                    "flags": 0,
+                            "start": 4,
+                            "end": 47
+                        }
+                    ],
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 11,
-                    "end": 45
+                    "start": 4,
+                    "end": 47
                 },
-                "flags": 0,
+                "flags": 16,
                 "intersects": false,
-                "transformFlags": 0,
+                "transformFlags": 769,
                 "parent": null,
                 "emitNode": null,
-                "start": 11,
-                "end": 45
-            },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 47,
+                "start": 0,
                 "end": 48
             }
         ],
@@ -242,36 +137,7 @@
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 12,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 36,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 37,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 46,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

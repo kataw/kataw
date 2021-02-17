@@ -21,11 +21,11 @@ x in[]=x
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x in[]=x",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -37,7 +37,7 @@ x in[]=x
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -53,7 +53,7 @@ x in[]=x
                                 "elements": [],
                                 "trailingComma": false,
                                 "multiline": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -61,7 +61,7 @@ x in[]=x
                                 "start": 5,
                                 "end": 5
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -69,7 +69,7 @@ x in[]=x
                             "start": 4,
                             "end": 6
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -82,7 +82,7 @@ x in[]=x
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -90,7 +90,7 @@ x in[]=x
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -108,7 +108,7 @@ x in[]=x
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

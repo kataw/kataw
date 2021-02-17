@@ -21,11 +21,11 @@ z(x);
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "z(x);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -35,7 +35,7 @@ z(x);
                         "kind": 196712,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -51,7 +51,7 @@ z(x);
                                 "kind": 196712,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -62,14 +62,14 @@ z(x);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 3,
                         "end": 4
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -87,7 +87,7 @@ z(x);
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

@@ -74,79 +74,36 @@ function *P(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
+                                    "kind": 196712,
+                                    "text": "yield",
+                                    "rawText": "yield",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 32,
-                                    "end": 32
+                                    "end": 38
                                 },
                                 "implementClauses": null,
                                 "members": {
                                     "kind": 50,
                                     "elements": [],
-                                    "flags": 2,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 14,
-                                    "end": 14
+                                    "start": 40,
+                                    "end": 41
                                 },
                                 "decorators": null,
-                                "flags": 16386,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 14,
-                                "end": 32
-                            },
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65785,
-                                    "delegate": false,
-                                    "expression": {
-                                        "kind": 67224232,
-                                        "propertyList": {
-                                            "kind": 65722,
-                                            "properties": [],
-                                            "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 40,
-                                            "end": 40
-                                        },
-                                        "flags": 16384,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 38,
-                                        "end": 41
-                                    },
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 16393,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 32,
-                                    "end": 41
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 32,
                                 "end": 41
                             }
                         ],
@@ -187,15 +144,7 @@ function *P(){
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 33,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

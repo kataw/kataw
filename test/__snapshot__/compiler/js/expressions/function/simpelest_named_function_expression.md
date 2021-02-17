@@ -20,11 +20,11 @@ foo(function f(){})
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "foo(function f(){})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -34,7 +34,7 @@ foo(function f(){})
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -52,7 +52,7 @@ foo(function f(){})
                                     "kind": 131102,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -64,7 +64,7 @@ foo(function f(){})
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -78,7 +78,7 @@ foo(function f(){})
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -86,7 +86,7 @@ foo(function f(){})
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -96,7 +96,7 @@ foo(function f(){})
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -107,14 +107,14 @@ foo(function f(){})
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 12,
                         "end": 19
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -132,7 +132,7 @@ foo(function f(){})
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

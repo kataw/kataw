@@ -26,11 +26,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "[]=n/f>>=v",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -43,7 +43,7 @@
                             "elements": [],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -51,7 +51,7 @@
                             "start": 1,
                             "end": 1
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -68,7 +68,7 @@
                                 "kind": 196712,
                                 "text": "n",
                                 "rawText": "n",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -81,7 +81,7 @@
                                 "kind": 196712,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -89,7 +89,7 @@
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -102,7 +102,7 @@
                             "kind": 196712,
                             "text": "v",
                             "rawText": "v",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -110,7 +110,7 @@
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -118,7 +118,7 @@
                         "start": 3,
                         "end": 10
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -136,7 +136,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

@@ -21,8 +21,8 @@ async () => { \u{61}wait: x }
         "kind": 197,
         "statements": [
             {
-                "kind": 2097292,
-                "label": {
+                "kind": 2097233,
+                "expression": {
                     "kind": 16,
                     "arrowParameters": {
                         "kind": 65545,
@@ -45,8 +45,8 @@ async () => { \u{61}wait: x }
                             "kind": 94,
                             "statements": [
                                 {
-                                    "kind": 2097233,
-                                    "expression": {
+                                    "kind": 2097292,
+                                    "label": {
                                         "kind": 65559,
                                         "expression": {
                                             "kind": 131322,
@@ -67,70 +67,70 @@ async () => { \u{61}wait: x }
                                         "start": 13,
                                         "end": 24
                                     },
+                                    "statement": {
+                                        "kind": 2097233,
+                                        "expression": {
+                                            "kind": 196712,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 25,
+                                            "end": 27
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 25,
+                                        "end": 27
+                                    },
+                                    "isWebCompat": true,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 13,
-                                    "end": 24
+                                    "end": 27
                                 }
                             ],
                             "multiline": false,
-                            "flags": 2,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
                             "start": 13,
-                            "end": 24
+                            "end": 27
                         },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 11,
-                        "end": 24
-                    },
-                    "flags": 536870914,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 0,
-                    "end": 24
-                },
-                "statement": {
-                    "kind": 2097233,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "x",
-                        "rawText": "x",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 25,
-                        "end": 27
+                        "start": 11,
+                        "end": 29
                     },
-                    "flags": 0,
+                    "flags": 536870912,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 25,
-                    "end": 27
+                    "start": 0,
+                    "end": 29
                 },
-                "isWebCompat": true,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 27
+                "end": 29
             }
         ],
         "transformFlags": 0,
@@ -149,13 +149,6 @@ async () => { \u{61}wait: x }
             "source": 2,
             "message": "Identifier expected",
             "start": 24,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 28,
             "length": 0
         }
     ],

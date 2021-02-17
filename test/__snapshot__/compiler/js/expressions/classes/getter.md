@@ -21,11 +21,11 @@ class x { get prototype(){} }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class x { get prototype(){} }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -33,7 +33,7 @@ class x { get prototype(){} }
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -59,7 +59,7 @@ class x { get prototype(){} }
                                     "kind": 196711,
                                     "text": "prototype",
                                     "rawText": "prototype",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -77,7 +77,7 @@ class x { get prototype(){} }
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -85,7 +85,7 @@ class x { get prototype(){} }
                                         "start": 26,
                                         "end": 26
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -97,7 +97,7 @@ class x { get prototype(){} }
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -105,7 +105,7 @@ class x { get prototype(){} }
                                 "start": 23,
                                 "end": 27
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -114,7 +114,7 @@ class x { get prototype(){} }
                             "end": 27
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -123,7 +123,7 @@ class x { get prototype(){} }
                     "end": 29
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -133,7 +133,7 @@ class x { get prototype(){} }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

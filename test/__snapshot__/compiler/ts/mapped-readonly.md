@@ -42,87 +42,55 @@
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 230,
-                                "objectTypeMembers": {
-                                    "kind": 169,
-                                    "members": [
-                                        {
-                                            "kind": 188,
-                                            "name": {
-                                                "kind": 55,
-                                                "expression": {
-                                                    "kind": 65563,
-                                                    "left": {
-                                                        "kind": 196712,
-                                                        "text": "P",
-                                                        "rawText": "P",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 23,
-                                                        "end": 24
-                                                    },
-                                                    "operator": "in",
-                                                    "right": {
-                                                        "kind": 196712,
-                                                        "text": "string",
-                                                        "rawText": "string",
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 27,
-                                                        "end": 34
-                                                    },
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 23,
-                                                    "end": 34
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 131073,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 12,
-                                                "end": 35
-                                            },
-                                            "isOptional": true,
-                                            "accessModifier": null,
-                                            "type": {
-                                                "kind": 161,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 37,
-                                                "end": 44
-                                            },
-                                            "isReadOnly": true,
-                                            "initializer": null,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 12,
-                                            "end": 45
-                                        }
-                                    ],
+                                "kind": 143,
+                                "typeParameter": {
+                                    "kind": 232,
+                                    "name": {
+                                        "kind": 196711,
+                                        "text": "P",
+                                        "rawText": "P",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 23,
+                                        "end": 24
+                                    },
+                                    "constraint": {
+                                        "kind": 4194510,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 27,
+                                        "end": 34
+                                    },
+                                    "defaultType": null,
+                                    "expression": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 12,
-                                    "end": 47
+                                    "start": 23,
+                                    "end": 34
+                                },
+                                "nameType": null,
+                                "isReadOnly": true,
+                                "plus": false,
+                                "minus": false,
+                                "isOptional": true,
+                                "type": {
+                                    "kind": 161,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 2097152,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 37,
+                                    "end": 44
                                 },
                                 "flags": 0,
                                 "intersects": false,

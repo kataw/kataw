@@ -76,21 +76,22 @@ x; {}
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
+                                    "kind": 196712,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 37,
-                                    "end": 37
+                                    "end": 43
                                 },
                                 "implementClauses": null,
                                 "members": {
                                     "kind": 50,
                                     "elements": [],
-                                    "flags": 2,
+                                    "flags": 16386,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -105,30 +106,20 @@ x; {}
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 19,
-                                "end": 37
+                                "end": 43
                             },
                             {
                                 "kind": 2097233,
                                 "expression": {
-                                    "kind": 65559,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 16384,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 43,
-                                        "end": 45
-                                    },
-                                    "flags": 0,
+                                    "kind": 196712,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 16386,
                                     "intersects": false,
-                                    "transformFlags": 32780,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 37,
+                                    "start": 43,
                                     "end": 45
                                 },
                                 "flags": 0,
@@ -136,7 +127,7 @@ x; {}
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 37,
+                                "start": 43,
                                 "end": 46
                             },
                             {
@@ -203,8 +194,8 @@ x; {}
         {
             "kind": 2,
             "source": 2,
-            "message": "Identifier expected",
-            "start": 38,
+            "message": "'{' expected.",
+            "start": 44,
             "length": 0
         }
     ],

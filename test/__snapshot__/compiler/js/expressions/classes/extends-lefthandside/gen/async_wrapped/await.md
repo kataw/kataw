@@ -74,78 +74,36 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
+                                    "kind": 196712,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 37,
-                                    "end": 37
+                                    "end": 43
                                 },
                                 "implementClauses": null,
                                 "members": {
                                     "kind": 50,
                                     "elements": [],
-                                    "flags": 2,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 19,
-                                    "end": 19
+                                    "start": 45,
+                                    "end": 46
                                 },
                                 "decorators": null,
-                                "flags": 16386,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 19,
-                                "end": 37
-                            },
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65559,
-                                    "expression": {
-                                        "kind": 67224232,
-                                        "propertyList": {
-                                            "kind": 65722,
-                                            "properties": [],
-                                            "trailingComma": false,
-                                            "multiline": false,
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 45,
-                                            "end": 45
-                                        },
-                                        "flags": 16384,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 43,
-                                        "end": 46
-                                    },
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 32780,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 37,
-                                    "end": 46
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 37,
                                 "end": 46
                             }
                         ],
@@ -186,15 +144,7 @@ async function p(){
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 38,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

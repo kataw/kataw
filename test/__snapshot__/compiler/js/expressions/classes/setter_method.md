@@ -20,11 +20,11 @@ class A {set 9(x){}}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class A {set 9(x){}}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -32,7 +32,7 @@ class A {set 9(x){}}
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -58,7 +58,7 @@ class A {set 9(x){}}
                                     "kind": 4261540,
                                     "text": 9,
                                     "rawText": "9",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -73,7 +73,7 @@ class A {set 9(x){}}
                                         "kind": 131102,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -87,7 +87,7 @@ class A {set 9(x){}}
                                     "decorators": null,
                                     "accessModifier": null,
                                     "isReadOnly": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -104,7 +104,7 @@ class A {set 9(x){}}
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -112,7 +112,7 @@ class A {set 9(x){}}
                                         "start": 18,
                                         "end": 18
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -124,7 +124,7 @@ class A {set 9(x){}}
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -132,7 +132,7 @@ class A {set 9(x){}}
                                 "start": 14,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -141,7 +141,7 @@ class A {set 9(x){}}
                             "end": 19
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -150,7 +150,7 @@ class A {set 9(x){}}
                     "end": 20
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -160,7 +160,7 @@ class A {set 9(x){}}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

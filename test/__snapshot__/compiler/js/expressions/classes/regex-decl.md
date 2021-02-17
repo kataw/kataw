@@ -67,54 +67,9 @@ class x{}
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 65563,
-                    "left": {
-                        "kind": 65563,
-                        "left": {
-                            "kind": 131322,
-                            "text": "",
-                            "flags": 6,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 9,
-                            "end": 9
-                        },
-                        "operator": "/",
-                        "right": {
-                            "kind": 196712,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 11,
-                            "end": 14
-                        },
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 9,
-                        "end": 14
-                    },
-                    "operator": "/",
-                    "right": {
-                        "kind": 131322,
-                        "text": "",
-                        "flags": 6,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 15,
-                        "end": 15
-                    },
-                    "flags": 2,
+                    "kind": 4260544,
+                    "text": "/foo/",
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -132,7 +87,7 @@ class x{}
             }
         ],
         "transformFlags": 0,
-        "flags": 2,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -141,22 +96,7 @@ class x{}
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 10,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Identifier expected",
-            "start": 14,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

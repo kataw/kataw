@@ -20,11 +20,11 @@ class x { "prot\u{6f}type"(){} }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class x { \"prot\\u{6f}type\"(){} }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -32,7 +32,7 @@ class x { "prot\u{6f}type"(){} }
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -58,7 +58,7 @@ class x { "prot\u{6f}type"(){} }
                                     "kind": 67279,
                                     "text": "prototype",
                                     "rawText": "prototype",
-                                    "flags": 2097152,
+                                    "flags": 2162688,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -71,7 +71,7 @@ class x { "prot\u{6f}type"(){} }
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -87,7 +87,7 @@ class x { "prot\u{6f}type"(){} }
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -95,7 +95,7 @@ class x { "prot\u{6f}type"(){} }
                                         "start": 29,
                                         "end": 29
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -107,7 +107,7 @@ class x { "prot\u{6f}type"(){} }
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -115,7 +115,7 @@ class x { "prot\u{6f}type"(){} }
                                 "start": 26,
                                 "end": 30
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -124,7 +124,7 @@ class x { "prot\u{6f}type"(){} }
                             "end": 30
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -133,7 +133,7 @@ class x { "prot\u{6f}type"(){} }
                     "end": 32
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -143,7 +143,7 @@ class x { "prot\u{6f}type"(){} }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

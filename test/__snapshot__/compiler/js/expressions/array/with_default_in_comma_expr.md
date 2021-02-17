@@ -21,11 +21,11 @@ x, [foo = y, bar] = doo
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x, [foo = y, bar] = doo",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -36,7 +36,7 @@ x, [foo = y, bar] = doo
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -57,7 +57,7 @@ x, [foo = y, bar] = doo
                                                 "kind": 196712,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -70,7 +70,7 @@ x, [foo = y, bar] = doo
                                                 "kind": 196712,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -78,7 +78,7 @@ x, [foo = y, bar] = doo
                                                 "start": 9,
                                                 "end": 11
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -90,7 +90,7 @@ x, [foo = y, bar] = doo
                                             "kind": 196712,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -101,7 +101,7 @@ x, [foo = y, bar] = doo
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -109,7 +109,7 @@ x, [foo = y, bar] = doo
                                     "start": 4,
                                     "end": 16
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -122,7 +122,7 @@ x, [foo = y, bar] = doo
                                 "kind": 196712,
                                 "text": "doo",
                                 "rawText": "doo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -130,7 +130,7 @@ x, [foo = y, bar] = doo
                                 "start": 19,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -139,7 +139,7 @@ x, [foo = y, bar] = doo
                             "end": 23
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -157,7 +157,7 @@ x, [foo = y, bar] = doo
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

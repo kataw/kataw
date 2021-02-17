@@ -20,11 +20,11 @@ class x{   static *static(){}    }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class x{   static *static(){}    }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -32,7 +32,7 @@ class x{   static *static(){}    }
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -58,7 +58,7 @@ class x{   static *static(){}    }
                                     "kind": 196711,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -71,7 +71,7 @@ class x{   static *static(){}    }
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -87,7 +87,7 @@ class x{   static *static(){}    }
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -95,7 +95,7 @@ class x{   static *static(){}    }
                                         "start": 28,
                                         "end": 28
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -107,7 +107,7 @@ class x{   static *static(){}    }
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -115,7 +115,7 @@ class x{   static *static(){}    }
                                 "start": 25,
                                 "end": 29
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -124,7 +124,7 @@ class x{   static *static(){}    }
                             "end": 29
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -133,7 +133,7 @@ class x{   static *static(){}    }
                     "end": 34
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -143,7 +143,7 @@ class x{   static *static(){}    }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

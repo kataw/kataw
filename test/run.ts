@@ -57,8 +57,8 @@ async function runTest(list: any) {
           // Enables implied strict mode
           impliedStrict: options.impliedStrict
         },
-        obj.module,
-        obj.incremental
+        obj.options.module,
+        obj.options.incremental
       );
 
       return { obj, result };
@@ -88,7 +88,7 @@ async function generateSourceFile(
 
 async function generateNewOutput(list: any) {
   list.forEach((obj: any) => {
-    obj.data = generateOutputBlock(obj.data, obj.newoutput.ast, obj.newoutput.pretty);
+    obj.data = generateOutputBlock(obj.data, obj.newoutput.ast, obj.newoutput.pretty, obj.options);
   });
 }
 
@@ -145,8 +145,7 @@ function parseTestFile(obj: any): any {
   let end1 = data.indexOf(Constants.JsEnd, optionsOffset);
 
   // Negative if no opions are set, so we pass a empty obj
-  const options =
-    optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + Constants.JsStart.length, end1) + '');
+  const options = optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + Constants.JsStart.length, end1) + '');
 
   let inputOffset = data.indexOf(Constants.Input);
   let start = data.indexOf(Constants.JsStart, inputOffset);
@@ -156,7 +155,7 @@ function parseTestFile(obj: any): any {
   return { options, input };
 }
 
-function generateOutputBlock(currentOutput: any, ast: any, printed: any) {
+function generateOutputBlock(currentOutput: any, ast: any, printed: any, options: any) {
   ast = JSON.stringify(ast, null, '    ');
   let outputIndex = currentOutput.indexOf(Constants.Output);
 
@@ -165,8 +164,7 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any) {
   let diagnosticString = '';
 
   if (printed !== '✖ Soon to be open sourced') {
-    let diagnostics = parseScript(printed).diagnostics;
-
+    const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
     if (diagnostics.length) {
       diagnostics.forEach(function (a: any) {
         diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;

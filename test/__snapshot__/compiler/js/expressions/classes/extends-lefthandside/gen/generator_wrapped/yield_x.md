@@ -76,21 +76,22 @@ x {}
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
+                                    "kind": 196712,
+                                    "text": "yield",
+                                    "rawText": "yield",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 32,
-                                    "end": 32
+                                    "end": 38
                                 },
                                 "implementClauses": null,
                                 "members": {
                                     "kind": 50,
                                     "elements": [],
-                                    "flags": 2,
+                                    "flags": 16386,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -105,28 +106,6 @@ x {}
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 14,
-                                "end": 32
-                            },
-                            {
-                                "kind": 2097233,
-                                "expression": {
-                                    "kind": 65785,
-                                    "delegate": false,
-                                    "expression": null,
-                                    "flags": 16384,
-                                    "intersects": false,
-                                    "transformFlags": 16393,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 32,
-                                    "end": 38
-                                },
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 32,
                                 "end": 38
                             },
                             {
@@ -135,7 +114,7 @@ x {}
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 16384,
+                                    "flags": 16386,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -215,8 +194,8 @@ x {}
         {
             "kind": 2,
             "source": 2,
-            "message": "Identifier expected",
-            "start": 33,
+            "message": "'{' expected.",
+            "start": 39,
             "length": 0
         },
         {

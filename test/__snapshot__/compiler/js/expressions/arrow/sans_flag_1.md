@@ -22,11 +22,11 @@ _ => _
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "_ => _\n/foo/",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -43,7 +43,7 @@ _ => _
                                     "kind": 4325406,
                                     "text": "_",
                                     "rawText": "_",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -69,7 +69,7 @@ _ => _
                         "type": null,
                         "accessModifier": null,
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -85,7 +85,7 @@ _ => _
                                 "kind": 196712,
                                 "text": "_",
                                 "rawText": "_",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -98,7 +98,7 @@ _ => _
                                 "kind": 196712,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -106,7 +106,7 @@ _ => _
                                 "start": 8,
                                 "end": 11
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -126,7 +126,7 @@ _ => _
                             "start": 12,
                             "end": 12
                         },
-                        "flags": 2,
+                        "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -134,7 +134,7 @@ _ => _
                         "start": 4,
                         "end": 12
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -152,7 +152,7 @@ _ => _
             }
         ],
         "transformFlags": 0,
-        "flags": 2,
+        "flags": 65538,
         "intersects": false,
         "parent": null,
         "emitNode": null,

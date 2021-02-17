@@ -21,11 +21,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "[]",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -36,7 +36,7 @@
                         "elements": [],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -44,7 +44,7 @@
                         "start": 1,
                         "end": 1
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -62,7 +62,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

@@ -39,77 +39,31 @@
                     "end": 13
                 },
                 "type": {
-                    "kind": 230,
-                    "objectTypeMembers": {
-                        "kind": 169,
-                        "members": [
-                            {
-                                "kind": 188,
-                                "name": {
-                                    "kind": 55,
-                                    "expression": {
-                                        "kind": 65563,
-                                        "left": {
-                                            "kind": 196712,
-                                            "text": "K",
-                                            "rawText": "K",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 31,
-                                            "end": 32
-                                        },
-                                        "operator": "in",
-                                        "right": {
-                                            "kind": 196712,
-                                            "text": "keyof",
-                                            "rawText": "keyof",
-                                            "flags": 0,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 35,
-                                            "end": 41
-                                        },
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 31,
-                                        "end": 41
-                                    },
-                                    "flags": 2,
-                                    "intersects": false,
-                                    "transformFlags": 131073,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 20,
-                                    "end": 41
-                                },
-                                "isOptional": false,
-                                "accessModifier": null,
-                                "type": null,
-                                "isReadOnly": true,
-                                "initializer": null,
-                                "flags": 2,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 20,
-                                "end": 41
-                            },
-                            {
-                                "kind": 188,
-                                "name": {
+                    "kind": 143,
+                    "typeParameter": {
+                        "kind": 232,
+                        "name": {
+                            "kind": 196711,
+                            "text": "K",
+                            "rawText": "K",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 31,
+                            "end": 32
+                        },
+                        "constraint": {
+                            "kind": 231,
+                            "operator": "keyof",
+                            "type": {
+                                "kind": 236,
+                                "typeName": {
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 2,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -117,35 +71,101 @@
                                     "start": 41,
                                     "end": 43
                                 },
-                                "isOptional": false,
-                                "accessModifier": null,
-                                "type": null,
-                                "isReadOnly": false,
-                                "initializer": null,
-                                "flags": 2,
+                                "typeArguments": null,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 41,
-                                "end": 43
-                            }
-                        ],
-                        "flags": 2,
+                                "end": 45
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 35,
+                            "end": 43
+                        },
+                        "defaultType": null,
+                        "expression": null,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
                         "emitNode": null,
-                        "start": 20,
+                        "start": 31,
                         "end": 43
                     },
-                    "flags": 2,
+                    "nameType": null,
+                    "isReadOnly": true,
+                    "plus": false,
+                    "minus": false,
+                    "isOptional": false,
+                    "type": {
+                        "kind": 117,
+                        "objectType": {
+                            "kind": 236,
+                            "typeName": {
+                                "kind": 196711,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 46,
+                                "end": 48
+                            },
+                            "typeArguments": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 46,
+                            "end": 49
+                        },
+                        "indexType": {
+                            "kind": 236,
+                            "typeName": {
+                                "kind": 196711,
+                                "text": "K",
+                                "rawText": "K",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 49,
+                                "end": 50
+                            },
+                            "typeArguments": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 49,
+                            "end": 51
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 46,
+                        "end": 53
+                    },
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
                     "emitNode": null,
                     "start": 18,
-                    "end": 43
+                    "end": 53
                 },
                 "typeParameters": {
                     "kind": 233,
@@ -184,57 +204,13 @@
                     "start": 14,
                     "end": 15
                 },
-                "flags": 2,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 43
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 74308,
-                    "member": {
-                        "kind": 196712,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 46,
-                        "end": 48
-                    },
-                    "expression": {
-                        "kind": 196712,
-                        "text": "K",
-                        "rawText": "K",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 49,
-                        "end": 50
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 48,
-                    "end": 51
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 46,
-                "end": 51
+                "end": 53
             },
             {
                 "kind": 225,
@@ -251,25 +227,133 @@
                     "end": 68
                 },
                 "type": {
-                    "kind": 230,
-                    "objectTypeMembers": {
-                        "kind": 169,
-                        "members": [],
-                        "flags": 2,
+                    "kind": 143,
+                    "typeParameter": {
+                        "kind": 232,
+                        "name": {
+                            "kind": 196711,
+                            "text": "K",
+                            "rawText": "K",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 89,
+                            "end": 90
+                        },
+                        "constraint": {
+                            "kind": 231,
+                            "operator": "keyof",
+                            "type": {
+                                "kind": 236,
+                                "typeName": {
+                                    "kind": 196711,
+                                    "text": "T",
+                                    "rawText": "T",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 99,
+                                    "end": 101
+                                },
+                                "typeArguments": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 99,
+                                "end": 103
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 93,
+                            "end": 101
+                        },
+                        "defaultType": null,
+                        "expression": null,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
                         "emitNode": null,
-                        "start": 75,
-                        "end": 75
+                        "start": 89,
+                        "end": 101
                     },
-                    "flags": 2,
+                    "nameType": null,
+                    "isReadOnly": true,
+                    "plus": false,
+                    "minus": true,
+                    "isOptional": false,
+                    "type": {
+                        "kind": 117,
+                        "objectType": {
+                            "kind": 236,
+                            "typeName": {
+                                "kind": 196711,
+                                "text": "T",
+                                "rawText": "T",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 104,
+                                "end": 106
+                            },
+                            "typeArguments": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 104,
+                            "end": 107
+                        },
+                        "indexType": {
+                            "kind": 236,
+                            "typeName": {
+                                "kind": 196711,
+                                "text": "K",
+                                "rawText": "K",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 107,
+                                "end": 108
+                            },
+                            "typeArguments": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 107,
+                            "end": 109
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 104,
+                        "end": 111
+                    },
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
                     "emitNode": null,
                     "start": 73,
-                    "end": 75
+                    "end": 111
                 },
                 "typeParameters": {
                     "kind": 233,
@@ -308,157 +392,13 @@
                     "start": 69,
                     "end": 70
                 },
-                "flags": 16386,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
                 "emitNode": null,
                 "start": 53,
-                "end": 75
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65774,
-                    "operator": "+",
-                    "operand": {
-                        "kind": 74308,
-                        "member": {
-                            "kind": 196712,
-                            "text": "readonly",
-                            "rawText": "readonly",
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 77,
-                            "end": 86
-                        },
-                        "expression": {
-                            "kind": 65563,
-                            "left": {
-                                "kind": 196712,
-                                "text": "K",
-                                "rawText": "K",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 89,
-                                "end": 90
-                            },
-                            "operator": "in",
-                            "right": {
-                                "kind": 196712,
-                                "text": "keyof",
-                                "rawText": "keyof",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 93,
-                                "end": 99
-                            },
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 89,
-                            "end": 99
-                        },
-                        "flags": 2,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 86,
-                        "end": 99
-                    },
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 75,
-                    "end": 99
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 75,
-                "end": 99
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "T",
-                    "rawText": "T",
-                    "flags": 2,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 99,
-                    "end": 101
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 99,
-                "end": 101
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 74308,
-                    "member": {
-                        "kind": 196712,
-                        "text": "T",
-                        "rawText": "T",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 104,
-                        "end": 106
-                    },
-                    "expression": {
-                        "kind": 196712,
-                        "text": "K",
-                        "rawText": "K",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 107,
-                        "end": 108
-                    },
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 106,
-                    "end": 109
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 104,
-                "end": 109
+                "end": 111
             },
             {
                 "kind": 225,
@@ -492,6 +432,7 @@
                         },
                         "constraint": {
                             "kind": 231,
+                            "operator": "keyof",
                             "type": {
                                 "kind": 236,
                                 "typeName": {

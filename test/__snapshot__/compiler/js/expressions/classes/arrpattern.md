@@ -21,11 +21,11 @@ class n extends ([] = x) {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class n extends ([] = x) {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -33,7 +33,7 @@ class n extends ([] = x) {}
                     "kind": 131102,
                     "text": "n",
                     "rawText": "n",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -53,7 +53,7 @@ class n extends ([] = x) {}
                                 "elements": [],
                                 "trailingComma": false,
                                 "multiline": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -61,7 +61,7 @@ class n extends ([] = x) {}
                                 "start": 18,
                                 "end": 18
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -74,7 +74,7 @@ class n extends ([] = x) {}
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -82,7 +82,7 @@ class n extends ([] = x) {}
                             "start": 21,
                             "end": 23
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -90,7 +90,7 @@ class n extends ([] = x) {}
                         "start": 15,
                         "end": 23
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -102,7 +102,7 @@ class n extends ([] = x) {}
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -111,7 +111,7 @@ class n extends ([] = x) {}
                     "end": 27
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -121,7 +121,7 @@ class n extends ([] = x) {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

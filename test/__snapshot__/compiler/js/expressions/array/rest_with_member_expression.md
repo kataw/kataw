@@ -21,11 +21,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "[...x.list] = a;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -44,7 +44,7 @@
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -56,7 +56,7 @@
                                             "kind": 196711,
                                             "text": "list",
                                             "rawText": "list",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -64,7 +64,7 @@
                                             "start": 6,
                                             "end": 10
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -72,7 +72,7 @@
                                         "start": 5,
                                         "end": 10
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2,
                                     "parent": null,
@@ -83,7 +83,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -91,7 +91,7 @@
                             "start": 1,
                             "end": 10
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -104,7 +104,7 @@
                         "kind": 196712,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -112,7 +112,7 @@
                         "start": 13,
                         "end": 15
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -130,7 +130,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

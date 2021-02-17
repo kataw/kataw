@@ -20,11 +20,11 @@ foo(function(){})
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "foo(function(){})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -34,7 +34,7 @@ foo(function(){})
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -53,7 +53,7 @@ foo(function(){})
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ foo(function(){})
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -75,7 +75,7 @@ foo(function(){})
                                         "start": 15,
                                         "end": 15
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -85,7 +85,7 @@ foo(function(){})
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -96,14 +96,14 @@ foo(function(){})
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 12,
                         "end": 17
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -121,7 +121,7 @@ foo(function(){})
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

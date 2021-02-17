@@ -4683,6 +4683,7 @@ async function fGenericIndexedTypeForExplicitPromiseOfKProp<TObj extends Obj, K 
                             },
                             "constraint": {
                                 "kind": 231,
+                                "operator": "keyof",
                                 "type": {
                                     "kind": 236,
                                     "typeName": {
@@ -5151,6 +5152,7 @@ async function fGenericIndexedTypeForExplicitPromiseOfKProp<TObj extends Obj, K 
                             },
                             "constraint": {
                                 "kind": 231,
+                                "operator": "keyof",
                                 "type": {
                                     "kind": 236,
                                     "typeName": {
@@ -5686,6 +5688,7 @@ async function fGenericIndexedTypeForExplicitPromiseOfKProp<TObj extends Obj, K 
                             },
                             "constraint": {
                                 "kind": 231,
+                                "operator": "keyof",
                                 "type": {
                                     "kind": 236,
                                     "typeName": {

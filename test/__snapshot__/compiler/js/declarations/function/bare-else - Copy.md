@@ -20,11 +20,11 @@ if (x) ; else function f(){}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "if (x) ; else function f(){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097257,
@@ -32,7 +32,7 @@ if (x) ; else function f(){}
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -42,7 +42,7 @@ if (x) ; else function f(){}
                 },
                 "consequent": {
                     "kind": 6291526,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -56,7 +56,7 @@ if (x) ; else function f(){}
                         "kind": 131102,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
                         "parent": null,
@@ -68,7 +68,7 @@ if (x) ; else function f(){}
                         "kind": 90,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -83,7 +83,7 @@ if (x) ; else function f(){}
                             "kind": 94,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -91,7 +91,7 @@ if (x) ; else function f(){}
                             "start": 27,
                             "end": 27
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -100,7 +100,7 @@ if (x) ; else function f(){}
                         "end": 28
                     },
                     "typeParameters": null,
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 256,
                     "parent": null,
@@ -109,7 +109,7 @@ if (x) ; else function f(){}
                     "end": 28
                 },
                 "isWebCompat": false,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -119,7 +119,7 @@ if (x) ; else function f(){}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -132,7 +132,7 @@ if (x) ; else function f(){}
         {
             "kind": 2,
             "source": 2,
-            "message": "Without web compability enabled functions can not be declared at top level, inside a block, or as the body of an if statement",
+            "message": "In strict mode code, functions can only be declared at top level or inside a block",
             "start": 14,
             "length": 0
         }

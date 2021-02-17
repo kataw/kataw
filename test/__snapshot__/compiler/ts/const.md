@@ -700,6 +700,7 @@
                             "exclamation": false,
                             "type": {
                                 "kind": 231,
+                                "operator": "keyof",
                                 "type": {
                                     "kind": 236,
                                     "typeName": {

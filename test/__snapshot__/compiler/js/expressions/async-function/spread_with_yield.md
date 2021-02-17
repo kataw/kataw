@@ -20,11 +20,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "[...yield]",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -39,7 +39,7 @@
                                     "kind": 196712,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -47,7 +47,7 @@
                                     "start": 4,
                                     "end": 9
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2,
                                 "parent": null,
@@ -58,7 +58,7 @@
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -66,7 +66,7 @@
                         "start": 1,
                         "end": 9
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -84,7 +84,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,

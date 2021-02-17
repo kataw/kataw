@@ -74,15 +74,16 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 131322,
-                                    "text": "",
-                                    "flags": 6,
+                                    "kind": 196712,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 37,
-                                    "end": 37
+                                    "end": 43
                                 },
                                 "implementClauses": null,
                                 "members": {
@@ -103,30 +104,20 @@ async function p(){
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 19,
-                                "end": 37
+                                "end": 43
                             },
                             {
                                 "kind": 2097233,
                                 "expression": {
-                                    "kind": 65559,
-                                    "expression": {
-                                        "kind": 196712,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 43,
-                                        "end": 45
-                                    },
-                                    "flags": 0,
+                                    "kind": 196712,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 2,
                                     "intersects": false,
-                                    "transformFlags": 32780,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 37,
+                                    "start": 43,
                                     "end": 45
                                 },
                                 "flags": 0,
@@ -134,7 +125,7 @@ async function p(){
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 37,
+                                "start": 43,
                                 "end": 45
                             },
                             {
@@ -201,8 +192,8 @@ async function p(){
         {
             "kind": 2,
             "source": 2,
-            "message": "Identifier expected",
-            "start": 38,
+            "message": "'{' expected.",
+            "start": 44,
             "length": 0
         },
         {

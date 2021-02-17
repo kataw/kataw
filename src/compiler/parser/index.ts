@@ -3585,13 +3585,13 @@ function parseStringLiteral(parser: ParserState, context: Context): StringLitera
 }
 
 // Returns true if this is an valid identifier
-function isIdentifier(t: Token, context: Context, allowKeywords?: boolean): boolean {
+function isIdentifier(t: Token, _context: Context, allowKeywords?: boolean): boolean {
   // If we have a 'yield' keyword, and we're in the [yield] context, then 'yield' is
   // considered a keyword and is not an identifier.
-  if (context & (Context.Strict | Context.InYieldContext) && t === Token.YieldKeyword) return false;
+  // if (context & (Context.Strict | Context.InYieldContext) && t === Token.YieldKeyword) return false;
   // If we have a 'await' keyword, and we're in the [Await] context, then 'await' is
   // considered a keyword and is not an identifier.
-  if (context & (Context.Module | Context.InAwaitContext) && t === Token.AwaitKeyword) return false;
+  // if (context & (Context.Module | Context.InAwaitContext) && t === Token.AwaitKeyword) return false;
   return allowKeywords
     ? (t & Token.IsIdentifier) === Token.IsIdentifier ||
         (t & Token.Keyword) === Token.Keyword ||
@@ -4639,6 +4639,7 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const specifiers = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
     specifiers.push(getCurrentNode(parser, context, parseExportSpecifier));
+    break;
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }
@@ -4748,7 +4749,7 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
       : null,
     parseimplementClauses(parser, context),
     consume(parser, context, Token.LeftBrace)
-      ? parseClassElementList(parser, context)
+      ? parseClassElementList(parser, context, /* isDecl */ true)
       : // Empty list
         createClassElementList([], parser.nodeFlags, curPos, curPos),
     decorator,
@@ -4801,7 +4802,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
       : null,
     parseimplementClauses(parser, context),
     consume(parser, context, Token.LeftBrace)
-      ? parseClassElementList(parser, context)
+      ? parseClassElementList(parser, context, /* isDecl */ false)
       : // Empty list
         createClassElementList([], parser.nodeFlags, pos, pos),
     decorator,
@@ -4811,7 +4812,7 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
   );
 }
 
-function parseClassElementList(parser: ParserState, context: Context): ClassElementList {
+function parseClassElementList(parser: ParserState, context: Context, isDecl: boolean): ClassElementList {
   const pos = parser.curPos;
   const elements = [];
 
@@ -4823,7 +4824,7 @@ function parseClassElementList(parser: ParserState, context: Context): ClassElem
     consumeOpt(parser, context, Token.Comma);
     if (parser.token === Token.RightBrace) break;
   }
-  consume(parser, context, Token.RightBrace);
+  consume(parser, isDecl ? context | Context.AllowRegExp : context, Token.RightBrace);
   return createClassElementList(elements, parser.nodeFlags, pos, parser.curPos);
 }
 
@@ -5380,7 +5381,7 @@ function parseTypeOperator(parser: ParserState, context: Context): TypeOperator 
   const operator = KeywordDescTable[parser.token & Token.Type] as TypeOperators;
   nextToken(parser, context);
   return createTypeOperator(
-    operator,
+    operator as any,
     parseType(parser, context | Context.AllowConditionalTypes),
     parser.nodeFlags,
     pos,
@@ -5428,7 +5429,9 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
     case Token.NumericLiteral:
       return parseNumberType(parser, context);
     case Token.ReadonlyKeyword:
+      return parseTypeOperator(parser, context);
     case Token.UniqueKeyword:
+      return parseTypeOperator(parser, context);
     case Token.KeyOfKeyword:
       return parseTypeOperator(parser, context);
     case Token.InferKeyword:
@@ -5508,6 +5511,11 @@ function nextTokenIsInKeyword(parser: ParserState, context: Context): boolean {
   return parser.token === Token.InKeyword;
 }
 
+function nextTokenIsLeftBracket(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return parser.token === Token.LeftBracket;
+}
+
 function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): TypeLiteral | MappedType {
   const pos = parser.curPos;
   nextToken(parser, context);
@@ -5526,15 +5534,12 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
         if (parser.token !== Token.ReadonlyKeyword) return false;
       }
 
-      // If we don't have "readonly" modifer or "[", then this cannot be a valid MappedType
-      if (parser.token !== Token.LeftBracket || parser.token === Token.ReadonlyKeyword) return false;
+      // Cases like "readonly [ xxx".
 
-      const isReadOnly =
-        parser.token === Token.ReadonlyKeyword &&
-        tryParse(parser, context, function () {
-          nextToken(parser, context);
-          return parser.token === Token.LeftBracket;
-        });
+      const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenIsLeftBracket);
+
+      // If we don't have "[", then this cannot be a valid MappedType
+      if (parser.token !== Token.LeftBracket) return false;
 
       nextToken(parser, context);
 
@@ -5546,6 +5551,7 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
       }
 
       const typeParameter = parseMappedTypeParameter(parser, context);
+
       const nameType = consumeOpt(parser, context, Token.AsKeyword)
         ? parseType(parser, context | Context.AllowConditionalTypes)
         : null;
@@ -6116,7 +6122,7 @@ function parseMappedTypeParameter(parser: ParserState, context: Context): TypePa
   const pos = parser.curPos;
   const name = parseIdentifierName(parser, context);
   consume(parser, context, Token.InKeyword);
-  const type = parseType(parser, context | Context.AllowConditionalTypes);
+  const type = parseType(parser, context);
   return createTypeParameter(name, type, null, null, parser.nodeFlags, pos, parser.curPos);
 }
 
