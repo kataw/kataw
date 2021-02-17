@@ -3,7 +3,10 @@
 ## Input
 
 `````js
-z();
+a
+`foo@{xd}@
+bar`
+b
 `````
 
 ## Output
@@ -15,7 +18,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "a\n`foo\r\nbar`\nb",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,11 +26,11 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
+                    "kind": 66260,
+                    "member": {
                         "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
+                        "text": "a",
+                        "rawText": "a",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
@@ -37,25 +40,26 @@ z();
                         "end": 1
                     },
                     "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
+                    "template": {
+                        "kind": 4260568,
+                        "rawText": "foo\r\nbar",
+                        "text": "foo\rbar",
+                        "flags": 16384,
                         "intersects": false,
+                        "transformFlags": 1,
                         "parent": null,
                         "emitNode": null,
-                        "start": 3,
-                        "end": 3
+                        "start": 1,
+                        "end": 12
                     },
-                    "flags": 0,
+                    "optional": false,
+                    "flags": 16384,
                     "intersects": false,
-                    "transformFlags": 0,
+                    "transformFlags": 1,
                     "parent": null,
                     "emitNode": null,
                     "start": 1,
-                    "end": 3
+                    "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +67,29 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 12
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 196712,
+                    "text": "b",
+                    "rawText": "b",
+                    "flags": 16384,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 12,
+                    "end": 14
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "parent": null,
+                "emitNode": null,
+                "start": 12,
+                "end": 14
             }
         ],
         "transformFlags": 0,
@@ -72,7 +98,7 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 14
     },
     "jsx": false,
     "printable": true,
@@ -84,7 +110,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 14
 }
 ```
 

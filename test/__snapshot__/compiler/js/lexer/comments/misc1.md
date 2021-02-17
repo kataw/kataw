@@ -1,9 +1,16 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
-z();
+// var /*
+x*/
 `````
 
 ## Output
@@ -15,7 +22,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "// var /*\nx*/",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +30,38 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
+                    "kind": 65563,
+                    "left": {
                         "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
                         "start": 0,
-                        "end": 1
+                        "end": 11
                     },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
+                    "operator": "*",
+                    "right": {
+                        "kind": 4260544,
+                        "text": "/",
+                        "flags": 524288,
                         "intersects": false,
+                        "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 3,
-                        "end": 3
+                        "start": 12,
+                        "end": 14
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 14
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +69,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 14
             }
         ],
         "transformFlags": 0,
@@ -72,11 +78,19 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 14
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Unterminated regular expression literal",
+            "start": 14,
+            "length": 1
+        }
+    ],
     "parent": null,
     "emitNode": null,
     "incremental": false,
@@ -84,7 +98,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 13
 }
 ```
 

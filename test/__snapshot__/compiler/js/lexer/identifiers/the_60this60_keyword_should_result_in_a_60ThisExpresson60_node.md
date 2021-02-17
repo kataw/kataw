@@ -1,9 +1,15 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
-z();
+this
 `````
 
 ## Output
@@ -15,7 +21,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "this",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +29,14 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 4260571,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,
@@ -74,7 +55,7 @@ z();
         "start": 0,
         "end": 4
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
     "diagnostics": [],
     "parent": null,

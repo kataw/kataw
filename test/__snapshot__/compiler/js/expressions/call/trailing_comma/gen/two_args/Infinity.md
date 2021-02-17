@@ -1,9 +1,13 @@
-# Kataw parser test case
-
+# Auto-generated test cases ( Kataw )
+- Regenerated: 2021-02-17
+- From: kataw8\test\__snapshot__/compiler/js/expressions/call/trailing_comma/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\expressions\call\trailing_comma\gen\two_args
+> :: test: two args
+> :: case: Infinity
 ## Input
 
 `````js
-z();
+foo(x,y,);
 `````
 
 ## Output
@@ -15,7 +19,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "foo(x,y,);",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -26,36 +30,61 @@ z();
                     "kind": 66091,
                     "expression": {
                         "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
                         "start": 0,
-                        "end": 1
+                        "end": 3
                     },
                     "typeArguments": null,
                     "argumentList": {
                         "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
+                        "elements": [
+                            {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 4,
+                                "end": 5
+                            },
+                            {
+                                "kind": 196712,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 6,
+                                "end": 7
+                            }
+                        ],
+                        "trailingComma": true,
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
-                        "start": 3,
-                        "end": 3
+                        "start": 5,
+                        "end": 9
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 3,
+                    "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +92,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 10
             }
         ],
         "transformFlags": 0,
@@ -72,7 +101,7 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 10
     },
     "jsx": false,
     "printable": true,
@@ -84,7 +113,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 10
 }
 ```
 

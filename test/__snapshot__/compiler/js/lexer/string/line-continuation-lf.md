@@ -1,9 +1,16 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
-z();
+"\
+"
 `````
 
 ## Output
@@ -15,7 +22,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "\"\\\n\"",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +30,16 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 67279,
+                    "text": "",
+                    "rawText": "",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,

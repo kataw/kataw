@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-z();
+/a/
 `````
 
 ## Output
@@ -15,7 +15,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "/a/",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,38 +23,14 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 4260544,
+                    "text": "/a/",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
+                    "start": 0,
                     "end": 3
                 },
                 "flags": 0,
@@ -63,7 +39,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 3
             }
         ],
         "transformFlags": 0,
@@ -72,7 +48,7 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 3
     },
     "jsx": false,
     "printable": true,
@@ -84,7 +60,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 3
 }
 ```
 

@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-z();
+x({});
 `````
 
 ## Output
@@ -15,7 +15,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "x({});",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -26,8 +26,8 @@ z();
                     "kind": 66091,
                     "expression": {
                         "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
+                        "text": "x",
+                        "rawText": "x",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
@@ -39,7 +39,31 @@ z();
                     "typeArguments": null,
                     "argumentList": {
                         "kind": 3,
-                        "elements": [],
+                        "elements": [
+                            {
+                                "kind": 67224232,
+                                "propertyList": {
+                                    "kind": 65722,
+                                    "properties": [],
+                                    "trailingComma": false,
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 3,
+                                    "end": 3
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 2,
+                                "end": 4
+                            }
+                        ],
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
@@ -47,7 +71,7 @@ z();
                         "parent": null,
                         "emitNode": null,
                         "start": 3,
-                        "end": 3
+                        "end": 5
                     },
                     "flags": 0,
                     "intersects": false,
@@ -55,7 +79,7 @@ z();
                     "parent": null,
                     "emitNode": null,
                     "start": 1,
-                    "end": 3
+                    "end": 5
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +87,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 6
             }
         ],
         "transformFlags": 0,
@@ -72,7 +96,7 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 6
     },
     "jsx": false,
     "printable": true,
@@ -84,7 +108,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 6
 }
 ```
 

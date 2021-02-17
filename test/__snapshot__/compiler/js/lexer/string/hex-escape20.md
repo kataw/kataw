@@ -1,9 +1,15 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
-z();
+"\xa
 `````
 
 ## Output
@@ -15,7 +21,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "\"\\xa",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +29,16 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
-                    "flags": 0,
+                    "kind": 67279,
+                    "text": "",
+                    "rawText": "\"\\xa",
+                    "flags": 524288,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,
@@ -74,9 +57,24 @@ z();
         "start": 0,
         "end": 4
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Hexadecimal digit expected",
+            "start": 4,
+            "length": 1
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Unterminated string literal",
+            "start": 4,
+            "length": 1
+        }
+    ],
     "parent": null,
     "emitNode": null,
     "incremental": false,

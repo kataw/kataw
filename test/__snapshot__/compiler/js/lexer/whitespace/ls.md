@@ -1,9 +1,15 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true }
+`````
+
 ## Input
 
 `````js
-z();
+left@{x2028}@right
 `````
 
 ## Output
@@ -15,7 +21,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "left@{x2028}@right",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +29,16 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 196712,
+                    "text": "left",
+                    "rawText": "left",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 4
                 },
                 "flags": 0,
                 "intersects": false,
@@ -67,14 +50,14 @@ z();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 16384,
         "intersects": false,
         "parent": null,
         "emitNode": null,
         "start": 0,
         "end": 4
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
     "diagnostics": [],
     "parent": null,
@@ -84,7 +67,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 10
 }
 ```
 

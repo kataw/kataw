@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-z();
+foo(...a)
 `````
 
 ## Output
@@ -15,7 +15,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "foo(...a)",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -26,36 +26,59 @@ z();
                     "kind": 66091,
                     "expression": {
                         "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
                         "start": 0,
-                        "end": 1
+                        "end": 3
                     },
                     "typeArguments": null,
                     "argumentList": {
                         "kind": 3,
-                        "elements": [],
+                        "elements": [
+                            {
+                                "kind": 65740,
+                                "argument": {
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 7,
+                                    "end": 8
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 4,
+                                "end": 8
+                            }
+                        ],
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
-                        "start": 3,
-                        "end": 3
+                        "start": 7,
+                        "end": 9
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 3,
+                    "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +86,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 9
             }
         ],
         "transformFlags": 0,
@@ -72,7 +95,7 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 9
     },
     "jsx": false,
     "printable": true,
@@ -84,7 +107,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 9
 }
 ```
 

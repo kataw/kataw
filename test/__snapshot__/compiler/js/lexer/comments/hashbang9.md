@@ -1,9 +1,17 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: false, disableWebCompat: false, next: true }
+`````
+
 ## Input
 
 `````js
-z();
+//
+#!
+
 `````
 
 ## Output
@@ -15,7 +23,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "//\n#!\n",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,60 +31,62 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
+                    "kind": 65774,
+                    "operator": "!",
+                    "operand": {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 0,
-                        "end": 1
+                        "start": 5,
+                        "end": 5
                     },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
-                    "flags": 0,
+                    "flags": 16386,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 4,
+                    "end": 5
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
-                "start": 0,
-                "end": 4
+                "start": 4,
+                "end": 5
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 16386,
         "intersects": false,
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 5
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 3,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Identifier expected",
+            "start": 5,
+            "length": 0
+        }
+    ],
     "parent": null,
     "emitNode": null,
     "incremental": false,
@@ -84,7 +94,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 6
 }
 ```
 

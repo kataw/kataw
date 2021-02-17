@@ -3,7 +3,7 @@
 ## Input
 
 `````js
-z();
+"\x2q"
 `````
 
 ## Output
@@ -15,7 +15,7 @@ z();
 ```javascript
 {
     "kind": 196,
-    "source": "z();",
+    "source": "\"\\x2q\"",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -23,39 +23,16 @@ z();
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 66091,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "z",
-                        "rawText": "z",
-                        "flags": 0,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 0,
-                        "end": 1
-                    },
-                    "typeArguments": null,
-                    "argumentList": {
-                        "kind": 3,
-                        "elements": [],
-                        "trailingComma": false,
-                        "transformFlags": 0,
-                        "flags": 0,
-                        "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 3,
-                        "end": 3
-                    },
+                    "kind": 67279,
+                    "text": "q",
+                    "rawText": "q",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 1,
-                    "end": 3
+                    "start": 0,
+                    "end": 6
                 },
                 "flags": 0,
                 "intersects": false,
@@ -63,7 +40,7 @@ z();
                 "parent": null,
                 "emitNode": null,
                 "start": 0,
-                "end": 4
+                "end": 6
             }
         ],
         "transformFlags": 0,
@@ -72,11 +49,19 @@ z();
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 4
+        "end": 6
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Hexadecimal digit expected",
+            "start": 4,
+            "length": 1
+        }
+    ],
     "parent": null,
     "emitNode": null,
     "incremental": false,
@@ -84,7 +69,7 @@ z();
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 4
+    "end": 6
 }
 ```
 
