@@ -593,8 +593,7 @@ function parseTypeAliasDeclarationRest(
   const name = parseIdentifierReference(parser, context);
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   consume(parser, context, Token.Assign);
-  const type =
-    (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
+  const type = (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
     parseType(parser, context | Context.AllowConditionalTypes);
 
   parseSemicolon(parser, context);
@@ -4818,7 +4817,6 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   const decorators = parseDecorators(parser, context);
 
   let kind = PropertyKind.None;
-  let isStatic = parser.token === Token.StaticKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // We need to check for the 'readOnly' keyword first in case we have something like "{ readonly private foo;".
   // A accessor modifier must precede 'readonly' modifier, so this isn't allowed here. We will
@@ -4829,12 +4827,17 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
 
   // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
-  const isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  let isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+
+  let isStatic = parser.token === Token.StaticKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Simple cases like "{ private readonly foo(" or "{ readonly foo<x>(" or "{ readonly static set(".
   if (!isReadOnly) {
     isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
   }
+
+  // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
+   isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
@@ -6300,6 +6303,7 @@ function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context
     const pos = parser.curPos;
     const typeArguments = [];
     while (parser.token & 0b01100000000010000101000000000000) {
+
       typeArguments.push(getCurrentNode(parser, context, parseType));
       if (parser.token === Token.GreaterThan) break;
       if (consumeOpt(parser, context, Token.Comma)) continue;

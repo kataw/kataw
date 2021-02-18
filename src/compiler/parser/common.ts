@@ -131,12 +131,13 @@ export function tagNamesAreEquivalent(lhs: any, rhs: any): boolean {
 }
 
 export function reinterpretToPattern(node: any, parser: ParserState, context: Context): any {
+
   switch (node.kind) {
     case NodeKind.ArrowParameters:
     case NodeKind.FormalParameter:
     case NodeKind.BindingElement:
     case NodeKind.OmittedExpression:
-      return;
+      return node;
     case NodeKind.IdentifierReference:
     case NodeKind.IdentifierName:
       node.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;

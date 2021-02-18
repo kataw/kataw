@@ -1,5 +1,11 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true, module: true }
+`````
+
 ## Input
 
 `````js
@@ -16,11 +22,11 @@ const z9 = 0, z10 :string = "", z11 = null;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const z7 = false;\nconst z8: number = 23;\nconst z9 = 0, z10 :string = \"\", z11 = null;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -34,7 +40,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 131102,
                                 "text": "z7",
                                 "rawText": "z7",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -47,7 +53,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                             "initializer": {
                                 "kind": 4260391,
                                 "text": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -55,7 +61,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "start": 10,
                                 "end": 16
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -64,7 +70,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                             "end": 16
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -72,7 +78,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "start": 5,
                     "end": 16
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -92,7 +98,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 131102,
                                 "text": "z8",
                                 "rawText": "z8",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -115,7 +121,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 4261540,
                                 "text": 23,
                                 "rawText": "23",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -123,7 +129,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "start": 36,
                                 "end": 39
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -132,7 +138,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                             "end": 39
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -140,7 +146,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "start": 23,
                     "end": 39
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -160,7 +166,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 131102,
                                 "text": "z9",
                                 "rawText": "z9",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -174,7 +180,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -182,7 +188,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "start": 51,
                                 "end": 53
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -196,7 +202,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 131102,
                                 "text": "z10",
                                 "rawText": "z10",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -219,7 +225,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 67279,
                                 "text": "",
                                 "rawText": "",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -227,7 +233,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "start": 68,
                                 "end": 71
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -241,7 +247,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "kind": 131102,
                                 "text": "z11",
                                 "rawText": "z11",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -254,7 +260,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                             "initializer": {
                                 "kind": 4260512,
                                 "text": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -262,7 +268,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "start": 78,
                                 "end": 83
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -271,7 +277,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                             "end": 83
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -279,7 +285,7 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "start": 46,
                     "end": 83
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -289,14 +295,14 @@ const z9 = 0, z10 :string = "", z11 = null;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
         "start": 0,
         "end": 84
     },
-    "jsx": false,
+    "jsx": true,
     "printable": true,
     "diagnostics": [],
     "parent": null,

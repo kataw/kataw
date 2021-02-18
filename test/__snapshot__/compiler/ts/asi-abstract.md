@@ -79,7 +79,7 @@ class C3 {
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": true,
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {

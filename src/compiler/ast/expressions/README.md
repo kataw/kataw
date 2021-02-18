@@ -354,6 +354,16 @@ interface ClassExpression <: Expression {
 
 See [14.6 Class Definitions](https://tc39.es/ecma262/#sec-class-definitions)
 
+### ClassHeritage
+
+```js
+interface ClassElementList <: Expression {
+  kind: NodeKind.ClassElementList;
+  expression: Expression;
+  typeArguments: TypeArguments | null;
+}
+```
+
 
 ### ClassElementList
 

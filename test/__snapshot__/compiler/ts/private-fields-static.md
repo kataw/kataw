@@ -3,8 +3,9 @@
 ## Input
 
 `````js
-abstract class Foo {
-  public abstract readonly foo = 'string';
+class A {
+  static #x;
+  static #y: string;
 }
 `````
 
@@ -17,7 +18,7 @@ abstract class Foo {
 ```javascript
 {
     "kind": 196,
-    "source": "abstract class Foo {\n  public abstract readonly foo = 'string';\n}",
+    "source": "class A {\n  static #x;\n  static #y: string;\n}",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -26,15 +27,15 @@ abstract class Foo {
                 "kind": 48,
                 "name": {
                     "kind": 131102,
-                    "text": "Foo",
-                    "rawText": "Foo",
+                    "text": "A",
+                    "rawText": "A",
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
                     "emitNode": null,
-                    "start": 14,
-                    "end": 18
+                    "start": 5,
+                    "end": 7
                 },
                 "typeParameters": null,
                 "classHeritage": null,
@@ -46,51 +47,70 @@ abstract class Foo {
                             "kind": 84,
                             "key": {
                                 "kind": 196711,
-                                "text": "foo",
-                                "rawText": "foo",
+                                "text": "#x",
+                                "rawText": "#x",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 47,
-                                "end": 51
+                                "start": 18,
+                                "end": 21
                             },
-                            "isReadOnly": true,
+                            "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
                             "type": null,
-                            "initializer": {
-                                "kind": 67279,
-                                "text": "string",
-                                "rawText": "string",
-                                "flags": 16777216,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 53,
-                                "end": 62
-                            },
+                            "initializer": null,
                             "decorators": null,
-                            "accessModifier": {
-                                "kind": 4194493,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 20,
-                                "end": 29
-                            },
-                            "isStatic": false,
+                            "accessModifier": null,
+                            "isStatic": true,
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
                             "emitNode": null,
-                            "start": 20,
-                            "end": 63
+                            "start": 9,
+                            "end": 22
+                        },
+                        {
+                            "kind": 84,
+                            "key": {
+                                "kind": 196711,
+                                "text": "#y",
+                                "rawText": "#y",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 31,
+                                "end": 34
+                            },
+                            "isReadOnly": false,
+                            "isOptional": false,
+                            "exclamation": false,
+                            "type": {
+                                "kind": 4194510,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 35,
+                                "end": 42
+                            },
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isStatic": true,
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 524352,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 22,
+                            "end": 43
                         }
                     ],
                     "flags": 0,
@@ -98,17 +118,17 @@ abstract class Foo {
                     "transformFlags": 1,
                     "parent": null,
                     "emitNode": null,
-                    "start": 20,
-                    "end": 65
+                    "start": 9,
+                    "end": 45
                 },
                 "decorators": null,
-                "flags": 268435456,
+                "flags": 0,
                 "intersects": false,
-                "transformFlags": 2097153,
+                "transformFlags": 1,
                 "parent": null,
                 "emitNode": null,
-                "start": 8,
-                "end": 65
+                "start": 0,
+                "end": 45
             }
         ],
         "transformFlags": 0,
@@ -117,7 +137,7 @@ abstract class Foo {
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 65
+        "end": 45
     },
     "jsx": false,
     "printable": true,
@@ -129,7 +149,7 @@ abstract class Foo {
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 65
+    "end": 45
 }
 ```
 
