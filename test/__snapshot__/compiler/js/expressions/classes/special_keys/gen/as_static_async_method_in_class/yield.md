@@ -64,8 +64,7 @@ class x {static async yield(){}}
                                     "start": 21,
                                     "end": 27
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

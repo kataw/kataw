@@ -71,8 +71,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "start": 19,
                                     "end": 30
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

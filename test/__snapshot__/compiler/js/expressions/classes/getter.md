@@ -67,8 +67,18 @@ class x { get prototype(){} }
                                     "start": 13,
                                     "end": 23
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 24,
+                                    "end": 25
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

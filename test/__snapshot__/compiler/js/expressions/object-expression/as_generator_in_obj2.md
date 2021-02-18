@@ -50,8 +50,7 @@
                                         "start": 4,
                                         "end": 9
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -157,8 +156,7 @@
                                         "start": 21,
                                         "end": 31
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -264,8 +262,7 @@
                                         "start": 43,
                                         "end": 46
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -371,8 +368,7 @@
                                         "start": 58,
                                         "end": 61
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,

@@ -64,8 +64,7 @@ class x {static delete(){}}
                                     "start": 15,
                                     "end": 22
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -60,8 +60,7 @@ class x { async *prot\u006ftype(){} }
                                     "start": 17,
                                     "end": 31
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -136,8 +136,7 @@ class A {
                                     "start": 39,
                                     "end": 46
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -313,8 +312,7 @@ class A {
                                     "start": 101,
                                     "end": 109
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -503,8 +501,7 @@ class A {
                                     "start": 159,
                                     "end": 167
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -786,8 +783,7 @@ class A {
                                     "start": 247,
                                     "end": 255
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1082,8 +1078,7 @@ class A {
                                     "start": 332,
                                     "end": 345
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1263,8 +1258,7 @@ class A {
                                     "start": 397,
                                     "end": 404
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {

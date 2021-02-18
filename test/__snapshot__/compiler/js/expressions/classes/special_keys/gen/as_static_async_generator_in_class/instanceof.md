@@ -64,8 +64,7 @@ class x {static async * instanceof(){}}
                                     "start": 23,
                                     "end": 34
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

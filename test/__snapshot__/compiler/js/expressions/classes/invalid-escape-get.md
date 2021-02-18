@@ -60,8 +60,18 @@ class X { ge\u0074 x() {} }
                                     "start": 18,
                                     "end": 20
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 21,
+                                    "end": 22
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

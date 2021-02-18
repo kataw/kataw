@@ -64,8 +64,7 @@ class x {async case(){}}
                                     "start": 14,
                                     "end": 19
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

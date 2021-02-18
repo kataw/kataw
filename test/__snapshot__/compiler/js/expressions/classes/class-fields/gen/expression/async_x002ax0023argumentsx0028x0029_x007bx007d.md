@@ -75,8 +75,7 @@ class C extends Base { async *#arguments() {} }
                                     "start": 30,
                                     "end": 40
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

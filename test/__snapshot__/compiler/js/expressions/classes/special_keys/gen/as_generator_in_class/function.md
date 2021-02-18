@@ -64,8 +64,7 @@ class x {* function(){}}
                                     "start": 10,
                                     "end": 19
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -64,8 +64,7 @@ class x {yield(){}}
                                     "start": 9,
                                     "end": 14
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

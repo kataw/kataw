@@ -64,8 +64,18 @@ class x {static get super(){}}
                                     "start": 19,
                                     "end": 25
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 26,
+                                    "end": 27
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

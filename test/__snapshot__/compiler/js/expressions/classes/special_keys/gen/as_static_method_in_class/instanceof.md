@@ -64,8 +64,7 @@ class x {static instanceof(){}}
                                     "start": 15,
                                     "end": 26
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -56,8 +56,7 @@
                                         "start": 3,
                                         "end": 7
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -163,8 +162,7 @@
                                         "start": 19,
                                         "end": 23
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -270,8 +268,7 @@
                                         "start": 35,
                                         "end": 43
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -377,8 +374,7 @@
                                         "start": 55,
                                         "end": 64
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -484,8 +480,7 @@
                                         "start": 76,
                                         "end": 82
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -591,8 +586,7 @@
                                         "start": 94,
                                         "end": 103
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -698,8 +692,7 @@
                                         "start": 115,
                                         "end": 123
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,

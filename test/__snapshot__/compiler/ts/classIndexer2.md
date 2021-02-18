@@ -216,8 +216,7 @@ class C123 {
                                     "start": 67,
                                     "end": 83
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -18,8 +18,7 @@ import { AccessModifier } from '../types/access-modifier';
  * Method definition.
  */
 export interface MethodDefinition extends Node {
-  readonly propertySetParameterList: FormalParameter | null;
-  readonly uniqueFormalParameters: FormalParameterList | null;
+  readonly formalParameters: FormalParameterList | null;
   readonly name: MethodName;
   readonly isGetter: boolean;
   readonly isSetter: boolean;
@@ -35,8 +34,7 @@ export interface MethodDefinition extends Node {
 export function createMethodDefinition(
   flags: NodeFlags,
   propertyKind: PropertyKind,
-  propertySetParameterList: FormalParameter | null,
-  uniqueFormalParameters: FormalParameterList | null,
+  formalParameters: FormalParameterList | null,
   name: MethodName,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
@@ -80,8 +78,7 @@ export function createMethodDefinition(
         : // https://tc39.es/ecma262/#prod-MethodDefinition
           NodeKind.MethodDefinition,
     name,
-    propertySetParameterList,
-    uniqueFormalParameters,
+    formalParameters,
     isSetter: (propertyKind & PropertyKind.Setter) !== 0,
     isGetter: (propertyKind & PropertyKind.Getter) !== 0,
     contents,
@@ -103,8 +100,7 @@ export function updateMethodDefinition(
   node: MethodDefinition,
   isGenerator: boolean,
   isAsync: boolean,
-  propertySetParameterList: FormalParameter | null,
-  uniqueFormalParameters: FormalParameterList | null,
+  formalParameters: FormalParameterList | null,
   name: MethodName,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
@@ -115,8 +111,7 @@ export function updateMethodDefinition(
   let propertyKind = PropertyKind.None;
   if (isGenerator) propertyKind |= PropertyKind.Generator;
   if (isAsync) propertyKind |= PropertyKind.Async;
-  return node.propertySetParameterList !== propertySetParameterList ||
-    node.uniqueFormalParameters !== uniqueFormalParameters ||
+  return node.formalParameters !== formalParameters ||
     node.name !== name ||
     node.accessModifier !== accessModifier ||
     node.typeParameters !== typeParameters ||
@@ -127,8 +122,7 @@ export function updateMethodDefinition(
         createMethodDefinition(
           NodeFlags.None,
           propertyKind,
-          propertySetParameterList,
-          uniqueFormalParameters,
+          formalParameters,
           name,
           accessModifier,
           typeParameters,

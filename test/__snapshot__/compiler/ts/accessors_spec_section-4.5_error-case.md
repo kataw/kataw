@@ -103,45 +103,57 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 59,
                                     "end": 87
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 88,
-                                        "end": 89
-                                    },
-                                    "isOptional": false,
-                                    "type": {
-                                        "kind": 161,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 90,
-                                        "end": 97
-                                    },
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 88,
+                                                "end": 89
+                                            },
+                                            "isOptional": false,
+                                            "type": {
+                                                "kind": 161,
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 2097152,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 90,
+                                                "end": 97
+                                            },
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 88,
+                                            "end": 97
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 88,
-                                    "end": 97
+                                    "end": 98
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -215,8 +227,18 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 117,
                                     "end": 145
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 146,
+                                    "end": 147
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -313,8 +335,18 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 178,
                                     "end": 205
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 206,
+                                    "end": 207
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -411,45 +443,57 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 237,
                                     "end": 264
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 265,
-                                        "end": 266
-                                    },
-                                    "isOptional": false,
-                                    "type": {
-                                        "kind": 161,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 267,
-                                        "end": 274
-                                    },
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 265,
+                                                "end": 266
+                                            },
+                                            "isOptional": false,
+                                            "type": {
+                                                "kind": 161,
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 2097152,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 267,
+                                                "end": 274
+                                            },
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 265,
+                                            "end": 274
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 265,
-                                    "end": 274
+                                    "end": 275
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -523,8 +567,18 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 295,
                                     "end": 323
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 324,
+                                    "end": 325
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -630,36 +684,48 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 363,
                                     "end": 391
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "aStr",
-                                        "rawText": "aStr",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 392,
-                                        "end": 396
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "aStr",
+                                                "rawText": "aStr",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 392,
+                                                "end": 396
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 392,
+                                            "end": 396
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 392,
-                                    "end": 396
+                                    "end": 397
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -779,36 +845,48 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 427,
                                     "end": 454
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "aStr",
-                                        "rawText": "aStr",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 455,
-                                        "end": 459
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "aStr",
+                                                "rawText": "aStr",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 455,
+                                                "end": 459
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 455,
+                                            "end": 459
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 455,
-                                    "end": 459
+                                    "end": 460
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -928,8 +1006,18 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "start": 489,
                                     "end": 516
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 517,
+                                    "end": 518
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

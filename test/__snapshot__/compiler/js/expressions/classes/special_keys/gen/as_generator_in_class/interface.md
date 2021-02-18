@@ -64,8 +64,7 @@ class x {* interface(){}}
                                     "start": 10,
                                     "end": 20
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

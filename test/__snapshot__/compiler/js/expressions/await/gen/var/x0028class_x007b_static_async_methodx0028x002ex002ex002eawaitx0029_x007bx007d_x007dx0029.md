@@ -147,8 +147,7 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                                                 "start": 60,
                                                                                 "end": 67
                                                                             },
-                                                                            "propertySetParameterList": null,
-                                                                            "uniqueFormalParameters": {
+                                                                            "formalParameters": {
                                                                                 "kind": 90,
                                                                                 "formalParameterList": [
                                                                                     {

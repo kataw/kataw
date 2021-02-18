@@ -96,8 +96,7 @@ class C {
                                     "start": 9,
                                     "end": 31
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

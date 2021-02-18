@@ -121,8 +121,7 @@ class A {
                                     "start": 9,
                                     "end": 15
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -198,8 +197,7 @@ class A {
                                     "start": 23,
                                     "end": 30
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -275,8 +273,7 @@ class A {
                                     "start": 38,
                                     "end": 48
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -352,8 +349,7 @@ class A {
                                     "start": 56,
                                     "end": 65
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -429,8 +425,7 @@ class A {
                                     "start": 73,
                                     "end": 83
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -506,8 +501,7 @@ class A {
                                     "start": 91,
                                     "end": 100
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -583,8 +577,7 @@ class A {
                                     "start": 108,
                                     "end": 119
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -660,8 +653,7 @@ class A {
                                     "start": 138,
                                     "end": 144
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -737,8 +729,7 @@ class A {
                                     "start": 162,
                                     "end": 168
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -814,8 +805,7 @@ class A {
                                     "start": 186,
                                     "end": 195
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -891,8 +881,7 @@ class A {
                                     "start": 213,
                                     "end": 221
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -968,8 +957,7 @@ class A {
                                     "start": 239,
                                     "end": 243
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -1045,8 +1033,18 @@ class A {
                                     "start": 259,
                                     "end": 267
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 271,
+                                    "end": 272
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -1111,8 +1109,18 @@ class A {
                                     "start": 292,
                                     "end": 301
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 305,
+                                    "end": 306
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

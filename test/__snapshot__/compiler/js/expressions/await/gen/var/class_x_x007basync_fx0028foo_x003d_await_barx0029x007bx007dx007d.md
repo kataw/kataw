@@ -154,8 +154,7 @@ var await; var f = (async function() { class x {async f(foo = await bar){}} });
                                                                         "start": 53,
                                                                         "end": 55
                                                                     },
-                                                                    "propertySetParameterList": null,
-                                                                    "uniqueFormalParameters": {
+                                                                    "formalParameters": {
                                                                         "kind": 90,
                                                                         "formalParameterList": [
                                                                             {

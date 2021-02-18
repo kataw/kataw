@@ -101,8 +101,18 @@ class A {
                                     "start": 15,
                                     "end": 19
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 23,
+                                    "end": 24
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -167,36 +177,48 @@ class A {
                                     "start": 34,
                                     "end": 38
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 42,
-                                        "end": 43
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 42,
+                                                "end": 43
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 42,
+                                            "end": 43
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 42,
-                                    "end": 43
+                                    "end": 44
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -261,8 +283,7 @@ class A {
                                     "start": 47,
                                     "end": 62
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -338,8 +359,7 @@ class A {
                                     "start": 70,
                                     "end": 75
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -415,8 +435,7 @@ class A {
                                     "start": 88,
                                     "end": 92
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -492,8 +511,18 @@ class A {
                                     "start": 116,
                                     "end": 120
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 124,
+                                    "end": 125
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -558,36 +587,48 @@ class A {
                                     "start": 144,
                                     "end": 148
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 152,
-                                        "end": 153
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 152,
+                                                "end": 153
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 152,
+                                            "end": 153
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 152,
-                                    "end": 153
+                                    "end": 154
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -652,8 +693,7 @@ class A {
                                     "start": 167,
                                     "end": 181
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -729,8 +769,7 @@ class A {
                                     "start": 199,
                                     "end": 203
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -806,8 +845,7 @@ class A {
                                     "start": 225,
                                     "end": 229
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

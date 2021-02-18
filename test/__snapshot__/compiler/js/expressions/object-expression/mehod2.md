@@ -68,8 +68,7 @@ x = { method(test) { } }
                                         "start": 5,
                                         "end": 12
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -188,8 +187,7 @@ x = { method(test) { } }
                                         "start": 27,
                                         "end": 31
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -308,8 +306,7 @@ x = { method(test) { } }
                                         "start": 46,
                                         "end": 50
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
@@ -430,8 +427,7 @@ x = { method(test) { } }
                                             "start": 65,
                                             "end": 72
                                         },
-                                        "propertySetParameterList": null,
-                                        "uniqueFormalParameters": {
+                                        "formalParameters": {
                                             "kind": 90,
                                             "formalParameterList": [
                                                 {
@@ -551,8 +547,7 @@ x = { method(test) { } }
                                                     "start": 88,
                                                     "end": 97
                                                 },
-                                                "propertySetParameterList": null,
-                                                "uniqueFormalParameters": {
+                                                "formalParameters": {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
@@ -691,8 +686,7 @@ x = { method(test) { } }
                                             "start": 112,
                                             "end": 120
                                         },
-                                        "propertySetParameterList": null,
-                                        "uniqueFormalParameters": {
+                                        "formalParameters": {
                                             "kind": 90,
                                             "formalParameterList": [],
                                             "trailingComma": false,
@@ -819,8 +813,7 @@ x = { method(test) { } }
                                         "start": 134,
                                         "end": 141
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [
                                             {

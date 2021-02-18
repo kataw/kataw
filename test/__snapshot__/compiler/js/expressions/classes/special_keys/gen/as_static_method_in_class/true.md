@@ -64,8 +64,7 @@ class x {static true(){}}
                                     "start": 15,
                                     "end": 20
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -66,8 +66,7 @@ abstract class B extends A { abstract bar(); }
                                     "start": 18,
                                     "end": 30
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -975,8 +974,7 @@ abstract class B extends A { abstract bar(); }
                                     "start": 351,
                                     "end": 355
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

@@ -177,8 +177,7 @@ class List<U> implements IList<U> {
                                     "start": 35,
                                     "end": 42
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -255,8 +254,7 @@ class List<U> implements IList<U> {
                                     "start": 48,
                                     "end": 55
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

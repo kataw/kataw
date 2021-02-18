@@ -31,12 +31,11 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
     );
   }
 
-  // Methoddefinition
+  // Method definition
   if (kind & NodeKind.IsMethod) {
     return (
       visitNode(node.accessModifier, visitor) ||
-      visitNode(node.propertySetParameterList, visitor) ||
-      visitNode(node.uniqueFormalParameters, visitor) ||
+      visitNodes(node.formalParameters, visitor) ||
       visitNode(node.name, visitor) ||
       visitNode(node.typeParameters, visitor) ||
       visitNode(node.type, visitor) ||
@@ -335,13 +334,13 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNode(node.expression, visitor);
     case NodeKind.JsxNamespacedName:
       return visitNode(node.namespace, visitor);
-      case NodeKind.JsxOpeningElement:
-        return (
-          visitNode(node.openingElement, visitor) ||
-          visitNode(node.children, visitor) ||
-          visitNode(node.closingElement, visitor)
-        );
-      case NodeKind.JsxSelfClosingElement:
+    case NodeKind.JsxOpeningElement:
+      return (
+        visitNode(node.openingElement, visitor) ||
+        visitNode(node.children, visitor) ||
+        visitNode(node.closingElement, visitor)
+      );
+    case NodeKind.JsxSelfClosingElement:
       return visitNode(node.attributes, visitor) || visitNode(node.typeArguments, visitor);
     case NodeKind.JsxSpreadAttribute:
       return visitNode(node.expression, visitor);

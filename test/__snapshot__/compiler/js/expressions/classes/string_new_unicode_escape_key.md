@@ -66,8 +66,7 @@ class x { "prot\u{6f}type"(){} }
                                     "start": 9,
                                     "end": 26
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

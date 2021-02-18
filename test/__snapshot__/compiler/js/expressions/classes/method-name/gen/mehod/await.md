@@ -47,8 +47,7 @@
                                         "start": 2,
                                         "end": 7
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [
                                             {

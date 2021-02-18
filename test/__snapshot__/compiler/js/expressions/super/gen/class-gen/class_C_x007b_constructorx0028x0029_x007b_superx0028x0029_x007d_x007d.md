@@ -64,8 +64,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                     "start": 11,
                                     "end": 17
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -124,8 +123,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                                     "start": 31,
                                                                     "end": 43
                                                                 },
-                                                                "propertySetParameterList": null,
-                                                                "uniqueFormalParameters": {
+                                                                "formalParameters": {
                                                                     "kind": 90,
                                                                     "formalParameterList": [],
                                                                     "trailingComma": false,

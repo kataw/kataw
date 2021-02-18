@@ -64,8 +64,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "start": 11,
                                                 "end": 13
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,

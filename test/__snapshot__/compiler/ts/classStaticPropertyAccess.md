@@ -65,8 +65,7 @@ class A {
                                     "start": 27,
                                     "end": 32
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

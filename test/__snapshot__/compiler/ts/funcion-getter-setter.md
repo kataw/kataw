@@ -66,8 +66,7 @@ const s = {
                                                 "start": 17,
                                                 "end": 19
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [
                                                     {
@@ -126,8 +125,8 @@ const s = {
                                                 "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
-                                                "start": 19,
-                                                "end": 28
+                                                "start": 20,
+                                                "end": 29
                                             },
                                             "isSetter": false,
                                             "isGetter": true,
@@ -250,56 +249,97 @@ const s = {
                                                 "start": 53,
                                                 "end": 55
                                             },
-                                            "propertySetParameterList": {
-                                                "kind": 89,
-                                                "ellipsis": false,
-                                                "binding": {
-                                                    "kind": 131102,
-                                                    "text": "this",
-                                                    "rawText": "this",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 56,
-                                                    "end": 60
-                                                },
-                                                "isOptional": false,
-                                                "type": {
-                                                    "kind": 230,
-                                                    "objectTypeMembers": {
-                                                        "kind": 169,
-                                                        "members": [],
+                                            "formalParameters": {
+                                                "kind": 90,
+                                                "formalParameterList": [
+                                                    {
+                                                        "kind": 89,
+                                                        "ellipsis": false,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "this",
+                                                            "rawText": "this",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 1025,
+                                                            "parent": null,
+                                                            "emitNode": null,
+                                                            "start": 56,
+                                                            "end": 60
+                                                        },
+                                                        "isOptional": false,
+                                                        "type": {
+                                                            "kind": 230,
+                                                            "objectTypeMembers": {
+                                                                "kind": 169,
+                                                                "members": [],
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 2097152,
+                                                                "parent": null,
+                                                                "emitNode": null,
+                                                                "start": 63,
+                                                                "end": 64
+                                                            },
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 2097152,
+                                                            "parent": null,
+                                                            "emitNode": null,
+                                                            "start": 61,
+                                                            "end": 64
+                                                        },
+                                                        "initializer": null,
+                                                        "decorators": null,
+                                                        "accessModifier": null,
+                                                        "isReadOnly": false,
                                                         "flags": 0,
                                                         "intersects": false,
-                                                        "transformFlags": 2097152,
+                                                        "transformFlags": 1,
                                                         "parent": null,
                                                         "emitNode": null,
-                                                        "start": 63,
+                                                        "start": 56,
                                                         "end": 64
                                                     },
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 61,
-                                                    "end": 64
-                                                },
-                                                "initializer": null,
-                                                "decorators": null,
-                                                "accessModifier": null,
-                                                "isReadOnly": false,
+                                                    {
+                                                        "kind": 89,
+                                                        "ellipsis": false,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "value",
+                                                            "rawText": "value",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 1025,
+                                                            "parent": null,
+                                                            "emitNode": null,
+                                                            "start": 65,
+                                                            "end": 71
+                                                        },
+                                                        "isOptional": false,
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "decorators": null,
+                                                        "accessModifier": null,
+                                                        "isReadOnly": false,
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 1,
+                                                        "parent": null,
+                                                        "emitNode": null,
+                                                        "start": 65,
+                                                        "end": 71
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 0,
                                                 "intersects": false,
-                                                "transformFlags": 1,
+                                                "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 56,
-                                                "end": 64
+                                                "end": 72
                                             },
-                                            "uniqueFormalParameters": null,
                                             "isSetter": true,
                                             "isGetter": false,
                                             "contents": {
@@ -313,16 +353,16 @@ const s = {
                                                     "transformFlags": 0,
                                                     "parent": null,
                                                     "emitNode": null,
-                                                    "start": 71,
-                                                    "end": 71
+                                                    "start": 74,
+                                                    "end": 74
                                                 },
-                                                "flags": 2,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
-                                                "start": 65,
-                                                "end": 71
+                                                "start": 72,
+                                                "end": 75
                                             },
                                             "decorators": null,
                                             "type": null,
@@ -334,82 +374,50 @@ const s = {
                                             "parent": null,
                                             "emitNode": null,
                                             "start": 55,
-                                            "end": 71
+                                            "end": 75
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 2,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 47,
-                                    "end": 71
+                                    "end": 75
                                 },
-                                "flags": 2,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 45,
-                                "end": 71
+                                "end": 77
                             },
-                            "flags": 2,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
                             "start": 41,
-                            "end": 71
+                            "end": 77
                         }
                     ],
-                    "flags": 18,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
                     "start": 41,
-                    "end": 71
+                    "end": 77
                 },
-                "flags": 16402,
+                "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
                 "emitNode": null,
                 "start": 35,
-                "end": 71
-            },
-            {
-                "kind": 2099237,
-                "block": {
-                    "kind": 2084,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 0,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 74,
-                    "end": 74
-                },
-                "flags": 16384,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 72,
-                "end": 75
-            },
-            {
-                "kind": 6291526,
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 77,
                 "end": 78
             }
         ],
@@ -423,36 +431,7 @@ const s = {
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "A 'get' accessor cannot have parameters",
-            "start": 20,
-            "length": 1
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "A 'set' accessor must have exactly one parameter",
-            "start": 64,
-            "length": 1
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 71,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 76,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

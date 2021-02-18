@@ -56,8 +56,7 @@ x = { method(test) { } }
                                         "start": 5,
                                         "end": 12
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [
                                             {

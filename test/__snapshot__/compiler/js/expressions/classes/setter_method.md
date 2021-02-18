@@ -66,36 +66,48 @@ class A {set 9(x){}}
                                     "start": 12,
                                     "end": 14
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 15,
-                                        "end": 16
-                                    },
-                                    "isOptional": false,
-                                    "type": null,
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 65536,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 15,
+                                                "end": 16
+                                            },
+                                            "isOptional": false,
+                                            "type": null,
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 65536,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 15,
+                                            "end": 16
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 65536,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 15,
-                                    "end": 16
+                                    "end": 17
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {

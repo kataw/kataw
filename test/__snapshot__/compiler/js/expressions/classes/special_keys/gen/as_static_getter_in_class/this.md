@@ -64,8 +64,18 @@ class x {static get this(){}}
                                     "start": 19,
                                     "end": 24
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 25,
+                                    "end": 26
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

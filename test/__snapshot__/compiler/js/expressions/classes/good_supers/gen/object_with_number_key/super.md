@@ -79,8 +79,7 @@ class x extends y {
                                     "start": 19,
                                     "end": 33
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

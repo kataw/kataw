@@ -122,8 +122,7 @@ class e {
                                     "start": 9,
                                     "end": 47
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -217,8 +216,7 @@ class e {
                                     "start": 60,
                                     "end": 76
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -312,8 +310,7 @@ class e {
                                     "start": 89,
                                     "end": 105
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -428,8 +425,7 @@ class e {
                                     "start": 136,
                                     "end": 140
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -553,8 +549,18 @@ class e {
                                     "start": 177,
                                     "end": 179
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 180,
+                                    "end": 181
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -651,45 +657,57 @@ class e {
                                     "start": 223,
                                     "end": 225
                                 },
-                                "propertySetParameterList": {
-                                    "kind": 89,
-                                    "ellipsis": false,
-                                    "binding": {
-                                        "kind": 131102,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 226,
-                                        "end": 227
-                                    },
-                                    "isOptional": false,
-                                    "type": {
-                                        "kind": 161,
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 228,
-                                        "end": 235
-                                    },
-                                    "initializer": null,
-                                    "decorators": null,
-                                    "accessModifier": null,
-                                    "isReadOnly": false,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [
+                                        {
+                                            "kind": 89,
+                                            "ellipsis": false,
+                                            "binding": {
+                                                "kind": 131102,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 1025,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 226,
+                                                "end": 227
+                                            },
+                                            "isOptional": false,
+                                            "type": {
+                                                "kind": 161,
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 2097152,
+                                                "parent": null,
+                                                "emitNode": null,
+                                                "start": 228,
+                                                "end": 235
+                                            },
+                                            "initializer": null,
+                                            "decorators": null,
+                                            "accessModifier": null,
+                                            "isReadOnly": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 1,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 226,
+                                            "end": 235
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 0,
                                     "intersects": false,
-                                    "transformFlags": 1,
+                                    "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 226,
-                                    "end": 235
+                                    "end": 236
                                 },
-                                "uniqueFormalParameters": null,
                                 "isSetter": true,
                                 "isGetter": false,
                                 "contents": {
@@ -763,8 +781,18 @@ class e {
                                     "start": 267,
                                     "end": 270
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 271,
+                                    "end": 272
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -945,8 +973,7 @@ class e {
                                     "start": 333,
                                     "end": 336
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -1031,8 +1058,18 @@ class e {
                                     "start": 369,
                                     "end": 372
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 373,
+                                    "end": 374
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -1168,8 +1205,7 @@ class e {
                                     "start": 437,
                                     "end": 441
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1281,8 +1317,7 @@ class e {
                                     "start": 473,
                                     "end": 477
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1394,8 +1429,7 @@ class e {
                                     "start": 509,
                                     "end": 513
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1625,8 +1659,7 @@ class e {
                                     "start": 588,
                                     "end": 604
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1720,8 +1753,7 @@ class e {
                                     "start": 617,
                                     "end": 633
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -1815,8 +1847,7 @@ class e {
                                     "start": 657,
                                     "end": 661
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -2099,8 +2130,7 @@ class e {
                                     "start": 762,
                                     "end": 765
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -2224,8 +2254,7 @@ class e {
                                     "start": 812,
                                     "end": 816
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -2357,8 +2386,7 @@ class e {
                                     "start": 845,
                                     "end": 849
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -2470,8 +2498,7 @@ class e {
                                     "start": 881,
                                     "end": 885
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -2583,8 +2610,7 @@ class e {
                                     "start": 917,
                                     "end": 921
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -2814,8 +2840,7 @@ class e {
                                     "start": 993,
                                     "end": 997
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -2927,8 +2952,7 @@ class e {
                                     "start": 1029,
                                     "end": 1033
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -3040,8 +3064,7 @@ class e {
                                     "start": 1065,
                                     "end": 1069
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {

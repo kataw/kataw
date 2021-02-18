@@ -64,8 +64,7 @@ class x {static async * if(){}}
                                     "start": 23,
                                     "end": 26
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

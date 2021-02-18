@@ -64,8 +64,7 @@ class C { *method() { class C { get x) { super; } } } }
                                     "start": 11,
                                     "end": 17
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

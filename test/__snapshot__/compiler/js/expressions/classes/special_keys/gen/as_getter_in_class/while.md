@@ -64,8 +64,18 @@ class x {get while(){}}
                                     "start": 12,
                                     "end": 18
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 19,
+                                    "end": 20
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

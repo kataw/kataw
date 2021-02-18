@@ -56,8 +56,7 @@ x= { *prototype(){} }
                                         "start": 6,
                                         "end": 15
                                     },
-                                    "propertySetParameterList": null,
-                                    "uniqueFormalParameters": {
+                                    "formalParameters": {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,

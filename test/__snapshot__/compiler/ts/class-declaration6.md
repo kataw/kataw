@@ -72,8 +72,7 @@ class Derived extends Base {
                                     "start": 21,
                                     "end": 28
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
@@ -190,8 +189,18 @@ class Derived extends Base {
                                     "start": 65,
                                     "end": 74
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 75,
+                                    "end": 76
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -328,8 +337,7 @@ class Derived extends Base {
                                     "start": 130,
                                     "end": 133
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

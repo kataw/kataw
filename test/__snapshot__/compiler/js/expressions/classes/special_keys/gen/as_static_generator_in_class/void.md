@@ -64,8 +64,7 @@ class x {static * void(){}}
                                     "start": 17,
                                     "end": 22
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

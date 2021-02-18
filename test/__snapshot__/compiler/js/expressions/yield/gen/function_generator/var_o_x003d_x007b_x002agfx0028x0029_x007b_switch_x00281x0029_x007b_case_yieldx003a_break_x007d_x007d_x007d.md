@@ -128,8 +128,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 "start": 51,
                                                                                 "end": 53
                                                                             },
-                                                                            "propertySetParameterList": null,
-                                                                            "uniqueFormalParameters": {
+                                                                            "formalParameters": {
                                                                                 "kind": 90,
                                                                                 "formalParameterList": [],
                                                                                 "trailingComma": false,

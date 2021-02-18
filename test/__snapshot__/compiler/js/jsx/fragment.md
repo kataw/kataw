@@ -108,8 +108,7 @@ class Columns extends React.Component {
                                     "start": 39,
                                     "end": 54
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

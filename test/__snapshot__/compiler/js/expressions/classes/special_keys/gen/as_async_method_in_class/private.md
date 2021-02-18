@@ -64,8 +64,7 @@ class x {async private(){}}
                                     "start": 14,
                                     "end": 22
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

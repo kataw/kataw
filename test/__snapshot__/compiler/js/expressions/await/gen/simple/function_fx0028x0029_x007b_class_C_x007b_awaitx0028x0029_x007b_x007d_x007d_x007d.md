@@ -96,8 +96,7 @@ function f() { class C { await() { } } }
                                                     "start": 24,
                                                     "end": 30
                                                 },
-                                                "propertySetParameterList": null,
-                                                "uniqueFormalParameters": {
+                                                "formalParameters": {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,

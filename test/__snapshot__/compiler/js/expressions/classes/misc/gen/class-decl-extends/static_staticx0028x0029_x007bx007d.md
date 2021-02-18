@@ -75,8 +75,7 @@ class C extends Base { static static() {} }
                                     "start": 29,
                                     "end": 36
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

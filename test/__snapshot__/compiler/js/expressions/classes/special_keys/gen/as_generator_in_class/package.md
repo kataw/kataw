@@ -64,8 +64,7 @@ class x {* package(){}}
                                     "start": 10,
                                     "end": 18
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

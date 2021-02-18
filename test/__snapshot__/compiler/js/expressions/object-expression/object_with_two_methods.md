@@ -59,8 +59,7 @@ wrap({foo(){}, bar(){}});
                                                 "start": 6,
                                                 "end": 9
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
@@ -122,8 +121,7 @@ wrap({foo(){}, bar(){}});
                                                 "start": 14,
                                                 "end": 18
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,

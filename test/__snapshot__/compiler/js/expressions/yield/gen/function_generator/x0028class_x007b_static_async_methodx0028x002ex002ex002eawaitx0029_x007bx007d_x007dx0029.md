@@ -121,8 +121,7 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "start": 61,
                                                                             "end": 68
                                                                         },
-                                                                        "propertySetParameterList": null,
-                                                                        "uniqueFormalParameters": {
+                                                                        "formalParameters": {
                                                                             "kind": 90,
                                                                             "formalParameterList": [
                                                                                 {

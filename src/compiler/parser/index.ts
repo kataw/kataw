@@ -2636,8 +2636,6 @@ function parseMethodDefinition(
   accessModifier: AccessModifier | null
 ): MethodDefinition {
   const pos = parser.curPos;
-  let propertySetParameterList = null;
-  let uniqueFormalParameters = null;
 
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
 
@@ -2646,39 +2644,12 @@ function parseMethodDefinition(
     (kind & PropertyKind.Async ? Context.InAwaitContext : 0) |
     (kind & PropertyKind.Generator ? Context.InYieldContext : 0);
 
-  if (kind & PropertyKind.Getter) {
-    consume(parser, context, Token.LeftParen);
-    if (parser.token !== Token.RightParen) {
-      reportErrorDiagnostic(parser, 1, DiagnosticCode.A_get_accessor_cannot_have_parameters);
-      const parameters = [];
-      while (parser.token & 0b00000100000010000101000000000000) {
-        parameters.push(getCurrentNode(parser, context, parseFormalParameter));
-        if (parser.token === Token.RightParen) break;
-        if (consumeOpt(parser, context | Context.AllowRegExp, Token.Comma)) continue;
-        reportErrorDiagnostic(parser, 0, DiagnosticCode.Expression_or_comma_expected);
-      }
-      uniqueFormalParameters = createFormalParameterList(parameters, false, parser.nodeFlags, pos, parser.curPos);
-    }
-    nextToken(parser, context);
-  } else if (kind & PropertyKind.Setter) {
-    consume(parser, context, Token.LeftParen);
-    if (parser.token === Token.RightParen) {
-      reportErrorDiagnostic(parser, 1, DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter);
-    }
-    propertySetParameterList = parseFormalParameter(parser, context);
-    if (parser.token !== Token.RightParen) {
-      reportErrorDiagnostic(parser, 1, DiagnosticCode.A_set_accessor_must_have_exactly_one_parameter);
-    }
-    nextToken(parser, context);
-  } else {
-    uniqueFormalParameters = parseFormalParameterList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
-  }
+  const methodParameters = parseFormalParameterList(parser, (context | Context.DisallowIn) ^ Context.DisallowIn);
 
   return createMethodDefinition(
     parser.nodeFlags,
     kind,
-    propertySetParameterList,
-    uniqueFormalParameters,
+    methodParameters,
     key,
     accessModifier,
     typeParameters,

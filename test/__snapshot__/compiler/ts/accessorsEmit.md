@@ -132,8 +132,18 @@ var Test = (function () {
                                     "start": 62,
                                     "end": 71
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 72,
+                                    "end": 73
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {
@@ -338,8 +348,18 @@ var Test = (function () {
                                     "start": 154,
                                     "end": 163
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 164,
+                                    "end": 165
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

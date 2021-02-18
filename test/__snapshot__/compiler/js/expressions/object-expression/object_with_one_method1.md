@@ -68,8 +68,7 @@ wrap({0o4432(){}});
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
@@ -201,8 +200,7 @@ wrap({0o4432(){}});
                                                 "start": 22,
                                                 "end": 23
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
@@ -334,8 +332,7 @@ wrap({0o4432(){}});
                                                 "start": 38,
                                                 "end": 46
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
@@ -467,8 +464,7 @@ wrap({0o4432(){}});
                                                 "start": 61,
                                                 "end": 68
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
@@ -600,8 +596,7 @@ wrap({0o4432(){}});
                                                 "start": 83,
                                                 "end": 89
                                             },
-                                            "propertySetParameterList": null,
-                                            "uniqueFormalParameters": {
+                                            "formalParameters": {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,

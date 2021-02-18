@@ -68,8 +68,7 @@ class A {
                                     "start": 15,
                                     "end": 20
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {
@@ -79,7 +78,7 @@ class A {
                                                 "kind": 131102,
                                                 "text": "arg",
                                                 "rawText": "arg",
-                                                "flags": 2,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -108,8 +107,8 @@ class A {
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 20,
-                                    "end": 25
+                                    "start": 22,
+                                    "end": 26
                                 },
                                 "isSetter": false,
                                 "isGetter": true,
@@ -184,15 +183,7 @@ class A {
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "A 'get' accessor cannot have parameters",
-            "start": 22,
-            "length": 1
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

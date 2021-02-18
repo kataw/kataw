@@ -128,8 +128,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                                     "start": 49,
                                                                     "end": 54
                                                                 },
-                                                                "propertySetParameterList": null,
-                                                                "uniqueFormalParameters": {
+                                                                "formalParameters": {
                                                                     "kind": 90,
                                                                     "formalParameterList": [],
                                                                     "trailingComma": false,

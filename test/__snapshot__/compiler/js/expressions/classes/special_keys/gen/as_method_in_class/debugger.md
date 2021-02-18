@@ -64,8 +64,7 @@ class x {debugger(){}}
                                     "start": 9,
                                     "end": 17
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

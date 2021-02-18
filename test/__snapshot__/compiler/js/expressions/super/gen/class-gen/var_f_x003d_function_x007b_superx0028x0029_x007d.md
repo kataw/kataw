@@ -64,8 +64,7 @@ class C { *method() { var f = function { super(); } } }
                                     "start": 11,
                                     "end": 17
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

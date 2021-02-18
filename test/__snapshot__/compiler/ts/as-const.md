@@ -2179,8 +2179,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 489,
                                                     "end": 491
                                                 },
-                                                "propertySetParameterList": null,
-                                                "uniqueFormalParameters": {
+                                                "formalParameters": {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
@@ -2851,8 +2850,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 634,
                                                     "end": 638
                                                 },
-                                                "propertySetParameterList": null,
-                                                "uniqueFormalParameters": {
+                                                "formalParameters": {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,

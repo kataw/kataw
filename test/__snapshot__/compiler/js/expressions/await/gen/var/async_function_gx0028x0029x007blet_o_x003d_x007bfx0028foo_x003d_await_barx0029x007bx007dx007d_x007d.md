@@ -187,8 +187,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "start": 67,
                                                                                                     "end": 68
                                                                                                 },
-                                                                                                "propertySetParameterList": null,
-                                                                                                "uniqueFormalParameters": {
+                                                                                                "formalParameters": {
                                                                                                     "kind": 90,
                                                                                                     "formalParameterList": [
                                                                                                         {

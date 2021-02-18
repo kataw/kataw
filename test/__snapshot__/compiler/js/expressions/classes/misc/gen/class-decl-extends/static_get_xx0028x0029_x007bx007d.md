@@ -75,8 +75,18 @@ class C extends Base { static get x() {} }
                                     "start": 33,
                                     "end": 35
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": null,
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 36,
+                                    "end": 37
+                                },
                                 "isSetter": false,
                                 "isGetter": true,
                                 "contents": {

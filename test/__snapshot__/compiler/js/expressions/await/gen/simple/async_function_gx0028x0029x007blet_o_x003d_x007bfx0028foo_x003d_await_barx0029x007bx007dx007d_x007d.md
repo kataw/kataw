@@ -97,8 +97,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                 "start": 28,
                                                                 "end": 29
                                                             },
-                                                            "propertySetParameterList": null,
-                                                            "uniqueFormalParameters": {
+                                                            "formalParameters": {
                                                                 "kind": 90,
                                                                 "formalParameterList": [
                                                                     {

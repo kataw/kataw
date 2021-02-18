@@ -69,36 +69,48 @@ wrap({set [foo](a){}});
                                                 "start": 9,
                                                 "end": 15
                                             },
-                                            "propertySetParameterList": {
-                                                "kind": 89,
-                                                "ellipsis": false,
-                                                "binding": {
-                                                    "kind": 131102,
-                                                    "text": "a",
-                                                    "rawText": "a",
-                                                    "flags": 0,
-                                                    "intersects": false,
-                                                    "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 16,
-                                                    "end": 17
-                                                },
-                                                "isOptional": false,
-                                                "type": null,
-                                                "initializer": null,
-                                                "decorators": null,
-                                                "accessModifier": null,
-                                                "isReadOnly": false,
+                                            "formalParameters": {
+                                                "kind": 90,
+                                                "formalParameterList": [
+                                                    {
+                                                        "kind": 89,
+                                                        "ellipsis": false,
+                                                        "binding": {
+                                                            "kind": 131102,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 1025,
+                                                            "parent": null,
+                                                            "emitNode": null,
+                                                            "start": 16,
+                                                            "end": 17
+                                                        },
+                                                        "isOptional": false,
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "decorators": null,
+                                                        "accessModifier": null,
+                                                        "isReadOnly": false,
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 1,
+                                                        "parent": null,
+                                                        "emitNode": null,
+                                                        "start": 16,
+                                                        "end": 17
+                                                    }
+                                                ],
+                                                "trailingComma": false,
                                                 "flags": 0,
                                                 "intersects": false,
-                                                "transformFlags": 1,
+                                                "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 16,
-                                                "end": 17
+                                                "end": 18
                                             },
-                                            "uniqueFormalParameters": null,
                                             "isSetter": true,
                                             "isGetter": false,
                                             "contents": {

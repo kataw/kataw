@@ -64,8 +64,7 @@ class x {async debugger(){}}
                                     "start": 14,
                                     "end": 23
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,

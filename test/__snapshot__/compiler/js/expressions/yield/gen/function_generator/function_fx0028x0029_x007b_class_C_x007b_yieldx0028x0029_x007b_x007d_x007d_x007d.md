@@ -160,8 +160,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                     "start": 64,
                                                                                     "end": 70
                                                                                 },
-                                                                                "propertySetParameterList": null,
-                                                                                "uniqueFormalParameters": {
+                                                                                "formalParameters": {
                                                                                     "kind": 90,
                                                                                     "formalParameterList": [],
                                                                                     "trailingComma": false,

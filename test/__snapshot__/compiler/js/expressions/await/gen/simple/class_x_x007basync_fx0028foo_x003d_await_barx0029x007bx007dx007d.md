@@ -64,8 +64,7 @@ class x {async f(foo = await bar){}}
                                     "start": 14,
                                     "end": 16
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [
                                         {

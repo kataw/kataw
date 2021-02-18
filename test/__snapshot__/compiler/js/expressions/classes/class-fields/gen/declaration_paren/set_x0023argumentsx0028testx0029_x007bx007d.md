@@ -68,36 +68,48 @@
                                             "start": 25,
                                             "end": 36
                                         },
-                                        "propertySetParameterList": {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "test",
-                                                "rawText": "test",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 37,
-                                                "end": 41
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
+                                        "formalParameters": {
+                                            "kind": 90,
+                                            "formalParameterList": [
+                                                {
+                                                    "kind": 89,
+                                                    "ellipsis": false,
+                                                    "binding": {
+                                                        "kind": 131102,
+                                                        "text": "test",
+                                                        "rawText": "test",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 1025,
+                                                        "parent": null,
+                                                        "emitNode": null,
+                                                        "start": 37,
+                                                        "end": 41
+                                                    },
+                                                    "isOptional": false,
+                                                    "type": null,
+                                                    "initializer": null,
+                                                    "decorators": null,
+                                                    "accessModifier": null,
+                                                    "isReadOnly": false,
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 1,
+                                                    "parent": null,
+                                                    "emitNode": null,
+                                                    "start": 37,
+                                                    "end": 41
+                                                }
+                                            ],
+                                            "trailingComma": false,
                                             "flags": 0,
                                             "intersects": false,
-                                            "transformFlags": 1,
+                                            "transformFlags": 0,
                                             "parent": null,
                                             "emitNode": null,
                                             "start": 37,
-                                            "end": 41
+                                            "end": 42
                                         },
-                                        "uniqueFormalParameters": null,
                                         "isSetter": true,
                                         "isGetter": false,
                                         "contents": {

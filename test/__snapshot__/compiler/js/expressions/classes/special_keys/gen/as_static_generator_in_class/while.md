@@ -64,8 +64,7 @@ class x {static * while(){}}
                                     "start": 17,
                                     "end": 23
                                 },
-                                "propertySetParameterList": null,
-                                "uniqueFormalParameters": {
+                                "formalParameters": {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
