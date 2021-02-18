@@ -74,6 +74,7 @@ interface Foo { public foo: string; }
                                 "start": 27,
                                 "end": 34
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 0,

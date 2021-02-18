@@ -3,7 +3,6 @@ import { updateNode } from '../../utils';
 import { Expression, PropertyName } from '../expressions';
 import { TypeNode } from './';
 import { AccessModifier } from './access-modifier';
-import { PropertyKind } from '../../parser/common';
 
 /**
  * PropertySignature
@@ -13,6 +12,7 @@ export interface PropertySignature extends Node {
   readonly name: PropertyName;
   readonly isOptional: boolean;
   readonly type: TypeNode | null;
+  readonly isStatic: boolean;
   readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly initializer: Expression | null;
@@ -23,6 +23,7 @@ export function createPropertySignature(
   isOptional: boolean,
   accessModifier: AccessModifier | null,
   type: TypeNode | null,
+  isStatic: boolean,
   isReadOnly: boolean,
   initializer: Expression | null,
   flags: NodeFlags,
@@ -35,6 +36,7 @@ export function createPropertySignature(
     isOptional,
     accessModifier,
     type,
+    isStatic,
     isReadOnly,
     initializer,
     flags,
@@ -68,6 +70,7 @@ export function updatePropertySignature(
           isOptional,
           accessModifier,
           type,
+          node.isStatic,
           isReadOnly,
           initializer,
           node.flags,

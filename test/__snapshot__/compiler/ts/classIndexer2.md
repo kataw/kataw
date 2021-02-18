@@ -109,6 +109,7 @@ class C123 {
                                 "start": 29,
                                 "end": 36
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "flags": 16384,
                             "intersects": false,

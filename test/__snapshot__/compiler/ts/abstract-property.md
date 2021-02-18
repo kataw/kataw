@@ -85,6 +85,7 @@ class C extends B {
                                 "start": 23,
                                 "end": 30
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,
@@ -121,6 +122,7 @@ class C extends B {
                                 "start": 40,
                                 "end": 47
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,
@@ -145,6 +147,7 @@ class C extends B {
                                 "start": 48,
                                 "end": 54
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,

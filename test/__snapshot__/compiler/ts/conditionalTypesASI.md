@@ -68,6 +68,7 @@ interface JSONSchema4 {
                                 "start": 29,
                                 "end": 36
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,
@@ -136,6 +137,7 @@ interface JSONSchema4 {
                                 "start": 55,
                                 "end": 66
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,

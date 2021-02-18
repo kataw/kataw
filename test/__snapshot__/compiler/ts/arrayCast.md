@@ -59,6 +59,7 @@
                                             "start": 6,
                                             "end": 13
                                         },
+                                        "isStatic": false,
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,
@@ -231,6 +232,7 @@
                                             "start": 42,
                                             "end": 49
                                         },
+                                        "isStatic": false,
                                         "isReadOnly": false,
                                         "initializer": null,
                                         "flags": 0,

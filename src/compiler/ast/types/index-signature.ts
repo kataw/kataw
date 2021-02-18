@@ -12,6 +12,7 @@ import { PropertyKind } from '../../parser/common';
 export interface IndexSignature extends Node {
   readonly parameters: Parameters;
   readonly returnType: TypeNode | null;
+  readonly isStatic: boolean;
   readonly isReadOnly: boolean;
   readonly accessModifier: AccessModifier | null;
 }
@@ -20,6 +21,7 @@ export function createIndexSignature(
   accessModifier: AccessModifier | null,
   parameters: Parameters,
   returnType: TypeNode | null,
+  isStatic: boolean,
   isReadOnly: boolean,
   flags: NodeFlags,
   start: number,
@@ -30,6 +32,7 @@ export function createIndexSignature(
     accessModifier,
     parameters,
     returnType,
+    isStatic,
     isReadOnly,
     flags,
     intersects: false,
@@ -53,7 +56,16 @@ export function updateIndexSignature(
     node.returnType !== returnType ||
     node.parameters !== parameters
     ? updateNode(
-        createIndexSignature(accessModifier, parameters, returnType, isReadOnly, node.flags, node.start, node.end),
+        createIndexSignature(
+          accessModifier,
+          parameters,
+          returnType,
+          node.isStatic,
+          isReadOnly,
+          node.flags,
+          node.start,
+          node.end
+        ),
         node
       )
     : node;

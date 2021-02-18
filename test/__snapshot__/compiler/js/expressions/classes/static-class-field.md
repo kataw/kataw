@@ -43,12 +43,12 @@ class x { static #foo = bar }
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 131252,
+                                "kind": 196711,
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 524288,
+                                "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 16,

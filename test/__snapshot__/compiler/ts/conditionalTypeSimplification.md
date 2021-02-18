@@ -121,6 +121,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "start": 32,
                                 "end": 37
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -383,6 +384,7 @@ interface AnySchemaType<S extends AbstractSchema<any, any>, V> extends AbstractS
                                 "start": 78,
                                 "end": 83
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,

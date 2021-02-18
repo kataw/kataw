@@ -120,6 +120,7 @@ function bar<T>(x: Foo<T> | string): T {
                                 "start": 25,
                                 "end": 28
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,

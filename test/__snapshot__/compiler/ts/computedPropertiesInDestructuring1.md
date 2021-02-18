@@ -1372,6 +1372,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "start": 262,
                                                 "end": 269
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -1586,6 +1587,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "start": 306,
                                                 "end": 313
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -1823,6 +1825,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                 "start": 353,
                                                 "end": 360
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -2075,6 +2078,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "start": 400,
                                                         "end": 407
                                                     },
+                                                    "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
                                                     "flags": 0,
@@ -2359,6 +2363,7 @@ let [{[foo.toExponential()]: bar7}] = [{bar: "bar"}];
                                                         "start": 451,
                                                         "end": 458
                                                     },
+                                                    "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
                                                     "flags": 0,

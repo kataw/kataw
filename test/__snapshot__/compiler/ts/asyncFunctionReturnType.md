@@ -436,6 +436,7 @@ async function fGenericIndexedTypeForExplicitPromiseOfKProp<TObj extends Obj, K 
                                 "start": 335,
                                 "end": 342
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,
@@ -472,6 +473,7 @@ async function fGenericIndexedTypeForExplicitPromiseOfKProp<TObj extends Obj, K 
                                 "start": 356,
                                 "end": 360
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,

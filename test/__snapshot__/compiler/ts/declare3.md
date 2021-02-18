@@ -808,6 +808,7 @@ declare var Array: {
                                                 "start": 218,
                                                 "end": 228
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "isOptional": false,
                                             "accessModifier": null,
@@ -940,6 +941,7 @@ declare var Array: {
                                                 "start": 261,
                                                 "end": 273
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 16384,

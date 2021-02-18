@@ -2035,6 +2035,7 @@ class e {
                                                 "start": 729,
                                                 "end": 736
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -2071,6 +2072,7 @@ class e {
                                                 "start": 740,
                                                 "end": 747
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,

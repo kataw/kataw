@@ -445,6 +445,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "start": 159,
                                                 "end": 184
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -520,6 +521,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                         "start": 192,
                                                         "end": 217
                                                     },
+                                                    "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
                                                     "flags": 0,
@@ -724,6 +726,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                 "start": 253,
                                                 "end": 278
                                             },
+                                            "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
                                             "flags": 0,
@@ -799,6 +802,7 @@ var f: { x: IHasVisualizationModel } = <{ x: IHasVisualizationModel }>null ? { x
                                                         "start": 286,
                                                         "end": 311
                                                     },
+                                                    "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
                                                     "flags": 0,

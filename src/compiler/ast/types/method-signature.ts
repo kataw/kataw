@@ -15,6 +15,7 @@ export interface MethodSignature extends Node {
   readonly name: PropertyName;
   readonly isOptional: boolean;
   readonly isReadOnly: boolean;
+  readonly isStatic: boolean;
   readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters | null;
   readonly parameters: Parameters;
@@ -25,6 +26,7 @@ export function createMethodSignature(
   name: PropertyName,
   isOptional: boolean,
   isReadOnly: boolean,
+  isStatic: boolean,
   accessModifier: AccessModifier | null,
   typeParameters: TypeParameters | null,
   parameters: Parameters,
@@ -36,6 +38,7 @@ export function createMethodSignature(
   return {
     kind: NodeKind.MethodSignature,
     name,
+    isStatic,
     isReadOnly,
     isOptional,
     accessModifier,
@@ -74,6 +77,7 @@ export function updateMethodSignature(
           name,
           isOptional,
           isReadOnly,
+          node.isOptional,
           accessModifier,
           typeParameters,
           parameters,

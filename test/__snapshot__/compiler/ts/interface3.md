@@ -144,6 +144,7 @@
                                 "start": 21,
                                 "end": 33
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -192,6 +193,7 @@
                                 "start": 44,
                                 "end": 62
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -240,6 +242,7 @@
                                 "start": 73,
                                 "end": 83
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -440,6 +443,7 @@
                                 "start": 119,
                                 "end": 129
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -572,6 +576,7 @@
                                 "start": 150,
                                 "end": 158
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -658,6 +663,7 @@
                                 "start": 187,
                                 "end": 194
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -719,6 +725,7 @@
                                 "start": 200,
                                 "end": 208
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -828,6 +835,7 @@
                                 "start": 232,
                                 "end": 243
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -899,6 +907,7 @@
                                 "start": 251,
                                 "end": 260
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -960,6 +969,7 @@
                                 "start": 266,
                                 "end": 275
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1106,6 +1116,7 @@
                                 "start": 311,
                                 "end": 319
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1339,6 +1350,7 @@
                                 "start": 361,
                                 "end": 371
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1448,6 +1460,7 @@
                                 "start": 392,
                                 "end": 402
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1654,6 +1667,7 @@
                                 "start": 459,
                                 "end": 470
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1763,6 +1777,7 @@
                                 "start": 494,
                                 "end": 505
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -1899,6 +1914,7 @@
                                 "start": 552,
                                 "end": 567
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -2035,6 +2051,7 @@
                                 "start": 614,
                                 "end": 623
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -2329,6 +2346,7 @@
                                 "start": 710,
                                 "end": 718
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -2623,6 +2641,7 @@
                                 "start": 805,
                                 "end": 816
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -2917,6 +2936,7 @@
                                 "start": 897,
                                 "end": 904
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -3283,6 +3303,7 @@
                                 "start": 984,
                                 "end": 994
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -3600,6 +3621,7 @@
                                 "start": 1077,
                                 "end": 1087
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -3983,6 +4005,7 @@
                                 "start": 1197,
                                 "end": 1207
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -4402,6 +4425,7 @@
                                 "start": 1319,
                                 "end": 1334
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -4785,6 +4809,7 @@
                                 "start": 1444,
                                 "end": 1459
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "accessModifier": null,
@@ -5216,6 +5241,7 @@
                                 "start": 1582,
                                 "end": 1589
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
                             "flags": 16384,
@@ -5302,6 +5328,7 @@
                                 "start": 1606,
                                 "end": 1609
                             },
+                            "isStatic": false,
                             "isReadOnly": false,
                             "flags": 16384,
                             "intersects": false,
