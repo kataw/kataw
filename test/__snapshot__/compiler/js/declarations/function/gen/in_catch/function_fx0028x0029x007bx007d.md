@@ -21,11 +21,11 @@ try {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "try {\n} catch (e) {\n  function f(){}\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097375,
@@ -35,7 +35,7 @@ try {
                         "kind": 2084,
                         "statements": [],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -43,7 +43,7 @@ try {
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -59,7 +59,7 @@ try {
                             "kind": 131102,
                             "text": "e",
                             "rawText": "e",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -69,7 +69,7 @@ try {
                         },
                         "type": null,
                         "initializer": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -88,7 +88,7 @@ try {
                                         "kind": 131102,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -100,7 +100,7 @@ try {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -115,7 +115,7 @@ try {
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -123,7 +123,7 @@ try {
                                             "start": 35,
                                             "end": 35
                                         },
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -132,7 +132,7 @@ try {
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 256,
                                     "parent": null,
@@ -142,7 +142,7 @@ try {
                                 }
                             ],
                             "multiline": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -150,7 +150,7 @@ try {
                             "start": 19,
                             "end": 36
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -158,7 +158,7 @@ try {
                         "start": 17,
                         "end": 38
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -167,7 +167,7 @@ try {
                     "end": 38
                 },
                 "finallyBlock": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -177,7 +177,7 @@ try {
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -202,13 +202,13 @@ try {
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

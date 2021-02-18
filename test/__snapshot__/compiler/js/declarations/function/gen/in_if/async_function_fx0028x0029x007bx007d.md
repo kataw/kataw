@@ -18,11 +18,11 @@ if (x) async function f(){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "if (x) async function f(){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097257,
@@ -30,7 +30,7 @@ if (x) async function f(){}
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -46,7 +46,7 @@ if (x) async function f(){}
                             "kind": 131102,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -58,7 +58,7 @@ if (x) async function f(){}
                             "kind": 90,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -72,7 +72,7 @@ if (x) async function f(){}
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -80,7 +80,7 @@ if (x) async function f(){}
                                 "start": 26,
                                 "end": 26
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -90,7 +90,7 @@ if (x) async function f(){}
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 4,
                         "parent": null,
@@ -108,7 +108,7 @@ if (x) async function f(){}
                 },
                 "alternate": null,
                 "isWebCompat": true,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -118,7 +118,7 @@ if (x) async function f(){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -143,13 +143,13 @@ if (x) async function f(){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

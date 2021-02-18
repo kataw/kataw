@@ -6,7 +6,6 @@ import { AssignmentExpression } from './assignment-expr';
 import { TypeNode } from '../types';
 import { DecoratorList } from './decorator-list';
 import { AccessModifier } from '../types/access-modifier';
-import { PropertyKind } from '../../parser/common';
 
 /**
  * FieldDefinition

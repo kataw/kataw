@@ -717,7 +717,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.typeParameter, visitor),
         visitNode(node.nameType, visitor),
         visitNode(node.type, visitor),
-        node.readOnly,
+        node.isReadOnly,
         node.plus,
         node.minus,
         node.isOptional
@@ -777,8 +777,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
 
     case NodeKind.Parameters:
       return updateParameters(visitNodes(node.parameterList, visitor), node.readOnly);
-    case NodeKind.TypeParameter:
-      return updateTypeParameters(visitNodes(node.typeParameterList, visitor), node.readOnly);
     case NodeKind.TypeAssertionExpression:
       return updateTypeAssertion(node, visitNode(node.type, visitor), visitNode(node.expression, visitor));
 
@@ -848,13 +846,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
 
     case NodeKind.HeritageClauses:
       return updateHeritageClauses(node, visitNodes(node.clauses, visitor));
-
     case NodeKind.HeritageClause:
       return updateHeritageClause(node, visitNode(node.type, visitor));
-
-    case NodeKind.ImplementClauses:
-      return updateImplementClauses(node, visitNodes(node.clauses, visitor));
-
     case NodeKind.ImplementClause:
       return updateImplementClause(node, visitNode(node.type, visitor));
 
@@ -972,10 +965,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
 
     case NodeKind.NamespaceDeclaration:
       return updateNamespaceDeclaration(node, visitNode(node.name, visitor), visitNode(node.body, visitor));
-
     case NodeKind.NamespaceBlock:
       return updateNamespaceBlock(node, visitNodes(node.statements, visitor));
-
     case NodeKind.NamedImports:
       return updateNamedImports(node, visitNode(node.importsList, visitor));
     case NodeKind.JsxSpreadAttribute:

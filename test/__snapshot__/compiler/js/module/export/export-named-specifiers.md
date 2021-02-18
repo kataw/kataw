@@ -57,6 +57,30 @@ export {foo, bar};
                                 "emitNode": null,
                                 "start": 8,
                                 "end": 11
+                            },
+                            {
+                                "kind": 79,
+                                "moduleExportName": null,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "bar",
+                                    "rawText": "bar",
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 12,
+                                    "end": 16
+                                },
+                                "binding": null,
+                                "flags": 65536,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 12,
+                                "end": 16
                             }
                         ],
                         "flags": 65536,
@@ -65,57 +89,25 @@ export {foo, bar};
                         "parent": null,
                         "emitNode": null,
                         "start": 8,
-                        "end": 11
+                        "end": 16
                     },
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 6,
-                    "end": 11
-                },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 0,
-                "end": 11
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "bar",
-                    "rawText": "bar",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 12,
-                    "end": 16
+                    "start": 6,
+                    "end": 17
                 },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 12,
-                "end": 16
-            },
-            {
-                "kind": 6291526,
+                "exportFromClause": null,
+                "fromClause": null,
+                "isTypeOnly": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
-                "start": 17,
+                "start": 0,
                 "end": 18
             }
         ],
@@ -129,22 +121,7 @@ export {foo, bar};
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 11,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 16,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

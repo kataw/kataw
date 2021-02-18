@@ -19,11 +19,11 @@ function f({a} = b,){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function f({a} = b,){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ function f({a} = b,){}
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ function f({a} = b,){}
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -66,7 +66,7 @@ function f({a} = b,){}
                                                 "end": 13
                                             },
                                             "right": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -78,14 +78,14 @@ function f({a} = b,){}
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 12,
                                     "end": 13
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -99,7 +99,7 @@ function f({a} = b,){}
                                 "kind": 196712,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -110,7 +110,7 @@ function f({a} = b,){}
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -120,7 +120,7 @@ function f({a} = b,){}
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -135,7 +135,7 @@ function f({a} = b,){}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -143,7 +143,7 @@ function f({a} = b,){}
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -152,7 +152,7 @@ function f({a} = b,){}
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -162,7 +162,7 @@ function f({a} = b,){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -187,13 +187,13 @@ function f({a} = b,){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

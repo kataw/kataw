@@ -65,56 +65,22 @@ export {x,} from "foo"
                         "parent": null,
                         "emitNode": null,
                         "start": 8,
-                        "end": 9
+                        "end": 10
                     },
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 6,
-                    "end": 9
-                },
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 0,
-                "end": 9
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "from",
-                    "rawText": "from",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 11,
-                    "end": 16
+                    "start": 6,
+                    "end": 11
                 },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 11,
-                "end": 16
-            },
-            {
-                "kind": 2097233,
-                "expression": {
+                "exportFromClause": null,
+                "fromClause": {
                     "kind": 67279,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65538,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -122,12 +88,13 @@ export {x,} from "foo"
                     "start": 16,
                     "end": 22
                 },
-                "flags": 0,
+                "isTypeOnly": false,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
-                "start": 16,
+                "start": 0,
                 "end": 22
             }
         ],
@@ -141,29 +108,7 @@ export {x,} from "foo"
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 9,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 10,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 17,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

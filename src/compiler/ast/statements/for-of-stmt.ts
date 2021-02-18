@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { Statement } from '.';
 import { Expression } from '../expressions/index';
 import { LexicalDeclaration } from '../statements/lexical-declaration';

@@ -19,11 +19,11 @@ function f(...a = x,){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function f(...a = x,){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ function f(...a = x,){}
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -49,7 +49,7 @@ function f(...a = x,){}
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -63,7 +63,7 @@ function f(...a = x,){}
                                 "kind": 196712,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -74,7 +74,7 @@ function f(...a = x,){}
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -84,7 +84,7 @@ function f(...a = x,){}
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -99,7 +99,7 @@ function f(...a = x,){}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -107,7 +107,7 @@ function f(...a = x,){}
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -116,7 +116,7 @@ function f(...a = x,){}
                     "end": 23
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -126,7 +126,7 @@ function f(...a = x,){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -151,13 +151,13 @@ function f(...a = x,){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

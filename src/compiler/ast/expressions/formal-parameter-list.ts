@@ -1,6 +1,5 @@
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { FormalParameter } from './formal-parameter';
 
 export interface FormalParameterList extends Node {

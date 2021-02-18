@@ -140,6 +140,41 @@ var x,y; export {x as a, y as b}
                                 "emitNode": null,
                                 "start": 17,
                                 "end": 23
+                            },
+                            {
+                                "kind": 79,
+                                "moduleExportName": null,
+                                "name": {
+                                    "kind": 196711,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 24,
+                                    "end": 26
+                                },
+                                "binding": {
+                                    "kind": 196711,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 29,
+                                    "end": 31
+                                },
+                                "flags": 65536,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 24,
+                                "end": 31
                             }
                         ],
                         "flags": 65536,
@@ -148,81 +183,26 @@ var x,y; export {x as a, y as b}
                         "parent": null,
                         "emitNode": null,
                         "start": 17,
-                        "end": 23
+                        "end": 31
                     },
-                    "flags": 65538,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
                     "start": 15,
-                    "end": 23
+                    "end": 32
                 },
                 "exportFromClause": null,
                 "fromClause": null,
                 "isTypeOnly": false,
-                "flags": 65538,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
                 "start": 8,
-                "end": 23
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 65546,
-                    "expression": {
-                        "kind": 196712,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 24,
-                        "end": 26
-                    },
-                    "type": {
-                        "kind": 236,
-                        "typeName": {
-                            "kind": 196711,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 29,
-                            "end": 31
-                        },
-                        "typeArguments": null,
-                        "flags": 65536,
-                        "intersects": false,
-                        "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 29,
-                        "end": 32
-                    },
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 26,
-                    "end": 31
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 24,
-                "end": 31
+                "end": 32
             }
         ],
         "transformFlags": 0,
@@ -235,22 +215,7 @@ var x,y; export {x as a, y as b}
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 23,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 31,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

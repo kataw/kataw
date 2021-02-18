@@ -1,8 +1,6 @@
-import { Expression } from '.';
 import { CallChain } from './call-chain';
 import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
-
 import { PrivateIdentifier } from './private-identifier';
 import { IdentifierName } from './identifier-name';
 import { ElementAccessChain } from './element-access-chain';

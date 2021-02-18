@@ -1872,25 +1872,12 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           parser.token === Token.Arrow &&
           (token & (Token.FutureReserved | Token.IsIdentifier) || expression.kind === NodeKind.ArrowParameters)
         ) {
-          const isParenthesized = expression.kind === NodeKind.ArrowParameters;
-          if (!isParenthesized) {
-            expression = createArrowParameters(
-              null,
-              convertToArrowParams(parser, context, elements, innerPos),
-              null,
-              null,
-              trailingComma,
-              parser.nodeFlags,
-              innerPos,
-              parser.curPos
-            );
-          }
           expression = parseArrowFunction(
             parser,
             context,
             convertToArrowParams(parser, context, elements, innerPos),
             token === Token.AsyncKeyword,
-            isParenthesized,
+            expression.kind === NodeKind.ArrowParameters,
             innerPos
           );
         }
@@ -4639,7 +4626,6 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
   const specifiers = [];
   while (parser.token & (Token.IsIdentifier | Token.Keyword | Token.FutureReserved)) {
     specifiers.push(getCurrentNode(parser, context, parseExportSpecifier));
-    break;
     if (parser.token === Token.RightBrace) break;
     consume(parser, context, Token.Comma);
   }

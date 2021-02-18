@@ -106,7 +106,7 @@ var x; export {x: a}
                                 "end": 16
                             }
                         ],
-                        "flags": 65536,
+                        "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -170,7 +170,7 @@ var x; export {x: a}
         {
             "kind": 2,
             "source": 2,
-            "message": "'}' expected.",
+            "message": "',' expected.",
             "start": 16,
             "length": 0
         },

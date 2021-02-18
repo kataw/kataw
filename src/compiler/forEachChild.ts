@@ -325,12 +325,6 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNode(node.initializer, visitor);
     case NodeKind.JsxChildrenList:
       return visitNodes(node.children, visitor);
-    case NodeKind.JsxOpeningElement:
-      return (
-        visitNode(node.openingElement, visitor) ||
-        visitNode(node.children, visitor) ||
-        visitNode(node.closingElement, visitor)
-      );
     case NodeKind.JsxFragment:
       return (
         visitNode(node.openingFragment, visitor) ||
@@ -341,9 +335,13 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNode(node.expression, visitor);
     case NodeKind.JsxNamespacedName:
       return visitNode(node.namespace, visitor);
-    case NodeKind.JsxOpeningElement:
-      return visitNode(node.attributes, visitor) || visitNode(node.typeParameters, visitor);
-    case NodeKind.JsxSelfClosingElement:
+      case NodeKind.JsxOpeningElement:
+        return (
+          visitNode(node.openingElement, visitor) ||
+          visitNode(node.children, visitor) ||
+          visitNode(node.closingElement, visitor)
+        );
+      case NodeKind.JsxSelfClosingElement:
       return visitNode(node.attributes, visitor) || visitNode(node.typeArguments, visitor);
     case NodeKind.JsxSpreadAttribute:
       return visitNode(node.expression, visitor);
@@ -387,7 +385,6 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
     case NodeKind.HeritageClauses:
       return visitNodes(node.clauses, visitor);
     case NodeKind.ImplementClause:
-    case NodeKind.HeritageClause:
       return visitNode(node.type, visitor);
     case NodeKind.IndexedAccessType:
       return visitNode(node.objectType, visitor) || visitNode(node.indexType, visitor);

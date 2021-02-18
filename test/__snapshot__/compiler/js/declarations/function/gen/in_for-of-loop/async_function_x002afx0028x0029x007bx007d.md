@@ -18,11 +18,11 @@ for (a of b) async function *f(){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "for (a of b) async function *f(){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2099287,
@@ -30,7 +30,7 @@ for (a of b) async function *f(){}
                     "kind": 196712,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -42,7 +42,7 @@ for (a of b) async function *f(){}
                     "kind": 196712,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -58,7 +58,7 @@ for (a of b) async function *f(){}
                             "kind": 131102,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -70,7 +70,7 @@ for (a of b) async function *f(){}
                             "kind": 90,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -84,7 +84,7 @@ for (a of b) async function *f(){}
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -92,7 +92,7 @@ for (a of b) async function *f(){}
                                 "start": 33,
                                 "end": 33
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -102,7 +102,7 @@ for (a of b) async function *f(){}
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 8,
                         "parent": null,
@@ -119,7 +119,7 @@ for (a of b) async function *f(){}
                     "end": 34
                 },
                 "isAwait": false,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -129,7 +129,7 @@ for (a of b) async function *f(){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -154,13 +154,13 @@ for (a of b) async function *f(){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

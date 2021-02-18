@@ -18,11 +18,11 @@ do async function f(){} while (x);
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "do async function f(){} while (x);",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097218,
@@ -30,7 +30,7 @@ do async function f(){} while (x);
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -46,7 +46,7 @@ do async function f(){} while (x);
                             "kind": 131102,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -58,7 +58,7 @@ do async function f(){} while (x);
                             "kind": 90,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -72,7 +72,7 @@ do async function f(){} while (x);
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -80,7 +80,7 @@ do async function f(){} while (x);
                                 "start": 22,
                                 "end": 22
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -90,7 +90,7 @@ do async function f(){} while (x);
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 4,
                         "parent": null,
@@ -106,7 +106,7 @@ do async function f(){} while (x);
                     "start": 2,
                     "end": 23
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -116,7 +116,7 @@ do async function f(){} while (x);
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -149,13 +149,13 @@ do async function f(){} while (x);
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

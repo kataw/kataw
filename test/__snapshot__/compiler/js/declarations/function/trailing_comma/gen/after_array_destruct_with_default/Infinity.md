@@ -19,11 +19,11 @@ function f([x] = y,){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function f([x] = y,){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ function f([x] = y,){}
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ function f([x] = y,){}
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -66,7 +66,7 @@ function f([x] = y,){}
                                                 "end": 13
                                             },
                                             "right": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -76,7 +76,7 @@ function f([x] = y,){}
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -84,7 +84,7 @@ function f([x] = y,){}
                                     "start": 12,
                                     "end": 13
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -98,7 +98,7 @@ function f([x] = y,){}
                                 "kind": 196712,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -109,7 +109,7 @@ function f([x] = y,){}
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -119,7 +119,7 @@ function f([x] = y,){}
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -134,7 +134,7 @@ function f([x] = y,){}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -142,7 +142,7 @@ function f([x] = y,){}
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -151,7 +151,7 @@ function f([x] = y,){}
                     "end": 22
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -161,7 +161,7 @@ function f([x] = y,){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -186,13 +186,13 @@ function f([x] = y,){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

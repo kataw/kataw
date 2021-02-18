@@ -18,11 +18,11 @@ do function f(){} while (x);
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "do function f(){} while (x);",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097218,
@@ -30,7 +30,7 @@ do function f(){} while (x);
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -44,7 +44,7 @@ do function f(){} while (x);
                         "kind": 131102,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
                         "parent": null,
@@ -56,7 +56,7 @@ do function f(){} while (x);
                         "kind": 90,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -71,7 +71,7 @@ do function f(){} while (x);
                             "kind": 94,
                             "statements": [],
                             "multiline": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -79,7 +79,7 @@ do function f(){} while (x);
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -88,7 +88,7 @@ do function f(){} while (x);
                         "end": 17
                     },
                     "typeParameters": null,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 256,
                     "parent": null,
@@ -96,7 +96,7 @@ do function f(){} while (x);
                     "start": 2,
                     "end": 17
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -106,7 +106,7 @@ do function f(){} while (x);
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -119,7 +119,7 @@ do function f(){} while (x);
         {
             "kind": 2,
             "source": 2,
-            "message": "In strict mode code, functions can only be declared at top level or inside a block",
+            "message": "In non-strict mode code, functions can only be declared at top level, inside a block, or as the body of an if statement",
             "start": 3,
             "length": 0
         }
@@ -139,13 +139,13 @@ do function f(){} while (x);
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

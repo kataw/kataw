@@ -19,11 +19,11 @@ function f(,){}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function f(,){}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ function f(,){}
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -43,7 +43,7 @@ function f(,){}
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -58,7 +58,7 @@ function f(,){}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -66,7 +66,7 @@ function f(,){}
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -75,7 +75,7 @@ function f(,){}
                     "end": 12
                 },
                 "typeParameters": null,
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -89,7 +89,7 @@ function f(,){}
                     "kind": 2084,
                     "statements": [],
                     "multiline": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -97,7 +97,7 @@ function f(,){}
                     "start": 14,
                     "end": 14
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -107,7 +107,7 @@ function f(,){}
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -147,13 +147,13 @@ function f(,){}
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -123,26 +123,26 @@ var x; export {x as a,}
                         "parent": null,
                         "emitNode": null,
                         "start": 15,
-                        "end": 21
+                        "end": 22
                     },
-                    "flags": 65538,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
                     "start": 13,
-                    "end": 21
+                    "end": 23
                 },
                 "exportFromClause": null,
                 "fromClause": null,
                 "isTypeOnly": false,
-                "flags": 65538,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
                 "emitNode": null,
                 "start": 6,
-                "end": 21
+                "end": 23
             }
         ],
         "transformFlags": 0,
@@ -155,22 +155,7 @@ var x; export {x as a,}
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'}' expected.",
-            "start": 21,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Declaration or statement expected",
-            "start": 22,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,

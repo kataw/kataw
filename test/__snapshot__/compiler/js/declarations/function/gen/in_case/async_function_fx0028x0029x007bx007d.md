@@ -21,11 +21,11 @@ switch (x) {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "switch (x) {\n  case foo:\n    async function f(){}\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097362,
@@ -33,7 +33,7 @@ switch (x) {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -50,7 +50,7 @@ switch (x) {
                                 "kind": 196712,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -65,7 +65,7 @@ switch (x) {
                                         "kind": 131102,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -77,7 +77,7 @@ switch (x) {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -92,7 +92,7 @@ switch (x) {
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -100,7 +100,7 @@ switch (x) {
                                             "start": 48,
                                             "end": 48
                                         },
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -109,7 +109,7 @@ switch (x) {
                                         "end": 49
                                     },
                                     "typeParameters": null,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 260,
                                     "parent": null,
@@ -118,7 +118,7 @@ switch (x) {
                                     "end": 49
                                 }
                             ],
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -127,7 +127,7 @@ switch (x) {
                             "end": 49
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -135,7 +135,7 @@ switch (x) {
                     "start": 10,
                     "end": 51
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -145,7 +145,7 @@ switch (x) {
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -170,13 +170,13 @@ switch (x) {
 
 
 ```javascript
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 
