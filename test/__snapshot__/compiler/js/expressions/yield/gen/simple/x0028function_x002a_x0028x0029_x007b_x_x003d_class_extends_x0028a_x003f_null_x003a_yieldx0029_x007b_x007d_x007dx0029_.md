@@ -70,42 +70,52 @@
                                                 "name": null,
                                                 "typeParameters": null,
                                                 "classHeritage": {
-                                                    "kind": 66224,
+                                                    "kind": 52,
                                                     "expression": {
-                                                        "kind": 65592,
-                                                        "shortCircuit": {
-                                                            "kind": 196712,
-                                                            "text": "a",
-                                                            "rawText": "a",
+                                                        "kind": 66224,
+                                                        "expression": {
+                                                            "kind": 65592,
+                                                            "shortCircuit": {
+                                                                "kind": 196712,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "parent": null,
+                                                                "emitNode": null,
+                                                                "start": 36,
+                                                                "end": 37
+                                                            },
+                                                            "consequent": {
+                                                                "kind": 4260512,
+                                                                "text": null,
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "parent": null,
+                                                                "emitNode": null,
+                                                                "start": 39,
+                                                                "end": 44
+                                                            },
+                                                            "alternate": {
+                                                                "kind": 65785,
+                                                                "delegate": false,
+                                                                "expression": null,
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 16393,
+                                                                "parent": null,
+                                                                "emitNode": null,
+                                                                "start": 46,
+                                                                "end": 52
+                                                            },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
                                                             "emitNode": null,
-                                                            "start": 36,
-                                                            "end": 37
-                                                        },
-                                                        "consequent": {
-                                                            "kind": 4260512,
-                                                            "text": null,
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 39,
-                                                            "end": 44
-                                                        },
-                                                        "alternate": {
-                                                            "kind": 65785,
-                                                            "delegate": false,
-                                                            "expression": null,
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 16393,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 46,
+                                                            "start": 34,
                                                             "end": 52
                                                         },
                                                         "flags": 0,
@@ -114,8 +124,9 @@
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 34,
-                                                        "end": 52
+                                                        "end": 53
                                                     },
+                                                    "typeArguments": null,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,

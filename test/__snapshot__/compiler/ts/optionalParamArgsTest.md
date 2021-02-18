@@ -2049,9 +2049,20 @@ fnOpt2(1, [2, 3], [1], true);
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "C1",
-                    "rawText": "C1",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "C1",
+                        "rawText": "C1",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 1000,
+                        "end": 1003
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

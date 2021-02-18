@@ -40,9 +40,20 @@ class x extends private {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "private",
-                    "rawText": "private",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "private",
+                        "rawText": "private",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 23
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

@@ -40,43 +40,54 @@ class C extends (
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 66224,
+                    "kind": 52,
                     "expression": {
-                        "kind": 54,
-                        "expressions": [
-                            {
-                                "kind": 196712,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 16384,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 17,
-                                "end": 21
-                            },
-                            {
-                                "kind": 196712,
-                                "text": "c",
-                                "rawText": "c",
-                                "flags": 16384,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 22,
-                                "end": 26
-                            }
-                        ],
+                        "kind": 66224,
+                        "expression": {
+                            "kind": 54,
+                            "expressions": [
+                                {
+                                    "kind": 196712,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 16384,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 17,
+                                    "end": 21
+                                },
+                                {
+                                    "kind": 196712,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 16384,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 22,
+                                    "end": 26
+                                }
+                            ],
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 17,
+                            "end": 26
+                        },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 17,
-                        "end": 26
+                        "start": 15,
+                        "end": 28
                     },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

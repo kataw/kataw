@@ -46,9 +46,20 @@
                             },
                             "typeParameters": null,
                             "classHeritage": {
-                                "kind": 196712,
-                                "text": "x",
-                                "rawText": "x",
+                                "kind": 52,
+                                "expression": {
+                                    "kind": 196712,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "typeArguments": null,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,

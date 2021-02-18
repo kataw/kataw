@@ -68,42 +68,52 @@
                         "name": null,
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 66224,
+                            "kind": 52,
                             "expression": {
-                                "kind": 65592,
-                                "shortCircuit": {
-                                    "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
+                                "kind": 66224,
+                                "expression": {
+                                    "kind": 65592,
+                                    "shortCircuit": {
+                                        "kind": 196712,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 33,
+                                        "end": 34
+                                    },
+                                    "consequent": {
+                                        "kind": 4260512,
+                                        "text": null,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 36,
+                                        "end": 41
+                                    },
+                                    "alternate": {
+                                        "kind": 196712,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 43,
+                                        "end": 49
+                                    },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 33,
-                                    "end": 34
-                                },
-                                "consequent": {
-                                    "kind": 4260512,
-                                    "text": null,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 36,
-                                    "end": 41
-                                },
-                                "alternate": {
-                                    "kind": 196712,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 43,
+                                    "start": 31,
                                     "end": 49
                                 },
                                 "flags": 0,
@@ -112,8 +122,9 @@
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 31,
-                                "end": 49
+                                "end": 50
                             },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

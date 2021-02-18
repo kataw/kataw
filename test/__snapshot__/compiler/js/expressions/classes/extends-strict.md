@@ -88,144 +88,154 @@ class C extends (function B() {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 66224,
+                    "kind": 52,
                     "expression": {
-                        "kind": 66091,
+                        "kind": 66224,
                         "expression": {
-                            "kind": 8456285,
-                            "name": {
-                                "kind": 131102,
-                                "text": "B",
-                                "rawText": "B",
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 33,
-                                "end": 35
-                            },
-                            "formalParameters": {
-                                "kind": 90,
-                                "formalParameterList": [],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 36,
-                                "end": 37
-                            },
-                            "contents": {
-                                "kind": 91,
-                                "functionStatementList": {
-                                    "kind": 94,
-                                    "statements": [
-                                        {
-                                            "kind": 2097400,
-                                            "expression": {
-                                                "kind": 67224232,
-                                                "propertyList": {
-                                                    "kind": 65722,
-                                                    "properties": [],
-                                                    "trailingComma": false,
-                                                    "multiline": false,
+                            "kind": 66091,
+                            "expression": {
+                                "kind": 8456285,
+                                "name": {
+                                    "kind": 131102,
+                                    "text": "B",
+                                    "rawText": "B",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 1025,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 33,
+                                    "end": 35
+                                },
+                                "formalParameters": {
+                                    "kind": 90,
+                                    "formalParameterList": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 36,
+                                    "end": 37
+                                },
+                                "contents": {
+                                    "kind": 91,
+                                    "functionStatementList": {
+                                        "kind": 94,
+                                        "statements": [
+                                            {
+                                                "kind": 2097400,
+                                                "expression": {
+                                                    "kind": 67224232,
+                                                    "propertyList": {
+                                                        "kind": 65722,
+                                                        "properties": [],
+                                                        "trailingComma": false,
+                                                        "multiline": false,
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "parent": null,
+                                                        "emitNode": null,
+                                                        "start": 49,
+                                                        "end": 49
+                                                    },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
                                                     "emitNode": null,
-                                                    "start": 49,
-                                                    "end": 49
+                                                    "start": 48,
+                                                    "end": 50
                                                 },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 48,
-                                                "end": 50
-                                            },
-                                            "statement": {
-                                                "kind": 6291526,
+                                                "statement": {
+                                                    "kind": 6291526,
+                                                    "flags": 16384,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "parent": null,
+                                                    "emitNode": null,
+                                                    "start": 51,
+                                                    "end": 52
+                                                },
                                                 "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
-                                                "start": 51,
+                                                "start": 39,
                                                 "end": 52
                                             },
-                                            "flags": 16384,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 39,
-                                            "end": 52
-                                        },
-                                        {
-                                            "kind": 2097346,
-                                            "expression": {
-                                                "kind": 196712,
-                                                "text": "B",
-                                                "rawText": "B",
-                                                "flags": 0,
+                                            {
+                                                "kind": 2097346,
+                                                "expression": {
+                                                    "kind": 196712,
+                                                    "text": "B",
+                                                    "rawText": "B",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "parent": null,
+                                                    "emitNode": null,
+                                                    "start": 61,
+                                                    "end": 63
+                                                },
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
                                                 "emitNode": null,
-                                                "start": 61,
-                                                "end": 63
-                                            },
-                                            "flags": 16384,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 52,
-                                            "end": 64
-                                        }
-                                    ],
-                                    "multiline": true,
-                                    "flags": 16384,
+                                                "start": 52,
+                                                "end": 64
+                                            }
+                                        ],
+                                        "multiline": true,
+                                        "flags": 16384,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 39,
+                                        "end": 64
+                                    },
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 39,
-                                    "end": 64
+                                    "start": 37,
+                                    "end": 66
                                 },
+                                "typeParameters": null,
+                                "type": null,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 37,
+                                "start": 25,
                                 "end": 66
                             },
-                            "typeParameters": null,
-                            "type": null,
+                            "typeArguments": null,
+                            "argumentList": {
+                                "kind": 3,
+                                "elements": [],
+                                "trailingComma": false,
+                                "transformFlags": 0,
+                                "flags": 0,
+                                "intersects": false,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 68,
+                                "end": 68
+                            },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 25,
-                            "end": 66
-                        },
-                        "typeArguments": null,
-                        "argumentList": {
-                            "kind": 3,
-                            "elements": [],
-                            "trailingComma": false,
-                            "transformFlags": 0,
-                            "flags": 0,
-                            "intersects": false,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 68,
+                            "start": 66,
                             "end": 68
                         },
                         "flags": 0,
@@ -233,9 +243,10 @@ class C extends (function B() {
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 66,
-                        "end": 68
+                        "start": 23,
+                        "end": 69
                     },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

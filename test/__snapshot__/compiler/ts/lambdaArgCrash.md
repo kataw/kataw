@@ -589,9 +589,20 @@ class ItemSetEvent extends Event {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "Event",
-                    "rawText": "Event",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "Event",
+                        "rawText": "Event",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 379,
+                        "end": 385
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

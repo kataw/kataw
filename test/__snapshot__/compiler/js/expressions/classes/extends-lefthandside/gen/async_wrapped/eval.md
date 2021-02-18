@@ -74,9 +74,20 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 196712,
-                                    "text": "eval",
-                                    "rawText": "eval",
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "eval",
+                                        "rawText": "eval",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 37,
+                                        "end": 42
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

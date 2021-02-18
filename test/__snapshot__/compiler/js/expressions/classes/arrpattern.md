@@ -43,43 +43,53 @@ class n extends ([] = x) {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 66224,
+                    "kind": 52,
                     "expression": {
-                        "kind": 65550,
-                        "left": {
-                            "kind": 67207686,
-                            "elementList": {
-                                "kind": 65605,
-                                "elements": [],
-                                "trailingComma": false,
-                                "multiline": false,
+                        "kind": 66224,
+                        "expression": {
+                            "kind": 65550,
+                            "left": {
+                                "kind": 67207686,
+                                "elementList": {
+                                    "kind": 65605,
+                                    "elements": [],
+                                    "trailingComma": false,
+                                    "multiline": false,
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 18,
+                                    "end": 18
+                                },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 18,
-                                "end": 18
+                                "start": 17,
+                                "end": 19
+                            },
+                            "operator": "=",
+                            "right": {
+                                "kind": 196712,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 65536,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 21,
+                                "end": 23
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 17,
-                            "end": 19
-                        },
-                        "operator": "=",
-                        "right": {
-                            "kind": 196712,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 21,
+                            "start": 15,
                             "end": 23
                         },
                         "flags": 65536,
@@ -88,8 +98,9 @@ class n extends ([] = x) {}
                         "parent": null,
                         "emitNode": null,
                         "start": 15,
-                        "end": 23
+                        "end": 24
                     },
+                    "typeArguments": null,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,

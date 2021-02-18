@@ -74,8 +74,19 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 4260391,
-                                    "text": true,
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 4260391,
+                                        "text": true,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 37,
+                                        "end": 42
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

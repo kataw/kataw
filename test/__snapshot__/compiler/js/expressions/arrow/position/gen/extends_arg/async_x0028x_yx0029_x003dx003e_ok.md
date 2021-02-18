@@ -40,9 +40,20 @@ class A extends async (x, y) => ok {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "async",
-                    "rawText": "async",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "async",
+                        "rawText": "async",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 21
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

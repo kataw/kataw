@@ -72,9 +72,20 @@ function not_gen() { class C extends yield { } }}
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 196712,
-                                    "text": "yield",
-                                    "rawText": "yield",
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 36,
+                                        "end": 42
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

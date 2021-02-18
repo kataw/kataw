@@ -150,9 +150,20 @@ var f: C = bar("um", []); // C
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "C",
-                    "rawText": "C",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "C",
+                        "rawText": "C",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 45,
+                        "end": 47
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

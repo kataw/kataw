@@ -302,9 +302,20 @@ class Derived extends Base {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "Base",
-                    "rawText": "Base",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "Base",
+                        "rawText": "Base",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 114,
+                        "end": 119
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

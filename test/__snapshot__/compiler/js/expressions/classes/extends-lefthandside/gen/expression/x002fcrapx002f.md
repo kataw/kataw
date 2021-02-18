@@ -44,8 +44,19 @@
                         },
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 4260544,
-                            "text": "/crap/",
+                            "kind": 52,
+                            "expression": {
+                                "kind": 4260544,
+                                "text": "/crap/",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 16,
+                                "end": 23
+                            },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

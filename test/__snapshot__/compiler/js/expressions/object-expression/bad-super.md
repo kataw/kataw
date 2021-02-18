@@ -36,9 +36,20 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "y",
-                    "rawText": "y",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

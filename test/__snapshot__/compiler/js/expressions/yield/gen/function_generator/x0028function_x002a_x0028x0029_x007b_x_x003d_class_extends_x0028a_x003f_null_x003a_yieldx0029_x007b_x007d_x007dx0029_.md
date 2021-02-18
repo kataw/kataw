@@ -134,42 +134,52 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                 "name": null,
                                                                                 "typeParameters": null,
                                                                                 "classHeritage": {
-                                                                                    "kind": 66224,
+                                                                                    "kind": 52,
                                                                                     "expression": {
-                                                                                        "kind": 65592,
-                                                                                        "shortCircuit": {
-                                                                                            "kind": 196712,
-                                                                                            "text": "a",
-                                                                                            "rawText": "a",
+                                                                                        "kind": 66224,
+                                                                                        "expression": {
+                                                                                            "kind": 65592,
+                                                                                            "shortCircuit": {
+                                                                                                "kind": 196712,
+                                                                                                "text": "a",
+                                                                                                "rawText": "a",
+                                                                                                "flags": 0,
+                                                                                                "intersects": false,
+                                                                                                "transformFlags": 0,
+                                                                                                "parent": null,
+                                                                                                "emitNode": null,
+                                                                                                "start": 76,
+                                                                                                "end": 77
+                                                                                            },
+                                                                                            "consequent": {
+                                                                                                "kind": 4260512,
+                                                                                                "text": null,
+                                                                                                "flags": 0,
+                                                                                                "intersects": false,
+                                                                                                "transformFlags": 0,
+                                                                                                "parent": null,
+                                                                                                "emitNode": null,
+                                                                                                "start": 79,
+                                                                                                "end": 84
+                                                                                            },
+                                                                                            "alternate": {
+                                                                                                "kind": 65785,
+                                                                                                "delegate": false,
+                                                                                                "expression": null,
+                                                                                                "flags": 0,
+                                                                                                "intersects": false,
+                                                                                                "transformFlags": 16393,
+                                                                                                "parent": null,
+                                                                                                "emitNode": null,
+                                                                                                "start": 86,
+                                                                                                "end": 92
+                                                                                            },
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
                                                                                             "emitNode": null,
-                                                                                            "start": 76,
-                                                                                            "end": 77
-                                                                                        },
-                                                                                        "consequent": {
-                                                                                            "kind": 4260512,
-                                                                                            "text": null,
-                                                                                            "flags": 0,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 79,
-                                                                                            "end": 84
-                                                                                        },
-                                                                                        "alternate": {
-                                                                                            "kind": 65785,
-                                                                                            "delegate": false,
-                                                                                            "expression": null,
-                                                                                            "flags": 0,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 16393,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 86,
+                                                                                            "start": 74,
                                                                                             "end": 92
                                                                                         },
                                                                                         "flags": 0,
@@ -178,8 +188,9 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                         "parent": null,
                                                                                         "emitNode": null,
                                                                                         "start": 74,
-                                                                                        "end": 92
+                                                                                        "end": 93
                                                                                     },
+                                                                                    "typeArguments": null,
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,

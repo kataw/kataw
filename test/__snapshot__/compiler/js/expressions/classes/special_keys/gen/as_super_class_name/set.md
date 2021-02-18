@@ -40,9 +40,20 @@ class x extends set {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "set",
-                    "rawText": "set",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "set",
+                        "rawText": "set",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 19
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

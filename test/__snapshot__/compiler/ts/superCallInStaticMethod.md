@@ -205,9 +205,20 @@ class Other extends Doing {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "Doing",
-                    "rawText": "Doing",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "Doing",
+                        "rawText": "Doing",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 77,
+                        "end": 83
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

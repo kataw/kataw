@@ -74,8 +74,19 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 4260544,
-                                    "text": "/crap/",
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 4260544,
+                                        "text": "/crap/",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 37,
+                                        "end": 44
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

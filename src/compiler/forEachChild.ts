@@ -167,6 +167,8 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNode(node.chain, visitor);
     case NodeKind.ClassElement:
       return visitNode(node.method, visitor);
+    case NodeKind.ClassHeritage:
+      return visitNode(node.expression, visitor) || visitNode(node.typeArguments, visitor);
     case NodeKind.ClassElementList:
       return visitNodes(node.elements, visitor);
     case NodeKind.CommaOperator:

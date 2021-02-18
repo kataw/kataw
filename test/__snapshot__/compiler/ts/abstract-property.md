@@ -636,9 +636,20 @@ class C extends B {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "B",
-                    "rawText": "B",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "B",
+                        "rawText": "B",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 311,
+                        "end": 313
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

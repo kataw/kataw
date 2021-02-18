@@ -40,9 +40,20 @@ class A extends oh,no {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "oh",
-                    "rawText": "oh",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "oh",
+                        "rawText": "oh",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 18
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

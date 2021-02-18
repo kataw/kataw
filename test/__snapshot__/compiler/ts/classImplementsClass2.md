@@ -270,9 +270,20 @@ class C2 extends A {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "A",
-                    "rawText": "A",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "A",
+                        "rawText": "A",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 90,
+                        "end": 92
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

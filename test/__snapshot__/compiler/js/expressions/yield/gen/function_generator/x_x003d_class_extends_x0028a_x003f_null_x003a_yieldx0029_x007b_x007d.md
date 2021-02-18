@@ -110,42 +110,52 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                         "name": null,
                                                         "typeParameters": null,
                                                         "classHeritage": {
-                                                            "kind": 66224,
+                                                            "kind": 52,
                                                             "expression": {
-                                                                "kind": 65592,
-                                                                "shortCircuit": {
-                                                                    "kind": 196712,
-                                                                    "text": "a",
-                                                                    "rawText": "a",
+                                                                "kind": 66224,
+                                                                "expression": {
+                                                                    "kind": 65592,
+                                                                    "shortCircuit": {
+                                                                        "kind": 196712,
+                                                                        "text": "a",
+                                                                        "rawText": "a",
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 0,
+                                                                        "parent": null,
+                                                                        "emitNode": null,
+                                                                        "start": 59,
+                                                                        "end": 60
+                                                                    },
+                                                                    "consequent": {
+                                                                        "kind": 4260512,
+                                                                        "text": null,
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 0,
+                                                                        "parent": null,
+                                                                        "emitNode": null,
+                                                                        "start": 62,
+                                                                        "end": 67
+                                                                    },
+                                                                    "alternate": {
+                                                                        "kind": 196712,
+                                                                        "text": "yield",
+                                                                        "rawText": "yield",
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 0,
+                                                                        "parent": null,
+                                                                        "emitNode": null,
+                                                                        "start": 69,
+                                                                        "end": 75
+                                                                    },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
                                                                     "emitNode": null,
-                                                                    "start": 59,
-                                                                    "end": 60
-                                                                },
-                                                                "consequent": {
-                                                                    "kind": 4260512,
-                                                                    "text": null,
-                                                                    "flags": 0,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 62,
-                                                                    "end": 67
-                                                                },
-                                                                "alternate": {
-                                                                    "kind": 196712,
-                                                                    "text": "yield",
-                                                                    "rawText": "yield",
-                                                                    "flags": 0,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 69,
+                                                                    "start": 57,
                                                                     "end": 75
                                                                 },
                                                                 "flags": 0,
@@ -154,8 +164,9 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 57,
-                                                                "end": 75
+                                                                "end": 76
                                                             },
+                                                            "typeArguments": null,
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,

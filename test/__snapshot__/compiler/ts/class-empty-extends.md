@@ -38,20 +38,31 @@ class Foo extends {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": true,
-                        "flags": 16384,
+                    "kind": 52,
+                    "expression": {
+                        "kind": 67224232,
+                        "propertyList": {
+                            "kind": 65722,
+                            "properties": [],
+                            "trailingComma": false,
+                            "multiline": true,
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 19,
+                            "end": 19
+                        },
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 19,
-                        "end": 19
+                        "start": 17,
+                        "end": 22
                     },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

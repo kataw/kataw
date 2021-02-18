@@ -40,9 +40,20 @@ class A extends --x {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 131322,
-                    "text": "",
-                    "flags": 6,
+                    "kind": 52,
+                    "expression": {
+                        "kind": 131322,
+                        "text": "",
+                        "flags": 6,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 15
+                    },
+                    "typeArguments": null,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,

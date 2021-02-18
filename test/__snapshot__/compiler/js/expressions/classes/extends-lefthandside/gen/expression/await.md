@@ -44,9 +44,20 @@
                         },
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 196712,
-                            "text": "await",
-                            "rawText": "await",
+                            "kind": 52,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "await",
+                                "rawText": "await",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 16,
+                                "end": 22
+                            },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

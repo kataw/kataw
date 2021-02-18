@@ -46,42 +46,52 @@ x = class extends (a ? null : yield) { }
                         "name": null,
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 66224,
+                            "kind": 52,
                             "expression": {
-                                "kind": 65592,
-                                "shortCircuit": {
-                                    "kind": 196712,
-                                    "text": "a",
-                                    "rawText": "a",
+                                "kind": 66224,
+                                "expression": {
+                                    "kind": 65592,
+                                    "shortCircuit": {
+                                        "kind": 196712,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    "consequent": {
+                                        "kind": 4260512,
+                                        "text": null,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 22,
+                                        "end": 27
+                                    },
+                                    "alternate": {
+                                        "kind": 196712,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 29,
+                                        "end": 35
+                                    },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 19,
-                                    "end": 20
-                                },
-                                "consequent": {
-                                    "kind": 4260512,
-                                    "text": null,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 22,
-                                    "end": 27
-                                },
-                                "alternate": {
-                                    "kind": 196712,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 29,
+                                    "start": 17,
                                     "end": 35
                                 },
                                 "flags": 0,
@@ -90,8 +100,9 @@ x = class extends (a ? null : yield) { }
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 17,
-                                "end": 35
+                                "end": 36
                             },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

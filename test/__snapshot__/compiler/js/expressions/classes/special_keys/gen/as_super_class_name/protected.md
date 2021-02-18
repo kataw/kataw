@@ -40,9 +40,20 @@ class x extends protected {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "protected",
-                    "rawText": "protected",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "protected",
+                        "rawText": "protected",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 25
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

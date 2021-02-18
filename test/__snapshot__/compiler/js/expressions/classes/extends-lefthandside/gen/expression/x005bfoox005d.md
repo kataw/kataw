@@ -44,33 +44,44 @@
                         },
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 67207686,
-                            "elementList": {
-                                "kind": 65605,
-                                "elements": [
-                                    {
-                                        "kind": 196712,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 0,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 18,
-                                        "end": 21
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "multiline": false,
+                            "kind": 52,
+                            "expression": {
+                                "kind": 67207686,
+                                "elementList": {
+                                    "kind": 65605,
+                                    "elements": [
+                                        {
+                                            "kind": 196712,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 18,
+                                            "end": 21
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "multiline": false,
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 18,
+                                    "end": 21
+                                },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 18,
-                                "end": 21
+                                "start": 16,
+                                "end": 22
                             },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

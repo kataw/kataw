@@ -9,6 +9,7 @@ export { createInterfaceDeclaration, updateInterfaceDeclaration } from './compil
 export { createSingleNameBinding, updateSingleNameBinding } from './compiler/ast/expressions/singleNameBinding';
 export { createHeritageClauses, updateHeritageClauses } from './compiler/ast/types/heritage-clauses';
 export { createHeritageClause, updateHeritageClause } from './compiler/ast/types/heritage-clause';
+export { createClassHeritage, updateClassHeritage } from './compiler/ast/expressions/class-heritage';
 export { createThisType } from './compiler/ast/types/this-type';
 export { createPropertySignature, updatePropertySignature } from './compiler/ast/types/property-signature';
 export { createMethodSignature, updateMethodSignature } from './compiler/ast/types/method-signature';

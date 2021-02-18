@@ -74,33 +74,44 @@ async function p(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 67207686,
-                                    "elementList": {
-                                        "kind": 65605,
-                                        "elements": [
-                                            {
-                                                "kind": 196712,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 39,
-                                                "end": 42
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "multiline": false,
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 67207686,
+                                        "elementList": {
+                                            "kind": 65605,
+                                            "elements": [
+                                                {
+                                                    "kind": 196712,
+                                                    "text": "foo",
+                                                    "rawText": "foo",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "parent": null,
+                                                    "emitNode": null,
+                                                    "start": 39,
+                                                    "end": 42
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 39,
+                                            "end": 42
+                                        },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
                                         "emitNode": null,
-                                        "start": 39,
-                                        "end": 42
+                                        "start": 37,
+                                        "end": 43
                                     },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

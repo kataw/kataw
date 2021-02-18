@@ -74,9 +74,20 @@ function *P(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 196712,
-                                    "text": "oh",
-                                    "rawText": "oh",
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "oh",
+                                        "rawText": "oh",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 32,
+                                        "end": 35
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

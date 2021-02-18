@@ -44,8 +44,19 @@
                         },
                         "typeParameters": null,
                         "classHeritage": {
-                            "kind": 4260512,
-                            "text": null,
+                            "kind": 52,
+                            "expression": {
+                                "kind": 4260512,
+                                "text": null,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 16,
+                                "end": 21
+                            },
+                            "typeArguments": null,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,

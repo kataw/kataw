@@ -29,20 +29,31 @@ class extends {}
                 "name": null,
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 67224232,
-                    "propertyList": {
-                        "kind": 65722,
-                        "properties": [],
-                        "trailingComma": false,
-                        "multiline": false,
+                    "kind": 52,
+                    "expression": {
+                        "kind": 67224232,
+                        "propertyList": {
+                            "kind": 65722,
+                            "properties": [],
+                            "trailingComma": false,
+                            "multiline": false,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 15,
+                            "end": 15
+                        },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 15,
-                        "end": 15
+                        "start": 13,
+                        "end": 16
                     },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

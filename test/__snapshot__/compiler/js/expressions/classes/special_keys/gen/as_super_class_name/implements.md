@@ -40,9 +40,20 @@ class x extends implements {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "implements",
-                    "rawText": "implements",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "implements",
+                        "rawText": "implements",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 26
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

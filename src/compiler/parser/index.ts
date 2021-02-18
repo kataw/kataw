@@ -17,6 +17,7 @@ import { createQualifiedName, QualifiedName } from '../ast/types/qualified-name'
 import { createInterfaceDeclaration, InterfaceDeclaration } from '../ast/types/interface-declaration';
 import { createSingleNameBinding, SingleNameBinding } from '../ast/expressions/singleNameBinding';
 import { createOmittedExpression, OmittedExpression } from '../ast/expressions/omitted-expr';
+import { createClassHeritage, ClassHeritage } from '../ast/expressions/class-heritage';
 import { createHeritageClauses, HeritageClauses } from '../ast/types/heritage-clauses';
 import { createHeritageClause, HeritageClause } from '../ast/types/heritage-clause';
 import { createNamespaceBlock, NamespaceBlock } from '../ast/types/namespace-block';
@@ -595,6 +596,7 @@ function parseTypeAliasDeclarationRest(
   const type =
     (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
     parseType(parser, context | Context.AllowConditionalTypes);
+
   parseSemicolon(parser, context);
   return createTypeAliasDeclaration(name, type, typeParameters, nodeFlags | parser.nodeFlags, pos, parser.curPos);
 }
@@ -4701,10 +4703,8 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
   return createClassDeclaration(
     name,
     typeParameters,
-    consumeOpt(parser, context | Context.AllowRegExp, Token.ExtendsKeyword)
-      ? parseLeftHandSideExpression(parser, context, false)
-      : null,
-    parseimplementClauses(parser, context),
+    parseClassHeritage(parser, context),
+    parseImplementClauses(parser, context),
     consume(parser, context, Token.LeftBrace)
       ? parseClassElementList(parser, context, /* isDecl */ true)
       : // Empty list
@@ -4716,7 +4716,20 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
   );
 }
 
-function parseimplementClauses(parser: ParserState, context: Context): ImplementClauses | null {
+function parseClassHeritage(parser: ParserState, context: Context): ClassHeritage | null {
+  if (parser.token !== Token.ExtendsKeyword) return null;
+  nextToken(parser, context | Context.AllowRegExp);
+  const curPos = parser.curPos;
+  return createClassHeritage(
+    parseLeftHandSideExpression(parser, context, false),
+    parseTypeArgumentsOfTypeReference(parser, context | Context.InTypes | Context.AllowConditionalTypes),
+    parser.nodeFlags,
+    curPos,
+    parser.curPos
+  );
+}
+
+function parseImplementClauses(parser: ParserState, context: Context): ImplementClauses | null {
   if (consumeOpt(parser, context, Token.ImplementsKeyword)) {
     const pos = parser.curPos;
     const clauses = [];
@@ -4754,10 +4767,8 @@ function parseClassExpression(parser: ParserState, context: Context): ClassExpre
   return createClassExpression(
     name,
     parseTypeParameters(parser, context | Context.AllowConditionalTypes),
-    consumeOpt(parser, context | Context.AllowRegExp, Token.ExtendsKeyword)
-      ? parseLeftHandSideExpression(parser, context, false)
-      : null,
-    parseimplementClauses(parser, context),
+    parseClassHeritage(parser, context),
+    parseImplementClauses(parser, context),
     consume(parser, context, Token.LeftBrace)
       ? parseClassElementList(parser, context, /* isDecl */ false)
       : // Empty list

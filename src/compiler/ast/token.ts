@@ -144,7 +144,7 @@ export const enum Token {
   ForKeyword = 94 | Keyword | IsStatementStart | IsSwitchClause,
   FunctionKeyword = 95 | Keyword | IsExpressionStart | IsSwitchClause,
   IfKeyword = 96 | Keyword | IsStatementStart | IsSwitchClause,
-  ImportKeyword = 97 | Keyword | IsExpressionStart | IsSwitchClause,
+  ImportKeyword = 97 | Keyword | IsExpressionStart | IsSwitchClause | IsStartOfType,
   NewKeyword = 98 | Keyword | IsExpressionStart | IsStartOfType,
   ReturnKeyword = 99 | Keyword | IsStatementStart | IsSwitchClause,
   SuperKeyword = 100 | Keyword | IsExpressionStart,

@@ -28,6 +28,7 @@ import { updateClassElement } from './ast/expressions/class-element';
 import { updateClassElementList } from './ast/expressions/class-element-list';
 import { updateClassExpression } from './ast/expressions/class-expr';
 import { updateCommaOperator } from './ast/expressions/commaOperator';
+import { updateClassHeritage } from './ast/expressions/class-heritage';
 import { updateComputedPropertyName } from './ast/expressions/computed-property-name';
 import { updateConditionalExpression } from './ast/expressions/conditional-expr';
 import { updateCoverInitializedName } from './ast/expressions/cover-initialized-name';
@@ -426,6 +427,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       return updateElementAccessExpression(node, visitNode(node.member, visitor), visitNode(node.expression, visitor));
     case NodeKind.OptionalChain:
       return updateOptionalChain(node, visitNode(node.chain, visitor));
+    case NodeKind.ClassHeritage:
+      return updateClassHeritage(node, visitNode(node.expression, visitor), visitNode(node.typeArguments, visitor));
     case NodeKind.ClassElement:
       return updateClassElement(
         node,

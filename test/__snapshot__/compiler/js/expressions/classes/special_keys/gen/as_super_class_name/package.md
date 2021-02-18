@@ -40,9 +40,20 @@ class x extends package {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "package",
-                    "rawText": "package",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "package",
+                        "rawText": "package",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 23
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

@@ -74,9 +74,20 @@ function *P(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 196712,
-                                    "text": "async",
-                                    "rawText": "async",
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 196712,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 32,
+                                        "end": 38
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

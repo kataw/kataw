@@ -214,9 +214,20 @@ class b extends a {
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "a",
-                    "rawText": "a",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 90,
+                        "end": 92
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

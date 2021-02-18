@@ -40,9 +40,20 @@ class x extends static {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "static",
-                    "rawText": "static",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "static",
+                        "rawText": "static",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 22
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

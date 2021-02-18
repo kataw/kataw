@@ -74,8 +74,19 @@ function *P(){
                                 },
                                 "typeParameters": null,
                                 "classHeritage": {
-                                    "kind": 4260391,
-                                    "text": false,
+                                    "kind": 52,
+                                    "expression": {
+                                        "kind": 4260391,
+                                        "text": false,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 32,
+                                        "end": 38
+                                    },
+                                    "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,

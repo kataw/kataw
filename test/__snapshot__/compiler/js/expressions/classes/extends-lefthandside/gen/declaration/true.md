@@ -40,8 +40,19 @@ class A extends true {}
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 4260391,
-                    "text": true,
+                    "kind": 52,
+                    "expression": {
+                        "kind": 4260391,
+                        "text": true,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 15,
+                        "end": 20
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,

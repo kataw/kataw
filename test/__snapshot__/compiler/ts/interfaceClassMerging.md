@@ -639,9 +639,20 @@ obj = bar;
                 },
                 "typeParameters": null,
                 "classHeritage": {
-                    "kind": 196712,
-                    "text": "Foo",
-                    "rawText": "Foo",
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "Foo",
+                        "rawText": "Foo",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "parent": null,
+                        "emitNode": null,
+                        "start": 287,
+                        "end": 291
+                    },
+                    "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
