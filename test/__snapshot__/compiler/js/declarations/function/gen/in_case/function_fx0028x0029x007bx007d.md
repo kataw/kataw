@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
-- From: kataw8\test\__snapshot__/compiler/js/declarations/function/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\declarations\function\gen\in_case
+- Regenerated: 2021-02-18
+- From: kataw_dev\test\__snapshot__/compiler/js/declarations/function/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\declarations\function\gen\in_case
 > :: test: in case
 > :: case: function f(){}
 ## Input
@@ -21,11 +21,11 @@ switch (x) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "switch (x) {\n  case foo:\n    function f(){}\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097362,
@@ -33,7 +33,7 @@ switch (x) {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -50,7 +50,7 @@ switch (x) {
                                 "kind": 196712,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -65,7 +65,7 @@ switch (x) {
                                         "kind": 131102,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -77,7 +77,7 @@ switch (x) {
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -92,7 +92,7 @@ switch (x) {
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -100,7 +100,7 @@ switch (x) {
                                             "start": 42,
                                             "end": 42
                                         },
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -109,7 +109,7 @@ switch (x) {
                                         "end": 43
                                     },
                                     "typeParameters": null,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 256,
                                     "parent": null,
@@ -118,7 +118,7 @@ switch (x) {
                                     "end": 43
                                 }
                             ],
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -127,7 +127,7 @@ switch (x) {
                             "end": 43
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -135,7 +135,7 @@ switch (x) {
                     "start": 10,
                     "end": 45
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -145,7 +145,7 @@ switch (x) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -170,13 +170,13 @@ switch (x) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

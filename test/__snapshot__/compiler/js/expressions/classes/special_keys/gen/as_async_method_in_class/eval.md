@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
+- Regenerated: 2021-02-18
 - From: kataw8\test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
 - Path: kataw8\test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_async_method_in_class
 > :: test: as async method in class

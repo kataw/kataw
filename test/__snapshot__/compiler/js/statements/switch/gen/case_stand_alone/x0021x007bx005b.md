@@ -1,5 +1,5 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
+- Regenerated: 2021-02-18
 - From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
 - Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\case_stand_alone
 > :: test: case stand alone

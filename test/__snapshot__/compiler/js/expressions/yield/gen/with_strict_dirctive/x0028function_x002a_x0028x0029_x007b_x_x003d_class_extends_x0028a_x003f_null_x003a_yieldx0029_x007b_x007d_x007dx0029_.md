@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-18
-- From: kataw_dev\test\__snapshot__/compiler/js/expressions/yield/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\expressions\yield\gen\with_strict_dirctive
+- From: kataw8\test\__snapshot__/compiler/js/expressions/yield/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\expressions\yield\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Input

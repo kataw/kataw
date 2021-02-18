@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-02-18
-- From: kataw_dev\test\__snapshot__/compiler/js/expressions/yield/autogen.md
-- Path: kataw_dev\test\__snapshot__\compiler\js\expressions\yield\gen\function_generator
+- From: kataw8\test\__snapshot__/compiler/js/expressions/yield/autogen.md
+- Path: kataw8\test\__snapshot__\compiler\js\expressions\yield\gen\function_generator
 > :: test: function generator
 > :: case: async function wrap() { async function await() { } };
 ## Input

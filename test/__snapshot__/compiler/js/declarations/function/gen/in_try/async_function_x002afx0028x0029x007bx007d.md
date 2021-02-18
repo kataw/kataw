@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
-- From: kataw8\test\__snapshot__/compiler/js/declarations/function/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\declarations\function\gen\in_try
+- Regenerated: 2021-02-18
+- From: kataw_dev\test\__snapshot__/compiler/js/declarations/function/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\declarations\function\gen\in_try
 > :: test: in try
 > :: case: async function *f(){}
 ## Input
@@ -21,11 +21,11 @@ try {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "try {\n  async function *f(){}\n} catch (e) {\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097375,
@@ -40,7 +40,7 @@ try {
                                     "kind": 131102,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -52,7 +52,7 @@ try {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ try {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -75,7 +75,7 @@ try {
                                         "start": 28,
                                         "end": 28
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -84,7 +84,7 @@ try {
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 264,
                                 "parent": null,
@@ -94,7 +94,7 @@ try {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -102,7 +102,7 @@ try {
                         "start": 5,
                         "end": 29
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -118,7 +118,7 @@ try {
                             "kind": 131102,
                             "text": "e",
                             "rawText": "e",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -128,7 +128,7 @@ try {
                         },
                         "type": null,
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -142,7 +142,7 @@ try {
                             "kind": 2084,
                             "statements": [],
                             "multiline": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -150,7 +150,7 @@ try {
                             "start": 43,
                             "end": 43
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -158,7 +158,7 @@ try {
                         "start": 41,
                         "end": 45
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -167,7 +167,7 @@ try {
                     "end": 45
                 },
                 "finallyBlock": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -177,7 +177,7 @@ try {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -202,13 +202,13 @@ try {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
-- From: kataw8\test\__snapshot__/compiler/js/declarations/function/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\declarations\function\gen\in_if
+- Regenerated: 2021-02-18
+- From: kataw_dev\test\__snapshot__/compiler/js/declarations/function/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\declarations\function\gen\in_if
 > :: test: in if
 > :: case: function f(){}
 ## Input
@@ -18,11 +18,11 @@ if (x) function f(){}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "if (x) function f(){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097257,
@@ -30,7 +30,7 @@ if (x) function f(){}
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -44,7 +44,7 @@ if (x) function f(){}
                         "kind": 131102,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
                         "parent": null,
@@ -56,7 +56,7 @@ if (x) function f(){}
                         "kind": 90,
                         "formalParameterList": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -71,7 +71,7 @@ if (x) function f(){}
                             "kind": 94,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -79,7 +79,7 @@ if (x) function f(){}
                             "start": 20,
                             "end": 20
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -88,7 +88,7 @@ if (x) function f(){}
                         "end": 21
                     },
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 256,
                     "parent": null,
@@ -98,7 +98,7 @@ if (x) function f(){}
                 },
                 "alternate": null,
                 "isWebCompat": true,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -108,7 +108,7 @@ if (x) function f(){}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -117,7 +117,15 @@ if (x) function f(){}
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [],
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "In strict mode code, functions can only be declared at top level or inside a block",
+            "start": 7,
+            "length": 0
+        }
+    ],
     "parent": null,
     "emitNode": null,
     "incremental": false,
@@ -133,13 +141,13 @@ if (x) function f(){}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

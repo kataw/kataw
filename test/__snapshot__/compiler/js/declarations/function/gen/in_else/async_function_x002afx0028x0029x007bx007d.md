@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
-- From: kataw8\test\__snapshot__/compiler/js/declarations/function/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\declarations\function\gen\in_else
+- Regenerated: 2021-02-18
+- From: kataw_dev\test\__snapshot__/compiler/js/declarations/function/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\declarations\function\gen\in_else
 > :: test: in else
 > :: case: async function *f(){}
 ## Input
@@ -19,11 +19,11 @@ else async function *f(){}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "if (x) x;\nelse async function *f(){}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097257,
@@ -31,7 +31,7 @@ else async function *f(){}
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -45,7 +45,7 @@ else async function *f(){}
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -69,7 +69,7 @@ else async function *f(){}
                             "kind": 131102,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -81,7 +81,7 @@ else async function *f(){}
                             "kind": 90,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -95,7 +95,7 @@ else async function *f(){}
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -103,7 +103,7 @@ else async function *f(){}
                                 "start": 35,
                                 "end": 35
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -113,7 +113,7 @@ else async function *f(){}
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 8,
                         "parent": null,
@@ -130,7 +130,7 @@ else async function *f(){}
                     "end": 36
                 },
                 "isWebCompat": true,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -140,7 +140,7 @@ else async function *f(){}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -165,13 +165,13 @@ else async function *f(){}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

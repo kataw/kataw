@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-17
-- From: kataw8\test\__snapshot__/compiler/js/declarations/function/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\declarations\function\gen\in_do_two_lines
+- Regenerated: 2021-02-18
+- From: kataw_dev\test\__snapshot__/compiler/js/declarations/function/autogen.md
+- Path: kataw_dev\test\__snapshot__\compiler\js\declarations\function\gen\in_do_two_lines
 > :: test: in do two lines
 > :: case: async function *f(){}
 ## Input
@@ -19,11 +19,11 @@ while (x);
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "do async function *f(){}\nwhile (x);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097218,
@@ -31,7 +31,7 @@ while (x);
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ while (x);
                             "kind": 131102,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -59,7 +59,7 @@ while (x);
                             "kind": 90,
                             "formalParameterList": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -73,7 +73,7 @@ while (x);
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -81,7 +81,7 @@ while (x);
                                 "start": 23,
                                 "end": 23
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -91,7 +91,7 @@ while (x);
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 8,
                         "parent": null,
@@ -107,7 +107,7 @@ while (x);
                     "start": 2,
                     "end": 24
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -117,7 +117,7 @@ while (x);
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -142,13 +142,13 @@ while (x);
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 
