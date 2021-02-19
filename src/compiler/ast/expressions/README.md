@@ -357,8 +357,8 @@ See [14.6 Class Definitions](https://tc39.es/ecma262/#sec-class-definitions)
 ### ClassHeritage
 
 ```js
-interface ClassElementList <: Expression {
-  kind: NodeKind.ClassElementList;
+interface ClassHeritage <: Expression {
+  kind: NodeKind.ClassHeritage;
   expression: Expression;
   typeArguments: TypeArguments | null;
 }

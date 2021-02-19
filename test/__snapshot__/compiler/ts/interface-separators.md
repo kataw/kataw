@@ -1,0 +1,394 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+interface Comma { x: number, y: number }
+interface Semi { x: number; y: number }
+interface Newline {
+    x: number
+    y: number
+}
+`````
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "interface Comma { x: number, y: number }\ninterface Semi { x: number; y: number }\ninterface Newline {\n    x: number\n    y: number\n}",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 119,
+                "name": {
+                    "kind": 196712,
+                    "text": "Comma",
+                    "rawText": "Comma",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 9,
+                    "end": 15
+                },
+                "typeParameters": null,
+                "heritageClauses": null,
+                "objectTypeMembers": {
+                    "kind": 169,
+                    "members": [
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 20,
+                                "end": 27
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 17,
+                            "end": 28
+                        },
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 28,
+                                "end": 30
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 31,
+                                "end": 38
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 28,
+                            "end": 38
+                        }
+                    ],
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 17,
+                    "end": 38
+                },
+                "flags": 16384,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "parent": null,
+                "emitNode": null,
+                "start": 0,
+                "end": 40
+            },
+            {
+                "kind": 119,
+                "name": {
+                    "kind": 196712,
+                    "text": "Semi",
+                    "rawText": "Semi",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 50,
+                    "end": 55
+                },
+                "typeParameters": null,
+                "heritageClauses": null,
+                "objectTypeMembers": {
+                    "kind": 169,
+                    "members": [
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 57,
+                                "end": 59
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 60,
+                                "end": 67
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 57,
+                            "end": 68
+                        },
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 68,
+                                "end": 70
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 71,
+                                "end": 78
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 68,
+                            "end": 78
+                        }
+                    ],
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 57,
+                    "end": 78
+                },
+                "flags": 16384,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "parent": null,
+                "emitNode": null,
+                "start": 40,
+                "end": 80
+            },
+            {
+                "kind": 119,
+                "name": {
+                    "kind": 196712,
+                    "text": "Newline",
+                    "rawText": "Newline",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 90,
+                    "end": 98
+                },
+                "typeParameters": null,
+                "heritageClauses": null,
+                "objectTypeMembers": {
+                    "kind": 169,
+                    "members": [
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 16384,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 100,
+                                "end": 106
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 107,
+                                "end": 114
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 100,
+                            "end": 114
+                        },
+                        {
+                            "kind": 188,
+                            "name": {
+                                "kind": 196711,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 16384,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 114,
+                                "end": 120
+                            },
+                            "isOptional": false,
+                            "accessModifier": null,
+                            "type": {
+                                "kind": 161,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 121,
+                                "end": 128
+                            },
+                            "isStatic": false,
+                            "isReadOnly": false,
+                            "initializer": null,
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 114,
+                            "end": 128
+                        }
+                    ],
+                    "flags": 16384,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 100,
+                    "end": 128
+                },
+                "flags": 16384,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "parent": null,
+                "emitNode": null,
+                "start": 80,
+                "end": 130
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 0,
+        "intersects": false,
+        "parent": null,
+        "emitNode": null,
+        "start": 0,
+        "end": 130
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [],
+    "parent": null,
+    "emitNode": null,
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 130
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
+
