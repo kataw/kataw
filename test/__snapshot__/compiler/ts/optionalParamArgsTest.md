@@ -790,7 +790,7 @@ fnOpt2(1, [2, 3], [1], true);
                             },
                             "decorators": null,
                             "accessModifier": {
-                                "kind": 4194493,
+                                "kind": 4194494,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
@@ -890,7 +890,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1037,7 +1037,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1267,7 +1267,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1475,7 +1475,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1732,7 +1732,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1989,7 +1989,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

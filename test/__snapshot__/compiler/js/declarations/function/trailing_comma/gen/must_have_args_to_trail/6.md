@@ -43,7 +43,7 @@ function f(,){}
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,

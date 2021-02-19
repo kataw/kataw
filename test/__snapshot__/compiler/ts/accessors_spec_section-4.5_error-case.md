@@ -181,7 +181,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -289,7 +289,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -397,7 +397,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -521,7 +521,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -638,7 +638,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 333
                                 },
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -799,7 +799,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -960,7 +960,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1077,7 +1077,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 526
                                 },
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

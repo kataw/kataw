@@ -826,7 +826,7 @@
                                                 "initializer": null,
                                                 "decorators": null,
                                                 "accessModifier": {
-                                                    "kind": 4194493,
+                                                    "kind": 4194494,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
@@ -1016,7 +1016,7 @@
                                                 "initializer": null,
                                                 "decorators": null,
                                                 "accessModifier": {
-                                                    "kind": 4194493,
+                                                    "kind": 4194494,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,

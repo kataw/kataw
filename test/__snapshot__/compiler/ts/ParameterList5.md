@@ -72,7 +72,7 @@ function A(): (public B) => C {
                                 "type": null,
                                 "initializer": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

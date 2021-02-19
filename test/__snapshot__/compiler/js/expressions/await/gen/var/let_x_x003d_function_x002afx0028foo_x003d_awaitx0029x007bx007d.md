@@ -204,7 +204,7 @@ var await; var f = (async function() { let x = function *f(foo = await){} });
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 0,
+                                                                        "flags": 2,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,

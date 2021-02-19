@@ -242,7 +242,7 @@ abstract class C {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -350,7 +350,7 @@ abstract class C {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -458,7 +458,7 @@ abstract class C {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

@@ -593,7 +593,8 @@ function parseTypeAliasDeclarationRest(
   const name = parseIdentifierReference(parser, context);
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   consume(parser, context, Token.Assign);
-  const type = (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
+  const type =
+    (parser.token === Token.IntrinsicKeyword && tryParse(parser, context, parseIntrinsic)) ||
     parseType(parser, context | Context.AllowConditionalTypes);
 
   parseSemicolon(parser, context);
@@ -2467,26 +2468,26 @@ function isAccessModifier(t: Token): boolean {
   return t === Token.ProtectedKeyword || t === Token.PrivateKeyword || t === Token.PublicKeyword;
 }
 
-function parseAccessModifier(parser: ParserState, context: Context, endToken: Token): AccessModifier | null {
+function canFollowModifier(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return (
+    (parser.token & 0b00010100000010000101000000000000) !== 0 && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
+  );
+}
+
+// Access modifiers
+function parseAccessModifier(parser: ParserState, context: Context): AccessModifier | null {
   if (isAccessModifier(parser.token)) {
     const pos = parser.curPos;
     const token = parser.token;
-    if (
-      tryParse(parser, context, () => {
-        nextToken(parser, context);
-        return (parser.token & 0b00010000000010000101000000000000) !== 0 || !endToken;
-      })
-    ) {
+    if (tryParse(parser, context, canFollowModifier)) {
       let modifier!: AccessModifiers;
-      switch (token) {
-        case Token.PublicKeyword:
-          modifier = AccessModifiers.Public;
-        case Token.ProtectedKeyword:
-          modifier = AccessModifiers.Protected;
-          break;
-        case Token.PrivateKeyword:
-          modifier = AccessModifiers.Private;
-          break;
+      if (token === Token.PublicKeyword) {
+        modifier = AccessModifiers.Public;
+      } else if (token === Token.ProtectedKeyword) {
+        modifier = AccessModifiers.Protected;
+      } else {
+        modifier = AccessModifiers.Private;
       }
       return createAccessModifier(modifier, NodeFlags.None, pos, parser.curPos);
     }
@@ -2506,7 +2507,7 @@ function parsePropertyDefinition(
   let kind = PropertyKind.None;
 
   const decorators = parseDecorators(parser, context);
-  const modifiers = parseAccessModifier(parser, context, Token.RightBrace);
+  const modifiers = parseAccessModifier(parser, context);
 
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
 
@@ -3778,11 +3779,9 @@ function parseFunctionStatementList(parser: ParserState, context: Context): Func
 
 function parseFormalParameterList(parser: ParserState, context: Context): FormalParameterList {
   const parameters = [];
-  let startOfList = parser.curPos;
-  let endOfList = startOfList;
-  let trailingComma = false;
   if (consume(parser, context, Token.LeftParen)) {
-    startOfList = parser.curPos;
+    let curpPos = parser.curPos;
+    let trailingComma = false;
     while (parser.token & 0b00000100000010000101000000000000 || parser.token === Token.Decorator) {
       parameters.push(getCurrentNode(parser, context, parseFormalParameter));
       if (parser.token === Token.RightParen) break;
@@ -3795,11 +3794,11 @@ function parseFormalParameterList(parser: ParserState, context: Context): Formal
       }
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Expression_or_comma_expected);
     }
-    endOfList = parser.pos;
+    const result = createFormalParameterList(parameters, trailingComma, parser.nodeFlags, curpPos, parser.pos);
     consume(parser, context, Token.RightParen);
+    return result;
   }
-
-  return createFormalParameterList(parameters, trailingComma, parser.nodeFlags, startOfList, endOfList);
+  return createFormalParameterList([], /* trailingComma*/ false, parser.nodeFlags, parser.curPos, parser.curPos);
 }
 
 function parseFormalParameter(parser: ParserState, context: Context): FormalParameter {
@@ -3826,7 +3825,7 @@ function parseFormalParameter(parser: ParserState, context: Context): FormalPara
   //      BindingElement[?Yield,?Await]
 
   const decorators = parseDecorators(parser, context);
-  const accessModifier = parseAccessModifier(parser, context, Token.RightParen);
+  const accessModifier = parseAccessModifier(parser, context);
   const ellipsis = consumeOpt(parser, context, Token.Ellipsis);
 
   // Check if we have something like "function x ( readonly xxx". The 'readonly' modifier is the only
@@ -4818,13 +4817,8 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
   let kind = PropertyKind.None;
 
-  // We need to check for the 'readOnly' keyword first in case we have something like "{ readonly private foo;".
-  // A accessor modifier must precede 'readonly' modifier, so this isn't allowed here. We will
-  // handle this in the grammar checker
-  let isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
-
   // Access modifiers are "{ private xxx(" or "{ protected foo<x>(" or "{ readonly public xxx".
-  let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
+  let modifiers = parseAccessModifier(parser, context);
 
   // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
   let isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
@@ -4832,12 +4826,10 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   let isStatic = parser.token === Token.StaticKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Simple cases like "{ private readonly foo(" or "{ readonly foo<x>(" or "{ readonly static set(".
-  if (!isReadOnly) {
-    isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
-  }
+  let isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
-   isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;
@@ -5073,7 +5065,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
         // If we have "[private id" or "[protected id" or "[public id" then this *maybe* is an index signature.
         // The only allowed sequence is: "[id:". However, for error recovery, we allow this.
-        modifiers = parseAccessModifier(parser, context, Token.RightBrace);
+        modifiers = parseAccessModifier(parser, context);
 
         // It's needed to do lookahead and try too figure out if this is an valid index signature
         // if we don't have any access modifiers follow by "...". Speculative parsing will not help us here.
@@ -5656,7 +5648,7 @@ function parseTypeMember(
   context: Context
 ): ConstructSignature | CallSignature | PropertySignature | IndexSignature {
   const pos = parser.curPos;
-  let modifiers = parseAccessModifier(parser, context, Token.RightBrace);
+  let modifiers = parseAccessModifier(parser, context);
 
   const isStatic = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
 
@@ -5699,7 +5691,7 @@ function parseTypeMember(
 
       // If we have "[private id" or "[protected id" or "[public id" then this *maybe* is an index signature.
       // The only allowed sequence is: "[id:". However, for error recovery, we allow this.
-      modifiers = parseAccessModifier(parser, context, Token.RightBrace);
+      modifiers = parseAccessModifier(parser, context);
 
       // It's needed to do lookahead and try too figure out if this is an valid index signature
       // if we don't have any access modifiers follow by "...". Speculative parsing will not help us here.
@@ -5903,7 +5895,7 @@ function parseParameter(parser: ParserState, context: Context): ParameterDeclara
     );
   }
 
-  const modifier = parseAccessModifier(parser, context, Token.RightParen);
+  const modifier = parseAccessModifier(parser, context);
   const isReadOnly =
     parser.token === Token.ReadonlyKeyword && tryParse(parser, context, nextTokenIsBindingPatternOnSameLine);
 
@@ -6303,7 +6295,6 @@ function parseTypeArgumentsOfTypeReference(parser: ParserState, context: Context
     const pos = parser.curPos;
     const typeArguments = [];
     while (parser.token & 0b01100000000010000101000000000000) {
-
       typeArguments.push(getCurrentNode(parser, context, parseType));
       if (parser.token === Token.GreaterThan) break;
       if (consumeOpt(parser, context, Token.Comma)) continue;

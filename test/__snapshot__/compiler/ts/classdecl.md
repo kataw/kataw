@@ -464,7 +464,7 @@ class e {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -511,7 +511,7 @@ class e {
                             "initializer": null,
                             "decorators": null,
                             "accessModifier": {
-                                "kind": 4194493,
+                                "kind": 4194494,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
@@ -611,7 +611,7 @@ class e {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -735,7 +735,7 @@ class e {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -927,7 +927,7 @@ class e {
                                 "decorators": null,
                                 "type": null,
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1874,7 +1874,7 @@ class e {
                                     "end": 669
                                 },
                                 "accessModifier": {
-                                    "kind": 4194493,
+                                    "kind": 4194494,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
@@ -1921,7 +1921,7 @@ class e {
                             "initializer": null,
                             "decorators": null,
                             "accessModifier": {
-                                "kind": 4194493,
+                                "kind": 4194494,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
@@ -1969,7 +1969,7 @@ class e {
                             "initializer": null,
                             "decorators": null,
                             "accessModifier": {
-                                "kind": 4194493,
+                                "kind": 4194494,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,

@@ -1291,7 +1291,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1453,7 +1453,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,

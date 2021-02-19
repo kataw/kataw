@@ -186,7 +186,7 @@ var await; var f = (async function() { (function call(foo=await){}) });
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 2,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
