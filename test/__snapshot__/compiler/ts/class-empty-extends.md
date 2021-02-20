@@ -16,11 +16,11 @@ class Foo extends {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo extends {\n\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ class Foo extends {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ class Foo extends {
                             "properties": [],
                             "trailingComma": false,
                             "multiline": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -54,7 +54,7 @@ class Foo extends {
                             "start": 19,
                             "end": 19
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -63,7 +63,7 @@ class Foo extends {
                         "end": 22
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -75,7 +75,7 @@ class Foo extends {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -84,7 +84,7 @@ class Foo extends {
                     "end": 0
                 },
                 "decorators": null,
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -94,7 +94,7 @@ class Foo extends {
             }
         ],
         "transformFlags": 0,
-        "flags": 2,
+        "flags": 65538,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -127,13 +127,16 @@ class Foo extends {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo extends { } {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

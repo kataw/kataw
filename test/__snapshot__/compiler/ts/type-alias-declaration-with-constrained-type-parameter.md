@@ -14,11 +14,11 @@ type Result<T extends {}> = Success<T> | Failure
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type Result<T extends {}> = Success<T> | Failure",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -26,7 +26,7 @@ type Result<T extends {}> = Success<T> | Failure
                     "kind": 196712,
                     "text": "Result",
                     "rawText": "Result",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -43,7 +43,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "kind": 196711,
                                 "text": "Success",
                                 "rawText": "Success",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -60,7 +60,7 @@ type Result<T extends {}> = Success<T> | Failure
                                             "kind": 196711,
                                             "text": "T",
                                             "rawText": "T",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -69,7 +69,7 @@ type Result<T extends {}> = Success<T> | Failure
                                             "end": 37
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -78,7 +78,7 @@ type Result<T extends {}> = Success<T> | Failure
                                         "end": 38
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -86,7 +86,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "start": 36,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -100,7 +100,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "kind": 196711,
                                 "text": "Failure",
                                 "rawText": "Failure",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -109,7 +109,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "end": 48
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -118,7 +118,7 @@ type Result<T extends {}> = Success<T> | Failure
                             "end": 48
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -135,7 +135,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -148,7 +148,7 @@ type Result<T extends {}> = Success<T> | Failure
                                 "objectTypeMembers": {
                                     "kind": 169,
                                     "members": [],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -156,7 +156,7 @@ type Result<T extends {}> = Success<T> | Failure
                                     "start": 23,
                                     "end": 24
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -166,7 +166,7 @@ type Result<T extends {}> = Success<T> | Failure
                             },
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -175,7 +175,7 @@ type Result<T extends {}> = Success<T> | Failure
                             "end": 24
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -183,7 +183,7 @@ type Result<T extends {}> = Success<T> | Failure
                     "start": 12,
                     "end": 24
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -193,7 +193,7 @@ type Result<T extends {}> = Success<T> | Failure
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -218,13 +218,17 @@ type Result<T extends {}> = Success<T> | Failure
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type Result<T extends {
+
+    }> = Success<T> | Failure;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

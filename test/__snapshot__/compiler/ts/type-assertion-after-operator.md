@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "1 + <number> 1;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -28,7 +28,7 @@
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -53,7 +53,7 @@
                             "kind": 4261540,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -61,7 +61,7 @@
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -69,7 +69,7 @@
                         "start": 3,
                         "end": 14
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -87,7 +87,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -112,13 +112,15 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+1 + <number>1
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

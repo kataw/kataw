@@ -14,11 +14,11 @@ x!.y;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x!.y;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,7 +30,7 @@ x!.y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -38,7 +38,7 @@ x!.y;
                             "start": 0,
                             "end": 1
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -50,7 +50,7 @@ x!.y;
                         "kind": 196711,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -58,7 +58,7 @@ x!.y;
                         "start": 3,
                         "end": 4
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -76,7 +76,7 @@ x!.y;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -101,13 +101,15 @@ x!.y;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+x!.y
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

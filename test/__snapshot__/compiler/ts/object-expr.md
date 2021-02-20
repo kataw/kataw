@@ -22,11 +22,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "({ get x<T>(): string {}});\n({ get x<T>(x): string {}});\n({ get x<T>(x,y,z): string {}});\n({ set x<T>(x): string {}});\n({ set x<T>(public x): string {}});\n({ set x<T>(public x): string});\n({ get x() {}});\n({ set x(x) {}});\n({ set x(this): string {}});",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -43,7 +43,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -55,7 +55,7 @@
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -71,7 +71,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -79,7 +79,7 @@
                                             "start": 23,
                                             "end": 23
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -108,7 +108,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -119,7 +119,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -128,7 +128,7 @@
                                                 "end": 10
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -136,7 +136,7 @@
                                         "start": 9,
                                         "end": 10
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -147,7 +147,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -155,7 +155,7 @@
                             "start": 2,
                             "end": 24
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -163,7 +163,7 @@
                         "start": 1,
                         "end": 25
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -194,7 +194,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -212,7 +212,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -226,7 +226,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -236,7 +236,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -252,7 +252,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -260,7 +260,7 @@
                                             "start": 52,
                                             "end": 52
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -289,7 +289,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -300,7 +300,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -309,7 +309,7 @@
                                                 "end": 38
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -317,7 +317,7 @@
                                         "start": 37,
                                         "end": 38
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -328,7 +328,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -336,7 +336,7 @@
                             "start": 30,
                             "end": 53
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -344,7 +344,7 @@
                         "start": 29,
                         "end": 54
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -375,7 +375,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -393,7 +393,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -407,7 +407,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -422,7 +422,7 @@
                                                     "kind": 131102,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -436,7 +436,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -451,7 +451,7 @@
                                                     "kind": 131102,
                                                     "text": "z",
                                                     "rawText": "z",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -465,7 +465,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -475,7 +475,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -491,7 +491,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -499,7 +499,7 @@
                                             "start": 85,
                                             "end": 85
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -528,7 +528,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -539,7 +539,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -548,7 +548,7 @@
                                                 "end": 67
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -556,7 +556,7 @@
                                         "start": 66,
                                         "end": 67
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -567,7 +567,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -575,7 +575,7 @@
                             "start": 59,
                             "end": 86
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -583,7 +583,7 @@
                         "start": 58,
                         "end": 87
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -614,7 +614,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -632,7 +632,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -646,7 +646,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -656,7 +656,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -672,7 +672,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -680,7 +680,7 @@
                                             "start": 114,
                                             "end": 114
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -709,7 +709,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -720,7 +720,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -729,7 +729,7 @@
                                                 "end": 100
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -737,7 +737,7 @@
                                         "start": 99,
                                         "end": 100
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -748,7 +748,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -756,7 +756,7 @@
                             "start": 92,
                             "end": 115
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -764,7 +764,7 @@
                         "start": 91,
                         "end": 116
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -795,7 +795,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -813,7 +813,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -836,7 +836,7 @@
                                                     "end": 137
                                                 },
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097153,
                                                 "parent": null,
@@ -846,7 +846,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -862,7 +862,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -870,7 +870,7 @@
                                             "start": 150,
                                             "end": 150
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -899,7 +899,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -910,7 +910,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -919,7 +919,7 @@
                                                 "end": 129
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -927,7 +927,7 @@
                                         "start": 128,
                                         "end": 129
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -938,7 +938,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -946,7 +946,7 @@
                             "start": 121,
                             "end": 151
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -954,7 +954,7 @@
                         "start": 120,
                         "end": 152
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -985,7 +985,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1003,7 +1003,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -1026,7 +1026,7 @@
                                                     "end": 173
                                                 },
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097153,
                                                 "parent": null,
@@ -1036,7 +1036,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1068,7 +1068,7 @@
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1079,7 +1079,7 @@
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -1088,7 +1088,7 @@
                                                 "end": 165
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1096,7 +1096,7 @@
                                         "start": 164,
                                         "end": 165
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1107,7 +1107,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1115,7 +1115,7 @@
                             "start": 157,
                             "end": 184
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1123,7 +1123,7 @@
                         "start": 156,
                         "end": 185
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1154,7 +1154,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1166,7 +1166,7 @@
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1182,7 +1182,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1190,7 +1190,7 @@
                                             "start": 200,
                                             "end": 200
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1202,7 +1202,7 @@
                                     "type": null,
                                     "accessModifier": null,
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1213,7 +1213,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1221,7 +1221,7 @@
                             "start": 190,
                             "end": 201
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1229,7 +1229,7 @@
                         "start": 189,
                         "end": 202
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1260,7 +1260,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1278,7 +1278,7 @@
                                                     "kind": 131102,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -1292,7 +1292,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -1302,7 +1302,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1318,7 +1318,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1326,7 +1326,7 @@
                                             "start": 218,
                                             "end": 218
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1338,7 +1338,7 @@
                                     "type": null,
                                     "accessModifier": null,
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1349,7 +1349,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1357,7 +1357,7 @@
                             "start": 207,
                             "end": 219
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1365,7 +1365,7 @@
                         "start": 206,
                         "end": 220
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1396,7 +1396,7 @@
                                         "kind": 196711,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1428,7 +1428,7 @@
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -1438,7 +1438,7 @@
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1454,7 +1454,7 @@
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1462,7 +1462,7 @@
                                             "start": 247,
                                             "end": 247
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1483,7 +1483,7 @@
                                     },
                                     "accessModifier": null,
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1494,7 +1494,7 @@
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1502,7 +1502,7 @@
                             "start": 225,
                             "end": 248
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1510,7 +1510,7 @@
                         "start": 224,
                         "end": 249
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1528,7 +1528,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1553,13 +1553,31 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+({ get x(): string { } })
+
+({ get x(x): string { } })
+
+({ get x(x, y, z): string { } })
+
+({ set x(x): string { } })
+
+({ set x(public x): string { } })
+
+({ set x(public x): string; })
+
+({ get x() { } })
+
+({ set x(x) { } })
+
+({ set x(this): string { } })
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

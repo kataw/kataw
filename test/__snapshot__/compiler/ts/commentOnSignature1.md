@@ -48,11 +48,11 @@ function foo2(a: any): void {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "/*!=================\n    Keep this pinned\n   =================\n*/\n\n/*! Don't keep this pinned comment */\nfunction foo(n: number): void;\n// Don't keep this comment.\nfunction foo(s: string): void;\nfunction foo(a: any): void {\n}\n\nclass c {\n    // dont keep this comment\n    constructor(a: string);\n    /*! keep this pinned comment */\n    constructor(a: number);\n    constructor(a: any) {\n    }\n\n    // dont keep this comment\n    foo(a: string);\n    /*! keep this pinned comment */\n    foo(a: number);\n    foo(a: any) {\n    }\n}\n\n//@filename:b.ts\n///<reference path='a.ts'/>\nfunction foo2(n: number): void;\n// Don't keep this comment.\nfunction foo2(s: string): void;\nfunction foo2(a: any): void {\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -60,7 +60,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -78,7 +78,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "n",
                                 "rawText": "n",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -101,7 +101,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -111,7 +111,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -131,7 +131,7 @@ function foo2(a: any): void {
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -145,7 +145,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -163,7 +163,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -186,7 +186,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -196,7 +196,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -216,7 +216,7 @@ function foo2(a: any): void {
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -230,7 +230,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -248,7 +248,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -271,7 +271,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -281,7 +281,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -305,7 +305,7 @@ function foo2(a: any): void {
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -313,7 +313,7 @@ function foo2(a: any): void {
                         "start": 223,
                         "end": 223
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -322,7 +322,7 @@ function foo2(a: any): void {
                     "end": 225
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -336,7 +336,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -362,7 +362,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -380,7 +380,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -403,7 +403,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -413,7 +413,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -428,7 +428,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -436,7 +436,7 @@ function foo2(a: any): void {
                                 "start": 282,
                                 "end": 294
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -456,7 +456,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -474,7 +474,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -497,7 +497,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -507,7 +507,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -522,7 +522,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -530,7 +530,7 @@ function foo2(a: any): void {
                                 "start": 346,
                                 "end": 358
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -550,7 +550,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -568,7 +568,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -591,7 +591,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -601,7 +601,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -617,7 +617,7 @@ function foo2(a: any): void {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -625,7 +625,7 @@ function foo2(a: any): void {
                                         "start": 384,
                                         "end": 384
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -637,7 +637,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -645,7 +645,7 @@ function foo2(a: any): void {
                                 "start": 374,
                                 "end": 390
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -665,7 +665,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -683,7 +683,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -706,7 +706,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -716,7 +716,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -731,7 +731,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -739,7 +739,7 @@ function foo2(a: any): void {
                                 "start": 429,
                                 "end": 441
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -759,7 +759,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -777,7 +777,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -800,7 +800,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -810,7 +810,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -825,7 +825,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -833,7 +833,7 @@ function foo2(a: any): void {
                                 "start": 485,
                                 "end": 497
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -853,7 +853,7 @@ function foo2(a: any): void {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -871,7 +871,7 @@ function foo2(a: any): void {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -894,7 +894,7 @@ function foo2(a: any): void {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -904,7 +904,7 @@ function foo2(a: any): void {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -920,7 +920,7 @@ function foo2(a: any): void {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -928,7 +928,7 @@ function foo2(a: any): void {
                                         "start": 515,
                                         "end": 515
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -940,7 +940,7 @@ function foo2(a: any): void {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -948,7 +948,7 @@ function foo2(a: any): void {
                                 "start": 505,
                                 "end": 521
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -957,7 +957,7 @@ function foo2(a: any): void {
                             "end": 521
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -966,7 +966,7 @@ function foo2(a: any): void {
                     "end": 523
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -980,7 +980,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo2",
                     "rawText": "foo2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -998,7 +998,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "n",
                                 "rawText": "n",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1021,7 +1021,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1031,7 +1031,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1051,7 +1051,7 @@ function foo2(a: any): void {
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1065,7 +1065,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo2",
                     "rawText": "foo2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1083,7 +1083,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1106,7 +1106,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1116,7 +1116,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1136,7 +1136,7 @@ function foo2(a: any): void {
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1150,7 +1150,7 @@ function foo2(a: any): void {
                     "kind": 131102,
                     "text": "foo2",
                     "rawText": "foo2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1168,7 +1168,7 @@ function foo2(a: any): void {
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1191,7 +1191,7 @@ function foo2(a: any): void {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1201,7 +1201,7 @@ function foo2(a: any): void {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1225,7 +1225,7 @@ function foo2(a: any): void {
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1233,7 +1233,7 @@ function foo2(a: any): void {
                         "start": 691,
                         "end": 691
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1242,7 +1242,7 @@ function foo2(a: any): void {
                     "end": 693
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1252,7 +1252,7 @@ function foo2(a: any): void {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1277,13 +1277,38 @@ function foo2(a: any): void {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo(n: number): void;
+
+function foo(s: string): void;
+
+function foo(a: any): void {
+}
+
+class c {
+    constructor(a: string);
+    constructor(a: number);
+    constructor(a: any) {
+    }
+    foo(a: string);
+    foo(a: number);
+    foo(a: any) {
+    }
+}
+
+function foo2(n: number): void;
+
+function foo2(s: string): void;
+
+function foo2(a: any): void {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

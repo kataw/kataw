@@ -14,11 +14,11 @@ async <T>() => await null;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "async <T>() => await null;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -35,7 +35,7 @@ async <T>() => await null;
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -46,7 +46,7 @@ async <T>() => await null;
                                     "constraint": null,
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -55,7 +55,7 @@ async <T>() => await null;
                                     "end": 8
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -80,7 +80,7 @@ async <T>() => await null;
                         "expression": {
                             "kind": 4260512,
                             "text": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -88,7 +88,7 @@ async <T>() => await null;
                             "start": 20,
                             "end": 25
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 32780,
                         "parent": null,
@@ -96,7 +96,7 @@ async <T>() => await null;
                         "start": 14,
                         "end": 25
                     },
-                    "flags": 536870912,
+                    "flags": 536936448,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -114,7 +114,7 @@ async <T>() => await null;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -139,13 +139,15 @@ async <T>() => await null;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async () => await null
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

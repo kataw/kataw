@@ -17,11 +17,11 @@ abstract
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface: foo\ninterface\nabstract: foo\nabstract",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097292,
@@ -29,7 +29,7 @@ abstract
                     "kind": 196712,
                     "text": "interface",
                     "rawText": "interface",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -43,7 +43,7 @@ abstract
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -60,7 +60,7 @@ abstract
                     "end": 14
                 },
                 "isWebCompat": true,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -74,7 +74,7 @@ abstract
                     "kind": 196712,
                     "text": "interface",
                     "rawText": "interface",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -96,7 +96,7 @@ abstract
                     "kind": 196712,
                     "text": "abstract",
                     "rawText": "abstract",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -110,7 +110,7 @@ abstract
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -127,7 +127,7 @@ abstract
                     "end": 38
                 },
                 "isWebCompat": true,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -141,7 +141,7 @@ abstract
                     "kind": 196712,
                     "text": "abstract",
                     "rawText": "abstract",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -159,7 +159,7 @@ abstract
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -184,13 +184,21 @@ abstract
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface: foo
+
+interface
+
+abstract: foo
+
+abstract
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ abstract interface Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "abstract interface Foo {\n  foo: string;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -28,7 +28,7 @@ abstract interface Foo {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ abstract interface Foo {
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -70,7 +70,7 @@ abstract interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -79,7 +79,7 @@ abstract interface Foo {
                             "end": 39
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -87,7 +87,7 @@ abstract interface Foo {
                     "start": 24,
                     "end": 39
                 },
-                "flags": 268435458,
+                "flags": 268500994,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -97,7 +97,7 @@ abstract interface Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -130,13 +130,17 @@ abstract interface Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Foo {
+    foo: string;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -832,13 +832,29 @@ const TestRender = () => <TestComponent />;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+import  from "react";
+
+class TestComponent extends React.Component<{
+        isAny: <T>(obj: any) => obj is T;
+    }> {
+    static defaultProps = { isAny : TestComponent.isAny };
+    static isAny(obj: any): obj is T {
+        return true;
+    }
+}
+
+const TestRender = () => < />;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Type expected - start: 276, end: 0
+@{x2716}@ Identifier expected - start: 277, end: 0
+@{x2716}@ Identifier expected - start: 278, end: 0
 
 ```
 

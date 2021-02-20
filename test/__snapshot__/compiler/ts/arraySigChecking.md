@@ -43,11 +43,11 @@ isEmpty(['a']);
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface myInt {\n    voidFn(): void;\n}\nvar myVar: myInt;\nvar strArray: string[] = [myVar.voidFn()];\n\n\nvar myArray: number[][][];\nmyArray = [[1, 2]];\n\nfunction isEmpty(l: { length: number }) {\n    return l.length === 0;\n}\n\nisEmpty([]);\nisEmpty(new Array(3));\nisEmpty(new Array<string>(3));\nisEmpty(['a']);\n\nvar myVar;\nvar strArray = [myVar.voidFn()];\nvar myArray;\nmyArray = [[1, 2]];\nfunction isEmpty(l) {\n    return l.length === 0;\n}\nisEmpty([]);\nisEmpty(new Array(3));\nisEmpty(new Array(3));\nisEmpty(['a']);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -55,7 +55,7 @@ isEmpty(['a']);
                     "kind": 196712,
                     "text": "myInt",
                     "rawText": "myInt",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -74,7 +74,7 @@ isEmpty(['a']);
                                 "kind": 196711,
                                 "text": "voidFn",
                                 "rawText": "voidFn",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -91,7 +91,7 @@ isEmpty(['a']);
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -109,7 +109,7 @@ isEmpty(['a']);
                                 "start": 31,
                                 "end": 36
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -118,7 +118,7 @@ isEmpty(['a']);
                             "end": 37
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -126,7 +126,7 @@ isEmpty(['a']);
                     "start": 17,
                     "end": 37
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -145,7 +145,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "myVar",
                                 "rawText": "myVar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -160,7 +160,7 @@ isEmpty(['a']);
                                     "kind": 196711,
                                     "text": "myInt",
                                     "rawText": "myInt",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -169,7 +169,7 @@ isEmpty(['a']);
                                     "end": 56
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -183,11 +183,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 56
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -195,7 +195,7 @@ isEmpty(['a']);
                     "start": 43,
                     "end": 56
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -214,7 +214,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "strArray",
                                 "rawText": "strArray",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -235,7 +235,7 @@ isEmpty(['a']);
                                     "start": 71,
                                     "end": 78
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -256,7 +256,7 @@ isEmpty(['a']);
                                                     "kind": 196712,
                                                     "text": "myVar",
                                                     "rawText": "myVar",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -268,7 +268,7 @@ isEmpty(['a']);
                                                     "kind": 196711,
                                                     "text": "voidFn",
                                                     "rawText": "voidFn",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -276,7 +276,7 @@ isEmpty(['a']);
                                                     "start": 90,
                                                     "end": 96
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -290,14 +290,14 @@ isEmpty(['a']);
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 98,
                                                 "end": 98
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -308,7 +308,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -316,7 +316,7 @@ isEmpty(['a']);
                                     "start": 84,
                                     "end": 98
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -329,11 +329,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 99
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -341,7 +341,7 @@ isEmpty(['a']);
                     "start": 61,
                     "end": 99
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -360,7 +360,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "myArray",
                                 "rawText": "myArray",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -385,7 +385,7 @@ isEmpty(['a']);
                                             "start": 115,
                                             "end": 122
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -393,7 +393,7 @@ isEmpty(['a']);
                                         "start": 115,
                                         "end": 125
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -401,7 +401,7 @@ isEmpty(['a']);
                                     "start": 115,
                                     "end": 127
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -415,11 +415,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 128
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -427,7 +427,7 @@ isEmpty(['a']);
                     "start": 106,
                     "end": 128
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -443,7 +443,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "myArray",
                         "rawText": "myArray",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -466,7 +466,7 @@ isEmpty(['a']);
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -478,7 +478,7 @@ isEmpty(['a']);
                                                 "kind": 4261540,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -489,7 +489,7 @@ isEmpty(['a']);
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -497,7 +497,7 @@ isEmpty(['a']);
                                         "start": 142,
                                         "end": 146
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -508,7 +508,7 @@ isEmpty(['a']);
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -516,7 +516,7 @@ isEmpty(['a']);
                             "start": 141,
                             "end": 147
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -524,7 +524,7 @@ isEmpty(['a']);
                         "start": 139,
                         "end": 148
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -546,7 +546,7 @@ isEmpty(['a']);
                     "kind": 131102,
                     "text": "isEmpty",
                     "rawText": "isEmpty",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -564,7 +564,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "l",
                                 "rawText": "l",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -584,7 +584,7 @@ isEmpty(['a']);
                                                 "kind": 196711,
                                                 "text": "length",
                                                 "rawText": "length",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -607,7 +607,7 @@ isEmpty(['a']);
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -616,7 +616,7 @@ isEmpty(['a']);
                                             "end": 187
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -624,7 +624,7 @@ isEmpty(['a']);
                                     "start": 172,
                                     "end": 189
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -636,7 +636,7 @@ isEmpty(['a']);
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -646,7 +646,7 @@ isEmpty(['a']);
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -670,7 +670,7 @@ isEmpty(['a']);
                                             "kind": 196712,
                                             "text": "l",
                                             "rawText": "l",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -682,7 +682,7 @@ isEmpty(['a']);
                                             "kind": 196711,
                                             "text": "length",
                                             "rawText": "length",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -690,7 +690,7 @@ isEmpty(['a']);
                                             "start": 206,
                                             "end": 212
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -703,7 +703,7 @@ isEmpty(['a']);
                                         "kind": 4261540,
                                         "text": 0,
                                         "rawText": "0",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -711,7 +711,7 @@ isEmpty(['a']);
                                         "start": 216,
                                         "end": 218
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -719,7 +719,7 @@ isEmpty(['a']);
                                     "start": 203,
                                     "end": 218
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -729,7 +729,7 @@ isEmpty(['a']);
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -737,7 +737,7 @@ isEmpty(['a']);
                         "start": 192,
                         "end": 219
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -746,7 +746,7 @@ isEmpty(['a']);
                     "end": 221
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -762,7 +762,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -781,7 +781,7 @@ isEmpty(['a']);
                                     "elements": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -789,7 +789,7 @@ isEmpty(['a']);
                                     "start": 232,
                                     "end": 232
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -800,14 +800,14 @@ isEmpty(['a']);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 232,
                         "end": 234
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -831,7 +831,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -849,7 +849,7 @@ isEmpty(['a']);
                                     "kind": 196712,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -865,7 +865,7 @@ isEmpty(['a']);
                                             "kind": 4261540,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -876,7 +876,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -888,20 +888,20 @@ isEmpty(['a']);
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 256
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 247,
                         "end": 257
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -925,7 +925,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -945,7 +945,7 @@ isEmpty(['a']);
                                         "kind": 196712,
                                         "text": "Array",
                                         "rawText": "Array",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -967,7 +967,7 @@ isEmpty(['a']);
                                                 "end": 283
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -982,7 +982,7 @@ isEmpty(['a']);
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -993,14 +993,14 @@ isEmpty(['a']);
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 285,
                                         "end": 286
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1015,20 +1015,20 @@ isEmpty(['a']);
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 287
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 270,
                         "end": 288
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1052,7 +1052,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1073,7 +1073,7 @@ isEmpty(['a']);
                                             "kind": 67279,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 16777216,
+                                            "flags": 16842752,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1084,7 +1084,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1092,7 +1092,7 @@ isEmpty(['a']);
                                     "start": 299,
                                     "end": 302
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1103,14 +1103,14 @@ isEmpty(['a']);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 299,
                         "end": 304
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1137,7 +1137,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "myVar",
                                 "rawText": "myVar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1153,11 +1153,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 316
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1165,7 +1165,7 @@ isEmpty(['a']);
                     "start": 310,
                     "end": 316
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1184,7 +1184,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "strArray",
                                 "rawText": "strArray",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1207,7 +1207,7 @@ isEmpty(['a']);
                                                     "kind": 196712,
                                                     "text": "myVar",
                                                     "rawText": "myVar",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1219,7 +1219,7 @@ isEmpty(['a']);
                                                     "kind": 196711,
                                                     "text": "voidFn",
                                                     "rawText": "voidFn",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1227,7 +1227,7 @@ isEmpty(['a']);
                                                     "start": 340,
                                                     "end": 346
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1241,14 +1241,14 @@ isEmpty(['a']);
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 348,
                                                 "end": 348
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1259,7 +1259,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1267,7 +1267,7 @@ isEmpty(['a']);
                                     "start": 334,
                                     "end": 348
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1280,11 +1280,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 349
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1292,7 +1292,7 @@ isEmpty(['a']);
                     "start": 321,
                     "end": 349
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1311,7 +1311,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "myArray",
                                 "rawText": "myArray",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1327,11 +1327,11 @@ isEmpty(['a']);
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 362
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1339,7 +1339,7 @@ isEmpty(['a']);
                     "start": 354,
                     "end": 362
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1355,7 +1355,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "myArray",
                         "rawText": "myArray",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1378,7 +1378,7 @@ isEmpty(['a']);
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1390,7 +1390,7 @@ isEmpty(['a']);
                                                 "kind": 4261540,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1401,7 +1401,7 @@ isEmpty(['a']);
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1409,7 +1409,7 @@ isEmpty(['a']);
                                         "start": 376,
                                         "end": 380
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1420,7 +1420,7 @@ isEmpty(['a']);
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1428,7 +1428,7 @@ isEmpty(['a']);
                             "start": 375,
                             "end": 381
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1436,7 +1436,7 @@ isEmpty(['a']);
                         "start": 373,
                         "end": 382
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1458,7 +1458,7 @@ isEmpty(['a']);
                     "kind": 131102,
                     "text": "isEmpty",
                     "rawText": "isEmpty",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1476,7 +1476,7 @@ isEmpty(['a']);
                                 "kind": 131102,
                                 "text": "l",
                                 "rawText": "l",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1490,7 +1490,7 @@ isEmpty(['a']);
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1500,7 +1500,7 @@ isEmpty(['a']);
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1524,7 +1524,7 @@ isEmpty(['a']);
                                             "kind": 196712,
                                             "text": "l",
                                             "rawText": "l",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1536,7 +1536,7 @@ isEmpty(['a']);
                                             "kind": 196711,
                                             "text": "length",
                                             "rawText": "length",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1544,7 +1544,7 @@ isEmpty(['a']);
                                             "start": 419,
                                             "end": 425
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1557,7 +1557,7 @@ isEmpty(['a']);
                                         "kind": 4261540,
                                         "text": 0,
                                         "rawText": "0",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1565,7 +1565,7 @@ isEmpty(['a']);
                                         "start": 429,
                                         "end": 431
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1573,7 +1573,7 @@ isEmpty(['a']);
                                     "start": 416,
                                     "end": 431
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1583,7 +1583,7 @@ isEmpty(['a']);
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1591,7 +1591,7 @@ isEmpty(['a']);
                         "start": 405,
                         "end": 432
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1600,7 +1600,7 @@ isEmpty(['a']);
                     "end": 434
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1616,7 +1616,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1635,7 +1635,7 @@ isEmpty(['a']);
                                     "elements": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1643,7 +1643,7 @@ isEmpty(['a']);
                                     "start": 444,
                                     "end": 444
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1654,14 +1654,14 @@ isEmpty(['a']);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 444,
                         "end": 446
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1685,7 +1685,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1703,7 +1703,7 @@ isEmpty(['a']);
                                     "kind": 196712,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1719,7 +1719,7 @@ isEmpty(['a']);
                                             "kind": 4261540,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1730,7 +1730,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -1742,20 +1742,20 @@ isEmpty(['a']);
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 468
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 459,
                         "end": 469
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1779,7 +1779,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1797,7 +1797,7 @@ isEmpty(['a']);
                                     "kind": 196712,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1813,7 +1813,7 @@ isEmpty(['a']);
                                             "kind": 4261540,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1824,7 +1824,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -1836,20 +1836,20 @@ isEmpty(['a']);
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 491
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 482,
                         "end": 492
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1873,7 +1873,7 @@ isEmpty(['a']);
                         "kind": 196712,
                         "text": "isEmpty",
                         "rawText": "isEmpty",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1894,7 +1894,7 @@ isEmpty(['a']);
                                             "kind": 67279,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 16777216,
+                                            "flags": 16842752,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1905,7 +1905,7 @@ isEmpty(['a']);
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1913,7 +1913,7 @@ isEmpty(['a']);
                                     "start": 503,
                                     "end": 506
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1924,14 +1924,14 @@ isEmpty(['a']);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 503,
                         "end": 508
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1949,7 +1949,7 @@ isEmpty(['a']);
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1974,13 +1974,59 @@ isEmpty(['a']);
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface myInt {
+    voidFn(): void;
+}
+
+var myVar: myInt;
+
+var strArray: string[] = [myVar.voidFn()];
+
+var myArray: number[][][];
+
+myArray = [[1, 2]]
+
+function isEmpty(l: {
+        length: number;
+    }) {
+    return l.length === 0;
+}
+
+isEmpty([])
+
+isEmpty(new Array(3))
+
+isEmpty(new Array<string>(3))
+
+isEmpty(["a"])
+
+var myVar;
+
+var strArray = [myVar.voidFn()];
+
+var myArray;
+
+myArray = [[1, 2]]
+
+function isEmpty(l) {
+    return l.length === 0;
+}
+
+isEmpty([])
+
+isEmpty(new Array(3))
+
+isEmpty(new Array(3))
+
+isEmpty(["a"])
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ async (<T> a) => {};
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\nasync (<T> a) => {};\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,7 +30,7 @@ async (<T> a) => {};
                         "kind": 196712,
                         "text": "async",
                         "rawText": "async",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -50,7 +50,7 @@ async (<T> a) => {};
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -59,7 +59,7 @@ async (<T> a) => {};
                                         "end": 10
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -71,7 +71,7 @@ async (<T> a) => {};
                                     "kind": 196712,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -79,7 +79,7 @@ async (<T> a) => {};
                                     "start": 11,
                                     "end": 13
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -90,14 +90,14 @@ async (<T> a) => {};
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 9,
                         "end": 14
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -119,7 +119,7 @@ async (<T> a) => {};
                     "kind": 2084,
                     "statements": [],
                     "multiline": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -127,7 +127,7 @@ async (<T> a) => {};
                     "start": 19,
                     "end": 19
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -137,7 +137,7 @@ async (<T> a) => {};
             },
             {
                 "kind": 6291526,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -147,7 +147,7 @@ async (<T> a) => {};
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -180,13 +180,19 @@ async (<T> a) => {};
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async(<T>a)
+
+{}
+
+;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

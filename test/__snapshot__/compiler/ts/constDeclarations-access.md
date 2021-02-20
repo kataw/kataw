@@ -17,11 +17,11 @@ x++;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const x = 0\n\n// @Filename: file2.ts\nx++;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -35,7 +35,7 @@ x++;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -49,7 +49,7 @@ x++;
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -57,7 +57,7 @@ x++;
                                 "start": 9,
                                 "end": 11
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -66,7 +66,7 @@ x++;
                             "end": 11
                         }
                     ],
-                    "flags": 16400,
+                    "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -74,7 +74,7 @@ x++;
                     "start": 5,
                     "end": 11
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -91,7 +91,7 @@ x++;
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -99,7 +99,7 @@ x++;
                         "start": 11,
                         "end": 37
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -117,7 +117,7 @@ x++;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -142,13 +142,17 @@ x++;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const x = 0;
+
+x++
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

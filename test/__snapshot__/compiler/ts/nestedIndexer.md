@@ -19,11 +19,11 @@ var match: { [index: number]: string; }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function then(x) {\n\nvar match: { [index: number]: string; }\n\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ var match: { [index: number]: string; }
                     "kind": 131102,
                     "text": "then",
                     "rawText": "then",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -49,7 +49,7 @@ var match: { [index: number]: string; }
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -63,7 +63,7 @@ var match: { [index: number]: string; }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -73,7 +73,7 @@ var match: { [index: number]: string; }
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -98,7 +98,7 @@ var match: { [index: number]: string; }
                                                 "kind": 131102,
                                                 "text": "match",
                                                 "rawText": "match",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -125,7 +125,7 @@ var match: { [index: number]: string; }
                                                                             "kind": 131102,
                                                                             "text": "index",
                                                                             "rawText": "index",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
                                                                             "parent": null,
@@ -147,7 +147,7 @@ var match: { [index: number]: string; }
                                                                         "initializer": null,
                                                                         "accessModifier": null,
                                                                         "isReadOnly": false,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 1,
                                                                         "parent": null,
@@ -157,7 +157,7 @@ var match: { [index: number]: string; }
                                                                     }
                                                                 ],
                                                                 "trailingcomma": false,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -177,7 +177,7 @@ var match: { [index: number]: string; }
                                                             },
                                                             "isStatic": false,
                                                             "isReadOnly": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -186,7 +186,7 @@ var match: { [index: number]: string; }
                                                             "end": 57
                                                         }
                                                     ],
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -194,7 +194,7 @@ var match: { [index: number]: string; }
                                                     "start": 32,
                                                     "end": 59
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -208,11 +208,11 @@ var match: { [index: number]: string; }
                                             "transformFlags": 0,
                                             "parent": null,
                                             "emitNode": null,
-                                            "start": 16384,
+                                            "start": 81920,
                                             "end": 59
                                         }
                                     ],
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -220,7 +220,7 @@ var match: { [index: number]: string; }
                                     "start": 23,
                                     "end": 59
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -230,7 +230,7 @@ var match: { [index: number]: string; }
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -238,7 +238,7 @@ var match: { [index: number]: string; }
                         "start": 18,
                         "end": 59
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -247,7 +247,7 @@ var match: { [index: number]: string; }
                     "end": 62
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -257,7 +257,7 @@ var match: { [index: number]: string; }
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -282,13 +282,19 @@ var match: { [index: number]: string; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function then(x) {
+    var match: {
+        [index: number]: string;
+    };
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -24,11 +24,11 @@ class C<T> {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface F {\n    (): number;\n}\n\nclass C<T> {\n    constructor(public a: T, public b: F) {}\n    foo() {\n        if (this.a instanceof this.b) {\n        }\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -36,7 +36,7 @@ class C<T> {
                     "kind": 196712,
                     "text": "F",
                     "rawText": "F",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -58,7 +58,7 @@ class C<T> {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -76,7 +76,7 @@ class C<T> {
                                 "start": 21,
                                 "end": 28
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -85,7 +85,7 @@ class C<T> {
                             "end": 29
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -93,7 +93,7 @@ class C<T> {
                     "start": 13,
                     "end": 29
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -107,7 +107,7 @@ class C<T> {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -124,7 +124,7 @@ class C<T> {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -135,7 +135,7 @@ class C<T> {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -144,7 +144,7 @@ class C<T> {
                             "end": 42
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -169,7 +169,7 @@ class C<T> {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -187,7 +187,7 @@ class C<T> {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -202,7 +202,7 @@ class C<T> {
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -211,7 +211,7 @@ class C<T> {
                                                     "end": 73
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -232,7 +232,7 @@ class C<T> {
                                                 "end": 68
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -247,7 +247,7 @@ class C<T> {
                                                 "kind": 131102,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -262,7 +262,7 @@ class C<T> {
                                                     "kind": 196711,
                                                     "text": "F",
                                                     "rawText": "F",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -271,7 +271,7 @@ class C<T> {
                                                     "end": 86
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -292,7 +292,7 @@ class C<T> {
                                                 "end": 81
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -302,7 +302,7 @@ class C<T> {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -318,7 +318,7 @@ class C<T> {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -326,7 +326,7 @@ class C<T> {
                                         "start": 89,
                                         "end": 89
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -338,7 +338,7 @@ class C<T> {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -346,7 +346,7 @@ class C<T> {
                                 "start": 61,
                                 "end": 90
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -366,7 +366,7 @@ class C<T> {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -378,7 +378,7 @@ class C<T> {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -401,7 +401,7 @@ class C<T> {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -413,7 +413,7 @@ class C<T> {
                                                             "kind": 196711,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -421,7 +421,7 @@ class C<T> {
                                                             "start": 120,
                                                             "end": 121
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -434,7 +434,7 @@ class C<T> {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -446,7 +446,7 @@ class C<T> {
                                                             "kind": 196711,
                                                             "text": "b",
                                                             "rawText": "b",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -454,7 +454,7 @@ class C<T> {
                                                             "start": 138,
                                                             "end": 139
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -462,7 +462,7 @@ class C<T> {
                                                         "start": 137,
                                                         "end": 139
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -476,7 +476,7 @@ class C<T> {
                                                         "kind": 2084,
                                                         "statements": [],
                                                         "multiline": true,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -484,7 +484,7 @@ class C<T> {
                                                         "start": 142,
                                                         "end": 142
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -494,7 +494,7 @@ class C<T> {
                                                 },
                                                 "alternate": null,
                                                 "isWebCompat": true,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -504,7 +504,7 @@ class C<T> {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -512,7 +512,7 @@ class C<T> {
                                         "start": 102,
                                         "end": 152
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -524,7 +524,7 @@ class C<T> {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -532,7 +532,7 @@ class C<T> {
                                 "start": 98,
                                 "end": 158
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -541,7 +541,7 @@ class C<T> {
                             "end": 158
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -550,7 +550,7 @@ class C<T> {
                     "end": 160
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -560,7 +560,7 @@ class C<T> {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -585,13 +585,25 @@ class C<T> {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface F {
+    ():number;
+}
+
+class C<T> {
+    constructor(public a: T, public b: F) { }
+    foo() {
+        if (this.a instanceof this.b) {
+        }
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

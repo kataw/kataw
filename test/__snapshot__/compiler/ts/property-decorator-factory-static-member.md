@@ -19,11 +19,11 @@ class A {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class A {\n    @configurable(true) static prop1;\n\n    @configurable(false)\n    static prop2;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -31,7 +31,7 @@ class A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -51,7 +51,7 @@ class A {
                                 "kind": 196711,
                                 "text": "prop1",
                                 "rawText": "prop1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -75,7 +75,7 @@ class A {
                                                 "kind": 196712,
                                                 "text": "configurable",
                                                 "rawText": "configurable",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -90,7 +90,7 @@ class A {
                                                     {
                                                         "kind": 4260391,
                                                         "text": true,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -101,14 +101,14 @@ class A {
                                                 ],
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 32,
                                                 "end": 33
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -116,7 +116,7 @@ class A {
                                             "start": 27,
                                             "end": 33
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -125,7 +125,7 @@ class A {
                                         "end": 33
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -135,7 +135,7 @@ class A {
                             },
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -149,7 +149,7 @@ class A {
                                 "kind": 196711,
                                 "text": "prop2",
                                 "rawText": "prop2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -173,7 +173,7 @@ class A {
                                                 "kind": 196712,
                                                 "text": "configurable",
                                                 "rawText": "configurable",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -188,7 +188,7 @@ class A {
                                                     {
                                                         "kind": 4260391,
                                                         "text": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -199,14 +199,14 @@ class A {
                                                 ],
                                                 "trailingComma": false,
                                                 "transformFlags": 0,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "parent": null,
                                                 "emitNode": null,
                                                 "start": 72,
                                                 "end": 73
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -214,7 +214,7 @@ class A {
                                             "start": 66,
                                             "end": 73
                                         },
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -223,7 +223,7 @@ class A {
                                         "end": 73
                                     }
                                 ],
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -233,7 +233,7 @@ class A {
                             },
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -242,7 +242,7 @@ class A {
                             "end": 91
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -251,7 +251,7 @@ class A {
                     "end": 93
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -261,7 +261,7 @@ class A {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -286,13 +286,24 @@ class A {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class A {
+
+    @configurable(true)
+
+    static prop1;
+
+    @configurable(false)
+
+    static prop2;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

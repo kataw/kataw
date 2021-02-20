@@ -128,11 +128,11 @@ class B3 extends A3 {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "// Class with protected members\nclass C1 {\n    protected x: number;\n    protected static sx: number;\n    protected f() {\n        return this.x;\n    }\n    protected static sf() {\n        return this.sx;\n    }\n}\n\n// Derived class accessing protected members\nclass C2 extends C1 {\n    protected f() {\n        return super.f() + this.x;\n    }\n    protected static sf() {\n        return super.sf() + this.sx;\n    }\n}\n\n// Derived class making protected members public\nclass C3 extends C2 {\n    x: number;\n    static sx: number;\n    f() {\n        return super.f();\n    }\n    static sf() {\n        return super.sf();\n    }\n}\n\nvar c1: C1;\nvar c2: C2;\nvar c3: C3;\n\n// All of these should be errors\nc1.x;\nc1.f();\nC1.sx;\nC1.sf();\n\n// All of these should be errors\nc2.x;\nc2.f();\nC2.sx;\nC2.sf();\n\n// All of these should be ok\nc3.x;\nc3.f();\nC3.sx;\nC3.sf();\n\nclass A {\n    protected x;\n}\n\nclass B extends A {\n    y;\n}\n\nclass C extends A {\n    z;\n    static foo(a: A, b: B, c: C, d: D, e: E) {\n        a.x = 1;  // Error, access must be through C or type derived from C\n        b.x = 1;  // Error, access must be through C or type derived from C\n        c.x = 1;\n        d.x = 1;\n        e.x = 1;\n    }\n}\n\nclass D extends C {\n    d;\n}\n\ninterface E extends C {\n    e;\n}\n\nclass CC {\n    protected constructor() {\n    }\n}\n\nclass A1 {\n    protected x;\n}\nclass B1 {\n    x;\n}\nvar a1: A1;\nvar b1: B1;\na1 = b1;  // Error, B1 doesn't derive from A1\nb1 = a1;  // Error, x is protected in A1 but public in B1\n\nclass A2 {\n    protected x;\n}\nclass B2 extends A2 {\n    x;\n}\n\nclass A3 {\n    x;\n}\n// Error x is protected in B3 but public in A3\nclass B3 extends A3 {\n    protected x;\n}\n\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -140,7 +140,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "C1",
                     "rawText": "C1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -160,7 +160,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -194,7 +194,7 @@ class B3 extends A3 {
                                 "end": 56
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -208,7 +208,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "sx",
                                 "rawText": "sx",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -242,7 +242,7 @@ class B3 extends A3 {
                                 "end": 81
                             },
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -262,7 +262,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -274,7 +274,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -295,7 +295,7 @@ class B3 extends A3 {
                                                     "kind": 74424,
                                                     "member": {
                                                         "kind": 4260571,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -307,7 +307,7 @@ class B3 extends A3 {
                                                         "kind": 196711,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -315,7 +315,7 @@ class B3 extends A3 {
                                                         "start": 141,
                                                         "end": 142
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -323,7 +323,7 @@ class B3 extends A3 {
                                                     "start": 140,
                                                     "end": 142
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -333,7 +333,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -341,7 +341,7 @@ class B3 extends A3 {
                                         "start": 120,
                                         "end": 143
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -362,7 +362,7 @@ class B3 extends A3 {
                                     "end": 114
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -370,7 +370,7 @@ class B3 extends A3 {
                                 "start": 116,
                                 "end": 149
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -390,7 +390,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "sf",
                                     "rawText": "sf",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -402,7 +402,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -423,7 +423,7 @@ class B3 extends A3 {
                                                     "kind": 74424,
                                                     "member": {
                                                         "kind": 4260571,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -435,7 +435,7 @@ class B3 extends A3 {
                                                         "kind": 196711,
                                                         "text": "sx",
                                                         "rawText": "sx",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -443,7 +443,7 @@ class B3 extends A3 {
                                                         "start": 198,
                                                         "end": 200
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -451,7 +451,7 @@ class B3 extends A3 {
                                                     "start": 197,
                                                     "end": 200
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -461,7 +461,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -469,7 +469,7 @@ class B3 extends A3 {
                                         "start": 177,
                                         "end": 201
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -490,7 +490,7 @@ class B3 extends A3 {
                                     "end": 163
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -498,7 +498,7 @@ class B3 extends A3 {
                                 "start": 173,
                                 "end": 207
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -507,7 +507,7 @@ class B3 extends A3 {
                             "end": 207
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -516,7 +516,7 @@ class B3 extends A3 {
                     "end": 209
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -530,7 +530,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "C2",
                     "rawText": "C2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -545,7 +545,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C1",
                         "rawText": "C1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -554,7 +554,7 @@ class B3 extends A3 {
                         "end": 275
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -578,7 +578,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -590,7 +590,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -615,7 +615,7 @@ class B3 extends A3 {
                                                             "kind": 74424,
                                                             "member": {
                                                                 "kind": 4260561,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -627,7 +627,7 @@ class B3 extends A3 {
                                                                 "kind": 196711,
                                                                 "text": "f",
                                                                 "rawText": "f",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -635,7 +635,7 @@ class B3 extends A3 {
                                                                 "start": 319,
                                                                 "end": 320
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -649,14 +649,14 @@ class B3 extends A3 {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "transformFlags": 0,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "parent": null,
                                                             "emitNode": null,
                                                             "start": 322,
                                                             "end": 322
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -669,7 +669,7 @@ class B3 extends A3 {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -681,7 +681,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -689,7 +689,7 @@ class B3 extends A3 {
                                                             "start": 330,
                                                             "end": 331
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -697,7 +697,7 @@ class B3 extends A3 {
                                                         "start": 329,
                                                         "end": 331
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -705,7 +705,7 @@ class B3 extends A3 {
                                                     "start": 312,
                                                     "end": 331
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -715,7 +715,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -723,7 +723,7 @@ class B3 extends A3 {
                                         "start": 297,
                                         "end": 332
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -744,7 +744,7 @@ class B3 extends A3 {
                                     "end": 291
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -752,7 +752,7 @@ class B3 extends A3 {
                                 "start": 293,
                                 "end": 338
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -772,7 +772,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "sf",
                                     "rawText": "sf",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -784,7 +784,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -809,7 +809,7 @@ class B3 extends A3 {
                                                             "kind": 74424,
                                                             "member": {
                                                                 "kind": 4260561,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -821,7 +821,7 @@ class B3 extends A3 {
                                                                 "kind": 196711,
                                                                 "text": "sf",
                                                                 "rawText": "sf",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -829,7 +829,7 @@ class B3 extends A3 {
                                                                 "start": 388,
                                                                 "end": 390
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -843,14 +843,14 @@ class B3 extends A3 {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "transformFlags": 0,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "parent": null,
                                                             "emitNode": null,
                                                             "start": 392,
                                                             "end": 392
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -863,7 +863,7 @@ class B3 extends A3 {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -875,7 +875,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "sx",
                                                             "rawText": "sx",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -883,7 +883,7 @@ class B3 extends A3 {
                                                             "start": 400,
                                                             "end": 402
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -891,7 +891,7 @@ class B3 extends A3 {
                                                         "start": 399,
                                                         "end": 402
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -899,7 +899,7 @@ class B3 extends A3 {
                                                     "start": 381,
                                                     "end": 402
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -909,7 +909,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -917,7 +917,7 @@ class B3 extends A3 {
                                         "start": 366,
                                         "end": 403
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -938,7 +938,7 @@ class B3 extends A3 {
                                     "end": 352
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -946,7 +946,7 @@ class B3 extends A3 {
                                 "start": 362,
                                 "end": 409
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -955,7 +955,7 @@ class B3 extends A3 {
                             "end": 409
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -964,7 +964,7 @@ class B3 extends A3 {
                     "end": 411
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -978,7 +978,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "C3",
                     "rawText": "C3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -993,7 +993,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C2",
                         "rawText": "C2",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1002,7 +1002,7 @@ class B3 extends A3 {
                         "end": 481
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1020,7 +1020,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1045,7 +1045,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -1059,7 +1059,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "sx",
                                 "rawText": "sx",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1084,7 +1084,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -1104,7 +1104,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1116,7 +1116,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1139,7 +1139,7 @@ class B3 extends A3 {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1151,7 +1151,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "f",
                                                             "rawText": "f",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1159,7 +1159,7 @@ class B3 extends A3 {
                                                             "start": 553,
                                                             "end": 554
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1173,14 +1173,14 @@ class B3 extends A3 {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 556,
                                                         "end": 556
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1188,7 +1188,7 @@ class B3 extends A3 {
                                                     "start": 554,
                                                     "end": 556
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1198,7 +1198,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1206,7 +1206,7 @@ class B3 extends A3 {
                                         "start": 531,
                                         "end": 557
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1218,7 +1218,7 @@ class B3 extends A3 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1226,7 +1226,7 @@ class B3 extends A3 {
                                 "start": 527,
                                 "end": 563
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1246,7 +1246,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "sf",
                                     "rawText": "sf",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1258,7 +1258,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1281,7 +1281,7 @@ class B3 extends A3 {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1293,7 +1293,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "sf",
                                                             "rawText": "sf",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1301,7 +1301,7 @@ class B3 extends A3 {
                                                             "start": 603,
                                                             "end": 605
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1315,14 +1315,14 @@ class B3 extends A3 {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 607,
                                                         "end": 607
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1330,7 +1330,7 @@ class B3 extends A3 {
                                                     "start": 605,
                                                     "end": 607
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1340,7 +1340,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1348,7 +1348,7 @@ class B3 extends A3 {
                                         "start": 581,
                                         "end": 608
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1360,7 +1360,7 @@ class B3 extends A3 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1368,7 +1368,7 @@ class B3 extends A3 {
                                 "start": 577,
                                 "end": 614
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1377,7 +1377,7 @@ class B3 extends A3 {
                             "end": 614
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -1386,7 +1386,7 @@ class B3 extends A3 {
                     "end": 616
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -1405,7 +1405,7 @@ class B3 extends A3 {
                                 "kind": 131102,
                                 "text": "c1",
                                 "rawText": "c1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1420,7 +1420,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "C1",
                                     "rawText": "C1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1429,7 +1429,7 @@ class B3 extends A3 {
                                     "end": 628
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1443,11 +1443,11 @@ class B3 extends A3 {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 628
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1455,7 +1455,7 @@ class B3 extends A3 {
                     "start": 621,
                     "end": 628
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1474,7 +1474,7 @@ class B3 extends A3 {
                                 "kind": 131102,
                                 "text": "c2",
                                 "rawText": "c2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1489,7 +1489,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "C2",
                                     "rawText": "C2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1498,7 +1498,7 @@ class B3 extends A3 {
                                     "end": 640
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1512,11 +1512,11 @@ class B3 extends A3 {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 640
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1524,7 +1524,7 @@ class B3 extends A3 {
                     "start": 633,
                     "end": 640
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1543,7 +1543,7 @@ class B3 extends A3 {
                                 "kind": 131102,
                                 "text": "c3",
                                 "rawText": "c3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1558,7 +1558,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "C3",
                                     "rawText": "C3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1567,7 +1567,7 @@ class B3 extends A3 {
                                     "end": 652
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1581,11 +1581,11 @@ class B3 extends A3 {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 652
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1593,7 +1593,7 @@ class B3 extends A3 {
                     "start": 645,
                     "end": 652
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1609,7 +1609,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "c1",
                         "rawText": "c1",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1621,7 +1621,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1629,7 +1629,7 @@ class B3 extends A3 {
                         "start": 691,
                         "end": 692
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1655,7 +1655,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "c1",
                             "rawText": "c1",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1667,7 +1667,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1675,7 +1675,7 @@ class B3 extends A3 {
                             "start": 697,
                             "end": 698
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1689,14 +1689,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 700,
                         "end": 700
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1720,7 +1720,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C1",
                         "rawText": "C1",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1732,7 +1732,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "sx",
                         "rawText": "sx",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1740,7 +1740,7 @@ class B3 extends A3 {
                         "start": 705,
                         "end": 707
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1766,7 +1766,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "C1",
                             "rawText": "C1",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1778,7 +1778,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "sf",
                             "rawText": "sf",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1786,7 +1786,7 @@ class B3 extends A3 {
                             "start": 712,
                             "end": 714
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1800,14 +1800,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 716,
                         "end": 716
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1831,7 +1831,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "c2",
                         "rawText": "c2",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1843,7 +1843,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1851,7 +1851,7 @@ class B3 extends A3 {
                         "start": 755,
                         "end": 756
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1877,7 +1877,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "c2",
                             "rawText": "c2",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1889,7 +1889,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1897,7 +1897,7 @@ class B3 extends A3 {
                             "start": 761,
                             "end": 762
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1911,14 +1911,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 764,
                         "end": 764
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1942,7 +1942,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C2",
                         "rawText": "C2",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1954,7 +1954,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "sx",
                         "rawText": "sx",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1962,7 +1962,7 @@ class B3 extends A3 {
                         "start": 769,
                         "end": 771
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1988,7 +1988,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "C2",
                             "rawText": "C2",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2000,7 +2000,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "sf",
                             "rawText": "sf",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2008,7 +2008,7 @@ class B3 extends A3 {
                             "start": 776,
                             "end": 778
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2022,14 +2022,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 780,
                         "end": 780
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2053,7 +2053,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "c3",
                         "rawText": "c3",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2065,7 +2065,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2073,7 +2073,7 @@ class B3 extends A3 {
                         "start": 815,
                         "end": 816
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2099,7 +2099,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "c3",
                             "rawText": "c3",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2111,7 +2111,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "f",
                             "rawText": "f",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2119,7 +2119,7 @@ class B3 extends A3 {
                             "start": 821,
                             "end": 822
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2133,14 +2133,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 824,
                         "end": 824
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2164,7 +2164,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C3",
                         "rawText": "C3",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2176,7 +2176,7 @@ class B3 extends A3 {
                         "kind": 196711,
                         "text": "sx",
                         "rawText": "sx",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2184,7 +2184,7 @@ class B3 extends A3 {
                         "start": 829,
                         "end": 831
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2210,7 +2210,7 @@ class B3 extends A3 {
                             "kind": 196712,
                             "text": "C3",
                             "rawText": "C3",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2222,7 +2222,7 @@ class B3 extends A3 {
                             "kind": 196711,
                             "text": "sf",
                             "rawText": "sf",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2230,7 +2230,7 @@ class B3 extends A3 {
                             "start": 836,
                             "end": 838
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2244,14 +2244,14 @@ class B3 extends A3 {
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 840,
                         "end": 840
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2273,7 +2273,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2293,7 +2293,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2318,7 +2318,7 @@ class B3 extends A3 {
                                 "end": 866
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2327,7 +2327,7 @@ class B3 extends A3 {
                             "end": 869
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -2336,7 +2336,7 @@ class B3 extends A3 {
                     "end": 871
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -2350,7 +2350,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "B",
                     "rawText": "B",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2365,7 +2365,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2374,7 +2374,7 @@ class B3 extends A3 {
                         "end": 890
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2392,7 +2392,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2408,7 +2408,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2417,7 +2417,7 @@ class B3 extends A3 {
                             "end": 899
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -2426,7 +2426,7 @@ class B3 extends A3 {
                     "end": 901
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -2440,7 +2440,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2455,7 +2455,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2464,7 +2464,7 @@ class B3 extends A3 {
                         "end": 920
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2482,7 +2482,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2498,7 +2498,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2518,7 +2518,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2536,7 +2536,7 @@ class B3 extends A3 {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2551,7 +2551,7 @@ class B3 extends A3 {
                                                     "kind": 196711,
                                                     "text": "A",
                                                     "rawText": "A",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2560,7 +2560,7 @@ class B3 extends A3 {
                                                     "end": 949
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2572,7 +2572,7 @@ class B3 extends A3 {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2587,7 +2587,7 @@ class B3 extends A3 {
                                                 "kind": 131102,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2602,7 +2602,7 @@ class B3 extends A3 {
                                                     "kind": 196711,
                                                     "text": "B",
                                                     "rawText": "B",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2611,7 +2611,7 @@ class B3 extends A3 {
                                                     "end": 955
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2623,7 +2623,7 @@ class B3 extends A3 {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2638,7 +2638,7 @@ class B3 extends A3 {
                                                 "kind": 131102,
                                                 "text": "c",
                                                 "rawText": "c",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2653,7 +2653,7 @@ class B3 extends A3 {
                                                     "kind": 196711,
                                                     "text": "C",
                                                     "rawText": "C",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2662,7 +2662,7 @@ class B3 extends A3 {
                                                     "end": 961
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2674,7 +2674,7 @@ class B3 extends A3 {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2689,7 +2689,7 @@ class B3 extends A3 {
                                                 "kind": 131102,
                                                 "text": "d",
                                                 "rawText": "d",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2704,7 +2704,7 @@ class B3 extends A3 {
                                                     "kind": 196711,
                                                     "text": "D",
                                                     "rawText": "D",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2713,7 +2713,7 @@ class B3 extends A3 {
                                                     "end": 967
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2725,7 +2725,7 @@ class B3 extends A3 {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2740,7 +2740,7 @@ class B3 extends A3 {
                                                 "kind": 131102,
                                                 "text": "e",
                                                 "rawText": "e",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2755,7 +2755,7 @@ class B3 extends A3 {
                                                     "kind": 196711,
                                                     "text": "E",
                                                     "rawText": "E",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2764,7 +2764,7 @@ class B3 extends A3 {
                                                     "end": 973
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2776,7 +2776,7 @@ class B3 extends A3 {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2786,7 +2786,7 @@ class B3 extends A3 {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2811,7 +2811,7 @@ class B3 extends A3 {
                                                             "kind": 196712,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2823,7 +2823,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2831,7 +2831,7 @@ class B3 extends A3 {
                                                             "start": 987,
                                                             "end": 988
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2844,7 +2844,7 @@ class B3 extends A3 {
                                                         "kind": 4261540,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2852,7 +2852,7 @@ class B3 extends A3 {
                                                         "start": 990,
                                                         "end": 992
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2878,7 +2878,7 @@ class B3 extends A3 {
                                                             "kind": 196712,
                                                             "text": "b",
                                                             "rawText": "b",
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2890,7 +2890,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2898,7 +2898,7 @@ class B3 extends A3 {
                                                             "start": 1063,
                                                             "end": 1064
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2911,7 +2911,7 @@ class B3 extends A3 {
                                                         "kind": 4261540,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2919,7 +2919,7 @@ class B3 extends A3 {
                                                         "start": 1066,
                                                         "end": 1068
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2945,7 +2945,7 @@ class B3 extends A3 {
                                                             "kind": 196712,
                                                             "text": "c",
                                                             "rawText": "c",
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2957,7 +2957,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2965,7 +2965,7 @@ class B3 extends A3 {
                                                             "start": 1139,
                                                             "end": 1140
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2978,7 +2978,7 @@ class B3 extends A3 {
                                                         "kind": 4261540,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2986,7 +2986,7 @@ class B3 extends A3 {
                                                         "start": 1142,
                                                         "end": 1144
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3012,7 +3012,7 @@ class B3 extends A3 {
                                                             "kind": 196712,
                                                             "text": "d",
                                                             "rawText": "d",
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3024,7 +3024,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3032,7 +3032,7 @@ class B3 extends A3 {
                                                             "start": 1156,
                                                             "end": 1157
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3045,7 +3045,7 @@ class B3 extends A3 {
                                                         "kind": 4261540,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3053,7 +3053,7 @@ class B3 extends A3 {
                                                         "start": 1159,
                                                         "end": 1161
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3079,7 +3079,7 @@ class B3 extends A3 {
                                                             "kind": 196712,
                                                             "text": "e",
                                                             "rawText": "e",
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3091,7 +3091,7 @@ class B3 extends A3 {
                                                             "kind": 196711,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3099,7 +3099,7 @@ class B3 extends A3 {
                                                             "start": 1173,
                                                             "end": 1174
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3112,7 +3112,7 @@ class B3 extends A3 {
                                                         "kind": 4261540,
                                                         "text": 1,
                                                         "rawText": "1",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3120,7 +3120,7 @@ class B3 extends A3 {
                                                         "start": 1176,
                                                         "end": 1178
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3138,7 +3138,7 @@ class B3 extends A3 {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3146,7 +3146,7 @@ class B3 extends A3 {
                                         "start": 976,
                                         "end": 1179
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3158,7 +3158,7 @@ class B3 extends A3 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3166,7 +3166,7 @@ class B3 extends A3 {
                                 "start": 944,
                                 "end": 1185
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -3175,7 +3175,7 @@ class B3 extends A3 {
                             "end": 1185
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3184,7 +3184,7 @@ class B3 extends A3 {
                     "end": 1187
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3198,7 +3198,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "D",
                     "rawText": "D",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3213,7 +3213,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "C",
                         "rawText": "C",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3222,7 +3222,7 @@ class B3 extends A3 {
                         "end": 1206
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3240,7 +3240,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3256,7 +3256,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -3265,7 +3265,7 @@ class B3 extends A3 {
                             "end": 1215
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3274,7 +3274,7 @@ class B3 extends A3 {
                     "end": 1217
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3288,7 +3288,7 @@ class B3 extends A3 {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3308,7 +3308,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3317,7 +3317,7 @@ class B3 extends A3 {
                                     "end": 1240
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3325,7 +3325,7 @@ class B3 extends A3 {
                                 "start": 1238,
                                 "end": 1242
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -3334,7 +3334,7 @@ class B3 extends A3 {
                             "end": 1240
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -3351,7 +3351,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3365,7 +3365,7 @@ class B3 extends A3 {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -3374,7 +3374,7 @@ class B3 extends A3 {
                             "end": 1249
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -3382,7 +3382,7 @@ class B3 extends A3 {
                     "start": 1242,
                     "end": 1249
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -3396,7 +3396,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "CC",
                     "rawText": "CC",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3422,7 +3422,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3434,7 +3434,7 @@ class B3 extends A3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3450,7 +3450,7 @@ class B3 extends A3 {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3458,7 +3458,7 @@ class B3 extends A3 {
                                         "start": 1293,
                                         "end": 1293
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3479,7 +3479,7 @@ class B3 extends A3 {
                                     "end": 1277
                                 },
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3487,7 +3487,7 @@ class B3 extends A3 {
                                 "start": 1289,
                                 "end": 1299
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -3496,7 +3496,7 @@ class B3 extends A3 {
                             "end": 1299
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3505,7 +3505,7 @@ class B3 extends A3 {
                     "end": 1301
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3519,7 +3519,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "A1",
                     "rawText": "A1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3539,7 +3539,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3564,7 +3564,7 @@ class B3 extends A3 {
                                 "end": 1327
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -3573,7 +3573,7 @@ class B3 extends A3 {
                             "end": 1330
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3582,7 +3582,7 @@ class B3 extends A3 {
                     "end": 1332
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3596,7 +3596,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "B1",
                     "rawText": "B1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3616,7 +3616,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3632,7 +3632,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -3641,7 +3641,7 @@ class B3 extends A3 {
                             "end": 1350
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3650,7 +3650,7 @@ class B3 extends A3 {
                     "end": 1352
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3669,7 +3669,7 @@ class B3 extends A3 {
                                 "kind": 131102,
                                 "text": "a1",
                                 "rawText": "a1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3684,7 +3684,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "A1",
                                     "rawText": "A1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3693,7 +3693,7 @@ class B3 extends A3 {
                                     "end": 1363
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3707,11 +3707,11 @@ class B3 extends A3 {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 1363
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3719,7 +3719,7 @@ class B3 extends A3 {
                     "start": 1356,
                     "end": 1363
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3738,7 +3738,7 @@ class B3 extends A3 {
                                 "kind": 131102,
                                 "text": "b1",
                                 "rawText": "b1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3753,7 +3753,7 @@ class B3 extends A3 {
                                     "kind": 196711,
                                     "text": "B1",
                                     "rawText": "B1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3762,7 +3762,7 @@ class B3 extends A3 {
                                     "end": 1375
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3776,11 +3776,11 @@ class B3 extends A3 {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 1375
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3788,7 +3788,7 @@ class B3 extends A3 {
                     "start": 1368,
                     "end": 1375
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3804,7 +3804,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "a1",
                         "rawText": "a1",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3817,7 +3817,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "b1",
                         "rawText": "b1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3825,7 +3825,7 @@ class B3 extends A3 {
                         "start": 1381,
                         "end": 1384
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3849,7 +3849,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "b1",
                         "rawText": "b1",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3862,7 +3862,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "a1",
                         "rawText": "a1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3870,7 +3870,7 @@ class B3 extends A3 {
                         "start": 1427,
                         "end": 1430
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3892,7 +3892,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "A2",
                     "rawText": "A2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3912,7 +3912,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3937,7 +3937,7 @@ class B3 extends A3 {
                                 "end": 1506
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -3946,7 +3946,7 @@ class B3 extends A3 {
                             "end": 1509
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3955,7 +3955,7 @@ class B3 extends A3 {
                     "end": 1511
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3969,7 +3969,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "B2",
                     "rawText": "B2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -3984,7 +3984,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "A2",
                         "rawText": "A2",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3993,7 +3993,7 @@ class B3 extends A3 {
                         "end": 1531
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4011,7 +4011,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -4027,7 +4027,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -4036,7 +4036,7 @@ class B3 extends A3 {
                             "end": 1540
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -4045,7 +4045,7 @@ class B3 extends A3 {
                     "end": 1542
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -4059,7 +4059,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "A3",
                     "rawText": "A3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -4079,7 +4079,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -4095,7 +4095,7 @@ class B3 extends A3 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -4104,7 +4104,7 @@ class B3 extends A3 {
                             "end": 1561
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -4113,7 +4113,7 @@ class B3 extends A3 {
                     "end": 1563
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -4127,7 +4127,7 @@ class B3 extends A3 {
                     "kind": 131102,
                     "text": "B3",
                     "rawText": "B3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -4142,7 +4142,7 @@ class B3 extends A3 {
                         "kind": 196712,
                         "text": "A3",
                         "rawText": "A3",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -4151,7 +4151,7 @@ class B3 extends A3 {
                         "end": 1630
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4169,7 +4169,7 @@ class B3 extends A3 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -4194,7 +4194,7 @@ class B3 extends A3 {
                                 "end": 1646
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -4203,7 +4203,7 @@ class B3 extends A3 {
                             "end": 1649
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -4212,7 +4212,7 @@ class B3 extends A3 {
                     "end": 1651
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -4222,7 +4222,7 @@ class B3 extends A3 {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -4247,13 +4247,138 @@ class B3 extends A3 {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class C1 {
+    protected x: number;
+    protected static sx: number;
+    protected f() {
+        return this.x;
+    }
+    protected static sf() {
+        return this.sx;
+    }
+}
+
+class C2 extends C1 {
+    protected f() {
+        return super.f() + this.x;
+    }
+    protected static sf() {
+        return super.sf() + this.sx;
+    }
+}
+
+class C3 extends C2 {
+    x: number;
+    static sx: number;
+    f() {
+        return super.f();
+    }
+    static sf() {
+        return super.sf();
+    }
+}
+
+var c1: C1;
+
+var c2: C2;
+
+var c3: C3;
+
+c1.x
+
+c1.f()
+
+C1.sx
+
+C1.sf()
+
+c2.x
+
+c2.f()
+
+C2.sx
+
+C2.sf()
+
+c3.x
+
+c3.f()
+
+C3.sx
+
+C3.sf()
+
+class A {
+    protected x;
+}
+
+class B extends A {
+    y;
+}
+
+class C extends A {
+    z;
+    static foo(a: A, b: B, c: C, d: D, e: E) {
+        a.x = 1
+        b.x = 1
+        c.x = 1
+        d.x = 1
+        e.x = 1
+    }
+}
+
+class D extends C {
+    d;
+}
+
+interface E extends C  {
+    e;
+}
+
+class CC {
+    protected constructor() {
+    }
+}
+
+class A1 {
+    protected x;
+}
+
+class B1 {
+    x;
+}
+
+var a1: A1;
+
+var b1: B1;
+
+a1 = b1
+
+b1 = a1
+
+class A2 {
+    protected x;
+}
+
+class B2 extends A2 {
+    x;
+}
+
+class A3 {
+    x;
+}
+
+class B3 extends A3 {
+    protected x;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

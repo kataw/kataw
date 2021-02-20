@@ -14,11 +14,11 @@ var v = (public x: string) => { };
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = (public x: string) => { };",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,7 +31,7 @@ var v = (public x: string) => { };
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -48,7 +48,7 @@ var v = (public x: string) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -64,7 +64,7 @@ var v = (public x: string) => { };
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -96,7 +96,7 @@ var v = (public x: string) => { };
                                                 "end": 15
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -122,7 +122,7 @@ var v = (public x: string) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -130,7 +130,7 @@ var v = (public x: string) => { };
                                         "start": 31,
                                         "end": 31
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -138,7 +138,7 @@ var v = (public x: string) => { };
                                     "start": 29,
                                     "end": 33
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -151,11 +151,11 @@ var v = (public x: string) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 33
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -163,7 +163,7 @@ var v = (public x: string) => { };
                     "start": 3,
                     "end": 33
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -173,7 +173,7 @@ var v = (public x: string) => { };
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -198,13 +198,15 @@ var v = (public x: string) => { };
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = (public x: string) =>  { };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ interface I extends X.Y<Z> {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I extends X.Y<Z> {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -26,7 +26,7 @@ interface I extends X.Y<Z> {}
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -48,7 +48,7 @@ interface I extends X.Y<Z> {}
                                         "kind": 196711,
                                         "text": "X",
                                         "rawText": "X",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -60,7 +60,7 @@ interface I extends X.Y<Z> {}
                                         "kind": 196711,
                                         "text": "Y",
                                         "rawText": "Y",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -68,7 +68,7 @@ interface I extends X.Y<Z> {}
                                         "start": 22,
                                         "end": 23
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -85,7 +85,7 @@ interface I extends X.Y<Z> {}
                                                 "kind": 196711,
                                                 "text": "Z",
                                                 "rawText": "Z",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -94,7 +94,7 @@ interface I extends X.Y<Z> {}
                                                 "end": 25
                                             },
                                             "typeArguments": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -103,7 +103,7 @@ interface I extends X.Y<Z> {}
                                             "end": 26
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -111,7 +111,7 @@ interface I extends X.Y<Z> {}
                                     "start": 24,
                                     "end": 25
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -119,7 +119,7 @@ interface I extends X.Y<Z> {}
                                 "start": 19,
                                 "end": 28
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -128,7 +128,7 @@ interface I extends X.Y<Z> {}
                             "end": 26
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -139,7 +139,7 @@ interface I extends X.Y<Z> {}
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -147,7 +147,7 @@ interface I extends X.Y<Z> {}
                     "start": 28,
                     "end": 28
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -157,7 +157,7 @@ interface I extends X.Y<Z> {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -182,13 +182,16 @@ interface I extends X.Y<Z> {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I extends X.Y<Z>  {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

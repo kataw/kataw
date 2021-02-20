@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "4 + async<number>() => 2",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -28,7 +28,7 @@
                         "kind": 4261540,
                         "text": 4,
                         "rawText": "4",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -50,7 +50,7 @@
                                             "kind": 196711,
                                             "text": "number",
                                             "rawText": "number",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -61,7 +61,7 @@
                                         "constraint": null,
                                         "defaultType": null,
                                         "expression": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -70,7 +70,7 @@
                                         "end": 16
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -94,7 +94,7 @@
                             "kind": 4261540,
                             "text": 2,
                             "rawText": "2",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -102,7 +102,7 @@
                             "start": 22,
                             "end": 24
                         },
-                        "flags": 536870912,
+                        "flags": 536936448,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -110,7 +110,7 @@
                         "start": 3,
                         "end": 24
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -128,7 +128,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -153,13 +153,16 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+4 + async () => 2
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 14, end: 0
 
 ```
 

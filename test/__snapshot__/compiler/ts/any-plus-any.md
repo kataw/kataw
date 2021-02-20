@@ -16,11 +16,11 @@ var z = x + x;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var x: any;\nx.name = \"hello\";\nvar z = x + x;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -33,7 +33,7 @@ var z = x + x;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -58,11 +58,11 @@ var z = x + x;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 10
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -70,7 +70,7 @@ var z = x + x;
                     "start": 3,
                     "end": 10
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -88,7 +88,7 @@ var z = x + x;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -100,7 +100,7 @@ var z = x + x;
                             "kind": 196711,
                             "text": "name",
                             "rawText": "name",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -108,7 +108,7 @@ var z = x + x;
                             "start": 14,
                             "end": 18
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -121,7 +121,7 @@ var z = x + x;
                         "kind": 67279,
                         "text": "hello",
                         "rawText": "hello",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -129,7 +129,7 @@ var z = x + x;
                         "start": 20,
                         "end": 28
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -156,7 +156,7 @@ var z = x + x;
                                 "kind": 131102,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -172,7 +172,7 @@ var z = x + x;
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -185,7 +185,7 @@ var z = x + x;
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -193,7 +193,7 @@ var z = x + x;
                                     "start": 41,
                                     "end": 43
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -206,11 +206,11 @@ var z = x + x;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 43
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -218,7 +218,7 @@ var z = x + x;
                     "start": 33,
                     "end": 43
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -228,7 +228,7 @@ var z = x + x;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -253,13 +253,19 @@ var z = x + x;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var x: any;
+
+x.name = "hello"
+
+var z = x + x;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

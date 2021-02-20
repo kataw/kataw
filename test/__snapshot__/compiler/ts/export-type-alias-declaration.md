@@ -108,13 +108,15 @@ export type TestAlias = string | number;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export type TestAlias = string | number;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

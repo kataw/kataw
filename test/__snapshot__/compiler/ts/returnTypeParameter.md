@@ -3,8 +3,9 @@
 ## Input
 
 `````js
-function f<T>(a: T): T { } // error, no return statement
-function f2<T>(a: T): T { return T; } // bug was that this satisfied the return statement requirement
+function f<T>(a: T): T { }
+
+function f2<T>(a: T): T { return T; }
 
 `````
 
@@ -16,11 +17,11 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
 
 ```javascript
 {
-    "kind": 196,
-    "source": "function f<T>(a: T): T { } // error, no return statement\nfunction f2<T>(a: T): T { return T; } // bug was that this satisfied the return statement requirement\n",
+    "kind": 149,
+    "source": "function f<T>(a: T): T { }\n\nfunction f2<T>(a: T): T { return T; }\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +29,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +47,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -61,7 +62,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -70,7 +71,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                     "end": 18
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -82,7 +83,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -92,7 +93,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -106,7 +107,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         "kind": 196711,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -115,7 +116,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         "end": 22
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -129,7 +130,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -137,7 +138,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         "start": 24,
                         "end": 24
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -154,7 +155,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -165,7 +166,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -174,7 +175,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                             "end": 12
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -182,7 +183,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                     "start": 11,
                     "end": 12
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -196,13 +197,13 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                     "kind": 131102,
                     "text": "f2",
                     "rawText": "f2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
                     "emitNode": null,
-                    "start": 65,
-                    "end": 68
+                    "start": 36,
+                    "end": 39
                 },
                 "formalParameters": {
                     "kind": 90,
@@ -214,13 +215,13 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 72,
-                                "end": 73
+                                "start": 43,
+                                "end": 44
                             },
                             "isOptional": false,
                             "type": {
@@ -229,44 +230,44 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 74,
-                                    "end": 76
+                                    "start": 45,
+                                    "end": 47
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 74,
-                                "end": 77
+                                "start": 45,
+                                "end": 48
                             },
                             "initializer": null,
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
                             "emitNode": null,
-                            "start": 72,
-                            "end": 76
+                            "start": 43,
+                            "end": 47
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 72,
-                    "end": 77
+                    "start": 43,
+                    "end": 48
                 },
                 "type": {
                     "kind": 236,
@@ -274,22 +275,22 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                         "kind": 196711,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 78,
-                        "end": 80
+                        "start": 49,
+                        "end": 51
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
                     "emitNode": null,
-                    "start": 78,
-                    "end": 82
+                    "start": 49,
+                    "end": 53
                 },
                 "contents": {
                     "kind": 91,
@@ -302,39 +303,39 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                     "kind": 196712,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
                                     "emitNode": null,
-                                    "start": 89,
-                                    "end": 91
+                                    "start": 60,
+                                    "end": 62
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 82,
-                                "end": 92
+                                "start": 53,
+                                "end": 63
                             }
                         ],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
                         "emitNode": null,
-                        "start": 82,
-                        "end": 92
+                        "start": 53,
+                        "end": 63
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
                     "emitNode": null,
-                    "start": 80,
-                    "end": 94
+                    "start": 51,
+                    "end": 65
                 },
                 "typeParameters": {
                     "kind": 233,
@@ -345,50 +346,50 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 69,
-                                "end": 70
+                                "start": 40,
+                                "end": 41
                             },
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
                             "emitNode": null,
-                            "start": 69,
-                            "end": 70
+                            "start": 40,
+                            "end": 41
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
                     "emitNode": null,
-                    "start": 69,
-                    "end": 70
+                    "start": 40,
+                    "end": 41
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
                 "emitNode": null,
                 "start": 26,
-                "end": 94
+                "end": 65
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 94
+        "end": 65
     },
     "jsx": false,
     "printable": true,
@@ -400,7 +401,7 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 159
+    "end": 66
 }
 ```
 
@@ -408,13 +409,17 @@ function f2<T>(a: T): T { return T; } // bug was that this satisfied the return 
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function f<T>(a: T): T { }
+
+function f2<T>(a: T): T { return T; }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

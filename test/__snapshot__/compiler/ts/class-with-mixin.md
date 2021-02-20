@@ -22,11 +22,11 @@ type Constructor<T> = new (...args: any[]) => T;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function M<T extends Constructor<{}>>(Base: T) {\n    return class extends Base { }\n}\n\nclass X extends M<any>(C) implements I { }\n\nclass C { }\ninterface I { }\ntype Constructor<T> = new (...args: any[]) => T;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -34,7 +34,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "kind": 131102,
                     "text": "M",
                     "rawText": "M",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -52,7 +52,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                 "kind": 131102,
                                 "text": "Base",
                                 "rawText": "Base",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -67,7 +67,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -76,7 +76,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "end": 45
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -88,7 +88,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -98,7 +98,7 @@ type Constructor<T> = new (...args: any[]) => T;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -124,7 +124,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                             "kind": 196712,
                                             "text": "Base",
                                             "rawText": "Base",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -133,7 +133,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                             "end": 78
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -145,7 +145,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "members": {
                                         "kind": 50,
                                         "elements": [],
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -154,7 +154,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                         "end": 82
                                     },
                                     "decorators": null,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -162,7 +162,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "start": 59,
                                     "end": 82
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -172,7 +172,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -180,7 +180,7 @@ type Constructor<T> = new (...args: any[]) => T;
                         "start": 48,
                         "end": 82
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -197,7 +197,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -211,7 +211,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "kind": 196711,
                                     "text": "Constructor",
                                     "rawText": "Constructor",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -227,7 +227,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                             "objectTypeMembers": {
                                                 "kind": 169,
                                                 "members": [],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -235,7 +235,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                                 "start": 34,
                                                 "end": 35
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -244,7 +244,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                             "end": 35
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -252,7 +252,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "start": 33,
                                     "end": 35
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -262,7 +262,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             },
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -271,7 +271,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "end": 36
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -279,7 +279,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "start": 11,
                     "end": 36
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -293,7 +293,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "kind": 131102,
                     "text": "X",
                     "rawText": "X",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -310,7 +310,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "kind": 196712,
                             "text": "M",
                             "rawText": "M",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -332,7 +332,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "end": 107
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -347,7 +347,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "kind": 196712,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -358,14 +358,14 @@ type Constructor<T> = new (...args: any[]) => T;
                             ],
                             "trailingComma": false,
                             "transformFlags": 0,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "parent": null,
                             "emitNode": null,
                             "start": 109,
                             "end": 110
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -374,7 +374,7 @@ type Constructor<T> = new (...args: any[]) => T;
                         "end": 111
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -393,7 +393,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "kind": 196711,
                                     "text": "I",
                                     "rawText": "I",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -402,7 +402,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "end": 124
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -410,7 +410,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                 "start": 122,
                                 "end": 126
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -419,7 +419,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "end": 124
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -430,7 +430,7 @@ type Constructor<T> = new (...args: any[]) => T;
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -439,7 +439,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "end": 128
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -453,7 +453,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -467,7 +467,7 @@ type Constructor<T> = new (...args: any[]) => T;
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -476,7 +476,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "end": 141
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -490,7 +490,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -503,7 +503,7 @@ type Constructor<T> = new (...args: any[]) => T;
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -511,7 +511,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "start": 155,
                     "end": 155
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -525,7 +525,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "kind": 196712,
                     "text": "Constructor",
                     "rawText": "Constructor",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -548,7 +548,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                     "kind": 131102,
                                     "text": "args",
                                     "rawText": "args",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -569,7 +569,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                         "start": 193,
                                         "end": 197
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -580,7 +580,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 4097,
                                 "parent": null,
@@ -590,7 +590,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -604,7 +604,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "kind": 196711,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -613,7 +613,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "end": 205
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -621,7 +621,7 @@ type Constructor<T> = new (...args: any[]) => T;
                         "start": 203,
                         "end": 206
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -638,7 +638,7 @@ type Constructor<T> = new (...args: any[]) => T;
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -649,7 +649,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -658,7 +658,7 @@ type Constructor<T> = new (...args: any[]) => T;
                             "end": 176
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -666,7 +666,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "start": 175,
                     "end": 176
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -676,7 +676,7 @@ type Constructor<T> = new (...args: any[]) => T;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -701,13 +701,34 @@ type Constructor<T> = new (...args: any[]) => T;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function M<T extends Constructor<{
+
+        }>>(Base: T) {
+    return class extends Base {
+
+    };
+}
+
+class X extends M<any>(C) implements I {
+
+}
+
+class C {
+
+}
+
+interface I {
+}
+
+type Constructor<T> = new (...args: any[]) => T;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

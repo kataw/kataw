@@ -14,11 +14,11 @@ function f<T>(x?: T): T {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function f<T>(x?: T): T {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -26,7 +26,7 @@ function f<T>(x?: T): T {}
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -44,7 +44,7 @@ function f<T>(x?: T): T {}
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -59,7 +59,7 @@ function f<T>(x?: T): T {}
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -68,7 +68,7 @@ function f<T>(x?: T): T {}
                                     "end": 19
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -80,7 +80,7 @@ function f<T>(x?: T): T {}
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -90,7 +90,7 @@ function f<T>(x?: T): T {}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -104,7 +104,7 @@ function f<T>(x?: T): T {}
                         "kind": 196711,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -113,7 +113,7 @@ function f<T>(x?: T): T {}
                         "end": 23
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -127,7 +127,7 @@ function f<T>(x?: T): T {}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -135,7 +135,7 @@ function f<T>(x?: T): T {}
                         "start": 25,
                         "end": 25
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -152,7 +152,7 @@ function f<T>(x?: T): T {}
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -163,7 +163,7 @@ function f<T>(x?: T): T {}
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -172,7 +172,7 @@ function f<T>(x?: T): T {}
                             "end": 12
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -180,7 +180,7 @@ function f<T>(x?: T): T {}
                     "start": 11,
                     "end": 12
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -190,7 +190,7 @@ function f<T>(x?: T): T {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -215,13 +215,15 @@ function f<T>(x?: T): T {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function f<T>(x?: T): T { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

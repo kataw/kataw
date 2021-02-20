@@ -15,11 +15,11 @@ function A(): (public B) => C {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function A(): (public B) => C {\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -27,7 +27,7 @@ function A(): (public B) => C {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -39,7 +39,7 @@ function A(): (public B) => C {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -60,7 +60,7 @@ function A(): (public B) => C {
                                     "kind": 131102,
                                     "text": "B",
                                     "rawText": "B",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -82,7 +82,7 @@ function A(): (public B) => C {
                                     "end": 21
                                 },
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -92,7 +92,7 @@ function A(): (public B) => C {
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -106,7 +106,7 @@ function A(): (public B) => C {
                             "kind": 196711,
                             "text": "C",
                             "rawText": "C",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -115,7 +115,7 @@ function A(): (public B) => C {
                             "end": 29
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -123,7 +123,7 @@ function A(): (public B) => C {
                         "start": 27,
                         "end": 31
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -137,7 +137,7 @@ function A(): (public B) => C {
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -145,7 +145,7 @@ function A(): (public B) => C {
                         "start": 31,
                         "end": 31
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -154,7 +154,7 @@ function A(): (public B) => C {
                     "end": 33
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -164,7 +164,7 @@ function A(): (public B) => C {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -189,13 +189,16 @@ function A(): (public B) => C {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function A(): (public B) => C {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

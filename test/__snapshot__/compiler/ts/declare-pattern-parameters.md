@@ -14,11 +14,11 @@ declare function f([]?, {})
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare function f([]?, {})",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -26,7 +26,7 @@ declare function f([]?, {})
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ declare function f([]?, {})
                                     "kind": 29,
                                     "elements": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -54,7 +54,7 @@ declare function f([]?, {})
                                     "start": 20,
                                     "end": 20
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -68,7 +68,7 @@ declare function f([]?, {})
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -87,14 +87,14 @@ declare function f([]?, {})
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 25,
                                     "end": 25
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -108,7 +108,7 @@ declare function f([]?, {})
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -118,7 +118,7 @@ declare function f([]?, {})
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -129,7 +129,7 @@ declare function f([]?, {})
                 "type": null,
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -139,7 +139,7 @@ declare function f([]?, {})
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -164,13 +164,15 @@ declare function f([]?, {})
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare function f([]?, { });
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

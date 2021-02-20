@@ -17,11 +17,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "{\n    function foo();\n    function bar() { }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2099237,
@@ -34,7 +34,7 @@
                                 "kind": 131102,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -46,7 +46,7 @@
                                 "kind": 90,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -57,7 +57,7 @@
                             "type": null,
                             "contents": null,
                             "typeParameters": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -71,7 +71,7 @@
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -83,7 +83,7 @@
                                 "kind": 90,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -98,7 +98,7 @@
                                     "kind": 94,
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -106,7 +106,7 @@
                                     "start": 42,
                                     "end": 42
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -115,7 +115,7 @@
                                 "end": 44
                             },
                             "typeParameters": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 256,
                             "parent": null,
@@ -125,7 +125,7 @@
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -133,7 +133,7 @@
                     "start": 1,
                     "end": 44
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -143,7 +143,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -168,13 +168,18 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+{
+    function foo();
+    function bar() { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

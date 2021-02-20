@@ -184,13 +184,19 @@ async (a as T) => {};
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async(a as T)
+
+{}
+
+;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -27,11 +27,11 @@ var foo2: {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var foo: {\n    (name: string): string;\n    (name: 'order'): string;\n    (name: 'content'): string;\n    (name: 'done'): string;\n}\n\nvar foo2: {\n    (name: string): string;\n    (name: 'order'): string;\n    (name: 'order'): string;\n    (name: 'done'): string;\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -44,7 +44,7 @@ var foo2: {
                                 "kind": 131102,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -73,7 +73,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -95,7 +95,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -105,7 +105,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -123,7 +123,7 @@ var foo2: {
                                                 "start": 30,
                                                 "end": 37
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -146,7 +146,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -159,7 +159,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "order",
                                                             "rawValue": "order",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -170,7 +170,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -180,7 +180,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -198,7 +198,7 @@ var foo2: {
                                                 "start": 59,
                                                 "end": 66
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -221,7 +221,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -234,7 +234,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "content",
                                                             "rawValue": "content",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -245,7 +245,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -255,7 +255,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -273,7 +273,7 @@ var foo2: {
                                                 "start": 90,
                                                 "end": 97
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -296,7 +296,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -309,7 +309,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "done",
                                                             "rawValue": "done",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -320,7 +320,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -330,7 +330,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -348,7 +348,7 @@ var foo2: {
                                                 "start": 118,
                                                 "end": 125
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -357,7 +357,7 @@ var foo2: {
                                             "end": 126
                                         }
                                     ],
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -365,7 +365,7 @@ var foo2: {
                                     "start": 10,
                                     "end": 128
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -379,11 +379,11 @@ var foo2: {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 128
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -391,7 +391,7 @@ var foo2: {
                     "start": 3,
                     "end": 128
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -410,7 +410,7 @@ var foo2: {
                                 "kind": 131102,
                                 "text": "foo2",
                                 "rawText": "foo2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -439,7 +439,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -461,7 +461,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -471,7 +471,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -489,7 +489,7 @@ var foo2: {
                                                 "start": 161,
                                                 "end": 168
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -512,7 +512,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -525,7 +525,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "order",
                                                             "rawValue": "order",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -536,7 +536,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -546,7 +546,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -564,7 +564,7 @@ var foo2: {
                                                 "start": 190,
                                                 "end": 197
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -587,7 +587,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -600,7 +600,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "order",
                                                             "rawValue": "order",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -611,7 +611,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -621,7 +621,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -639,7 +639,7 @@ var foo2: {
                                                 "start": 219,
                                                 "end": 226
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -662,7 +662,7 @@ var foo2: {
                                                             "kind": 131102,
                                                             "text": "name",
                                                             "rawText": "name",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -675,7 +675,7 @@ var foo2: {
                                                             "kind": 208,
                                                             "value": "done",
                                                             "rawValue": "done",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -686,7 +686,7 @@ var foo2: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -696,7 +696,7 @@ var foo2: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -714,7 +714,7 @@ var foo2: {
                                                 "start": 247,
                                                 "end": 254
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -723,7 +723,7 @@ var foo2: {
                                             "end": 255
                                         }
                                     ],
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -731,7 +731,7 @@ var foo2: {
                                     "start": 141,
                                     "end": 257
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -745,11 +745,11 @@ var foo2: {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 257
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -757,7 +757,7 @@ var foo2: {
                     "start": 133,
                     "end": 257
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -767,7 +767,7 @@ var foo2: {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -792,13 +792,27 @@ var foo2: {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var foo: {
+    (name: string):string;
+    (name: "order"):string;
+    (name: "content"):string;
+    (name: "done"):string;
+};
+
+var foo2: {
+    (name: string):string;
+    (name: "order"):string;
+    (name: "order"):string;
+    (name: "done"):string;
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

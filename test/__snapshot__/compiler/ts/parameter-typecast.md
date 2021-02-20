@@ -14,11 +14,11 @@ func(a: T);
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "func(a: T);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -28,7 +28,7 @@ func(a: T);
                         "kind": 196712,
                         "text": "func",
                         "rawText": "func",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -47,7 +47,7 @@ func(a: T);
                                     "kind": 4325406,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -62,7 +62,7 @@ func(a: T);
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -71,7 +71,7 @@ func(a: T);
                                         "end": 9
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -83,7 +83,7 @@ func(a: T);
                                 "decorators": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -94,14 +94,14 @@ func(a: T);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 6,
                         "end": 10
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -119,7 +119,7 @@ func(a: T);
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -144,13 +144,15 @@ func(a: T);
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+func(a: T)
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

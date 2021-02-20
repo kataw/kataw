@@ -14,16 +14,16 @@ return
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "return",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097346,
                 "expression": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -33,7 +33,7 @@ return
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -58,13 +58,15 @@ return
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+return;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

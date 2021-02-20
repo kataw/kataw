@@ -16,11 +16,11 @@ function f() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function f() {\n    var x=arguments[12];\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +28,7 @@ function f() {
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -40,7 +40,7 @@ function f() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -65,7 +65,7 @@ function f() {
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -81,7 +81,7 @@ function f() {
                                                     "kind": 196712,
                                                     "text": "arguments",
                                                     "rawText": "arguments",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -93,7 +93,7 @@ function f() {
                                                     "kind": 4261540,
                                                     "text": 12,
                                                     "rawText": "12",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -101,7 +101,7 @@ function f() {
                                                     "start": 35,
                                                     "end": 37
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -114,11 +114,11 @@ function f() {
                                             "transformFlags": 0,
                                             "parent": null,
                                             "emitNode": null,
-                                            "start": 0,
+                                            "start": 65536,
                                             "end": 38
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -126,7 +126,7 @@ function f() {
                                     "start": 22,
                                     "end": 38
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -136,7 +136,7 @@ function f() {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -144,7 +144,7 @@ function f() {
                         "start": 14,
                         "end": 39
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -153,7 +153,7 @@ function f() {
                     "end": 41
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -163,7 +163,7 @@ function f() {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -188,13 +188,17 @@ function f() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function f() {
+    var x = arguments[12];
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

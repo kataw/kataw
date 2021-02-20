@@ -14,11 +14,11 @@ let x: number extends string ? boolean : null;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let x: number extends string ? boolean : null;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let x: number extends string ? boolean : null;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -83,7 +83,7 @@ let x: number extends string ? boolean : null;
                                     "start": 40,
                                     "end": 45
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -92,7 +92,7 @@ let x: number extends string ? boolean : null;
                                 "end": 45
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -101,7 +101,7 @@ let x: number extends string ? boolean : null;
                             "end": 45
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -109,7 +109,7 @@ let x: number extends string ? boolean : null;
                     "start": 3,
                     "end": 45
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -119,7 +119,7 @@ let x: number extends string ? boolean : null;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -144,13 +144,15 @@ let x: number extends string ? boolean : null;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let x: number extends string ? boolean : null;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -17,11 +17,11 @@ const enum Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const enum Foo {\n    foo = 1,\n    bar\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -29,7 +29,7 @@ const enum Foo {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -46,7 +46,7 @@ const enum Foo {
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -58,7 +58,7 @@ const enum Foo {
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -66,7 +66,7 @@ const enum Foo {
                                 "start": 26,
                                 "end": 28
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -80,7 +80,7 @@ const enum Foo {
                                 "kind": 196711,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -89,7 +89,7 @@ const enum Foo {
                                 "end": 37
                             },
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -98,7 +98,7 @@ const enum Foo {
                             "end": 37
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -107,7 +107,7 @@ const enum Foo {
                     "end": 37
                 },
                 "isConst": true,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -117,7 +117,7 @@ const enum Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -142,13 +142,18 @@ const enum Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const enum Foo {
+    foo = 1,
+    bar
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

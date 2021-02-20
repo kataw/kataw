@@ -76,11 +76,11 @@ class e {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class a {\n    //constructor ();\n    constructor (n: number);\n    constructor (s: string);\n    constructor (ns: any) {\n\n    }\n\n    public pgF() { }\n\n    public pv;\n    public get d() {\n        return 30;\n    }\n    public set d(a: number) {\n    }\n\n    public static get p2() {\n        return { x: 30, y: 40 };\n    }\n\n    private static d2() {\n    }\n    private static get p3() {\n        return \"string\";\n    }\n    private pv3;\n\n    private foo(n: number): string;\n    private foo(s: string): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}\n\ndeclare class aAmbient {\n    constructor (n: number);\n    constructor (s: string);\n    public pgF(): void;\n    public pv;\n    public d : number;\n    static p2 : { x: number; y: number; };\n    static d2();\n    static p3;\n    private pv3;\n    private foo(s);\n}\n\nclass d {\n    private foo(n: number): string;\n    private foo(s: string): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}\n\nclass e {\n    private foo(s: string): string;\n    private foo(n: number): string;\n    private foo(ns: any) {\n        return ns.toString();\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -88,7 +88,7 @@ class e {
                     "kind": 131102,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -114,7 +114,7 @@ class e {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -132,7 +132,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -155,7 +155,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -165,7 +165,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -180,7 +180,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -188,7 +188,7 @@ class e {
                                 "start": 47,
                                 "end": 60
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -208,7 +208,7 @@ class e {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -226,7 +226,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -249,7 +249,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -259,7 +259,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -274,7 +274,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -282,7 +282,7 @@ class e {
                                 "start": 76,
                                 "end": 89
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -302,7 +302,7 @@ class e {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -320,7 +320,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "ns",
                                                 "rawText": "ns",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -343,7 +343,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -353,7 +353,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -369,7 +369,7 @@ class e {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -377,7 +377,7 @@ class e {
                                         "start": 117,
                                         "end": 117
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -389,7 +389,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -397,7 +397,7 @@ class e {
                                 "start": 105,
                                 "end": 124
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -417,7 +417,7 @@ class e {
                                     "kind": 196711,
                                     "text": "pgF",
                                     "rawText": "pgF",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -429,7 +429,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -445,7 +445,7 @@ class e {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -453,7 +453,7 @@ class e {
                                         "start": 144,
                                         "end": 144
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -474,7 +474,7 @@ class e {
                                     "end": 136
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -482,7 +482,7 @@ class e {
                                 "start": 140,
                                 "end": 146
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -496,7 +496,7 @@ class e {
                                 "kind": 196711,
                                 "text": "pv",
                                 "rawText": "pv",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -521,7 +521,7 @@ class e {
                                 "end": 158
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -541,7 +541,7 @@ class e {
                                     "kind": 196711,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -553,7 +553,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -574,7 +574,7 @@ class e {
                                                     "kind": 4261540,
                                                     "text": 30,
                                                     "rawText": "30",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -582,7 +582,7 @@ class e {
                                                     "start": 198,
                                                     "end": 201
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -592,7 +592,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -600,7 +600,7 @@ class e {
                                         "start": 183,
                                         "end": 202
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -621,7 +621,7 @@ class e {
                                     "end": 173
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -629,7 +629,7 @@ class e {
                                 "start": 179,
                                 "end": 208
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -649,7 +649,7 @@ class e {
                                     "kind": 196711,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -667,7 +667,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -690,7 +690,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -700,7 +700,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -716,7 +716,7 @@ class e {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -724,7 +724,7 @@ class e {
                                         "start": 238,
                                         "end": 238
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -745,7 +745,7 @@ class e {
                                     "end": 219
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -753,7 +753,7 @@ class e {
                                 "start": 225,
                                 "end": 244
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -773,7 +773,7 @@ class e {
                                     "kind": 196711,
                                     "text": "p2",
                                     "rawText": "p2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -785,7 +785,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -813,7 +813,7 @@ class e {
                                                                     "kind": 196711,
                                                                     "text": "x",
                                                                     "rawText": "x",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -825,7 +825,7 @@ class e {
                                                                     "kind": 4261540,
                                                                     "text": 30,
                                                                     "rawText": "30",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -835,7 +835,7 @@ class e {
                                                                 },
                                                                 "accessModifier": null,
                                                                 "decorators": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -849,7 +849,7 @@ class e {
                                                                     "kind": 196711,
                                                                     "text": "y",
                                                                     "rawText": "y",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -861,7 +861,7 @@ class e {
                                                                     "kind": 4261540,
                                                                     "text": 40,
                                                                     "rawText": "40",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -871,7 +871,7 @@ class e {
                                                                 },
                                                                 "accessModifier": null,
                                                                 "decorators": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -882,7 +882,7 @@ class e {
                                                         ],
                                                         "trailingComma": false,
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -890,7 +890,7 @@ class e {
                                                         "start": 291,
                                                         "end": 304
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -898,7 +898,7 @@ class e {
                                                     "start": 289,
                                                     "end": 306
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -908,7 +908,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -916,7 +916,7 @@ class e {
                                         "start": 274,
                                         "end": 307
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -937,7 +937,7 @@ class e {
                                     "end": 256
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -945,7 +945,7 @@ class e {
                                 "start": 270,
                                 "end": 313
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -965,7 +965,7 @@ class e {
                                     "kind": 196711,
                                     "text": "d2",
                                     "rawText": "d2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -977,7 +977,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -993,7 +993,7 @@ class e {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1001,7 +1001,7 @@ class e {
                                         "start": 340,
                                         "end": 340
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1022,7 +1022,7 @@ class e {
                                     "end": 326
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1030,7 +1030,7 @@ class e {
                                 "start": 336,
                                 "end": 346
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1050,7 +1050,7 @@ class e {
                                     "kind": 196711,
                                     "text": "p3",
                                     "rawText": "p3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1062,7 +1062,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1083,7 +1083,7 @@ class e {
                                                     "kind": 67279,
                                                     "text": "string",
                                                     "rawText": "string",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1091,7 +1091,7 @@ class e {
                                                     "start": 391,
                                                     "end": 400
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1101,7 +1101,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1109,7 +1109,7 @@ class e {
                                         "start": 376,
                                         "end": 401
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1130,7 +1130,7 @@ class e {
                                     "end": 358
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1138,7 +1138,7 @@ class e {
                                 "start": 372,
                                 "end": 407
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1152,7 +1152,7 @@ class e {
                                 "kind": 196711,
                                 "text": "pv3",
                                 "rawText": "pv3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1177,7 +1177,7 @@ class e {
                                 "end": 419
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -1197,7 +1197,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1215,7 +1215,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1238,7 +1238,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1248,7 +1248,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1281,7 +1281,7 @@ class e {
                                     "end": 437
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1289,7 +1289,7 @@ class e {
                                 "start": 441,
                                 "end": 461
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1309,7 +1309,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1327,7 +1327,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1350,7 +1350,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1360,7 +1360,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1393,7 +1393,7 @@ class e {
                                     "end": 473
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1401,7 +1401,7 @@ class e {
                                 "start": 477,
                                 "end": 497
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1421,7 +1421,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1439,7 +1439,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "ns",
                                                 "rawText": "ns",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1462,7 +1462,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1472,7 +1472,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1497,7 +1497,7 @@ class e {
                                                             "kind": 196712,
                                                             "text": "ns",
                                                             "rawText": "ns",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1509,7 +1509,7 @@ class e {
                                                             "kind": 196711,
                                                             "text": "toString",
                                                             "rawText": "toString",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1517,7 +1517,7 @@ class e {
                                                             "start": 543,
                                                             "end": 551
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1531,14 +1531,14 @@ class e {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 553,
                                                         "end": 553
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1546,7 +1546,7 @@ class e {
                                                     "start": 551,
                                                     "end": 553
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1556,7 +1556,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1564,7 +1564,7 @@ class e {
                                         "start": 524,
                                         "end": 554
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1585,7 +1585,7 @@ class e {
                                     "end": 509
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1593,7 +1593,7 @@ class e {
                                 "start": 513,
                                 "end": 560
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1602,7 +1602,7 @@ class e {
                             "end": 560
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -1611,7 +1611,7 @@ class e {
                     "end": 562
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -1625,7 +1625,7 @@ class e {
                     "kind": 131102,
                     "text": "aAmbient",
                     "rawText": "aAmbient",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1651,7 +1651,7 @@ class e {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1669,7 +1669,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1692,7 +1692,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1702,7 +1702,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1717,7 +1717,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1725,7 +1725,7 @@ class e {
                                 "start": 604,
                                 "end": 617
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1745,7 +1745,7 @@ class e {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1763,7 +1763,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1786,7 +1786,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1796,7 +1796,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1811,7 +1811,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1819,7 +1819,7 @@ class e {
                                 "start": 633,
                                 "end": 646
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1839,7 +1839,7 @@ class e {
                                     "kind": 196711,
                                     "text": "pgF",
                                     "rawText": "pgF",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1851,7 +1851,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1884,7 +1884,7 @@ class e {
                                     "end": 657
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1892,7 +1892,7 @@ class e {
                                 "start": 661,
                                 "end": 670
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1906,7 +1906,7 @@ class e {
                                 "kind": 196711,
                                 "text": "pv",
                                 "rawText": "pv",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1931,7 +1931,7 @@ class e {
                                 "end": 681
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -1945,7 +1945,7 @@ class e {
                                 "kind": 196711,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1979,7 +1979,7 @@ class e {
                                 "end": 696
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -1993,7 +1993,7 @@ class e {
                                 "kind": 196711,
                                 "text": "p2",
                                 "rawText": "p2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2015,7 +2015,7 @@ class e {
                                                 "kind": 196711,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2038,7 +2038,7 @@ class e {
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -2052,7 +2052,7 @@ class e {
                                                 "kind": 196711,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2075,7 +2075,7 @@ class e {
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -2084,7 +2084,7 @@ class e {
                                             "end": 748
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2092,7 +2092,7 @@ class e {
                                     "start": 726,
                                     "end": 750
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2104,7 +2104,7 @@ class e {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2124,7 +2124,7 @@ class e {
                                     "kind": 196711,
                                     "text": "d2",
                                     "rawText": "d2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2136,7 +2136,7 @@ class e {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2151,7 +2151,7 @@ class e {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2159,7 +2159,7 @@ class e {
                                 "start": 765,
                                 "end": 768
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2173,7 +2173,7 @@ class e {
                                 "kind": 196711,
                                 "text": "p3",
                                 "rawText": "p3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2189,7 +2189,7 @@ class e {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2203,7 +2203,7 @@ class e {
                                 "kind": 196711,
                                 "text": "pv3",
                                 "rawText": "pv3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2228,7 +2228,7 @@ class e {
                                 "end": 795
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -2248,7 +2248,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2266,7 +2266,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2280,7 +2280,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2290,7 +2290,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2314,7 +2314,7 @@ class e {
                                     "end": 812
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2322,7 +2322,7 @@ class e {
                                 "start": 816,
                                 "end": 820
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2331,7 +2331,7 @@ class e {
                             "end": 820
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -2340,7 +2340,7 @@ class e {
                     "end": 822
                 },
                 "decorators": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -2354,7 +2354,7 @@ class e {
                     "kind": 131102,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2380,7 +2380,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2398,7 +2398,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2421,7 +2421,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2431,7 +2431,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2464,7 +2464,7 @@ class e {
                                     "end": 845
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2472,7 +2472,7 @@ class e {
                                 "start": 849,
                                 "end": 869
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2492,7 +2492,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2510,7 +2510,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2533,7 +2533,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2543,7 +2543,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2576,7 +2576,7 @@ class e {
                                     "end": 881
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2584,7 +2584,7 @@ class e {
                                 "start": 885,
                                 "end": 905
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2604,7 +2604,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2622,7 +2622,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "ns",
                                                 "rawText": "ns",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2645,7 +2645,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2655,7 +2655,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2680,7 +2680,7 @@ class e {
                                                             "kind": 196712,
                                                             "text": "ns",
                                                             "rawText": "ns",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2692,7 +2692,7 @@ class e {
                                                             "kind": 196711,
                                                             "text": "toString",
                                                             "rawText": "toString",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2700,7 +2700,7 @@ class e {
                                                             "start": 951,
                                                             "end": 959
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2714,14 +2714,14 @@ class e {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 961,
                                                         "end": 961
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2729,7 +2729,7 @@ class e {
                                                     "start": 959,
                                                     "end": 961
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2739,7 +2739,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2747,7 +2747,7 @@ class e {
                                         "start": 932,
                                         "end": 962
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2768,7 +2768,7 @@ class e {
                                     "end": 917
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2776,7 +2776,7 @@ class e {
                                 "start": 921,
                                 "end": 968
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2785,7 +2785,7 @@ class e {
                             "end": 968
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -2794,7 +2794,7 @@ class e {
                     "end": 970
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -2808,7 +2808,7 @@ class e {
                     "kind": 131102,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2834,7 +2834,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2852,7 +2852,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2875,7 +2875,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2885,7 +2885,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2918,7 +2918,7 @@ class e {
                                     "end": 993
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2926,7 +2926,7 @@ class e {
                                 "start": 997,
                                 "end": 1017
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2946,7 +2946,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2964,7 +2964,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2987,7 +2987,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -2997,7 +2997,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3030,7 +3030,7 @@ class e {
                                     "end": 1029
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3038,7 +3038,7 @@ class e {
                                 "start": 1033,
                                 "end": 1053
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -3058,7 +3058,7 @@ class e {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3076,7 +3076,7 @@ class e {
                                                 "kind": 131102,
                                                 "text": "ns",
                                                 "rawText": "ns",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -3099,7 +3099,7 @@ class e {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -3109,7 +3109,7 @@ class e {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3134,7 +3134,7 @@ class e {
                                                             "kind": 196712,
                                                             "text": "ns",
                                                             "rawText": "ns",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3146,7 +3146,7 @@ class e {
                                                             "kind": 196711,
                                                             "text": "toString",
                                                             "rawText": "toString",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3154,7 +3154,7 @@ class e {
                                                             "start": 1099,
                                                             "end": 1107
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3168,14 +3168,14 @@ class e {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 1109,
                                                         "end": 1109
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3183,7 +3183,7 @@ class e {
                                                     "start": 1107,
                                                     "end": 1109
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3193,7 +3193,7 @@ class e {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3201,7 +3201,7 @@ class e {
                                         "start": 1080,
                                         "end": 1110
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3222,7 +3222,7 @@ class e {
                                     "end": 1065
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3230,7 +3230,7 @@ class e {
                                 "start": 1069,
                                 "end": 1116
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -3239,7 +3239,7 @@ class e {
                             "end": 1116
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -3248,7 +3248,7 @@ class e {
                     "end": 1118
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -3258,7 +3258,7 @@ class e {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -3283,13 +3283,73 @@ class e {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class a {
+    constructor(n: number);
+    constructor(s: string);
+    constructor(ns: any) {
+    }
+    public pgF() { }
+    public pv;
+    public get d() {
+        return 30;
+    }
+    public set d(a: number) {
+    }
+    public static get p2() {
+        return { x : 30, y : 40 };
+    }
+    private static d2() {
+    }
+    private static get p3() {
+        return "string";
+    }
+    private pv3;
+    private foo(n: number): string;
+    private foo(s: string): string;
+    private foo(ns: any) {
+        return ns.toString();
+    }
+}
+
+declare class aAmbient {
+    constructor(n: number);
+    constructor(s: string);
+    public pgF(): void;
+    public pv;
+    public d: number;
+    static p2: {
+        x: number;
+        y: number;
+    };
+    static d2();
+    static p3;
+    private pv3;
+    private foo(s);
+}
+
+class d {
+    private foo(n: number): string;
+    private foo(s: string): string;
+    private foo(ns: any) {
+        return ns.toString();
+    }
+}
+
+class e {
+    private foo(s: string): string;
+    private foo(n: number): string;
+    private foo(ns: any) {
+        return ns.toString();
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ var asserted1 = <any>((n) => { return n; });
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var asserted1 = <any>((n) => { return n; });",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,7 +31,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "kind": 131102,
                                 "text": "asserted1",
                                 "rawText": "asserted1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -50,7 +50,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "typeParameters": {
                                             "kind": 233,
                                             "typeParameterList": [],
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -66,7 +66,7 @@ var asserted1 = <any>((n) => { return n; });
                                                     "kind": 4325406,
                                                     "text": "n",
                                                     "rawText": "n",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -111,7 +111,7 @@ var asserted1 = <any>((n) => { return n; });
                                                         "kind": 196712,
                                                         "text": "n",
                                                         "rawText": "n",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -119,7 +119,7 @@ var asserted1 = <any>((n) => { return n; });
                                                         "start": 37,
                                                         "end": 39
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -129,7 +129,7 @@ var asserted1 = <any>((n) => { return n; });
                                                 }
                                             ],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -137,7 +137,7 @@ var asserted1 = <any>((n) => { return n; });
                                             "start": 30,
                                             "end": 40
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -145,7 +145,7 @@ var asserted1 = <any>((n) => { return n; });
                                         "start": 28,
                                         "end": 42
                                     },
-                                    "flags": 536870912,
+                                    "flags": 536936448,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -153,7 +153,7 @@ var asserted1 = <any>((n) => { return n; });
                                     "start": 22,
                                     "end": 42
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -166,11 +166,11 @@ var asserted1 = <any>((n) => { return n; });
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 43
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -178,7 +178,7 @@ var asserted1 = <any>((n) => { return n; });
                     "start": 3,
                     "end": 43
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -188,7 +188,7 @@ var asserted1 = <any>((n) => { return n; });
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -213,13 +213,15 @@ var asserted1 = <any>((n) => { return n; });
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var asserted1 = ((n) =>  { return n; });
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

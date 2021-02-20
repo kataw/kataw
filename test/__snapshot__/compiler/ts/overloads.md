@@ -252,13 +252,17 @@ export function f(x: string): string;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export function f(x: number): number;;
+
+export function f(x: string): string;;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ abstract class Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "abstract class Foo {\n  public abstract readonly foo = 'string';\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ abstract class Foo {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -48,7 +48,7 @@ abstract class Foo {
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -64,7 +64,7 @@ abstract class Foo {
                                 "kind": 67279,
                                 "text": "string",
                                 "rawText": "string",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -84,7 +84,7 @@ abstract class Foo {
                                 "end": 29
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -93,7 +93,7 @@ abstract class Foo {
                             "end": 63
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -102,7 +102,7 @@ abstract class Foo {
                     "end": 65
                 },
                 "decorators": null,
-                "flags": 268435456,
+                "flags": 268500992,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "parent": null,
@@ -112,7 +112,7 @@ abstract class Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -137,13 +137,17 @@ abstract class Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+abstract class Foo {
+    public abstract readonly foo = "string";
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

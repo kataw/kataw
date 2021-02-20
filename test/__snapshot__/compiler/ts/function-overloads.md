@@ -16,11 +16,11 @@ export function f(x: string): string;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\nexport function f(x: number): number;\nexport function f(x: string): string;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 76,
@@ -30,7 +30,7 @@ export function f(x: string): string;
                         "kind": 131102,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
                         "parent": null,
@@ -48,7 +48,7 @@ export function f(x: string): string;
                                     "kind": 131102,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -71,7 +71,7 @@ export function f(x: string): string;
                                 "decorators": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -81,7 +81,7 @@ export function f(x: string): string;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -101,7 +101,7 @@ export function f(x: string): string;
                     },
                     "contents": null,
                     "typeParameters": null,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -113,7 +113,7 @@ export function f(x: string): string;
                 "exportFromClause": null,
                 "fromClause": null,
                 "isTypeOnly": false,
-                "flags": 16386,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -129,7 +129,7 @@ export function f(x: string): string;
                         "kind": 131102,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
                         "parent": null,
@@ -147,7 +147,7 @@ export function f(x: string): string;
                                     "kind": 131102,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -170,7 +170,7 @@ export function f(x: string): string;
                                 "decorators": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -180,7 +180,7 @@ export function f(x: string): string;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -200,7 +200,7 @@ export function f(x: string): string;
                     },
                     "contents": null,
                     "typeParameters": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -212,7 +212,7 @@ export function f(x: string): string;
                 "exportFromClause": null,
                 "fromClause": null,
                 "isTypeOnly": false,
-                "flags": 16386,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -222,7 +222,7 @@ export function f(x: string): string;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -247,13 +247,17 @@ export function f(x: string): string;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export function f(x: number): number;;
+
+export function f(x: string): string;;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

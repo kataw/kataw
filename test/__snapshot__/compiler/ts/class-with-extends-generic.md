@@ -16,11 +16,11 @@ class Foo<A> extends Bar<B> {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo<A> extends Bar<B> {\n\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ class Foo<A> extends Bar<B> {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -45,7 +45,7 @@ class Foo<A> extends Bar<B> {
                                 "kind": 196711,
                                 "text": "A",
                                 "rawText": "A",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -56,7 +56,7 @@ class Foo<A> extends Bar<B> {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -65,7 +65,7 @@ class Foo<A> extends Bar<B> {
                             "end": 11
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -79,7 +79,7 @@ class Foo<A> extends Bar<B> {
                         "kind": 196712,
                         "text": "Bar",
                         "rawText": "Bar",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -96,7 +96,7 @@ class Foo<A> extends Bar<B> {
                                     "kind": 196711,
                                     "text": "B",
                                     "rawText": "B",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -105,7 +105,7 @@ class Foo<A> extends Bar<B> {
                                     "end": 26
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -114,7 +114,7 @@ class Foo<A> extends Bar<B> {
                                 "end": 27
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -122,7 +122,7 @@ class Foo<A> extends Bar<B> {
                         "start": 25,
                         "end": 26
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -134,7 +134,7 @@ class Foo<A> extends Bar<B> {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -143,7 +143,7 @@ class Foo<A> extends Bar<B> {
                     "end": 32
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -153,7 +153,7 @@ class Foo<A> extends Bar<B> {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -178,13 +178,17 @@ class Foo<A> extends Bar<B> {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo<A> extends Bar<B> {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

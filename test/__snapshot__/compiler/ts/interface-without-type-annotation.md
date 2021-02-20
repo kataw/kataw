@@ -16,11 +16,11 @@ interface test {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface test {\n    foo;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -28,7 +28,7 @@ interface test {
                     "kind": 196712,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ interface test {
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -61,7 +61,7 @@ interface test {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -70,7 +70,7 @@ interface test {
                             "end": 25
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -78,7 +78,7 @@ interface test {
                     "start": 16,
                     "end": 25
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -88,7 +88,7 @@ interface test {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -113,13 +113,17 @@ interface test {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface test {
+    foo;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

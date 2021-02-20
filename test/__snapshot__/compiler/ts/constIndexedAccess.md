@@ -43,11 +43,11 @@ let n3 = test[numbersNotConst.one];
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\nconst enum numbers {\n    zero,\n    one\n}\n\ninterface indexAccess {\n    0: string;\n    1: number;\n}\n\nlet test: indexAccess;\n\nlet s = test[0];\nlet n = test[1];\n\nlet s1 = test[numbers.zero];\nlet n1 = test[numbers.one];\n\nlet s2 = test[numbers[\"zero\"]];\nlet n2 = test[numbers[\"one\"]];\n\nenum numbersNotConst {\n    zero,\n    one\n}\n\nlet s3 = test[numbersNotConst.zero];\nlet n3 = test[numbersNotConst.one];\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -55,7 +55,7 @@ let n3 = test[numbersNotConst.one];
                     "kind": 196712,
                     "text": "numbers",
                     "rawText": "numbers",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -72,7 +72,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 196711,
                                 "text": "zero",
                                 "rawText": "zero",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -81,7 +81,7 @@ let n3 = test[numbersNotConst.one];
                                 "end": 30
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -95,7 +95,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 196711,
                                 "text": "one",
                                 "rawText": "one",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -104,7 +104,7 @@ let n3 = test[numbersNotConst.one];
                                 "end": 39
                             },
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -113,7 +113,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 39
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -122,7 +122,7 @@ let n3 = test[numbersNotConst.one];
                     "end": 39
                 },
                 "isConst": true,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -136,7 +136,7 @@ let n3 = test[numbersNotConst.one];
                     "kind": 196712,
                     "text": "indexAccess",
                     "rawText": "indexAccess",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -155,7 +155,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -178,7 +178,7 @@ let n3 = test[numbersNotConst.one];
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -192,7 +192,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -215,7 +215,7 @@ let n3 = test[numbersNotConst.one];
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -224,7 +224,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 96
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -232,7 +232,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 66,
                     "end": 96
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -252,7 +252,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "test",
                                 "rawText": "test",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -267,7 +267,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196711,
                                     "text": "indexAccess",
                                     "rawText": "indexAccess",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -276,7 +276,7 @@ let n3 = test[numbersNotConst.one];
                                     "end": 121
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -285,7 +285,7 @@ let n3 = test[numbersNotConst.one];
                                 "end": 122
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -294,7 +294,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 121
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -302,7 +302,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 103,
                     "end": 121
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -322,7 +322,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -338,7 +338,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -350,7 +350,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 4261540,
                                     "text": 0,
                                     "rawText": "0",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -358,7 +358,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 137,
                                     "end": 138
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -366,7 +366,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 136,
                                 "end": 139
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -375,7 +375,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 139
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -383,7 +383,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 127,
                     "end": 139
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -403,7 +403,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "n",
                                 "rawText": "n",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -419,7 +419,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -431,7 +431,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -439,7 +439,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 154,
                                     "end": 155
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -447,7 +447,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 153,
                                 "end": 156
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -456,7 +456,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 156
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -464,7 +464,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 144,
                     "end": 156
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -484,7 +484,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "s1",
                                 "rawText": "s1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -500,7 +500,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -514,7 +514,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbers",
                                         "rawText": "numbers",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -526,7 +526,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196711,
                                         "text": "zero",
                                         "rawText": "zero",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -534,7 +534,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 181,
                                         "end": 185
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -542,7 +542,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 180,
                                     "end": 185
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -550,7 +550,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 172,
                                 "end": 186
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -559,7 +559,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 186
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -567,7 +567,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 162,
                     "end": 186
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -587,7 +587,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "n1",
                                 "rawText": "n1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -603,7 +603,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -617,7 +617,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbers",
                                         "rawText": "numbers",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -629,7 +629,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196711,
                                         "text": "one",
                                         "rawText": "one",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -637,7 +637,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 210,
                                         "end": 213
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -645,7 +645,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 209,
                                     "end": 213
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -653,7 +653,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 201,
                                 "end": 214
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -662,7 +662,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 214
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -670,7 +670,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 191,
                     "end": 214
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -690,7 +690,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "s2",
                                 "rawText": "s2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -706,7 +706,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -720,7 +720,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbers",
                                         "rawText": "numbers",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -732,7 +732,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 67279,
                                         "text": "zero",
                                         "rawText": "zero",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -740,7 +740,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 239,
                                         "end": 245
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -748,7 +748,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 238,
                                     "end": 246
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -756,7 +756,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 230,
                                 "end": 247
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -765,7 +765,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 247
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -773,7 +773,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 220,
                     "end": 247
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -793,7 +793,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "n2",
                                 "rawText": "n2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -809,7 +809,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -823,7 +823,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbers",
                                         "rawText": "numbers",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -835,7 +835,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 67279,
                                         "text": "one",
                                         "rawText": "one",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -843,7 +843,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 271,
                                         "end": 276
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -851,7 +851,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 270,
                                     "end": 277
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -859,7 +859,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 262,
                                 "end": 278
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -868,7 +868,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 278
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -876,7 +876,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 252,
                     "end": 278
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -890,7 +890,7 @@ let n3 = test[numbersNotConst.one];
                     "kind": 196712,
                     "text": "numbersNotConst",
                     "rawText": "numbersNotConst",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -907,7 +907,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 196711,
                                 "text": "zero",
                                 "rawText": "zero",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -916,7 +916,7 @@ let n3 = test[numbersNotConst.one];
                                 "end": 312
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -930,7 +930,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 196711,
                                 "text": "one",
                                 "rawText": "one",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -939,7 +939,7 @@ let n3 = test[numbersNotConst.one];
                                 "end": 321
                             },
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -948,7 +948,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 321
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -957,7 +957,7 @@ let n3 = test[numbersNotConst.one];
                     "end": 321
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -977,7 +977,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "s3",
                                 "rawText": "s3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -993,7 +993,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1007,7 +1007,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbersNotConst",
                                         "rawText": "numbersNotConst",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1019,7 +1019,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196711,
                                         "text": "zero",
                                         "rawText": "zero",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1027,7 +1027,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 355,
                                         "end": 359
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1035,7 +1035,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 354,
                                     "end": 359
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1043,7 +1043,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 338,
                                 "end": 360
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1052,7 +1052,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 360
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1060,7 +1060,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 328,
                     "end": 360
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1080,7 +1080,7 @@ let n3 = test[numbersNotConst.one];
                                 "kind": 131102,
                                 "text": "n3",
                                 "rawText": "n3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1096,7 +1096,7 @@ let n3 = test[numbersNotConst.one];
                                     "kind": 196712,
                                     "text": "test",
                                     "rawText": "test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1110,7 +1110,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196712,
                                         "text": "numbersNotConst",
                                         "rawText": "numbersNotConst",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1122,7 +1122,7 @@ let n3 = test[numbersNotConst.one];
                                         "kind": 196711,
                                         "text": "one",
                                         "rawText": "one",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1130,7 +1130,7 @@ let n3 = test[numbersNotConst.one];
                                         "start": 392,
                                         "end": 395
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1138,7 +1138,7 @@ let n3 = test[numbersNotConst.one];
                                     "start": 391,
                                     "end": 395
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1146,7 +1146,7 @@ let n3 = test[numbersNotConst.one];
                                 "start": 375,
                                 "end": 396
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1155,7 +1155,7 @@ let n3 = test[numbersNotConst.one];
                             "end": 396
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1163,7 +1163,7 @@ let n3 = test[numbersNotConst.one];
                     "start": 365,
                     "end": 396
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1173,7 +1173,7 @@ let n3 = test[numbersNotConst.one];
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1198,13 +1198,46 @@ let n3 = test[numbersNotConst.one];
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const enum numbers {
+    zero,
+    one
+}
+
+interface indexAccess {
+    0: string;
+    1: number;
+}
+
+let test: indexAccess;
+
+let s = test[0];
+
+let n = test[1];
+
+let s1 = test[numbers.zero];
+
+let n1 = test[numbers.one];
+
+let s2 = test[numbers["zero"]];
+
+let n2 = test[numbers["one"]];
+
+enum numbersNotConst {
+    zero,
+    one
+}
+
+let s3 = test[numbersNotConst.zero];
+
+let n3 = test[numbersNotConst.one];
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

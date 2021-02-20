@@ -109,13 +109,17 @@ a
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+a
+
+! b
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

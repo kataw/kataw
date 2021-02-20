@@ -20,11 +20,11 @@ function bar<T>(x: Foo<T> | string): T {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Foo<T> {\n    x: T;\n}\n\nfunction bar<T>(x: Foo<T> | string): T {\n    return bar(x);\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -32,7 +32,7 @@ function bar<T>(x: Foo<T> | string): T {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -49,7 +49,7 @@ function bar<T>(x: Foo<T> | string): T {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -60,7 +60,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -69,7 +69,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "end": 15
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -87,7 +87,7 @@ function bar<T>(x: Foo<T> | string): T {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -103,7 +103,7 @@ function bar<T>(x: Foo<T> | string): T {
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -112,7 +112,7 @@ function bar<T>(x: Foo<T> | string): T {
                                     "end": 27
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -123,7 +123,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -132,7 +132,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "end": 28
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -140,7 +140,7 @@ function bar<T>(x: Foo<T> | string): T {
                     "start": 18,
                     "end": 28
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -154,7 +154,7 @@ function bar<T>(x: Foo<T> | string): T {
                     "kind": 131102,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -172,7 +172,7 @@ function bar<T>(x: Foo<T> | string): T {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -190,7 +190,7 @@ function bar<T>(x: Foo<T> | string): T {
                                             "kind": 196711,
                                             "text": "Foo",
                                             "rawText": "Foo",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -207,7 +207,7 @@ function bar<T>(x: Foo<T> | string): T {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -216,7 +216,7 @@ function bar<T>(x: Foo<T> | string): T {
                                                         "end": 56
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -225,7 +225,7 @@ function bar<T>(x: Foo<T> | string): T {
                                                     "end": 57
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -233,7 +233,7 @@ function bar<T>(x: Foo<T> | string): T {
                                             "start": 55,
                                             "end": 56
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -252,7 +252,7 @@ function bar<T>(x: Foo<T> | string): T {
                                         "end": 66
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -264,7 +264,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -274,7 +274,7 @@ function bar<T>(x: Foo<T> | string): T {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -288,7 +288,7 @@ function bar<T>(x: Foo<T> | string): T {
                         "kind": 196711,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -297,7 +297,7 @@ function bar<T>(x: Foo<T> | string): T {
                         "end": 70
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -318,7 +318,7 @@ function bar<T>(x: Foo<T> | string): T {
                                         "kind": 196712,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -334,7 +334,7 @@ function bar<T>(x: Foo<T> | string): T {
                                                 "kind": 196712,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -345,14 +345,14 @@ function bar<T>(x: Foo<T> | string): T {
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 89,
                                         "end": 90
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -360,7 +360,7 @@ function bar<T>(x: Foo<T> | string): T {
                                     "start": 87,
                                     "end": 90
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -370,7 +370,7 @@ function bar<T>(x: Foo<T> | string): T {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -378,7 +378,7 @@ function bar<T>(x: Foo<T> | string): T {
                         "start": 72,
                         "end": 91
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -395,7 +395,7 @@ function bar<T>(x: Foo<T> | string): T {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -406,7 +406,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -415,7 +415,7 @@ function bar<T>(x: Foo<T> | string): T {
                             "end": 46
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -423,7 +423,7 @@ function bar<T>(x: Foo<T> | string): T {
                     "start": 45,
                     "end": 46
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -433,7 +433,7 @@ function bar<T>(x: Foo<T> | string): T {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -458,13 +458,21 @@ function bar<T>(x: Foo<T> | string): T {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Foo<T> {
+    x: T;
+}
+
+function bar<T>(x: Foo<T> | string): T {
+    return bar(x);
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

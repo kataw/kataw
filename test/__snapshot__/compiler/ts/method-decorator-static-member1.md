@@ -203,13 +203,20 @@ class D {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class D {
+
+    @Foo
+
+    static staticMethod() { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

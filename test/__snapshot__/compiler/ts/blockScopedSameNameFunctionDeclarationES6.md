@@ -29,11 +29,11 @@ foo();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo(a: number) {\n    if (a === 10) {\n        function foo() { }\n        foo();\n        foo(10);\n    }\n    else {\n      function foo() { }\n        foo();\n        foo(10);\n    }\n    foo(10);\n    foo();\n}\nfoo(10);\nfoo();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -41,7 +41,7 @@ foo();
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -59,7 +59,7 @@ foo();
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -82,7 +82,7 @@ foo();
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -92,7 +92,7 @@ foo();
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -114,7 +114,7 @@ foo();
                                         "kind": 196712,
                                         "text": "a",
                                         "rawText": "a",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -127,7 +127,7 @@ foo();
                                         "kind": 4261540,
                                         "text": 10,
                                         "rawText": "10",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -135,7 +135,7 @@ foo();
                                         "start": 39,
                                         "end": 42
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -154,7 +154,7 @@ foo();
                                                     "kind": 131102,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -166,7 +166,7 @@ foo();
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -181,7 +181,7 @@ foo();
                                                         "kind": 94,
                                                         "statements": [],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -189,7 +189,7 @@ foo();
                                                         "start": 70,
                                                         "end": 70
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -198,7 +198,7 @@ foo();
                                                     "end": 72
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 256,
                                                 "parent": null,
@@ -214,7 +214,7 @@ foo();
                                                         "kind": 196712,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -228,14 +228,14 @@ foo();
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 86,
                                                         "end": 86
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -259,7 +259,7 @@ foo();
                                                         "kind": 196712,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -275,7 +275,7 @@ foo();
                                                                 "kind": 4261540,
                                                                 "text": 10,
                                                                 "rawText": "10",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -286,14 +286,14 @@ foo();
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 102,
                                                         "end": 103
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -311,7 +311,7 @@ foo();
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -319,7 +319,7 @@ foo();
                                         "start": 45,
                                         "end": 104
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -338,7 +338,7 @@ foo();
                                                     "kind": 131102,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -350,7 +350,7 @@ foo();
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -365,7 +365,7 @@ foo();
                                                         "kind": 94,
                                                         "statements": [],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -373,7 +373,7 @@ foo();
                                                         "start": 144,
                                                         "end": 144
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -382,7 +382,7 @@ foo();
                                                     "end": 146
                                                 },
                                                 "typeParameters": null,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 256,
                                                 "parent": null,
@@ -398,7 +398,7 @@ foo();
                                                         "kind": 196712,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -412,14 +412,14 @@ foo();
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 160,
                                                         "end": 160
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -443,7 +443,7 @@ foo();
                                                         "kind": 196712,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -459,7 +459,7 @@ foo();
                                                                 "kind": 4261540,
                                                                 "text": 10,
                                                                 "rawText": "10",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -470,14 +470,14 @@ foo();
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 176,
                                                         "end": 177
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -495,7 +495,7 @@ foo();
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -503,7 +503,7 @@ foo();
                                         "start": 121,
                                         "end": 178
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -512,7 +512,7 @@ foo();
                                     "end": 184
                                 },
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -528,7 +528,7 @@ foo();
                                         "kind": 196712,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -544,7 +544,7 @@ foo();
                                                 "kind": 4261540,
                                                 "text": 10,
                                                 "rawText": "10",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -555,14 +555,14 @@ foo();
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 195,
                                         "end": 196
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -586,7 +586,7 @@ foo();
                                         "kind": 196712,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -600,14 +600,14 @@ foo();
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 207,
                                         "end": 207
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -625,7 +625,7 @@ foo();
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -633,7 +633,7 @@ foo();
                         "start": 25,
                         "end": 208
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -642,7 +642,7 @@ foo();
                     "end": 210
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -658,7 +658,7 @@ foo();
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -674,7 +674,7 @@ foo();
                                 "kind": 4261540,
                                 "text": 10,
                                 "rawText": "10",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -685,14 +685,14 @@ foo();
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 217,
                         "end": 218
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -716,7 +716,7 @@ foo();
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -730,14 +730,14 @@ foo();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 225,
                         "end": 225
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -755,7 +755,7 @@ foo();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -780,13 +780,32 @@ foo();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo(a: number) {
+    if (a === 10) {
+        function foo() { }
+        foo()
+        foo(10)
+    }
+    else {
+        function foo() { }
+        foo()
+        foo(10)
+    }
+    foo(10)
+    foo()
+}
+
+foo(10)
+
+foo()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

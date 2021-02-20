@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "  let map: { readonly [P in string]?: number; };",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@
                                 "kind": 131102,
                                 "text": "map",
                                 "rawText": "map",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -49,7 +49,7 @@
                                         "kind": 196711,
                                         "text": "P",
                                         "rawText": "P",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -69,7 +69,7 @@
                                     },
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -92,7 +92,7 @@
                                     "start": 37,
                                     "end": 44
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -101,7 +101,7 @@
                                 "end": 47
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -110,7 +110,7 @@
                             "end": 47
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -118,7 +118,7 @@
                     "start": 5,
                     "end": 47
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -128,7 +128,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -153,13 +153,17 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let map: {
+    readonly [P in string]?: number;
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

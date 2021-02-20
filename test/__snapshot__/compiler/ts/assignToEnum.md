@@ -18,11 +18,11 @@ A.foo = A.bar;  // invalid LHS
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "enum A { foo, bar }\nA = undefined;  // invalid LHS\nA = A.bar;      // invalid LHS\nA.foo = 1;      // invalid LHS\nA.foo = A.bar;  // invalid LHS",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -30,7 +30,7 @@ A.foo = A.bar;  // invalid LHS
                     "kind": 196712,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ A.foo = A.bar;  // invalid LHS
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -56,7 +56,7 @@ A.foo = A.bar;  // invalid LHS
                                 "end": 12
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -70,7 +70,7 @@ A.foo = A.bar;  // invalid LHS
                                 "kind": 196711,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -79,7 +79,7 @@ A.foo = A.bar;  // invalid LHS
                                 "end": 17
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -88,7 +88,7 @@ A.foo = A.bar;  // invalid LHS
                             "end": 17
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -97,7 +97,7 @@ A.foo = A.bar;  // invalid LHS
                     "end": 17
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -113,7 +113,7 @@ A.foo = A.bar;  // invalid LHS
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -126,7 +126,7 @@ A.foo = A.bar;  // invalid LHS
                         "kind": 196712,
                         "text": "undefined",
                         "rawText": "undefined",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -134,7 +134,7 @@ A.foo = A.bar;  // invalid LHS
                         "start": 23,
                         "end": 33
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -158,7 +158,7 @@ A.foo = A.bar;  // invalid LHS
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -173,7 +173,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196712,
                             "text": "A",
                             "rawText": "A",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -185,7 +185,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196711,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -193,7 +193,7 @@ A.foo = A.bar;  // invalid LHS
                             "start": 57,
                             "end": 60
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -201,7 +201,7 @@ A.foo = A.bar;  // invalid LHS
                         "start": 56,
                         "end": 60
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -227,7 +227,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196712,
                             "text": "A",
                             "rawText": "A",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -239,7 +239,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196711,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -247,7 +247,7 @@ A.foo = A.bar;  // invalid LHS
                             "start": 84,
                             "end": 87
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -260,7 +260,7 @@ A.foo = A.bar;  // invalid LHS
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -268,7 +268,7 @@ A.foo = A.bar;  // invalid LHS
                         "start": 89,
                         "end": 91
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -294,7 +294,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196712,
                             "text": "A",
                             "rawText": "A",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -306,7 +306,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196711,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -314,7 +314,7 @@ A.foo = A.bar;  // invalid LHS
                             "start": 115,
                             "end": 118
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -329,7 +329,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196712,
                             "text": "A",
                             "rawText": "A",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -341,7 +341,7 @@ A.foo = A.bar;  // invalid LHS
                             "kind": 196711,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -349,7 +349,7 @@ A.foo = A.bar;  // invalid LHS
                             "start": 123,
                             "end": 126
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -357,7 +357,7 @@ A.foo = A.bar;  // invalid LHS
                         "start": 122,
                         "end": 126
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -375,7 +375,7 @@ A.foo = A.bar;  // invalid LHS
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -400,13 +400,26 @@ A.foo = A.bar;  // invalid LHS
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+enum A {
+    foo,
+    bar
+}
+
+A = undefined
+
+A = A.bar
+
+A.foo = 1
+
+A.foo = A.bar
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

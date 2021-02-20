@@ -109,13 +109,15 @@ declare var x: any;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare var x: any;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

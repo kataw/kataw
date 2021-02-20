@@ -18,11 +18,11 @@ function*bar() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function*bar() {\n  // 'yield' here is an identifier, and not a yield expression.\n  function*foo(a = yield) {\n  }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 788576,
@@ -30,7 +30,7 @@ function*bar() {
                     "kind": 131102,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -42,7 +42,7 @@ function*bar() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -62,7 +62,7 @@ function*bar() {
                                     "kind": 131102,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -80,7 +80,7 @@ function*bar() {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -94,7 +94,7 @@ function*bar() {
                                                 "kind": 65785,
                                                 "delegate": false,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 16393,
                                                 "parent": null,
@@ -105,7 +105,7 @@ function*bar() {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -115,7 +115,7 @@ function*bar() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -130,7 +130,7 @@ function*bar() {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -138,7 +138,7 @@ function*bar() {
                                         "start": 108,
                                         "end": 108
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -147,7 +147,7 @@ function*bar() {
                                     "end": 112
                                 },
                                 "typeParameters": null,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 384,
                                 "parent": null,
@@ -157,7 +157,7 @@ function*bar() {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -165,7 +165,7 @@ function*bar() {
                         "start": 16,
                         "end": 112
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -174,7 +174,7 @@ function*bar() {
                     "end": 114
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 384,
                 "parent": null,
@@ -184,7 +184,7 @@ function*bar() {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -209,13 +209,18 @@ function*bar() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+ function* bar() {
+     function* foo(a = yield ) {
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

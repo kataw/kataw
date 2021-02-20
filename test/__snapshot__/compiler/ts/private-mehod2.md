@@ -14,11 +14,11 @@ const ranges = test.rangesByText().get("#foo");
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const ranges = test.rangesByText().get(\"#foo\");",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ const ranges = test.rangesByText().get("#foo");
                                 "kind": 131102,
                                 "text": "ranges",
                                 "rawText": "ranges",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -54,7 +54,7 @@ const ranges = test.rangesByText().get("#foo");
                                                 "kind": 196712,
                                                 "text": "test",
                                                 "rawText": "test",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -66,7 +66,7 @@ const ranges = test.rangesByText().get("#foo");
                                                 "kind": 196711,
                                                 "text": "rangesByText",
                                                 "rawText": "rangesByText",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -74,7 +74,7 @@ const ranges = test.rangesByText().get("#foo");
                                                 "start": 20,
                                                 "end": 32
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -88,14 +88,14 @@ const ranges = test.rangesByText().get("#foo");
                                             "elements": [],
                                             "trailingComma": false,
                                             "transformFlags": 0,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "parent": null,
                                             "emitNode": null,
                                             "start": 34,
                                             "end": 34
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -107,7 +107,7 @@ const ranges = test.rangesByText().get("#foo");
                                         "kind": 196711,
                                         "text": "get",
                                         "rawText": "get",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -115,7 +115,7 @@ const ranges = test.rangesByText().get("#foo");
                                         "start": 35,
                                         "end": 38
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -131,7 +131,7 @@ const ranges = test.rangesByText().get("#foo");
                                             "kind": 67279,
                                             "text": "#foo",
                                             "rawText": "#foo",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -142,14 +142,14 @@ const ranges = test.rangesByText().get("#foo");
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 45,
                                     "end": 46
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -157,7 +157,7 @@ const ranges = test.rangesByText().get("#foo");
                                 "start": 38,
                                 "end": 46
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -166,7 +166,7 @@ const ranges = test.rangesByText().get("#foo");
                             "end": 46
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -174,7 +174,7 @@ const ranges = test.rangesByText().get("#foo");
                     "start": 5,
                     "end": 46
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -184,7 +184,7 @@ const ranges = test.rangesByText().get("#foo");
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -209,13 +209,15 @@ const ranges = test.rangesByText().get("#foo");
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const ranges = test.rangesByText().get("#foo");
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

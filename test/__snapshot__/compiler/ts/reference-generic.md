@@ -14,11 +14,11 @@ let x: Array<number>;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let x: Array<number>;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let x: Array<number>;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -47,7 +47,7 @@ let x: Array<number>;
                                     "kind": 196711,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -69,7 +69,7 @@ let x: Array<number>;
                                             "end": 19
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -77,7 +77,7 @@ let x: Array<number>;
                                     "start": 13,
                                     "end": 19
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -86,7 +86,7 @@ let x: Array<number>;
                                 "end": 21
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -95,7 +95,7 @@ let x: Array<number>;
                             "end": 20
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -103,7 +103,7 @@ let x: Array<number>;
                     "start": 3,
                     "end": 20
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -113,7 +113,7 @@ let x: Array<number>;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -138,13 +138,15 @@ let x: Array<number>;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let x: Array<number>;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

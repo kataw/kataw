@@ -66,10 +66,10 @@ export const enum NodeFlags {
   Exported = 1 << 5,
 
   /**
-   * This node const numeric literal values
+   * This node has "export default modifier"
    */
 
-  Scientific = 1 << 6,
+  ExportDefault = 1 << 6,
 
   /**
    * This node const numeric literal values

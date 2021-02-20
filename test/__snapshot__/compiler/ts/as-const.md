@@ -50,11 +50,11 @@ let q5 = <const> { x: 10, y: 20 };
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let v1 = 'abc' as const;\nlet v2 = `abc` as const;\nlet v3 = 10 as const;\nlet v4 = -10 as const;\nlet v5 = +10 as const;\nlet v6 = 10 as const;\nlet v7 = -10 as const;\nlet v8 = true as const;\nlet v9 = false as const;\n\nlet a1 = [] as const;\nlet a2 = [1, 2, 3] as const;\nlet a3 = [10, 'hello', true] as const;\nlet a4 = [...[1, 2, 3]] as const;\nlet a5 = [1, 2, 3];\nlet a6 = [...a5] as const;\nlet a8 = ['abc', ...a7] as const;\n\nlet o1 = { x: 10, y: 20 } as const;\nlet o2 = { a: 1, 'b': 2, ['c']: 3, d() {}, ['e' + '']: 4 } as const;\nlet o3 = { ...o1, ...o2 } as const;\nlet o5 = { ...o4 } as const;\nlet o7 = { ...d } as const;\nlet o9 = { x: 10, foo() { this.x = 20 } } as const;  // Error\n\nlet p1 = (10) as const;\nlet p2 = ((-10)) as const;\nlet p3 = ([(10)]) as const;\nlet p4 = [[[[10]]]] as const;\n\nlet x1 = { x: 10, y: [20, 30], z: { a: { b: 42 } } } as const;\n\nlet q1 = <const> 10;\nlet q2 = <const> 'abc';\nlet q3 = <const> true;\nlet q4 = <const> [1, 2, 3];\nlet q5 = <const> { x: 10, y: 20 };",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -68,7 +68,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v1",
                                 "rawText": "v1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -84,7 +84,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 67279,
                                     "text": "abc",
                                     "rawText": "abc",
-                                    "flags": 16777216,
+                                    "flags": 16842752,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -98,7 +98,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -107,7 +107,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 23
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -115,7 +115,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 17,
                                     "end": 24
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -123,7 +123,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 14,
                                 "end": 23
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -132,7 +132,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 23
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -140,7 +140,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 3,
                     "end": 23
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -160,7 +160,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v2",
                                 "rawText": "v2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -176,7 +176,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 4260568,
                                     "rawText": "abc",
                                     "text": "abc",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -190,7 +190,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -199,7 +199,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 48
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -207,7 +207,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 42,
                                     "end": 49
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -215,7 +215,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 39,
                                 "end": 48
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -224,7 +224,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 48
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -232,7 +232,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 28,
                     "end": 48
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -252,7 +252,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v3",
                                 "rawText": "v3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -268,7 +268,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 4261540,
                                     "text": 10,
                                     "rawText": "10",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -282,7 +282,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -291,7 +291,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 70
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -299,7 +299,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 64,
                                     "end": 71
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -307,7 +307,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 61,
                                 "end": 70
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -316,7 +316,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 70
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -324,7 +324,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 53,
                     "end": 70
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -344,7 +344,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v4",
                                 "rawText": "v4",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -363,7 +363,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 4261540,
                                         "text": 10,
                                         "rawText": "10",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -371,7 +371,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 82,
                                         "end": 84
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -385,7 +385,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -394,7 +394,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 93
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -402,7 +402,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 87,
                                     "end": 94
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -410,7 +410,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 84,
                                 "end": 93
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -419,7 +419,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 93
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -427,7 +427,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 75,
                     "end": 93
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -447,7 +447,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v5",
                                 "rawText": "v5",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -466,7 +466,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 4261540,
                                         "text": 10,
                                         "rawText": "10",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -474,7 +474,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 105,
                                         "end": 107
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -488,7 +488,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -497,7 +497,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 116
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -505,7 +505,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 110,
                                     "end": 117
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -513,7 +513,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 107,
                                 "end": 116
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -522,7 +522,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 116
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -530,7 +530,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 98,
                     "end": 116
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -550,7 +550,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v6",
                                 "rawText": "v6",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -566,7 +566,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 4261540,
                                     "text": 10,
                                     "rawText": "10",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -580,7 +580,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -589,7 +589,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 138
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -597,7 +597,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 132,
                                     "end": 139
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -605,7 +605,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 129,
                                 "end": 138
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -614,7 +614,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 138
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -622,7 +622,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 121,
                     "end": 138
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -642,7 +642,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v7",
                                 "rawText": "v7",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -661,7 +661,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 4261540,
                                         "text": 10,
                                         "rawText": "10",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -669,7 +669,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 150,
                                         "end": 152
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -683,7 +683,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -692,7 +692,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 161
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -700,7 +700,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 155,
                                     "end": 162
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -708,7 +708,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 152,
                                 "end": 161
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -717,7 +717,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 161
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -725,7 +725,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 143,
                     "end": 161
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -745,7 +745,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v8",
                                 "rawText": "v8",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -760,7 +760,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "expression": {
                                     "kind": 4260391,
                                     "text": true,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -774,7 +774,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -783,7 +783,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 185
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -791,7 +791,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 179,
                                     "end": 186
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -799,7 +799,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 176,
                                 "end": 185
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -808,7 +808,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 185
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -816,7 +816,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 166,
                     "end": 185
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -836,7 +836,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "v9",
                                 "rawText": "v9",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -851,7 +851,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "expression": {
                                     "kind": 4260391,
                                     "text": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -865,7 +865,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -874,7 +874,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 210
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -882,7 +882,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 204,
                                     "end": 211
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -890,7 +890,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 201,
                                 "end": 210
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -899,7 +899,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 210
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -907,7 +907,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 190,
                     "end": 210
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -927,7 +927,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a1",
                                 "rawText": "a1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -946,7 +946,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "elements": [],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -954,7 +954,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 223,
                                         "end": 223
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -968,7 +968,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -977,7 +977,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 233
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -985,7 +985,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 227,
                                     "end": 234
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -993,7 +993,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 224,
                                 "end": 233
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1002,7 +1002,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 233
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1010,7 +1010,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 216,
                     "end": 233
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1030,7 +1030,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a2",
                                 "rawText": "a2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1051,7 +1051,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1063,7 +1063,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1075,7 +1075,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1086,7 +1086,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1094,7 +1094,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 245,
                                         "end": 252
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1108,7 +1108,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1117,7 +1117,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 262
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1125,7 +1125,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 256,
                                     "end": 263
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1133,7 +1133,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 253,
                                 "end": 262
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1142,7 +1142,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 262
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1150,7 +1150,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 238,
                     "end": 262
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1170,7 +1170,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a3",
                                 "rawText": "a3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1191,7 +1191,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 10,
                                                 "rawText": "10",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1203,7 +1203,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 67279,
                                                 "text": "hello",
                                                 "rawText": "hello",
-                                                "flags": 16777216,
+                                                "flags": 16842752,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1214,7 +1214,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             {
                                                 "kind": 4260391,
                                                 "text": true,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1225,7 +1225,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1233,7 +1233,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 274,
                                         "end": 291
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1247,7 +1247,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1256,7 +1256,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 301
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1264,7 +1264,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 295,
                                     "end": 302
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1272,7 +1272,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 292,
                                 "end": 301
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1281,7 +1281,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 301
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1289,7 +1289,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 267,
                     "end": 301
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1309,7 +1309,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a4",
                                 "rawText": "a4",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1337,7 +1337,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1349,7 +1349,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "kind": 4261540,
                                                                 "text": 2,
                                                                 "rawText": "2",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1361,7 +1361,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "kind": 4261540,
                                                                 "text": 3,
                                                                 "rawText": "3",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1372,7 +1372,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         ],
                                                         "trailingComma": false,
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1380,7 +1380,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 317,
                                                         "end": 324
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1388,7 +1388,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 316,
                                                     "end": 325
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2,
                                                 "parent": null,
@@ -1399,7 +1399,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1407,7 +1407,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 313,
                                         "end": 325
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1421,7 +1421,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1430,7 +1430,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 335
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1438,7 +1438,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 329,
                                     "end": 336
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1446,7 +1446,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 326,
                                 "end": 335
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1455,7 +1455,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 335
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1463,7 +1463,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 306,
                     "end": 335
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1483,7 +1483,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a5",
                                 "rawText": "a5",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1502,7 +1502,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             "kind": 4261540,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1514,7 +1514,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             "kind": 4261540,
                                             "text": 2,
                                             "rawText": "2",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1526,7 +1526,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             "kind": 4261540,
                                             "text": 3,
                                             "rawText": "3",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1537,7 +1537,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1545,7 +1545,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 347,
                                     "end": 354
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1553,7 +1553,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 345,
                                 "end": 355
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1562,7 +1562,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 355
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1570,7 +1570,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 340,
                     "end": 355
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1590,7 +1590,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a6",
                                 "rawText": "a6",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1613,7 +1613,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "a5",
                                                     "rawText": "a5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1621,7 +1621,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 370,
                                                     "end": 372
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2,
                                                 "parent": null,
@@ -1632,7 +1632,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1640,7 +1640,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 367,
                                         "end": 372
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1654,7 +1654,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1663,7 +1663,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 382
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1671,7 +1671,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 376,
                                     "end": 383
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1679,7 +1679,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 373,
                                 "end": 382
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1688,7 +1688,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 382
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1696,7 +1696,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 360,
                     "end": 382
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1716,7 +1716,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "a8",
                                 "rawText": "a8",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1737,7 +1737,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 67279,
                                                 "text": "abc",
                                                 "rawText": "abc",
-                                                "flags": 16777216,
+                                                "flags": 16842752,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1751,7 +1751,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "a7",
                                                     "rawText": "a7",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1759,7 +1759,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 404,
                                                     "end": 406
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2,
                                                 "parent": null,
@@ -1770,7 +1770,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1778,7 +1778,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 394,
                                         "end": 406
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1792,7 +1792,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1801,7 +1801,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 416
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1809,7 +1809,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 410,
                                     "end": 417
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1817,7 +1817,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 407,
                                 "end": 416
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1826,7 +1826,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 416
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1834,7 +1834,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 387,
                     "end": 416
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1854,7 +1854,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o1",
                                 "rawText": "o1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1877,7 +1877,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1889,7 +1889,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 10,
                                                     "rawText": "10",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1899,7 +1899,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1913,7 +1913,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1925,7 +1925,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 20,
                                                     "rawText": "20",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1935,7 +1935,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1946,7 +1946,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1954,7 +1954,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 429,
                                         "end": 442
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1968,7 +1968,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1977,7 +1977,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 453
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1985,7 +1985,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 447,
                                     "end": 454
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1993,7 +1993,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 444,
                                 "end": 453
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2002,7 +2002,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 453
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2010,7 +2010,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 422,
                     "end": 453
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2030,7 +2030,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o2",
                                 "rawText": "o2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2053,7 +2053,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2065,7 +2065,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2075,7 +2075,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2089,7 +2089,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 67279,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 16777216,
+                                                    "flags": 16842752,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2101,7 +2101,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 2,
                                                     "rawText": "2",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2111,7 +2111,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2127,7 +2127,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "kind": 67279,
                                                         "text": "c",
                                                         "rawText": "c",
-                                                        "flags": 16777216,
+                                                        "flags": 16842752,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2135,7 +2135,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 481,
                                                         "end": 484
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 131073,
                                                     "parent": null,
@@ -2147,7 +2147,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 3,
                                                     "rawText": "3",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2157,7 +2157,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2171,7 +2171,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "d",
                                                     "rawText": "d",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2183,7 +2183,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2199,7 +2199,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "kind": 94,
                                                         "statements": [],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2207,7 +2207,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 495,
                                                         "end": 495
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2219,7 +2219,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "type": null,
                                                 "accessModifier": null,
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2237,7 +2237,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                             "kind": 67279,
                                                             "text": "e",
                                                             "rawText": "e",
-                                                            "flags": 16777216,
+                                                            "flags": 16842752,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2250,7 +2250,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                             "kind": 67279,
                                                             "text": "",
                                                             "rawText": "",
-                                                            "flags": 16777216,
+                                                            "flags": 16842752,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2258,7 +2258,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                             "start": 504,
                                                             "end": 507
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2266,7 +2266,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 499,
                                                         "end": 507
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 131073,
                                                     "parent": null,
@@ -2278,7 +2278,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 4,
                                                     "rawText": "4",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2288,7 +2288,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2299,7 +2299,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2307,7 +2307,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 465,
                                         "end": 511
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2321,7 +2321,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2330,7 +2330,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 522
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2338,7 +2338,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 516,
                                     "end": 523
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2346,7 +2346,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 513,
                                 "end": 522
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2355,7 +2355,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 522
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2363,7 +2363,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 458,
                     "end": 522
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2383,7 +2383,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o3",
                                 "rawText": "o3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2406,7 +2406,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "o1",
                                                     "rawText": "o1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2414,7 +2414,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 538,
                                                     "end": 540
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 4104,
                                                 "parent": null,
@@ -2428,7 +2428,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "o2",
                                                     "rawText": "o2",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2436,7 +2436,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 545,
                                                     "end": 547
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 4104,
                                                 "parent": null,
@@ -2447,7 +2447,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2455,7 +2455,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 534,
                                         "end": 547
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2469,7 +2469,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2478,7 +2478,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 558
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2486,7 +2486,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 552,
                                     "end": 559
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2494,7 +2494,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 549,
                                 "end": 558
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2503,7 +2503,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 558
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2511,7 +2511,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 527,
                     "end": 558
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2531,7 +2531,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o5",
                                 "rawText": "o5",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2554,7 +2554,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "o4",
                                                     "rawText": "o4",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2562,7 +2562,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 574,
                                                     "end": 576
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 4104,
                                                 "parent": null,
@@ -2573,7 +2573,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2581,7 +2581,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 570,
                                         "end": 576
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2595,7 +2595,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2604,7 +2604,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 587
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2612,7 +2612,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 581,
                                     "end": 588
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2620,7 +2620,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 578,
                                 "end": 587
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2629,7 +2629,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 587
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2637,7 +2637,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 563,
                     "end": 587
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2657,7 +2657,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o7",
                                 "rawText": "o7",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2680,7 +2680,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196712,
                                                     "text": "d",
                                                     "rawText": "d",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2688,7 +2688,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 603,
                                                     "end": 604
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 4104,
                                                 "parent": null,
@@ -2699,7 +2699,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2707,7 +2707,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 599,
                                         "end": 604
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2721,7 +2721,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2730,7 +2730,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 615
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2738,7 +2738,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 609,
                                     "end": 616
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2746,7 +2746,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 606,
                                 "end": 615
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2755,7 +2755,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 615
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2763,7 +2763,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 592,
                     "end": 615
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2783,7 +2783,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "o9",
                                 "rawText": "o9",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2806,7 +2806,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2818,7 +2818,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 10,
                                                     "rawText": "10",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2828,7 +2828,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2842,7 +2842,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2854,7 +2854,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2877,7 +2877,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                         "kind": 74424,
                                                                         "member": {
                                                                             "kind": 4260571,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2889,7 +2889,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                             "kind": 196711,
                                                                             "text": "x",
                                                                             "rawText": "x",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2897,7 +2897,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                             "start": 648,
                                                                             "end": 649
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2910,7 +2910,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                         "kind": 4261540,
                                                                         "text": 20,
                                                                         "rawText": "20",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2918,7 +2918,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                         "start": 651,
                                                                         "end": 654
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2936,7 +2936,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                             }
                                                         ],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2944,7 +2944,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 642,
                                                         "end": 654
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2956,7 +2956,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "type": null,
                                                 "accessModifier": null,
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2967,7 +2967,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2975,7 +2975,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 627,
                                         "end": 656
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2989,7 +2989,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2998,7 +2998,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 667
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3006,7 +3006,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 661,
                                     "end": 668
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3014,7 +3014,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 658,
                                 "end": 667
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3023,7 +3023,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 667
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3031,7 +3031,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 620,
                     "end": 667
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3051,7 +3051,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "p1",
                                 "rawText": "p1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3069,7 +3069,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 4261540,
                                         "text": 10,
                                         "rawText": "10",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3077,7 +3077,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 690,
                                         "end": 692
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3091,7 +3091,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3100,7 +3100,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 702
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3108,7 +3108,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 696,
                                     "end": 703
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3116,7 +3116,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 693,
                                 "end": 702
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3125,7 +3125,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 702
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3133,7 +3133,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 683,
                     "end": 702
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3153,7 +3153,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "p2",
                                 "rawText": "p2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3176,7 +3176,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 10,
                                                 "rawText": "10",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3184,7 +3184,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "start": 716,
                                                 "end": 718
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -3192,7 +3192,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             "start": 715,
                                             "end": 718
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3200,7 +3200,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 714,
                                         "end": 719
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3214,7 +3214,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3223,7 +3223,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 729
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3231,7 +3231,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 723,
                                     "end": 730
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3239,7 +3239,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 720,
                                 "end": 729
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3248,7 +3248,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 729
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3256,7 +3256,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 707,
                     "end": 729
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3276,7 +3276,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "p3",
                                 "rawText": "p3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3301,7 +3301,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "kind": 4261540,
                                                         "text": 10,
                                                         "rawText": "10",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3309,7 +3309,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 743,
                                                         "end": 745
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3320,7 +3320,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             ],
                                             "trailingComma": false,
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -3328,7 +3328,7 @@ let q5 = <const> { x: 10, y: 20 };
                                             "start": 742,
                                             "end": 746
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3336,7 +3336,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 741,
                                         "end": 747
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3350,7 +3350,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3359,7 +3359,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 757
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3367,7 +3367,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 751,
                                     "end": 758
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3375,7 +3375,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 748,
                                 "end": 757
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3384,7 +3384,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 757
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3392,7 +3392,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 734,
                     "end": 757
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3412,7 +3412,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "p4",
                                 "rawText": "p4",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3448,7 +3448,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                                     "kind": 4261540,
                                                                                     "text": 10,
                                                                                     "rawText": "10",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3459,7 +3459,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": false,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -3467,7 +3467,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                             "start": 772,
                                                                             "end": 774
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -3478,7 +3478,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3486,7 +3486,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "start": 771,
                                                                 "end": 775
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -3497,7 +3497,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3505,7 +3505,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "start": 770,
                                                     "end": 776
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3516,7 +3516,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3524,7 +3524,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 769,
                                         "end": 777
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3538,7 +3538,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3547,7 +3547,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 787
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3555,7 +3555,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 781,
                                     "end": 788
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3563,7 +3563,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 778,
                                 "end": 787
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3572,7 +3572,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 787
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3580,7 +3580,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 762,
                     "end": 787
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3600,7 +3600,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "x1",
                                 "rawText": "x1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3623,7 +3623,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3635,7 +3635,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 10,
                                                     "rawText": "10",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3645,7 +3645,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3659,7 +3659,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3676,7 +3676,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "kind": 4261540,
                                                                 "text": 20,
                                                                 "rawText": "20",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3688,7 +3688,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 "kind": 4261540,
                                                                 "text": 30,
                                                                 "rawText": "30",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3699,7 +3699,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         ],
                                                         "trailingComma": false,
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3707,7 +3707,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 812,
                                                         "end": 818
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3717,7 +3717,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3731,7 +3731,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "z",
                                                     "rawText": "z",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3750,7 +3750,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                     "kind": 196711,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3769,7 +3769,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                                     "kind": 196711,
                                                                                     "text": "b",
                                                                                     "rawText": "b",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3781,7 +3781,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                                     "kind": 4261540,
                                                                                     "text": 42,
                                                                                     "rawText": "42",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3791,7 +3791,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                                 },
                                                                                 "accessModifier": null,
                                                                                 "decorators": null,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -3802,7 +3802,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "multiline": false,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -3810,7 +3810,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                         "start": 830,
                                                                         "end": 836
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3820,7 +3820,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                                 },
                                                                 "accessModifier": null,
                                                                 "decorators": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3831,7 +3831,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         ],
                                                         "trailingComma": false,
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3839,7 +3839,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                         "start": 825,
                                                         "end": 838
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3849,7 +3849,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3860,7 +3860,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3868,7 +3868,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 800,
                                         "end": 840
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3882,7 +3882,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3891,7 +3891,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 851
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3899,7 +3899,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 845,
                                     "end": 852
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3907,7 +3907,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 842,
                                 "end": 851
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3916,7 +3916,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 851
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3924,7 +3924,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 793,
                     "end": 851
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -3944,7 +3944,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "q1",
                                 "rawText": "q1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -3962,7 +3962,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3971,7 +3971,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 869
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -3983,7 +3983,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 4261540,
                                     "text": 10,
                                     "rawText": "10",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3991,7 +3991,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 870,
                                     "end": 873
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -3999,7 +3999,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 862,
                                 "end": 873
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -4008,7 +4008,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 873
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4016,7 +4016,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 857,
                     "end": 873
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -4036,7 +4036,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "q2",
                                 "rawText": "q2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -4054,7 +4054,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4063,7 +4063,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 890
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -4075,7 +4075,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "kind": 67279,
                                     "text": "abc",
                                     "rawText": "abc",
-                                    "flags": 16777216,
+                                    "flags": 16842752,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -4083,7 +4083,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 891,
                                     "end": 897
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -4091,7 +4091,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 883,
                                 "end": 897
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -4100,7 +4100,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 897
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4108,7 +4108,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 878,
                     "end": 897
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -4128,7 +4128,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "q3",
                                 "rawText": "q3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -4146,7 +4146,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4155,7 +4155,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 914
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -4166,7 +4166,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "expression": {
                                     "kind": 4260391,
                                     "text": true,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -4174,7 +4174,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 915,
                                     "end": 920
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -4182,7 +4182,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 907,
                                 "end": 920
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -4191,7 +4191,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 920
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4199,7 +4199,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 902,
                     "end": 920
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -4219,7 +4219,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "q4",
                                 "rawText": "q4",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -4237,7 +4237,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4246,7 +4246,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 937
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -4263,7 +4263,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -4275,7 +4275,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 2,
                                                 "rawText": "2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -4287,7 +4287,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -4298,7 +4298,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4306,7 +4306,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 940,
                                         "end": 947
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -4314,7 +4314,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 938,
                                     "end": 948
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -4322,7 +4322,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 930,
                                 "end": 948
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -4331,7 +4331,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 948
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4339,7 +4339,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 925,
                     "end": 948
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -4359,7 +4359,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "kind": 131102,
                                 "text": "q5",
                                 "rawText": "q5",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -4377,7 +4377,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "kind": 196711,
                                         "text": "const",
                                         "rawText": "const",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4386,7 +4386,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "end": 965
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -4405,7 +4405,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -4417,7 +4417,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 10,
                                                     "rawText": "10",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -4427,7 +4427,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -4441,7 +4441,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 196711,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -4453,7 +4453,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                     "kind": 4261540,
                                                     "text": 20,
                                                     "rawText": "20",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -4463,7 +4463,7 @@ let q5 = <const> { x: 10, y: 20 };
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -4474,7 +4474,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -4482,7 +4482,7 @@ let q5 = <const> { x: 10, y: 20 };
                                         "start": 968,
                                         "end": 981
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -4490,7 +4490,7 @@ let q5 = <const> { x: 10, y: 20 };
                                     "start": 966,
                                     "end": 983
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -4498,7 +4498,7 @@ let q5 = <const> { x: 10, y: 20 };
                                 "start": 958,
                                 "end": 983
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -4507,7 +4507,7 @@ let q5 = <const> { x: 10, y: 20 };
                             "end": 983
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -4515,7 +4515,7 @@ let q5 = <const> { x: 10, y: 20 };
                     "start": 953,
                     "end": 983
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -4525,7 +4525,7 @@ let q5 = <const> { x: 10, y: 20 };
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -4550,13 +4550,77 @@ let q5 = <const> { x: 10, y: 20 };
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let v1 = "abc" as const;
+
+let v2 = abc as const;
+
+let v3 = 10 as const;
+
+let v4 = - 10 as const;
+
+let v5 = + 10 as const;
+
+let v6 = 10 as const;
+
+let v7 = - 10 as const;
+
+let v8 = true as const;
+
+let v9 = false as const;
+
+let a1 = [] as const;
+
+let a2 = [1, 2, 3] as const;
+
+let a3 = [10, "hello", true] as const;
+
+let a4 = [...[1, 2, 3]] as const;
+
+let a5 = [1, 2, 3];
+
+let a6 = [...a5] as const;
+
+let a8 = ["abc", ...a7] as const;
+
+let o1 = { x : 10, y : 20 } as const;
+
+let o2 = { a : 1, "b" : 2, ["c"] : 3, d() { }, ["e" + ""] : 4 } as const;
+
+let o3 = { ...o1, ...o2 } as const;
+
+let o5 = { ...o4 } as const;
+
+let o7 = { ...d } as const;
+
+let o9 = { x : 10, foo() { this.x = 20 } } as const;
+
+let p1 = (10) as const;
+
+let p2 = ((- 10)) as const;
+
+let p3 = ([(10)]) as const;
+
+let p4 = [[[[10]]]] as const;
+
+let x1 = { x : 10, y : [20, 30], z : { a : { b : 42 } } } as const;
+
+let q1 = <const>10;
+
+let q2 = <const>"abc";
+
+let q3 = <const>true;
+
+let q4 = <const>[1, 2, 3];
+
+let q5 = <const>{ x : 10, y : 20 };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

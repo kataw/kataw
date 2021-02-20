@@ -16,11 +16,11 @@ function* foo() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function* foo() {\n  yield*foo\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 788576,
@@ -28,7 +28,7 @@ function* foo() {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -40,7 +40,7 @@ function* foo() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -63,7 +63,7 @@ function* foo() {
                                         "kind": 196712,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -71,7 +71,7 @@ function* foo() {
                                         "start": 26,
                                         "end": 29
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 16393,
                                     "parent": null,
@@ -89,7 +89,7 @@ function* foo() {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -97,7 +97,7 @@ function* foo() {
                         "start": 17,
                         "end": 29
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -106,7 +106,7 @@ function* foo() {
                     "end": 31
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 384,
                 "parent": null,
@@ -116,7 +116,7 @@ function* foo() {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -141,13 +141,17 @@ function* foo() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+ function* foo() {
+    yield* foo
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

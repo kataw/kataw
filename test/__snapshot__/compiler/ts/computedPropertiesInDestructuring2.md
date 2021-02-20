@@ -15,11 +15,11 @@ let {[foo2()]: bar3} = {};
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let foo2 = () => \"bar\";\nlet {[foo2()]: bar3} = {};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -33,7 +33,7 @@ let {[foo2()]: bar3} = {};
                                 "kind": 131102,
                                 "text": "foo2",
                                 "rawText": "foo2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -64,7 +64,7 @@ let {[foo2()]: bar3} = {};
                                     "kind": 67279,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -72,7 +72,7 @@ let {[foo2()]: bar3} = {};
                                     "start": 16,
                                     "end": 22
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -80,7 +80,7 @@ let {[foo2()]: bar3} = {};
                                 "start": 10,
                                 "end": 22
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -89,7 +89,7 @@ let {[foo2()]: bar3} = {};
                             "end": 22
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -97,7 +97,7 @@ let {[foo2()]: bar3} = {};
                     "start": 3,
                     "end": 22
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -129,7 +129,7 @@ let {[foo2()]: bar3} = {};
                                                         "kind": 196712,
                                                         "text": "foo2",
                                                         "rawText": "foo2",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -143,14 +143,14 @@ let {[foo2()]: bar3} = {};
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 36,
                                                         "end": 36
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -158,7 +158,7 @@ let {[foo2()]: bar3} = {};
                                                     "start": 34,
                                                     "end": 36
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 131073,
                                                 "parent": null,
@@ -173,7 +173,7 @@ let {[foo2()]: bar3} = {};
                                                     "kind": 131102,
                                                     "text": "bar3",
                                                     "rawText": "bar3",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -182,7 +182,7 @@ let {[foo2()]: bar3} = {};
                                                     "end": 43
                                                 },
                                                 "right": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -190,7 +190,7 @@ let {[foo2()]: bar3} = {};
                                                 "start": 38,
                                                 "end": 43
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -202,14 +202,14 @@ let {[foo2()]: bar3} = {};
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 29,
                                     "end": 43
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -226,7 +226,7 @@ let {[foo2()]: bar3} = {};
                                     "properties": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -234,7 +234,7 @@ let {[foo2()]: bar3} = {};
                                     "start": 48,
                                     "end": 48
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -242,7 +242,7 @@ let {[foo2()]: bar3} = {};
                                 "start": 46,
                                 "end": 49
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -251,7 +251,7 @@ let {[foo2()]: bar3} = {};
                             "end": 49
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -259,7 +259,7 @@ let {[foo2()]: bar3} = {};
                     "start": 27,
                     "end": 49
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -269,7 +269,7 @@ let {[foo2()]: bar3} = {};
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -294,13 +294,17 @@ let {[foo2()]: bar3} = {};
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let foo2 = () => "bar";
+
+let { [foo2()]: bar3 } = { };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -48,11 +48,11 @@ const x: E.ONE = e;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "enum E1 { ONE, TWO, THREE }\ndeclare enum E2 { ONE, TWO, THREE }\n\ntype Bins1 = { [k in E1]?: string; }\ntype Bins2 = { [k in E2]?: string; }\n\nconst b1: Bins1 = {};\nconst b2: Bins2 = {};\n\nconst e1: E1 = E1.ONE;\nconst e2: E2 = E2.ONE;\n\nb1[1] = \"a\";\nb1[e1] = \"b\";\n\nb2[1] = \"a\";\nb2[e2] = \"b\";\n\n// Multiple numeric enum types accrue to the same numeric index signature in a mapped type\n\ndeclare function val(): number;\n\nenum N1 { A = val(), B = val() }\nenum N2 { C = val(), D = val() }\n\ntype T1 = { [K in N1 | N2]: K };\n\n// Enum types with string valued members are always literal enum types and therefore\n// ONE and TWO below are not computed members but rather just numerically valued members\n// with auto-incremented values.\n\ndeclare enum E { ONE, TWO, THREE = 'x' }\nconst e: E = E.ONE;\nconst x: E.ONE = e;\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -60,7 +60,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "E1",
                     "rawText": "E1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -77,7 +77,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "ONE",
                                 "rawText": "ONE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -86,7 +86,7 @@ const x: E.ONE = e;
                                 "end": 13
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -100,7 +100,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "TWO",
                                 "rawText": "TWO",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -109,7 +109,7 @@ const x: E.ONE = e;
                                 "end": 18
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -123,7 +123,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "THREE",
                                 "rawText": "THREE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -132,7 +132,7 @@ const x: E.ONE = e;
                                 "end": 25
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -141,7 +141,7 @@ const x: E.ONE = e;
                             "end": 25
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -150,7 +150,7 @@ const x: E.ONE = e;
                     "end": 25
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -164,7 +164,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "E2",
                     "rawText": "E2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -181,7 +181,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "ONE",
                                 "rawText": "ONE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -190,7 +190,7 @@ const x: E.ONE = e;
                                 "end": 49
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -204,7 +204,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "TWO",
                                 "rawText": "TWO",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -213,7 +213,7 @@ const x: E.ONE = e;
                                 "end": 54
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -227,7 +227,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "THREE",
                                 "rawText": "THREE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -236,7 +236,7 @@ const x: E.ONE = e;
                                 "end": 61
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -245,7 +245,7 @@ const x: E.ONE = e;
                             "end": 61
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -254,7 +254,7 @@ const x: E.ONE = e;
                     "end": 61
                 },
                 "isConst": false,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -268,7 +268,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "Bins1",
                     "rawText": "Bins1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -284,7 +284,7 @@ const x: E.ONE = e;
                             "kind": 196711,
                             "text": "k",
                             "rawText": "k",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -298,7 +298,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "E1",
                                 "rawText": "E1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -307,7 +307,7 @@ const x: E.ONE = e;
                                 "end": 88
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -317,7 +317,7 @@ const x: E.ONE = e;
                         },
                         "defaultType": null,
                         "expression": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -340,7 +340,7 @@ const x: E.ONE = e;
                         "start": 91,
                         "end": 98
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -349,7 +349,7 @@ const x: E.ONE = e;
                     "end": 101
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -363,7 +363,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "Bins2",
                     "rawText": "Bins2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -379,7 +379,7 @@ const x: E.ONE = e;
                             "kind": 196711,
                             "text": "k",
                             "rawText": "k",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -393,7 +393,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "E2",
                                 "rawText": "E2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -402,7 +402,7 @@ const x: E.ONE = e;
                                 "end": 125
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -412,7 +412,7 @@ const x: E.ONE = e;
                         },
                         "defaultType": null,
                         "expression": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -435,7 +435,7 @@ const x: E.ONE = e;
                         "start": 128,
                         "end": 135
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -444,7 +444,7 @@ const x: E.ONE = e;
                     "end": 138
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -464,7 +464,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "b1",
                                 "rawText": "b1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -479,7 +479,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "Bins1",
                                     "rawText": "Bins1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -488,7 +488,7 @@ const x: E.ONE = e;
                                     "end": 155
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -503,7 +503,7 @@ const x: E.ONE = e;
                                     "properties": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -511,7 +511,7 @@ const x: E.ONE = e;
                                     "start": 159,
                                     "end": 159
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -519,7 +519,7 @@ const x: E.ONE = e;
                                 "start": 157,
                                 "end": 160
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -528,7 +528,7 @@ const x: E.ONE = e;
                             "end": 160
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -536,7 +536,7 @@ const x: E.ONE = e;
                     "start": 145,
                     "end": 160
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -556,7 +556,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "b2",
                                 "rawText": "b2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -571,7 +571,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "Bins2",
                                     "rawText": "Bins2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -580,7 +580,7 @@ const x: E.ONE = e;
                                     "end": 177
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -595,7 +595,7 @@ const x: E.ONE = e;
                                     "properties": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -603,7 +603,7 @@ const x: E.ONE = e;
                                     "start": 181,
                                     "end": 181
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -611,7 +611,7 @@ const x: E.ONE = e;
                                 "start": 179,
                                 "end": 182
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -620,7 +620,7 @@ const x: E.ONE = e;
                             "end": 182
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -628,7 +628,7 @@ const x: E.ONE = e;
                     "start": 167,
                     "end": 182
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -648,7 +648,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "e1",
                                 "rawText": "e1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -663,7 +663,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "E1",
                                     "rawText": "E1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -672,7 +672,7 @@ const x: E.ONE = e;
                                     "end": 197
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -686,7 +686,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "E1",
                                     "rawText": "E1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -698,7 +698,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "ONE",
                                     "rawText": "ONE",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -706,7 +706,7 @@ const x: E.ONE = e;
                                     "start": 203,
                                     "end": 206
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -714,7 +714,7 @@ const x: E.ONE = e;
                                 "start": 202,
                                 "end": 206
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -723,7 +723,7 @@ const x: E.ONE = e;
                             "end": 206
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -731,7 +731,7 @@ const x: E.ONE = e;
                     "start": 190,
                     "end": 206
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -751,7 +751,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "e2",
                                 "rawText": "e2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -766,7 +766,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "E2",
                                     "rawText": "E2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -775,7 +775,7 @@ const x: E.ONE = e;
                                     "end": 220
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -789,7 +789,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "E2",
                                     "rawText": "E2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -801,7 +801,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "ONE",
                                     "rawText": "ONE",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -809,7 +809,7 @@ const x: E.ONE = e;
                                     "start": 226,
                                     "end": 229
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -817,7 +817,7 @@ const x: E.ONE = e;
                                 "start": 225,
                                 "end": 229
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -826,7 +826,7 @@ const x: E.ONE = e;
                             "end": 229
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -834,7 +834,7 @@ const x: E.ONE = e;
                     "start": 213,
                     "end": 229
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -852,7 +852,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "b1",
                             "rawText": "b1",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -864,7 +864,7 @@ const x: E.ONE = e;
                             "kind": 4261540,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -872,7 +872,7 @@ const x: E.ONE = e;
                             "start": 235,
                             "end": 236
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -885,7 +885,7 @@ const x: E.ONE = e;
                         "kind": 67279,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -893,7 +893,7 @@ const x: E.ONE = e;
                         "start": 239,
                         "end": 243
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -919,7 +919,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "b1",
                             "rawText": "b1",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -931,7 +931,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "e1",
                             "rawText": "e1",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -939,7 +939,7 @@ const x: E.ONE = e;
                             "start": 248,
                             "end": 250
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -952,7 +952,7 @@ const x: E.ONE = e;
                         "kind": 67279,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -960,7 +960,7 @@ const x: E.ONE = e;
                         "start": 253,
                         "end": 257
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -986,7 +986,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "b2",
                             "rawText": "b2",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -998,7 +998,7 @@ const x: E.ONE = e;
                             "kind": 4261540,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1006,7 +1006,7 @@ const x: E.ONE = e;
                             "start": 263,
                             "end": 264
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1019,7 +1019,7 @@ const x: E.ONE = e;
                         "kind": 67279,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1027,7 +1027,7 @@ const x: E.ONE = e;
                         "start": 267,
                         "end": 271
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1053,7 +1053,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "b2",
                             "rawText": "b2",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1065,7 +1065,7 @@ const x: E.ONE = e;
                             "kind": 196712,
                             "text": "e2",
                             "rawText": "e2",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1073,7 +1073,7 @@ const x: E.ONE = e;
                             "start": 276,
                             "end": 278
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1086,7 +1086,7 @@ const x: E.ONE = e;
                         "kind": 67279,
                         "text": "b",
                         "rawText": "b",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1094,7 +1094,7 @@ const x: E.ONE = e;
                         "start": 281,
                         "end": 285
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1116,7 +1116,7 @@ const x: E.ONE = e;
                     "kind": 131102,
                     "text": "val",
                     "rawText": "val",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1128,7 +1128,7 @@ const x: E.ONE = e;
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1148,7 +1148,7 @@ const x: E.ONE = e;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1162,7 +1162,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "N1",
                     "rawText": "N1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1179,7 +1179,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "A",
                                 "rawText": "A",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1193,7 +1193,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "val",
                                     "rawText": "val",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1207,14 +1207,14 @@ const x: E.ONE = e;
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 432,
                                     "end": 432
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1222,7 +1222,7 @@ const x: E.ONE = e;
                                 "start": 430,
                                 "end": 432
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1236,7 +1236,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "B",
                                 "rawText": "B",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1250,7 +1250,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "val",
                                     "rawText": "val",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1264,14 +1264,14 @@ const x: E.ONE = e;
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 443,
                                     "end": 443
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1279,7 +1279,7 @@ const x: E.ONE = e;
                                 "start": 441,
                                 "end": 443
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1288,7 +1288,7 @@ const x: E.ONE = e;
                             "end": 443
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1297,7 +1297,7 @@ const x: E.ONE = e;
                     "end": 443
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1311,7 +1311,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "N2",
                     "rawText": "N2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1328,7 +1328,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1342,7 +1342,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "val",
                                     "rawText": "val",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1356,14 +1356,14 @@ const x: E.ONE = e;
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 465,
                                     "end": 465
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1371,7 +1371,7 @@ const x: E.ONE = e;
                                 "start": 463,
                                 "end": 465
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1385,7 +1385,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "D",
                                 "rawText": "D",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1399,7 +1399,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "val",
                                     "rawText": "val",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1413,14 +1413,14 @@ const x: E.ONE = e;
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 476,
                                     "end": 476
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1428,7 +1428,7 @@ const x: E.ONE = e;
                                 "start": 474,
                                 "end": 476
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1437,7 +1437,7 @@ const x: E.ONE = e;
                             "end": 476
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1446,7 +1446,7 @@ const x: E.ONE = e;
                     "end": 476
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1460,7 +1460,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "T1",
                     "rawText": "T1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1476,7 +1476,7 @@ const x: E.ONE = e;
                             "kind": 196711,
                             "text": "K",
                             "rawText": "K",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1493,7 +1493,7 @@ const x: E.ONE = e;
                                         "kind": 196711,
                                         "text": "N1",
                                         "rawText": "N1",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1502,7 +1502,7 @@ const x: E.ONE = e;
                                         "end": 500
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1516,7 +1516,7 @@ const x: E.ONE = e;
                                         "kind": 196711,
                                         "text": "N2",
                                         "rawText": "N2",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1525,7 +1525,7 @@ const x: E.ONE = e;
                                         "end": 505
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1534,7 +1534,7 @@ const x: E.ONE = e;
                                     "end": 506
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1544,7 +1544,7 @@ const x: E.ONE = e;
                         },
                         "defaultType": null,
                         "expression": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1563,7 +1563,7 @@ const x: E.ONE = e;
                             "kind": 196711,
                             "text": "K",
                             "rawText": "K",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1572,7 +1572,7 @@ const x: E.ONE = e;
                             "end": 509
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1580,7 +1580,7 @@ const x: E.ONE = e;
                         "start": 507,
                         "end": 511
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1589,7 +1589,7 @@ const x: E.ONE = e;
                     "end": 511
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1603,7 +1603,7 @@ const x: E.ONE = e;
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1620,7 +1620,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "ONE",
                                 "rawText": "ONE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1629,7 +1629,7 @@ const x: E.ONE = e;
                                 "end": 742
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1643,7 +1643,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "TWO",
                                 "rawText": "TWO",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1652,7 +1652,7 @@ const x: E.ONE = e;
                                 "end": 747
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1666,7 +1666,7 @@ const x: E.ONE = e;
                                 "kind": 196711,
                                 "text": "THREE",
                                 "rawText": "THREE",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1678,7 +1678,7 @@ const x: E.ONE = e;
                                 "kind": 67279,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1686,7 +1686,7 @@ const x: E.ONE = e;
                                 "start": 756,
                                 "end": 760
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -1695,7 +1695,7 @@ const x: E.ONE = e;
                             "end": 760
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1704,7 +1704,7 @@ const x: E.ONE = e;
                     "end": 760
                 },
                 "isConst": false,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1724,7 +1724,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1739,7 +1739,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "E",
                                     "rawText": "E",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1748,7 +1748,7 @@ const x: E.ONE = e;
                                     "end": 773
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1762,7 +1762,7 @@ const x: E.ONE = e;
                                     "kind": 196712,
                                     "text": "E",
                                     "rawText": "E",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1774,7 +1774,7 @@ const x: E.ONE = e;
                                     "kind": 196711,
                                     "text": "ONE",
                                     "rawText": "ONE",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1782,7 +1782,7 @@ const x: E.ONE = e;
                                     "start": 778,
                                     "end": 781
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1790,7 +1790,7 @@ const x: E.ONE = e;
                                 "start": 777,
                                 "end": 781
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1799,7 +1799,7 @@ const x: E.ONE = e;
                             "end": 781
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1807,7 +1807,7 @@ const x: E.ONE = e;
                     "start": 768,
                     "end": 781
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1827,7 +1827,7 @@ const x: E.ONE = e;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1844,7 +1844,7 @@ const x: E.ONE = e;
                                         "kind": 196711,
                                         "text": "E",
                                         "rawText": "E",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1856,7 +1856,7 @@ const x: E.ONE = e;
                                         "kind": 196711,
                                         "text": "ONE",
                                         "rawText": "ONE",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1864,7 +1864,7 @@ const x: E.ONE = e;
                                         "start": 794,
                                         "end": 797
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1873,7 +1873,7 @@ const x: E.ONE = e;
                                     "end": 797
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1885,7 +1885,7 @@ const x: E.ONE = e;
                                 "kind": 196712,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1893,7 +1893,7 @@ const x: E.ONE = e;
                                 "start": 799,
                                 "end": 801
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1902,7 +1902,7 @@ const x: E.ONE = e;
                             "end": 801
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1910,7 +1910,7 @@ const x: E.ONE = e;
                     "start": 788,
                     "end": 801
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1920,7 +1920,7 @@ const x: E.ONE = e;
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1945,13 +1945,75 @@ const x: E.ONE = e;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+enum E1 {
+    ONE,
+    TWO,
+    THREE
+}
+
+declare enum E2 {
+    ONE,
+    TWO,
+    THREE
+}
+
+type Bins1 = {
+    [k in E1]?: string;
+};
+
+type Bins2 = {
+    [k in E2]?: string;
+};
+
+const b1: Bins1 = { };
+
+const b2: Bins2 = { };
+
+const e1: E1 = E1.ONE;
+
+const e2: E2 = E2.ONE;
+
+b1[1] = "a"
+
+b1[e1] = "b"
+
+b2[1] = "a"
+
+b2[e2] = "b"
+
+declare function val(): number;
+
+enum N1 {
+    A = val(),
+    B = val()
+}
+
+enum N2 {
+    C = val(),
+    D = val()
+}
+
+type T1 = {
+    [K in N1 | N2]: K;
+};
+
+declare enum E {
+    ONE,
+    TWO,
+    THREE = "x"
+}
+
+const e: E = E.ONE;
+
+const x: E.ONE = e;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

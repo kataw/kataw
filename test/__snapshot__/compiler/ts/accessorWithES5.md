@@ -32,11 +32,11 @@ var y = {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class C {\n    get x() {\n        return 1;\n    }\n}\n\nclass D {\n    set x(v) {\n    }\n}\n\nvar x = {\n    get a() { return 1 }\n}\n\nvar y = {\n    set b(v) { }\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -44,7 +44,7 @@ var y = {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -70,7 +70,7 @@ var y = {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -82,7 +82,7 @@ var y = {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -103,7 +103,7 @@ var y = {
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -111,7 +111,7 @@ var y = {
                                                     "start": 38,
                                                     "end": 40
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -121,7 +121,7 @@ var y = {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -129,7 +129,7 @@ var y = {
                                         "start": 23,
                                         "end": 41
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -141,7 +141,7 @@ var y = {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -149,7 +149,7 @@ var y = {
                                 "start": 19,
                                 "end": 47
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -158,7 +158,7 @@ var y = {
                             "end": 47
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -167,7 +167,7 @@ var y = {
                     "end": 49
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -181,7 +181,7 @@ var y = {
                     "kind": 131102,
                     "text": "D",
                     "rawText": "D",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -207,7 +207,7 @@ var y = {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -225,7 +225,7 @@ var y = {
                                                 "kind": 131102,
                                                 "text": "v",
                                                 "rawText": "v",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -239,7 +239,7 @@ var y = {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -249,7 +249,7 @@ var y = {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -265,7 +265,7 @@ var y = {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -273,7 +273,7 @@ var y = {
                                         "start": 75,
                                         "end": 75
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -285,7 +285,7 @@ var y = {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -293,7 +293,7 @@ var y = {
                                 "start": 70,
                                 "end": 81
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -302,7 +302,7 @@ var y = {
                             "end": 81
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -311,7 +311,7 @@ var y = {
                     "end": 83
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -330,7 +330,7 @@ var y = {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -351,7 +351,7 @@ var y = {
                                                 "kind": 196711,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -363,7 +363,7 @@ var y = {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -384,7 +384,7 @@ var y = {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -392,7 +392,7 @@ var y = {
                                                                 "start": 115,
                                                                 "end": 117
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -402,7 +402,7 @@ var y = {
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -410,7 +410,7 @@ var y = {
                                                     "start": 108,
                                                     "end": 117
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -422,7 +422,7 @@ var y = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -433,7 +433,7 @@ var y = {
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -441,7 +441,7 @@ var y = {
                                     "start": 94,
                                     "end": 119
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -454,11 +454,11 @@ var y = {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 121
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -466,7 +466,7 @@ var y = {
                     "start": 88,
                     "end": 121
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -485,7 +485,7 @@ var y = {
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -506,7 +506,7 @@ var y = {
                                                 "kind": 196711,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -524,7 +524,7 @@ var y = {
                                                             "kind": 131102,
                                                             "text": "v",
                                                             "rawText": "v",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -538,7 +538,7 @@ var y = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -548,7 +548,7 @@ var y = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -564,7 +564,7 @@ var y = {
                                                     "kind": 94,
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -572,7 +572,7 @@ var y = {
                                                     "start": 147,
                                                     "end": 147
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -584,7 +584,7 @@ var y = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -595,7 +595,7 @@ var y = {
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -603,7 +603,7 @@ var y = {
                                     "start": 132,
                                     "end": 149
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -616,11 +616,11 @@ var y = {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 151
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -628,7 +628,7 @@ var y = {
                     "start": 126,
                     "end": 151
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -638,7 +638,7 @@ var y = {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -663,13 +663,28 @@ var y = {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class C {
+    get x() {
+        return 1;
+    }
+}
+
+class D {
+    set x(v) {
+    }
+}
+
+var x = { get a() { return 1; } };
+
+var y = { set b(v) { } };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

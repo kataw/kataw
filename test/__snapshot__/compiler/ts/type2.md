@@ -19,11 +19,11 @@ type x = [];
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type x = a[][];\ntype x = a[]\\n[];\ntype x = []\\n[];\ntype x = [][]\\na;\ntype x = \\na[];\ntype x = [];",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -31,7 +31,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -49,7 +49,7 @@ type x = [];
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -58,7 +58,7 @@ type x = [];
                                 "end": 10
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -66,7 +66,7 @@ type x = [];
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -74,7 +74,7 @@ type x = [];
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -83,7 +83,7 @@ type x = [];
                     "end": 15
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -97,7 +97,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -113,7 +113,7 @@ type x = [];
                             "kind": 196711,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -122,7 +122,7 @@ type x = [];
                             "end": 26
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -130,7 +130,7 @@ type x = [];
                         "start": 24,
                         "end": 27
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -139,7 +139,7 @@ type x = [];
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -155,7 +155,7 @@ type x = [];
                         "kind": 196712,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -174,7 +174,7 @@ type x = [];
                         "start": 30,
                         "end": 30
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -196,7 +196,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -207,7 +207,7 @@ type x = [];
                 "type": {
                     "kind": 224,
                     "elementTypes": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -216,7 +216,7 @@ type x = [];
                     "end": 45
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -232,7 +232,7 @@ type x = [];
                         "kind": 196712,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -251,7 +251,7 @@ type x = [];
                         "start": 47,
                         "end": 47
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -273,7 +273,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -286,7 +286,7 @@ type x = [];
                     "elementType": {
                         "kind": 224,
                         "elementTypes": [],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -294,7 +294,7 @@ type x = [];
                         "start": 59,
                         "end": 62
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -303,7 +303,7 @@ type x = [];
                     "end": 65
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -317,7 +317,7 @@ type x = [];
                     "kind": 196712,
                     "text": "na",
                     "rawText": "na",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -339,7 +339,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -353,7 +353,7 @@ type x = [];
                         "kind": 196712,
                         "text": "",
                         "rawText": "",
-                        "flags": 2,
+                        "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -362,7 +362,7 @@ type x = [];
                         "end": 77
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -371,7 +371,7 @@ type x = [];
                     "end": 79
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -387,7 +387,7 @@ type x = [];
                         "kind": 196712,
                         "text": "na",
                         "rawText": "na",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -406,7 +406,7 @@ type x = [];
                         "start": 81,
                         "end": 81
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -428,7 +428,7 @@ type x = [];
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -439,7 +439,7 @@ type x = [];
                 "type": {
                     "kind": 224,
                     "elementTypes": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -448,7 +448,7 @@ type x = [];
                     "end": 96
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -458,7 +458,7 @@ type x = [];
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -533,13 +533,34 @@ type x = [];
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type x = a[][];
+
+type x = a[];
+
+n[undefined]
+
+type x = [];
+
+n[undefined]
+
+type x = [][];
+
+na
+
+type x = ;
+
+na[undefined]
+
+type x = [];
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Type expected - start: 104, end: 0
 
 ```
 

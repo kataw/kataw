@@ -14,11 +14,11 @@ interface I<T extends object = { x: number }> {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I<T extends object = { x: number }> {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -26,7 +26,7 @@ interface I<T extends object = { x: number }> {}
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -43,7 +43,7 @@ interface I<T extends object = { x: number }> {}
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -72,7 +72,7 @@ interface I<T extends object = { x: number }> {}
                                                 "kind": 196711,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -95,7 +95,7 @@ interface I<T extends object = { x: number }> {}
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -104,7 +104,7 @@ interface I<T extends object = { x: number }> {}
                                             "end": 42
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -112,7 +112,7 @@ interface I<T extends object = { x: number }> {}
                                     "start": 32,
                                     "end": 44
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -121,7 +121,7 @@ interface I<T extends object = { x: number }> {}
                                 "end": 44
                             },
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -130,7 +130,7 @@ interface I<T extends object = { x: number }> {}
                             "end": 44
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -142,7 +142,7 @@ interface I<T extends object = { x: number }> {}
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -150,7 +150,7 @@ interface I<T extends object = { x: number }> {}
                     "start": 47,
                     "end": 47
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -160,7 +160,7 @@ interface I<T extends object = { x: number }> {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -185,13 +185,16 @@ interface I<T extends object = { x: number }> {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I<T extends object> {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

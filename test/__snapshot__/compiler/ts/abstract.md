@@ -215,7 +215,7 @@ export default abstract class C5 { abstract foo(): void; }
                     "end": 166
                 },
                 "decorators": null,
-                "flags": 268517408,
+                "flags": 268517440,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "parent": null,
@@ -252,7 +252,7 @@ export default abstract class C5 { abstract foo(): void; }
                     "end": 203
                 },
                 "decorators": null,
-                "flags": 268517408,
+                "flags": 268517440,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "parent": null,
@@ -283,7 +283,7 @@ export default abstract class C5 { abstract foo(): void; }
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -354,7 +354,7 @@ export default abstract class C5 { abstract foo(): void; }
                     "end": 313
                 },
                 "decorators": null,
-                "flags": 268501024,
+                "flags": 268501056,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "parent": null,
@@ -389,13 +389,39 @@ export default abstract class C5 { abstract foo(): void; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+abstract class C1 {
+
+}
+
+type abstract = class;
+
+C2
+
+{}
+
+export abstract class C3 {
+
+}
+
+export default abstract class {
+
+}
+
+export default abstract class C4 {
+
+}
+
+export default abstract class C5 {
+    abstract foo(): void;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

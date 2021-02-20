@@ -16,11 +16,11 @@ declare class C {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare class C {\n    get<T>(): void;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ declare class C {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -54,7 +54,7 @@ declare class C {
                                     "kind": 196711,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -66,7 +66,7 @@ declare class C {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -98,7 +98,7 @@ declare class C {
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -109,7 +109,7 @@ declare class C {
                                             "constraint": null,
                                             "defaultType": null,
                                             "expression": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -118,7 +118,7 @@ declare class C {
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -126,7 +126,7 @@ declare class C {
                                     "start": 26,
                                     "end": 27
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -134,7 +134,7 @@ declare class C {
                                 "start": 25,
                                 "end": 37
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -143,7 +143,7 @@ declare class C {
                             "end": 37
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -152,7 +152,7 @@ declare class C {
                     "end": 39
                 },
                 "decorators": null,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -162,7 +162,7 @@ declare class C {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -187,13 +187,17 @@ declare class C {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare class C {
+    get(): void;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

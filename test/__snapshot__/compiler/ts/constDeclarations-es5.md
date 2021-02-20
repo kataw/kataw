@@ -320,13 +320,19 @@ const z9 = 0, z10 :string = "", z11 = null;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const z7 = false;
+
+const z8: number = 23;
+
+const z9 = 0, z10: string = "", z11 = null;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

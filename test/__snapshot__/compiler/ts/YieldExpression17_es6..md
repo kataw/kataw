@@ -14,11 +14,11 @@ var v = { get foo() { yield foo; } }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = { get foo() { yield foo; } }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,7 +31,7 @@ var v = { get foo() { yield foo; } }
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -52,7 +52,7 @@ var v = { get foo() { yield foo; } }
                                                 "kind": 196711,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -64,7 +64,7 @@ var v = { get foo() { yield foo; } }
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -85,7 +85,7 @@ var v = { get foo() { yield foo; } }
                                                                 "kind": 196712,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -107,7 +107,7 @@ var v = { get foo() { yield foo; } }
                                                                 "kind": 196712,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
-                                                                "flags": 2,
+                                                                "flags": 65538,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -125,7 +125,7 @@ var v = { get foo() { yield foo; } }
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -133,7 +133,7 @@ var v = { get foo() { yield foo; } }
                                                     "start": 21,
                                                     "end": 32
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -145,7 +145,7 @@ var v = { get foo() { yield foo; } }
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -156,7 +156,7 @@ var v = { get foo() { yield foo; } }
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -164,7 +164,7 @@ var v = { get foo() { yield foo; } }
                                     "start": 9,
                                     "end": 34
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -177,11 +177,11 @@ var v = { get foo() { yield foo; } }
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 36
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -189,7 +189,7 @@ var v = { get foo() { yield foo; } }
                     "start": 3,
                     "end": 36
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -199,7 +199,7 @@ var v = { get foo() { yield foo; } }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -232,13 +232,16 @@ var v = { get foo() { yield foo; } }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = { get foo() { yield foo } };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 29, end: 0
 
 ```
 

@@ -17,11 +17,11 @@ enum E {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "enum E {\n    const,\n    default\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -29,7 +29,7 @@ enum E {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -46,7 +46,7 @@ enum E {
                                 "kind": 196711,
                                 "text": "const",
                                 "rawText": "const",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -55,7 +55,7 @@ enum E {
                                 "end": 18
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -69,7 +69,7 @@ enum E {
                                 "kind": 196711,
                                 "text": "default",
                                 "rawText": "default",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -78,7 +78,7 @@ enum E {
                                 "end": 31
                             },
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -87,7 +87,7 @@ enum E {
                             "end": 31
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -96,7 +96,7 @@ enum E {
                     "end": 31
                 },
                 "isConst": false,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -106,7 +106,7 @@ enum E {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -131,13 +131,18 @@ enum E {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+enum E {
+    const,
+    default
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

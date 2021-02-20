@@ -22,11 +22,11 @@ function foo() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo() {\n    if (true) {\n        return 42;\n    }\n    else {\n        return \"42\";\n    }\n};\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -34,7 +34,7 @@ function foo() {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ function foo() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -65,7 +65,7 @@ function foo() {
                                 "expression": {
                                     "kind": 4260391,
                                     "text": true,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -84,7 +84,7 @@ function foo() {
                                                     "kind": 4261540,
                                                     "text": 42,
                                                     "rawText": "42",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -92,7 +92,7 @@ function foo() {
                                                     "start": 47,
                                                     "end": 50
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -102,7 +102,7 @@ function foo() {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -110,7 +110,7 @@ function foo() {
                                         "start": 32,
                                         "end": 51
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -129,7 +129,7 @@ function foo() {
                                                     "kind": 67279,
                                                     "text": "42",
                                                     "rawText": "42",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -137,7 +137,7 @@ function foo() {
                                                     "start": 83,
                                                     "end": 88
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -147,7 +147,7 @@ function foo() {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -155,7 +155,7 @@ function foo() {
                                         "start": 68,
                                         "end": 89
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -164,7 +164,7 @@ function foo() {
                                     "end": 95
                                 },
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -174,7 +174,7 @@ function foo() {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -182,7 +182,7 @@ function foo() {
                         "start": 16,
                         "end": 95
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -191,7 +191,7 @@ function foo() {
                     "end": 97
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -201,7 +201,7 @@ function foo() {
             },
             {
                 "kind": 6291526,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -211,7 +211,7 @@ function foo() {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -236,13 +236,24 @@ function foo() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo() {
+    if (true) {
+        return 42;
+    }
+    else {
+        return "42";
+    }
+}
+
+;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

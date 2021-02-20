@@ -1378,13 +1378,34 @@ export default class Operation {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export interface IValidationError {
+    message: string;
+}
+
+export default class Operation {
+    validateParameters(parameterValues: any): IValidationError[] | null {
+        let result: IValidationError[] | null = null;
+        for (const parameterLocation; of Object.keys(parameterValues)) {
+            const parameter: any = (this as any).getParameter();
+            ;
+            const values = (this as any).getValues();
+            const innerResult = parameter.validate(values[parameter.oaParameter.name]);
+            if (innerResult && innerResult.length > 0) {
+                result = (result || []).concat(innerResult)
+            }
+        }
+        return result;
+    }
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 263, end: 0
 
 ```
 

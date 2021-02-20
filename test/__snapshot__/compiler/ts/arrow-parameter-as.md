@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "(a as T) => {};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,7 +30,7 @@
                             "kind": 196712,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -44,7 +44,7 @@
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -53,7 +53,7 @@
                                 "end": 7
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -61,7 +61,7 @@
                             "start": 5,
                             "end": 8
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -69,7 +69,7 @@
                         "start": 2,
                         "end": 7
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -91,7 +91,7 @@
                     "kind": 2084,
                     "statements": [],
                     "multiline": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -99,7 +99,7 @@
                     "start": 13,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -109,7 +109,7 @@
             },
             {
                 "kind": 6291526,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -119,7 +119,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -152,13 +152,19 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+(a as T)
+
+{}
+
+;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

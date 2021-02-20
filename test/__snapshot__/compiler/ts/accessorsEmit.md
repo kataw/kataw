@@ -49,11 +49,11 @@ var Test = (function () {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "//// [accessorsEmit.ts]\nclass Result { }\n\nclass Test {\n    get Property(): Result {\n        var x = 1;\n        return null;\n    }\n}\n\nclass Test2 {\n    get Property() {\n        var x = 1;\n        return null;\n    }\n}\n\n//// [accessorsEmit.js]\nvar Result = (function () {\n    function Result() {\n    }\n    return Result;\n})();\nvar Test = (function () {\n    function Test() {\n    }\n    Object.defineProperty(Test.prototype, \"Property\", {\n        get: function () {\n            var x = 1;\n            return null;\n        },\n        enumerable: true,\n        configurable: true\n    });\n    return Test;\n})();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -61,7 +61,7 @@ var Test = (function () {
                     "kind": 131102,
                     "text": "Result",
                     "rawText": "Result",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -75,7 +75,7 @@ var Test = (function () {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -84,7 +84,7 @@ var Test = (function () {
                     "end": 40
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -98,7 +98,7 @@ var Test = (function () {
                     "kind": 131102,
                     "text": "Test",
                     "rawText": "Test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -124,7 +124,7 @@ var Test = (function () {
                                     "kind": 196711,
                                     "text": "Property",
                                     "rawText": "Property",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -136,7 +136,7 @@ var Test = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -162,7 +162,7 @@ var Test = (function () {
                                                                 "kind": 131102,
                                                                 "text": "x",
                                                                 "rawText": "x",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -176,7 +176,7 @@ var Test = (function () {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -189,11 +189,11 @@ var Test = (function () {
                                                             "transformFlags": 0,
                                                             "parent": null,
                                                             "emitNode": null,
-                                                            "start": 0,
+                                                            "start": 65536,
                                                             "end": 101
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -201,7 +201,7 @@ var Test = (function () {
                                                     "start": 95,
                                                     "end": 101
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -214,7 +214,7 @@ var Test = (function () {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -222,7 +222,7 @@ var Test = (function () {
                                                     "start": 117,
                                                     "end": 122
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -232,7 +232,7 @@ var Test = (function () {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -240,7 +240,7 @@ var Test = (function () {
                                         "start": 83,
                                         "end": 123
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -255,7 +255,7 @@ var Test = (function () {
                                         "kind": 196711,
                                         "text": "Result",
                                         "rawText": "Result",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -264,7 +264,7 @@ var Test = (function () {
                                         "end": 81
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -274,7 +274,7 @@ var Test = (function () {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -282,7 +282,7 @@ var Test = (function () {
                                 "start": 71,
                                 "end": 129
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -291,7 +291,7 @@ var Test = (function () {
                             "end": 129
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -300,7 +300,7 @@ var Test = (function () {
                     "end": 131
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -314,7 +314,7 @@ var Test = (function () {
                     "kind": 131102,
                     "text": "Test2",
                     "rawText": "Test2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -340,7 +340,7 @@ var Test = (function () {
                                     "kind": 196711,
                                     "text": "Property",
                                     "rawText": "Property",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -352,7 +352,7 @@ var Test = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -378,7 +378,7 @@ var Test = (function () {
                                                                 "kind": 131102,
                                                                 "text": "x",
                                                                 "rawText": "x",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -392,7 +392,7 @@ var Test = (function () {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -405,11 +405,11 @@ var Test = (function () {
                                                             "transformFlags": 0,
                                                             "parent": null,
                                                             "emitNode": null,
-                                                            "start": 0,
+                                                            "start": 65536,
                                                             "end": 185
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -417,7 +417,7 @@ var Test = (function () {
                                                     "start": 179,
                                                     "end": 185
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -430,7 +430,7 @@ var Test = (function () {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -438,7 +438,7 @@ var Test = (function () {
                                                     "start": 201,
                                                     "end": 206
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -448,7 +448,7 @@ var Test = (function () {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -456,7 +456,7 @@ var Test = (function () {
                                         "start": 167,
                                         "end": 207
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -468,7 +468,7 @@ var Test = (function () {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -476,7 +476,7 @@ var Test = (function () {
                                 "start": 163,
                                 "end": 213
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -485,7 +485,7 @@ var Test = (function () {
                             "end": 213
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -494,7 +494,7 @@ var Test = (function () {
                     "end": 215
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -513,7 +513,7 @@ var Test = (function () {
                                 "kind": 131102,
                                 "text": "Result",
                                 "rawText": "Result",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -534,7 +534,7 @@ var Test = (function () {
                                             "kind": 90,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -553,7 +553,7 @@ var Test = (function () {
                                                             "kind": 131102,
                                                             "text": "Result",
                                                             "rawText": "Result",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -565,7 +565,7 @@ var Test = (function () {
                                                             "kind": 90,
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -580,7 +580,7 @@ var Test = (function () {
                                                                 "kind": 94,
                                                                 "statements": [],
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -588,7 +588,7 @@ var Test = (function () {
                                                                 "start": 292,
                                                                 "end": 292
                                                             },
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -597,7 +597,7 @@ var Test = (function () {
                                                             "end": 298
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 256,
                                                         "parent": null,
@@ -611,7 +611,7 @@ var Test = (function () {
                                                             "kind": 196712,
                                                             "text": "Result",
                                                             "rawText": "Result",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -619,7 +619,7 @@ var Test = (function () {
                                                             "start": 309,
                                                             "end": 316
                                                         },
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -629,7 +629,7 @@ var Test = (function () {
                                                     }
                                                 ],
                                                 "multiline": true,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -637,7 +637,7 @@ var Test = (function () {
                                                 "start": 268,
                                                 "end": 317
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -647,7 +647,7 @@ var Test = (function () {
                                         },
                                         "typeParameters": null,
                                         "type": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -655,7 +655,7 @@ var Test = (function () {
                                         "start": 255,
                                         "end": 319
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -669,14 +669,14 @@ var Test = (function () {
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 322,
                                     "end": 322
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -689,11 +689,11 @@ var Test = (function () {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 322
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -701,7 +701,7 @@ var Test = (function () {
                     "start": 244,
                     "end": 322
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -720,7 +720,7 @@ var Test = (function () {
                                 "kind": 131102,
                                 "text": "Test",
                                 "rawText": "Test",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -741,7 +741,7 @@ var Test = (function () {
                                             "kind": 90,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -760,7 +760,7 @@ var Test = (function () {
                                                             "kind": 131102,
                                                             "text": "Test",
                                                             "rawText": "Test",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -772,7 +772,7 @@ var Test = (function () {
                                                             "kind": 90,
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -787,7 +787,7 @@ var Test = (function () {
                                                                 "kind": 94,
                                                                 "statements": [],
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -795,7 +795,7 @@ var Test = (function () {
                                                                 "start": 371,
                                                                 "end": 371
                                                             },
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -804,7 +804,7 @@ var Test = (function () {
                                                             "end": 377
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 256,
                                                         "parent": null,
@@ -822,7 +822,7 @@ var Test = (function () {
                                                                     "kind": 196712,
                                                                     "text": "Object",
                                                                     "rawText": "Object",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -834,7 +834,7 @@ var Test = (function () {
                                                                     "kind": 196711,
                                                                     "text": "defineProperty",
                                                                     "rawText": "defineProperty",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -842,7 +842,7 @@ var Test = (function () {
                                                                     "start": 389,
                                                                     "end": 403
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -860,7 +860,7 @@ var Test = (function () {
                                                                             "kind": 196712,
                                                                             "text": "Test",
                                                                             "rawText": "Test",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -872,7 +872,7 @@ var Test = (function () {
                                                                             "kind": 196711,
                                                                             "text": "prototype",
                                                                             "rawText": "prototype",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -880,7 +880,7 @@ var Test = (function () {
                                                                             "start": 409,
                                                                             "end": 418
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -892,7 +892,7 @@ var Test = (function () {
                                                                         "kind": 67279,
                                                                         "text": "Property",
                                                                         "rawText": "Property",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -911,7 +911,7 @@ var Test = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "get",
                                                                                         "rawText": "get",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -926,7 +926,7 @@ var Test = (function () {
                                                                                             "kind": 90,
                                                                                             "formalParameterList": [],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -950,7 +950,7 @@ var Test = (function () {
                                                                                                                         "kind": 131102,
                                                                                                                         "text": "x",
                                                                                                                         "rawText": "x",
-                                                                                                                        "flags": 0,
+                                                                                                                        "flags": 65536,
                                                                                                                         "intersects": false,
                                                                                                                         "transformFlags": 1025,
                                                                                                                         "parent": null,
@@ -964,7 +964,7 @@ var Test = (function () {
                                                                                                                         "kind": 4261540,
                                                                                                                         "text": 1,
                                                                                                                         "rawText": "1",
-                                                                                                                        "flags": 0,
+                                                                                                                        "flags": 65536,
                                                                                                                         "intersects": false,
                                                                                                                         "transformFlags": 0,
                                                                                                                         "parent": null,
@@ -977,11 +977,11 @@ var Test = (function () {
                                                                                                                     "transformFlags": 0,
                                                                                                                     "parent": null,
                                                                                                                     "emitNode": null,
-                                                                                                                    "start": 0,
+                                                                                                                    "start": 65536,
                                                                                                                     "end": 482
                                                                                                                 }
                                                                                                             ],
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -989,7 +989,7 @@ var Test = (function () {
                                                                                                             "start": 476,
                                                                                                             "end": 482
                                                                                                         },
-                                                                                                        "flags": 16384,
+                                                                                                        "flags": 81920,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1002,7 +1002,7 @@ var Test = (function () {
                                                                                                         "expression": {
                                                                                                             "kind": 4260512,
                                                                                                             "text": null,
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -1010,7 +1010,7 @@ var Test = (function () {
                                                                                                             "start": 502,
                                                                                                             "end": 507
                                                                                                         },
-                                                                                                        "flags": 16384,
+                                                                                                        "flags": 81920,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1020,7 +1020,7 @@ var Test = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": true,
-                                                                                                "flags": 16384,
+                                                                                                "flags": 81920,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1028,7 +1028,7 @@ var Test = (function () {
                                                                                                 "start": 460,
                                                                                                 "end": 508
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1038,7 +1038,7 @@ var Test = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1048,7 +1048,7 @@ var Test = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1062,7 +1062,7 @@ var Test = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "enumerable",
                                                                                         "rawText": "enumerable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1073,7 +1073,7 @@ var Test = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1083,7 +1083,7 @@ var Test = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1097,7 +1097,7 @@ var Test = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "configurable",
                                                                                         "rawText": "configurable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1108,7 +1108,7 @@ var Test = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1118,7 +1118,7 @@ var Test = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1129,7 +1129,7 @@ var Test = (function () {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1137,7 +1137,7 @@ var Test = (function () {
                                                                             "start": 433,
                                                                             "end": 572
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1148,14 +1148,14 @@ var Test = (function () {
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "transformFlags": 0,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 408,
                                                                 "end": 579
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1177,7 +1177,7 @@ var Test = (function () {
                                                             "kind": 196712,
                                                             "text": "Test",
                                                             "rawText": "Test",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1185,7 +1185,7 @@ var Test = (function () {
                                                             "start": 591,
                                                             "end": 596
                                                         },
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1195,7 +1195,7 @@ var Test = (function () {
                                                     }
                                                 ],
                                                 "multiline": true,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1203,7 +1203,7 @@ var Test = (function () {
                                                 "start": 349,
                                                 "end": 597
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1213,7 +1213,7 @@ var Test = (function () {
                                         },
                                         "typeParameters": null,
                                         "type": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1221,7 +1221,7 @@ var Test = (function () {
                                         "start": 336,
                                         "end": 599
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1235,14 +1235,14 @@ var Test = (function () {
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 602,
                                     "end": 602
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1255,11 +1255,11 @@ var Test = (function () {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 602
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1267,7 +1267,7 @@ var Test = (function () {
                     "start": 327,
                     "end": 602
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1277,7 +1277,7 @@ var Test = (function () {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1302,13 +1302,47 @@ var Test = (function () {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Result {
+
+}
+
+class Test {
+    get Property(): Result {
+        var x = 1;
+        return null;
+    }
+}
+
+class Test2 {
+    get Property() {
+        var x = 1;
+        return null;
+    }
+}
+
+var Result = (function () {
+    function Result() {
+    }
+    return Result;
+})();
+
+var Test = (function () {
+    function Test() {
+    }
+    Object.defineProperty(Test.prototype, "Property", { get : function () {
+            var x = 1;
+            return null;
+        }, enumerable : true, configurable : true })
+    return Test;
+})();
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

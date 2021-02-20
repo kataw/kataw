@@ -14,11 +14,11 @@ function test(abc: Map<symbol, string>) {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function test(abc: Map<symbol, string>) {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -26,7 +26,7 @@ function test(abc: Map<symbol, string>) {}
                     "kind": 131102,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -44,7 +44,7 @@ function test(abc: Map<symbol, string>) {}
                                 "kind": 131102,
                                 "text": "abc",
                                 "rawText": "abc",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -59,7 +59,7 @@ function test(abc: Map<symbol, string>) {}
                                     "kind": 196711,
                                     "text": "Map",
                                     "rawText": "Map",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -91,7 +91,7 @@ function test(abc: Map<symbol, string>) {}
                                             "end": 37
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -99,7 +99,7 @@ function test(abc: Map<symbol, string>) {}
                                     "start": 23,
                                     "end": 37
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -111,7 +111,7 @@ function test(abc: Map<symbol, string>) {}
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -121,7 +121,7 @@ function test(abc: Map<symbol, string>) {}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -136,7 +136,7 @@ function test(abc: Map<symbol, string>) {}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -144,7 +144,7 @@ function test(abc: Map<symbol, string>) {}
                         "start": 41,
                         "end": 41
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -153,7 +153,7 @@ function test(abc: Map<symbol, string>) {}
                     "end": 42
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -163,7 +163,7 @@ function test(abc: Map<symbol, string>) {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -188,13 +188,15 @@ function test(abc: Map<symbol, string>) {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function test(abc: Map<symbol, string>) { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -300,7 +300,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -339,7 +339,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -378,7 +378,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -389,7 +389,7 @@ class C extends B {
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -453,7 +453,7 @@ class C extends B {
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -547,7 +547,7 @@ class C extends B {
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -1115,13 +1115,37 @@ class C extends B {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface A {
+    prop: string;
+    raw: string;
+    m(): void;
+}
+
+abstract class B implements A {
+    abstract prop: string;
+    abstract raw: string;
+    abstract readonly ro: string;
+    abstract get readonlyProp(): string;
+    abstract set readonlyProp(val: string);
+    abstract m(): void;
+}
+
+class C extends B {
+    get prop() { return "foo"; }
+    set prop(v) { }
+    raw = "edge";
+    readonly ro = "readonly please";
+    readonlyProp: string;
+    m() { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

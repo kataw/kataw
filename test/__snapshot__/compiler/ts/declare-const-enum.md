@@ -14,11 +14,11 @@ declare const enum E {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare const enum E {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -26,7 +26,7 @@ declare const enum E {}
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -37,7 +37,7 @@ declare const enum E {}
                 "members": {
                     "kind": 73,
                     "enumMembersList": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -46,7 +46,7 @@ declare const enum E {}
                     "end": 22
                 },
                 "isConst": true,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -56,7 +56,7 @@ declare const enum E {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -81,13 +81,16 @@ declare const enum E {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare const enum E {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

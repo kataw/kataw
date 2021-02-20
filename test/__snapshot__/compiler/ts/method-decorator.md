@@ -238,13 +238,20 @@ class B {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class B {
+
+    @onlyRead(false)
+
+    instanceMethod() { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

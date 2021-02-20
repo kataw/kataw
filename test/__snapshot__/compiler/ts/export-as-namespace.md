@@ -156,13 +156,22 @@ export as namespace A;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export ;
+
+as
+
+namespace A {};
+
+;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 0
 
 ```
 

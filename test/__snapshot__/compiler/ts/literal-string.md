@@ -14,11 +14,11 @@ let x: "foo";
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let x: \"foo\";",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let x: "foo";
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -45,7 +45,7 @@ let x: "foo";
                                 "kind": 208,
                                 "value": "foo",
                                 "rawValue": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -54,7 +54,7 @@ let x: "foo";
                                 "end": 12
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -63,7 +63,7 @@ let x: "foo";
                             "end": 12
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -71,7 +71,7 @@ let x: "foo";
                     "start": 3,
                     "end": 12
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -81,7 +81,7 @@ let x: "foo";
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -106,13 +106,15 @@ let x: "foo";
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let x: "foo";
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ let a
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let a",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let a
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -43,7 +43,7 @@ let a
                             "exclamation": false,
                             "type": null,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -52,7 +52,7 @@ let a
                             "end": 5
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -60,7 +60,7 @@ let a
                     "start": 3,
                     "end": 5
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -70,7 +70,7 @@ let a
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -95,13 +95,15 @@ let a
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let a;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ var v = (a: ) => {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = (a: ) => {\n\n};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -33,7 +33,7 @@ var v = (a: ) => {
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -50,7 +50,7 @@ var v = (a: ) => {
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -66,7 +66,7 @@ var v = (a: ) => {
                                                 "kind": 196712,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -81,7 +81,7 @@ var v = (a: ) => {
                                                     "kind": 196712,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 2,
+                                                    "flags": 65538,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -90,7 +90,7 @@ var v = (a: ) => {
                                                     "end": 11
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 2,
+                                                "flags": 65538,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -102,7 +102,7 @@ var v = (a: ) => {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 2,
+                                            "flags": 65538,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -128,7 +128,7 @@ var v = (a: ) => {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -136,7 +136,7 @@ var v = (a: ) => {
                                         "start": 18,
                                         "end": 18
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -144,7 +144,7 @@ var v = (a: ) => {
                                     "start": 16,
                                     "end": 21
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -157,11 +157,11 @@ var v = (a: ) => {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 21
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -169,7 +169,7 @@ var v = (a: ) => {
                     "start": 3,
                     "end": 21
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -179,7 +179,7 @@ var v = (a: ) => {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -212,13 +212,17 @@ var v = (a: ) => {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = (a: ) =>  {
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Type expected - start: 13, end: 0
 
 ```
 

@@ -23,11 +23,11 @@ declare var Array: {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare var Array: {\n  new (arrayLength?: number): any[];\n  new <T>(arrayLength: number): T[];\n  new <T>(...items: T[]): T[];\n  (arrayLength?: number): any[];\n  <T>(arrayLength: number): T[];\n  <T>(...items: T[]): T[];\n  isArray(arg: any): boolean;\n  prototype: Array<any>;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -40,7 +40,7 @@ declare var Array: {
                                 "kind": 131102,
                                 "text": "Array",
                                 "rawText": "Array",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -69,7 +69,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "arrayLength",
                                                             "rawText": "arrayLength",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -91,7 +91,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -101,7 +101,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -121,7 +121,7 @@ declare var Array: {
                                                     "start": 50,
                                                     "end": 54
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -129,7 +129,7 @@ declare var Array: {
                                                 "start": 50,
                                                 "end": 57
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -150,7 +150,7 @@ declare var Array: {
                                                             "kind": 196711,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -161,7 +161,7 @@ declare var Array: {
                                                         "constraint": null,
                                                         "defaultType": null,
                                                         "expression": null,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -170,7 +170,7 @@ declare var Array: {
                                                         "end": 66
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -188,7 +188,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "arrayLength",
                                                             "rawText": "arrayLength",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -210,7 +210,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -220,7 +220,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -236,7 +236,7 @@ declare var Array: {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -245,7 +245,7 @@ declare var Array: {
                                                         "end": 91
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -253,7 +253,7 @@ declare var Array: {
                                                     "start": 89,
                                                     "end": 92
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -261,7 +261,7 @@ declare var Array: {
                                                 "start": 89,
                                                 "end": 94
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -282,7 +282,7 @@ declare var Array: {
                                                             "kind": 196711,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -293,7 +293,7 @@ declare var Array: {
                                                         "constraint": null,
                                                         "defaultType": null,
                                                         "expression": null,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -302,7 +302,7 @@ declare var Array: {
                                                         "end": 103
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -320,7 +320,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "items",
                                                             "rawText": "items",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -337,7 +337,7 @@ declare var Array: {
                                                                     "kind": 196711,
                                                                     "text": "T",
                                                                     "rawText": "T",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -346,7 +346,7 @@ declare var Array: {
                                                                     "end": 116
                                                                 },
                                                                 "typeArguments": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -354,7 +354,7 @@ declare var Array: {
                                                                 "start": 114,
                                                                 "end": 117
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -365,7 +365,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 4097,
                                                         "parent": null,
@@ -375,7 +375,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -391,7 +391,7 @@ declare var Array: {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -400,7 +400,7 @@ declare var Array: {
                                                         "end": 122
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -408,7 +408,7 @@ declare var Array: {
                                                     "start": 120,
                                                     "end": 123
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -416,7 +416,7 @@ declare var Array: {
                                                 "start": 120,
                                                 "end": 125
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -439,7 +439,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "arrayLength",
                                                             "rawText": "arrayLength",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -461,7 +461,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -471,7 +471,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -491,7 +491,7 @@ declare var Array: {
                                                     "start": 151,
                                                     "end": 155
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -499,7 +499,7 @@ declare var Array: {
                                                 "start": 151,
                                                 "end": 158
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -520,7 +520,7 @@ declare var Array: {
                                                             "kind": 196711,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -531,7 +531,7 @@ declare var Array: {
                                                         "constraint": null,
                                                         "defaultType": null,
                                                         "expression": null,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -540,7 +540,7 @@ declare var Array: {
                                                         "end": 163
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -558,7 +558,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "arrayLength",
                                                             "rawText": "arrayLength",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -580,7 +580,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -590,7 +590,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -606,7 +606,7 @@ declare var Array: {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -615,7 +615,7 @@ declare var Array: {
                                                         "end": 188
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -623,7 +623,7 @@ declare var Array: {
                                                     "start": 186,
                                                     "end": 189
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -631,7 +631,7 @@ declare var Array: {
                                                 "start": 186,
                                                 "end": 191
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -652,7 +652,7 @@ declare var Array: {
                                                             "kind": 196711,
                                                             "text": "T",
                                                             "rawText": "T",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -663,7 +663,7 @@ declare var Array: {
                                                         "constraint": null,
                                                         "defaultType": null,
                                                         "expression": null,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -672,7 +672,7 @@ declare var Array: {
                                                         "end": 196
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -690,7 +690,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "items",
                                                             "rawText": "items",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -707,7 +707,7 @@ declare var Array: {
                                                                     "kind": 196711,
                                                                     "text": "T",
                                                                     "rawText": "T",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -716,7 +716,7 @@ declare var Array: {
                                                                     "end": 209
                                                                 },
                                                                 "typeArguments": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -724,7 +724,7 @@ declare var Array: {
                                                                 "start": 207,
                                                                 "end": 210
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -735,7 +735,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 4097,
                                                         "parent": null,
@@ -745,7 +745,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -761,7 +761,7 @@ declare var Array: {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -770,7 +770,7 @@ declare var Array: {
                                                         "end": 215
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -778,7 +778,7 @@ declare var Array: {
                                                     "start": 213,
                                                     "end": 216
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -786,7 +786,7 @@ declare var Array: {
                                                 "start": 213,
                                                 "end": 218
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -800,7 +800,7 @@ declare var Array: {
                                                 "kind": 196711,
                                                 "text": "isArray",
                                                 "rawText": "isArray",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -823,7 +823,7 @@ declare var Array: {
                                                             "kind": 131102,
                                                             "text": "arg",
                                                             "rawText": "arg",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -845,7 +845,7 @@ declare var Array: {
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -855,7 +855,7 @@ declare var Array: {
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -873,7 +873,7 @@ declare var Array: {
                                                 "start": 239,
                                                 "end": 247
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -887,7 +887,7 @@ declare var Array: {
                                                 "kind": 196711,
                                                 "text": "prototype",
                                                 "rawText": "prototype",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -903,7 +903,7 @@ declare var Array: {
                                                     "kind": 196711,
                                                     "text": "Array",
                                                     "rawText": "Array",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -925,7 +925,7 @@ declare var Array: {
                                                             "end": 271
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -933,7 +933,7 @@ declare var Array: {
                                                     "start": 268,
                                                     "end": 271
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -944,7 +944,7 @@ declare var Array: {
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -953,7 +953,7 @@ declare var Array: {
                                             "end": 273
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -961,7 +961,7 @@ declare var Array: {
                                     "start": 20,
                                     "end": 275
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -975,11 +975,11 @@ declare var Array: {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 275
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -987,7 +987,7 @@ declare var Array: {
                     "start": 11,
                     "end": 275
                 },
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -997,7 +997,7 @@ declare var Array: {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1022,13 +1022,24 @@ declare var Array: {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare var Array: {
+    new (arrayLength?: number):any[];
+    new <T>(arrayLength: number):T[];
+    new <T>(...items: T[]):T[];
+    (arrayLength?: number):any[];
+    <T>(arrayLength: number):T[];
+    <T>(...items: T[]):T[];
+    isArray(arg: any): boolean;
+    prototype: Array<any>;
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

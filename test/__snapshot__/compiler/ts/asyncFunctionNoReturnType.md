@@ -18,11 +18,11 @@ async () => {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "async () => {\n    if (window)\n        return;\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -54,7 +54,7 @@ async () => {
                                         "kind": 196712,
                                         "text": "window",
                                         "rawText": "window",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -65,7 +65,7 @@ async () => {
                                     "consequent": {
                                         "kind": 2097346,
                                         "expression": null,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -75,7 +75,7 @@ async () => {
                                     },
                                     "alternate": null,
                                     "isWebCompat": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -85,7 +85,7 @@ async () => {
                                 }
                             ],
                             "multiline": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -93,7 +93,7 @@ async () => {
                             "start": 13,
                             "end": 45
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -101,7 +101,7 @@ async () => {
                         "start": 11,
                         "end": 47
                     },
-                    "flags": 536887296,
+                    "flags": 536952832,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -119,7 +119,7 @@ async () => {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -144,13 +144,18 @@ async () => {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async () =>  {
+    if (window)
+        return;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -19,11 +19,11 @@ x as boolean ?? y; // (x as boolean) ?? y;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x as T;\nx < y as boolean; // (x < y) as boolean;\nx as boolean <= y; // (x as boolean) <= y;\nx === 1 as number; // x === (1 as number);\nx as any as T;\nx as boolean ?? y; // (x as boolean) ?? y;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -33,7 +33,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -47,7 +47,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196711,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -56,7 +56,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "end": 6
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -64,7 +64,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 4,
                         "end": 7
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -90,7 +90,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -103,7 +103,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -111,7 +111,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "start": 11,
                             "end": 13
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -129,7 +129,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 16,
                         "end": 24
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -155,7 +155,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -173,7 +173,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "start": 53,
                             "end": 61
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -186,7 +186,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "kind": 196712,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -194,7 +194,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 64,
                         "end": 66
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -220,7 +220,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -233,7 +233,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 4261540,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -241,7 +241,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "start": 97,
                             "end": 99
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -259,7 +259,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 102,
                         "end": 109
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -285,7 +285,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -303,7 +303,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "start": 139,
                             "end": 143
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -317,7 +317,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196711,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -326,7 +326,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "end": 148
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -334,7 +334,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 146,
                         "end": 149
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -360,7 +360,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -378,7 +378,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                             "start": 154,
                             "end": 162
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -391,7 +391,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "kind": 196712,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -399,7 +399,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
                         "start": 165,
                         "end": 167
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 34,
                     "parent": null,
@@ -417,7 +417,7 @@ x as boolean ?? y; // (x as boolean) ?? y;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -442,13 +442,25 @@ x as boolean ?? y; // (x as boolean) ?? y;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+x as T
+
+x < y as boolean
+
+x as boolean <= y
+
+x === 1 as number
+
+x as any as T
+
+x as boolean ?? y
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

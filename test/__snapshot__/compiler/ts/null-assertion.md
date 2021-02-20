@@ -16,11 +16,11 @@ const x = foo()!;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x! / 2\n\nconst x = foo()!;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -32,7 +32,7 @@ const x = foo()!;
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -40,7 +40,7 @@ const x = foo()!;
                             "start": 0,
                             "end": 1
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -53,7 +53,7 @@ const x = foo()!;
                         "kind": 4261540,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -61,7 +61,7 @@ const x = foo()!;
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -89,7 +89,7 @@ const x = foo()!;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -107,7 +107,7 @@ const x = foo()!;
                                         "kind": 196712,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -121,14 +121,14 @@ const x = foo()!;
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 23,
                                         "end": 23
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -136,7 +136,7 @@ const x = foo()!;
                                     "start": 21,
                                     "end": 23
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -144,7 +144,7 @@ const x = foo()!;
                                 "start": 23,
                                 "end": 24
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -153,7 +153,7 @@ const x = foo()!;
                             "end": 24
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -161,7 +161,7 @@ const x = foo()!;
                     "start": 13,
                     "end": 24
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -171,7 +171,7 @@ const x = foo()!;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -196,13 +196,17 @@ const x = foo()!;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+x! / 2
+
+const x = foo()!;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

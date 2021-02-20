@@ -15,11 +15,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "(a,\n'')",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -32,7 +32,7 @@
                                 "kind": 196712,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -44,7 +44,7 @@
                                 "kind": 67279,
                                 "text": "",
                                 "rawText": "",
-                                "flags": 16793600,
+                                "flags": 16859136,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -53,7 +53,7 @@
                                 "end": 6
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -61,7 +61,7 @@
                         "start": 1,
                         "end": 6
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -79,7 +79,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -104,13 +104,15 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+(a, "")
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

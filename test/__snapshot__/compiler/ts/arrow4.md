@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "(private) =>x",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -29,7 +29,7 @@
                         "typeParameters": {
                             "kind": 233,
                             "typeParameterList": [],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -45,7 +45,7 @@
                                     "kind": 4325406,
                                     "text": "private",
                                     "rawText": "private",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -83,7 +83,7 @@
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -91,7 +91,7 @@
                         "start": 12,
                         "end": 13
                     },
-                    "flags": 536870912,
+                    "flags": 536936448,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -109,7 +109,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -134,13 +134,15 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+(private) => x
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

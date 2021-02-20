@@ -15,11 +15,11 @@ let
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\"use strict\";\nlet",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -27,7 +27,7 @@ let
                     "kind": 67279,
                     "text": "use strict",
                     "rawText": "use strict",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -49,7 +49,7 @@ let
                     "kind": 196712,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -67,7 +67,7 @@ let
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -92,13 +92,17 @@ let
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+"use strict"
+
+let
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

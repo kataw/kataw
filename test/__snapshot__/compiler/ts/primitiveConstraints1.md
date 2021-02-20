@@ -19,11 +19,11 @@ foo2<number, string>(1, 'hm'); // error
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo1<T extends U, U>(t: T, u: U) { }\nfoo1<string, number>('hm', 1); // no error\n\nfunction foo2<T, U extends T>(t: T, u: U) { }\nfoo2<number, string>(1, 'hm'); // error\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ foo2<number, string>(1, 'hm'); // error
                     "kind": 131102,
                     "text": "foo1",
                     "rawText": "foo1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -49,7 +49,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 131102,
                                 "text": "t",
                                 "rawText": "t",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -64,7 +64,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -73,7 +73,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 34
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -85,7 +85,7 @@ foo2<number, string>(1, 'hm'); // error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -100,7 +100,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 131102,
                                 "text": "u",
                                 "rawText": "u",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -115,7 +115,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "U",
                                     "rawText": "U",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -124,7 +124,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 40
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -136,7 +136,7 @@ foo2<number, string>(1, 'hm'); // error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -146,7 +146,7 @@ foo2<number, string>(1, 'hm'); // error
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -161,7 +161,7 @@ foo2<number, string>(1, 'hm'); // error
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -169,7 +169,7 @@ foo2<number, string>(1, 'hm'); // error
                         "start": 43,
                         "end": 43
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -186,7 +186,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -200,7 +200,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "U",
                                     "rawText": "U",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -209,7 +209,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 25
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -219,7 +219,7 @@ foo2<number, string>(1, 'hm'); // error
                             },
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -233,7 +233,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 196711,
                                 "text": "U",
                                 "rawText": "U",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -244,7 +244,7 @@ foo2<number, string>(1, 'hm'); // error
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -253,7 +253,7 @@ foo2<number, string>(1, 'hm'); // error
                             "end": 28
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -261,7 +261,7 @@ foo2<number, string>(1, 'hm'); // error
                     "start": 14,
                     "end": 28
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -277,7 +277,7 @@ foo2<number, string>(1, 'hm'); // error
                         "kind": 196712,
                         "text": "foo1",
                         "rawText": "foo1",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -309,7 +309,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "end": 65
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -324,7 +324,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 67279,
                                 "text": "hm",
                                 "rawText": "hm",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -336,7 +336,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -347,14 +347,14 @@ foo2<number, string>(1, 'hm'); // error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 67,
                         "end": 74
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -376,7 +376,7 @@ foo2<number, string>(1, 'hm'); // error
                     "kind": 131102,
                     "text": "foo2",
                     "rawText": "foo2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -394,7 +394,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 131102,
                                 "text": "t",
                                 "rawText": "t",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -409,7 +409,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -418,7 +418,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 124
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -430,7 +430,7 @@ foo2<number, string>(1, 'hm'); // error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -445,7 +445,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 131102,
                                 "text": "u",
                                 "rawText": "u",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -460,7 +460,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "U",
                                     "rawText": "U",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -469,7 +469,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 130
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -481,7 +481,7 @@ foo2<number, string>(1, 'hm'); // error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -491,7 +491,7 @@ foo2<number, string>(1, 'hm'); // error
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -506,7 +506,7 @@ foo2<number, string>(1, 'hm'); // error
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -514,7 +514,7 @@ foo2<number, string>(1, 'hm'); // error
                         "start": 133,
                         "end": 133
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -531,7 +531,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -542,7 +542,7 @@ foo2<number, string>(1, 'hm'); // error
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -556,7 +556,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 196711,
                                 "text": "U",
                                 "rawText": "U",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -570,7 +570,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -579,7 +579,7 @@ foo2<number, string>(1, 'hm'); // error
                                     "end": 118
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -589,7 +589,7 @@ foo2<number, string>(1, 'hm'); // error
                             },
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -598,7 +598,7 @@ foo2<number, string>(1, 'hm'); // error
                             "end": 118
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -606,7 +606,7 @@ foo2<number, string>(1, 'hm'); // error
                     "start": 104,
                     "end": 118
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -622,7 +622,7 @@ foo2<number, string>(1, 'hm'); // error
                         "kind": 196712,
                         "text": "foo2",
                         "rawText": "foo2",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -654,7 +654,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "end": 155
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -669,7 +669,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -681,7 +681,7 @@ foo2<number, string>(1, 'hm'); // error
                                 "kind": 67279,
                                 "text": "hm",
                                 "rawText": "hm",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -692,14 +692,14 @@ foo2<number, string>(1, 'hm'); // error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 157,
                         "end": 164
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -717,7 +717,7 @@ foo2<number, string>(1, 'hm'); // error
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -742,13 +742,21 @@ foo2<number, string>(1, 'hm'); // error
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo1<T extends U, U>(t: T, u: U) { }
+
+foo1<string, number>("hm", 1)
+
+function foo2<T, U extends T>(t: T, u: U) { }
+
+foo2<number, string>(1, "hm")
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

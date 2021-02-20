@@ -53,11 +53,11 @@ obj = bar;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Foo {\n    method(a: number): string;\n    optionalMethod?(a: number): string;\n    property: string;\n    optionalProperty?: string;\n}\n\nclass Foo {\n    additionalProperty: string;\n\n    additionalMethod(a: number): string {\n        return this.method(0);\n    }\n}\n\nclass Bar extends Foo {\n    method(a: number) {\n        return this.optionalProperty;\n    }\n}\n\n\nvar bar = new Bar();\nbar.method(0);\nbar.optionalMethod(1);\nbar.property;\nbar.optionalProperty;\nbar.additionalProperty;\nbar.additionalMethod(2);\n\nvar obj: {\n    method(a: number): string;\n    property: string;\n    additionalProperty: string;\n    additionalMethod(a: number): string;\n};\n\nbar = obj;\nobj = bar;\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -65,7 +65,7 @@ obj = bar;
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -84,7 +84,7 @@ obj = bar;
                                 "kind": 196711,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -107,7 +107,7 @@ obj = bar;
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -129,7 +129,7 @@ obj = bar;
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -139,7 +139,7 @@ obj = bar;
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -157,7 +157,7 @@ obj = bar;
                                 "start": 38,
                                 "end": 45
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -171,7 +171,7 @@ obj = bar;
                                 "kind": 196711,
                                 "text": "optionalMethod",
                                 "rawText": "optionalMethod",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -194,7 +194,7 @@ obj = bar;
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -216,7 +216,7 @@ obj = bar;
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -226,7 +226,7 @@ obj = bar;
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -244,7 +244,7 @@ obj = bar;
                                 "start": 78,
                                 "end": 85
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -258,7 +258,7 @@ obj = bar;
                                 "kind": 196711,
                                 "text": "property",
                                 "rawText": "property",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -281,7 +281,7 @@ obj = bar;
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -295,7 +295,7 @@ obj = bar;
                                 "kind": 196711,
                                 "text": "optionalProperty",
                                 "rawText": "optionalProperty",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -318,7 +318,7 @@ obj = bar;
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -327,7 +327,7 @@ obj = bar;
                             "end": 139
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -335,7 +335,7 @@ obj = bar;
                     "start": 15,
                     "end": 139
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -349,7 +349,7 @@ obj = bar;
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -369,7 +369,7 @@ obj = bar;
                                 "kind": 196711,
                                 "text": "additionalProperty",
                                 "rawText": "additionalProperty",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -394,7 +394,7 @@ obj = bar;
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -414,7 +414,7 @@ obj = bar;
                                     "kind": 196711,
                                     "text": "additionalMethod",
                                     "rawText": "additionalMethod",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -432,7 +432,7 @@ obj = bar;
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -455,7 +455,7 @@ obj = bar;
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -465,7 +465,7 @@ obj = bar;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -488,7 +488,7 @@ obj = bar;
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -500,7 +500,7 @@ obj = bar;
                                                             "kind": 196711,
                                                             "text": "method",
                                                             "rawText": "method",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -508,7 +508,7 @@ obj = bar;
                                                             "start": 250,
                                                             "end": 256
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -524,7 +524,7 @@ obj = bar;
                                                                 "kind": 4261540,
                                                                 "text": 0,
                                                                 "rawText": "0",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -535,14 +535,14 @@ obj = bar;
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 258,
                                                         "end": 259
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -550,7 +550,7 @@ obj = bar;
                                                     "start": 256,
                                                     "end": 259
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -560,7 +560,7 @@ obj = bar;
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -568,7 +568,7 @@ obj = bar;
                                         "start": 229,
                                         "end": 260
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -589,7 +589,7 @@ obj = bar;
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -597,7 +597,7 @@ obj = bar;
                                 "start": 208,
                                 "end": 266
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -606,7 +606,7 @@ obj = bar;
                             "end": 266
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -615,7 +615,7 @@ obj = bar;
                     "end": 268
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -629,7 +629,7 @@ obj = bar;
                     "kind": 131102,
                     "text": "Bar",
                     "rawText": "Bar",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -644,7 +644,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "Foo",
                         "rawText": "Foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -653,7 +653,7 @@ obj = bar;
                         "end": 291
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -677,7 +677,7 @@ obj = bar;
                                     "kind": 196711,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -695,7 +695,7 @@ obj = bar;
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -718,7 +718,7 @@ obj = bar;
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -728,7 +728,7 @@ obj = bar;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -749,7 +749,7 @@ obj = bar;
                                                     "kind": 74424,
                                                     "member": {
                                                         "kind": 4260571,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -761,7 +761,7 @@ obj = bar;
                                                         "kind": 196711,
                                                         "text": "optionalProperty",
                                                         "rawText": "optionalProperty",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -769,7 +769,7 @@ obj = bar;
                                                         "start": 338,
                                                         "end": 354
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -777,7 +777,7 @@ obj = bar;
                                                     "start": 337,
                                                     "end": 354
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -787,7 +787,7 @@ obj = bar;
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -795,7 +795,7 @@ obj = bar;
                                         "start": 317,
                                         "end": 355
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -807,7 +807,7 @@ obj = bar;
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -815,7 +815,7 @@ obj = bar;
                                 "start": 304,
                                 "end": 361
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -824,7 +824,7 @@ obj = bar;
                             "end": 361
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -833,7 +833,7 @@ obj = bar;
                     "end": 363
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -852,7 +852,7 @@ obj = bar;
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -868,7 +868,7 @@ obj = bar;
                                     "kind": 196712,
                                     "text": "Bar",
                                     "rawText": "Bar",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -882,7 +882,7 @@ obj = bar;
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -894,7 +894,7 @@ obj = bar;
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 385
                             },
                             "flags": 369,
@@ -902,11 +902,11 @@ obj = bar;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 385
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -914,7 +914,7 @@ obj = bar;
                     "start": 369,
                     "end": 385
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -932,7 +932,7 @@ obj = bar;
                             "kind": 196712,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -944,7 +944,7 @@ obj = bar;
                             "kind": 196711,
                             "text": "method",
                             "rawText": "method",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -952,7 +952,7 @@ obj = bar;
                             "start": 391,
                             "end": 397
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -968,7 +968,7 @@ obj = bar;
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -979,14 +979,14 @@ obj = bar;
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 399,
                         "end": 400
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1012,7 +1012,7 @@ obj = bar;
                             "kind": 196712,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1024,7 +1024,7 @@ obj = bar;
                             "kind": 196711,
                             "text": "optionalMethod",
                             "rawText": "optionalMethod",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1032,7 +1032,7 @@ obj = bar;
                             "start": 406,
                             "end": 420
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1048,7 +1048,7 @@ obj = bar;
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1059,14 +1059,14 @@ obj = bar;
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 422,
                         "end": 423
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1090,7 +1090,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1102,7 +1102,7 @@ obj = bar;
                         "kind": 196711,
                         "text": "property",
                         "rawText": "property",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1110,7 +1110,7 @@ obj = bar;
                         "start": 429,
                         "end": 437
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1134,7 +1134,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1146,7 +1146,7 @@ obj = bar;
                         "kind": 196711,
                         "text": "optionalProperty",
                         "rawText": "optionalProperty",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1154,7 +1154,7 @@ obj = bar;
                         "start": 443,
                         "end": 459
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1178,7 +1178,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1190,7 +1190,7 @@ obj = bar;
                         "kind": 196711,
                         "text": "additionalProperty",
                         "rawText": "additionalProperty",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1198,7 +1198,7 @@ obj = bar;
                         "start": 465,
                         "end": 483
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1224,7 +1224,7 @@ obj = bar;
                             "kind": 196712,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1236,7 +1236,7 @@ obj = bar;
                             "kind": 196711,
                             "text": "additionalMethod",
                             "rawText": "additionalMethod",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1244,7 +1244,7 @@ obj = bar;
                             "start": 489,
                             "end": 505
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1260,7 +1260,7 @@ obj = bar;
                                 "kind": 4261540,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1271,14 +1271,14 @@ obj = bar;
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 507,
                         "end": 508
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1305,7 +1305,7 @@ obj = bar;
                                 "kind": 131102,
                                 "text": "obj",
                                 "rawText": "obj",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1325,7 +1325,7 @@ obj = bar;
                                                 "kind": 196711,
                                                 "text": "method",
                                                 "rawText": "method",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1348,7 +1348,7 @@ obj = bar;
                                                             "kind": 131102,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -1370,7 +1370,7 @@ obj = bar;
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -1380,7 +1380,7 @@ obj = bar;
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -1398,7 +1398,7 @@ obj = bar;
                                                 "start": 544,
                                                 "end": 551
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -1412,7 +1412,7 @@ obj = bar;
                                                 "kind": 196711,
                                                 "text": "property",
                                                 "rawText": "property",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1435,7 +1435,7 @@ obj = bar;
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -1449,7 +1449,7 @@ obj = bar;
                                                 "kind": 196711,
                                                 "text": "additionalProperty",
                                                 "rawText": "additionalProperty",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1472,7 +1472,7 @@ obj = bar;
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -1486,7 +1486,7 @@ obj = bar;
                                                 "kind": 196711,
                                                 "text": "additionalMethod",
                                                 "rawText": "additionalMethod",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1509,7 +1509,7 @@ obj = bar;
                                                             "kind": 131102,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -1531,7 +1531,7 @@ obj = bar;
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -1541,7 +1541,7 @@ obj = bar;
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -1559,7 +1559,7 @@ obj = bar;
                                                 "start": 639,
                                                 "end": 646
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -1568,7 +1568,7 @@ obj = bar;
                                             "end": 647
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1576,7 +1576,7 @@ obj = bar;
                                     "start": 521,
                                     "end": 649
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1590,11 +1590,11 @@ obj = bar;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 649
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1602,7 +1602,7 @@ obj = bar;
                     "start": 514,
                     "end": 649
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1618,7 +1618,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1631,7 +1631,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1639,7 +1639,7 @@ obj = bar;
                         "start": 657,
                         "end": 661
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1663,7 +1663,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1676,7 +1676,7 @@ obj = bar;
                         "kind": 196712,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1684,7 +1684,7 @@ obj = bar;
                         "start": 668,
                         "end": 672
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1702,7 +1702,7 @@ obj = bar;
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1727,13 +1727,58 @@ obj = bar;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Foo {
+    method(a: number): string;
+    optionalMethod?(a: number): string;
+    property: string;
+    optionalProperty?: string;
+}
+
+class Foo {
+    additionalProperty: string;
+    additionalMethod(a: number): string {
+        return this.method(0);
+    }
+}
+
+class Bar extends Foo {
+    method(a: number) {
+        return this.optionalProperty;
+    }
+}
+
+var bar = new Bar();
+
+bar.method(0)
+
+bar.optionalMethod(1)
+
+bar.property
+
+bar.optionalProperty
+
+bar.additionalProperty
+
+bar.additionalMethod(2)
+
+var obj: {
+    method(a: number): string;
+    property: string;
+    additionalProperty: string;
+    additionalMethod(a: number): string;
+};
+
+bar = obj
+
+obj = bar
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ x! / 2
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "x! / 2",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,7 +30,7 @@ x! / 2
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -38,7 +38,7 @@ x! / 2
                             "start": 0,
                             "end": 1
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -51,7 +51,7 @@ x! / 2
                         "kind": 4261540,
                         "text": 2,
                         "rawText": "2",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -59,7 +59,7 @@ x! / 2
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -77,7 +77,7 @@ x! / 2
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -102,13 +102,15 @@ x! / 2
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+x! / 2
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

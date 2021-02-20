@@ -1,0 +1,206 @@
+# Kataw parser test case
+
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true, module: true }
+`````
+
+## Input
+
+`````js
+type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
+`````
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 149,
+    "source": "type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];",
+    "filename": "",
+    "moduleBody": {
+        "kind": 150,
+        "statements": [
+            {
+                "kind": 225,
+                "name": {
+                    "kind": 196712,
+                    "text": "TupleWithRest",
+                    "rawText": "TupleWithRest",
+                    "flags": 65536,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 4,
+                    "end": 18
+                },
+                "type": {
+                    "kind": 224,
+                    "elementTypes": [
+                        {
+                            "kind": 161,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 22,
+                            "end": 28
+                        },
+                        {
+                            "kind": 193,
+                            "type": {
+                                "kind": 177,
+                                "type": {
+                                    "kind": 57,
+                                    "checkType": {
+                                        "kind": 163,
+                                        "value": 1,
+                                        "rawValue": "1",
+                                        "flags": 65536,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 34,
+                                        "end": 35
+                                    },
+                                    "extendsType": {
+                                        "kind": 163,
+                                        "value": 2,
+                                        "rawValue": "2",
+                                        "flags": 65536,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 43,
+                                        "end": 45
+                                    },
+                                    "trueType": {
+                                        "kind": 7,
+                                        "elementType": {
+                                            "kind": 4194510,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 2097152,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 47,
+                                            "end": 54
+                                        },
+                                        "flags": 65536,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 47,
+                                        "end": 58
+                                    },
+                                    "falseType": {
+                                        "kind": 7,
+                                        "elementType": {
+                                            "kind": 161,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 2097152,
+                                            "parent": null,
+                                            "emitNode": null,
+                                            "start": 58,
+                                            "end": 65
+                                        },
+                                        "flags": 65536,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "parent": null,
+                                        "emitNode": null,
+                                        "start": 58,
+                                        "end": 68
+                                    },
+                                    "flags": 65536,
+                                    "intersects": false,
+                                    "transformFlags": 2097152,
+                                    "parent": null,
+                                    "emitNode": null,
+                                    "start": 34,
+                                    "end": 67
+                                },
+                                "flags": 65536,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "parent": null,
+                                "emitNode": null,
+                                "start": 33,
+                                "end": 68
+                            },
+                            "flags": 65536,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "parent": null,
+                            "emitNode": null,
+                            "start": 29,
+                            "end": 68
+                        }
+                    ],
+                    "flags": 65536,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "parent": null,
+                    "emitNode": null,
+                    "start": 20,
+                    "end": 69
+                },
+                "typeParameters": null,
+                "flags": 65536,
+                "intersects": false,
+                "transformFlags": 2097152,
+                "parent": null,
+                "emitNode": null,
+                "start": 0,
+                "end": 70
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 65536,
+        "intersects": false,
+        "parent": null,
+        "emitNode": null,
+        "start": 0,
+        "end": 70
+    },
+    "jsx": true,
+    "printable": true,
+    "diagnostics": [],
+    "parent": null,
+    "emitNode": null,
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 70
+}
+```
+
+### Printed
+
+
+```javascript
+
+type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
+
+```
+
+### Diagnostics
+
+
+```javascript
+@{x2714}@ No errors
+```
+

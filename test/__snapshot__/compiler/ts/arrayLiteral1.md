@@ -14,11 +14,11 @@ var v30 = [1, 2];
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v30 = [1, 2];",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,7 +31,7 @@ var v30 = [1, 2];
                                 "kind": 131102,
                                 "text": "v30",
                                 "rawText": "v30",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -50,7 +50,7 @@ var v30 = [1, 2];
                                             "kind": 4261540,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -62,7 +62,7 @@ var v30 = [1, 2];
                                             "kind": 4261540,
                                             "text": 2,
                                             "rawText": "2",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -73,7 +73,7 @@ var v30 = [1, 2];
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -81,7 +81,7 @@ var v30 = [1, 2];
                                     "start": 11,
                                     "end": 15
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -94,11 +94,11 @@ var v30 = [1, 2];
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 16
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -106,7 +106,7 @@ var v30 = [1, 2];
                     "start": 3,
                     "end": 16
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -116,7 +116,7 @@ var v30 = [1, 2];
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -141,13 +141,15 @@ var v30 = [1, 2];
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v30 = [1, 2];
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

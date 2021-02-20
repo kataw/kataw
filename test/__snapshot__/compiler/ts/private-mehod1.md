@@ -25,11 +25,11 @@ class Square {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Square {\n    #size: number;\n    constructor(size: number) {\n        this.#size = size;\n    }\n    get #diagonal() {\n        return Math.hypot(this.#size, this.#size);\n    }\n    area() {\n        return Math.pow(this.#diagonal, 2) / 2;\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -37,7 +37,7 @@ class Square {
                     "kind": 131102,
                     "text": "Square",
                     "rawText": "Square",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ class Square {
                                 "kind": 196711,
                                 "text": "#size",
                                 "rawText": "#size",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -82,7 +82,7 @@ class Square {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -102,7 +102,7 @@ class Square {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -120,7 +120,7 @@ class Square {
                                                 "kind": 131102,
                                                 "text": "size",
                                                 "rawText": "size",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -143,7 +143,7 @@ class Square {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -153,7 +153,7 @@ class Square {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -176,7 +176,7 @@ class Square {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -188,7 +188,7 @@ class Square {
                                                             "kind": 131252,
                                                             "text": "#size",
                                                             "rawText": "#size",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 524288,
                                                             "parent": null,
@@ -196,7 +196,7 @@ class Square {
                                                             "start": 79,
                                                             "end": 84
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -209,7 +209,7 @@ class Square {
                                                         "kind": 196712,
                                                         "text": "size",
                                                         "rawText": "size",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -217,7 +217,7 @@ class Square {
                                                         "start": 86,
                                                         "end": 91
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -235,7 +235,7 @@ class Square {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -243,7 +243,7 @@ class Square {
                                         "start": 65,
                                         "end": 92
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -255,7 +255,7 @@ class Square {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -263,7 +263,7 @@ class Square {
                                 "start": 49,
                                 "end": 98
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -283,7 +283,7 @@ class Square {
                                     "kind": 131252,
                                     "text": "#diagonal",
                                     "rawText": "#diagonal",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 524288,
                                     "parent": null,
@@ -295,7 +295,7 @@ class Square {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -320,7 +320,7 @@ class Square {
                                                             "kind": 196712,
                                                             "text": "Math",
                                                             "rawText": "Math",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -332,7 +332,7 @@ class Square {
                                                             "kind": 196711,
                                                             "text": "hypot",
                                                             "rawText": "hypot",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -340,7 +340,7 @@ class Square {
                                                             "start": 141,
                                                             "end": 146
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -356,7 +356,7 @@ class Square {
                                                                 "kind": 74424,
                                                                 "member": {
                                                                     "kind": 4260571,
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -368,7 +368,7 @@ class Square {
                                                                     "kind": 131252,
                                                                     "text": "#size",
                                                                     "rawText": "#size",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 524288,
                                                                     "parent": null,
@@ -376,7 +376,7 @@ class Square {
                                                                     "start": 152,
                                                                     "end": 157
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -388,7 +388,7 @@ class Square {
                                                                 "kind": 74424,
                                                                 "member": {
                                                                     "kind": 4260571,
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -400,7 +400,7 @@ class Square {
                                                                     "kind": 131252,
                                                                     "text": "#size",
                                                                     "rawText": "#size",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 524288,
                                                                     "parent": null,
@@ -408,7 +408,7 @@ class Square {
                                                                     "start": 164,
                                                                     "end": 169
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -419,14 +419,14 @@ class Square {
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 151,
                                                         "end": 170
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -434,7 +434,7 @@ class Square {
                                                     "start": 146,
                                                     "end": 170
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -444,7 +444,7 @@ class Square {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -452,7 +452,7 @@ class Square {
                                         "start": 120,
                                         "end": 171
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -464,7 +464,7 @@ class Square {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -472,7 +472,7 @@ class Square {
                                 "start": 116,
                                 "end": 177
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -492,7 +492,7 @@ class Square {
                                     "kind": 196711,
                                     "text": "area",
                                     "rawText": "area",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -504,7 +504,7 @@ class Square {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -531,7 +531,7 @@ class Square {
                                                                 "kind": 196712,
                                                                 "text": "Math",
                                                                 "rawText": "Math",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -543,7 +543,7 @@ class Square {
                                                                 "kind": 196711,
                                                                 "text": "pow",
                                                                 "rawText": "pow",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -551,7 +551,7 @@ class Square {
                                                                 "start": 211,
                                                                 "end": 214
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -567,7 +567,7 @@ class Square {
                                                                     "kind": 74424,
                                                                     "member": {
                                                                         "kind": 4260571,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -579,7 +579,7 @@ class Square {
                                                                         "kind": 131252,
                                                                         "text": "#diagonal",
                                                                         "rawText": "#diagonal",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 524288,
                                                                         "parent": null,
@@ -587,7 +587,7 @@ class Square {
                                                                         "start": 220,
                                                                         "end": 229
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -599,7 +599,7 @@ class Square {
                                                                     "kind": 4261540,
                                                                     "text": 2,
                                                                     "rawText": "2",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -610,14 +610,14 @@ class Square {
                                                             ],
                                                             "trailingComma": false,
                                                             "transformFlags": 0,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "parent": null,
                                                             "emitNode": null,
                                                             "start": 219,
                                                             "end": 233
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -630,7 +630,7 @@ class Square {
                                                         "kind": 4261540,
                                                         "text": 2,
                                                         "rawText": "2",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -638,7 +638,7 @@ class Square {
                                                         "start": 235,
                                                         "end": 237
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -646,7 +646,7 @@ class Square {
                                                     "start": 205,
                                                     "end": 237
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -656,7 +656,7 @@ class Square {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -664,7 +664,7 @@ class Square {
                                         "start": 190,
                                         "end": 238
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -676,7 +676,7 @@ class Square {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -684,7 +684,7 @@ class Square {
                                 "start": 186,
                                 "end": 244
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -693,7 +693,7 @@ class Square {
                             "end": 244
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -702,7 +702,7 @@ class Square {
                     "end": 246
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -712,7 +712,7 @@ class Square {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -737,13 +737,26 @@ class Square {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Square {
+    #size: number;
+    constructor(size: number) {
+        this.#size = size
+    }
+    get #diagonal() {
+        return Math.hypot(this.#size, this.#size);
+    }
+    area() {
+        return Math.pow(this.#diagonal, 2) / 2;
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

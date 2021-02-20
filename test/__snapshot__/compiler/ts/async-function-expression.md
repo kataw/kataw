@@ -15,11 +15,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "(async function test() {\n})();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -33,7 +33,7 @@
                                 "kind": 131102,
                                 "text": "test",
                                 "rawText": "test",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -45,7 +45,7 @@
                                 "kind": 90,
                                 "formalParameterList": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -59,7 +59,7 @@
                                     "kind": 94,
                                     "statements": [],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@
                                     "start": 24,
                                     "end": 24
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -77,7 +77,7 @@
                             },
                             "typeParameters": null,
                             "type": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4,
                             "parent": null,
@@ -85,7 +85,7 @@
                             "start": 1,
                             "end": 26
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -99,14 +99,14 @@
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 29,
                         "end": 29
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -124,7 +124,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -149,13 +149,16 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+(async function test() {
+})()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

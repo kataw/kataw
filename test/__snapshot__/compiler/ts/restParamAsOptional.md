@@ -252,13 +252,17 @@ function f2(...x = []) { }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function f(...x?) { }
+
+function f2(...x = []) { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

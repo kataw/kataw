@@ -15,11 +15,11 @@ Observable.empty<never>();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const x: X<never>;\nObservable.empty<never>();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -33,7 +33,7 @@ Observable.empty<never>();
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -48,7 +48,7 @@ Observable.empty<never>();
                                     "kind": 196711,
                                     "text": "X",
                                     "rawText": "X",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -70,7 +70,7 @@ Observable.empty<never>();
                                             "end": 16
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -78,7 +78,7 @@ Observable.empty<never>();
                                     "start": 11,
                                     "end": 16
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -87,7 +87,7 @@ Observable.empty<never>();
                                 "end": 18
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -96,7 +96,7 @@ Observable.empty<never>();
                             "end": 17
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -104,7 +104,7 @@ Observable.empty<never>();
                     "start": 5,
                     "end": 17
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -122,7 +122,7 @@ Observable.empty<never>();
                             "kind": 196712,
                             "text": "Observable",
                             "rawText": "Observable",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -134,7 +134,7 @@ Observable.empty<never>();
                             "kind": 196711,
                             "text": "empty",
                             "rawText": "empty",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -142,7 +142,7 @@ Observable.empty<never>();
                             "start": 30,
                             "end": 35
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -164,7 +164,7 @@ Observable.empty<never>();
                                 "end": 41
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -177,14 +177,14 @@ Observable.empty<never>();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 43,
                         "end": 43
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -202,7 +202,7 @@ Observable.empty<never>();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -227,13 +227,17 @@ Observable.empty<never>();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const x: X<never>;
+
+Observable.empty<never>()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

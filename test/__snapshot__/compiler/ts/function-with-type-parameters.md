@@ -16,11 +16,11 @@ function a<X>(b: X): X {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function a<X>(b: X): X {\n    return b;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +28,7 @@ function a<X>(b: X): X {
                     "kind": 131102,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ function a<X>(b: X): X {
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -61,7 +61,7 @@ function a<X>(b: X): X {
                                     "kind": 196711,
                                     "text": "X",
                                     "rawText": "X",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -70,7 +70,7 @@ function a<X>(b: X): X {
                                     "end": 18
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -82,7 +82,7 @@ function a<X>(b: X): X {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -92,7 +92,7 @@ function a<X>(b: X): X {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -106,7 +106,7 @@ function a<X>(b: X): X {
                         "kind": 196711,
                         "text": "X",
                         "rawText": "X",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -115,7 +115,7 @@ function a<X>(b: X): X {
                         "end": 22
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -134,7 +134,7 @@ function a<X>(b: X): X {
                                     "kind": 196712,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -142,7 +142,7 @@ function a<X>(b: X): X {
                                     "start": 35,
                                     "end": 37
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -152,7 +152,7 @@ function a<X>(b: X): X {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -160,7 +160,7 @@ function a<X>(b: X): X {
                         "start": 24,
                         "end": 38
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -177,7 +177,7 @@ function a<X>(b: X): X {
                                 "kind": 196711,
                                 "text": "X",
                                 "rawText": "X",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -188,7 +188,7 @@ function a<X>(b: X): X {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -197,7 +197,7 @@ function a<X>(b: X): X {
                             "end": 12
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -205,7 +205,7 @@ function a<X>(b: X): X {
                     "start": 11,
                     "end": 12
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -215,7 +215,7 @@ function a<X>(b: X): X {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -240,13 +240,17 @@ function a<X>(b: X): X {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function a<X>(b: X): X {
+    return b;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -124,13 +124,15 @@ export type { T } from './mod';
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export { T } from "./mod";
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

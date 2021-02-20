@@ -16,11 +16,11 @@ class Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo {\n  abstract method();\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ class Foo {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -45,7 +45,7 @@ class Foo {
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -54,7 +54,7 @@ class Foo {
                                     "kind": 196711,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -66,7 +66,7 @@ class Foo {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -81,7 +81,7 @@ class Foo {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -89,7 +89,7 @@ class Foo {
                                 "start": 29,
                                 "end": 32
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -98,7 +98,7 @@ class Foo {
                             "end": 32
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -107,7 +107,7 @@ class Foo {
                     "end": 34
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -117,7 +117,7 @@ class Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -142,13 +142,17 @@ class Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo {
+    abstract method();
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

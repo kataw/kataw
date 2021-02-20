@@ -274,7 +274,7 @@ abstract class B extends A { abstract bar(); }
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 65536,
+                            "flags": 268500992,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -985,7 +985,7 @@ abstract class B extends A { abstract bar(); }
                         {
                             "kind": 49,
                             "isStatic": false,
-                            "isAbstract": false,
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "method": {
@@ -1082,13 +1082,44 @@ abstract class B extends A { abstract bar(); }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+abstract class x {
+    constructor(str: string, other: number) { }
+}
+
+abstract class x {
+    abstract prop: string;
+}
+
+abstract class x {
+    other = a.b;
+    fn = () => this.prop;
+}
+
+abstract class x {
+    other = a.b[c];
+    fn = () => this.prop;
+}
+
+abstract class x {
+    other = this.prop;
+    fn = () => this.prop;
+}
+
+abstract class B extends A {
+
+}
+
+abstract class B extends A {
+    abstract bar();
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

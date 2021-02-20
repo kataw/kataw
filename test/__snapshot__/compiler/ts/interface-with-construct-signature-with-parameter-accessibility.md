@@ -16,11 +16,11 @@ interface Test {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Test {\n    new (public x, private y);\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -28,7 +28,7 @@ interface Test {
                     "kind": 196712,
                     "text": "Test",
                     "rawText": "Test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -56,7 +56,7 @@ interface Test {
                                             "kind": 131102,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -78,7 +78,7 @@ interface Test {
                                             "end": 32
                                         },
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -93,7 +93,7 @@ interface Test {
                                             "kind": 131102,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -115,7 +115,7 @@ interface Test {
                                             "end": 43
                                         },
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -125,7 +125,7 @@ interface Test {
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -134,7 +134,7 @@ interface Test {
                                 "end": 45
                             },
                             "returnType": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -143,7 +143,7 @@ interface Test {
                             "end": 47
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -151,7 +151,7 @@ interface Test {
                     "start": 16,
                     "end": 47
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -161,7 +161,7 @@ interface Test {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -186,13 +186,17 @@ interface Test {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Test {
+    new (public x, private y);
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -15,11 +15,11 @@ foo.toUpperCase();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var foo: string;\nfoo.toUpperCase();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -32,7 +32,7 @@ foo.toUpperCase();
                                 "kind": 131102,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -57,11 +57,11 @@ foo.toUpperCase();
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 15
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -69,7 +69,7 @@ foo.toUpperCase();
                     "start": 3,
                     "end": 15
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -87,7 +87,7 @@ foo.toUpperCase();
                             "kind": 196712,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -99,7 +99,7 @@ foo.toUpperCase();
                             "kind": 196711,
                             "text": "toUpperCase",
                             "rawText": "toUpperCase",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -107,7 +107,7 @@ foo.toUpperCase();
                             "start": 21,
                             "end": 32
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -121,14 +121,14 @@ foo.toUpperCase();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 34,
                         "end": 34
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -146,7 +146,7 @@ foo.toUpperCase();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -171,13 +171,17 @@ foo.toUpperCase();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var foo: string;
+
+foo.toUpperCase()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ f += '';
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class f { }\n\nf += '';",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ f += '';
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -42,7 +42,7 @@ f += '';
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -51,7 +51,7 @@ f += '';
                     "end": 11
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -67,7 +67,7 @@ f += '';
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -80,7 +80,7 @@ f += '';
                         "kind": 67279,
                         "text": "",
                         "rawText": "",
-                        "flags": 16777216,
+                        "flags": 16842752,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -88,7 +88,7 @@ f += '';
                         "start": 17,
                         "end": 20
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -106,7 +106,7 @@ f += '';
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -131,13 +131,19 @@ f += '';
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class f {
+
+}
+
+f += ""
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

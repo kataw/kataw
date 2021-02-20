@@ -20,11 +20,11 @@ var v = a
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = a\n  ? b\n    ? d\n    : e\n  : c\n    ? f\n    : g;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -37,7 +37,7 @@ var v = a
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -53,7 +53,7 @@ var v = a
                                     "kind": 196712,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -79,7 +79,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "d",
                                         "rawText": "d",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -91,7 +91,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "e",
                                         "rawText": "e",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -99,7 +99,7 @@ var v = a
                                         "start": 29,
                                         "end": 31
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -113,7 +113,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "c",
                                         "rawText": "c",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -125,7 +125,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "f",
                                         "rawText": "f",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -137,7 +137,7 @@ var v = a
                                         "kind": 196712,
                                         "text": "g",
                                         "rawText": "g",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -145,7 +145,7 @@ var v = a
                                         "start": 51,
                                         "end": 53
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -153,7 +153,7 @@ var v = a
                                     "start": 35,
                                     "end": 53
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -166,11 +166,11 @@ var v = a
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 53
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -178,7 +178,7 @@ var v = a
                     "start": 3,
                     "end": 53
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -188,7 +188,7 @@ var v = a
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -213,13 +213,15 @@ var v = a
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = a ? b ? d : e : c ? f : g;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

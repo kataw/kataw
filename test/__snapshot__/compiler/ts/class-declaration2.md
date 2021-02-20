@@ -3,9 +3,9 @@
 ## Input
 
 `````js
-class Foo { readonly private foo; }
+class Foo { readonly private foo; } // wrong
 
-class Foo { private readonly foo; }
+class Foo { private readonly foo; } // correct
 `````
 
 ## Output
@@ -16,11 +16,11 @@ class Foo { private readonly foo; }
 
 ```javascript
 {
-    "kind": 196,
-    "source": "class Foo { readonly private foo; }\n\nclass Foo { private readonly foo; }",
+    "kind": 149,
+    "source": "class Foo { readonly private foo; } // wrong\n\nclass Foo { private readonly foo; } // correct",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ class Foo { private readonly foo; }
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -48,7 +48,7 @@ class Foo { private readonly foo; }
                                 "kind": 196711,
                                 "text": "private",
                                 "rawText": "private",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -64,7 +64,7 @@ class Foo { private readonly foo; }
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -78,7 +78,7 @@ class Foo { private readonly foo; }
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 2,
+                                "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -94,7 +94,7 @@ class Foo { private readonly foo; }
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -103,7 +103,7 @@ class Foo { private readonly foo; }
                             "end": 33
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -112,7 +112,7 @@ class Foo { private readonly foo; }
                     "end": 35
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -126,13 +126,13 @@ class Foo { private readonly foo; }
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
                     "emitNode": null,
-                    "start": 42,
-                    "end": 46
+                    "start": 51,
+                    "end": 55
                 },
                 "typeParameters": null,
                 "classHeritage": null,
@@ -146,13 +146,13 @@ class Foo { private readonly foo; }
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 65,
-                                "end": 69
+                                "start": 74,
+                                "end": 78
                             },
                             "isReadOnly": true,
                             "isOptional": false,
@@ -167,44 +167,44 @@ class Foo { private readonly foo; }
                                 "transformFlags": 2097152,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 48,
-                                "end": 56
+                                "start": 57,
+                                "end": 65
                             },
                             "isStatic": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
                             "emitNode": null,
-                            "start": 48,
-                            "end": 70
+                            "start": 57,
+                            "end": 79
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
                     "emitNode": null,
-                    "start": 48,
-                    "end": 72
+                    "start": 57,
+                    "end": 81
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
                 "emitNode": null,
                 "start": 35,
-                "end": 72
+                "end": 81
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
         "start": 0,
-        "end": 72
+        "end": 81
     },
     "jsx": false,
     "printable": true,
@@ -224,7 +224,7 @@ class Foo { private readonly foo; }
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 72
+    "end": 92
 }
 ```
 
@@ -232,13 +232,22 @@ class Foo { private readonly foo; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo {
+    readonly private;
+    foo;
+}
+
+class Foo {
+    private readonly foo;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

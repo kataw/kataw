@@ -42,11 +42,11 @@ class parser {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface IOptions {\n    name?: string;\n    flag?: boolean;\n    short?: string;\n    usage?: string;\n    set?: (s: string) => void;\n    type?: string;\n    experimental?: boolean;\n}\n\nclass parser {\n\tpublic options: IOptions[];\n\n\tpublic m() {\n\t\tthis.options = this.options.sort(function(a, b) {\n            var aName = a.name.toLowerCase();\n            var bName = b.name.toLowerCase();\n\n            if (aName > bName) {\n                return 1;\n            } else if (aName < bName) {\n                return -1;\n            } else {\n                return 0;\n            }\n        });\n\t}\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -54,7 +54,7 @@ class parser {
                     "kind": 196712,
                     "text": "IOptions",
                     "rawText": "IOptions",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -73,7 +73,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "name",
                                 "rawText": "name",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -96,7 +96,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -110,7 +110,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "flag",
                                 "rawText": "flag",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -133,7 +133,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -147,7 +147,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "short",
                                 "rawText": "short",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -170,7 +170,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -184,7 +184,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "usage",
                                 "rawText": "usage",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -207,7 +207,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -221,7 +221,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "set",
                                 "rawText": "set",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -244,7 +244,7 @@ class parser {
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -266,7 +266,7 @@ class parser {
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -276,7 +276,7 @@ class parser {
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -294,7 +294,7 @@ class parser {
                                     "start": 124,
                                     "end": 129
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -305,7 +305,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -319,7 +319,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "type",
                                 "rawText": "type",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -342,7 +342,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -356,7 +356,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "experimental",
                                 "rawText": "experimental",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -379,7 +379,7 @@ class parser {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -388,7 +388,7 @@ class parser {
                             "end": 177
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -396,7 +396,7 @@ class parser {
                     "start": 20,
                     "end": 177
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -410,7 +410,7 @@ class parser {
                     "kind": 131102,
                     "text": "parser",
                     "rawText": "parser",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -430,7 +430,7 @@ class parser {
                                 "kind": 196711,
                                 "text": "options",
                                 "rawText": "options",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -449,7 +449,7 @@ class parser {
                                         "kind": 196711,
                                         "text": "IOptions",
                                         "rawText": "IOptions",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -458,7 +458,7 @@ class parser {
                                         "end": 221
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -466,7 +466,7 @@ class parser {
                                     "start": 212,
                                     "end": 222
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -487,7 +487,7 @@ class parser {
                                 "end": 203
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -507,7 +507,7 @@ class parser {
                                     "kind": 196711,
                                     "text": "m",
                                     "rawText": "m",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -519,7 +519,7 @@ class parser {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -542,7 +542,7 @@ class parser {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -554,7 +554,7 @@ class parser {
                                                             "kind": 196711,
                                                             "text": "options",
                                                             "rawText": "options",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -562,7 +562,7 @@ class parser {
                                                             "start": 247,
                                                             "end": 254
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -579,7 +579,7 @@ class parser {
                                                                 "kind": 74424,
                                                                 "member": {
                                                                     "kind": 4260571,
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -591,7 +591,7 @@ class parser {
                                                                     "kind": 196711,
                                                                     "text": "options",
                                                                     "rawText": "options",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -599,7 +599,7 @@ class parser {
                                                                     "start": 262,
                                                                     "end": 269
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -611,7 +611,7 @@ class parser {
                                                                 "kind": 196711,
                                                                 "text": "sort",
                                                                 "rawText": "sort",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -619,7 +619,7 @@ class parser {
                                                                 "start": 270,
                                                                 "end": 274
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -644,7 +644,7 @@ class parser {
                                                                                     "kind": 131102,
                                                                                     "text": "a",
                                                                                     "rawText": "a",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
                                                                                     "parent": null,
@@ -658,7 +658,7 @@ class parser {
                                                                                 "decorators": null,
                                                                                 "accessModifier": null,
                                                                                 "isReadOnly": false,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1,
                                                                                 "parent": null,
@@ -673,7 +673,7 @@ class parser {
                                                                                     "kind": 131102,
                                                                                     "text": "b",
                                                                                     "rawText": "b",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
                                                                                     "parent": null,
@@ -687,7 +687,7 @@ class parser {
                                                                                 "decorators": null,
                                                                                 "accessModifier": null,
                                                                                 "isReadOnly": false,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1,
                                                                                 "parent": null,
@@ -697,7 +697,7 @@ class parser {
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -721,7 +721,7 @@ class parser {
                                                                                                     "kind": 131102,
                                                                                                     "text": "aName",
                                                                                                     "rawText": "aName",
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1025,
                                                                                                     "parent": null,
@@ -741,7 +741,7 @@ class parser {
                                                                                                                 "kind": 196712,
                                                                                                                 "text": "a",
                                                                                                                 "rawText": "a",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -753,7 +753,7 @@ class parser {
                                                                                                                 "kind": 196711,
                                                                                                                 "text": "name",
                                                                                                                 "rawText": "name",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -761,7 +761,7 @@ class parser {
                                                                                                                 "start": 318,
                                                                                                                 "end": 322
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -773,7 +773,7 @@ class parser {
                                                                                                             "kind": 196711,
                                                                                                             "text": "toLowerCase",
                                                                                                             "rawText": "toLowerCase",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -781,7 +781,7 @@ class parser {
                                                                                                             "start": 323,
                                                                                                             "end": 334
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -795,14 +795,14 @@ class parser {
                                                                                                         "elements": [],
                                                                                                         "trailingComma": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "parent": null,
                                                                                                         "emitNode": null,
                                                                                                         "start": 336,
                                                                                                         "end": 336
                                                                                                     },
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
                                                                                                     "parent": null,
@@ -815,11 +815,11 @@ class parser {
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
                                                                                                 "emitNode": null,
-                                                                                                "start": 0,
+                                                                                                "start": 65536,
                                                                                                 "end": 336
                                                                                             }
                                                                                         ],
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -827,7 +827,7 @@ class parser {
                                                                                         "start": 307,
                                                                                         "end": 336
                                                                                     },
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -846,7 +846,7 @@ class parser {
                                                                                                     "kind": 131102,
                                                                                                     "text": "bName",
                                                                                                     "rawText": "bName",
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1025,
                                                                                                     "parent": null,
@@ -866,7 +866,7 @@ class parser {
                                                                                                                 "kind": 196712,
                                                                                                                 "text": "b",
                                                                                                                 "rawText": "b",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -878,7 +878,7 @@ class parser {
                                                                                                                 "kind": 196711,
                                                                                                                 "text": "name",
                                                                                                                 "rawText": "name",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -886,7 +886,7 @@ class parser {
                                                                                                                 "start": 364,
                                                                                                                 "end": 368
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -898,7 +898,7 @@ class parser {
                                                                                                             "kind": 196711,
                                                                                                             "text": "toLowerCase",
                                                                                                             "rawText": "toLowerCase",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -906,7 +906,7 @@ class parser {
                                                                                                             "start": 369,
                                                                                                             "end": 380
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -920,14 +920,14 @@ class parser {
                                                                                                         "elements": [],
                                                                                                         "trailingComma": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "parent": null,
                                                                                                         "emitNode": null,
                                                                                                         "start": 382,
                                                                                                         "end": 382
                                                                                                     },
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
                                                                                                     "parent": null,
@@ -940,11 +940,11 @@ class parser {
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
                                                                                                 "emitNode": null,
-                                                                                                "start": 0,
+                                                                                                "start": 65536,
                                                                                                 "end": 382
                                                                                             }
                                                                                         ],
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -952,7 +952,7 @@ class parser {
                                                                                         "start": 353,
                                                                                         "end": 382
                                                                                     },
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -968,7 +968,7 @@ class parser {
                                                                                             "kind": 196712,
                                                                                             "text": "aName",
                                                                                             "rawText": "aName",
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -981,7 +981,7 @@ class parser {
                                                                                             "kind": 196712,
                                                                                             "text": "bName",
                                                                                             "rawText": "bName",
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -989,7 +989,7 @@ class parser {
                                                                                             "start": 408,
                                                                                             "end": 414
                                                                                         },
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1008,7 +1008,7 @@ class parser {
                                                                                                         "kind": 4261540,
                                                                                                         "text": 1,
                                                                                                         "rawText": "1",
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1016,7 +1016,7 @@ class parser {
                                                                                                         "start": 440,
                                                                                                         "end": 442
                                                                                                     },
-                                                                                                    "flags": 16384,
+                                                                                                    "flags": 81920,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
                                                                                                     "parent": null,
@@ -1026,7 +1026,7 @@ class parser {
                                                                                                 }
                                                                                             ],
                                                                                             "multiline": true,
-                                                                                            "flags": 16384,
+                                                                                            "flags": 81920,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1034,7 +1034,7 @@ class parser {
                                                                                             "start": 417,
                                                                                             "end": 443
                                                                                         },
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1050,7 +1050,7 @@ class parser {
                                                                                                 "kind": 196712,
                                                                                                 "text": "aName",
                                                                                                 "rawText": "aName",
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1063,7 +1063,7 @@ class parser {
                                                                                                 "kind": 196712,
                                                                                                 "text": "bName",
                                                                                                 "rawText": "bName",
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1071,7 +1071,7 @@ class parser {
                                                                                                 "start": 474,
                                                                                                 "end": 480
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1093,7 +1093,7 @@ class parser {
                                                                                                                 "kind": 4261540,
                                                                                                                 "text": 1,
                                                                                                                 "rawText": "1",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -1101,7 +1101,7 @@ class parser {
                                                                                                                 "start": 508,
                                                                                                                 "end": 509
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -1109,7 +1109,7 @@ class parser {
                                                                                                             "start": 506,
                                                                                                             "end": 509
                                                                                                         },
-                                                                                                        "flags": 16384,
+                                                                                                        "flags": 81920,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1119,7 +1119,7 @@ class parser {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": true,
-                                                                                                "flags": 16384,
+                                                                                                "flags": 81920,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1127,7 +1127,7 @@ class parser {
                                                                                                 "start": 483,
                                                                                                 "end": 510
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1146,7 +1146,7 @@ class parser {
                                                                                                             "kind": 4261540,
                                                                                                             "text": 0,
                                                                                                             "rawText": "0",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -1154,7 +1154,7 @@ class parser {
                                                                                                             "start": 554,
                                                                                                             "end": 556
                                                                                                         },
-                                                                                                        "flags": 16384,
+                                                                                                        "flags": 81920,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1164,7 +1164,7 @@ class parser {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": true,
-                                                                                                "flags": 16384,
+                                                                                                "flags": 81920,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1172,7 +1172,7 @@ class parser {
                                                                                                 "start": 531,
                                                                                                 "end": 557
                                                                                             },
-                                                                                            "flags": 16384,
+                                                                                            "flags": 81920,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1181,7 +1181,7 @@ class parser {
                                                                                             "end": 571
                                                                                         },
                                                                                         "isWebCompat": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1190,7 +1190,7 @@ class parser {
                                                                                         "end": 571
                                                                                     },
                                                                                     "isWebCompat": true,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1200,7 +1200,7 @@ class parser {
                                                                                 }
                                                                             ],
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1208,7 +1208,7 @@ class parser {
                                                                             "start": 291,
                                                                             "end": 571
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1218,7 +1218,7 @@ class parser {
                                                                     },
                                                                     "typeParameters": null,
                                                                     "type": null,
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1229,14 +1229,14 @@ class parser {
                                                             ],
                                                             "trailingComma": false,
                                                             "transformFlags": 0,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "parent": null,
                                                             "emitNode": null,
                                                             "start": 283,
                                                             "end": 582
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1244,7 +1244,7 @@ class parser {
                                                         "start": 274,
                                                         "end": 582
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1262,7 +1262,7 @@ class parser {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1270,7 +1270,7 @@ class parser {
                                         "start": 239,
                                         "end": 583
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1291,7 +1291,7 @@ class parser {
                                     "end": 233
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1299,7 +1299,7 @@ class parser {
                                 "start": 235,
                                 "end": 586
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1308,7 +1308,7 @@ class parser {
                             "end": 586
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -1317,7 +1317,7 @@ class parser {
                     "end": 588
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -1327,7 +1327,7 @@ class parser {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1352,13 +1352,42 @@ class parser {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface IOptions {
+    name?: string;
+    flag?: boolean;
+    short?: string;
+    usage?: string;
+    set?: (s: string) => void;
+    type?: string;
+    experimental?: boolean;
+}
+
+class parser {
+    public options: IOptions[];
+    public m() {
+        this.options = this.options.sort(function (a, b) {
+            var aName = a.name.toLowerCase();
+            var bName = b.name.toLowerCase();
+            if (aName > bName) {
+                return 1;
+            }
+            else if (aName < bName) {
+                return - 1;
+            }
+            else {
+                return 0;
+            }
+        })
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -20,11 +20,11 @@ Foo(() =>
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function Foo(x: any)\n{\n}\n\nFoo(() =>\n    // do something\n    127);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -32,7 +32,7 @@ Foo(() =>
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -50,7 +50,7 @@ Foo(() =>
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -73,7 +73,7 @@ Foo(() =>
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -83,7 +83,7 @@ Foo(() =>
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -98,7 +98,7 @@ Foo(() =>
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -106,7 +106,7 @@ Foo(() =>
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -115,7 +115,7 @@ Foo(() =>
                     "end": 24
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -131,7 +131,7 @@ Foo(() =>
                         "kind": 196712,
                         "text": "Foo",
                         "rawText": "Foo",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -164,7 +164,7 @@ Foo(() =>
                                     "kind": 4261540,
                                     "text": 127,
                                     "rawText": "127",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -172,7 +172,7 @@ Foo(() =>
                                     "start": 35,
                                     "end": 63
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -183,14 +183,14 @@ Foo(() =>
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 31,
                         "end": 64
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -208,7 +208,7 @@ Foo(() =>
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -233,13 +233,18 @@ Foo(() =>
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function Foo(x: any) {
+}
+
+Foo(() => 127)
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -17,11 +17,11 @@ namespace x {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "namespace x {\n  export abstract class x {}\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097405,
@@ -29,7 +29,7 @@ namespace x {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -46,7 +46,7 @@ namespace x {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -60,7 +60,7 @@ namespace x {
                             "members": {
                                 "kind": 50,
                                 "elements": [],
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -69,7 +69,7 @@ namespace x {
                                 "end": 42
                             },
                             "decorators": null,
-                            "flags": 268451872,
+                            "flags": 268517408,
                             "intersects": false,
                             "transformFlags": 2097153,
                             "parent": null,
@@ -79,7 +79,7 @@ namespace x {
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -87,7 +87,7 @@ namespace x {
                     "start": 13,
                     "end": 42
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -97,7 +97,7 @@ namespace x {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -106,15 +106,7 @@ namespace x {
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `export` keyword can only be used with the module goal",
-            "start": 16,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "parent": null,
     "emitNode": null,
     "incremental": false,
@@ -130,13 +122,20 @@ namespace x {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+namespace x {
+    export abstract class x {
+
+    }
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ The `export` keyword can only be used with the module goal - start: 19, end: 0
 
 ```
 

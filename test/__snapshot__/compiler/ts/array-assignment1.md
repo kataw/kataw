@@ -29,11 +29,11 @@ class C3 {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I1 {\n\tIM1():void[];\n}\n\nclass C1 implements I1 {\n\tIM1():void[] {return null;}\n\tC1M1():C1[] {return null;}\n }\nclass C2 extends C1 {\n    C2M1():C2[] { return null;}\n}\n\nclass C3 {\n    CM3M1() { return 3;}\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -41,7 +41,7 @@ class C3 {
                     "kind": 196712,
                     "text": "I1",
                     "rawText": "I1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -60,7 +60,7 @@ class C3 {
                                 "kind": 196711,
                                 "text": "IM1",
                                 "rawText": "IM1",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -77,7 +77,7 @@ class C3 {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -97,7 +97,7 @@ class C3 {
                                     "start": 22,
                                     "end": 26
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -105,7 +105,7 @@ class C3 {
                                 "start": 22,
                                 "end": 29
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -114,7 +114,7 @@ class C3 {
                             "end": 29
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -122,7 +122,7 @@ class C3 {
                     "start": 14,
                     "end": 29
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -136,7 +136,7 @@ class C3 {
                     "kind": 131102,
                     "text": "C1",
                     "rawText": "C1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -157,7 +157,7 @@ class C3 {
                                     "kind": 196711,
                                     "text": "I1",
                                     "rawText": "I1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -166,7 +166,7 @@ class C3 {
                                     "end": 55
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -174,7 +174,7 @@ class C3 {
                                 "start": 52,
                                 "end": 57
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -183,7 +183,7 @@ class C3 {
                             "end": 55
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -206,7 +206,7 @@ class C3 {
                                     "kind": 196711,
                                     "text": "IM1",
                                     "rawText": "IM1",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -218,7 +218,7 @@ class C3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -238,7 +238,7 @@ class C3 {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -246,7 +246,7 @@ class C3 {
                                                     "start": 79,
                                                     "end": 84
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -256,7 +256,7 @@ class C3 {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -264,7 +264,7 @@ class C3 {
                                         "start": 73,
                                         "end": 85
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -285,7 +285,7 @@ class C3 {
                                         "start": 65,
                                         "end": 69
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -295,7 +295,7 @@ class C3 {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -303,7 +303,7 @@ class C3 {
                                 "start": 62,
                                 "end": 86
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -323,7 +323,7 @@ class C3 {
                                     "kind": 196711,
                                     "text": "C1M1",
                                     "rawText": "C1M1",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -335,7 +335,7 @@ class C3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -355,7 +355,7 @@ class C3 {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -363,7 +363,7 @@ class C3 {
                                                     "start": 107,
                                                     "end": 112
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -373,7 +373,7 @@ class C3 {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -381,7 +381,7 @@ class C3 {
                                         "start": 101,
                                         "end": 113
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -398,7 +398,7 @@ class C3 {
                                             "kind": 196711,
                                             "text": "C1",
                                             "rawText": "C1",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -407,7 +407,7 @@ class C3 {
                                             "end": 97
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -415,7 +415,7 @@ class C3 {
                                         "start": 95,
                                         "end": 98
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -425,7 +425,7 @@ class C3 {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -433,7 +433,7 @@ class C3 {
                                 "start": 92,
                                 "end": 114
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -442,7 +442,7 @@ class C3 {
                             "end": 114
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -451,7 +451,7 @@ class C3 {
                     "end": 117
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -465,7 +465,7 @@ class C3 {
                     "kind": 131102,
                     "text": "C2",
                     "rawText": "C2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -480,7 +480,7 @@ class C3 {
                         "kind": 196712,
                         "text": "C1",
                         "rawText": "C1",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -489,7 +489,7 @@ class C3 {
                         "end": 137
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -513,7 +513,7 @@ class C3 {
                                     "kind": 196711,
                                     "text": "C2M1",
                                     "rawText": "C2M1",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -525,7 +525,7 @@ class C3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -545,7 +545,7 @@ class C3 {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -553,7 +553,7 @@ class C3 {
                                                     "start": 164,
                                                     "end": 169
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -563,7 +563,7 @@ class C3 {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -571,7 +571,7 @@ class C3 {
                                         "start": 157,
                                         "end": 170
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -588,7 +588,7 @@ class C3 {
                                             "kind": 196711,
                                             "text": "C2",
                                             "rawText": "C2",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -597,7 +597,7 @@ class C3 {
                                             "end": 153
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -605,7 +605,7 @@ class C3 {
                                         "start": 151,
                                         "end": 154
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -615,7 +615,7 @@ class C3 {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -623,7 +623,7 @@ class C3 {
                                 "start": 148,
                                 "end": 171
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -632,7 +632,7 @@ class C3 {
                             "end": 171
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -641,7 +641,7 @@ class C3 {
                     "end": 173
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -655,7 +655,7 @@ class C3 {
                     "kind": 131102,
                     "text": "C3",
                     "rawText": "C3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -681,7 +681,7 @@ class C3 {
                                     "kind": 196711,
                                     "text": "CM3M1",
                                     "rawText": "CM3M1",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -693,7 +693,7 @@ class C3 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -714,7 +714,7 @@ class C3 {
                                                     "kind": 4261540,
                                                     "text": 3,
                                                     "rawText": "3",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -722,7 +722,7 @@ class C3 {
                                                     "start": 206,
                                                     "end": 208
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -732,7 +732,7 @@ class C3 {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -740,7 +740,7 @@ class C3 {
                                         "start": 199,
                                         "end": 209
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -752,7 +752,7 @@ class C3 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -760,7 +760,7 @@ class C3 {
                                 "start": 195,
                                 "end": 210
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -769,7 +769,7 @@ class C3 {
                             "end": 210
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -778,7 +778,7 @@ class C3 {
                     "end": 212
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -788,7 +788,7 @@ class C3 {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -813,13 +813,30 @@ class C3 {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I1 {
+    IM1(): void[];
+}
+
+class C1 implements I1 {
+    IM1(): void[] { return null; }
+    C1M1(): C1[] { return null; }
+}
+
+class C2 extends C1 {
+    C2M1(): C2[] { return null; }
+}
+
+class C3 {
+    CM3M1() { return 3; }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

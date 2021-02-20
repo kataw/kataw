@@ -51,11 +51,11 @@ async function test7(isError: boolean = true) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "// @target: es6\n// @noImplicitReturns: true\n\n// Should be an error, Promise<number>, currently retorted correctly\nasync function test3(isError: boolean = true) {\n    if (isError === true) {\n        return 6;\n    }\n}\n\n// Should not be an error, Promise<any>, currently **not** working\nasync function test4(isError: boolean = true) {\n    if (isError === true) {\n        return undefined;\n    }\n}\n\n// should not be error, Promise<any> currently working correctly\nasync function test5(isError: boolean = true): Promise<any> { //should not be error\n    if (isError === true) {\n        return undefined;\n    }\n}\n\n\n// should be error, currently reported correctly\nasync function test6(isError: boolean = true): Promise<number> {\n    if (isError === true) {\n        return undefined;\n    }\n}\n\n// infered to be Promise<void>, should not be an error, currently reported correctly\nasync function test7(isError: boolean = true) {\n    if (isError === true) {\n        return;\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 1312785,
@@ -63,7 +63,7 @@ async function test7(isError: boolean = true) {
                     "kind": 131102,
                     "text": "test3",
                     "rawText": "test3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -81,7 +81,7 @@ async function test7(isError: boolean = true) {
                                 "kind": 131102,
                                 "text": "isError",
                                 "rawText": "isError",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -103,7 +103,7 @@ async function test7(isError: boolean = true) {
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -114,7 +114,7 @@ async function test7(isError: boolean = true) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -124,7 +124,7 @@ async function test7(isError: boolean = true) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -146,7 +146,7 @@ async function test7(isError: boolean = true) {
                                         "kind": 196712,
                                         "text": "isError",
                                         "rawText": "isError",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -158,7 +158,7 @@ async function test7(isError: boolean = true) {
                                     "right": {
                                         "kind": 4260391,
                                         "text": true,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -166,7 +166,7 @@ async function test7(isError: boolean = true) {
                                         "start": 181,
                                         "end": 186
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -185,7 +185,7 @@ async function test7(isError: boolean = true) {
                                                     "kind": 4261540,
                                                     "text": 6,
                                                     "rawText": "6",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -193,7 +193,7 @@ async function test7(isError: boolean = true) {
                                                     "start": 204,
                                                     "end": 206
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -203,7 +203,7 @@ async function test7(isError: boolean = true) {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -211,7 +211,7 @@ async function test7(isError: boolean = true) {
                                         "start": 189,
                                         "end": 207
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -221,7 +221,7 @@ async function test7(isError: boolean = true) {
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -231,7 +231,7 @@ async function test7(isError: boolean = true) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -239,7 +239,7 @@ async function test7(isError: boolean = true) {
                         "start": 161,
                         "end": 213
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -248,7 +248,7 @@ async function test7(isError: boolean = true) {
                     "end": 215
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -262,7 +262,7 @@ async function test7(isError: boolean = true) {
                     "kind": 131102,
                     "text": "test4",
                     "rawText": "test4",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -280,7 +280,7 @@ async function test7(isError: boolean = true) {
                                 "kind": 131102,
                                 "text": "isError",
                                 "rawText": "isError",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -302,7 +302,7 @@ async function test7(isError: boolean = true) {
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -313,7 +313,7 @@ async function test7(isError: boolean = true) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -323,7 +323,7 @@ async function test7(isError: boolean = true) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -345,7 +345,7 @@ async function test7(isError: boolean = true) {
                                         "kind": 196712,
                                         "text": "isError",
                                         "rawText": "isError",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -357,7 +357,7 @@ async function test7(isError: boolean = true) {
                                     "right": {
                                         "kind": 4260391,
                                         "text": true,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -365,7 +365,7 @@ async function test7(isError: boolean = true) {
                                         "start": 351,
                                         "end": 356
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -384,7 +384,7 @@ async function test7(isError: boolean = true) {
                                                     "kind": 196712,
                                                     "text": "undefined",
                                                     "rawText": "undefined",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -392,7 +392,7 @@ async function test7(isError: boolean = true) {
                                                     "start": 374,
                                                     "end": 384
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -402,7 +402,7 @@ async function test7(isError: boolean = true) {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -410,7 +410,7 @@ async function test7(isError: boolean = true) {
                                         "start": 359,
                                         "end": 385
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -420,7 +420,7 @@ async function test7(isError: boolean = true) {
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -430,7 +430,7 @@ async function test7(isError: boolean = true) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -438,7 +438,7 @@ async function test7(isError: boolean = true) {
                         "start": 331,
                         "end": 391
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -447,7 +447,7 @@ async function test7(isError: boolean = true) {
                     "end": 393
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -461,7 +461,7 @@ async function test7(isError: boolean = true) {
                     "kind": 131102,
                     "text": "test5",
                     "rawText": "test5",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -479,7 +479,7 @@ async function test7(isError: boolean = true) {
                                 "kind": 131102,
                                 "text": "isError",
                                 "rawText": "isError",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -501,7 +501,7 @@ async function test7(isError: boolean = true) {
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -512,7 +512,7 @@ async function test7(isError: boolean = true) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -522,7 +522,7 @@ async function test7(isError: boolean = true) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -536,7 +536,7 @@ async function test7(isError: boolean = true) {
                         "kind": 196711,
                         "text": "Promise",
                         "rawText": "Promise",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -558,7 +558,7 @@ async function test7(isError: boolean = true) {
                                 "end": 518
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -566,7 +566,7 @@ async function test7(isError: boolean = true) {
                         "start": 515,
                         "end": 518
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -587,7 +587,7 @@ async function test7(isError: boolean = true) {
                                         "kind": 196712,
                                         "text": "isError",
                                         "rawText": "isError",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -599,7 +599,7 @@ async function test7(isError: boolean = true) {
                                     "right": {
                                         "kind": 4260391,
                                         "text": true,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -607,7 +607,7 @@ async function test7(isError: boolean = true) {
                                         "start": 563,
                                         "end": 568
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -626,7 +626,7 @@ async function test7(isError: boolean = true) {
                                                     "kind": 196712,
                                                     "text": "undefined",
                                                     "rawText": "undefined",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -634,7 +634,7 @@ async function test7(isError: boolean = true) {
                                                     "start": 586,
                                                     "end": 596
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -644,7 +644,7 @@ async function test7(isError: boolean = true) {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -652,7 +652,7 @@ async function test7(isError: boolean = true) {
                                         "start": 571,
                                         "end": 597
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -662,7 +662,7 @@ async function test7(isError: boolean = true) {
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -672,7 +672,7 @@ async function test7(isError: boolean = true) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -680,7 +680,7 @@ async function test7(isError: boolean = true) {
                         "start": 521,
                         "end": 603
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -689,7 +689,7 @@ async function test7(isError: boolean = true) {
                     "end": 605
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -703,7 +703,7 @@ async function test7(isError: boolean = true) {
                     "kind": 131102,
                     "text": "test6",
                     "rawText": "test6",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -721,7 +721,7 @@ async function test7(isError: boolean = true) {
                                 "kind": 131102,
                                 "text": "isError",
                                 "rawText": "isError",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -743,7 +743,7 @@ async function test7(isError: boolean = true) {
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -754,7 +754,7 @@ async function test7(isError: boolean = true) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -764,7 +764,7 @@ async function test7(isError: boolean = true) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -778,7 +778,7 @@ async function test7(isError: boolean = true) {
                         "kind": 196711,
                         "text": "Promise",
                         "rawText": "Promise",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -800,7 +800,7 @@ async function test7(isError: boolean = true) {
                                 "end": 718
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -808,7 +808,7 @@ async function test7(isError: boolean = true) {
                         "start": 712,
                         "end": 718
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -829,7 +829,7 @@ async function test7(isError: boolean = true) {
                                         "kind": 196712,
                                         "text": "isError",
                                         "rawText": "isError",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -841,7 +841,7 @@ async function test7(isError: boolean = true) {
                                     "right": {
                                         "kind": 4260391,
                                         "text": true,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -849,7 +849,7 @@ async function test7(isError: boolean = true) {
                                         "start": 741,
                                         "end": 746
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -868,7 +868,7 @@ async function test7(isError: boolean = true) {
                                                     "kind": 196712,
                                                     "text": "undefined",
                                                     "rawText": "undefined",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -876,7 +876,7 @@ async function test7(isError: boolean = true) {
                                                     "start": 764,
                                                     "end": 774
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -886,7 +886,7 @@ async function test7(isError: boolean = true) {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -894,7 +894,7 @@ async function test7(isError: boolean = true) {
                                         "start": 749,
                                         "end": 775
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -904,7 +904,7 @@ async function test7(isError: boolean = true) {
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -914,7 +914,7 @@ async function test7(isError: boolean = true) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -922,7 +922,7 @@ async function test7(isError: boolean = true) {
                         "start": 721,
                         "end": 781
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -931,7 +931,7 @@ async function test7(isError: boolean = true) {
                     "end": 783
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -945,7 +945,7 @@ async function test7(isError: boolean = true) {
                     "kind": 131102,
                     "text": "test7",
                     "rawText": "test7",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -963,7 +963,7 @@ async function test7(isError: boolean = true) {
                                 "kind": 131102,
                                 "text": "isError",
                                 "rawText": "isError",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -985,7 +985,7 @@ async function test7(isError: boolean = true) {
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -996,7 +996,7 @@ async function test7(isError: boolean = true) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1006,7 +1006,7 @@ async function test7(isError: boolean = true) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1028,7 +1028,7 @@ async function test7(isError: boolean = true) {
                                         "kind": 196712,
                                         "text": "isError",
                                         "rawText": "isError",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1040,7 +1040,7 @@ async function test7(isError: boolean = true) {
                                     "right": {
                                         "kind": 4260391,
                                         "text": true,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1048,7 +1048,7 @@ async function test7(isError: boolean = true) {
                                         "start": 937,
                                         "end": 942
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1064,7 +1064,7 @@ async function test7(isError: boolean = true) {
                                             {
                                                 "kind": 2097346,
                                                 "expression": null,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1074,7 +1074,7 @@ async function test7(isError: boolean = true) {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1082,7 +1082,7 @@ async function test7(isError: boolean = true) {
                                         "start": 945,
                                         "end": 961
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1092,7 +1092,7 @@ async function test7(isError: boolean = true) {
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1102,7 +1102,7 @@ async function test7(isError: boolean = true) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1110,7 +1110,7 @@ async function test7(isError: boolean = true) {
                         "start": 917,
                         "end": 967
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1119,7 +1119,7 @@ async function test7(isError: boolean = true) {
                     "end": 969
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -1129,7 +1129,7 @@ async function test7(isError: boolean = true) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1154,13 +1154,43 @@ async function test7(isError: boolean = true) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async function test3(isError: boolean = true) {
+    if (isError === true) {
+        return 6;
+    }
+}
+
+async function test4(isError: boolean = true) {
+    if (isError === true) {
+        return undefined;
+    }
+}
+
+async function test5(isError: boolean = true): Promise<any> {
+    if (isError === true) {
+        return undefined;
+    }
+}
+
+async function test6(isError: boolean = true): Promise<number> {
+    if (isError === true) {
+        return undefined;
+    }
+}
+
+async function test7(isError: boolean = true) {
+    if (isError === true) {
+        return;
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

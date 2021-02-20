@@ -565,8 +565,6 @@ export function parseFloatingPointLiteral(parser: ParserState, cp: number, sourc
 
     cp = source.charCodeAt(++parser.pos);
 
-    flag = NodeFlags.Scientific;
-
     // e+ or E+ or e- or E-
     if (cp === Char.Plus || cp === Char.Hyphen) cp = source.charCodeAt(++parser.pos);
 

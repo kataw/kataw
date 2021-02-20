@@ -3,50 +3,57 @@
 ## Input
 
 `````js
-class LanguageSpec_section_4_5_error_cases {
-    public set AnnotatedSetter_SetterFirst(a: number) { }
-    public get AnnotatedSetter_SetterFirst() { return ""; }
+foo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression
+  ? callNode.parent.parent
+  : callNode.parent
+).TSESTree!.BinaryExpression;
 
-    public get AnnotatedSetter_SetterLast() { return ""; }
-    public set AnnotatedSetter_SetterLast(a: number) { }
+foo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression
+  ? callNode.parent.parent
+  : callNode.parent
+).TSESTree!.BinaryExpression;
 
-    public get AnnotatedGetter_GetterFirst(): string { return ""; }
-    public set AnnotatedGetter_GetterFirst(aStr) { aStr = 0; }
+bifornCringerMoshedPerplexSawder = (glimseGlyphsHazardNoopsTieTie === 0 &&
+kochabCooieGameOnOboleUnweave === Math.PI
+  ? averredBathersBoxroomBuggyNurl
+  : anodyneCondosMalateOverateRetinol
+).annularCooeedSplicesWalksWayWay
+  .annularCooeedSplicesWalksWayWay(annularCooeedSplicesWalksWayWay)!
+  .annularCooeedSplicesWalksWayWay();
 
-    public set AnnotatedGetter_GetterLast(aStr) { aStr = 0; }
-    public get AnnotatedGetter_GetterLast(): string { return ""; }
-}
+foo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression
+  ? callNode.parent.parent
+  : callNode.parent
+).TSESTree!.BinaryExpression!;
 
-//// [accessors_spec_section-4.5_error-cases.js]
-var LanguageSpec_section_4_5_error_cases = (function () {
-    function LanguageSpec_section_4_5_error_cases() {
-    }
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterFirst", {
-        get: function () { return ""; },
-        set: function (a) { },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterLast", {
-        get: function () { return ""; },
-        set: function (a) { },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterFirst", {
-        get: function () { return ""; },
-        set: function (aStr) { aStr = 0; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterLast", {
-        get: function () { return ""; },
-        set: function (aStr) { aStr = 0; },
-        enumerable: true,
-        configurable: true
-    });
-    return LanguageSpec_section_4_5_error_cases;
-})();
+foo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression
+  ? callNode.parent.parent
+  : callNode.parent
+).TSESTree!.BinaryExpression!;
+
+bifornCringerMoshedPerplexSawder = (glimseGlyphsHazardNoopsTieTie === 0 &&
+kochabCooieGameOnOboleUnweave === Math.PI
+  ? averredBathersBoxroomBuggyNurl
+  : anodyneCondosMalateOverateRetinol
+).annularCooeedSplicesWalksWayWay
+  .annularCooeedSplicesWalksWayWay(annularCooeedSplicesWalksWayWay)!
+  .annularCooeedSplicesWalksWayWay()!;
+
+bifornCringerMoshedPerplexSawder =
+  askTrovenaBeenaDependsRowans +
+  (glimseGlyphsHazardNoopsTieTie === 0
+    ? averredBathersBoxroomBuggyNurl
+    : anodyneCondosMalateOverateRetinol
+  ).Foo!.foo;
+
+foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
+  ? baaaaaaaaaaaaaaaaaaaaar
+  : baaaaaaaaaaaaaaaaaaaaaz)!;
+
+foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
+  ? baaaaaaaaaaaaaaaaaaaaar
+  : baaaaaaaaaaaaaaaaaaaaaz)!!!!!;
+© 2021 GitHub, Inc.
 `````
 
 ## Output
@@ -57,11 +64,11 @@ var LanguageSpec_section_4_5_error_cases = (function () {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class LanguageSpec_section_4_5_error_cases {\n    public set AnnotatedSetter_SetterFirst(a: number) { }\n    public get AnnotatedSetter_SetterFirst() { return \"\"; }\n\n    public get AnnotatedSetter_SetterLast() { return \"\"; }\n    public set AnnotatedSetter_SetterLast(a: number) { }\n\n    public get AnnotatedGetter_GetterFirst(): string { return \"\"; }\n    public set AnnotatedGetter_GetterFirst(aStr) { aStr = 0; }\n\n    public set AnnotatedGetter_GetterLast(aStr) { aStr = 0; }\n    public get AnnotatedGetter_GetterLast(): string { return \"\"; }\n}\n\n//// [accessors_spec_section-4.5_error-cases.js]\nvar LanguageSpec_section_4_5_error_cases = (function () {\n    function LanguageSpec_section_4_5_error_cases() {\n    }\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedSetter_SetterFirst\", {\n        get: function () { return \"\"; },\n        set: function (a) { },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedSetter_SetterLast\", {\n        get: function () { return \"\"; },\n        set: function (a) { },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedGetter_GetterFirst\", {\n        get: function () { return \"\"; },\n        set: function (aStr) { aStr = 0; },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedGetter_GetterLast\", {\n        get: function () { return \"\"; },\n        set: function (aStr) { aStr = 0; },\n        enumerable: true,\n        configurable: true\n    });\n    return LanguageSpec_section_4_5_error_cases;\n})();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -69,7 +76,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                     "kind": 131102,
                     "text": "LanguageSpec_section_4_5_error_cases",
                     "rawText": "LanguageSpec_section_4_5_error_cases",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -95,7 +102,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedSetter_SetterFirst",
                                     "rawText": "AnnotatedSetter_SetterFirst",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -113,7 +120,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -136,7 +143,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -146,7 +153,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -162,7 +169,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -170,7 +177,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 100,
                                         "end": 100
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -191,7 +198,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 55
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -199,7 +206,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 87,
                                 "end": 102
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -219,7 +226,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedSetter_SetterFirst",
                                     "rawText": "AnnotatedSetter_SetterFirst",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -231,7 +238,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -252,7 +259,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "kind": 67279,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -260,7 +267,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "start": 156,
                                                     "end": 159
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -270,7 +277,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -278,7 +285,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 149,
                                         "end": 160
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -299,7 +306,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 113
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -307,7 +314,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 145,
                                 "end": 162
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -327,7 +334,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedSetter_SetterLast",
                                     "rawText": "AnnotatedSetter_SetterLast",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -339,7 +346,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -360,7 +367,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "kind": 67279,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -368,7 +375,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "start": 216,
                                                     "end": 219
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -378,7 +385,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -386,7 +393,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 209,
                                         "end": 220
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -407,7 +414,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 174
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -415,7 +422,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 205,
                                 "end": 222
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -435,7 +442,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedSetter_SetterLast",
                                     "rawText": "AnnotatedSetter_SetterLast",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -453,7 +460,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -476,7 +483,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -486,7 +493,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -502,7 +509,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -510,7 +517,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 277,
                                         "end": 277
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -531,7 +538,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 233
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -539,7 +546,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 264,
                                 "end": 279
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -559,7 +566,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedGetter_GetterFirst",
                                     "rawText": "AnnotatedGetter_GetterFirst",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -571,7 +578,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -592,7 +599,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "kind": 67279,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -600,7 +607,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "start": 342,
                                                     "end": 345
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -610,7 +617,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -618,7 +625,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 335,
                                         "end": 346
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -648,7 +655,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 291
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -656,7 +663,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 323,
                                 "end": 348
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -676,7 +683,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedGetter_GetterFirst",
                                     "rawText": "AnnotatedGetter_GetterFirst",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -694,7 +701,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                 "kind": 131102,
                                                 "text": "aStr",
                                                 "rawText": "aStr",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -708,7 +715,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -718,7 +725,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -741,7 +748,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "kind": 196712,
                                                         "text": "aStr",
                                                         "rawText": "aStr",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -754,7 +761,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "kind": 4261540,
                                                         "text": 0,
                                                         "rawText": "0",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -762,7 +769,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "start": 406,
                                                         "end": 408
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -780,7 +787,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -788,7 +795,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 399,
                                         "end": 409
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -809,7 +816,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 359
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -817,7 +824,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 391,
                                 "end": 411
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -837,7 +844,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedGetter_GetterLast",
                                     "rawText": "AnnotatedGetter_GetterLast",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -855,7 +862,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                 "kind": 131102,
                                                 "text": "aStr",
                                                 "rawText": "aStr",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -869,7 +876,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -879,7 +886,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -902,7 +909,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "kind": 196712,
                                                         "text": "aStr",
                                                         "rawText": "aStr",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -915,7 +922,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "kind": 4261540,
                                                         "text": 0,
                                                         "rawText": "0",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -923,7 +930,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                         "start": 469,
                                                         "end": 471
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -941,7 +948,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -949,7 +956,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 462,
                                         "end": 472
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -970,7 +977,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 423
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -978,7 +985,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 454,
                                 "end": 474
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -998,7 +1005,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 196711,
                                     "text": "AnnotatedGetter_GetterLast",
                                     "rawText": "AnnotatedGetter_GetterLast",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1010,7 +1017,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1031,7 +1038,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "kind": 67279,
                                                     "text": "",
                                                     "rawText": "",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1039,7 +1046,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     "start": 535,
                                                     "end": 538
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1049,7 +1056,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1057,7 +1064,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 528,
                                         "end": 539
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1087,7 +1094,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "end": 485
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1095,7 +1102,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "start": 516,
                                 "end": 541
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1104,7 +1111,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                             "end": 541
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -1113,7 +1120,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                     "end": 543
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -1132,7 +1139,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                 "kind": 131102,
                                 "text": "LanguageSpec_section_4_5_error_cases",
                                 "rawText": "LanguageSpec_section_4_5_error_cases",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1153,7 +1160,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                             "kind": 90,
                                             "formalParameterList": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1172,7 +1179,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                             "kind": 131102,
                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -1184,7 +1191,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                             "kind": 90,
                                                             "formalParameterList": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1199,7 +1206,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 "kind": 94,
                                                                 "statements": [],
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1207,7 +1214,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 "start": 705,
                                                                 "end": 705
                                                             },
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1216,7 +1223,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                             "end": 711
                                                         },
                                                         "typeParameters": null,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 256,
                                                         "parent": null,
@@ -1234,7 +1241,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196712,
                                                                     "text": "Object",
                                                                     "rawText": "Object",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1246,7 +1253,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196711,
                                                                     "text": "defineProperty",
                                                                     "rawText": "defineProperty",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1254,7 +1261,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "start": 723,
                                                                     "end": 737
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1272,7 +1279,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196712,
                                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1284,7 +1291,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196711,
                                                                             "text": "prototype",
                                                                             "rawText": "prototype",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1292,7 +1299,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 775,
                                                                             "end": 784
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1304,7 +1311,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                         "kind": 67279,
                                                                         "text": "AnnotatedSetter_SetterFirst",
                                                                         "rawText": "AnnotatedSetter_SetterFirst",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1323,7 +1330,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "get",
                                                                                         "rawText": "get",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1338,7 +1345,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                             "kind": 90,
                                                                                             "formalParameterList": [],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1357,7 +1364,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "kind": 67279,
                                                                                                             "text": "",
                                                                                                             "rawText": "",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -1365,7 +1372,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "start": 852,
                                                                                                             "end": 855
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1375,7 +1382,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1383,7 +1390,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 845,
                                                                                                 "end": 856
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1393,7 +1400,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1403,7 +1410,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1417,7 +1424,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "set",
                                                                                         "rawText": "set",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1438,7 +1445,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                         "kind": 131102,
                                                                                                         "text": "a",
                                                                                                         "rawText": "a",
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 1025,
                                                                                                         "parent": null,
@@ -1452,7 +1459,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     "decorators": null,
                                                                                                     "accessModifier": null,
                                                                                                     "isReadOnly": false,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
                                                                                                     "parent": null,
@@ -1462,7 +1469,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1476,7 +1483,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "kind": 94,
                                                                                                 "statements": [],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1484,7 +1491,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 887,
                                                                                                 "end": 887
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1494,7 +1501,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1504,7 +1511,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1518,7 +1525,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "enumerable",
                                                                                         "rawText": "enumerable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1529,7 +1536,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1539,7 +1546,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1553,7 +1560,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "configurable",
                                                                                         "rawText": "configurable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1564,7 +1571,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1574,7 +1581,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1585,7 +1592,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1593,7 +1600,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 818,
                                                                             "end": 943
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1604,14 +1611,14 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "transformFlags": 0,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 774,
                                                                 "end": 950
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1637,7 +1644,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196712,
                                                                     "text": "Object",
                                                                     "rawText": "Object",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1649,7 +1656,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196711,
                                                                     "text": "defineProperty",
                                                                     "rawText": "defineProperty",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1657,7 +1664,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "start": 963,
                                                                     "end": 977
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1675,7 +1682,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196712,
                                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1687,7 +1694,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196711,
                                                                             "text": "prototype",
                                                                             "rawText": "prototype",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1695,7 +1702,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1015,
                                                                             "end": 1024
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1707,7 +1714,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                         "kind": 67279,
                                                                         "text": "AnnotatedSetter_SetterLast",
                                                                         "rawText": "AnnotatedSetter_SetterLast",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1726,7 +1733,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "get",
                                                                                         "rawText": "get",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1741,7 +1748,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                             "kind": 90,
                                                                                             "formalParameterList": [],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1760,7 +1767,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "kind": 67279,
                                                                                                             "text": "",
                                                                                                             "rawText": "",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -1768,7 +1775,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "start": 1091,
                                                                                                             "end": 1094
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -1778,7 +1785,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1786,7 +1793,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1084,
                                                                                                 "end": 1095
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1796,7 +1803,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1806,7 +1813,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1820,7 +1827,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "set",
                                                                                         "rawText": "set",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1841,7 +1848,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                         "kind": 131102,
                                                                                                         "text": "a",
                                                                                                         "rawText": "a",
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 1025,
                                                                                                         "parent": null,
@@ -1855,7 +1862,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     "decorators": null,
                                                                                                     "accessModifier": null,
                                                                                                     "isReadOnly": false,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
                                                                                                     "parent": null,
@@ -1865,7 +1872,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1879,7 +1886,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "kind": 94,
                                                                                                 "statements": [],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -1887,7 +1894,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1126,
                                                                                                 "end": 1126
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -1897,7 +1904,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1907,7 +1914,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1921,7 +1928,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "enumerable",
                                                                                         "rawText": "enumerable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1932,7 +1939,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1942,7 +1949,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1956,7 +1963,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "configurable",
                                                                                         "rawText": "configurable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1967,7 +1974,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -1977,7 +1984,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1988,7 +1995,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1996,7 +2003,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1057,
                                                                             "end": 1182
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2007,14 +2014,14 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "transformFlags": 0,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 1014,
                                                                 "end": 1189
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2040,7 +2047,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196712,
                                                                     "text": "Object",
                                                                     "rawText": "Object",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2052,7 +2059,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196711,
                                                                     "text": "defineProperty",
                                                                     "rawText": "defineProperty",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2060,7 +2067,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "start": 1202,
                                                                     "end": 1216
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2078,7 +2085,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196712,
                                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2090,7 +2097,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196711,
                                                                             "text": "prototype",
                                                                             "rawText": "prototype",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2098,7 +2105,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1254,
                                                                             "end": 1263
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2110,7 +2117,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                         "kind": 67279,
                                                                         "text": "AnnotatedGetter_GetterFirst",
                                                                         "rawText": "AnnotatedGetter_GetterFirst",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2129,7 +2136,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "get",
                                                                                         "rawText": "get",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2144,7 +2151,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                             "kind": 90,
                                                                                             "formalParameterList": [],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2163,7 +2170,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "kind": 67279,
                                                                                                             "text": "",
                                                                                                             "rawText": "",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -2171,7 +2178,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "start": 1331,
                                                                                                             "end": 1334
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -2181,7 +2188,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -2189,7 +2196,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1324,
                                                                                                 "end": 1335
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2199,7 +2206,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2209,7 +2216,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2223,7 +2230,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "set",
                                                                                         "rawText": "set",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2244,7 +2251,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                         "kind": 131102,
                                                                                                         "text": "aStr",
                                                                                                         "rawText": "aStr",
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 1025,
                                                                                                         "parent": null,
@@ -2258,7 +2265,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     "decorators": null,
                                                                                                     "accessModifier": null,
                                                                                                     "isReadOnly": false,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
                                                                                                     "parent": null,
@@ -2268,7 +2275,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2289,7 +2296,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "kind": 196712,
                                                                                                                 "text": "aStr",
                                                                                                                 "rawText": "aStr",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -2302,7 +2309,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "kind": 4261540,
                                                                                                                 "text": 0,
                                                                                                                 "rawText": "0",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -2310,7 +2317,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "start": 1376,
                                                                                                                 "end": 1378
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -2328,7 +2335,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -2336,7 +2343,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1369,
                                                                                                 "end": 1379
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2346,7 +2353,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2356,7 +2363,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2370,7 +2377,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "enumerable",
                                                                                         "rawText": "enumerable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2381,7 +2388,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2391,7 +2398,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2405,7 +2412,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "configurable",
                                                                                         "rawText": "configurable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2416,7 +2423,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2426,7 +2433,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2437,7 +2444,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2445,7 +2452,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1297,
                                                                             "end": 1435
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2456,14 +2463,14 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "transformFlags": 0,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 1253,
                                                                 "end": 1442
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2489,7 +2496,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196712,
                                                                     "text": "Object",
                                                                     "rawText": "Object",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2501,7 +2508,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "kind": 196711,
                                                                     "text": "defineProperty",
                                                                     "rawText": "defineProperty",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2509,7 +2516,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                     "start": 1455,
                                                                     "end": 1469
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2527,7 +2534,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196712,
                                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2539,7 +2546,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "kind": 196711,
                                                                             "text": "prototype",
                                                                             "rawText": "prototype",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2547,7 +2554,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1507,
                                                                             "end": 1516
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2559,7 +2566,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                         "kind": 67279,
                                                                         "text": "AnnotatedGetter_GetterLast",
                                                                         "rawText": "AnnotatedGetter_GetterLast",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2578,7 +2585,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "get",
                                                                                         "rawText": "get",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2593,7 +2600,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                             "kind": 90,
                                                                                             "formalParameterList": [],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2612,7 +2619,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "kind": 67279,
                                                                                                             "text": "",
                                                                                                             "rawText": "",
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -2620,7 +2627,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                             "start": 1583,
                                                                                                             "end": 1586
                                                                                                         },
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
                                                                                                         "parent": null,
@@ -2630,7 +2637,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -2638,7 +2645,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1576,
                                                                                                 "end": 1587
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2648,7 +2655,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2658,7 +2665,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2672,7 +2679,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "set",
                                                                                         "rawText": "set",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2693,7 +2700,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                         "kind": 131102,
                                                                                                         "text": "aStr",
                                                                                                         "rawText": "aStr",
-                                                                                                        "flags": 0,
+                                                                                                        "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 1025,
                                                                                                         "parent": null,
@@ -2707,7 +2714,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     "decorators": null,
                                                                                                     "accessModifier": null,
                                                                                                     "isReadOnly": false,
-                                                                                                    "flags": 0,
+                                                                                                    "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
                                                                                                     "parent": null,
@@ -2717,7 +2724,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 }
                                                                                             ],
                                                                                             "trailingComma": false,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2738,7 +2745,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "kind": 196712,
                                                                                                                 "text": "aStr",
                                                                                                                 "rawText": "aStr",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -2751,7 +2758,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "kind": 4261540,
                                                                                                                 "text": 0,
                                                                                                                 "rawText": "0",
-                                                                                                                "flags": 0,
+                                                                                                                "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
                                                                                                                 "parent": null,
@@ -2759,7 +2766,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                                 "start": 1628,
                                                                                                                 "end": 1630
                                                                                                             },
-                                                                                                            "flags": 0,
+                                                                                                            "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
                                                                                                             "parent": null,
@@ -2777,7 +2784,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                     }
                                                                                                 ],
                                                                                                 "multiline": false,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -2785,7 +2792,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                                 "start": 1621,
                                                                                                 "end": 1631
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -2795,7 +2802,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         },
                                                                                         "typeParameters": null,
                                                                                         "type": null,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2805,7 +2812,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2819,7 +2826,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "enumerable",
                                                                                         "rawText": "enumerable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2830,7 +2837,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2840,7 +2847,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2854,7 +2861,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                         "kind": 196711,
                                                                                         "text": "configurable",
                                                                                         "rawText": "configurable",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2865,7 +2872,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     "right": {
                                                                                         "kind": 4260391,
                                                                                         "text": true,
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2875,7 +2882,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                                     },
                                                                                     "accessModifier": null,
                                                                                     "decorators": null,
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2886,7 +2893,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2894,7 +2901,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                             "start": 1549,
                                                                             "end": 1687
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2905,14 +2912,14 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "transformFlags": 0,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 1506,
                                                                 "end": 1694
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2934,7 +2941,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                             "kind": 196712,
                                                             "text": "LanguageSpec_section_4_5_error_cases",
                                                             "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2942,7 +2949,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                             "start": 1706,
                                                             "end": 1743
                                                         },
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2952,7 +2959,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                     }
                                                 ],
                                                 "multiline": true,
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2960,7 +2967,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                                 "start": 651,
                                                 "end": 1744
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2970,7 +2977,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         },
                                         "typeParameters": null,
                                         "type": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2978,7 +2985,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                         "start": 638,
                                         "end": 1746
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2992,14 +2999,14 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 1749,
                                     "end": 1749
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3012,11 +3019,11 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 1749
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3024,7 +3031,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                     "start": 597,
                     "end": 1749
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3034,7 +3041,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -3059,13 +3066,34 @@ var LanguageSpec_section_4_5_error_cases = (function () {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class LanguageSpec_section_4_5_error_cases {
+    public set AnnotatedSetter_SetterFirst(a: number) { }
+    public get AnnotatedSetter_SetterFirst() { return ""; }
+    public get AnnotatedSetter_SetterLast() { return ""; }
+    public set AnnotatedSetter_SetterLast(a: number) { }
+    public get AnnotatedGetter_GetterFirst(): string { return ""; }
+    public set AnnotatedGetter_GetterFirst(aStr) { aStr = 0 }
+    public set AnnotatedGetter_GetterLast(aStr) { aStr = 0 }
+    public get AnnotatedGetter_GetterLast(): string { return ""; }
+}
+
+var LanguageSpec_section_4_5_error_cases = (function () {
+    function LanguageSpec_section_4_5_error_cases() {
+    }
+    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterFirst", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
+    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterLast", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
+    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterFirst", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
+    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterLast", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
+    return LanguageSpec_section_4_5_error_cases;
+})();
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

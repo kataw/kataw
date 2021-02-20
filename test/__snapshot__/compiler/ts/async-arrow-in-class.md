@@ -16,11 +16,11 @@ class Test {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Test {\n    static member = async (x: string) => { };\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ class Test {
                     "kind": 131102,
                     "text": "Test",
                     "rawText": "Test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -48,7 +48,7 @@ class Test {
                                 "kind": 196711,
                                 "text": "member",
                                 "rawText": "member",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -73,7 +73,7 @@ class Test {
                                                 "kind": 4325406,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -96,7 +96,7 @@ class Test {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -122,7 +122,7 @@ class Test {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -130,7 +130,7 @@ class Test {
                                         "start": 55,
                                         "end": 55
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -138,7 +138,7 @@ class Test {
                                     "start": 53,
                                     "end": 57
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -149,7 +149,7 @@ class Test {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -158,7 +158,7 @@ class Test {
                             "end": 58
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -167,7 +167,7 @@ class Test {
                     "end": 60
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -177,7 +177,7 @@ class Test {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -202,13 +202,17 @@ class Test {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Test {
+    static member = async (x: string) =>  { };
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

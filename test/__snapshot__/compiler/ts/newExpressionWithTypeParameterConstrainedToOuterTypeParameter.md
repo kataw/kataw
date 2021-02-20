@@ -18,11 +18,11 @@ var y = new i(""); // y should be string
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I<T> {\n    new <U extends T>(u: U): U;\n}\nvar i: I<string>;\nvar y = new i(\"\"); // y should be string",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -30,7 +30,7 @@ var y = new i(""); // y should be string
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ var y = new i(""); // y should be string
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -58,7 +58,7 @@ var y = new i(""); // y should be string
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -67,7 +67,7 @@ var y = new i(""); // y should be string
                             "end": 13
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -92,7 +92,7 @@ var y = new i(""); // y should be string
                                             "kind": 196711,
                                             "text": "U",
                                             "rawText": "U",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -106,7 +106,7 @@ var y = new i(""); // y should be string
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -115,7 +115,7 @@ var y = new i(""); // y should be string
                                                 "end": 37
                                             },
                                             "typeArguments": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -125,7 +125,7 @@ var y = new i(""); // y should be string
                                         },
                                         "defaultType": null,
                                         "expression": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -134,7 +134,7 @@ var y = new i(""); // y should be string
                                         "end": 37
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -152,7 +152,7 @@ var y = new i(""); // y should be string
                                             "kind": 131102,
                                             "text": "u",
                                             "rawText": "u",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -167,7 +167,7 @@ var y = new i(""); // y should be string
                                                 "kind": 196711,
                                                 "text": "U",
                                                 "rawText": "U",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -176,7 +176,7 @@ var y = new i(""); // y should be string
                                                 "end": 43
                                             },
                                             "typeArguments": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -187,7 +187,7 @@ var y = new i(""); // y should be string
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -197,7 +197,7 @@ var y = new i(""); // y should be string
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -211,7 +211,7 @@ var y = new i(""); // y should be string
                                     "kind": 196711,
                                     "text": "U",
                                     "rawText": "U",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -220,7 +220,7 @@ var y = new i(""); // y should be string
                                     "end": 47
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -228,7 +228,7 @@ var y = new i(""); // y should be string
                                 "start": 45,
                                 "end": 48
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -237,7 +237,7 @@ var y = new i(""); // y should be string
                             "end": 48
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -245,7 +245,7 @@ var y = new i(""); // y should be string
                     "start": 16,
                     "end": 48
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -264,7 +264,7 @@ var y = new i(""); // y should be string
                                 "kind": 131102,
                                 "text": "i",
                                 "rawText": "i",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -279,7 +279,7 @@ var y = new i(""); // y should be string
                                     "kind": 196711,
                                     "text": "I",
                                     "rawText": "I",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -301,7 +301,7 @@ var y = new i(""); // y should be string
                                             "end": 66
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -309,7 +309,7 @@ var y = new i(""); // y should be string
                                     "start": 60,
                                     "end": 66
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -323,11 +323,11 @@ var y = new i(""); // y should be string
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 67
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -335,7 +335,7 @@ var y = new i(""); // y should be string
                     "start": 54,
                     "end": 67
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -354,7 +354,7 @@ var y = new i(""); // y should be string
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -370,7 +370,7 @@ var y = new i(""); // y should be string
                                     "kind": 196712,
                                     "text": "i",
                                     "rawText": "i",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -386,7 +386,7 @@ var y = new i(""); // y should be string
                                             "kind": 67279,
                                             "text": "",
                                             "rawText": "",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -397,7 +397,7 @@ var y = new i(""); // y should be string
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -409,7 +409,7 @@ var y = new i(""); // y should be string
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 86
                             },
                             "flags": 72,
@@ -417,11 +417,11 @@ var y = new i(""); // y should be string
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 86
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -429,7 +429,7 @@ var y = new i(""); // y should be string
                     "start": 72,
                     "end": 86
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -439,7 +439,7 @@ var y = new i(""); // y should be string
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -464,13 +464,21 @@ var y = new i(""); // y should be string
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I<T> {
+    new <U extends T>(u: U):U;
+}
+
+var i: I<string>;
+
+var y = new i("");
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

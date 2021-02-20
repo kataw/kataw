@@ -256,13 +256,18 @@ function foo(...rest) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo(...rest) {
+    var x: number = rest[0];
+    return x;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

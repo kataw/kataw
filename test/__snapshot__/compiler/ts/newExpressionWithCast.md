@@ -28,11 +28,11 @@ var test3 = new (<any>Test3)();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "// @noimplicitany: true\n\nfunction Test() { }\n// valid but error with noImplicitAny\nvar test = new Test();\n\nfunction Test2() { }\n// parse error\nvar test2 = new <any>Test2();\n\nfunction Test3() { }\n// valid with noImplicitAny\nvar test3 = new (<any>Test3)();\n\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -40,7 +40,7 @@ var test3 = new (<any>Test3)();
                     "kind": 131102,
                     "text": "Test",
                     "rawText": "Test",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -52,7 +52,7 @@ var test3 = new (<any>Test3)();
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -67,7 +67,7 @@ var test3 = new (<any>Test3)();
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -75,7 +75,7 @@ var test3 = new (<any>Test3)();
                         "start": 42,
                         "end": 42
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -84,7 +84,7 @@ var test3 = new (<any>Test3)();
                     "end": 44
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -103,7 +103,7 @@ var test3 = new (<any>Test3)();
                                 "kind": 131102,
                                 "text": "test",
                                 "rawText": "test",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -119,7 +119,7 @@ var test3 = new (<any>Test3)();
                                     "kind": 196712,
                                     "text": "Test",
                                     "rawText": "Test",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -133,7 +133,7 @@ var test3 = new (<any>Test3)();
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -145,7 +145,7 @@ var test3 = new (<any>Test3)();
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 104
                             },
                             "flags": 86,
@@ -153,11 +153,11 @@ var test3 = new (<any>Test3)();
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 104
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -165,7 +165,7 @@ var test3 = new (<any>Test3)();
                     "start": 86,
                     "end": 104
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -179,7 +179,7 @@ var test3 = new (<any>Test3)();
                     "kind": 131102,
                     "text": "Test2",
                     "rawText": "Test2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -191,7 +191,7 @@ var test3 = new (<any>Test3)();
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -206,7 +206,7 @@ var test3 = new (<any>Test3)();
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -214,7 +214,7 @@ var test3 = new (<any>Test3)();
                         "start": 125,
                         "end": 125
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -223,7 +223,7 @@ var test3 = new (<any>Test3)();
                     "end": 127
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -242,7 +242,7 @@ var test3 = new (<any>Test3)();
                                 "kind": 131102,
                                 "text": "test2",
                                 "rawText": "test2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -276,7 +276,7 @@ var test3 = new (<any>Test3)();
                                         "transformFlags": 32,
                                         "parent": null,
                                         "emitNode": null,
-                                        "start": 2,
+                                        "start": 65538,
                                         "end": 158
                                     },
                                     "operator": "<",
@@ -284,7 +284,7 @@ var test3 = new (<any>Test3)();
                                         "kind": 196712,
                                         "text": "any",
                                         "rawText": "any",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -292,7 +292,7 @@ var test3 = new (<any>Test3)();
                                         "start": 160,
                                         "end": 163
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -307,7 +307,7 @@ var test3 = new (<any>Test3)();
                                         "kind": 196712,
                                         "text": "Test2",
                                         "rawText": "Test2",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -321,14 +321,14 @@ var test3 = new (<any>Test3)();
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 171,
                                         "end": 171
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -336,7 +336,7 @@ var test3 = new (<any>Test3)();
                                     "start": 169,
                                     "end": 171
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -349,11 +349,11 @@ var test3 = new (<any>Test3)();
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 171
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -361,7 +361,7 @@ var test3 = new (<any>Test3)();
                     "start": 146,
                     "end": 171
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -375,7 +375,7 @@ var test3 = new (<any>Test3)();
                     "kind": 131102,
                     "text": "Test3",
                     "rawText": "Test3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -387,7 +387,7 @@ var test3 = new (<any>Test3)();
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -402,7 +402,7 @@ var test3 = new (<any>Test3)();
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -410,7 +410,7 @@ var test3 = new (<any>Test3)();
                         "start": 192,
                         "end": 192
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -419,7 +419,7 @@ var test3 = new (<any>Test3)();
                     "end": 194
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -438,7 +438,7 @@ var test3 = new (<any>Test3)();
                                 "kind": 131102,
                                 "text": "test3",
                                 "rawText": "test3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -468,7 +468,7 @@ var test3 = new (<any>Test3)();
                                             "kind": 196712,
                                             "text": "Test3",
                                             "rawText": "Test3",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -476,7 +476,7 @@ var test3 = new (<any>Test3)();
                                             "start": 245,
                                             "end": 250
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -484,7 +484,7 @@ var test3 = new (<any>Test3)();
                                         "start": 240,
                                         "end": 250
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -498,7 +498,7 @@ var test3 = new (<any>Test3)();
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -510,7 +510,7 @@ var test3 = new (<any>Test3)();
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 253
                             },
                             "flags": 226,
@@ -518,11 +518,11 @@ var test3 = new (<any>Test3)();
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 253
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -530,7 +530,7 @@ var test3 = new (<any>Test3)();
                     "start": 226,
                     "end": 253
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -540,7 +540,7 @@ var test3 = new (<any>Test3)();
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -565,13 +565,25 @@ var test3 = new (<any>Test3)();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function Test() { }
+
+var test = new Test();
+
+function Test2() { }
+
+var test2 = new undefined < any > Test2();
+
+function Test3() { }
+
+var test3 = new (<any>Test3)();
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

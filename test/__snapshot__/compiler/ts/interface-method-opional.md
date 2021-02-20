@@ -16,11 +16,11 @@ interface I {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I {\n    m?(): void;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -28,7 +28,7 @@ interface I {
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -47,7 +47,7 @@ interface I {
                                 "kind": 196711,
                                 "text": "m",
                                 "rawText": "m",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -64,7 +64,7 @@ interface I {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -82,7 +82,7 @@ interface I {
                                 "start": 23,
                                 "end": 28
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -91,7 +91,7 @@ interface I {
                             "end": 29
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -99,7 +99,7 @@ interface I {
                     "start": 13,
                     "end": 29
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -109,7 +109,7 @@ interface I {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -134,13 +134,17 @@ interface I {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I {
+    m?(): void;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

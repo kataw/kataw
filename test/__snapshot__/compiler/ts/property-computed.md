@@ -17,11 +17,11 @@ class C {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class C {\n    [Symbol.iterator]: number;\n    [Symbol.iterator]?: number;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -29,7 +29,7 @@ class C {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -53,7 +53,7 @@ class C {
                                         "kind": 196712,
                                         "text": "Symbol",
                                         "rawText": "Symbol",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -65,7 +65,7 @@ class C {
                                         "kind": 196711,
                                         "text": "iterator",
                                         "rawText": "iterator",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -73,7 +73,7 @@ class C {
                                         "start": 22,
                                         "end": 30
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -81,7 +81,7 @@ class C {
                                     "start": 21,
                                     "end": 30
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 131073,
                                 "parent": null,
@@ -106,7 +106,7 @@ class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -124,7 +124,7 @@ class C {
                                         "kind": 196712,
                                         "text": "Symbol",
                                         "rawText": "Symbol",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -136,7 +136,7 @@ class C {
                                         "kind": 196711,
                                         "text": "iterator",
                                         "rawText": "iterator",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -144,7 +144,7 @@ class C {
                                         "start": 53,
                                         "end": 61
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -152,7 +152,7 @@ class C {
                                     "start": 52,
                                     "end": 61
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 131073,
                                 "parent": null,
@@ -177,7 +177,7 @@ class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -186,7 +186,7 @@ class C {
                             "end": 72
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -195,7 +195,7 @@ class C {
                     "end": 74
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -205,7 +205,7 @@ class C {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -230,13 +230,18 @@ class C {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class C {
+    [Symbol.iterator]: number;
+    [Symbol.iterator]?: number;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

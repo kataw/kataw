@@ -17,11 +17,11 @@ interface JSONSchema4 {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface JSONSchema4 {\n  a?: number\n  extends?: string | string[]\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -29,7 +29,7 @@ interface JSONSchema4 {
                     "kind": 196712,
                     "text": "JSONSchema4",
                     "rawText": "JSONSchema4",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -48,7 +48,7 @@ interface JSONSchema4 {
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -71,7 +71,7 @@ interface JSONSchema4 {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -85,7 +85,7 @@ interface JSONSchema4 {
                                 "kind": 196711,
                                 "text": "extends",
                                 "rawText": "extends",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -120,7 +120,7 @@ interface JSONSchema4 {
                                             "start": 57,
                                             "end": 64
                                         },
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -129,7 +129,7 @@ interface JSONSchema4 {
                                         "end": 68
                                     }
                                 ],
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -140,7 +140,7 @@ interface JSONSchema4 {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -149,7 +149,7 @@ interface JSONSchema4 {
                             "end": 66
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -157,7 +157,7 @@ interface JSONSchema4 {
                     "start": 23,
                     "end": 66
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -167,7 +167,7 @@ interface JSONSchema4 {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -192,13 +192,18 @@ interface JSONSchema4 {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface JSONSchema4 {
+    a?: number;
+    extends?: string | string[];
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

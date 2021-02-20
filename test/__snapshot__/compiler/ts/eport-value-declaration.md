@@ -310,13 +310,26 @@ export namespace E {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export var a;;
+
+export function b() { };
+
+export class C {
+
+};
+
+enum D {
+}
+
+namespace E {};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

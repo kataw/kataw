@@ -23,11 +23,11 @@ function x ( { (function !! function): string
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function x (x: string\n\nfunction x x: string\n\nfunction x (x: string }\n\nfunction x !(x: string {\n\nfunction x ( { (function !! function): string\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -35,7 +35,7 @@ function x ( { (function !! function): string
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -53,7 +53,7 @@ function x ( { (function !! function): string
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -76,7 +76,7 @@ function x ( { (function !! function): string
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -86,7 +86,7 @@ function x ( { (function !! function): string
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 16386,
+                    "flags": 81922,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -97,7 +97,7 @@ function x ( { (function !! function): string
                 "type": null,
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -111,7 +111,7 @@ function x ( { (function !! function): string
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -123,7 +123,7 @@ function x ( { (function !! function): string
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -138,7 +138,7 @@ function x ( { (function !! function): string
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -146,7 +146,7 @@ function x ( { (function !! function): string
                         "start": 35,
                         "end": 35
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -155,7 +155,7 @@ function x ( { (function !! function): string
                     "end": 35
                 },
                 "typeParameters": null,
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -169,7 +169,7 @@ function x ( { (function !! function): string
                     "kind": 196712,
                     "text": "string",
                     "rawText": "string",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -191,7 +191,7 @@ function x ( { (function !! function): string
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -209,7 +209,7 @@ function x ( { (function !! function): string
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -232,7 +232,7 @@ function x ( { (function !! function): string
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -242,7 +242,7 @@ function x ( { (function !! function): string
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -253,7 +253,7 @@ function x ( { (function !! function): string
                 "type": null,
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -267,7 +267,7 @@ function x ( { (function !! function): string
                     "kind": 131102,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -279,7 +279,7 @@ function x ( { (function !! function): string
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -304,7 +304,7 @@ function x ( { (function !! function): string
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -327,7 +327,7 @@ function x ( { (function !! function): string
                                         "decorators": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -335,7 +335,7 @@ function x ( { (function !! function): string
                                         "start": 82,
                                         "end": 92
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -362,7 +362,7 @@ function x ( { (function !! function): string
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -384,14 +384,14 @@ function x ( { (function !! function): string
                                                                 "multiline": false,
                                                                 "trailingComma": false,
                                                                 "transformFlags": 1025,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "parent": null,
                                                                 "emitNode": null,
                                                                 "start": 110,
                                                                 "end": 110
                                                             },
-                                                            "flags": 2,
+                                                            "flags": 65538,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -405,7 +405,7 @@ function x ( { (function !! function): string
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 2,
+                                                        "flags": 65538,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -415,7 +415,7 @@ function x ( { (function !! function): string
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 2,
+                                                "flags": 65538,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -435,7 +435,7 @@ function x ( { (function !! function): string
                                                                 "kind": 131102,
                                                                 "text": "",
                                                                 "rawText": "",
-                                                                "flags": 2,
+                                                                "flags": 65538,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -447,7 +447,7 @@ function x ( { (function !! function): string
                                                                 "kind": 90,
                                                                 "formalParameterList": [],
                                                                 "trailingComma": false,
-                                                                "flags": 2,
+                                                                "flags": 65538,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -473,7 +473,7 @@ function x ( { (function !! function): string
                                                                                         "kind": 90,
                                                                                         "formalParameterList": [],
                                                                                         "trailingComma": false,
-                                                                                        "flags": 2,
+                                                                                        "flags": 65538,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -487,7 +487,7 @@ function x ( { (function !! function): string
                                                                                             "kind": 94,
                                                                                             "statements": [],
                                                                                             "multiline": false,
-                                                                                            "flags": 2,
+                                                                                            "flags": 65538,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -495,7 +495,7 @@ function x ( { (function !! function): string
                                                                                             "start": 132,
                                                                                             "end": 132
                                                                                         },
-                                                                                        "flags": 2,
+                                                                                        "flags": 65538,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -505,7 +505,7 @@ function x ( { (function !! function): string
                                                                                     },
                                                                                     "typeParameters": null,
                                                                                     "type": null,
-                                                                                    "flags": 2,
+                                                                                    "flags": 65538,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -513,7 +513,7 @@ function x ( { (function !! function): string
                                                                                     "start": 123,
                                                                                     "end": 132
                                                                                 },
-                                                                                "flags": 2,
+                                                                                "flags": 65538,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -531,7 +531,7 @@ function x ( { (function !! function): string
                                                                         }
                                                                     ],
                                                                     "multiline": false,
-                                                                    "flags": 2,
+                                                                    "flags": 65538,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -539,7 +539,7 @@ function x ( { (function !! function): string
                                                                     "start": 122,
                                                                     "end": 132
                                                                 },
-                                                                "flags": 2,
+                                                                "flags": 65538,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -548,7 +548,7 @@ function x ( { (function !! function): string
                                                                 "end": 132
                                                             },
                                                             "typeParameters": null,
-                                                            "flags": 2,
+                                                            "flags": 65538,
                                                             "intersects": false,
                                                             "transformFlags": 256,
                                                             "parent": null,
@@ -558,7 +558,7 @@ function x ( { (function !! function): string
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 2,
+                                                    "flags": 65538,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -566,7 +566,7 @@ function x ( { (function !! function): string
                                                     "start": 112,
                                                     "end": 132
                                                 },
-                                                "flags": 2,
+                                                "flags": 65538,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -575,7 +575,7 @@ function x ( { (function !! function): string
                                                 "end": 132
                                             },
                                             "typeParameters": null,
-                                            "flags": 16386,
+                                            "flags": 81922,
                                             "intersects": false,
                                             "transformFlags": 256,
                                             "parent": null,
@@ -585,7 +585,7 @@ function x ( { (function !! function): string
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 2,
+                                    "flags": 65538,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -593,7 +593,7 @@ function x ( { (function !! function): string
                                     "start": 94,
                                     "end": 132
                                 },
-                                "flags": 2,
+                                "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -603,7 +603,7 @@ function x ( { (function !! function): string
                             }
                         ],
                         "multiline": false,
-                        "flags": 2,
+                        "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -611,7 +611,7 @@ function x ( { (function !! function): string
                         "start": 82,
                         "end": 132
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -620,7 +620,7 @@ function x ( { (function !! function): string
                     "end": 132
                 },
                 "typeParameters": null,
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -634,7 +634,7 @@ function x ( { (function !! function): string
                     "kind": 196712,
                     "text": "string",
                     "rawText": "string",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -652,7 +652,7 @@ function x ( { (function !! function): string
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -748,13 +748,29 @@ function x ( { (function !! function): string
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function x(x: string);
+
+function x() { }
+
+string
+
+function x(x: string);
+
+function x() { (x: string) {
+    function x({ }) { function () { ! function () { } } }
+} }
+
+string
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 102, end: 0
+@{x2716}@ Identifier expected - start: 135, end: 0
 
 ```
 

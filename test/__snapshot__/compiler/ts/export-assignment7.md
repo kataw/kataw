@@ -129,13 +129,19 @@ export = B;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export class C {
+
+};
+
+
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

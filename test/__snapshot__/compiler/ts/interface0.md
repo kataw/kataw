@@ -19,11 +19,11 @@ var y: Generic<number> = { x: 3 };
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Generic<T> {\n    x: T;\n}\n\nvar y: Generic<number> = { x: 3 };\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -31,7 +31,7 @@ var y: Generic<number> = { x: 3 };
                     "kind": 196712,
                     "text": "Generic",
                     "rawText": "Generic",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -48,7 +48,7 @@ var y: Generic<number> = { x: 3 };
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -59,7 +59,7 @@ var y: Generic<number> = { x: 3 };
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -68,7 +68,7 @@ var y: Generic<number> = { x: 3 };
                             "end": 19
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -86,7 +86,7 @@ var y: Generic<number> = { x: 3 };
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -102,7 +102,7 @@ var y: Generic<number> = { x: 3 };
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -111,7 +111,7 @@ var y: Generic<number> = { x: 3 };
                                     "end": 31
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -122,7 +122,7 @@ var y: Generic<number> = { x: 3 };
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -131,7 +131,7 @@ var y: Generic<number> = { x: 3 };
                             "end": 32
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -139,7 +139,7 @@ var y: Generic<number> = { x: 3 };
                     "start": 22,
                     "end": 32
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -158,7 +158,7 @@ var y: Generic<number> = { x: 3 };
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -173,7 +173,7 @@ var y: Generic<number> = { x: 3 };
                                     "kind": 196711,
                                     "text": "Generic",
                                     "rawText": "Generic",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -195,7 +195,7 @@ var y: Generic<number> = { x: 3 };
                                             "end": 57
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -203,7 +203,7 @@ var y: Generic<number> = { x: 3 };
                                     "start": 51,
                                     "end": 57
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -222,7 +222,7 @@ var y: Generic<number> = { x: 3 };
                                                 "kind": 196711,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -234,7 +234,7 @@ var y: Generic<number> = { x: 3 };
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -244,7 +244,7 @@ var y: Generic<number> = { x: 3 };
                                             },
                                             "accessModifier": null,
                                             "decorators": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -255,7 +255,7 @@ var y: Generic<number> = { x: 3 };
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -263,7 +263,7 @@ var y: Generic<number> = { x: 3 };
                                     "start": 62,
                                     "end": 67
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -276,11 +276,11 @@ var y: Generic<number> = { x: 3 };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 69
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -288,7 +288,7 @@ var y: Generic<number> = { x: 3 };
                     "start": 39,
                     "end": 69
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -298,7 +298,7 @@ var y: Generic<number> = { x: 3 };
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -323,13 +323,19 @@ var y: Generic<number> = { x: 3 };
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Generic<T> {
+    x: T;
+}
+
+var y: Generic<number> = { x : 3 };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

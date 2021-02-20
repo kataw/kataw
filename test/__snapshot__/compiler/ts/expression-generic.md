@@ -16,11 +16,11 @@
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "(class<T> {});\n(class C<T> {});\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -38,7 +38,7 @@
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -49,7 +49,7 @@
                                     "constraint": null,
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -58,7 +58,7 @@
                                     "end": 8
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -71,7 +71,7 @@
                         "members": {
                             "kind": 50,
                             "elements": [],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -80,7 +80,7 @@
                             "end": 12
                         },
                         "decorators": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
                         "parent": null,
@@ -88,7 +88,7 @@
                         "start": 1,
                         "end": 12
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -114,7 +114,7 @@
                             "kind": 131102,
                             "text": "C",
                             "rawText": "C",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -131,7 +131,7 @@
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -142,7 +142,7 @@
                                     "constraint": null,
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -151,7 +151,7 @@
                                     "end": 25
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -164,7 +164,7 @@
                         "members": {
                             "kind": 50,
                             "elements": [],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -173,7 +173,7 @@
                             "end": 29
                         },
                         "decorators": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
                         "parent": null,
@@ -181,7 +181,7 @@
                         "start": 16,
                         "end": 29
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -199,7 +199,7 @@
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -224,13 +224,21 @@
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+(class<T> {
+
+})
+
+(class C<T> {
+
+})
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

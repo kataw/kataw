@@ -20,11 +20,11 @@ let result = recursive()(1)
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function recursive() {\n    let x = <T>(subkey: T) => recursive();\n    return x as typeof x & { p };\n}\n\nlet result = recursive()(1)\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -32,7 +32,7 @@ let result = recursive()(1)
                     "kind": 131102,
                     "text": "recursive",
                     "rawText": "recursive",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -44,7 +44,7 @@ let result = recursive()(1)
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -70,7 +70,7 @@ let result = recursive()(1)
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -87,7 +87,7 @@ let result = recursive()(1)
                                                     "typeParameters": {
                                                         "kind": 233,
                                                         "typeParameterList": [],
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -103,7 +103,7 @@ let result = recursive()(1)
                                                                 "kind": 196712,
                                                                 "text": "subkey",
                                                                 "rawText": "subkey",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -118,7 +118,7 @@ let result = recursive()(1)
                                                                     "kind": 196711,
                                                                     "text": "T",
                                                                     "rawText": "T",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -127,7 +127,7 @@ let result = recursive()(1)
                                                                     "end": 48
                                                                 },
                                                                 "typeArguments": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -139,7 +139,7 @@ let result = recursive()(1)
                                                             "decorators": null,
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -165,7 +165,7 @@ let result = recursive()(1)
                                                         "kind": 196712,
                                                         "text": "recursive",
                                                         "rawText": "recursive",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -179,14 +179,14 @@ let result = recursive()(1)
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 64,
                                                         "end": 64
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -194,7 +194,7 @@ let result = recursive()(1)
                                                     "start": 62,
                                                     "end": 64
                                                 },
-                                                "flags": 536870912,
+                                                "flags": 536936448,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -202,7 +202,7 @@ let result = recursive()(1)
                                                 "start": 34,
                                                 "end": 64
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -211,7 +211,7 @@ let result = recursive()(1)
                                             "end": 64
                                         }
                                     ],
-                                    "flags": 16,
+                                    "flags": 65552,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -219,7 +219,7 @@ let result = recursive()(1)
                                     "start": 30,
                                     "end": 64
                                 },
-                                "flags": 16400,
+                                "flags": 81936,
                                 "intersects": false,
                                 "transformFlags": 769,
                                 "parent": null,
@@ -235,7 +235,7 @@ let result = recursive()(1)
                                         "kind": 196712,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -252,7 +252,7 @@ let result = recursive()(1)
                                                     "kind": 196711,
                                                     "text": "x",
                                                     "rawText": "x",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -260,7 +260,7 @@ let result = recursive()(1)
                                                     "start": 88,
                                                     "end": 90
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -279,7 +279,7 @@ let result = recursive()(1)
                                                                 "kind": 196711,
                                                                 "text": "p",
                                                                 "rawText": "p",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -293,7 +293,7 @@ let result = recursive()(1)
                                                             "isStatic": false,
                                                             "isReadOnly": false,
                                                             "initializer": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -302,7 +302,7 @@ let result = recursive()(1)
                                                             "end": 96
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -310,7 +310,7 @@ let result = recursive()(1)
                                                     "start": 94,
                                                     "end": 98
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -319,7 +319,7 @@ let result = recursive()(1)
                                                 "end": 98
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -327,7 +327,7 @@ let result = recursive()(1)
                                         "start": 90,
                                         "end": 98
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -335,7 +335,7 @@ let result = recursive()(1)
                                     "start": 78,
                                     "end": 98
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -345,7 +345,7 @@ let result = recursive()(1)
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -353,7 +353,7 @@ let result = recursive()(1)
                         "start": 22,
                         "end": 99
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -362,7 +362,7 @@ let result = recursive()(1)
                     "end": 101
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -382,7 +382,7 @@ let result = recursive()(1)
                                 "kind": 131102,
                                 "text": "result",
                                 "rawText": "result",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -400,7 +400,7 @@ let result = recursive()(1)
                                         "kind": 196712,
                                         "text": "recursive",
                                         "rawText": "recursive",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -414,14 +414,14 @@ let result = recursive()(1)
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 127,
                                         "end": 127
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -437,7 +437,7 @@ let result = recursive()(1)
                                             "kind": 4261540,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -448,14 +448,14 @@ let result = recursive()(1)
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 129,
                                     "end": 130
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -463,7 +463,7 @@ let result = recursive()(1)
                                 "start": 127,
                                 "end": 130
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -472,7 +472,7 @@ let result = recursive()(1)
                             "end": 130
                         }
                     ],
-                    "flags": 16400,
+                    "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -480,7 +480,7 @@ let result = recursive()(1)
                     "start": 106,
                     "end": 130
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -490,7 +490,7 @@ let result = recursive()(1)
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -515,13 +515,22 @@ let result = recursive()(1)
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function recursive() {
+    let x = (subkey: T) => recursive();
+    return x as typeof x & {
+        p;
+    };
+}
+
+let result = recursive()(1);
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

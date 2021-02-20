@@ -60,11 +60,11 @@ class Other extends Doing {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Doing {\n    public static staticMethod() {\n    }\n}\n\nclass Other extends Doing {\n    // in static method\n    public static staticMethod() {\n        super.staticMethod();\n    }\n\n    // in a lambda inside a static method\n    public static lambdaInsideAStaticMethod() {\n        () => {\n            super.staticMethod();\n        }\n    }\n\n    // in an object literal inside a static method\n    public static objectLiteralInsideAStaticMethod() {\n        return {\n            a: () => {\n                super.staticMethod();\n            },\n            b: super.staticMethod()\n        };\n    }\n\n    // in a getter\n    public static get staticGetter() {\n        super.staticMethod();\n\n        return 0;\n    }\n\n    // in a setter\n    public static set staticGetter(value: number) {\n        super.staticMethod();\n    }\n\n    // in static method\n    public static initializerInAStaticMethod(a = super.staticMethod()) {\n        super.staticMethod();\n    }\n}\n\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -72,7 +72,7 @@ class Other extends Doing {
                     "kind": 131102,
                     "text": "Doing",
                     "rawText": "Doing",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -98,7 +98,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "staticMethod",
                                     "rawText": "staticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -110,7 +110,7 @@ class Other extends Doing {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -126,7 +126,7 @@ class Other extends Doing {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -134,7 +134,7 @@ class Other extends Doing {
                                         "start": 48,
                                         "end": 48
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -155,7 +155,7 @@ class Other extends Doing {
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -163,7 +163,7 @@ class Other extends Doing {
                                 "start": 44,
                                 "end": 54
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -172,7 +172,7 @@ class Other extends Doing {
                             "end": 54
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -181,7 +181,7 @@ class Other extends Doing {
                     "end": 56
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -195,7 +195,7 @@ class Other extends Doing {
                     "kind": 131102,
                     "text": "Other",
                     "rawText": "Other",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -210,7 +210,7 @@ class Other extends Doing {
                         "kind": 196712,
                         "text": "Doing",
                         "rawText": "Doing",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -219,7 +219,7 @@ class Other extends Doing {
                         "end": 83
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -243,7 +243,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "staticMethod",
                                     "rawText": "staticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -255,7 +255,7 @@ class Other extends Doing {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -278,7 +278,7 @@ class Other extends Doing {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -290,7 +290,7 @@ class Other extends Doing {
                                                             "kind": 196711,
                                                             "text": "staticMethod",
                                                             "rawText": "staticMethod",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -298,7 +298,7 @@ class Other extends Doing {
                                                             "start": 159,
                                                             "end": 171
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -312,14 +312,14 @@ class Other extends Doing {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 173,
                                                         "end": 173
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -337,7 +337,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -345,7 +345,7 @@ class Other extends Doing {
                                         "start": 144,
                                         "end": 174
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -366,7 +366,7 @@ class Other extends Doing {
                                     "end": 120
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -374,7 +374,7 @@ class Other extends Doing {
                                 "start": 140,
                                 "end": 180
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -394,7 +394,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "lambdaInsideAStaticMethod",
                                     "rawText": "lambdaInsideAStaticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -406,7 +406,7 @@ class Other extends Doing {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -453,7 +453,7 @@ class Other extends Doing {
                                                                             "kind": 74424,
                                                                             "member": {
                                                                                 "kind": 4260561,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -465,7 +465,7 @@ class Other extends Doing {
                                                                                 "kind": 196711,
                                                                                 "text": "staticMethod",
                                                                                 "rawText": "staticMethod",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -473,7 +473,7 @@ class Other extends Doing {
                                                                                 "start": 306,
                                                                                 "end": 318
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -487,14 +487,14 @@ class Other extends Doing {
                                                                             "elements": [],
                                                                             "trailingComma": false,
                                                                             "transformFlags": 0,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "parent": null,
                                                                             "emitNode": null,
                                                                             "start": 320,
                                                                             "end": 320
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -512,7 +512,7 @@ class Other extends Doing {
                                                                 }
                                                             ],
                                                             "multiline": true,
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -520,7 +520,7 @@ class Other extends Doing {
                                                             "start": 287,
                                                             "end": 321
                                                         },
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -528,7 +528,7 @@ class Other extends Doing {
                                                         "start": 285,
                                                         "end": 331
                                                     },
-                                                    "flags": 536887296,
+                                                    "flags": 536952832,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -546,7 +546,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -554,7 +554,7 @@ class Other extends Doing {
                                         "start": 271,
                                         "end": 331
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -575,7 +575,7 @@ class Other extends Doing {
                                     "end": 234
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -583,7 +583,7 @@ class Other extends Doing {
                                 "start": 267,
                                 "end": 337
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -603,7 +603,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "objectLiteralInsideAStaticMethod",
                                     "rawText": "objectLiteralInsideAStaticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -615,7 +615,7 @@ class Other extends Doing {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -643,7 +643,7 @@ class Other extends Doing {
                                                                     "kind": 196711,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -681,7 +681,7 @@ class Other extends Doing {
                                                                                             "kind": 74424,
                                                                                             "member": {
                                                                                                 "kind": 4260561,
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -693,7 +693,7 @@ class Other extends Doing {
                                                                                                 "kind": 196711,
                                                                                                 "text": "staticMethod",
                                                                                                 "rawText": "staticMethod",
-                                                                                                "flags": 0,
+                                                                                                "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
                                                                                                 "parent": null,
@@ -701,7 +701,7 @@ class Other extends Doing {
                                                                                                 "start": 507,
                                                                                                 "end": 519
                                                                                             },
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
                                                                                             "parent": null,
@@ -715,14 +715,14 @@ class Other extends Doing {
                                                                                             "elements": [],
                                                                                             "trailingComma": false,
                                                                                             "transformFlags": 0,
-                                                                                            "flags": 0,
+                                                                                            "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "parent": null,
                                                                                             "emitNode": null,
                                                                                             "start": 521,
                                                                                             "end": 521
                                                                                         },
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -740,7 +740,7 @@ class Other extends Doing {
                                                                                 }
                                                                             ],
                                                                             "multiline": true,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -748,7 +748,7 @@ class Other extends Doing {
                                                                             "start": 484,
                                                                             "end": 522
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -756,7 +756,7 @@ class Other extends Doing {
                                                                         "start": 482,
                                                                         "end": 536
                                                                     },
-                                                                    "flags": 536870912,
+                                                                    "flags": 536936448,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -766,7 +766,7 @@ class Other extends Doing {
                                                                 },
                                                                 "accessModifier": null,
                                                                 "decorators": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -780,7 +780,7 @@ class Other extends Doing {
                                                                     "kind": 196711,
                                                                     "text": "b",
                                                                     "rawText": "b",
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -794,7 +794,7 @@ class Other extends Doing {
                                                                         "kind": 74424,
                                                                         "member": {
                                                                             "kind": 4260561,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -806,7 +806,7 @@ class Other extends Doing {
                                                                             "kind": 196711,
                                                                             "text": "staticMethod",
                                                                             "rawText": "staticMethod",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -814,7 +814,7 @@ class Other extends Doing {
                                                                             "start": 559,
                                                                             "end": 571
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -828,14 +828,14 @@ class Other extends Doing {
                                                                         "elements": [],
                                                                         "trailingComma": false,
                                                                         "transformFlags": 0,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "parent": null,
                                                                         "emitNode": null,
                                                                         "start": 573,
                                                                         "end": 573
                                                                     },
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -845,7 +845,7 @@ class Other extends Doing {
                                                                 },
                                                                 "accessModifier": null,
                                                                 "decorators": null,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -856,7 +856,7 @@ class Other extends Doing {
                                                         ],
                                                         "trailingComma": false,
                                                         "multiline": true,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -864,7 +864,7 @@ class Other extends Doing {
                                                         "start": 461,
                                                         "end": 573
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -872,7 +872,7 @@ class Other extends Doing {
                                                     "start": 459,
                                                     "end": 583
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -882,7 +882,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -890,7 +890,7 @@ class Other extends Doing {
                                         "start": 444,
                                         "end": 584
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -911,7 +911,7 @@ class Other extends Doing {
                                     "end": 400
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -919,7 +919,7 @@ class Other extends Doing {
                                 "start": 440,
                                 "end": 590
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -939,7 +939,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "staticGetter",
                                     "rawText": "staticGetter",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -951,7 +951,7 @@ class Other extends Doing {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -974,7 +974,7 @@ class Other extends Doing {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -986,7 +986,7 @@ class Other extends Doing {
                                                             "kind": 196711,
                                                             "text": "staticMethod",
                                                             "rawText": "staticMethod",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -994,7 +994,7 @@ class Other extends Doing {
                                                             "start": 664,
                                                             "end": 676
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1008,14 +1008,14 @@ class Other extends Doing {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 678,
                                                         "end": 678
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1037,7 +1037,7 @@ class Other extends Doing {
                                                     "kind": 4261540,
                                                     "text": 0,
                                                     "rawText": "0",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1045,7 +1045,7 @@ class Other extends Doing {
                                                     "start": 695,
                                                     "end": 697
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1055,7 +1055,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1063,7 +1063,7 @@ class Other extends Doing {
                                         "start": 649,
                                         "end": 698
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1084,7 +1084,7 @@ class Other extends Doing {
                                     "end": 621
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1092,7 +1092,7 @@ class Other extends Doing {
                                 "start": 645,
                                 "end": 704
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1112,7 +1112,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "staticGetter",
                                     "rawText": "staticGetter",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1130,7 +1130,7 @@ class Other extends Doing {
                                                 "kind": 131102,
                                                 "text": "value",
                                                 "rawText": "value",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1153,7 +1153,7 @@ class Other extends Doing {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1163,7 +1163,7 @@ class Other extends Doing {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1186,7 +1186,7 @@ class Other extends Doing {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1198,7 +1198,7 @@ class Other extends Doing {
                                                             "kind": 196711,
                                                             "text": "staticMethod",
                                                             "rawText": "staticMethod",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1206,7 +1206,7 @@ class Other extends Doing {
                                                             "start": 791,
                                                             "end": 803
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1220,14 +1220,14 @@ class Other extends Doing {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 805,
                                                         "end": 805
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1245,7 +1245,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1253,7 +1253,7 @@ class Other extends Doing {
                                         "start": 776,
                                         "end": 806
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1274,7 +1274,7 @@ class Other extends Doing {
                                     "end": 735
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1282,7 +1282,7 @@ class Other extends Doing {
                                 "start": 759,
                                 "end": 812
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1302,7 +1302,7 @@ class Other extends Doing {
                                     "kind": 196711,
                                     "text": "initializerInAStaticMethod",
                                     "rawText": "initializerInAStaticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1320,7 +1320,7 @@ class Other extends Doing {
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1336,7 +1336,7 @@ class Other extends Doing {
                                                     "kind": 74424,
                                                     "member": {
                                                         "kind": 4260561,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1348,7 +1348,7 @@ class Other extends Doing {
                                                         "kind": 196711,
                                                         "text": "staticMethod",
                                                         "rawText": "staticMethod",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1356,7 +1356,7 @@ class Other extends Doing {
                                                         "start": 893,
                                                         "end": 905
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1370,14 +1370,14 @@ class Other extends Doing {
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 907,
                                                     "end": 907
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1388,7 +1388,7 @@ class Other extends Doing {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1398,7 +1398,7 @@ class Other extends Doing {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1421,7 +1421,7 @@ class Other extends Doing {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1433,7 +1433,7 @@ class Other extends Doing {
                                                             "kind": 196711,
                                                             "text": "staticMethod",
                                                             "rawText": "staticMethod",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1441,7 +1441,7 @@ class Other extends Doing {
                                                             "start": 925,
                                                             "end": 937
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1455,14 +1455,14 @@ class Other extends Doing {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 939,
                                                         "end": 939
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1480,7 +1480,7 @@ class Other extends Doing {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1488,7 +1488,7 @@ class Other extends Doing {
                                         "start": 910,
                                         "end": 940
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1509,7 +1509,7 @@ class Other extends Doing {
                                     "end": 848
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1517,7 +1517,7 @@ class Other extends Doing {
                                 "start": 882,
                                 "end": 946
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1526,7 +1526,7 @@ class Other extends Doing {
                             "end": 946
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -1535,7 +1535,7 @@ class Other extends Doing {
                     "end": 948
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -1545,7 +1545,7 @@ class Other extends Doing {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1570,13 +1570,44 @@ class Other extends Doing {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Doing {
+    public static staticMethod() {
+    }
+}
+
+class Other extends Doing {
+    public static staticMethod() {
+        super.staticMethod()
+    }
+    public static lambdaInsideAStaticMethod() {
+        () =>  {
+            super.staticMethod()
+        }
+    }
+    public static objectLiteralInsideAStaticMethod() {
+        return { a : () =>  {
+                super.staticMethod()
+            }, b : super.staticMethod() };
+    }
+    public static get staticGetter() {
+        super.staticMethod()
+        return 0;
+    }
+    public static set staticGetter(value: number) {
+        super.staticMethod()
+    }
+    public static initializerInAStaticMethod(a = super.staticMethod()) {
+        super.staticMethod()
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

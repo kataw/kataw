@@ -91,11 +91,11 @@ function k ({
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const identity = (a) => a;\n\nconst a = {\n  .../*#__PURE__*/identity({\n    b: 1\n  })\n};\n\nconst b = {\n  ...\n  /*#__PURE__*/identity({\n    b: 1\n  })\n};\n\nconst c = {\n  ...\n  /*#__PURE__*/\n  identity({\n    b: 1\n  })\n};\n\nconst d = {\n  .../*#__PURE__*/\n  identity({\n    b: 1\n  })\n};\n\nfunction e (.../* comment e */args) {\n  const [ea, eb] = [.../* comment eab */args];\n  return args.length;\n}\n\nfunction f (\n  first,\n  .../* comment f */rest\n) {\n  return rest.length;\n}\n\nfunction g (\n  first,\n  .../* comment g */\n  rest\n) {\n  const [ga, gb] = [.../* comment gab */\n    rest\n  ]\n  return rest.length;\n}\n\nconst h = (.../* comment h */args) => args.length;\n\nconst i = (\n  first, .../* comment i */rest\n) => rest.length;\n\nconst j = (\n  first,\n  .../* comment j */\n  rest\n) => rest.length;\n\nfunction k ({\n  first,\n  .../* comment k */rest\n}) {\n  const { ka, kb, .../* comment kr */remaining } = rest;\n  const {\n    kc,\n    kd,\n    .../* comment kr2 */\n    remaining2\n  } = rest;\n  return { .../* comment return k */ remaining };\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -109,7 +109,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "identity",
                                 "rawText": "identity",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -126,7 +126,7 @@ function k ({
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -142,7 +142,7 @@ function k ({
                                                 "kind": 4325406,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -180,7 +180,7 @@ function k ({
                                     "kind": 196712,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -188,7 +188,7 @@ function k ({
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -196,7 +196,7 @@ function k ({
                                 "start": 16,
                                 "end": 25
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -205,7 +205,7 @@ function k ({
                             "end": 25
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -213,7 +213,7 @@ function k ({
                     "start": 5,
                     "end": 25
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -233,7 +233,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -256,7 +256,7 @@ function k ({
                                                     "kind": 196712,
                                                     "text": "identity",
                                                     "rawText": "identity",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -279,7 +279,7 @@ function k ({
                                                                             "kind": 196711,
                                                                             "text": "b",
                                                                             "rawText": "b",
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -291,7 +291,7 @@ function k ({
                                                                             "kind": 4261540,
                                                                             "text": 1,
                                                                             "rawText": "1",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -301,7 +301,7 @@ function k ({
                                                                         },
                                                                         "accessModifier": null,
                                                                         "decorators": null,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -312,7 +312,7 @@ function k ({
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -320,7 +320,7 @@ function k ({
                                                                 "start": 68,
                                                                 "end": 77
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -331,14 +331,14 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 68,
                                                     "end": 82
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -346,7 +346,7 @@ function k ({
                                                 "start": 66,
                                                 "end": 82
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4104,
                                             "parent": null,
@@ -357,7 +357,7 @@ function k ({
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -365,7 +365,7 @@ function k ({
                                     "start": 39,
                                     "end": 82
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -373,7 +373,7 @@ function k ({
                                 "start": 37,
                                 "end": 84
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -382,7 +382,7 @@ function k ({
                             "end": 84
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -390,7 +390,7 @@ function k ({
                     "start": 33,
                     "end": 84
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -410,7 +410,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -433,7 +433,7 @@ function k ({
                                                     "kind": 196712,
                                                     "text": "identity",
                                                     "rawText": "identity",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -456,7 +456,7 @@ function k ({
                                                                             "kind": 196711,
                                                                             "text": "b",
                                                                             "rawText": "b",
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -468,7 +468,7 @@ function k ({
                                                                             "kind": 4261540,
                                                                             "text": 1,
                                                                             "rawText": "1",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -478,7 +478,7 @@ function k ({
                                                                         },
                                                                         "accessModifier": null,
                                                                         "decorators": null,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -489,7 +489,7 @@ function k ({
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -497,7 +497,7 @@ function k ({
                                                                 "start": 130,
                                                                 "end": 139
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -508,14 +508,14 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 130,
                                                     "end": 144
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -523,7 +523,7 @@ function k ({
                                                 "start": 128,
                                                 "end": 144
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4104,
                                             "parent": null,
@@ -534,7 +534,7 @@ function k ({
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -542,7 +542,7 @@ function k ({
                                     "start": 98,
                                     "end": 144
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -550,7 +550,7 @@ function k ({
                                 "start": 96,
                                 "end": 146
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -559,7 +559,7 @@ function k ({
                             "end": 146
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -567,7 +567,7 @@ function k ({
                     "start": 92,
                     "end": 146
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -587,7 +587,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -610,7 +610,7 @@ function k ({
                                                     "kind": 196712,
                                                     "text": "identity",
                                                     "rawText": "identity",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -633,7 +633,7 @@ function k ({
                                                                             "kind": 196711,
                                                                             "text": "b",
                                                                             "rawText": "b",
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -645,7 +645,7 @@ function k ({
                                                                             "kind": 4261540,
                                                                             "text": 1,
                                                                             "rawText": "1",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -655,7 +655,7 @@ function k ({
                                                                         },
                                                                         "accessModifier": null,
                                                                         "decorators": null,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -666,7 +666,7 @@ function k ({
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -674,7 +674,7 @@ function k ({
                                                                 "start": 195,
                                                                 "end": 204
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -685,14 +685,14 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 195,
                                                     "end": 209
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -700,7 +700,7 @@ function k ({
                                                 "start": 193,
                                                 "end": 209
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4104,
                                             "parent": null,
@@ -711,7 +711,7 @@ function k ({
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -719,7 +719,7 @@ function k ({
                                     "start": 160,
                                     "end": 209
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -727,7 +727,7 @@ function k ({
                                 "start": 158,
                                 "end": 211
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -736,7 +736,7 @@ function k ({
                             "end": 211
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -744,7 +744,7 @@ function k ({
                     "start": 154,
                     "end": 211
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -764,7 +764,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -787,7 +787,7 @@ function k ({
                                                     "kind": 196712,
                                                     "text": "identity",
                                                     "rawText": "identity",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -810,7 +810,7 @@ function k ({
                                                                             "kind": 196711,
                                                                             "text": "b",
                                                                             "rawText": "b",
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -822,7 +822,7 @@ function k ({
                                                                             "kind": 4261540,
                                                                             "text": 1,
                                                                             "rawText": "1",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -832,7 +832,7 @@ function k ({
                                                                         },
                                                                         "accessModifier": null,
                                                                         "decorators": null,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -843,7 +843,7 @@ function k ({
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -851,7 +851,7 @@ function k ({
                                                                 "start": 257,
                                                                 "end": 266
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -862,14 +862,14 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 257,
                                                     "end": 271
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -877,7 +877,7 @@ function k ({
                                                 "start": 255,
                                                 "end": 271
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4104,
                                             "parent": null,
@@ -888,7 +888,7 @@ function k ({
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -896,7 +896,7 @@ function k ({
                                     "start": 225,
                                     "end": 271
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -904,7 +904,7 @@ function k ({
                                 "start": 223,
                                 "end": 273
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -913,7 +913,7 @@ function k ({
                             "end": 273
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -921,7 +921,7 @@ function k ({
                     "start": 219,
                     "end": 273
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -935,7 +935,7 @@ function k ({
                     "kind": 131102,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -953,7 +953,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "args",
                                 "rawText": "args",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -967,7 +967,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -977,7 +977,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1011,7 +1011,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "ea",
                                                                 "rawText": "ea",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -1020,7 +1020,7 @@ function k ({
                                                                 "end": 325
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -1035,7 +1035,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "eb",
                                                                 "rawText": "eb",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -1044,7 +1044,7 @@ function k ({
                                                                 "end": 329
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -1054,7 +1054,7 @@ function k ({
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1,
                                                     "parent": null,
@@ -1062,7 +1062,7 @@ function k ({
                                                     "start": 323,
                                                     "end": 329
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1083,7 +1083,7 @@ function k ({
                                                                 "kind": 196712,
                                                                 "text": "args",
                                                                 "rawText": "args",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1091,7 +1091,7 @@ function k ({
                                                                 "start": 337,
                                                                 "end": 358
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2,
                                                             "parent": null,
@@ -1102,7 +1102,7 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1110,7 +1110,7 @@ function k ({
                                                     "start": 334,
                                                     "end": 358
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1118,7 +1118,7 @@ function k ({
                                                 "start": 332,
                                                 "end": 359
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1127,7 +1127,7 @@ function k ({
                                             "end": 359
                                         }
                                     ],
-                                    "flags": 16,
+                                    "flags": 65552,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1135,7 +1135,7 @@ function k ({
                                     "start": 321,
                                     "end": 359
                                 },
-                                "flags": 16400,
+                                "flags": 81936,
                                 "intersects": false,
                                 "transformFlags": 769,
                                 "parent": null,
@@ -1151,7 +1151,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "args",
                                         "rawText": "args",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1163,7 +1163,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1171,7 +1171,7 @@ function k ({
                                         "start": 375,
                                         "end": 381
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1179,7 +1179,7 @@ function k ({
                                     "start": 374,
                                     "end": 381
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1189,7 +1189,7 @@ function k ({
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1197,7 +1197,7 @@ function k ({
                         "start": 313,
                         "end": 382
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1206,7 +1206,7 @@ function k ({
                     "end": 384
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1220,7 +1220,7 @@ function k ({
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1238,7 +1238,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "first",
                                 "rawText": "first",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1252,7 +1252,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1267,7 +1267,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "rest",
                                 "rawText": "rest",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1281,7 +1281,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -1291,7 +1291,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1313,7 +1313,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "rest",
                                         "rawText": "rest",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1325,7 +1325,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1333,7 +1333,7 @@ function k ({
                                         "start": 451,
                                         "end": 457
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1341,7 +1341,7 @@ function k ({
                                     "start": 450,
                                     "end": 457
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1351,7 +1351,7 @@ function k ({
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1359,7 +1359,7 @@ function k ({
                         "start": 436,
                         "end": 458
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1368,7 +1368,7 @@ function k ({
                     "end": 460
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1382,7 +1382,7 @@ function k ({
                     "kind": 131102,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -1400,7 +1400,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "first",
                                 "rawText": "first",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1414,7 +1414,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -1429,7 +1429,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "rest",
                                 "rawText": "rest",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1443,7 +1443,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -1453,7 +1453,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1487,7 +1487,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "ga",
                                                                 "rawText": "ga",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -1496,7 +1496,7 @@ function k ({
                                                                 "end": 527
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -1511,7 +1511,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "gb",
                                                                 "rawText": "gb",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -1520,7 +1520,7 @@ function k ({
                                                                 "end": 531
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -1530,7 +1530,7 @@ function k ({
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1,
                                                     "parent": null,
@@ -1538,7 +1538,7 @@ function k ({
                                                     "start": 525,
                                                     "end": 531
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1559,7 +1559,7 @@ function k ({
                                                                 "kind": 196712,
                                                                 "text": "rest",
                                                                 "rawText": "rest",
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1567,7 +1567,7 @@ function k ({
                                                                 "start": 539,
                                                                 "end": 565
                                                             },
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 2,
                                                             "parent": null,
@@ -1578,7 +1578,7 @@ function k ({
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1586,7 +1586,7 @@ function k ({
                                                     "start": 536,
                                                     "end": 565
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1594,7 +1594,7 @@ function k ({
                                                 "start": 534,
                                                 "end": 569
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1603,7 +1603,7 @@ function k ({
                                             "end": 569
                                         }
                                     ],
-                                    "flags": 16400,
+                                    "flags": 81936,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1611,7 +1611,7 @@ function k ({
                                     "start": 523,
                                     "end": 569
                                 },
-                                "flags": 16400,
+                                "flags": 81936,
                                 "intersects": false,
                                 "transformFlags": 769,
                                 "parent": null,
@@ -1627,7 +1627,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "rest",
                                         "rawText": "rest",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1639,7 +1639,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1647,7 +1647,7 @@ function k ({
                                         "start": 584,
                                         "end": 590
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1655,7 +1655,7 @@ function k ({
                                     "start": 583,
                                     "end": 590
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1665,7 +1665,7 @@ function k ({
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1673,7 +1673,7 @@ function k ({
                         "start": 515,
                         "end": 591
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1682,7 +1682,7 @@ function k ({
                     "end": 593
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1702,7 +1702,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "h",
                                 "rawText": "h",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1719,7 +1719,7 @@ function k ({
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1735,7 +1735,7 @@ function k ({
                                                 "kind": 131102,
                                                 "text": "args",
                                                 "rawText": "args",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1749,7 +1749,7 @@ function k ({
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 4097,
                                             "parent": null,
@@ -1775,7 +1775,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "args",
                                         "rawText": "args",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1787,7 +1787,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1795,7 +1795,7 @@ function k ({
                                         "start": 638,
                                         "end": 644
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1803,7 +1803,7 @@ function k ({
                                     "start": 637,
                                     "end": 644
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1811,7 +1811,7 @@ function k ({
                                 "start": 604,
                                 "end": 644
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1820,7 +1820,7 @@ function k ({
                             "end": 644
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1828,7 +1828,7 @@ function k ({
                     "start": 600,
                     "end": 644
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -1848,7 +1848,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "i",
                                 "rawText": "i",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1871,7 +1871,7 @@ function k ({
                                                 "kind": 131102,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1885,7 +1885,7 @@ function k ({
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4097,
                                             "parent": null,
@@ -1900,7 +1900,7 @@ function k ({
                                                 "kind": 4325406,
                                                 "text": "first",
                                                 "rawText": "first",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1940,7 +1940,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "rest",
                                         "rawText": "rest",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1952,7 +1952,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1960,7 +1960,7 @@ function k ({
                                         "start": 701,
                                         "end": 707
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1968,7 +1968,7 @@ function k ({
                                     "start": 700,
                                     "end": 707
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1976,7 +1976,7 @@ function k ({
                                 "start": 656,
                                 "end": 707
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1985,7 +1985,7 @@ function k ({
                             "end": 707
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1993,7 +1993,7 @@ function k ({
                     "start": 652,
                     "end": 707
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2013,7 +2013,7 @@ function k ({
                                 "kind": 131102,
                                 "text": "j",
                                 "rawText": "j",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2036,7 +2036,7 @@ function k ({
                                                 "kind": 131102,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2050,7 +2050,7 @@ function k ({
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 4097,
                                             "parent": null,
@@ -2065,7 +2065,7 @@ function k ({
                                                 "kind": 4325406,
                                                 "text": "first",
                                                 "rawText": "first",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2105,7 +2105,7 @@ function k ({
                                         "kind": 196712,
                                         "text": "rest",
                                         "rawText": "rest",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2117,7 +2117,7 @@ function k ({
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2125,7 +2125,7 @@ function k ({
                                         "start": 769,
                                         "end": 775
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2133,7 +2133,7 @@ function k ({
                                     "start": 768,
                                     "end": 775
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2141,7 +2141,7 @@ function k ({
                                 "start": 719,
                                 "end": 775
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2150,7 +2150,7 @@ function k ({
                             "end": 775
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2158,7 +2158,7 @@ function k ({
                     "start": 715,
                     "end": 775
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -2172,7 +2172,7 @@ function k ({
                     "kind": 131102,
                     "text": "k",
                     "rawText": "k",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -2198,7 +2198,7 @@ function k ({
                                                 "kind": 131102,
                                                 "text": "first",
                                                 "rawText": "first",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2207,7 +2207,7 @@ function k ({
                                                 "end": 799
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -2222,7 +2222,7 @@ function k ({
                                                 "kind": 131102,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2231,7 +2231,7 @@ function k ({
                                                 "end": 825
                                             },
                                             "right": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -2243,14 +2243,14 @@ function k ({
                                     "multiline": true,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 791,
                                     "end": 825
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2264,7 +2264,7 @@ function k ({
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -2274,7 +2274,7 @@ function k ({
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2308,7 +2308,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "ka",
                                                                 "rawText": "ka",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2317,7 +2317,7 @@ function k ({
                                                                 "end": 843
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2332,7 +2332,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "kb",
                                                                 "rawText": "kb",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2341,7 +2341,7 @@ function k ({
                                                                 "end": 847
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2356,7 +2356,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "remaining",
                                                                 "rawText": "remaining",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2365,7 +2365,7 @@ function k ({
                                                                 "end": 877
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2377,14 +2377,14 @@ function k ({
                                                     "multiline": false,
                                                     "trailingComma": false,
                                                     "transformFlags": 1025,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 840,
                                                     "end": 877
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2398,7 +2398,7 @@ function k ({
                                                 "kind": 196712,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2406,7 +2406,7 @@ function k ({
                                                 "start": 881,
                                                 "end": 886
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2415,7 +2415,7 @@ function k ({
                                             "end": 886
                                         }
                                     ],
-                                    "flags": 16,
+                                    "flags": 65552,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2423,7 +2423,7 @@ function k ({
                                     "start": 838,
                                     "end": 886
                                 },
-                                "flags": 16400,
+                                "flags": 81936,
                                 "intersects": false,
                                 "transformFlags": 769,
                                 "parent": null,
@@ -2451,7 +2451,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "kc",
                                                                 "rawText": "kc",
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2460,7 +2460,7 @@ function k ({
                                                                 "end": 904
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2475,7 +2475,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "kd",
                                                                 "rawText": "kd",
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2484,7 +2484,7 @@ function k ({
                                                                 "end": 912
                                                             },
                                                             "right": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2499,7 +2499,7 @@ function k ({
                                                                 "kind": 131102,
                                                                 "text": "remaining2",
                                                                 "rawText": "remaining2",
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -2508,7 +2508,7 @@ function k ({
                                                                 "end": 953
                                                             },
                                                             "right": null,
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 1024,
                                                             "parent": null,
@@ -2520,14 +2520,14 @@ function k ({
                                                     "multiline": true,
                                                     "trailingComma": false,
                                                     "transformFlags": 1025,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "parent": null,
                                                     "emitNode": null,
                                                     "start": 897,
                                                     "end": 953
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -2541,7 +2541,7 @@ function k ({
                                                 "kind": 196712,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2549,7 +2549,7 @@ function k ({
                                                 "start": 959,
                                                 "end": 964
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2558,7 +2558,7 @@ function k ({
                                             "end": 964
                                         }
                                     ],
-                                    "flags": 16,
+                                    "flags": 65552,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2566,7 +2566,7 @@ function k ({
                                     "start": 895,
                                     "end": 964
                                 },
-                                "flags": 16400,
+                                "flags": 81936,
                                 "intersects": false,
                                 "transformFlags": 769,
                                 "parent": null,
@@ -2587,7 +2587,7 @@ function k ({
                                                     "kind": 196712,
                                                     "text": "remaining",
                                                     "rawText": "remaining",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2595,7 +2595,7 @@ function k ({
                                                     "start": 980,
                                                     "end": 1012
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 4104,
                                                 "parent": null,
@@ -2606,7 +2606,7 @@ function k ({
                                         ],
                                         "trailingComma": false,
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2614,7 +2614,7 @@ function k ({
                                         "start": 976,
                                         "end": 1012
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2622,7 +2622,7 @@ function k ({
                                     "start": 974,
                                     "end": 1014
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2632,7 +2632,7 @@ function k ({
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2640,7 +2640,7 @@ function k ({
                         "start": 830,
                         "end": 1015
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2649,7 +2649,7 @@ function k ({
                     "end": 1017
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -2659,7 +2659,7 @@ function k ({
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -2684,13 +2684,56 @@ function k ({
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const identity = (a) => a;
+
+const a = { ...identity({ b : 1 }) };
+
+const b = { ...identity({ b : 1 }) };
+
+const c = { ...identity({ b : 1 }) };
+
+const d = { ...identity({ b : 1 }) };
+
+function e(...args) {
+    const [ea, eb] = [...args];
+    return args.length;
+}
+
+function f(first, ...rest) {
+    return rest.length;
+}
+
+function g(first, ...rest) {
+    const [ga, gb] = [...rest];
+    return rest.length;
+}
+
+const h = (...args) => args.length;
+
+const i = (...rest, first) => rest.length;
+
+const j = (...rest, first) => rest.length;
+
+function k({
+        first,
+        ...rest
+    }) {
+    const { ka, kb, ...remaining } = rest;
+    const {
+        kc,
+        kd,
+        ...remaining2
+    } = rest;
+    return { ...remaining };
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

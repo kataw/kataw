@@ -20,11 +20,11 @@ var b = +(<any>"");
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var a = +1;\nenum E { some, thing };\nvar c = +E.some;\nvar x = +\"3\";\nvar y = -\"3\";\nvar z = ~\"3\";\nvar b = +(<any>\"\");",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -37,7 +37,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -54,7 +54,7 @@ var b = +(<any>"");
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -62,7 +62,7 @@ var b = +(<any>"");
                                     "start": 9,
                                     "end": 10
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -75,11 +75,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 10
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -87,7 +87,7 @@ var b = +(<any>"");
                     "start": 3,
                     "end": 10
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -101,7 +101,7 @@ var b = +(<any>"");
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -118,7 +118,7 @@ var b = +(<any>"");
                                 "kind": 196711,
                                 "text": "some",
                                 "rawText": "some",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -127,7 +127,7 @@ var b = +(<any>"");
                                 "end": 25
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -141,7 +141,7 @@ var b = +(<any>"");
                                 "kind": 196711,
                                 "text": "thing",
                                 "rawText": "thing",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -150,7 +150,7 @@ var b = +(<any>"");
                                 "end": 32
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -159,7 +159,7 @@ var b = +(<any>"");
                             "end": 32
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -168,7 +168,7 @@ var b = +(<any>"");
                     "end": 32
                 },
                 "isConst": false,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -178,7 +178,7 @@ var b = +(<any>"");
             },
             {
                 "kind": 6291526,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -197,7 +197,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -216,7 +216,7 @@ var b = +(<any>"");
                                         "kind": 196712,
                                         "text": "E",
                                         "rawText": "E",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -228,7 +228,7 @@ var b = +(<any>"");
                                         "kind": 196711,
                                         "text": "some",
                                         "rawText": "some",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -236,7 +236,7 @@ var b = +(<any>"");
                                         "start": 47,
                                         "end": 51
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -244,7 +244,7 @@ var b = +(<any>"");
                                     "start": 46,
                                     "end": 51
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -257,11 +257,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 51
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -269,7 +269,7 @@ var b = +(<any>"");
                     "start": 39,
                     "end": 51
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -288,7 +288,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -305,7 +305,7 @@ var b = +(<any>"");
                                     "kind": 67279,
                                     "text": "3",
                                     "rawText": "3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -313,7 +313,7 @@ var b = +(<any>"");
                                     "start": 62,
                                     "end": 65
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -326,11 +326,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 65
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -338,7 +338,7 @@ var b = +(<any>"");
                     "start": 56,
                     "end": 65
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -357,7 +357,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -374,7 +374,7 @@ var b = +(<any>"");
                                     "kind": 67279,
                                     "text": "3",
                                     "rawText": "3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -382,7 +382,7 @@ var b = +(<any>"");
                                     "start": 76,
                                     "end": 79
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -395,11 +395,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 79
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -407,7 +407,7 @@ var b = +(<any>"");
                     "start": 70,
                     "end": 79
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -426,7 +426,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -443,7 +443,7 @@ var b = +(<any>"");
                                     "kind": 67279,
                                     "text": "3",
                                     "rawText": "3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -451,7 +451,7 @@ var b = +(<any>"");
                                     "start": 90,
                                     "end": 93
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -464,11 +464,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 93
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -476,7 +476,7 @@ var b = +(<any>"");
                     "start": 84,
                     "end": 93
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -495,7 +495,7 @@ var b = +(<any>"");
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -526,7 +526,7 @@ var b = +(<any>"");
                                             "kind": 67279,
                                             "text": "",
                                             "rawText": "",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -534,7 +534,7 @@ var b = +(<any>"");
                                             "start": 110,
                                             "end": 112
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -542,7 +542,7 @@ var b = +(<any>"");
                                         "start": 105,
                                         "end": 112
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -550,7 +550,7 @@ var b = +(<any>"");
                                     "start": 104,
                                     "end": 113
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -563,11 +563,11 @@ var b = +(<any>"");
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 113
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -575,7 +575,7 @@ var b = +(<any>"");
                     "start": 98,
                     "end": 113
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -585,7 +585,7 @@ var b = +(<any>"");
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -610,13 +610,32 @@ var b = +(<any>"");
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var a = + 1;
+
+enum E {
+    some,
+    thing
+}
+
+;
+
+var c = + E.some;
+
+var x = + "3";
+
+var y = - "3";
+
+var z = ~ "3";
+
+var b = + (<any>"");
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

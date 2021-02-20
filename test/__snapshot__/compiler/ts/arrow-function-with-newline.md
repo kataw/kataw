@@ -15,11 +15,11 @@ async (f)
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "async (f)\n: t => { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -36,7 +36,7 @@ async (f)
                                     "kind": 4325406,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -65,7 +65,7 @@ async (f)
                                 "kind": 196711,
                                 "text": "t",
                                 "rawText": "t",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -74,7 +74,7 @@ async (f)
                                 "end": 13
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -84,7 +84,7 @@ async (f)
                         },
                         "accessModifier": null,
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -98,7 +98,7 @@ async (f)
                             "kind": 94,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -106,7 +106,7 @@ async (f)
                             "start": 18,
                             "end": 18
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -114,7 +114,7 @@ async (f)
                         "start": 16,
                         "end": 20
                     },
-                    "flags": 536870912,
+                    "flags": 536936448,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -132,7 +132,7 @@ async (f)
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -157,13 +157,15 @@ async (f)
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async (f) =>  { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

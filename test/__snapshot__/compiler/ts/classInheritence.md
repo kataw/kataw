@@ -15,11 +15,11 @@ class A extends A { }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class B extends A { }\nclass A extends A { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -27,7 +27,7 @@ class A extends A { }
                     "kind": 131102,
                     "text": "B",
                     "rawText": "B",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -42,7 +42,7 @@ class A extends A { }
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -51,7 +51,7 @@ class A extends A { }
                         "end": 17
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -63,7 +63,7 @@ class A extends A { }
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -72,7 +72,7 @@ class A extends A { }
                     "end": 21
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -86,7 +86,7 @@ class A extends A { }
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -101,7 +101,7 @@ class A extends A { }
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -110,7 +110,7 @@ class A extends A { }
                         "end": 39
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -122,7 +122,7 @@ class A extends A { }
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -131,7 +131,7 @@ class A extends A { }
                     "end": 43
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -141,7 +141,7 @@ class A extends A { }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -166,13 +166,21 @@ class A extends A { }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class B extends A {
+
+}
+
+class A extends A {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

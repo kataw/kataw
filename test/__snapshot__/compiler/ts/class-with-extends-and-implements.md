@@ -14,11 +14,11 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -26,7 +26,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                     "kind": 131102,
                     "text": "ClassWithParentAndInterface",
                     "rawText": "ClassWithParentAndInterface",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -41,7 +41,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                         "kind": 196712,
                         "text": "MyOtherClass",
                         "rawText": "MyOtherClass",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -50,7 +50,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                         "end": 54
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -69,7 +69,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                                     "kind": 196711,
                                     "text": "MyInterface",
                                     "rawText": "MyInterface",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -78,7 +78,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                                     "end": 77
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -86,7 +86,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                                 "start": 65,
                                 "end": 79
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -95,7 +95,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                             "end": 77
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -106,7 +106,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -115,7 +115,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                     "end": 80
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -125,7 +125,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -150,13 +150,17 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

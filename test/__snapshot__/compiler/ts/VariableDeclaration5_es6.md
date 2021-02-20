@@ -14,11 +14,11 @@ const a: number = 1
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const a: number = 1",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ const a: number = 1
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -55,7 +55,7 @@ const a: number = 1
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -63,7 +63,7 @@ const a: number = 1
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -72,7 +72,7 @@ const a: number = 1
                             "end": 19
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -80,7 +80,7 @@ const a: number = 1
                     "start": 5,
                     "end": 19
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -90,7 +90,7 @@ const a: number = 1
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -115,13 +115,15 @@ const a: number = 1
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const a: number = 1;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

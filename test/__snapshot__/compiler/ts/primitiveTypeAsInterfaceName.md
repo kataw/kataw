@@ -14,11 +14,11 @@ interface number {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface number {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -26,7 +26,7 @@ interface number {}
                     "kind": 196712,
                     "text": "number",
                     "rawText": "number",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -39,7 +39,7 @@ interface number {}
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -47,7 +47,7 @@ interface number {}
                     "start": 18,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -57,7 +57,7 @@ interface number {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -82,13 +82,16 @@ interface number {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface number {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

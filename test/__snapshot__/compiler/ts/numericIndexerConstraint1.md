@@ -17,11 +17,11 @@ var result: Foo = x["one"]; // error
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo { foo() { } }\nvar x: { [index: string]: number; };\nvar result: Foo = x[\"one\"]; // error\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -29,7 +29,7 @@ var result: Foo = x["one"]; // error
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -55,7 +55,7 @@ var result: Foo = x["one"]; // error
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ var result: Foo = x["one"]; // error
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -83,7 +83,7 @@ var result: Foo = x["one"]; // error
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -91,7 +91,7 @@ var result: Foo = x["one"]; // error
                                         "start": 19,
                                         "end": 19
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -103,7 +103,7 @@ var result: Foo = x["one"]; // error
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -111,7 +111,7 @@ var result: Foo = x["one"]; // error
                                 "start": 15,
                                 "end": 21
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -120,7 +120,7 @@ var result: Foo = x["one"]; // error
                             "end": 21
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -129,7 +129,7 @@ var result: Foo = x["one"]; // error
                     "end": 23
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -148,7 +148,7 @@ var result: Foo = x["one"]; // error
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -175,7 +175,7 @@ var result: Foo = x["one"]; // error
                                                             "kind": 131102,
                                                             "text": "index",
                                                             "rawText": "index",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -197,7 +197,7 @@ var result: Foo = x["one"]; // error
                                                         "initializer": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -207,7 +207,7 @@ var result: Foo = x["one"]; // error
                                                     }
                                                 ],
                                                 "trailingcomma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -227,7 +227,7 @@ var result: Foo = x["one"]; // error
                                             },
                                             "isStatic": false,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -236,7 +236,7 @@ var result: Foo = x["one"]; // error
                                             "end": 57
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -244,7 +244,7 @@ var result: Foo = x["one"]; // error
                                     "start": 32,
                                     "end": 59
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -258,11 +258,11 @@ var result: Foo = x["one"]; // error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 59
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -270,7 +270,7 @@ var result: Foo = x["one"]; // error
                     "start": 27,
                     "end": 59
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -289,7 +289,7 @@ var result: Foo = x["one"]; // error
                                 "kind": 131102,
                                 "text": "result",
                                 "rawText": "result",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -304,7 +304,7 @@ var result: Foo = x["one"]; // error
                                     "kind": 196711,
                                     "text": "Foo",
                                     "rawText": "Foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -313,7 +313,7 @@ var result: Foo = x["one"]; // error
                                     "end": 76
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -327,7 +327,7 @@ var result: Foo = x["one"]; // error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -339,7 +339,7 @@ var result: Foo = x["one"]; // error
                                     "kind": 67279,
                                     "text": "one",
                                     "rawText": "one",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -347,7 +347,7 @@ var result: Foo = x["one"]; // error
                                     "start": 81,
                                     "end": 86
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -360,11 +360,11 @@ var result: Foo = x["one"]; // error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 87
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -372,7 +372,7 @@ var result: Foo = x["one"]; // error
                     "start": 64,
                     "end": 87
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -382,7 +382,7 @@ var result: Foo = x["one"]; // error
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -407,13 +407,23 @@ var result: Foo = x["one"]; // error
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo {
+    foo() { }
+}
+
+var x: {
+    [index: string]: number;
+};
+
+var result: Foo = x["one"];
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

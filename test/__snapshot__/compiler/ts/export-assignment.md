@@ -5,6 +5,7 @@
 `````js
 { jsx: false, disableWebCompat: true, module: true }
 `````
+
 ## Input
 
 `````js
@@ -74,13 +75,15 @@ export = foo;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

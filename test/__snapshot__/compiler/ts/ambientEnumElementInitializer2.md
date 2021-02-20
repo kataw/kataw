@@ -16,11 +16,11 @@ declare enum E {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare enum E {\n e = -3 // Negative\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 71,
@@ -28,7 +28,7 @@ declare enum E {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -45,7 +45,7 @@ declare enum E {
                                 "kind": 196711,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -60,7 +60,7 @@ declare enum E {
                                     "kind": 4261540,
                                     "text": 3,
                                     "rawText": "3",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -68,7 +68,7 @@ declare enum E {
                                     "start": 23,
                                     "end": 24
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -76,7 +76,7 @@ declare enum E {
                                 "start": 21,
                                 "end": 24
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -85,7 +85,7 @@ declare enum E {
                             "end": 24
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -94,7 +94,7 @@ declare enum E {
                     "end": 24
                 },
                 "isConst": false,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -104,7 +104,7 @@ declare enum E {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -129,13 +129,17 @@ declare enum E {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare enum E {
+    e = - 3
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -200,13 +200,15 @@ function a(...[a, b]) { }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function a(...[a, b]) { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

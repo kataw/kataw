@@ -17,11 +17,11 @@ class D {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class D {\n    @Foo\n    static staticMethod() {}\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -29,7 +29,7 @@ class D {
                     "kind": 131102,
                     "text": "D",
                     "rawText": "D",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -55,7 +55,7 @@ class D {
                                     "kind": 196711,
                                     "text": "staticMethod",
                                     "rawText": "staticMethod",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ class D {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -83,7 +83,7 @@ class D {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -91,7 +91,7 @@ class D {
                                         "start": 46,
                                         "end": 46
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -108,7 +108,7 @@ class D {
                                                 "kind": 196712,
                                                 "text": "Foo",
                                                 "rawText": "Foo",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -116,7 +116,7 @@ class D {
                                                 "start": 15,
                                                 "end": 18
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -125,7 +125,7 @@ class D {
                                             "end": 18
                                         }
                                     ],
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -136,7 +136,7 @@ class D {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -144,7 +144,7 @@ class D {
                                 "start": 42,
                                 "end": 47
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -153,7 +153,7 @@ class D {
                             "end": 47
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -162,7 +162,7 @@ class D {
                     "end": 49
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -172,7 +172,7 @@ class D {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -197,13 +197,20 @@ class D {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class D {
+
+    @Foo
+
+    static staticMethod() { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

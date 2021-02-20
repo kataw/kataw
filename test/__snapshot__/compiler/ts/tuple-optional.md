@@ -14,11 +14,11 @@ let x: [string, number?, (string | number)?]
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let x: [string, number?, (string | number)?]",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let x: [string, number?, (string | number)?]
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -66,7 +66,7 @@ let x: [string, number?, (string | number)?]
                                             "start": 15,
                                             "end": 22
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -102,7 +102,7 @@ let x: [string, number?, (string | number)?]
                                                         "end": 41
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -110,7 +110,7 @@ let x: [string, number?, (string | number)?]
                                                 "start": 32,
                                                 "end": 41
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -118,7 +118,7 @@ let x: [string, number?, (string | number)?]
                                             "start": 24,
                                             "end": 42
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -127,7 +127,7 @@ let x: [string, number?, (string | number)?]
                                         "end": 43
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -136,7 +136,7 @@ let x: [string, number?, (string | number)?]
                                 "end": 44
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -145,7 +145,7 @@ let x: [string, number?, (string | number)?]
                             "end": 44
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -153,7 +153,7 @@ let x: [string, number?, (string | number)?]
                     "start": 3,
                     "end": 44
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -163,7 +163,7 @@ let x: [string, number?, (string | number)?]
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -188,13 +188,15 @@ let x: [string, number?, (string | number)?]
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let x: [string, number?, (string | number)?];
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

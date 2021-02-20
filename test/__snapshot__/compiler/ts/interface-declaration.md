@@ -15,11 +15,11 @@ interface string {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface string {\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -27,7 +27,7 @@ interface string {
                     "kind": 196712,
                     "text": "string",
                     "rawText": "string",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -40,7 +40,7 @@ interface string {
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -48,7 +48,7 @@ interface string {
                     "start": 18,
                     "end": 18
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -58,7 +58,7 @@ interface string {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -83,13 +83,16 @@ interface string {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface string {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

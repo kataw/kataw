@@ -14,11 +14,11 @@ let x!: number;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let x!: number;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ let x!: number;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -52,7 +52,7 @@ let x!: number;
                                 "end": 14
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -61,7 +61,7 @@ let x!: number;
                             "end": 14
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -69,7 +69,7 @@ let x!: number;
                     "start": 3,
                     "end": 14
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -79,7 +79,7 @@ let x!: number;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -104,13 +104,15 @@ let x!: number;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let x!: number;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

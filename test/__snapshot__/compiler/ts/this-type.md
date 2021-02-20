@@ -18,11 +18,11 @@ class Message {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Message {\n  clone(): this {\n    return this;\n  }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -30,7 +30,7 @@ class Message {
                     "kind": 131102,
                     "text": "Message",
                     "rawText": "Message",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -56,7 +56,7 @@ class Message {
                                     "kind": 196711,
                                     "text": "clone",
                                     "rawText": "clone",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -68,7 +68,7 @@ class Message {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -87,7 +87,7 @@ class Message {
                                                 "kind": 2097346,
                                                 "expression": {
                                                     "kind": 4260571,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -95,7 +95,7 @@ class Message {
                                                     "start": 44,
                                                     "end": 49
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -105,7 +105,7 @@ class Message {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -113,7 +113,7 @@ class Message {
                                         "start": 33,
                                         "end": 50
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -124,7 +124,7 @@ class Message {
                                 "decorators": null,
                                 "type": {
                                     "kind": 4194524,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -134,7 +134,7 @@ class Message {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -142,7 +142,7 @@ class Message {
                                 "start": 23,
                                 "end": 54
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -151,7 +151,7 @@ class Message {
                             "end": 54
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -160,7 +160,7 @@ class Message {
                     "end": 56
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -170,7 +170,7 @@ class Message {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -195,13 +195,19 @@ class Message {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Message {
+    clone(): this {
+        return this;
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

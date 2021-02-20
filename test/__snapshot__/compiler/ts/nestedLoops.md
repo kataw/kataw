@@ -1172,13 +1172,28 @@ export class Test  {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export class Test {
+    constructor() {
+        let outerArray: Array<number> = [1, 2, 3];
+        let innerArray: Array<number> = [1, 2, 3];
+        for (let outer; of outerArray)
+            for (let inner; of innerArray) {
+                this.aFunction((oldValue, newValue) =>  {
+                    let x = outer + inner + newValue;
+                })
+            }
+    }
+    public aFunction(func: (newValue: any, oldValue: any) => void): void {
+    }
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -18,11 +18,11 @@ get testProp() { return this.testProp; }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class MyClass {\nget testProp() { return this.testProp; }\n}\n\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -30,7 +30,7 @@ get testProp() { return this.testProp; }
                     "kind": 131102,
                     "text": "MyClass",
                     "rawText": "MyClass",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -56,7 +56,7 @@ get testProp() { return this.testProp; }
                                     "kind": 196711,
                                     "text": "testProp",
                                     "rawText": "testProp",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -68,7 +68,7 @@ get testProp() { return this.testProp; }
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -89,7 +89,7 @@ get testProp() { return this.testProp; }
                                                     "kind": 74424,
                                                     "member": {
                                                         "kind": 4260571,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -101,7 +101,7 @@ get testProp() { return this.testProp; }
                                                         "kind": 196711,
                                                         "text": "testProp",
                                                         "rawText": "testProp",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -109,7 +109,7 @@ get testProp() { return this.testProp; }
                                                         "start": 45,
                                                         "end": 53
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -117,7 +117,7 @@ get testProp() { return this.testProp; }
                                                     "start": 44,
                                                     "end": 53
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -127,7 +127,7 @@ get testProp() { return this.testProp; }
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -135,7 +135,7 @@ get testProp() { return this.testProp; }
                                         "start": 32,
                                         "end": 54
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -147,7 +147,7 @@ get testProp() { return this.testProp; }
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -155,7 +155,7 @@ get testProp() { return this.testProp; }
                                 "start": 28,
                                 "end": 56
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -164,7 +164,7 @@ get testProp() { return this.testProp; }
                             "end": 56
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -173,7 +173,7 @@ get testProp() { return this.testProp; }
                     "end": 58
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -183,7 +183,7 @@ get testProp() { return this.testProp; }
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -208,13 +208,17 @@ get testProp() { return this.testProp; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class MyClass {
+    get testProp() { return this.testProp; }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

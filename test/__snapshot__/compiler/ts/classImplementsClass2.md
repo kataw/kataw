@@ -21,11 +21,11 @@ class C2 extends A {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class A { foo(): number { return 1; } }\nclass C implements A {} // error\n\nclass C2 extends A {\n    foo() {\n        return 1;\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -33,7 +33,7 @@ class C2 extends A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -59,7 +59,7 @@ class C2 extends A {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -71,7 +71,7 @@ class C2 extends A {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -92,7 +92,7 @@ class C2 extends A {
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -100,7 +100,7 @@ class C2 extends A {
                                                     "start": 32,
                                                     "end": 34
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -110,7 +110,7 @@ class C2 extends A {
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -118,7 +118,7 @@ class C2 extends A {
                                         "start": 25,
                                         "end": 35
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -139,7 +139,7 @@ class C2 extends A {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -147,7 +147,7 @@ class C2 extends A {
                                 "start": 13,
                                 "end": 37
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -156,7 +156,7 @@ class C2 extends A {
                             "end": 37
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -165,7 +165,7 @@ class C2 extends A {
                     "end": 39
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -179,7 +179,7 @@ class C2 extends A {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -200,7 +200,7 @@ class C2 extends A {
                                     "kind": 196711,
                                     "text": "A",
                                     "rawText": "A",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -209,7 +209,7 @@ class C2 extends A {
                                     "end": 60
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -217,7 +217,7 @@ class C2 extends A {
                                 "start": 58,
                                 "end": 62
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -226,7 +226,7 @@ class C2 extends A {
                             "end": 60
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -237,7 +237,7 @@ class C2 extends A {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -246,7 +246,7 @@ class C2 extends A {
                     "end": 63
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -260,7 +260,7 @@ class C2 extends A {
                     "kind": 131102,
                     "text": "C2",
                     "rawText": "C2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -275,7 +275,7 @@ class C2 extends A {
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -284,7 +284,7 @@ class C2 extends A {
                         "end": 92
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -308,7 +308,7 @@ class C2 extends A {
                                     "kind": 196711,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -320,7 +320,7 @@ class C2 extends A {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -341,7 +341,7 @@ class C2 extends A {
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -349,7 +349,7 @@ class C2 extends A {
                                                     "start": 121,
                                                     "end": 123
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -359,7 +359,7 @@ class C2 extends A {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -367,7 +367,7 @@ class C2 extends A {
                                         "start": 106,
                                         "end": 124
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -379,7 +379,7 @@ class C2 extends A {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -387,7 +387,7 @@ class C2 extends A {
                                 "start": 102,
                                 "end": 130
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -396,7 +396,7 @@ class C2 extends A {
                             "end": 130
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -405,7 +405,7 @@ class C2 extends A {
                     "end": 132
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -415,7 +415,7 @@ class C2 extends A {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -440,13 +440,27 @@ class C2 extends A {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class A {
+    foo(): number { return 1; }
+}
+
+class C implements A {
+
+}
+
+class C2 extends A {
+    foo() {
+        return 1;
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

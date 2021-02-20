@@ -16,11 +16,11 @@ F
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface\nF\n{}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -28,7 +28,7 @@ F
                     "kind": 196712,
                     "text": "interface",
                     "rawText": "interface",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -50,7 +50,7 @@ F
                     "kind": 196712,
                     "text": "F",
                     "rawText": "F",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -72,7 +72,7 @@ F
                     "kind": 2084,
                     "statements": [],
                     "multiline": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -80,7 +80,7 @@ F
                     "start": 13,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -90,7 +90,7 @@ F
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -115,13 +115,19 @@ F
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface
+
+F
+
+{}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

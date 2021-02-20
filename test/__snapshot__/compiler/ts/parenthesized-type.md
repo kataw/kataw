@@ -14,11 +14,11 @@ type Foo = (string | number)
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type Foo = (string | number)",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -26,7 +26,7 @@ type Foo = (string | number)
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -60,7 +60,7 @@ type Foo = (string | number)
                                 "end": 27
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -68,7 +68,7 @@ type Foo = (string | number)
                         "start": 18,
                         "end": 27
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -77,7 +77,7 @@ type Foo = (string | number)
                     "end": 28
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -87,7 +87,7 @@ type Foo = (string | number)
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -112,13 +112,15 @@ type Foo = (string | number)
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type Foo = (string | number);
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

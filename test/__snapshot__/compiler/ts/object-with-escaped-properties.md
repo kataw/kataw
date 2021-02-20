@@ -20,11 +20,11 @@ class X { '__' = null }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "({ '__': null });\n\n({ '__'() {} });\n\n({ ['__']: null });\n\nclass X { '__' = null }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -41,7 +41,7 @@ class X { '__' = null }
                                         "kind": 67279,
                                         "text": "__",
                                         "rawText": "__",
-                                        "flags": 16777216,
+                                        "flags": 16842752,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -52,7 +52,7 @@ class X { '__' = null }
                                     "right": {
                                         "kind": 4260512,
                                         "text": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -62,7 +62,7 @@ class X { '__' = null }
                                     },
                                     "accessModifier": null,
                                     "decorators": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -73,7 +73,7 @@ class X { '__' = null }
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -81,7 +81,7 @@ class X { '__' = null }
                             "start": 2,
                             "end": 13
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -89,7 +89,7 @@ class X { '__' = null }
                         "start": 1,
                         "end": 15
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -120,7 +120,7 @@ class X { '__' = null }
                                         "kind": 67279,
                                         "text": "__",
                                         "rawText": "__",
-                                        "flags": 16777216,
+                                        "flags": 16842752,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -132,7 +132,7 @@ class X { '__' = null }
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -148,7 +148,7 @@ class X { '__' = null }
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -156,7 +156,7 @@ class X { '__' = null }
                                             "start": 30,
                                             "end": 30
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -168,7 +168,7 @@ class X { '__' = null }
                                     "type": null,
                                     "accessModifier": null,
                                     "typeParameters": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -179,7 +179,7 @@ class X { '__' = null }
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -187,7 +187,7 @@ class X { '__' = null }
                             "start": 21,
                             "end": 31
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -195,7 +195,7 @@ class X { '__' = null }
                         "start": 20,
                         "end": 33
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -228,7 +228,7 @@ class X { '__' = null }
                                             "kind": 67279,
                                             "text": "__",
                                             "rawText": "__",
-                                            "flags": 16777216,
+                                            "flags": 16842752,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -236,7 +236,7 @@ class X { '__' = null }
                                             "start": 41,
                                             "end": 45
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 131073,
                                         "parent": null,
@@ -247,7 +247,7 @@ class X { '__' = null }
                                     "right": {
                                         "kind": 4260512,
                                         "text": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -257,7 +257,7 @@ class X { '__' = null }
                                     },
                                     "accessModifier": null,
                                     "decorators": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -268,7 +268,7 @@ class X { '__' = null }
                             ],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -276,7 +276,7 @@ class X { '__' = null }
                             "start": 39,
                             "end": 52
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -284,7 +284,7 @@ class X { '__' = null }
                         "start": 38,
                         "end": 54
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -306,7 +306,7 @@ class X { '__' = null }
                     "kind": 131102,
                     "text": "X",
                     "rawText": "X",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -326,7 +326,7 @@ class X { '__' = null }
                                 "kind": 67279,
                                 "text": "__",
                                 "rawText": "__",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -341,7 +341,7 @@ class X { '__' = null }
                             "initializer": {
                                 "kind": 4260512,
                                 "text": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -352,7 +352,7 @@ class X { '__' = null }
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -361,7 +361,7 @@ class X { '__' = null }
                             "end": 79
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -370,7 +370,7 @@ class X { '__' = null }
                     "end": 81
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -380,7 +380,7 @@ class X { '__' = null }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -405,13 +405,23 @@ class X { '__' = null }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+({ "__" : null })
+
+({ "__"() { } })
+
+({ ["__"] : null })
+
+class X {
+    "__" = null;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

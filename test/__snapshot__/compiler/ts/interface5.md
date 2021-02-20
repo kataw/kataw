@@ -14,11 +14,11 @@ interface Foo { public foo: string; }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Foo { public foo: string; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -26,7 +26,7 @@ interface Foo { public foo: string; }
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -45,7 +45,7 @@ interface Foo { public foo: string; }
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -77,7 +77,7 @@ interface Foo { public foo: string; }
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -86,7 +86,7 @@ interface Foo { public foo: string; }
                             "end": 35
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -94,7 +94,7 @@ interface Foo { public foo: string; }
                     "start": 15,
                     "end": 35
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -104,7 +104,7 @@ interface Foo { public foo: string; }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -129,13 +129,17 @@ interface Foo { public foo: string; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Foo {
+    foo: string;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

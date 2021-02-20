@@ -223,13 +223,17 @@ declare namespace d3 {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare namespace d3 {
+    export function select(selector: string): Selection<any>;;
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ for (var v of [true]) { }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "for (var v of [true]) { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2099287,
@@ -33,7 +33,7 @@ for (var v of [true]) { }
                                     "kind": 131102,
                                     "text": "v",
                                     "rawText": "v",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -49,11 +49,11 @@ for (var v of [true]) { }
                                 "transformFlags": 0,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 10
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -61,7 +61,7 @@ for (var v of [true]) { }
                         "start": 8,
                         "end": 10
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -77,7 +77,7 @@ for (var v of [true]) { }
                             {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -88,7 +88,7 @@ for (var v of [true]) { }
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -96,7 +96,7 @@ for (var v of [true]) { }
                         "start": 15,
                         "end": 19
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -110,7 +110,7 @@ for (var v of [true]) { }
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -118,7 +118,7 @@ for (var v of [true]) { }
                         "start": 23,
                         "end": 23
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -127,7 +127,7 @@ for (var v of [true]) { }
                     "end": 25
                 },
                 "isAwait": false,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -137,7 +137,7 @@ for (var v of [true]) { }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -162,13 +162,16 @@ for (var v of [true]) { }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+for ( of [true]) {}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 16, end: 0
 
 ```
 

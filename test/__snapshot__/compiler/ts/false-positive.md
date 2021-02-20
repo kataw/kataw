@@ -14,11 +14,11 @@ f(x < 0, /a/);
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "f(x < 0, /a/);",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -28,7 +28,7 @@ f(x < 0, /a/);
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -46,7 +46,7 @@ f(x < 0, /a/);
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -59,7 +59,7 @@ f(x < 0, /a/);
                                     "kind": 4261540,
                                     "text": 0,
                                     "rawText": "0",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -67,7 +67,7 @@ f(x < 0, /a/);
                                     "start": 5,
                                     "end": 7
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -78,7 +78,7 @@ f(x < 0, /a/);
                             {
                                 "kind": 4260544,
                                 "text": "/a/",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -89,14 +89,14 @@ f(x < 0, /a/);
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 3,
                         "end": 13
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -114,7 +114,7 @@ f(x < 0, /a/);
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -139,13 +139,15 @@ f(x < 0, /a/);
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+f(x < 0, /a/)
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

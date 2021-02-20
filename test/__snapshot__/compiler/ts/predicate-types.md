@@ -19,11 +19,11 @@ class Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo {\n  isBar(): this is string {\n  }\n  isBaz = (): this is string => {\n  }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -31,7 +31,7 @@ class Foo {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ class Foo {
                                     "kind": 196711,
                                     "text": "isBar",
                                     "rawText": "isBar",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -69,7 +69,7 @@ class Foo {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -85,7 +85,7 @@ class Foo {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -93,7 +93,7 @@ class Foo {
                                         "start": 39,
                                         "end": 39
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -109,7 +109,7 @@ class Foo {
                                         "kind": 196712,
                                         "text": "this",
                                         "rawText": "this",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -127,7 +127,7 @@ class Foo {
                                         "start": 30,
                                         "end": 37
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -137,7 +137,7 @@ class Foo {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -145,7 +145,7 @@ class Foo {
                                 "start": 19,
                                 "end": 43
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -159,7 +159,7 @@ class Foo {
                                 "kind": 196711,
                                 "text": "isBaz",
                                 "rawText": "isBaz",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -184,7 +184,7 @@ class Foo {
                                             "kind": 196712,
                                             "text": "this",
                                             "rawText": "this",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -202,7 +202,7 @@ class Foo {
                                             "start": 65,
                                             "end": 72
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -226,7 +226,7 @@ class Foo {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -234,7 +234,7 @@ class Foo {
                                         "start": 77,
                                         "end": 77
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -242,7 +242,7 @@ class Foo {
                                     "start": 75,
                                     "end": 81
                                 },
-                                "flags": 536887296,
+                                "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -253,7 +253,7 @@ class Foo {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -262,7 +262,7 @@ class Foo {
                             "end": 81
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -271,7 +271,7 @@ class Foo {
                     "end": 83
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -281,7 +281,7 @@ class Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -306,13 +306,20 @@ class Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo {
+    isBar(): this is string {
+    }
+    isBaz = () =>  {
+    };
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

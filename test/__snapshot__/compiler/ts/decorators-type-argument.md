@@ -180,13 +180,22 @@ class Test {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export ;
+
+decorator<string>()
+
+class Test {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Unexpected token. - start: 8, end: 0
 
 ```
 

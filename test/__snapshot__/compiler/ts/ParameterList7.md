@@ -18,11 +18,11 @@ class C1 {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class C1 {\n constructor(public p1:string); // ERROR\n constructor(private p2:number); // ERROR\n constructor(public p3:any) {} // OK\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -30,7 +30,7 @@ class C1 {
                     "kind": 131102,
                     "text": "C1",
                     "rawText": "C1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -56,7 +56,7 @@ class C1 {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -74,7 +74,7 @@ class C1 {
                                                 "kind": 131102,
                                                 "text": "p1",
                                                 "rawText": "p1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -106,7 +106,7 @@ class C1 {
                                                 "end": 30
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -116,7 +116,7 @@ class C1 {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -131,7 +131,7 @@ class C1 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -139,7 +139,7 @@ class C1 {
                                 "start": 23,
                                 "end": 42
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -159,7 +159,7 @@ class C1 {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -177,7 +177,7 @@ class C1 {
                                                 "kind": 131102,
                                                 "text": "p2",
                                                 "rawText": "p2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -209,7 +209,7 @@ class C1 {
                                                 "end": 72
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -219,7 +219,7 @@ class C1 {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -234,7 +234,7 @@ class C1 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -242,7 +242,7 @@ class C1 {
                                 "start": 64,
                                 "end": 84
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -262,7 +262,7 @@ class C1 {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -280,7 +280,7 @@ class C1 {
                                                 "kind": 131102,
                                                 "text": "p3",
                                                 "rawText": "p3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -312,7 +312,7 @@ class C1 {
                                                 "end": 113
                                             },
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097153,
                                             "parent": null,
@@ -322,7 +322,7 @@ class C1 {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -338,7 +338,7 @@ class C1 {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -346,7 +346,7 @@ class C1 {
                                         "start": 123,
                                         "end": 123
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -358,7 +358,7 @@ class C1 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -366,7 +366,7 @@ class C1 {
                                 "start": 106,
                                 "end": 124
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -375,7 +375,7 @@ class C1 {
                             "end": 124
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -384,7 +384,7 @@ class C1 {
                     "end": 132
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -394,7 +394,7 @@ class C1 {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -419,13 +419,19 @@ class C1 {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class C1 {
+    constructor(public p1: string);
+    constructor(private p2: number);
+    constructor(public p3: any) { }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

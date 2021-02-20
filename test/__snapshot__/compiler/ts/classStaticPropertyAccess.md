@@ -19,11 +19,11 @@ class A {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class A {\n    public static \"\\\"\"() {}\n    public static x: number = 1;\n    public static y: number = 1;\n    private static _b: number = 2;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -31,7 +31,7 @@ class A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ class A {
                                     "kind": 67279,
                                     "text": "\"",
                                     "rawText": "\"",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -69,7 +69,7 @@ class A {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -85,7 +85,7 @@ class A {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -93,7 +93,7 @@ class A {
                                         "start": 36,
                                         "end": 36
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -114,7 +114,7 @@ class A {
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -122,7 +122,7 @@ class A {
                                 "start": 32,
                                 "end": 37
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -136,7 +136,7 @@ class A {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -161,7 +161,7 @@ class A {
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -181,7 +181,7 @@ class A {
                                 "end": 48
                             },
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -195,7 +195,7 @@ class A {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -220,7 +220,7 @@ class A {
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -240,7 +240,7 @@ class A {
                                 "end": 81
                             },
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -254,7 +254,7 @@ class A {
                                 "kind": 196711,
                                 "text": "_b",
                                 "rawText": "_b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -279,7 +279,7 @@ class A {
                                 "kind": 4261540,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -299,7 +299,7 @@ class A {
                                 "end": 115
                             },
                             "isStatic": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -308,7 +308,7 @@ class A {
                             "end": 138
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -317,7 +317,7 @@ class A {
                     "end": 140
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -327,7 +327,7 @@ class A {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -352,13 +352,22 @@ class A {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class A {
+    public static """() { }
+    public static x: number = 1;
+    public static y: number = 1;
+    private static _b: number = 2;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ Unterminated string literal - start: 38, end: 1
+@{x2716}@ ';' expected. - start: 31, end: 0
 
 ```
 

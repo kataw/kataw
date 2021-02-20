@@ -19,11 +19,11 @@ const s = {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const g = {\n  get m(this: {}) {}\n};\nconst s = {\n  set m(this: {}, value) {}\n};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -37,7 +37,7 @@ const s = {
                                 "kind": 131102,
                                 "text": "g",
                                 "rawText": "g",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -58,7 +58,7 @@ const s = {
                                                 "kind": 196711,
                                                 "text": "m",
                                                 "rawText": "m",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -90,7 +90,7 @@ const s = {
                                                             "objectTypeMembers": {
                                                                 "kind": 169,
                                                                 "members": [],
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -98,7 +98,7 @@ const s = {
                                                                 "start": 27,
                                                                 "end": 28
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -110,7 +110,7 @@ const s = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -120,7 +120,7 @@ const s = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -136,7 +136,7 @@ const s = {
                                                     "kind": 94,
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -144,7 +144,7 @@ const s = {
                                                     "start": 31,
                                                     "end": 31
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -156,7 +156,7 @@ const s = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -167,7 +167,7 @@ const s = {
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -175,7 +175,7 @@ const s = {
                                     "start": 11,
                                     "end": 32
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -183,7 +183,7 @@ const s = {
                                 "start": 9,
                                 "end": 34
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -192,7 +192,7 @@ const s = {
                             "end": 34
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -200,7 +200,7 @@ const s = {
                     "start": 5,
                     "end": 34
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -220,7 +220,7 @@ const s = {
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -241,7 +241,7 @@ const s = {
                                                 "kind": 196711,
                                                 "text": "m",
                                                 "rawText": "m",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -273,7 +273,7 @@ const s = {
                                                             "objectTypeMembers": {
                                                                 "kind": 169,
                                                                 "members": [],
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -281,7 +281,7 @@ const s = {
                                                                 "start": 63,
                                                                 "end": 64
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -293,7 +293,7 @@ const s = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -308,7 +308,7 @@ const s = {
                                                             "kind": 131102,
                                                             "text": "value",
                                                             "rawText": "value",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
                                                             "parent": null,
@@ -322,7 +322,7 @@ const s = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
                                                         "parent": null,
@@ -332,7 +332,7 @@ const s = {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -348,7 +348,7 @@ const s = {
                                                     "kind": 94,
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -356,7 +356,7 @@ const s = {
                                                     "start": 74,
                                                     "end": 74
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -368,7 +368,7 @@ const s = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -379,7 +379,7 @@ const s = {
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -387,7 +387,7 @@ const s = {
                                     "start": 47,
                                     "end": 75
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -395,7 +395,7 @@ const s = {
                                 "start": 45,
                                 "end": 77
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -404,7 +404,7 @@ const s = {
                             "end": 77
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -412,7 +412,7 @@ const s = {
                     "start": 41,
                     "end": 77
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -422,7 +422,7 @@ const s = {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -447,13 +447,21 @@ const s = {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const g = { get m(this: {
+
+        }) { } };
+
+const s = { set m(this: {
+
+        }, value) { } };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

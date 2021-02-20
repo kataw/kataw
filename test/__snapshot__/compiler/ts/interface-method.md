@@ -17,11 +17,11 @@ interface I {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface I {\n    m();\n    m(x?: number, ...y: number[]): void;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -29,7 +29,7 @@ interface I {
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -48,7 +48,7 @@ interface I {
                                 "kind": 196711,
                                 "text": "m",
                                 "rawText": "m",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -65,7 +65,7 @@ interface I {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -74,7 +74,7 @@ interface I {
                                 "end": 20
                             },
                             "returnType": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -88,7 +88,7 @@ interface I {
                                 "kind": 196711,
                                 "text": "m",
                                 "rawText": "m",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -111,7 +111,7 @@ interface I {
                                             "kind": 131102,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -133,7 +133,7 @@ interface I {
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -148,7 +148,7 @@ interface I {
                                             "kind": 131102,
                                             "text": "y",
                                             "rawText": "y",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -169,7 +169,7 @@ interface I {
                                                 "start": 46,
                                                 "end": 53
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -180,7 +180,7 @@ interface I {
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 4097,
                                         "parent": null,
@@ -190,7 +190,7 @@ interface I {
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -208,7 +208,7 @@ interface I {
                                 "start": 57,
                                 "end": 62
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -217,7 +217,7 @@ interface I {
                             "end": 63
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -225,7 +225,7 @@ interface I {
                     "start": 13,
                     "end": 63
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -235,7 +235,7 @@ interface I {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -260,13 +260,18 @@ interface I {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface I {
+    m();
+    m(x?: number, ...y: number[]): void;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

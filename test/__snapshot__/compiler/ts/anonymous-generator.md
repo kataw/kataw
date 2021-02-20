@@ -16,11 +16,11 @@ const fn = function* <T>(input: T): Generator<number> {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const fn = function* <T>(input: T): Generator<number> {\n  yield 2;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -34,7 +34,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                 "kind": 131102,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -57,7 +57,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                 "kind": 131102,
                                                 "text": "input",
                                                 "rawText": "input",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -72,7 +72,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -81,7 +81,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                     "end": 33
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -93,7 +93,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -103,7 +103,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -125,7 +125,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                         "kind": 4261540,
                                                         "text": 2,
                                                         "rawText": "2",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -133,7 +133,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                         "start": 63,
                                                         "end": 65
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 16393,
                                                     "parent": null,
@@ -151,7 +151,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -159,7 +159,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                         "start": 55,
                                         "end": 66
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -176,7 +176,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -187,7 +187,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "constraint": null,
                                             "defaultType": null,
                                             "expression": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -196,7 +196,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "end": 23
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -210,7 +210,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                         "kind": 196711,
                                         "text": "Generator",
                                         "rawText": "Generator",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -232,7 +232,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                                 "end": 52
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -240,7 +240,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                         "start": 46,
                                         "end": 52
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -248,7 +248,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                     "start": 35,
                                     "end": 55
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 128,
                                 "parent": null,
@@ -256,7 +256,7 @@ const fn = function* <T>(input: T): Generator<number> {
                                 "start": 10,
                                 "end": 68
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -265,7 +265,7 @@ const fn = function* <T>(input: T): Generator<number> {
                             "end": 68
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -273,7 +273,7 @@ const fn = function* <T>(input: T): Generator<number> {
                     "start": 5,
                     "end": 68
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -283,7 +283,7 @@ const fn = function* <T>(input: T): Generator<number> {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -308,13 +308,17 @@ const fn = function* <T>(input: T): Generator<number> {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const fn =  function* <T>(input: T): Generator<number> {
+    yield 2
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

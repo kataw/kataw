@@ -15,11 +15,11 @@ class A<__P> {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\nclass A<__P> {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -27,7 +27,7 @@ class A<__P> {}
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -44,7 +44,7 @@ class A<__P> {}
                                 "kind": 196711,
                                 "text": "__P",
                                 "rawText": "__P",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -55,7 +55,7 @@ class A<__P> {}
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -64,7 +64,7 @@ class A<__P> {}
                             "end": 12
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -77,7 +77,7 @@ class A<__P> {}
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -86,7 +86,7 @@ class A<__P> {}
                     "end": 16
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -96,7 +96,7 @@ class A<__P> {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -121,13 +121,17 @@ class A<__P> {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class A<__P> {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

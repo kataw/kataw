@@ -18,11 +18,11 @@ b /* parameter b */,
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function commentedParameters(\na /* parameter a */,\nb /* parameter b */,\n/* extra comment */\n) { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -30,7 +30,7 @@ b /* parameter b */,
                     "kind": 131102,
                     "text": "commentedParameters",
                     "rawText": "commentedParameters",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -48,7 +48,7 @@ b /* parameter b */,
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -62,7 +62,7 @@ b /* parameter b */,
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -77,7 +77,7 @@ b /* parameter b */,
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -91,7 +91,7 @@ b /* parameter b */,
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -101,7 +101,7 @@ b /* parameter b */,
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -116,7 +116,7 @@ b /* parameter b */,
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -124,7 +124,7 @@ b /* parameter b */,
                         "start": 95,
                         "end": 95
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -133,7 +133,7 @@ b /* parameter b */,
                     "end": 97
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -143,7 +143,7 @@ b /* parameter b */,
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -168,13 +168,15 @@ b /* parameter b */,
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function commentedParameters(a, b) { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

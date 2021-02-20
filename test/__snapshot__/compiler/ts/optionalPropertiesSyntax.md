@@ -48,11 +48,11 @@ interface indexSig {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface fnSigs {\n    //functions signatures can be optional\n    fn(): void;\n    fn?(): void; //err\n    fn2?(): void;\n}\n\ninterface callSig {\n    //Call signatures can't be optional\n    (): any;\n    ()?: any; //err\n    ?(): any; //err\n}\n\ninterface constructSig {\n    //Construct signatures can't be optional\n    new (): any;\n    new ()?: any; //err\n    new ?(): any; //err\n}\n\ninterface propertySig {\n    //Property signatures can be optional\n    prop: any;\n    prop?: any;\n    prop2?: any;\n}\n\ninterface indexSig {\n    //Index signatures can't be optional\n    [idx: number]: any;\n    [idx: number]?: any; //err\n    ? [idx: number]: any; //err\n    [idx?: number]: any; //err\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -60,7 +60,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "fnSigs",
                     "rawText": "fnSigs",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -79,7 +79,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -96,7 +96,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -114,7 +114,7 @@ interface indexSig {
                                 "start": 71,
                                 "end": 76
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -128,7 +128,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -145,7 +145,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -163,7 +163,7 @@ interface indexSig {
                                 "start": 88,
                                 "end": 93
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -177,7 +177,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "fn2",
                                 "rawText": "fn2",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -194,7 +194,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -212,7 +212,7 @@ interface indexSig {
                                 "start": 112,
                                 "end": 117
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -221,7 +221,7 @@ interface indexSig {
                             "end": 118
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -229,7 +229,7 @@ interface indexSig {
                     "start": 18,
                     "end": 118
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -243,7 +243,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "callSig",
                     "rawText": "callSig",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -265,7 +265,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -283,7 +283,7 @@ interface indexSig {
                                 "start": 189,
                                 "end": 193
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -300,7 +300,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -309,7 +309,7 @@ interface indexSig {
                                 "end": 200
                             },
                             "returnType": null,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -318,7 +318,7 @@ interface indexSig {
                             "end": 201
                         }
                     ],
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -326,7 +326,7 @@ interface indexSig {
                     "start": 141,
                     "end": 201
                 },
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -340,7 +340,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -396,7 +396,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "constructSig",
                     "rawText": "constructSig",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -418,7 +418,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -436,7 +436,7 @@ interface indexSig {
                                 "start": 319,
                                 "end": 323
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -453,7 +453,7 @@ interface indexSig {
                                 "kind": 175,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -462,7 +462,7 @@ interface indexSig {
                                 "end": 334
                             },
                             "returnType": null,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -471,7 +471,7 @@ interface indexSig {
                             "end": 335
                         }
                     ],
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -479,7 +479,7 @@ interface indexSig {
                     "start": 262,
                     "end": 335
                 },
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -493,7 +493,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -533,7 +533,7 @@ interface indexSig {
                         "transformFlags": 32,
                         "parent": null,
                         "emitNode": null,
-                        "start": 2,
+                        "start": 65538,
                         "end": 356
                     },
                     "consequent": {
@@ -571,7 +571,7 @@ interface indexSig {
                         "start": 365,
                         "end": 365
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -593,7 +593,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "propertySig",
                     "rawText": "propertySig",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -612,7 +612,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -635,7 +635,7 @@ interface indexSig {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -649,7 +649,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -672,7 +672,7 @@ interface indexSig {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -686,7 +686,7 @@ interface indexSig {
                                 "kind": 196711,
                                 "text": "prop2",
                                 "rawText": "prop2",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -709,7 +709,7 @@ interface indexSig {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -718,7 +718,7 @@ interface indexSig {
                             "end": 489
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -726,7 +726,7 @@ interface indexSig {
                     "start": 399,
                     "end": 489
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -740,7 +740,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "indexSig",
                     "rawText": "indexSig",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -766,7 +766,7 @@ interface indexSig {
                                             "kind": 131102,
                                             "text": "idx",
                                             "rawText": "idx",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -788,7 +788,7 @@ interface indexSig {
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -798,7 +798,7 @@ interface indexSig {
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -818,7 +818,7 @@ interface indexSig {
                             },
                             "isStatic": false,
                             "isReadOnly": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -839,7 +839,7 @@ interface indexSig {
                                             "kind": 131102,
                                             "text": "idx",
                                             "rawText": "idx",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -861,7 +861,7 @@ interface indexSig {
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -871,7 +871,7 @@ interface indexSig {
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -882,7 +882,7 @@ interface indexSig {
                             "returnType": null,
                             "isStatic": false,
                             "isReadOnly": false,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -891,7 +891,7 @@ interface indexSig {
                             "end": 596
                         }
                     ],
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -899,7 +899,7 @@ interface indexSig {
                     "start": 513,
                     "end": 596
                 },
-                "flags": 16386,
+                "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -913,7 +913,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -940,7 +940,7 @@ interface indexSig {
                                 "kind": 196712,
                                 "text": "idx",
                                 "rawText": "idx",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -951,7 +951,7 @@ interface indexSig {
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 2,
+                        "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -959,7 +959,7 @@ interface indexSig {
                         "start": 617,
                         "end": 620
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -981,7 +981,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "number",
                     "rawText": "number",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1003,7 +1003,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1032,7 +1032,7 @@ interface indexSig {
                                     "kind": 196712,
                                     "text": "idx",
                                     "rawText": "idx",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1055,7 +1055,7 @@ interface indexSig {
                                     "kind": 196712,
                                     "text": "number",
                                     "rawText": "number",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1063,7 +1063,7 @@ interface indexSig {
                                     "start": 652,
                                     "end": 659
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1074,7 +1074,7 @@ interface indexSig {
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1082,7 +1082,7 @@ interface indexSig {
                         "start": 647,
                         "end": 659
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1104,7 +1104,7 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1122,7 +1122,7 @@ interface indexSig {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1211,13 +1211,60 @@ interface indexSig {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface fnSigs {
+    fn(): void;
+    fn?(): void;
+    fn2?(): void;
+}
+
+interface callSig {
+    ():any;
+    ();
+}
+
+any
+
+
+
+interface constructSig {
+    new ():any;
+    new ();
+}
+
+any
+
+new undefined ?  : undefined
+
+interface propertySig {
+    prop: any;
+    prop?: any;
+    prop2?: any;
+}
+
+interface indexSig {
+    [idx: number]: any;
+    [idx: number];
+}
+
+any
+
+[idx]
+
+number
+
+any
+
+[idx ? undefined : number]
+
+any
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

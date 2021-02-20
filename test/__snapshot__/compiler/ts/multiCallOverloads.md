@@ -26,11 +26,11 @@ load(function(z?) {}) // this shouldn't be an error
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface ICallback {\n    (x?: string):void;\n}\n\nfunction load(f: ICallback) {}\n\nvar f1: ICallback = function(z?) {}\nvar f2: ICallback = function(z?) {}\nload(f1) // ok\nload(f2) // ok\nload(function() {}) // this shouldn@{x2019}@t be an error\nload(function(z?) {}) // this shouldn't be an error\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -38,7 +38,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "kind": 196712,
                     "text": "ICallback",
                     "rawText": "ICallback",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -66,7 +66,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "kind": 131102,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -88,7 +88,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
                                         "parent": null,
@@ -98,7 +98,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -116,7 +116,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "start": 39,
                                 "end": 43
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -125,7 +125,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "end": 44
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -133,7 +133,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "start": 21,
                     "end": 44
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -147,7 +147,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "kind": 131102,
                     "text": "load",
                     "rawText": "load",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -165,7 +165,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "kind": 131102,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -180,7 +180,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "kind": 196711,
                                     "text": "ICallback",
                                     "rawText": "ICallback",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -189,7 +189,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "end": 74
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -201,7 +201,7 @@ load(function(z?) {}) // this shouldn't be an error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -211,7 +211,7 @@ load(function(z?) {}) // this shouldn't be an error
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -226,7 +226,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -234,7 +234,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "start": 77,
                         "end": 77
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -243,7 +243,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "end": 78
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -262,7 +262,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "kind": 131102,
                                 "text": "f1",
                                 "rawText": "f1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -277,7 +277,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "kind": 196711,
                                     "text": "ICallback",
                                     "rawText": "ICallback",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -286,7 +286,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "end": 97
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -307,7 +307,7 @@ load(function(z?) {}) // this shouldn't be an error
                                                 "kind": 131102,
                                                 "text": "z",
                                                 "rawText": "z",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -321,7 +321,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -331,7 +331,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -345,7 +345,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -353,7 +353,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "start": 114,
                                         "end": 114
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -363,7 +363,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -376,11 +376,11 @@ load(function(z?) {}) // this shouldn't be an error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 115
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -388,7 +388,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "start": 83,
                     "end": 115
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -407,7 +407,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "kind": 131102,
                                 "text": "f2",
                                 "rawText": "f2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -422,7 +422,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "kind": 196711,
                                     "text": "ICallback",
                                     "rawText": "ICallback",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -431,7 +431,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "end": 133
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -452,7 +452,7 @@ load(function(z?) {}) // this shouldn't be an error
                                                 "kind": 131102,
                                                 "text": "z",
                                                 "rawText": "z",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -466,7 +466,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -476,7 +476,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -490,7 +490,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -498,7 +498,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "start": 150,
                                         "end": 150
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -508,7 +508,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -521,11 +521,11 @@ load(function(z?) {}) // this shouldn't be an error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 151
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -533,7 +533,7 @@ load(function(z?) {}) // this shouldn't be an error
                     "start": 119,
                     "end": 151
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -549,7 +549,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "kind": 196712,
                         "text": "load",
                         "rawText": "load",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -565,7 +565,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "kind": 196712,
                                 "text": "f1",
                                 "rawText": "f1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -576,14 +576,14 @@ load(function(z?) {}) // this shouldn't be an error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 159,
                         "end": 160
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -607,7 +607,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "kind": 196712,
                         "text": "load",
                         "rawText": "load",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -623,7 +623,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 "kind": 196712,
                                 "text": "f2",
                                 "rawText": "f2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -634,14 +634,14 @@ load(function(z?) {}) // this shouldn't be an error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 174,
                         "end": 175
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -665,7 +665,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "kind": 196712,
                         "text": "load",
                         "rawText": "load",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -684,7 +684,7 @@ load(function(z?) {}) // this shouldn't be an error
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -698,7 +698,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -706,7 +706,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "start": 199,
                                         "end": 199
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -716,7 +716,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -727,14 +727,14 @@ load(function(z?) {}) // this shouldn't be an error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 195,
                         "end": 201
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -758,7 +758,7 @@ load(function(z?) {}) // this shouldn't be an error
                         "kind": 196712,
                         "text": "load",
                         "rawText": "load",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -783,7 +783,7 @@ load(function(z?) {}) // this shouldn't be an error
                                                 "kind": 131102,
                                                 "text": "z",
                                                 "rawText": "z",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -797,7 +797,7 @@ load(function(z?) {}) // this shouldn't be an error
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -807,7 +807,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -821,7 +821,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -829,7 +829,7 @@ load(function(z?) {}) // this shouldn't be an error
                                         "start": 251,
                                         "end": 251
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -839,7 +839,7 @@ load(function(z?) {}) // this shouldn't be an error
                                 },
                                 "typeParameters": null,
                                 "type": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -850,14 +850,14 @@ load(function(z?) {}) // this shouldn't be an error
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 245,
                         "end": 253
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -875,7 +875,7 @@ load(function(z?) {}) // this shouldn't be an error
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -900,13 +900,31 @@ load(function(z?) {}) // this shouldn't be an error
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface ICallback {
+    (x?: string):void;
+}
+
+function load(f: ICallback) { }
+
+var f1: ICallback = function (z?) { };
+
+var f2: ICallback = function (z?) { };
+
+load(f1)
+
+load(f2)
+
+load(function () { })
+
+load(function (z?) { })
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

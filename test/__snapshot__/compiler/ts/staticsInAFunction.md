@@ -19,11 +19,11 @@ function boo{
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function boo{\n   static test()\n   static test(name:string)\n   static test(name?:any){}\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -31,7 +31,7 @@ function boo{
                     "kind": 131102,
                     "text": "boo",
                     "rawText": "boo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -43,7 +43,7 @@ function boo{
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -63,7 +63,7 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -87,7 +87,7 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 2,
+                                        "flags": 65538,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -101,14 +101,14 @@ function boo{
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 30,
                                         "end": 30
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -130,7 +130,7 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -154,7 +154,7 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 2,
+                                        "flags": 65538,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -173,7 +173,7 @@ function boo{
                                                     "kind": 4325406,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -196,7 +196,7 @@ function boo{
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -207,14 +207,14 @@ function boo{
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 50,
                                         "end": 58
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -236,7 +236,7 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -260,7 +260,7 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 2,
+                                        "flags": 65538,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -279,7 +279,7 @@ function boo{
                                                     "kind": 4325406,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -313,14 +313,14 @@ function boo{
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 78,
                                         "end": 84
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -342,7 +342,7 @@ function boo{
                                     "kind": 2084,
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -350,7 +350,7 @@ function boo{
                                     "start": 85,
                                     "end": 85
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -360,7 +360,7 @@ function boo{
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -368,7 +368,7 @@ function boo{
                         "start": 13,
                         "end": 86
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -377,7 +377,7 @@ function boo{
                     "end": 88
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -387,7 +387,7 @@ function boo{
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -448,13 +448,23 @@ function boo{
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function boo() {
+    static
+    test()
+    static
+    test(name: string)
+    static
+    test(name?: any)
+    {}
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

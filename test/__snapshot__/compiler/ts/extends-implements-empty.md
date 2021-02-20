@@ -15,11 +15,11 @@ class Foo extends Bar implements {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class Foo extends Bar implements {\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -27,7 +27,7 @@ class Foo extends Bar implements {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -42,7 +42,7 @@ class Foo extends Bar implements {
                         "kind": 196712,
                         "text": "Bar",
                         "rawText": "Bar",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -51,7 +51,7 @@ class Foo extends Bar implements {
                         "end": 21
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -62,7 +62,7 @@ class Foo extends Bar implements {
                 "implementClauses": {
                     "kind": 107,
                     "clauses": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -73,7 +73,7 @@ class Foo extends Bar implements {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -82,7 +82,7 @@ class Foo extends Bar implements {
                     "end": 36
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -92,7 +92,7 @@ class Foo extends Bar implements {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -117,13 +117,17 @@ class Foo extends Bar implements {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Foo extends Bar implements  {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

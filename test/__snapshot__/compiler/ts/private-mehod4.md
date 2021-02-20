@@ -19,11 +19,11 @@ const C = class {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const C = class {\n    #bar() {}\n    foo() {\n        this.#bar = console.log(\"should log this then throw\");\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -37,7 +37,7 @@ const C = class {
                                 "kind": 131102,
                                 "text": "C",
                                 "rawText": "C",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -68,7 +68,7 @@ const C = class {
                                                     "kind": 196711,
                                                     "text": "#bar",
                                                     "rawText": "#bar",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -80,7 +80,7 @@ const C = class {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -96,7 +96,7 @@ const C = class {
                                                         "kind": 94,
                                                         "statements": [],
                                                         "multiline": false,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -104,7 +104,7 @@ const C = class {
                                                         "start": 30,
                                                         "end": 30
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -116,7 +116,7 @@ const C = class {
                                                 "type": null,
                                                 "accessModifier": null,
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -124,7 +124,7 @@ const C = class {
                                                 "start": 26,
                                                 "end": 31
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -144,7 +144,7 @@ const C = class {
                                                     "kind": 196711,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -156,7 +156,7 @@ const C = class {
                                                     "kind": 90,
                                                     "formalParameterList": [],
                                                     "trailingComma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -179,7 +179,7 @@ const C = class {
                                                                         "kind": 74424,
                                                                         "member": {
                                                                             "kind": 4260571,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -191,7 +191,7 @@ const C = class {
                                                                             "kind": 131252,
                                                                             "text": "#bar",
                                                                             "rawText": "#bar",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 524288,
                                                                             "parent": null,
@@ -199,7 +199,7 @@ const C = class {
                                                                             "start": 57,
                                                                             "end": 61
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -216,7 +216,7 @@ const C = class {
                                                                                 "kind": 196712,
                                                                                 "text": "console",
                                                                                 "rawText": "console",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -228,7 +228,7 @@ const C = class {
                                                                                 "kind": 196711,
                                                                                 "text": "log",
                                                                                 "rawText": "log",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -236,7 +236,7 @@ const C = class {
                                                                                 "start": 72,
                                                                                 "end": 75
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -252,7 +252,7 @@ const C = class {
                                                                                     "kind": 67279,
                                                                                     "text": "should log this then throw",
                                                                                     "rawText": "should log this then throw",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -263,14 +263,14 @@ const C = class {
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "transformFlags": 0,
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "parent": null,
                                                                             "emitNode": null,
                                                                             "start": 104,
                                                                             "end": 105
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -278,7 +278,7 @@ const C = class {
                                                                         "start": 75,
                                                                         "end": 105
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -296,7 +296,7 @@ const C = class {
                                                             }
                                                         ],
                                                         "multiline": true,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -304,7 +304,7 @@ const C = class {
                                                         "start": 43,
                                                         "end": 106
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -316,7 +316,7 @@ const C = class {
                                                 "type": null,
                                                 "accessModifier": null,
                                                 "typeParameters": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -324,7 +324,7 @@ const C = class {
                                                 "start": 39,
                                                 "end": 112
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -333,7 +333,7 @@ const C = class {
                                             "end": 112
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -342,7 +342,7 @@ const C = class {
                                     "end": 114
                                 },
                                 "decorators": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -350,7 +350,7 @@ const C = class {
                                 "start": 9,
                                 "end": 114
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -359,7 +359,7 @@ const C = class {
                             "end": 114
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -367,7 +367,7 @@ const C = class {
                     "start": 5,
                     "end": 114
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -377,7 +377,7 @@ const C = class {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -402,13 +402,20 @@ const C = class {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const C = class {
+    #bar() { }
+    foo() {
+        this.#bar = console.log("should log this then throw")
+    }
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

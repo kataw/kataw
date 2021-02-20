@@ -16,11 +16,11 @@ var v = () => {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = () => {\n     yield foo\n  }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -33,7 +33,7 @@ var v = () => {
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -71,7 +71,7 @@ var v = () => {
                                                     "kind": 196712,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -93,7 +93,7 @@ var v = () => {
                                                     "kind": 196712,
                                                     "text": "foo",
                                                     "rawText": "foo",
-                                                    "flags": 2,
+                                                    "flags": 65538,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -111,7 +111,7 @@ var v = () => {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -119,7 +119,7 @@ var v = () => {
                                         "start": 15,
                                         "end": 30
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -127,7 +127,7 @@ var v = () => {
                                     "start": 13,
                                     "end": 34
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -140,11 +140,11 @@ var v = () => {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 34
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -152,7 +152,7 @@ var v = () => {
                     "start": 3,
                     "end": 34
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -162,7 +162,7 @@ var v = () => {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -195,13 +195,18 @@ var v = () => {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = () =>  {
+    yield
+    foo
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

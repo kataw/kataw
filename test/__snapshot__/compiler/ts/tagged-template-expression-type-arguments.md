@@ -15,11 +15,11 @@ foo<bar>`baz`;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "foo<bar>`baz`;\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -31,7 +31,7 @@ foo<bar>`baz`;
                             "kind": 196712,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -44,7 +44,7 @@ foo<bar>`baz`;
                             "kind": 196712,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -52,7 +52,7 @@ foo<bar>`baz`;
                             "start": 4,
                             "end": 7
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -65,7 +65,7 @@ foo<bar>`baz`;
                         "kind": 4260568,
                         "rawText": "baz",
                         "text": "baz",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
                         "parent": null,
@@ -73,7 +73,7 @@ foo<bar>`baz`;
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -91,7 +91,7 @@ foo<bar>`baz`;
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -116,13 +116,15 @@ foo<bar>`baz`;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+foo < bar > baz
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

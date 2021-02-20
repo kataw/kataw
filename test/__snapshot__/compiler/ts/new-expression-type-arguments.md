@@ -14,11 +14,11 @@ const a = new A<B>();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const a = new A<B>();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -32,7 +32,7 @@ const a = new A<B>();
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -50,7 +50,7 @@ const a = new A<B>();
                                         "kind": 196712,
                                         "text": "A",
                                         "rawText": "A",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -67,7 +67,7 @@ const a = new A<B>();
                                                     "kind": 196711,
                                                     "text": "B",
                                                     "rawText": "B",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -76,7 +76,7 @@ const a = new A<B>();
                                                     "end": 17
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -85,7 +85,7 @@ const a = new A<B>();
                                                 "end": 18
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -98,14 +98,14 @@ const a = new A<B>();
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 19,
                                         "end": 19
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -120,10 +120,10 @@ const a = new A<B>();
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 20
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -132,7 +132,7 @@ const a = new A<B>();
                             "end": 20
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -140,7 +140,7 @@ const a = new A<B>();
                     "start": 5,
                     "end": 20
                 },
-                "flags": 16,
+                "flags": 65552,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -150,7 +150,7 @@ const a = new A<B>();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -175,13 +175,15 @@ const a = new A<B>();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const a = new A<B>();
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

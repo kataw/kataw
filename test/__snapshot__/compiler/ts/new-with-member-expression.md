@@ -14,11 +14,11 @@ new foo.bar();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "new foo.bar();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,7 +30,7 @@ new foo.bar();
                             "kind": 196712,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -42,7 +42,7 @@ new foo.bar();
                             "kind": 196711,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -50,7 +50,7 @@ new foo.bar();
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -64,7 +64,7 @@ new foo.bar();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
@@ -76,7 +76,7 @@ new foo.bar();
                     "transformFlags": 32,
                     "parent": null,
                     "emitNode": null,
-                    "start": 0,
+                    "start": 65536,
                     "end": 13
                 },
                 "flags": 0,
@@ -89,7 +89,7 @@ new foo.bar();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -114,13 +114,15 @@ new foo.bar();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+new foo.bar()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

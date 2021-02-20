@@ -17,11 +17,11 @@ var sig: typeof contextual = toInstantiate;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare function toInstantiate<A, B>(a?: A, b?: B): B;\ndeclare function contextual(...s: string[]): string\n\nvar sig: typeof contextual = toInstantiate;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -29,7 +29,7 @@ var sig: typeof contextual = toInstantiate;
                     "kind": 131102,
                     "text": "toInstantiate",
                     "rawText": "toInstantiate",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -47,7 +47,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -62,7 +62,7 @@ var sig: typeof contextual = toInstantiate;
                                     "kind": 196711,
                                     "text": "A",
                                     "rawText": "A",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -71,7 +71,7 @@ var sig: typeof contextual = toInstantiate;
                                     "end": 42
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -83,7 +83,7 @@ var sig: typeof contextual = toInstantiate;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -98,7 +98,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -113,7 +113,7 @@ var sig: typeof contextual = toInstantiate;
                                     "kind": 196711,
                                     "text": "B",
                                     "rawText": "B",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -122,7 +122,7 @@ var sig: typeof contextual = toInstantiate;
                                     "end": 49
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -134,7 +134,7 @@ var sig: typeof contextual = toInstantiate;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -144,7 +144,7 @@ var sig: typeof contextual = toInstantiate;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -158,7 +158,7 @@ var sig: typeof contextual = toInstantiate;
                         "kind": 196711,
                         "text": "B",
                         "rawText": "B",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -167,7 +167,7 @@ var sig: typeof contextual = toInstantiate;
                         "end": 53
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -185,7 +185,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 196711,
                                 "text": "A",
                                 "rawText": "A",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -196,7 +196,7 @@ var sig: typeof contextual = toInstantiate;
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -210,7 +210,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 196711,
                                 "text": "B",
                                 "rawText": "B",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -221,7 +221,7 @@ var sig: typeof contextual = toInstantiate;
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -230,7 +230,7 @@ var sig: typeof contextual = toInstantiate;
                             "end": 35
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -238,7 +238,7 @@ var sig: typeof contextual = toInstantiate;
                     "start": 31,
                     "end": 35
                 },
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -252,7 +252,7 @@ var sig: typeof contextual = toInstantiate;
                     "kind": 131102,
                     "text": "contextual",
                     "rawText": "contextual",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -270,7 +270,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -291,7 +291,7 @@ var sig: typeof contextual = toInstantiate;
                                     "start": 88,
                                     "end": 95
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -303,7 +303,7 @@ var sig: typeof contextual = toInstantiate;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -313,7 +313,7 @@ var sig: typeof contextual = toInstantiate;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -333,7 +333,7 @@ var sig: typeof contextual = toInstantiate;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -352,7 +352,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 131102,
                                 "text": "sig",
                                 "rawText": "sig",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -367,7 +367,7 @@ var sig: typeof contextual = toInstantiate;
                                     "kind": 196711,
                                     "text": "contextual",
                                     "rawText": "contextual",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -375,7 +375,7 @@ var sig: typeof contextual = toInstantiate;
                                     "start": 123,
                                     "end": 134
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -387,7 +387,7 @@ var sig: typeof contextual = toInstantiate;
                                 "kind": 196712,
                                 "text": "toInstantiate",
                                 "rawText": "toInstantiate",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -400,11 +400,11 @@ var sig: typeof contextual = toInstantiate;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 150
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -412,7 +412,7 @@ var sig: typeof contextual = toInstantiate;
                     "start": 111,
                     "end": 150
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -422,7 +422,7 @@ var sig: typeof contextual = toInstantiate;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -447,13 +447,19 @@ var sig: typeof contextual = toInstantiate;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare function toInstantiate<A, B>(a?: A, b?: B): B;
+
+declare function contextual(...s: string[]): string;
+
+var sig: typeof contextual = toInstantiate;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

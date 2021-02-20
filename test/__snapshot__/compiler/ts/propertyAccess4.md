@@ -14,11 +14,11 @@ null.toBAZ();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "null.toBAZ();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -29,7 +29,7 @@ null.toBAZ();
                         "member": {
                             "kind": 4260512,
                             "text": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -41,7 +41,7 @@ null.toBAZ();
                             "kind": 196711,
                             "text": "toBAZ",
                             "rawText": "toBAZ",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -49,7 +49,7 @@ null.toBAZ();
                             "start": 5,
                             "end": 10
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -63,14 +63,14 @@ null.toBAZ();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -88,7 +88,7 @@ null.toBAZ();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -113,13 +113,15 @@ null.toBAZ();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+null.toBAZ()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

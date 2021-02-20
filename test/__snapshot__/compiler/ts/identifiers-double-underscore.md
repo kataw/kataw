@@ -22,11 +22,11 @@ function __Bar() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var __test = 'ff';\n\nclass __Foo {\n\n}\n\nfunction __Bar() {\n\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -39,7 +39,7 @@ function __Bar() {
                                 "kind": 131102,
                                 "text": "__test",
                                 "rawText": "__test",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -53,7 +53,7 @@ function __Bar() {
                                 "kind": 67279,
                                 "text": "ff",
                                 "rawText": "ff",
-                                "flags": 16777216,
+                                "flags": 16842752,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -66,11 +66,11 @@ function __Bar() {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 17
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -78,7 +78,7 @@ function __Bar() {
                     "start": 3,
                     "end": 17
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -92,7 +92,7 @@ function __Bar() {
                     "kind": 131102,
                     "text": "__Foo",
                     "rawText": "__Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -106,7 +106,7 @@ function __Bar() {
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -115,7 +115,7 @@ function __Bar() {
                     "end": 36
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -129,7 +129,7 @@ function __Bar() {
                     "kind": 131102,
                     "text": "__Bar",
                     "rawText": "__Bar",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -141,7 +141,7 @@ function __Bar() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -156,7 +156,7 @@ function __Bar() {
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -164,7 +164,7 @@ function __Bar() {
                         "start": 56,
                         "end": 56
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -173,7 +173,7 @@ function __Bar() {
                     "end": 59
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -183,7 +183,7 @@ function __Bar() {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -208,13 +208,22 @@ function __Bar() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var __test = "ff";
+
+class __Foo {
+
+}
+
+function __Bar() {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

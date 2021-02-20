@@ -16,11 +16,11 @@ const assert3 = (value: unknown): asserts => {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "const assert1 = (value: unknown): asserts value is string => {}\nconst assert2 = (value: unknown): asserts value => {}\nconst assert3 = (value: unknown): asserts => {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -34,7 +34,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "kind": 131102,
                                 "text": "assert1",
                                 "rawText": "assert1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -60,7 +60,7 @@ const assert3 = (value: unknown): asserts => {}
                                                     "kind": 196712,
                                                     "text": "value",
                                                     "rawText": "value",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -83,7 +83,7 @@ const assert3 = (value: unknown): asserts => {}
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -113,7 +113,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "kind": 196712,
                                             "text": "value",
                                             "rawText": "value",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -131,7 +131,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "start": 50,
                                             "end": 57
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -155,7 +155,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -163,7 +163,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "start": 62,
                                         "end": 62
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -171,7 +171,7 @@ const assert3 = (value: unknown): asserts => {}
                                     "start": 60,
                                     "end": 63
                                 },
-                                "flags": 536887296,
+                                "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -179,7 +179,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 15,
                                 "end": 63
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -188,7 +188,7 @@ const assert3 = (value: unknown): asserts => {}
                             "end": 63
                         }
                     ],
-                    "flags": 16400,
+                    "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -196,7 +196,7 @@ const assert3 = (value: unknown): asserts => {}
                     "start": 5,
                     "end": 63
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -216,7 +216,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "kind": 131102,
                                 "text": "assert2",
                                 "rawText": "assert2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -242,7 +242,7 @@ const assert3 = (value: unknown): asserts => {}
                                                     "kind": 196712,
                                                     "text": "value",
                                                     "rawText": "value",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -265,7 +265,7 @@ const assert3 = (value: unknown): asserts => {}
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -295,7 +295,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "kind": 196712,
                                             "text": "value",
                                             "rawText": "value",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -304,7 +304,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "end": 111
                                         },
                                         "type": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -328,7 +328,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -336,7 +336,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "start": 116,
                                         "end": 116
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -344,7 +344,7 @@ const assert3 = (value: unknown): asserts => {}
                                     "start": 114,
                                     "end": 117
                                 },
-                                "flags": 536887296,
+                                "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -352,7 +352,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 79,
                                 "end": 117
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -361,7 +361,7 @@ const assert3 = (value: unknown): asserts => {}
                             "end": 117
                         }
                     ],
-                    "flags": 16400,
+                    "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -369,7 +369,7 @@ const assert3 = (value: unknown): asserts => {}
                     "start": 69,
                     "end": 117
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -389,7 +389,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "kind": 131102,
                                 "text": "assert3",
                                 "rawText": "assert3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -415,7 +415,7 @@ const assert3 = (value: unknown): asserts => {}
                                                     "kind": 196712,
                                                     "text": "value",
                                                     "rawText": "value",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -438,7 +438,7 @@ const assert3 = (value: unknown): asserts => {}
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -467,7 +467,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "kind": 196711,
                                             "text": "asserts",
                                             "rawText": "asserts",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -476,7 +476,7 @@ const assert3 = (value: unknown): asserts => {}
                                             "end": 159
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -500,7 +500,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -508,7 +508,7 @@ const assert3 = (value: unknown): asserts => {}
                                         "start": 164,
                                         "end": 164
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -516,7 +516,7 @@ const assert3 = (value: unknown): asserts => {}
                                     "start": 162,
                                     "end": 165
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -524,7 +524,7 @@ const assert3 = (value: unknown): asserts => {}
                                 "start": 133,
                                 "end": 165
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -533,7 +533,7 @@ const assert3 = (value: unknown): asserts => {}
                             "end": 165
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -541,7 +541,7 @@ const assert3 = (value: unknown): asserts => {}
                     "start": 123,
                     "end": 165
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -551,7 +551,7 @@ const assert3 = (value: unknown): asserts => {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -576,13 +576,19 @@ const assert3 = (value: unknown): asserts => {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+const assert1 = (value: unknown) =>  { };
+
+const assert2 = (value: unknown) =>  { };
+
+const assert3 = (value: unknown) =>  { };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

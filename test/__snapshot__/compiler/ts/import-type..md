@@ -15,11 +15,11 @@ type B = import("B").X<Y>;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type A = typeof import('A');\ntype B = import(\"B\").X<Y>;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -27,7 +27,7 @@ type B = import("B").X<Y>;
                     "kind": 196712,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -42,7 +42,7 @@ type B = import("B").X<Y>;
                         "kind": 208,
                         "value": "A",
                         "rawValue": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -52,7 +52,7 @@ type B = import("B").X<Y>;
                     },
                     "qualifier": null,
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -61,7 +61,7 @@ type B = import("B").X<Y>;
                     "end": 27
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -75,7 +75,7 @@ type B = import("B").X<Y>;
                     "kind": 196712,
                     "text": "B",
                     "rawText": "B",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -90,7 +90,7 @@ type B = import("B").X<Y>;
                         "kind": 208,
                         "value": "B",
                         "rawValue": "B",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -102,7 +102,7 @@ type B = import("B").X<Y>;
                         "kind": 196711,
                         "text": "X",
                         "rawText": "X",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -119,7 +119,7 @@ type B = import("B").X<Y>;
                                     "kind": 196711,
                                     "text": "Y",
                                     "rawText": "Y",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -128,7 +128,7 @@ type B = import("B").X<Y>;
                                     "end": 53
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -137,7 +137,7 @@ type B = import("B").X<Y>;
                                 "end": 54
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -145,7 +145,7 @@ type B = import("B").X<Y>;
                         "start": 52,
                         "end": 53
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -154,7 +154,7 @@ type B = import("B").X<Y>;
                     "end": 54
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -164,7 +164,7 @@ type B = import("B").X<Y>;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -189,13 +189,17 @@ type B = import("B").X<Y>;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type A = typeof import("A");
+
+type B = import("B").X<Y>;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

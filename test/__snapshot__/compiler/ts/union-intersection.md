@@ -17,11 +17,11 @@ let precedence2: number & string | boolean;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "let union: number | null | undefined;\nlet intersection: number & string;\nlet precedence1: number | string & boolean;\nlet precedence2: number & string | boolean;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -35,7 +35,7 @@ let precedence2: number & string | boolean;
                                 "kind": 131102,
                                 "text": "union",
                                 "rawText": "union",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -78,7 +78,7 @@ let precedence2: number & string | boolean;
                                         "end": 36
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -87,7 +87,7 @@ let precedence2: number & string | boolean;
                                 "end": 36
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -96,7 +96,7 @@ let precedence2: number & string | boolean;
                             "end": 36
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -104,7 +104,7 @@ let precedence2: number & string | boolean;
                     "start": 3,
                     "end": 36
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -124,7 +124,7 @@ let precedence2: number & string | boolean;
                                 "kind": 131102,
                                 "text": "intersection",
                                 "rawText": "intersection",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -157,7 +157,7 @@ let precedence2: number & string | boolean;
                                         "end": 71
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -166,7 +166,7 @@ let precedence2: number & string | boolean;
                                 "end": 71
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -175,7 +175,7 @@ let precedence2: number & string | boolean;
                             "end": 71
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -183,7 +183,7 @@ let precedence2: number & string | boolean;
                     "start": 41,
                     "end": 71
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -203,7 +203,7 @@ let precedence2: number & string | boolean;
                                 "kind": 131102,
                                 "text": "precedence1",
                                 "rawText": "precedence1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -249,7 +249,7 @@ let precedence2: number & string | boolean;
                                                 "end": 115
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -258,7 +258,7 @@ let precedence2: number & string | boolean;
                                         "end": 115
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -267,7 +267,7 @@ let precedence2: number & string | boolean;
                                 "end": 115
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -276,7 +276,7 @@ let precedence2: number & string | boolean;
                             "end": 115
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -284,7 +284,7 @@ let precedence2: number & string | boolean;
                     "start": 76,
                     "end": 115
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -304,7 +304,7 @@ let precedence2: number & string | boolean;
                                 "kind": 131102,
                                 "text": "precedence2",
                                 "rawText": "precedence2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -340,7 +340,7 @@ let precedence2: number & string | boolean;
                                                 "end": 149
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -359,7 +359,7 @@ let precedence2: number & string | boolean;
                                         "end": 159
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -368,7 +368,7 @@ let precedence2: number & string | boolean;
                                 "end": 159
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -377,7 +377,7 @@ let precedence2: number & string | boolean;
                             "end": 159
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -385,7 +385,7 @@ let precedence2: number & string | boolean;
                     "start": 120,
                     "end": 159
                 },
-                "flags": 16400,
+                "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -395,7 +395,7 @@ let precedence2: number & string | boolean;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -420,13 +420,21 @@ let precedence2: number & string | boolean;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+let union: number | null | undefined;
+
+let intersection: number & string;
+
+let precedence1: number | string & boolean;
+
+let precedence2: number & string | boolean;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

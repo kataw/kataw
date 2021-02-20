@@ -19,11 +19,11 @@ interface Newline {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Comma { x: number, y: number }\ninterface Semi { x: number; y: number }\ninterface Newline {\n    x: number\n    y: number\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -31,7 +31,7 @@ interface Newline {
                     "kind": 196712,
                     "text": "Comma",
                     "rawText": "Comma",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -50,7 +50,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -73,7 +73,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -87,7 +87,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -110,7 +110,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -119,7 +119,7 @@ interface Newline {
                             "end": 38
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -127,7 +127,7 @@ interface Newline {
                     "start": 17,
                     "end": 38
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -141,7 +141,7 @@ interface Newline {
                     "kind": 196712,
                     "text": "Semi",
                     "rawText": "Semi",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -160,7 +160,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -183,7 +183,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -197,7 +197,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -220,7 +220,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -229,7 +229,7 @@ interface Newline {
                             "end": 78
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -237,7 +237,7 @@ interface Newline {
                     "start": 57,
                     "end": 78
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -251,7 +251,7 @@ interface Newline {
                     "kind": 196712,
                     "text": "Newline",
                     "rawText": "Newline",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -270,7 +270,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -293,7 +293,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -307,7 +307,7 @@ interface Newline {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -330,7 +330,7 @@ interface Newline {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -339,7 +339,7 @@ interface Newline {
                             "end": 128
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -347,7 +347,7 @@ interface Newline {
                     "start": 100,
                     "end": 128
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -357,7 +357,7 @@ interface Newline {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -382,13 +382,28 @@ interface Newline {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Comma {
+    x: number;
+    y: number;
+}
+
+interface Semi {
+    x: number;
+    y: number;
+}
+
+interface Newline {
+    x: number;
+    y: number;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

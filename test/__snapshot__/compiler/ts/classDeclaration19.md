@@ -17,11 +17,11 @@ class List<U> implements IList<U> {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class List<U> implements IList<U> {\n  data(): U;\n  next(): string;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -29,7 +29,7 @@ class List<U> implements IList<U> {
                     "kind": 131102,
                     "text": "List",
                     "rawText": "List",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ class List<U> implements IList<U> {
                                 "kind": 196711,
                                 "text": "U",
                                 "rawText": "U",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -57,7 +57,7 @@ class List<U> implements IList<U> {
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -66,7 +66,7 @@ class List<U> implements IList<U> {
                             "end": 12
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -86,7 +86,7 @@ class List<U> implements IList<U> {
                                     "kind": 196711,
                                     "text": "IList",
                                     "rawText": "IList",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -103,7 +103,7 @@ class List<U> implements IList<U> {
                                                 "kind": 196711,
                                                 "text": "U",
                                                 "rawText": "U",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -112,7 +112,7 @@ class List<U> implements IList<U> {
                                                 "end": 32
                                             },
                                             "typeArguments": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -121,7 +121,7 @@ class List<U> implements IList<U> {
                                             "end": 33
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -129,7 +129,7 @@ class List<U> implements IList<U> {
                                     "start": 31,
                                     "end": 32
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -137,7 +137,7 @@ class List<U> implements IList<U> {
                                 "start": 24,
                                 "end": 35
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -146,7 +146,7 @@ class List<U> implements IList<U> {
                             "end": 33
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -169,7 +169,7 @@ class List<U> implements IList<U> {
                                     "kind": 196711,
                                     "text": "data",
                                     "rawText": "data",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -181,7 +181,7 @@ class List<U> implements IList<U> {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -199,7 +199,7 @@ class List<U> implements IList<U> {
                                         "kind": 196711,
                                         "text": "U",
                                         "rawText": "U",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -208,7 +208,7 @@ class List<U> implements IList<U> {
                                         "end": 47
                                     },
                                     "typeArguments": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -218,7 +218,7 @@ class List<U> implements IList<U> {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -226,7 +226,7 @@ class List<U> implements IList<U> {
                                 "start": 42,
                                 "end": 48
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -246,7 +246,7 @@ class List<U> implements IList<U> {
                                     "kind": 196711,
                                     "text": "next",
                                     "rawText": "next",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -258,7 +258,7 @@ class List<U> implements IList<U> {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -282,7 +282,7 @@ class List<U> implements IList<U> {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -290,7 +290,7 @@ class List<U> implements IList<U> {
                                 "start": 55,
                                 "end": 66
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -299,7 +299,7 @@ class List<U> implements IList<U> {
                             "end": 66
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -308,7 +308,7 @@ class List<U> implements IList<U> {
                     "end": 68
                 },
                 "decorators": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -318,7 +318,7 @@ class List<U> implements IList<U> {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -343,13 +343,18 @@ class List<U> implements IList<U> {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class List<U> implements IList<U> {
+    data(): U;
+    next(): string;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

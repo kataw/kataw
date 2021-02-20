@@ -22,11 +22,11 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function a(...[a = 1, b = true]: string[]) { }\n\nfunction b(...[...foo = []]: string[]) { }\n\nfunction c(...{0: a, length, 3: d}: [boolean, string, number]) { }\n\nfunction d(...[a, , , d]: [boolean, string, number]) { }\n\nfunction e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number]) { }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -34,7 +34,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "kind": 131102,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -60,7 +60,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -72,7 +72,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -80,7 +80,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 18,
                                                 "end": 20
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -95,7 +95,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -106,7 +106,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                             "right": {
                                                 "kind": 4260391,
                                                 "text": true,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -114,7 +114,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 25,
                                                 "end": 30
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -124,7 +124,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -132,7 +132,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "start": 15,
                                     "end": 30
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -153,7 +153,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "start": 32,
                                     "end": 39
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -165,7 +165,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -175,7 +175,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -190,7 +190,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -198,7 +198,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "start": 44,
                         "end": 44
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -207,7 +207,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "end": 46
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -221,7 +221,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "kind": 131102,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -247,7 +247,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -262,7 +262,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -270,7 +270,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "start": 73,
                                                     "end": 73
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -278,7 +278,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 71,
                                                 "end": 74
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 4097,
                                             "parent": null,
@@ -288,7 +288,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -296,7 +296,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "start": 63,
                                     "end": 74
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -317,7 +317,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "start": 76,
                                     "end": 83
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -329,7 +329,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -339,7 +339,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -354,7 +354,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -362,7 +362,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "start": 88,
                         "end": 88
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -371,7 +371,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "end": 90
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -385,7 +385,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "kind": 131102,
                     "text": "c",
                     "rawText": "c",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -411,7 +411,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4261540,
                                                 "text": 0,
                                                 "rawText": "0",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -426,7 +426,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 131102,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -435,7 +435,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "end": 111
                                                 },
                                                 "right": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -443,7 +443,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 109,
                                                 "end": 111
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -458,7 +458,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "length",
                                                 "rawText": "length",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -467,7 +467,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "end": 119
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -482,7 +482,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -497,7 +497,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 131102,
                                                     "text": "d",
                                                     "rawText": "d",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -506,7 +506,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "end": 125
                                                 },
                                                 "right": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -514,7 +514,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 123,
                                                 "end": 125
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -526,14 +526,14 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 107,
                                     "end": 125
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -576,7 +576,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         "end": 152
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -588,7 +588,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -598,7 +598,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -613,7 +613,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -621,7 +621,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "start": 156,
                         "end": 156
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -630,7 +630,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "end": 158
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -644,7 +644,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "kind": 131102,
                     "text": "d",
                     "rawText": "d",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -670,7 +670,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -679,7 +679,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "end": 176
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -714,7 +714,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 131102,
                                                 "text": "d",
                                                 "rawText": "d",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -723,7 +723,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "end": 183
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -733,7 +733,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -741,7 +741,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "start": 175,
                                     "end": 183
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -784,7 +784,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         "end": 210
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -796,7 +796,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -806,7 +806,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -821,7 +821,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -829,7 +829,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "start": 214,
                         "end": 214
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -838,7 +838,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "end": 216
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -852,7 +852,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "kind": 131102,
                     "text": "e",
                     "rawText": "e",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -878,7 +878,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4261540,
                                                 "text": 0,
                                                 "rawText": "0",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -893,7 +893,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 131102,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -905,7 +905,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -913,7 +913,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "start": 239,
                                                     "end": 241
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -921,7 +921,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 235,
                                                 "end": 241
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -936,7 +936,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 4261540,
                                                 "text": 1,
                                                 "rawText": "1",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -951,7 +951,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 131102,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -962,7 +962,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "right": {
                                                     "kind": 4260391,
                                                     "text": true,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -970,7 +970,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "start": 249,
                                                     "end": 254
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -978,7 +978,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 245,
                                                 "end": 254
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -993,7 +993,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "kind": 196711,
                                                 "text": "rest",
                                                 "rawText": "rest",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1008,7 +1008,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "kind": 131102,
                                                     "text": "rest",
                                                     "rawText": "rest",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
                                                     "parent": null,
@@ -1017,7 +1017,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                     "end": 269
                                                 },
                                                 "right": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
                                                 "parent": null,
@@ -1025,7 +1025,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                                 "start": 264,
                                                 "end": 269
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -1037,14 +1037,14 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 233,
                                     "end": 269
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1087,7 +1087,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                                         "end": 296
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1099,7 +1099,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
                             "parent": null,
@@ -1109,7 +1109,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1124,7 +1124,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1132,7 +1132,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                         "start": 300,
                         "end": 300
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1141,7 +1141,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
                     "end": 302
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -1151,7 +1151,7 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -1176,13 +1176,23 @@ function e(...{0: a = 1, 1: b = true, ...rest: rest}: [boolean, string, number])
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function a(...[a = 1, b = true]: string[]) { }
+
+function b(...[...foo = []]: string[]) { }
+
+function c(...{ 0: a, length, 3: d }: [boolean, string, number]) { }
+
+function d(...[a, , , d]: [boolean, string, number]) { }
+
+function e(...{ 0: a = 1, 1: b = true, rest: rest }: [boolean, string, number]) { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

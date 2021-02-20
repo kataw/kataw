@@ -14,11 +14,11 @@ type X = A<import("").B<any>>;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type X = A<import(\"\").B<any>>;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -26,7 +26,7 @@ type X = A<import("").B<any>>;
                     "kind": 196712,
                     "text": "X",
                     "rawText": "X",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -40,7 +40,7 @@ type X = A<import("").B<any>>;
                         "kind": 196711,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -58,7 +58,7 @@ type X = A<import("").B<any>>;
                                     "kind": 208,
                                     "value": "",
                                     "rawValue": "",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -70,7 +70,7 @@ type X = A<import("").B<any>>;
                                     "kind": 196711,
                                     "text": "B",
                                     "rawText": "B",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -92,7 +92,7 @@ type X = A<import("").B<any>>;
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -100,7 +100,7 @@ type X = A<import("").B<any>>;
                                     "start": 24,
                                     "end": 27
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -109,7 +109,7 @@ type X = A<import("").B<any>>;
                                 "end": 28
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -117,7 +117,7 @@ type X = A<import("").B<any>>;
                         "start": 11,
                         "end": 28
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -126,7 +126,7 @@ type X = A<import("").B<any>>;
                     "end": 30
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -136,7 +136,7 @@ type X = A<import("").B<any>>;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -161,13 +161,15 @@ type X = A<import("").B<any>>;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type X = A<import("").B<any>>;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

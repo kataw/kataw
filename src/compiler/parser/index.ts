@@ -4669,7 +4669,7 @@ function parseExportDefault(
     case Token.AbstractKeyword:
       const node = parseStatementListItem(parser, context) as any;
       if (!node.expression) {
-        node.flags |= NodeFlags.Exported;
+        node.flags |= NodeFlags.ExportDefault;
         return node;
       }
       declaration = node.expression;
@@ -4829,7 +4829,8 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   let isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
-  isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  if (!isAbstract)
+    isAbstract = parser.token === Token.AbstractKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // If we have "{ private readonly * foo" etc. this must be a class method.
   if (consumeOpt(parser, context, Token.Multiply)) kind |= PropertyKind.Generator;

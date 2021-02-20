@@ -14,11 +14,11 @@ example.inner?.greet<string>()
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "example.inner?.greet<string>()",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -32,7 +32,7 @@ example.inner?.greet<string>()
                                 "kind": 196712,
                                 "text": "example",
                                 "rawText": "example",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -44,7 +44,7 @@ example.inner?.greet<string>()
                                 "kind": 196711,
                                 "text": "inner",
                                 "rawText": "inner",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -52,7 +52,7 @@ example.inner?.greet<string>()
                                 "start": 8,
                                 "end": 13
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -69,7 +69,7 @@ example.inner?.greet<string>()
                                     "kind": 196711,
                                     "text": "greet",
                                     "rawText": "greet",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -77,7 +77,7 @@ example.inner?.greet<string>()
                                     "start": 15,
                                     "end": 20
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 32,
                                 "parent": null,
@@ -107,7 +107,7 @@ example.inner?.greet<string>()
                                 "end": 27
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -120,14 +120,14 @@ example.inner?.greet<string>()
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 29,
                         "end": 29
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -145,7 +145,7 @@ example.inner?.greet<string>()
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -170,13 +170,15 @@ example.inner?.greet<string>()
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+example.inner?.greet<string>()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

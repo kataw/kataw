@@ -16,11 +16,11 @@ abstract class A {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "abstract class A {\n  abstract #a;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -28,7 +28,7 @@ abstract class A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -48,7 +48,7 @@ abstract class A {
                                 "kind": 196711,
                                 "text": "#a",
                                 "rawText": "#a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -64,7 +64,7 @@ abstract class A {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -73,7 +73,7 @@ abstract class A {
                             "end": 33
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -82,7 +82,7 @@ abstract class A {
                     "end": 35
                 },
                 "decorators": null,
-                "flags": 268435456,
+                "flags": 268500992,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "parent": null,
@@ -92,7 +92,7 @@ abstract class A {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -117,13 +117,17 @@ abstract class A {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+abstract class A {
+    abstract #a;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

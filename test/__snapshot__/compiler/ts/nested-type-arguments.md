@@ -14,11 +14,11 @@ var nestedArray: Array<Array<Array<string>>>
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var nestedArray: Array<Array<Array<string>>>",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,7 +31,7 @@ var nestedArray: Array<Array<Array<string>>>
                                 "kind": 131102,
                                 "text": "nestedArray",
                                 "rawText": "nestedArray",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -46,7 +46,7 @@ var nestedArray: Array<Array<Array<string>>>
                                     "kind": 196711,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -63,7 +63,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                 "kind": 196711,
                                                 "text": "Array",
                                                 "rawText": "Array",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -80,7 +80,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                             "kind": 196711,
                                                             "text": "Array",
                                                             "rawText": "Array",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -102,7 +102,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                                     "end": 41
                                                                 }
                                                             ],
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
                                                             "parent": null,
@@ -110,7 +110,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                             "start": 35,
                                                             "end": 41
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
                                                         "parent": null,
@@ -119,7 +119,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                         "end": 43
                                                     }
                                                 ],
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -127,7 +127,7 @@ var nestedArray: Array<Array<Array<string>>>
                                                 "start": 29,
                                                 "end": 42
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -136,7 +136,7 @@ var nestedArray: Array<Array<Array<string>>>
                                             "end": 44
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -144,7 +144,7 @@ var nestedArray: Array<Array<Array<string>>>
                                     "start": 23,
                                     "end": 43
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -158,11 +158,11 @@ var nestedArray: Array<Array<Array<string>>>
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 44
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -170,7 +170,7 @@ var nestedArray: Array<Array<Array<string>>>
                     "start": 3,
                     "end": 44
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -180,7 +180,7 @@ var nestedArray: Array<Array<Array<string>>>
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -205,13 +205,15 @@ var nestedArray: Array<Array<Array<string>>>
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var nestedArray: Array<Array<Array<string>>>;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

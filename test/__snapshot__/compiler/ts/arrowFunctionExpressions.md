@@ -35,11 +35,11 @@ var p10 = ([{ value, done }]) => { };
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var a = (p: string) => p.length;\nvar a = (p: string) => { return p.length; }\n\nvar b = j => { return 0; }\nvar b = (j) => { return 0; }\n\nvar c: number;\nvar d = n => c = n;\nvar d = (n) => c = n;\nvar d: (n: any) => any;\n\nvar p1 = ([a]) => { };\nvar p2 = ([...a]) => { };\nvar p3 = ([, a]) => { };\nvar p4 = ([, ...a]) => { };\nvar p5 = ([a = 1]) => { };\nvar p6 = ({ a }) => { };\nvar p7 = ({ a: { b } }) => { };\nvar p8 = ({ a = 1 }) => { };\nvar p9 = ({ a: { b = 1 } = { b: 1 } }) => { };\nvar p10 = ([{ value, done }]) => { };\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -52,7 +52,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -69,7 +69,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -85,7 +85,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 196712,
                                                 "text": "p",
                                                 "rawText": "p",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -108,7 +108,7 @@ var p10 = ([{ value, done }]) => { };
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -134,7 +134,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196712,
                                         "text": "p",
                                         "rawText": "p",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -146,7 +146,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196711,
                                         "text": "length",
                                         "rawText": "length",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -154,7 +154,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 25,
                                         "end": 31
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -162,7 +162,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 24,
                                     "end": 31
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -175,11 +175,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 31
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -187,7 +187,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 3,
                     "end": 31
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -206,7 +206,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -223,7 +223,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -239,7 +239,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 196712,
                                                 "text": "p",
                                                 "rawText": "p",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -262,7 +262,7 @@ var p10 = ([{ value, done }]) => { };
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -295,7 +295,7 @@ var p10 = ([{ value, done }]) => { };
                                                         "kind": 196712,
                                                         "text": "p",
                                                         "rawText": "p",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -307,7 +307,7 @@ var p10 = ([{ value, done }]) => { };
                                                         "kind": 196711,
                                                         "text": "length",
                                                         "rawText": "length",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -315,7 +315,7 @@ var p10 = ([{ value, done }]) => { };
                                                         "start": 67,
                                                         "end": 73
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -323,7 +323,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 66,
                                                     "end": 73
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -333,7 +333,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -341,7 +341,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 57,
                                         "end": 74
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -349,7 +349,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 55,
                                     "end": 76
                                 },
-                                "flags": 536887296,
+                                "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -362,11 +362,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 76
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -374,7 +374,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 36,
                     "end": 76
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -393,7 +393,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -416,7 +416,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 4325406,
                                                 "text": "j",
                                                 "rawText": "j",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -442,7 +442,7 @@ var p10 = ([{ value, done }]) => { };
                                     "type": null,
                                     "accessModifier": null,
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -461,7 +461,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "kind": 4261540,
                                                     "text": 0,
                                                     "rawText": "0",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -469,7 +469,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 99,
                                                     "end": 101
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -479,7 +479,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -487,7 +487,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 92,
                                         "end": 102
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -495,7 +495,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 90,
                                     "end": 104
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -508,11 +508,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 104
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -520,7 +520,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 81,
                     "end": 104
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -539,7 +539,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -556,7 +556,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -572,7 +572,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 4325406,
                                                 "text": "j",
                                                 "rawText": "j",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -617,7 +617,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "kind": 4261540,
                                                     "text": 0,
                                                     "rawText": "0",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -625,7 +625,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 128,
                                                     "end": 130
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -635,7 +635,7 @@ var p10 = ([{ value, done }]) => { };
                                             }
                                         ],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -643,7 +643,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 121,
                                         "end": 131
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -651,7 +651,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 119,
                                     "end": 133
                                 },
-                                "flags": 536887296,
+                                "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -664,11 +664,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 16384,
+                            "start": 81920,
                             "end": 133
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -676,7 +676,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 108,
                     "end": 133
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -695,7 +695,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -720,11 +720,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 148
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -732,7 +732,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 138,
                     "end": 148
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -751,7 +751,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -774,7 +774,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 4325406,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -800,7 +800,7 @@ var p10 = ([{ value, done }]) => { };
                                     "type": null,
                                     "accessModifier": null,
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -814,7 +814,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196712,
                                         "text": "c",
                                         "rawText": "c",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -827,7 +827,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196712,
                                         "text": "n",
                                         "rawText": "n",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -835,7 +835,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 166,
                                         "end": 168
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -843,7 +843,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 162,
                                     "end": 168
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -856,11 +856,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 168
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -868,7 +868,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 153,
                     "end": 168
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -887,7 +887,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -904,7 +904,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -920,7 +920,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 4325406,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -960,7 +960,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196712,
                                         "text": "c",
                                         "rawText": "c",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -973,7 +973,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 196712,
                                         "text": "n",
                                         "rawText": "n",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -981,7 +981,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 188,
                                         "end": 190
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -989,7 +989,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 184,
                                     "end": 190
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1002,11 +1002,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 190
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1014,7 +1014,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 173,
                     "end": 190
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1033,7 +1033,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1055,7 +1055,7 @@ var p10 = ([{ value, done }]) => { };
                                                 "kind": 131102,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1077,7 +1077,7 @@ var p10 = ([{ value, done }]) => { };
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1087,7 +1087,7 @@ var p10 = ([{ value, done }]) => { };
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1105,7 +1105,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 210,
                                     "end": 214
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1119,11 +1119,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 214
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1131,7 +1131,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 195,
                     "end": 214
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1150,7 +1150,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p1",
                                 "rawText": "p1",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1167,7 +1167,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1188,7 +1188,7 @@ var p10 = ([{ value, done }]) => { };
                                                             "kind": 4325406,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1199,7 +1199,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1207,7 +1207,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 228,
                                                     "end": 229
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1247,7 +1247,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1255,7 +1255,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 236,
                                         "end": 236
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1263,7 +1263,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 234,
                                     "end": 238
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1276,11 +1276,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 238
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1288,7 +1288,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 220,
                     "end": 238
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1307,7 +1307,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p2",
                                 "rawText": "p2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1324,7 +1324,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1343,7 +1343,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "elements": [
                                                         {
                                                             "kind": 134217756,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2,
                                                             "parent": null,
@@ -1355,7 +1355,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 196712,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1368,7 +1368,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1376,7 +1376,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 251,
                                                     "end": 255
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1416,7 +1416,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1424,7 +1424,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 262,
                                         "end": 262
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1432,7 +1432,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 260,
                                     "end": 264
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1445,11 +1445,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 264
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1457,7 +1457,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 243,
                     "end": 264
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1476,7 +1476,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p3",
                                 "rawText": "p3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1493,7 +1493,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1524,7 +1524,7 @@ var p10 = ([{ value, done }]) => { };
                                                             "kind": 4325406,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1535,7 +1535,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1543,7 +1543,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 277,
                                                     "end": 280
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1583,7 +1583,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1591,7 +1591,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 287,
                                         "end": 287
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1599,7 +1599,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 285,
                                     "end": 289
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1612,11 +1612,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 289
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1624,7 +1624,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 269,
                     "end": 289
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1643,7 +1643,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p4",
                                 "rawText": "p4",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1660,7 +1660,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1689,7 +1689,7 @@ var p10 = ([{ value, done }]) => { };
                                                         },
                                                         {
                                                             "kind": 134217756,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2,
                                                             "parent": null,
@@ -1701,7 +1701,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 196712,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1714,7 +1714,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1722,7 +1722,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 302,
                                                     "end": 308
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1762,7 +1762,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1770,7 +1770,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 315,
                                         "end": 315
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1778,7 +1778,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 313,
                                     "end": 317
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1791,11 +1791,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 317
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1803,7 +1803,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 294,
                     "end": 317
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1822,7 +1822,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p5",
                                 "rawText": "p5",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -1839,7 +1839,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -1862,7 +1862,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4325406,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1874,7 +1874,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1882,7 +1882,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "start": 333,
                                                                 "end": 335
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1893,7 +1893,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1901,7 +1901,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 330,
                                                     "end": 335
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1941,7 +1941,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1949,7 +1949,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 342,
                                         "end": 342
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1957,7 +1957,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 340,
                                     "end": 344
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1970,11 +1970,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 344
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1982,7 +1982,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 322,
                     "end": 344
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2001,7 +2001,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p6",
                                 "rawText": "p6",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2018,7 +2018,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -2039,7 +2039,7 @@ var p10 = ([{ value, done }]) => { };
                                                             "kind": 4325406,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2050,7 +2050,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2058,7 +2058,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 357,
                                                     "end": 359
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2098,7 +2098,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2106,7 +2106,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 367,
                                         "end": 367
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2114,7 +2114,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 365,
                                     "end": 369
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2127,11 +2127,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 369
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2139,7 +2139,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 349,
                     "end": 369
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2158,7 +2158,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p7",
                                 "rawText": "p7",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2175,7 +2175,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -2198,7 +2198,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4325406,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2215,7 +2215,7 @@ var p10 = ([{ value, done }]) => { };
                                                                             "kind": 196712,
                                                                             "text": "b",
                                                                             "rawText": "b",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2226,7 +2226,7 @@ var p10 = ([{ value, done }]) => { };
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "multiline": false,
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2234,7 +2234,7 @@ var p10 = ([{ value, done }]) => { };
                                                                     "start": 387,
                                                                     "end": 389
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2244,7 +2244,7 @@ var p10 = ([{ value, done }]) => { };
                                                             },
                                                             "accessModifier": null,
                                                             "decorators": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2255,7 +2255,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2263,7 +2263,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 382,
                                                     "end": 391
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2303,7 +2303,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2311,7 +2311,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 399,
                                         "end": 399
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2319,7 +2319,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 397,
                                     "end": 401
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2332,11 +2332,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 401
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2344,7 +2344,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 374,
                     "end": 401
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2363,7 +2363,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p8",
                                 "rawText": "p8",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2380,7 +2380,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -2403,7 +2403,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4325406,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2417,7 +2417,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2426,7 +2426,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "end": 420
                                                             },
                                                             "accessModifier": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -2438,7 +2438,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2446,7 +2446,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 414,
                                                     "end": 420
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2486,7 +2486,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2494,7 +2494,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 428,
                                         "end": 428
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2502,7 +2502,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 426,
                                     "end": 430
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2515,11 +2515,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 430
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2527,7 +2527,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 406,
                     "end": 430
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2546,7 +2546,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p9",
                                 "rawText": "p9",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2563,7 +2563,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -2586,7 +2586,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "kind": 4325406,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2607,7 +2607,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                     "kind": 196712,
                                                                                     "text": "b",
                                                                                     "rawText": "b",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2621,7 +2621,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                     "kind": 4261540,
                                                                                     "text": 1,
                                                                                     "rawText": "1",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2630,7 +2630,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                     "end": 454
                                                                                 },
                                                                                 "accessModifier": null,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1,
                                                                                 "parent": null,
@@ -2641,7 +2641,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "multiline": false,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2649,7 +2649,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         "start": 448,
                                                                         "end": 454
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2669,7 +2669,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                     "kind": 196711,
                                                                                     "text": "b",
                                                                                     "rawText": "b",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2681,7 +2681,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                     "kind": 4261540,
                                                                                     "text": 1,
                                                                                     "rawText": "1",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2691,7 +2691,7 @@ var p10 = ([{ value, done }]) => { };
                                                                                 },
                                                                                 "accessModifier": null,
                                                                                 "decorators": null,
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -2702,7 +2702,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "multiline": false,
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2710,7 +2710,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         "start": 460,
                                                                         "end": 465
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2718,7 +2718,7 @@ var p10 = ([{ value, done }]) => { };
                                                                     "start": 458,
                                                                     "end": 467
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2728,7 +2728,7 @@ var p10 = ([{ value, done }]) => { };
                                                             },
                                                             "accessModifier": null,
                                                             "decorators": null,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2739,7 +2739,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2747,7 +2747,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 443,
                                                     "end": 467
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2787,7 +2787,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2795,7 +2795,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 475,
                                         "end": 475
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2803,7 +2803,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 473,
                                     "end": 477
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2816,11 +2816,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 477
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2828,7 +2828,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 435,
                     "end": 477
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2847,7 +2847,7 @@ var p10 = ([{ value, done }]) => { };
                                 "kind": 131102,
                                 "text": "p10",
                                 "rawText": "p10",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -2864,7 +2864,7 @@ var p10 = ([{ value, done }]) => { };
                                     "typeParameters": {
                                         "kind": 233,
                                         "typeParameterList": [],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -2890,7 +2890,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         "kind": 4325406,
                                                                         "text": "value",
                                                                         "rawText": "value",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2902,7 +2902,7 @@ var p10 = ([{ value, done }]) => { };
                                                                         "kind": 4325406,
                                                                         "text": "done",
                                                                         "rawText": "done",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2913,7 +2913,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "multiline": false,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2921,7 +2921,7 @@ var p10 = ([{ value, done }]) => { };
                                                                 "start": 492,
                                                                 "end": 504
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -2932,7 +2932,7 @@ var p10 = ([{ value, done }]) => { };
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2940,7 +2940,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 491,
                                                     "end": 506
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2980,7 +2980,7 @@ var p10 = ([{ value, done }]) => { };
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2988,7 +2988,7 @@ var p10 = ([{ value, done }]) => { };
                                         "start": 513,
                                         "end": 513
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2996,7 +2996,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 511,
                                     "end": 515
                                 },
-                                "flags": 536870912,
+                                "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3009,11 +3009,11 @@ var p10 = ([{ value, done }]) => { };
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 515
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3021,7 +3021,7 @@ var p10 = ([{ value, done }]) => { };
                     "start": 482,
                     "end": 515
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3031,7 +3031,7 @@ var p10 = ([{ value, done }]) => { };
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -3056,13 +3056,49 @@ var p10 = ([{ value, done }]) => { };
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var a = (p: string) => p.length;
+
+var a = (p: string) =>  { return p.length; };
+
+var b = j =>  { return 0; };
+
+var b = (j) =>  { return 0; };
+
+var c: number;
+
+var d = n => c = n;
+
+var d = (n) => c = n;
+
+var d: (n: any) => any;
+
+var p1 = ([a]) =>  { };
+
+var p2 = ([...a]) =>  { };
+
+var p3 = ([, a]) =>  { };
+
+var p4 = ([, ...a]) =>  { };
+
+var p5 = ([a = 1]) =>  { };
+
+var p6 = ({ a }) =>  { };
+
+var p7 = ({ a = { b } }) =>  { };
+
+var p8 = ({ a = 1 }) =>  { };
+
+var p9 = ({ a = { b = 1 } = { b : 1 } }) =>  { };
+
+var p10 = ([{ value, done }]) =>  { };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

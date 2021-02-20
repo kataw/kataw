@@ -152,13 +152,17 @@ export default class<T, U> {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export default class<T, U> {
+
+};
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

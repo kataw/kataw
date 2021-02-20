@@ -15,11 +15,11 @@ T = number
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare type\nT = number",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -27,7 +27,7 @@ T = number
                     "kind": 196712,
                     "text": "type",
                     "rawText": "type",
-                    "flags": 201326592,
+                    "flags": 201392128,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -51,7 +51,7 @@ T = number
                         "kind": 196712,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -64,7 +64,7 @@ T = number
                         "kind": 196712,
                         "text": "number",
                         "rawText": "number",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -72,7 +72,7 @@ T = number
                         "start": 16,
                         "end": 23
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -90,7 +90,7 @@ T = number
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -115,13 +115,17 @@ T = number
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type
+
+T = number
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

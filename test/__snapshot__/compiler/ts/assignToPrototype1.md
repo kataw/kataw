@@ -19,11 +19,11 @@ Point.prototype.add = function(dx, dy) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare class Point {\n  add(dx: number, dy: number): void;\n}\n\nPoint.prototype.add = function(dx, dy) {\n};",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -31,7 +31,7 @@ Point.prototype.add = function(dx, dy) {
                     "kind": 131102,
                     "text": "Point",
                     "rawText": "Point",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -57,7 +57,7 @@ Point.prototype.add = function(dx, dy) {
                                     "kind": 196711,
                                     "text": "add",
                                     "rawText": "add",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -75,7 +75,7 @@ Point.prototype.add = function(dx, dy) {
                                                 "kind": 131102,
                                                 "text": "dx",
                                                 "rawText": "dx",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -98,7 +98,7 @@ Point.prototype.add = function(dx, dy) {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -113,7 +113,7 @@ Point.prototype.add = function(dx, dy) {
                                                 "kind": 131102,
                                                 "text": "dy",
                                                 "rawText": "dy",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -136,7 +136,7 @@ Point.prototype.add = function(dx, dy) {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -146,7 +146,7 @@ Point.prototype.add = function(dx, dy) {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -170,7 +170,7 @@ Point.prototype.add = function(dx, dy) {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -178,7 +178,7 @@ Point.prototype.add = function(dx, dy) {
                                 "start": 27,
                                 "end": 58
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -187,7 +187,7 @@ Point.prototype.add = function(dx, dy) {
                             "end": 58
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -196,7 +196,7 @@ Point.prototype.add = function(dx, dy) {
                     "end": 60
                 },
                 "decorators": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -216,7 +216,7 @@ Point.prototype.add = function(dx, dy) {
                                 "kind": 196712,
                                 "text": "Point",
                                 "rawText": "Point",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -228,7 +228,7 @@ Point.prototype.add = function(dx, dy) {
                                 "kind": 196711,
                                 "text": "prototype",
                                 "rawText": "prototype",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -236,7 +236,7 @@ Point.prototype.add = function(dx, dy) {
                                 "start": 68,
                                 "end": 77
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -248,7 +248,7 @@ Point.prototype.add = function(dx, dy) {
                             "kind": 196711,
                             "text": "add",
                             "rawText": "add",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -256,7 +256,7 @@ Point.prototype.add = function(dx, dy) {
                             "start": 78,
                             "end": 81
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -278,7 +278,7 @@ Point.prototype.add = function(dx, dy) {
                                         "kind": 131102,
                                         "text": "dx",
                                         "rawText": "dx",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -292,7 +292,7 @@ Point.prototype.add = function(dx, dy) {
                                     "decorators": null,
                                     "accessModifier": null,
                                     "isReadOnly": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -307,7 +307,7 @@ Point.prototype.add = function(dx, dy) {
                                         "kind": 131102,
                                         "text": "dy",
                                         "rawText": "dy",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -321,7 +321,7 @@ Point.prototype.add = function(dx, dy) {
                                     "decorators": null,
                                     "accessModifier": null,
                                     "isReadOnly": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
                                     "parent": null,
@@ -331,7 +331,7 @@ Point.prototype.add = function(dx, dy) {
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -345,7 +345,7 @@ Point.prototype.add = function(dx, dy) {
                                 "kind": 94,
                                 "statements": [],
                                 "multiline": true,
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -353,7 +353,7 @@ Point.prototype.add = function(dx, dy) {
                                 "start": 102,
                                 "end": 102
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -363,7 +363,7 @@ Point.prototype.add = function(dx, dy) {
                         },
                         "typeParameters": null,
                         "type": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -371,7 +371,7 @@ Point.prototype.add = function(dx, dy) {
                         "start": 83,
                         "end": 104
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -389,7 +389,7 @@ Point.prototype.add = function(dx, dy) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -414,13 +414,20 @@ Point.prototype.add = function(dx, dy) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare class Point {
+    add(dx: number, dy: number): void;
+}
+
+Point.prototype.add = function (dx, dy) {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

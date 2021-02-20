@@ -14,11 +14,11 @@ class C extends f()<T> {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "class C extends f()<T> {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -26,7 +26,7 @@ class C extends f()<T> {}
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -41,7 +41,7 @@ class C extends f()<T> {}
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -50,7 +50,7 @@ class C extends f()<T> {}
                         "end": 17
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -62,7 +62,7 @@ class C extends f()<T> {}
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -71,7 +71,7 @@ class C extends f()<T> {}
                     "end": 0
                 },
                 "decorators": null,
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -101,7 +101,7 @@ class C extends f()<T> {}
                             "kind": 196712,
                             "text": "T",
                             "rawText": "T",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -109,7 +109,7 @@ class C extends f()<T> {}
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -125,7 +125,7 @@ class C extends f()<T> {}
                             "properties": [],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -133,7 +133,7 @@ class C extends f()<T> {}
                             "start": 24,
                             "end": 24
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -141,7 +141,7 @@ class C extends f()<T> {}
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -159,7 +159,7 @@ class C extends f()<T> {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -184,13 +184,18 @@ class C extends f()<T> {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class C extends f {
+}
+
+undefined < T > { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

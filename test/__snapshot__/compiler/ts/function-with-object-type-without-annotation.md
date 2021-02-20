@@ -16,11 +16,11 @@ function foo({bar, baz}: {bar: string, baz}) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo({bar, baz}: {bar: string, baz}) {\n\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +28,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -54,7 +54,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "kind": 131102,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -63,7 +63,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "end": 17
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -78,7 +78,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "kind": 131102,
                                                 "text": "baz",
                                                 "rawText": "baz",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -87,7 +87,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "end": 22
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -99,14 +99,14 @@ function foo({bar, baz}: {bar: string, baz}) {
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 14,
                                     "end": 22
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -126,7 +126,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "kind": 196711,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -149,7 +149,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -163,7 +163,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                                 "kind": 196711,
                                                 "text": "baz",
                                                 "rawText": "baz",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -177,7 +177,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -186,7 +186,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                             "end": 42
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -194,7 +194,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                                     "start": 26,
                                     "end": 43
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -206,7 +206,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -216,7 +216,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -231,7 +231,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -239,7 +239,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                         "start": 46,
                         "end": 46
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -248,7 +248,7 @@ function foo({bar, baz}: {bar: string, baz}) {
                     "end": 49
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -258,7 +258,7 @@ function foo({bar, baz}: {bar: string, baz}) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -283,13 +283,19 @@ function foo({bar, baz}: {bar: string, baz}) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo({ bar, baz }: {
+        bar: string;
+        baz;
+    }) {
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

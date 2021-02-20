@@ -40,11 +40,11 @@ type T06 = Unpacked<never>;  // never
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type T10 = ReturnType<() => string>;  // string\ntype T11 = ReturnType<(s: string) => void>;  // void\ntype T12 = ReturnType<(<T>() => T)>;  // {}\ntype T13 = ReturnType<(<T extends U, U extends number[]>() => T)>;  // number[]\ntype T14 = ReturnType<typeof f1>;  // { a: number, b: string }\ntype T15 = ReturnType<typeof C>;  // C\ntype T16 = ReturnType<any>;  // any\ntype T17 = ReturnType<never>;  // any\ntype T18 = ReturnType<string>;  // Error\ntype T19 = ReturnType<Function>;  // any\n\ntype T20 = ArgumentType<() => void>;  // never\ntype T21 = ArgumentType<(x: string) => number>;  // string\ntype T22 = ArgumentType<(x?: string) => number>;  // string | undefined\ntype T23 = ArgumentType<(...args: string[]) => number>;  // string\ntype T24 = ArgumentType<(x: string, y: string) => number>;  // Error\ntype T25 = ArgumentType<Function>;  // Error\ntype T26 = ArgumentType<any>;  // any\ntype T27 = ArgumentType<never>;  // any\n\ntype T00 = Unpacked<string>;  // string\ntype T01 = Unpacked<string[]>;  // string\ntype T02 = Unpacked<() => string>;  // string\ntype T03 = Unpacked<Promise<string>>;  // string\ntype T04 = Unpacked<Unpacked<Promise<string>[]>>;  // string\ntype T05 = Unpacked<any>;  // any\ntype T06 = Unpacked<never>;  // never",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -52,7 +52,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T10",
                     "rawText": "T10",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -66,7 +66,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -84,7 +84,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 175,
                                     "parameterList": [],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -102,7 +102,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 27,
                                     "end": 34
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -111,7 +111,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 34
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -119,7 +119,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 22,
                         "end": 34
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -128,7 +128,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 36
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -142,7 +142,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T11",
                     "rawText": "T11",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -156,7 +156,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -180,7 +180,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "s",
                                                 "rawText": "s",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -202,7 +202,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -212,7 +212,7 @@ type T06 = Unpacked<never>;  // never
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -230,7 +230,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 84,
                                     "end": 89
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -239,7 +239,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 89
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -247,7 +247,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 70,
                         "end": 89
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -256,7 +256,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 91
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -270,7 +270,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T12",
                     "rawText": "T12",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -284,7 +284,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -308,7 +308,7 @@ type T06 = Unpacked<never>;  // never
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -319,7 +319,7 @@ type T06 = Unpacked<never>;  // never
                                                 "constraint": null,
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -328,7 +328,7 @@ type T06 = Unpacked<never>;  // never
                                                 "end": 126
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -340,7 +340,7 @@ type T06 = Unpacked<never>;  // never
                                         "kind": 175,
                                         "parameterList": [],
                                         "trailingcomma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -354,7 +354,7 @@ type T06 = Unpacked<never>;  // never
                                             "kind": 196711,
                                             "text": "T",
                                             "rawText": "T",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -363,7 +363,7 @@ type T06 = Unpacked<never>;  // never
                                             "end": 134
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -371,7 +371,7 @@ type T06 = Unpacked<never>;  // never
                                         "start": 132,
                                         "end": 135
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -379,7 +379,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 124,
                                     "end": 134
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -388,7 +388,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 135
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -396,7 +396,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 123,
                         "end": 135
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -405,7 +405,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 137
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -419,7 +419,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T13",
                     "rawText": "T13",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -433,7 +433,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -457,7 +457,7 @@ type T06 = Unpacked<never>;  // never
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -471,7 +471,7 @@ type T06 = Unpacked<never>;  // never
                                                         "kind": 196711,
                                                         "text": "U",
                                                         "rawText": "U",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -480,7 +480,7 @@ type T06 = Unpacked<never>;  // never
                                                         "end": 180
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -490,7 +490,7 @@ type T06 = Unpacked<never>;  // never
                                                 },
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -504,7 +504,7 @@ type T06 = Unpacked<never>;  // never
                                                     "kind": 196711,
                                                     "text": "U",
                                                     "rawText": "U",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -524,7 +524,7 @@ type T06 = Unpacked<never>;  // never
                                                         "start": 191,
                                                         "end": 198
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -534,7 +534,7 @@ type T06 = Unpacked<never>;  // never
                                                 },
                                                 "defaultType": null,
                                                 "expression": null,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -543,7 +543,7 @@ type T06 = Unpacked<never>;  // never
                                                 "end": 200
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -555,7 +555,7 @@ type T06 = Unpacked<never>;  // never
                                         "kind": 175,
                                         "parameterList": [],
                                         "trailingcomma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -569,7 +569,7 @@ type T06 = Unpacked<never>;  // never
                                             "kind": 196711,
                                             "text": "T",
                                             "rawText": "T",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -578,7 +578,7 @@ type T06 = Unpacked<never>;  // never
                                             "end": 208
                                         },
                                         "typeArguments": null,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -586,7 +586,7 @@ type T06 = Unpacked<never>;  // never
                                         "start": 206,
                                         "end": 209
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -594,7 +594,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 168,
                                     "end": 208
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -603,7 +603,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 209
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -611,7 +611,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 167,
                         "end": 209
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -620,7 +620,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 211
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -634,7 +634,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T14",
                     "rawText": "T14",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -648,7 +648,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -665,7 +665,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "f1",
                                     "rawText": "f1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -673,7 +673,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 253,
                                     "end": 256
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -682,7 +682,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 256
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -690,7 +690,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 247,
                         "end": 256
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -699,7 +699,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 258
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -713,7 +713,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T15",
                     "rawText": "T15",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -727,7 +727,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -744,7 +744,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -752,7 +752,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 316,
                                     "end": 318
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -761,7 +761,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 318
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -769,7 +769,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 310,
                         "end": 318
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -778,7 +778,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 320
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -792,7 +792,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T16",
                     "rawText": "T16",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -806,7 +806,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -828,7 +828,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 352
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -836,7 +836,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 349,
                         "end": 352
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -845,7 +845,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 354
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -859,7 +859,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T17",
                     "rawText": "T17",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -873,7 +873,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -895,7 +895,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 390
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -903,7 +903,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 385,
                         "end": 390
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -912,7 +912,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 392
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -926,7 +926,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T18",
                     "rawText": "T18",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -940,7 +940,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -962,7 +962,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 429
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -970,7 +970,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 423,
                         "end": 429
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -979,7 +979,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 431
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -993,7 +993,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T19",
                     "rawText": "T19",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1007,7 +1007,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1024,7 +1024,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "Function",
                                     "rawText": "Function",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1033,7 +1033,7 @@ type T06 = Unpacked<never>;  // never
                                     "end": 472
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1042,7 +1042,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 473
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1050,7 +1050,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 464,
                         "end": 472
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1059,7 +1059,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 474
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1073,7 +1073,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T20",
                     "rawText": "T20",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1087,7 +1087,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1105,7 +1105,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 175,
                                     "parameterList": [],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1123,7 +1123,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 513,
                                     "end": 518
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1132,7 +1132,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 518
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1140,7 +1140,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 508,
                         "end": 518
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1149,7 +1149,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 520
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1163,7 +1163,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T21",
                     "rawText": "T21",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1177,7 +1177,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1201,7 +1201,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1223,7 +1223,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1233,7 +1233,7 @@ type T06 = Unpacked<never>;  // never
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1251,7 +1251,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 569,
                                     "end": 576
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1260,7 +1260,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 576
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1268,7 +1268,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 555,
                         "end": 576
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1277,7 +1277,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 578
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1291,7 +1291,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T22",
                     "rawText": "T22",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1305,7 +1305,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1329,7 +1329,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1351,7 +1351,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1361,7 +1361,7 @@ type T06 = Unpacked<never>;  // never
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1379,7 +1379,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 629,
                                     "end": 636
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1388,7 +1388,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 636
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1396,7 +1396,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 614,
                         "end": 636
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1405,7 +1405,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 638
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1419,7 +1419,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T23",
                     "rawText": "T23",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1433,7 +1433,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1457,7 +1457,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "args",
                                                 "rawText": "args",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1478,7 +1478,7 @@ type T06 = Unpacked<never>;  // never
                                                     "start": 695,
                                                     "end": 702
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -1489,7 +1489,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 4097,
                                             "parent": null,
@@ -1499,7 +1499,7 @@ type T06 = Unpacked<never>;  // never
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1517,7 +1517,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 708,
                                     "end": 715
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1526,7 +1526,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 715
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1534,7 +1534,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 686,
                         "end": 715
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1543,7 +1543,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 717
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1557,7 +1557,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T24",
                     "rawText": "T24",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1571,7 +1571,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1595,7 +1595,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1617,7 +1617,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1632,7 +1632,7 @@ type T06 = Unpacked<never>;  // never
                                                 "kind": 131102,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -1654,7 +1654,7 @@ type T06 = Unpacked<never>;  // never
                                             "initializer": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -1664,7 +1664,7 @@ type T06 = Unpacked<never>;  // never
                                         }
                                     ],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -1682,7 +1682,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 778,
                                     "end": 785
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1691,7 +1691,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 785
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1699,7 +1699,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 753,
                         "end": 785
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1708,7 +1708,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 787
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1722,7 +1722,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T25",
                     "rawText": "T25",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1736,7 +1736,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1753,7 +1753,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "Function",
                                     "rawText": "Function",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1762,7 +1762,7 @@ type T06 = Unpacked<never>;  // never
                                     "end": 830
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -1771,7 +1771,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 831
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1779,7 +1779,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 822,
                         "end": 830
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1788,7 +1788,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 832
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1802,7 +1802,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T26",
                     "rawText": "T26",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1816,7 +1816,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1838,7 +1838,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 870
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1846,7 +1846,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 867,
                         "end": 870
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1855,7 +1855,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 872
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1869,7 +1869,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T27",
                     "rawText": "T27",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1883,7 +1883,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1905,7 +1905,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 910
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1913,7 +1913,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 905,
                         "end": 910
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1922,7 +1922,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 912
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -1936,7 +1936,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T00",
                     "rawText": "T00",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1950,7 +1950,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1972,7 +1972,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 948
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -1980,7 +1980,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 942,
                         "end": 948
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -1989,7 +1989,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 950
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2003,7 +2003,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T01",
                     "rawText": "T01",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2017,7 +2017,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2040,7 +2040,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 982,
                                     "end": 988
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2049,7 +2049,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 991
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2057,7 +2057,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 982,
                         "end": 990
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2066,7 +2066,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 992
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2080,7 +2080,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T02",
                     "rawText": "T02",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2094,7 +2094,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2112,7 +2112,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 175,
                                     "parameterList": [],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2130,7 +2130,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 1029,
                                     "end": 1036
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2139,7 +2139,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 1036
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2147,7 +2147,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 1024,
                         "end": 1036
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2156,7 +2156,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 1038
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2170,7 +2170,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T03",
                     "rawText": "T03",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2184,7 +2184,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2201,7 +2201,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "Promise",
                                     "rawText": "Promise",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2223,7 +2223,7 @@ type T06 = Unpacked<never>;  // never
                                             "end": 1084
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2231,7 +2231,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 1078,
                                     "end": 1084
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2240,7 +2240,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 1086
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2248,7 +2248,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 1070,
                         "end": 1085
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2257,7 +2257,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 1087
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2271,7 +2271,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T04",
                     "rawText": "T04",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2285,7 +2285,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2302,7 +2302,7 @@ type T06 = Unpacked<never>;  // never
                                     "kind": 196711,
                                     "text": "Unpacked",
                                     "rawText": "Unpacked",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2321,7 +2321,7 @@ type T06 = Unpacked<never>;  // never
                                                     "kind": 196711,
                                                     "text": "Promise",
                                                     "rawText": "Promise",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2343,7 +2343,7 @@ type T06 = Unpacked<never>;  // never
                                                             "end": 1142
                                                         }
                                                     ],
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -2351,7 +2351,7 @@ type T06 = Unpacked<never>;  // never
                                                     "start": 1136,
                                                     "end": 1142
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -2359,7 +2359,7 @@ type T06 = Unpacked<never>;  // never
                                                 "start": 1128,
                                                 "end": 1144
                                             },
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -2368,7 +2368,7 @@ type T06 = Unpacked<never>;  // never
                                             "end": 1146
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -2376,7 +2376,7 @@ type T06 = Unpacked<never>;  // never
                                     "start": 1128,
                                     "end": 1145
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -2385,7 +2385,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 1147
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2393,7 +2393,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 1119,
                         "end": 1146
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2402,7 +2402,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 1148
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2416,7 +2416,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T05",
                     "rawText": "T05",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2430,7 +2430,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2452,7 +2452,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 1183
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2460,7 +2460,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 1180,
                         "end": 1183
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2469,7 +2469,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 1185
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2483,7 +2483,7 @@ type T06 = Unpacked<never>;  // never
                     "kind": 196712,
                     "text": "T06",
                     "rawText": "T06",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2497,7 +2497,7 @@ type T06 = Unpacked<never>;  // never
                         "kind": 196711,
                         "text": "Unpacked",
                         "rawText": "Unpacked",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2519,7 +2519,7 @@ type T06 = Unpacked<never>;  // never
                                 "end": 1219
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -2527,7 +2527,7 @@ type T06 = Unpacked<never>;  // never
                         "start": 1214,
                         "end": 1219
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -2536,7 +2536,7 @@ type T06 = Unpacked<never>;  // never
                     "end": 1221
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -2546,7 +2546,7 @@ type T06 = Unpacked<never>;  // never
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -2571,13 +2571,63 @@ type T06 = Unpacked<never>;  // never
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type T10 = ReturnType<() => string>;
+
+type T11 = ReturnType<(s: string) => void>;
+
+type T12 = ReturnType<(<T>() => T)>;
+
+type T13 = ReturnType<(<T extends U, U extends number[]>() => T)>;
+
+type T14 = ReturnType<typeof f1>;
+
+type T15 = ReturnType<typeof C>;
+
+type T16 = ReturnType<any>;
+
+type T17 = ReturnType<never>;
+
+type T18 = ReturnType<string>;
+
+type T19 = ReturnType<Function>;
+
+type T20 = ArgumentType<() => void>;
+
+type T21 = ArgumentType<(x: string) => number>;
+
+type T22 = ArgumentType<(x?: string) => number>;
+
+type T23 = ArgumentType<(...args: string[]) => number>;
+
+type T24 = ArgumentType<(x: string, y: string) => number>;
+
+type T25 = ArgumentType<Function>;
+
+type T26 = ArgumentType<any>;
+
+type T27 = ArgumentType<never>;
+
+type T00 = Unpacked<string>;
+
+type T01 = Unpacked<string[]>;
+
+type T02 = Unpacked<() => string>;
+
+type T03 = Unpacked<Promise<string>>;
+
+type T04 = Unpacked<Unpacked<Promise<string>[]>>;
+
+type T05 = Unpacked<any>;
+
+type T06 = Unpacked<never>;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

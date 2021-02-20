@@ -16,11 +16,11 @@ function isString(x: any): x is string {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function isString(x: any): x is string {\n    return typeof x === 'string'\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +28,7 @@ function isString(x: any): x is string {
                     "kind": 131102,
                     "text": "isString",
                     "rawText": "isString",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ function isString(x: any): x is string {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -69,7 +69,7 @@ function isString(x: any): x is string {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -79,7 +79,7 @@ function isString(x: any): x is string {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -94,7 +94,7 @@ function isString(x: any): x is string {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -112,7 +112,7 @@ function isString(x: any): x is string {
                         "start": 31,
                         "end": 38
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -136,7 +136,7 @@ function isString(x: any): x is string {
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -144,7 +144,7 @@ function isString(x: any): x is string {
                                             "start": 58,
                                             "end": 60
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -157,7 +157,7 @@ function isString(x: any): x is string {
                                         "kind": 67279,
                                         "text": "string",
                                         "rawText": "string",
-                                        "flags": 16777216,
+                                        "flags": 16842752,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -165,7 +165,7 @@ function isString(x: any): x is string {
                                         "start": 64,
                                         "end": 73
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -173,7 +173,7 @@ function isString(x: any): x is string {
                                     "start": 51,
                                     "end": 73
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -183,7 +183,7 @@ function isString(x: any): x is string {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -191,7 +191,7 @@ function isString(x: any): x is string {
                         "start": 40,
                         "end": 73
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -200,7 +200,7 @@ function isString(x: any): x is string {
                     "end": 75
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -210,7 +210,7 @@ function isString(x: any): x is string {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -235,13 +235,17 @@ function isString(x: any): x is string {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function isString(x: any): x is string {
+    return typeof x === "string";
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

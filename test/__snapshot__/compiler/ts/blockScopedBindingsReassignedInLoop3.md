@@ -102,11 +102,11 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "for (let x = 1, y = 2; x < y; ++x, --y) {\n    let a = () => x++ + y++;\n    if (x == 1) {\n        break;\n    }\n    else {\n        for (let a = 1; a < 5; --a) {\n            let f = () => a;\n            if (a) {\n                a = x;\n                break;\n            }\n            else {\n                y++;\n            }\n        }\n\n        y = 5;\n    }\n}\n\nfor (let x = 1, y = 2; x < y; ++x, --y) {\n    let a = () => x++ + y++;\n    if (x == 1) {\n        continue;\n    }\n    else {\n        for (let a = 1; a < 5; --a) {\n            let f = () => a;\n            if (a) {\n                a = x;\n                continue;\n            }\n            else {\n                y++;\n            }\n        }\n\n        y = 5;\n    }\n}\n\nloop2:\nfor (let x = 1, y = 2; x < y; ++x, --y) {\n    let a = () => x++ + y++;\n    if (x == 1) {\n        break loop2;\n    }\n    else {\n        loop1:\n        for (let a = 1; a < 5; --a) {\n            let f = () => a;\n            if (a) {\n                a = x;\n                break loop1;\n            }\n            else {\n                y++;\n                break loop2\n            }\n        }\n\n        y = 5;\n    }\n}\n\nloop2:\nfor (let x = 1, y = 2; x < y; ++x, --y) {\n    let a = () => x++ + y++;\n    if (x == 1) {\n        continue loop2;\n    }\n    else {\n        loop1:\n        for (let a = 1; a < 5; --a) {\n            let f = () => a;\n            if (a) {\n                a = x;\n                continue loop1;\n            }\n            else {\n                y++;\n                continue loop2\n            }\n        }\n\n        y = 5;\n    }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2099288,
@@ -122,7 +122,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 131102,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -136,7 +136,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -144,7 +144,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -158,7 +158,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 131102,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -172,7 +172,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -180,7 +180,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 19,
                                     "end": 21
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -189,7 +189,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 21
                             }
                         ],
-                        "flags": 16,
+                        "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -197,7 +197,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 8,
                         "end": 21
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 256,
                     "parent": null,
@@ -212,7 +212,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -220,7 +220,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 32,
                         "end": 33
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -234,7 +234,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -247,7 +247,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -255,7 +255,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 26,
                         "end": 28
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -287,7 +287,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -295,7 +295,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 37,
                                     "end": 38
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -304,7 +304,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 38
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -320,7 +320,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 33,
                     "end": 38
                 },
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -345,7 +345,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -381,7 +381,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -389,7 +389,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 59,
                                                         "end": 61
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -405,7 +405,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -413,7 +413,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 65,
                                                         "end": 67
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -421,7 +421,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 65,
                                                     "end": 69
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -429,7 +429,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 59,
                                                 "end": 69
                                             },
-                                            "flags": 536870912,
+                                            "flags": 536936448,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -437,7 +437,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 53,
                                             "end": 69
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -446,7 +446,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "end": 69
                                     }
                                 ],
-                                "flags": 16,
+                                "flags": 65552,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -454,7 +454,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "start": 49,
                                 "end": 69
                             },
-                            "flags": 16400,
+                            "flags": 81936,
                             "intersects": false,
                             "transformFlags": 769,
                             "parent": null,
@@ -470,7 +470,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -483,7 +483,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -491,7 +491,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 83,
                                     "end": 85
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -507,7 +507,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         {
                                             "kind": 2097193,
                                             "label": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -517,7 +517,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -525,7 +525,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 88,
                                     "end": 103
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -552,7 +552,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 131102,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -566,7 +566,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -574,7 +574,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "start": 141,
                                                                 "end": 143
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -583,7 +583,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             "end": 143
                                                         }
                                                     ],
-                                                    "flags": 16,
+                                                    "flags": 65552,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -591,7 +591,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 137,
                                                     "end": 143
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 256,
                                                 "parent": null,
@@ -606,7 +606,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -614,7 +614,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 154,
                                                     "end": 155
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -628,7 +628,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -641,7 +641,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -649,7 +649,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 148,
                                                     "end": 150
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -675,7 +675,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "kind": 131102,
                                                                             "text": "f",
                                                                             "rawText": "f",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
                                                                             "parent": null,
@@ -706,7 +706,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "kind": 196712,
                                                                                 "text": "a",
                                                                                 "rawText": "a",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -714,7 +714,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "start": 184,
                                                                                 "end": 186
                                                                             },
-                                                                            "flags": 536870912,
+                                                                            "flags": 536936448,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -722,7 +722,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "start": 178,
                                                                             "end": 186
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -731,7 +731,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "end": 186
                                                                     }
                                                                 ],
-                                                                "flags": 16,
+                                                                "flags": 65552,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -739,7 +739,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "start": 174,
                                                                 "end": 186
                                                             },
-                                                            "flags": 16400,
+                                                            "flags": 81936,
                                                             "intersects": false,
                                                             "transformFlags": 769,
                                                             "parent": null,
@@ -753,7 +753,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 196712,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -774,7 +774,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "a",
                                                                                     "rawText": "a",
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -787,7 +787,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "x",
                                                                                     "rawText": "x",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -795,7 +795,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 228,
                                                                                     "end": 230
                                                                                 },
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -814,7 +814,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         {
                                                                             "kind": 2097193,
                                                                             "label": null,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -824,7 +824,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         }
                                                                     ],
                                                                     "multiline": true,
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -832,7 +832,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 208,
                                                                     "end": 254
                                                                 },
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -854,7 +854,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "y",
                                                                                     "rawText": "y",
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -862,7 +862,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 287,
                                                                                     "end": 305
                                                                                 },
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -880,7 +880,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         }
                                                                     ],
                                                                     "multiline": true,
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -888,7 +888,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 287,
                                                                     "end": 308
                                                                 },
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -897,7 +897,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "end": 322
                                                             },
                                                             "isWebCompat": true,
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -907,7 +907,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -915,7 +915,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 158,
                                                     "end": 322
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -923,7 +923,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 156,
                                                 "end": 332
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -939,7 +939,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -952,7 +952,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -960,7 +960,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 345,
                                                     "end": 347
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -978,7 +978,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -986,7 +986,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 120,
                                     "end": 348
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -995,7 +995,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 354
                             },
                             "isWebCompat": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1005,7 +1005,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1013,7 +1013,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 41,
                     "end": 354
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1035,7 +1035,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 131102,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -1049,7 +1049,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1057,7 +1057,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 370,
                                     "end": 372
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1071,7 +1071,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 131102,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -1085,7 +1085,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 2,
                                     "rawText": "2",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1093,7 +1093,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 377,
                                     "end": 379
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1102,7 +1102,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 379
                             }
                         ],
-                        "flags": 16,
+                        "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1110,7 +1110,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 366,
                         "end": 379
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 256,
                     "parent": null,
@@ -1125,7 +1125,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1133,7 +1133,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 390,
                         "end": 391
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1147,7 +1147,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1160,7 +1160,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "kind": 196712,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1168,7 +1168,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 384,
                         "end": 386
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1200,7 +1200,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "y",
                                     "rawText": "y",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1208,7 +1208,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 395,
                                     "end": 396
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1217,7 +1217,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 396
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -1233,7 +1233,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 391,
                     "end": 396
                 },
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1258,7 +1258,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -1294,7 +1294,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1302,7 +1302,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 417,
                                                         "end": 419
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1318,7 +1318,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -1326,7 +1326,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 423,
                                                         "end": 425
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1334,7 +1334,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 423,
                                                     "end": 427
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1342,7 +1342,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 417,
                                                 "end": 427
                                             },
-                                            "flags": 536870912,
+                                            "flags": 536936448,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1350,7 +1350,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 411,
                                             "end": 427
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1359,7 +1359,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "end": 427
                                     }
                                 ],
-                                "flags": 16,
+                                "flags": 65552,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1367,7 +1367,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "start": 407,
                                 "end": 427
                             },
-                            "flags": 16400,
+                            "flags": 81936,
                             "intersects": false,
                             "transformFlags": 769,
                             "parent": null,
@@ -1383,7 +1383,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1396,7 +1396,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1404,7 +1404,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 441,
                                     "end": 443
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1420,7 +1420,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         {
                                             "kind": 2097212,
                                             "label": null,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1430,7 +1430,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1438,7 +1438,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 446,
                                     "end": 464
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1465,7 +1465,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 131102,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -1479,7 +1479,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1487,7 +1487,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "start": 502,
                                                                 "end": 504
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1496,7 +1496,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             "end": 504
                                                         }
                                                     ],
-                                                    "flags": 16,
+                                                    "flags": 65552,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1504,7 +1504,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 498,
                                                     "end": 504
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 256,
                                                 "parent": null,
@@ -1519,7 +1519,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1527,7 +1527,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 515,
                                                     "end": 516
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1541,7 +1541,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "a",
                                                     "rawText": "a",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1554,7 +1554,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1562,7 +1562,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 509,
                                                     "end": 511
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1588,7 +1588,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "kind": 131102,
                                                                             "text": "f",
                                                                             "rawText": "f",
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
                                                                             "parent": null,
@@ -1619,7 +1619,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "kind": 196712,
                                                                                 "text": "a",
                                                                                 "rawText": "a",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -1627,7 +1627,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "start": 545,
                                                                                 "end": 547
                                                                             },
-                                                                            "flags": 536870912,
+                                                                            "flags": 536936448,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1635,7 +1635,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "start": 539,
                                                                             "end": 547
                                                                         },
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -1644,7 +1644,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "end": 547
                                                                     }
                                                                 ],
-                                                                "flags": 16,
+                                                                "flags": 65552,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1652,7 +1652,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "start": 535,
                                                                 "end": 547
                                                             },
-                                                            "flags": 16400,
+                                                            "flags": 81936,
                                                             "intersects": false,
                                                             "transformFlags": 769,
                                                             "parent": null,
@@ -1666,7 +1666,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "kind": 196712,
                                                                 "text": "a",
                                                                 "rawText": "a",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1687,7 +1687,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "a",
                                                                                     "rawText": "a",
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1700,7 +1700,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "x",
                                                                                     "rawText": "x",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1708,7 +1708,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 589,
                                                                                     "end": 591
                                                                                 },
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -1727,7 +1727,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         {
                                                                             "kind": 2097212,
                                                                             "label": null,
-                                                                            "flags": 16384,
+                                                                            "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -1737,7 +1737,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         }
                                                                     ],
                                                                     "multiline": true,
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1745,7 +1745,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 569,
                                                                     "end": 618
                                                                 },
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1767,7 +1767,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "y",
                                                                                     "rawText": "y",
-                                                                                    "flags": 16384,
+                                                                                    "flags": 81920,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -1775,7 +1775,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 651,
                                                                                     "end": 669
                                                                                 },
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -1793,7 +1793,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         }
                                                                     ],
                                                                     "multiline": true,
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -1801,7 +1801,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 651,
                                                                     "end": 672
                                                                 },
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -1810,7 +1810,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "end": 686
                                                             },
                                                             "isWebCompat": true,
-                                                            "flags": 16384,
+                                                            "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -1820,7 +1820,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1828,7 +1828,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 519,
                                                     "end": 686
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1836,7 +1836,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 517,
                                                 "end": 696
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -1852,7 +1852,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1865,7 +1865,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -1873,7 +1873,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 709,
                                                     "end": 711
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -1891,7 +1891,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1899,7 +1899,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 481,
                                     "end": 712
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -1908,7 +1908,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 718
                             },
                             "isWebCompat": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -1918,7 +1918,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1926,7 +1926,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 399,
                     "end": 718
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -1940,7 +1940,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "kind": 196712,
                     "text": "loop2",
                     "rawText": "loop2",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -1962,7 +1962,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 131102,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -1976,7 +1976,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 4261540,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -1984,7 +1984,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 741,
                                         "end": 743
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -1998,7 +1998,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 131102,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -2012,7 +2012,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 4261540,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2020,7 +2020,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 748,
                                         "end": 750
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2029,7 +2029,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 750
                                 }
                             ],
-                            "flags": 16,
+                            "flags": 65552,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2037,7 +2037,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 737,
                             "end": 750
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 256,
                         "parent": null,
@@ -2052,7 +2052,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2060,7 +2060,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 761,
                             "end": 762
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2074,7 +2074,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2087,7 +2087,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2095,7 +2095,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 755,
                             "end": 757
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -2127,7 +2127,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 196712,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2135,7 +2135,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 766,
                                         "end": 767
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2144,7 +2144,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 767
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2160,7 +2160,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 762,
                         "end": 767
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2169,7 +2169,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "end": 767
                 },
                 "isWebCompat": true,
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2194,7 +2194,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -2230,7 +2230,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2238,7 +2238,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 788,
                                                         "end": 790
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2254,7 +2254,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2262,7 +2262,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 794,
                                                         "end": 796
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2270,7 +2270,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 794,
                                                     "end": 798
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2278,7 +2278,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 788,
                                                 "end": 798
                                             },
-                                            "flags": 536870912,
+                                            "flags": 536936448,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2286,7 +2286,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 782,
                                             "end": 798
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2295,7 +2295,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "end": 798
                                     }
                                 ],
-                                "flags": 16,
+                                "flags": 65552,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2303,7 +2303,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "start": 778,
                                 "end": 798
                             },
-                            "flags": 16400,
+                            "flags": 81936,
                             "intersects": false,
                             "transformFlags": 769,
                             "parent": null,
@@ -2319,7 +2319,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2332,7 +2332,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2340,7 +2340,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 812,
                                     "end": 814
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2359,7 +2359,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "kind": 196712,
                                                 "text": "loop2",
                                                 "rawText": "loop2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2367,7 +2367,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 831,
                                                 "end": 837
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2377,7 +2377,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2385,7 +2385,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 817,
                                     "end": 838
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2404,7 +2404,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "kind": 196712,
                                                 "text": "loop1",
                                                 "rawText": "loop1",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2426,7 +2426,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 131102,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
                                                                     "parent": null,
@@ -2440,7 +2440,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 4261540,
                                                                     "text": 1,
                                                                     "rawText": "1",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2448,7 +2448,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 891,
                                                                     "end": 893
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2457,7 +2457,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "end": 893
                                                             }
                                                         ],
-                                                        "flags": 16,
+                                                        "flags": 65552,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2465,7 +2465,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 887,
                                                         "end": 893
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 256,
                                                     "parent": null,
@@ -2480,7 +2480,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2488,7 +2488,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 904,
                                                         "end": 905
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2502,7 +2502,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2515,7 +2515,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 4261540,
                                                         "text": 5,
                                                         "rawText": "5",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2523,7 +2523,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 898,
                                                         "end": 900
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2549,7 +2549,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "kind": 131102,
                                                                                 "text": "f",
                                                                                 "rawText": "f",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1025,
                                                                                 "parent": null,
@@ -2580,7 +2580,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "a",
                                                                                     "rawText": "a",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2588,7 +2588,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 934,
                                                                                     "end": 936
                                                                                 },
-                                                                                "flags": 536870912,
+                                                                                "flags": 536936448,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -2596,7 +2596,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "start": 928,
                                                                                 "end": 936
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -2605,7 +2605,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "end": 936
                                                                         }
                                                                     ],
-                                                                    "flags": 16,
+                                                                    "flags": 65552,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2613,7 +2613,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 924,
                                                                     "end": 936
                                                                 },
-                                                                "flags": 16400,
+                                                                "flags": 81936,
                                                                 "intersects": false,
                                                                 "transformFlags": 769,
                                                                 "parent": null,
@@ -2627,7 +2627,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 196712,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2648,7 +2648,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "a",
                                                                                         "rawText": "a",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2661,7 +2661,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "x",
                                                                                         "rawText": "x",
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2669,7 +2669,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "start": 978,
                                                                                         "end": 980
                                                                                     },
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2691,7 +2691,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "loop1",
                                                                                     "rawText": "loop1",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2699,7 +2699,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 1003,
                                                                                     "end": 1009
                                                                                 },
-                                                                                "flags": 16384,
+                                                                                "flags": 81920,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -2709,7 +2709,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             }
                                                                         ],
                                                                         "multiline": true,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2717,7 +2717,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "start": 958,
                                                                         "end": 1010
                                                                     },
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2739,7 +2739,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "y",
                                                                                         "rawText": "y",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -2747,7 +2747,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "start": 1043,
                                                                                         "end": 1061
                                                                                     },
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2769,7 +2769,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "loop2",
                                                                                     "rawText": "loop2",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -2777,7 +2777,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 1086,
                                                                                     "end": 1092
                                                                                 },
-                                                                                "flags": 16384,
+                                                                                "flags": 81920,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -2787,7 +2787,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             }
                                                                         ],
                                                                         "multiline": true,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -2795,7 +2795,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "start": 1043,
                                                                         "end": 1092
                                                                     },
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -2804,7 +2804,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "end": 1106
                                                                 },
                                                                 "isWebCompat": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -2814,7 +2814,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             }
                                                         ],
                                                         "multiline": true,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -2822,7 +2822,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 908,
                                                         "end": 1106
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2830,7 +2830,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 906,
                                                     "end": 1116
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2839,7 +2839,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "end": 1116
                                             },
                                             "isWebCompat": true,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -2855,7 +2855,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2868,7 +2868,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -2876,7 +2876,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 1129,
                                                     "end": 1131
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -2894,7 +2894,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -2902,7 +2902,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 855,
                                     "end": 1132
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -2911,7 +2911,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 1138
                             },
                             "isWebCompat": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -2921,7 +2921,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2929,7 +2929,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 770,
                     "end": 1138
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -2943,7 +2943,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "kind": 196712,
                     "text": "loop2",
                     "rawText": "loop2",
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -2965,7 +2965,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 131102,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -2979,7 +2979,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 4261540,
                                         "text": 1,
                                         "rawText": "1",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -2987,7 +2987,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 1161,
                                         "end": 1163
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3001,7 +3001,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 131102,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1025,
                                         "parent": null,
@@ -3015,7 +3015,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 4261540,
                                         "text": 2,
                                         "rawText": "2",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3023,7 +3023,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 1168,
                                         "end": 1170
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3032,7 +3032,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 1170
                                 }
                             ],
-                            "flags": 16,
+                            "flags": 65552,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3040,7 +3040,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 1157,
                             "end": 1170
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 256,
                         "parent": null,
@@ -3055,7 +3055,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3063,7 +3063,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 1181,
                             "end": 1182
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3077,7 +3077,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "x",
                             "rawText": "x",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3090,7 +3090,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "kind": 196712,
                             "text": "y",
                             "rawText": "y",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3098,7 +3098,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                             "start": 1175,
                             "end": 1177
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -3130,7 +3130,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "kind": 196712,
                                         "text": "y",
                                         "rawText": "y",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3138,7 +3138,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "start": 1186,
                                         "end": 1187
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3147,7 +3147,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "end": 1187
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3163,7 +3163,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         "start": 1182,
                         "end": 1187
                     },
-                    "flags": 2,
+                    "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3172,7 +3172,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "end": 1187
                 },
                 "isWebCompat": true,
-                "flags": 2,
+                "flags": 65538,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3197,7 +3197,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "kind": 131102,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
                                             "parent": null,
@@ -3233,7 +3233,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3241,7 +3241,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1208,
                                                         "end": 1210
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3257,7 +3257,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "y",
                                                         "rawText": "y",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3265,7 +3265,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1214,
                                                         "end": 1216
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3273,7 +3273,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 1214,
                                                     "end": 1218
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3281,7 +3281,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 1208,
                                                 "end": 1218
                                             },
-                                            "flags": 536870912,
+                                            "flags": 536936448,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -3289,7 +3289,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                             "start": 1202,
                                             "end": 1218
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -3298,7 +3298,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         "end": 1218
                                     }
                                 ],
-                                "flags": 16,
+                                "flags": 65552,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3306,7 +3306,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "start": 1198,
                                 "end": 1218
                             },
-                            "flags": 16400,
+                            "flags": 81936,
                             "intersects": false,
                             "transformFlags": 769,
                             "parent": null,
@@ -3322,7 +3322,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3335,7 +3335,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "kind": 4261540,
                                     "text": 1,
                                     "rawText": "1",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3343,7 +3343,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 1232,
                                     "end": 1234
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3362,7 +3362,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "kind": 196712,
                                                 "text": "loop2",
                                                 "rawText": "loop2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3370,7 +3370,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "start": 1254,
                                                 "end": 1260
                                             },
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -3380,7 +3380,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3388,7 +3388,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 1237,
                                     "end": 1261
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3407,7 +3407,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "kind": 196712,
                                                 "text": "loop1",
                                                 "rawText": "loop1",
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3429,7 +3429,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 131102,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
                                                                     "parent": null,
@@ -3443,7 +3443,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 4261540,
                                                                     "text": 1,
                                                                     "rawText": "1",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3451,7 +3451,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 1314,
                                                                     "end": 1316
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3460,7 +3460,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                 "end": 1316
                                                             }
                                                         ],
-                                                        "flags": 16,
+                                                        "flags": 65552,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3468,7 +3468,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1310,
                                                         "end": 1316
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 256,
                                                     "parent": null,
@@ -3483,7 +3483,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3491,7 +3491,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1327,
                                                         "end": 1328
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3505,7 +3505,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 196712,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3518,7 +3518,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "kind": 4261540,
                                                         "text": 5,
                                                         "rawText": "5",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3526,7 +3526,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1321,
                                                         "end": 1323
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3552,7 +3552,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "kind": 131102,
                                                                                 "text": "f",
                                                                                 "rawText": "f",
-                                                                                "flags": 0,
+                                                                                "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1025,
                                                                                 "parent": null,
@@ -3583,7 +3583,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "a",
                                                                                     "rawText": "a",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3591,7 +3591,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 1357,
                                                                                     "end": 1359
                                                                                 },
-                                                                                "flags": 536870912,
+                                                                                "flags": 536936448,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -3599,7 +3599,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                 "start": 1351,
                                                                                 "end": 1359
                                                                             },
-                                                                            "flags": 0,
+                                                                            "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
                                                                             "parent": null,
@@ -3608,7 +3608,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             "end": 1359
                                                                         }
                                                                     ],
-                                                                    "flags": 16,
+                                                                    "flags": 65552,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3616,7 +3616,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "start": 1347,
                                                                     "end": 1359
                                                                 },
-                                                                "flags": 16400,
+                                                                "flags": 81936,
                                                                 "intersects": false,
                                                                 "transformFlags": 769,
                                                                 "parent": null,
@@ -3630,7 +3630,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "kind": 196712,
                                                                     "text": "a",
                                                                     "rawText": "a",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3651,7 +3651,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "a",
                                                                                         "rawText": "a",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -3664,7 +3664,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "x",
                                                                                         "rawText": "x",
-                                                                                        "flags": 0,
+                                                                                        "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -3672,7 +3672,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "start": 1401,
                                                                                         "end": 1403
                                                                                     },
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3694,7 +3694,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "loop1",
                                                                                     "rawText": "loop1",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3702,7 +3702,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 1429,
                                                                                     "end": 1435
                                                                                 },
-                                                                                "flags": 16384,
+                                                                                "flags": 81920,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -3712,7 +3712,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             }
                                                                         ],
                                                                         "multiline": true,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -3720,7 +3720,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "start": 1381,
                                                                         "end": 1436
                                                                     },
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3742,7 +3742,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "kind": 196712,
                                                                                         "text": "y",
                                                                                         "rawText": "y",
-                                                                                        "flags": 16384,
+                                                                                        "flags": 81920,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
                                                                                         "parent": null,
@@ -3750,7 +3750,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                         "start": 1469,
                                                                                         "end": 1487
                                                                                     },
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3772,7 +3772,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "kind": 196712,
                                                                                     "text": "loop2",
                                                                                     "rawText": "loop2",
-                                                                                    "flags": 0,
+                                                                                    "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
                                                                                     "parent": null,
@@ -3780,7 +3780,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                                     "start": 1515,
                                                                                     "end": 1521
                                                                                 },
-                                                                                "flags": 16384,
+                                                                                "flags": 81920,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
                                                                                 "parent": null,
@@ -3790,7 +3790,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                             }
                                                                         ],
                                                                         "multiline": true,
-                                                                        "flags": 16384,
+                                                                        "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -3798,7 +3798,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                         "start": 1469,
                                                                         "end": 1521
                                                                     },
-                                                                    "flags": 16384,
+                                                                    "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -3807,7 +3807,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                                     "end": 1535
                                                                 },
                                                                 "isWebCompat": true,
-                                                                "flags": 16384,
+                                                                "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -3817,7 +3817,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                             }
                                                         ],
                                                         "multiline": true,
-                                                        "flags": 16384,
+                                                        "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -3825,7 +3825,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                         "start": 1331,
                                                         "end": 1535
                                                     },
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3833,7 +3833,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 1329,
                                                     "end": 1545
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3842,7 +3842,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                 "end": 1545
                                             },
                                             "isWebCompat": true,
-                                            "flags": 16384,
+                                            "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -3858,7 +3858,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 196712,
                                                     "text": "y",
                                                     "rawText": "y",
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3871,7 +3871,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "kind": 4261540,
                                                     "text": 5,
                                                     "rawText": "5",
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -3879,7 +3879,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                                     "start": 1558,
                                                     "end": 1560
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -3897,7 +3897,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                         }
                                     ],
                                     "multiline": true,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -3905,7 +3905,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                     "start": 1278,
                                     "end": 1561
                                 },
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -3914,7 +3914,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                                 "end": 1567
                             },
                             "isWebCompat": true,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -3924,7 +3924,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                         }
                     ],
                     "multiline": true,
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -3932,7 +3932,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
                     "start": 1190,
                     "end": 1567
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -3942,7 +3942,7 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -3967,13 +3967,110 @@ for (let x = 1, y = 2; x < y; ++x, --y) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+for (let x = 1, y = 2;; ++x; x < y)
+    undefined, --y
+
+{
+    let a = () => x++ + y++;
+    if (x == 1) {
+        break;
+    }
+    else {
+        for (let a = 1;; --a; a < 5) {
+            let f = () => a;
+            if (a) {
+                a = x
+                break;
+            }
+            else {
+                y++
+            }
+        }
+        y = 5
+    }
+}
+
+for (let x = 1, y = 2;; ++x; x < y)
+    undefined, --y
+
+{
+    let a = () => x++ + y++;
+    if (x == 1) {
+        continue;
+    }
+    else {
+        for (let a = 1;; --a; a < 5) {
+            let f = () => a;
+            if (a) {
+                a = x
+                continue;
+            }
+            else {
+                y++
+            }
+        }
+        y = 5
+    }
+}
+
+loop2: for (let x = 1, y = 2;; ++x; x < y)
+    undefined, --y
+
+{
+    let a = () => x++ + y++;
+    if (x == 1) {
+        break loop2;
+    }
+    else {
+        loop1: for (let a = 1;; --a; a < 5) {
+            let f = () => a;
+            if (a) {
+                a = x
+                break loop1;
+            }
+            else {
+                y++
+                break loop2;
+            }
+        }
+        y = 5
+    }
+}
+
+loop2: for (let x = 1, y = 2;; ++x; x < y)
+    undefined, --y
+
+{
+    let a = () => x++ + y++;
+    if (x == 1) {
+        continue loop2;
+    }
+    else {
+        loop1: for (let a = 1;; --a; a < 5) {
+            let f = () => a;
+            if (a) {
+                a = x
+                continue loop1;
+            }
+            else {
+                y++
+                continue loop2;
+            }
+        }
+        y = 5
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
+@{x2716}@ ';' expected. - start: 1370, end: 0
+@{x2716}@ Declaration or statement expected - start: 1605, end: 0
+@{x2716}@ Declaration or statement expected - start: 1607, end: 0
 
 ```
 

@@ -22,11 +22,11 @@ var {...rest3 } = nullUnion;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare const undefinedUnion: { n: number } | undefined;\nvar rest2: { n: number };\nvar {...rest2 } = undefinedUnion;\n\n\ndeclare const nullUnion: { n: number } | null;\nvar rest3: { n: number };\nvar {...rest3 } = nullUnion;\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 142,
@@ -40,7 +40,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "undefinedUnion",
                                 "rawText": "undefinedUnion",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -63,7 +63,7 @@ var {...rest3 } = nullUnion;
                                                         "kind": 196711,
                                                         "text": "n",
                                                         "rawText": "n",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -86,7 +86,7 @@ var {...rest3 } = nullUnion;
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -95,7 +95,7 @@ var {...rest3 } = nullUnion;
                                                     "end": 41
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -103,7 +103,7 @@ var {...rest3 } = nullUnion;
                                             "start": 31,
                                             "end": 43
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -122,7 +122,7 @@ var {...rest3 } = nullUnion;
                                         "end": 55
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -131,7 +131,7 @@ var {...rest3 } = nullUnion;
                                 "end": 55
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -140,7 +140,7 @@ var {...rest3 } = nullUnion;
                             "end": 55
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -148,7 +148,7 @@ var {...rest3 } = nullUnion;
                     "start": 13,
                     "end": 55
                 },
-                "flags": 201342992,
+                "flags": 201408528,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -167,7 +167,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "rest2",
                                 "rawText": "rest2",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -187,7 +187,7 @@ var {...rest3 } = nullUnion;
                                                 "kind": 196711,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -210,7 +210,7 @@ var {...rest3 } = nullUnion;
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -219,7 +219,7 @@ var {...rest3 } = nullUnion;
                                             "end": 79
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -227,7 +227,7 @@ var {...rest3 } = nullUnion;
                                     "start": 69,
                                     "end": 81
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -241,11 +241,11 @@ var {...rest3 } = nullUnion;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 81
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -253,7 +253,7 @@ var {...rest3 } = nullUnion;
                     "start": 60,
                     "end": 81
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -280,7 +280,7 @@ var {...rest3 } = nullUnion;
                                                 "kind": 131102,
                                                 "text": "rest2",
                                                 "rawText": "rest2",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -289,7 +289,7 @@ var {...rest3 } = nullUnion;
                                                 "end": 96
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -301,14 +301,14 @@ var {...rest3 } = nullUnion;
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 88,
                                     "end": 96
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -322,7 +322,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 196712,
                                 "text": "undefinedUnion",
                                 "rawText": "undefinedUnion",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -335,11 +335,11 @@ var {...rest3 } = nullUnion;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 115
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -347,7 +347,7 @@ var {...rest3 } = nullUnion;
                     "start": 86,
                     "end": 115
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -367,7 +367,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "nullUnion",
                                 "rawText": "nullUnion",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -390,7 +390,7 @@ var {...rest3 } = nullUnion;
                                                         "kind": 196711,
                                                         "text": "n",
                                                         "rawText": "n",
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -413,7 +413,7 @@ var {...rest3 } = nullUnion;
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -422,7 +422,7 @@ var {...rest3 } = nullUnion;
                                                     "end": 155
                                                 }
                                             ],
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -430,7 +430,7 @@ var {...rest3 } = nullUnion;
                                             "start": 145,
                                             "end": 157
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -449,7 +449,7 @@ var {...rest3 } = nullUnion;
                                         "end": 164
                                     }
                                 ],
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -458,7 +458,7 @@ var {...rest3 } = nullUnion;
                                 "end": 164
                             },
                             "initializer": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -467,7 +467,7 @@ var {...rest3 } = nullUnion;
                             "end": 164
                         }
                     ],
-                    "flags": 16,
+                    "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -475,7 +475,7 @@ var {...rest3 } = nullUnion;
                     "start": 132,
                     "end": 164
                 },
-                "flags": 201342992,
+                "flags": 201408528,
                 "intersects": false,
                 "transformFlags": 769,
                 "parent": null,
@@ -494,7 +494,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "rest3",
                                 "rawText": "rest3",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -514,7 +514,7 @@ var {...rest3 } = nullUnion;
                                                 "kind": 196711,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -537,7 +537,7 @@ var {...rest3 } = nullUnion;
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -546,7 +546,7 @@ var {...rest3 } = nullUnion;
                                             "end": 188
                                         }
                                     ],
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -554,7 +554,7 @@ var {...rest3 } = nullUnion;
                                     "start": 178,
                                     "end": 190
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -568,11 +568,11 @@ var {...rest3 } = nullUnion;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 190
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -580,7 +580,7 @@ var {...rest3 } = nullUnion;
                     "start": 169,
                     "end": 190
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -607,7 +607,7 @@ var {...rest3 } = nullUnion;
                                                 "kind": 131102,
                                                 "text": "rest3",
                                                 "rawText": "rest3",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -616,7 +616,7 @@ var {...rest3 } = nullUnion;
                                                 "end": 205
                                             },
                                             "right": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1024,
                                             "parent": null,
@@ -628,14 +628,14 @@ var {...rest3 } = nullUnion;
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
                                     "start": 197,
                                     "end": 205
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -649,7 +649,7 @@ var {...rest3 } = nullUnion;
                                 "kind": 196712,
                                 "text": "nullUnion",
                                 "rawText": "nullUnion",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -662,11 +662,11 @@ var {...rest3 } = nullUnion;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 219
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -674,7 +674,7 @@ var {...rest3 } = nullUnion;
                     "start": 195,
                     "end": 219
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -684,7 +684,7 @@ var {...rest3 } = nullUnion;
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -709,13 +709,33 @@ var {...rest3 } = nullUnion;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare const undefinedUnion: {
+    n: number;
+} | undefined;
+
+var rest2: {
+    n: number;
+};
+
+var { ...rest2 } = undefinedUnion;
+
+declare const nullUnion: {
+    n: number;
+} | null;
+
+var rest3: {
+    n: number;
+};
+
+var { ...rest3 } = nullUnion;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -16,11 +16,11 @@ async function hope(future) {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "async function hope(future) {\n    await future;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 1312785,
@@ -28,7 +28,7 @@ async function hope(future) {
                     "kind": 131102,
                     "text": "hope",
                     "rawText": "hope",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ async function hope(future) {
                                 "kind": 131102,
                                 "text": "future",
                                 "rawText": "future",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -60,7 +60,7 @@ async function hope(future) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -70,7 +70,7 @@ async function hope(future) {
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -92,7 +92,7 @@ async function hope(future) {
                                         "kind": 196712,
                                         "text": "future",
                                         "rawText": "future",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -100,7 +100,7 @@ async function hope(future) {
                                         "start": 39,
                                         "end": 46
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 32780,
                                     "parent": null,
@@ -118,7 +118,7 @@ async function hope(future) {
                             }
                         ],
                         "multiline": true,
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -126,7 +126,7 @@ async function hope(future) {
                         "start": 29,
                         "end": 47
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -135,7 +135,7 @@ async function hope(future) {
                     "end": 49
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 260,
                 "parent": null,
@@ -145,7 +145,7 @@ async function hope(future) {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -170,13 +170,17 @@ async function hope(future) {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+async function hope(future) {
+    await future
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

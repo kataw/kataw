@@ -21,11 +21,11 @@ declare type x = y; declare type x = y;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "type x = [];\ntype x = [];\ntype x = [];\ntype x = t extends a[] ? b : c;\ntype x = t extends a ? b : c;\ntype x = t extends [] ? b : c;\ntype x = t extends [] ? [] : c;\ndeclare type x = y; declare type x = y;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -33,7 +33,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -44,7 +44,7 @@ declare type x = y; declare type x = y;
                 "type": {
                     "kind": 224,
                     "elementTypes": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -53,7 +53,7 @@ declare type x = y; declare type x = y;
                     "end": 11
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -67,7 +67,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -78,7 +78,7 @@ declare type x = y; declare type x = y;
                 "type": {
                     "kind": 224,
                     "elementTypes": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -87,7 +87,7 @@ declare type x = y; declare type x = y;
                     "end": 24
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -101,7 +101,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -112,7 +112,7 @@ declare type x = y; declare type x = y;
                 "type": {
                     "kind": 224,
                     "elementTypes": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -121,7 +121,7 @@ declare type x = y; declare type x = y;
                     "end": 37
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -135,7 +135,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -151,7 +151,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "t",
                             "rawText": "t",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -160,7 +160,7 @@ declare type x = y; declare type x = y;
                             "end": 49
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -176,7 +176,7 @@ declare type x = y; declare type x = y;
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -185,7 +185,7 @@ declare type x = y; declare type x = y;
                                 "end": 59
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -193,7 +193,7 @@ declare type x = y; declare type x = y;
                             "start": 57,
                             "end": 60
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -207,7 +207,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -216,7 +216,7 @@ declare type x = y; declare type x = y;
                             "end": 65
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -230,7 +230,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -239,7 +239,7 @@ declare type x = y; declare type x = y;
                             "end": 69
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -247,7 +247,7 @@ declare type x = y; declare type x = y;
                         "start": 67,
                         "end": 70
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -256,7 +256,7 @@ declare type x = y; declare type x = y;
                     "end": 69
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -270,7 +270,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -286,7 +286,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "t",
                             "rawText": "t",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -295,7 +295,7 @@ declare type x = y; declare type x = y;
                             "end": 81
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -309,7 +309,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -318,7 +318,7 @@ declare type x = y; declare type x = y;
                             "end": 91
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -332,7 +332,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -341,7 +341,7 @@ declare type x = y; declare type x = y;
                             "end": 95
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -355,7 +355,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -364,7 +364,7 @@ declare type x = y; declare type x = y;
                             "end": 99
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -372,7 +372,7 @@ declare type x = y; declare type x = y;
                         "start": 97,
                         "end": 100
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -381,7 +381,7 @@ declare type x = y; declare type x = y;
                     "end": 99
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -395,7 +395,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -411,7 +411,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "t",
                             "rawText": "t",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -420,7 +420,7 @@ declare type x = y; declare type x = y;
                             "end": 111
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -431,7 +431,7 @@ declare type x = y; declare type x = y;
                     "extendsType": {
                         "kind": 224,
                         "elementTypes": [],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -445,7 +445,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "b",
                             "rawText": "b",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -454,7 +454,7 @@ declare type x = y; declare type x = y;
                             "end": 126
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -468,7 +468,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -477,7 +477,7 @@ declare type x = y; declare type x = y;
                             "end": 130
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -485,7 +485,7 @@ declare type x = y; declare type x = y;
                         "start": 128,
                         "end": 131
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -494,7 +494,7 @@ declare type x = y; declare type x = y;
                     "end": 130
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -508,7 +508,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -524,7 +524,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "t",
                             "rawText": "t",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -533,7 +533,7 @@ declare type x = y; declare type x = y;
                             "end": 142
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -544,7 +544,7 @@ declare type x = y; declare type x = y;
                     "extendsType": {
                         "kind": 224,
                         "elementTypes": [],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -555,7 +555,7 @@ declare type x = y; declare type x = y;
                     "trueType": {
                         "kind": 224,
                         "elementTypes": [],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -569,7 +569,7 @@ declare type x = y; declare type x = y;
                             "kind": 196711,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -578,7 +578,7 @@ declare type x = y; declare type x = y;
                             "end": 162
                         },
                         "typeArguments": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -586,7 +586,7 @@ declare type x = y; declare type x = y;
                         "start": 160,
                         "end": 163
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -595,7 +595,7 @@ declare type x = y; declare type x = y;
                     "end": 162
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -609,7 +609,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -623,7 +623,7 @@ declare type x = y; declare type x = y;
                         "kind": 196711,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -632,7 +632,7 @@ declare type x = y; declare type x = y;
                         "end": 182
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -641,7 +641,7 @@ declare type x = y; declare type x = y;
                     "end": 183
                 },
                 "typeParameters": null,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -655,7 +655,7 @@ declare type x = y; declare type x = y;
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -669,7 +669,7 @@ declare type x = y; declare type x = y;
                         "kind": 196711,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -678,7 +678,7 @@ declare type x = y; declare type x = y;
                         "end": 202
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -687,7 +687,7 @@ declare type x = y; declare type x = y;
                     "end": 203
                 },
                 "typeParameters": null,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -697,7 +697,7 @@ declare type x = y; declare type x = y;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -722,13 +722,31 @@ declare type x = y; declare type x = y;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type x = [];
+
+type x = [];
+
+type x = [];
+
+type x = t extends a[] ? b : c;
+
+type x = t extends a ? b : c;
+
+type x = t extends [] ? b : c;
+
+type x = t extends [] ? [] : c;
+
+declare type x = y;
+
+declare type x = y;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

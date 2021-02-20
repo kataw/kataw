@@ -17,11 +17,11 @@ var v = { * foo() {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var v = { * foo() {\n    yield(foo);\n  }\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -34,7 +34,7 @@ var v = { * foo() {
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -55,7 +55,7 @@ var v = { * foo() {
                                                 "kind": 196711,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -67,7 +67,7 @@ var v = { * foo() {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -93,7 +93,7 @@ var v = { * foo() {
                                                                         "kind": 196712,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 0,
+                                                                        "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
                                                                         "parent": null,
@@ -101,7 +101,7 @@ var v = { * foo() {
                                                                         "start": 30,
                                                                         "end": 33
                                                                     },
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -109,7 +109,7 @@ var v = { * foo() {
                                                                     "start": 29,
                                                                     "end": 34
                                                                 },
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 16393,
                                                                 "parent": null,
@@ -127,7 +127,7 @@ var v = { * foo() {
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 16384,
+                                                    "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -135,7 +135,7 @@ var v = { * foo() {
                                                     "start": 19,
                                                     "end": 35
                                                 },
-                                                "flags": 16384,
+                                                "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -147,7 +147,7 @@ var v = { * foo() {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
                                             "parent": null,
@@ -158,7 +158,7 @@ var v = { * foo() {
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -166,7 +166,7 @@ var v = { * foo() {
                                     "start": 9,
                                     "end": 39
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -179,11 +179,11 @@ var v = { * foo() {
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 41
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -191,7 +191,7 @@ var v = { * foo() {
                     "start": 3,
                     "end": 41
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -201,7 +201,7 @@ var v = { * foo() {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -226,13 +226,17 @@ var v = { * foo() {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var v = { * foo() {
+        yield (foo)
+    } };
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

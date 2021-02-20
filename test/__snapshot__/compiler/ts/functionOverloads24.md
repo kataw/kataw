@@ -16,11 +16,11 @@ function foo(bar:any):(a)=>void { return function(){} }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo(bar:number):(b:string)=>void;\nfunction foo(bar:string):(a:number)=>void;\nfunction foo(bar:any):(a)=>void { return function(){} }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -28,7 +28,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -46,7 +46,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -69,7 +69,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -79,7 +79,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -100,7 +100,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     "kind": 131102,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -122,7 +122,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -132,7 +132,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -150,7 +150,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "start": 37,
                         "end": 41
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -160,7 +160,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -174,7 +174,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -192,7 +192,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -215,7 +215,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -225,7 +225,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -246,7 +246,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     "kind": 131102,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -268,7 +268,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -278,7 +278,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -296,7 +296,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "start": 80,
                         "end": 84
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -306,7 +306,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -320,7 +320,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -338,7 +338,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -361,7 +361,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -371,7 +371,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -392,7 +392,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     "kind": 131102,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
                                     "parent": null,
@@ -405,7 +405,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
                                 "parent": null,
@@ -415,7 +415,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -433,7 +433,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "start": 113,
                         "end": 117
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -455,7 +455,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -469,7 +469,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -477,7 +477,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                             "start": 138,
                                             "end": 138
                                         },
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -487,7 +487,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     },
                                     "typeParameters": null,
                                     "type": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -495,7 +495,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                                     "start": 126,
                                     "end": 139
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -505,7 +505,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                             }
                         ],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -513,7 +513,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                         "start": 119,
                         "end": 139
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -522,7 +522,7 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "end": 141
                 },
                 "typeParameters": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -532,7 +532,7 @@ function foo(bar:any):(a)=>void { return function(){} }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -557,13 +557,19 @@ function foo(bar:any):(a)=>void { return function(){} }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo(bar: number): (b: string) => void;
+
+function foo(bar: string): (a: number) => void;
+
+function foo(bar: any): (a) => void { return function () { }; }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

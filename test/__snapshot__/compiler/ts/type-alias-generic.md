@@ -15,11 +15,11 @@ type T<U> = U;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "\ntype T<U> = U;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 225,
@@ -27,7 +27,7 @@ type T<U> = U;
                     "kind": 196712,
                     "text": "T",
                     "rawText": "T",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -41,7 +41,7 @@ type T<U> = U;
                         "kind": 196711,
                         "text": "U",
                         "rawText": "U",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -50,7 +50,7 @@ type T<U> = U;
                         "end": 14
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -67,7 +67,7 @@ type T<U> = U;
                                 "kind": 196711,
                                 "text": "U",
                                 "rawText": "U",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -78,7 +78,7 @@ type T<U> = U;
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -87,7 +87,7 @@ type T<U> = U;
                             "end": 9
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -95,7 +95,7 @@ type T<U> = U;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -105,7 +105,7 @@ type T<U> = U;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -130,13 +130,15 @@ type T<U> = U;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+type T<U> = U;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

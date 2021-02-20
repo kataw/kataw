@@ -17,11 +17,11 @@ var f: () => any;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var j;\nvar f: () => any;\n<any>( /* Preserve */ j = f());\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -34,7 +34,7 @@ var f: () => any;
                                 "kind": 131102,
                                 "text": "j",
                                 "rawText": "j",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -50,11 +50,11 @@ var f: () => any;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 5
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -62,7 +62,7 @@ var f: () => any;
                     "start": 3,
                     "end": 5
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -81,7 +81,7 @@ var f: () => any;
                                 "kind": 131102,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -97,7 +97,7 @@ var f: () => any;
                                     "kind": 175,
                                     "parameterList": [],
                                     "trailingcomma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -115,7 +115,7 @@ var f: () => any;
                                     "start": 19,
                                     "end": 23
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -129,11 +129,11 @@ var f: () => any;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 23
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -141,7 +141,7 @@ var f: () => any;
                     "start": 10,
                     "end": 23
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -159,7 +159,7 @@ var f: () => any;
                             "kind": 196712,
                             "text": "j",
                             "rawText": "j",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -174,7 +174,7 @@ var f: () => any;
                                 "kind": 196712,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -188,14 +188,14 @@ var f: () => any;
                                 "elements": [],
                                 "trailingComma": false,
                                 "transformFlags": 0,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "parent": null,
                                 "emitNode": null,
                                 "start": 54,
                                 "end": 54
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -203,7 +203,7 @@ var f: () => any;
                             "start": 52,
                             "end": 54
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -211,7 +211,7 @@ var f: () => any;
                         "start": 30,
                         "end": 54
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -229,7 +229,7 @@ var f: () => any;
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -254,13 +254,19 @@ var f: () => any;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var j;
+
+var f: () => any;
+
+(j = f())
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

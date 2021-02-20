@@ -48,11 +48,11 @@ class ItemSetEvent extends Event {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "// @lib: es5\nclass Event {\n\n\t private _listeners: any[] = [];\n\n\t constructor () {\n\n\t\t // TODO: remove\n\n\t\t this._listeners = [];\n\n\t}\n\n\t add(listener: () => any): void {\n\n\t\t /// <summary>Registers a new listener for the event.</summary>\n\n\t\t /// <param name=\"listener\">The callback function to register.</param>\n\n\t\t this._listeners.push(listener);\n\n\t}\n\n}\n\nclass ItemSetEvent extends Event {\n\n\t add(listener: (items: ItemSet) => void ) {\n\n\t \tsuper.add(listener);\n\n\t}\n\n}\n",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 48,
@@ -60,7 +60,7 @@ class ItemSetEvent extends Event {
                     "kind": 131102,
                     "text": "Event",
                     "rawText": "Event",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -80,7 +80,7 @@ class ItemSetEvent extends Event {
                                 "kind": 196711,
                                 "text": "_listeners",
                                 "rawText": "_listeners",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -103,7 +103,7 @@ class ItemSetEvent extends Event {
                                     "start": 49,
                                     "end": 53
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -118,7 +118,7 @@ class ItemSetEvent extends Event {
                                     "elements": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -126,7 +126,7 @@ class ItemSetEvent extends Event {
                                     "start": 59,
                                     "end": 59
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -146,7 +146,7 @@ class ItemSetEvent extends Event {
                                 "end": 37
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -166,7 +166,7 @@ class ItemSetEvent extends Event {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -178,7 +178,7 @@ class ItemSetEvent extends Event {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -201,7 +201,7 @@ class ItemSetEvent extends Event {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260571,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -213,7 +213,7 @@ class ItemSetEvent extends Event {
                                                             "kind": 196711,
                                                             "text": "_listeners",
                                                             "rawText": "_listeners",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -221,7 +221,7 @@ class ItemSetEvent extends Event {
                                                             "start": 111,
                                                             "end": 121
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -237,7 +237,7 @@ class ItemSetEvent extends Event {
                                                             "elements": [],
                                                             "trailingComma": false,
                                                             "multiline": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -245,7 +245,7 @@ class ItemSetEvent extends Event {
                                                             "start": 125,
                                                             "end": 125
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -253,7 +253,7 @@ class ItemSetEvent extends Event {
                                                         "start": 123,
                                                         "end": 126
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -271,7 +271,7 @@ class ItemSetEvent extends Event {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -279,7 +279,7 @@ class ItemSetEvent extends Event {
                                         "start": 81,
                                         "end": 127
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -291,7 +291,7 @@ class ItemSetEvent extends Event {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 262144,
+                                "flags": 327680,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -299,7 +299,7 @@ class ItemSetEvent extends Event {
                                 "start": 76,
                                 "end": 131
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -319,7 +319,7 @@ class ItemSetEvent extends Event {
                                     "kind": 196711,
                                     "text": "add",
                                     "rawText": "add",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -337,7 +337,7 @@ class ItemSetEvent extends Event {
                                                 "kind": 131102,
                                                 "text": "listener",
                                                 "rawText": "listener",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -353,7 +353,7 @@ class ItemSetEvent extends Event {
                                                     "kind": 175,
                                                     "parameterList": [],
                                                     "trailingcomma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -371,7 +371,7 @@ class ItemSetEvent extends Event {
                                                     "start": 154,
                                                     "end": 158
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -383,7 +383,7 @@ class ItemSetEvent extends Event {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -393,7 +393,7 @@ class ItemSetEvent extends Event {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -418,7 +418,7 @@ class ItemSetEvent extends Event {
                                                             "kind": 74424,
                                                             "member": {
                                                                 "kind": 4260571,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -430,7 +430,7 @@ class ItemSetEvent extends Event {
                                                                 "kind": 196711,
                                                                 "text": "_listeners",
                                                                 "rawText": "_listeners",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -438,7 +438,7 @@ class ItemSetEvent extends Event {
                                                                 "start": 318,
                                                                 "end": 328
                                                             },
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -450,7 +450,7 @@ class ItemSetEvent extends Event {
                                                             "kind": 196711,
                                                             "text": "push",
                                                             "rawText": "push",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -458,7 +458,7 @@ class ItemSetEvent extends Event {
                                                             "start": 329,
                                                             "end": 333
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -474,7 +474,7 @@ class ItemSetEvent extends Event {
                                                                 "kind": 196712,
                                                                 "text": "listener",
                                                                 "rawText": "listener",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -485,14 +485,14 @@ class ItemSetEvent extends Event {
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 342,
                                                         "end": 343
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -510,7 +510,7 @@ class ItemSetEvent extends Event {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -518,7 +518,7 @@ class ItemSetEvent extends Event {
                                         "start": 167,
                                         "end": 344
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -539,7 +539,7 @@ class ItemSetEvent extends Event {
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -547,7 +547,7 @@ class ItemSetEvent extends Event {
                                 "start": 138,
                                 "end": 348
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -556,7 +556,7 @@ class ItemSetEvent extends Event {
                             "end": 348
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -565,7 +565,7 @@ class ItemSetEvent extends Event {
                     "end": 351
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -579,7 +579,7 @@ class ItemSetEvent extends Event {
                     "kind": 131102,
                     "text": "ItemSetEvent",
                     "rawText": "ItemSetEvent",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -594,7 +594,7 @@ class ItemSetEvent extends Event {
                         "kind": 196712,
                         "text": "Event",
                         "rawText": "Event",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -603,7 +603,7 @@ class ItemSetEvent extends Event {
                         "end": 385
                     },
                     "typeArguments": null,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -627,7 +627,7 @@ class ItemSetEvent extends Event {
                                     "kind": 196711,
                                     "text": "add",
                                     "rawText": "add",
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -645,7 +645,7 @@ class ItemSetEvent extends Event {
                                                 "kind": 131102,
                                                 "text": "listener",
                                                 "rawText": "listener",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
                                                 "parent": null,
@@ -667,7 +667,7 @@ class ItemSetEvent extends Event {
                                                                 "kind": 131102,
                                                                 "text": "items",
                                                                 "rawText": "items",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
                                                                 "parent": null,
@@ -682,7 +682,7 @@ class ItemSetEvent extends Event {
                                                                     "kind": 196711,
                                                                     "text": "ItemSet",
                                                                     "rawText": "ItemSet",
-                                                                    "flags": 0,
+                                                                    "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
                                                                     "parent": null,
@@ -691,7 +691,7 @@ class ItemSetEvent extends Event {
                                                                     "end": 420
                                                                 },
                                                                 "typeArguments": null,
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
                                                                 "parent": null,
@@ -702,7 +702,7 @@ class ItemSetEvent extends Event {
                                                             "initializer": null,
                                                             "accessModifier": null,
                                                             "isReadOnly": false,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
                                                             "parent": null,
@@ -712,7 +712,7 @@ class ItemSetEvent extends Event {
                                                         }
                                                     ],
                                                     "trailingcomma": false,
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
                                                     "parent": null,
@@ -730,7 +730,7 @@ class ItemSetEvent extends Event {
                                                     "start": 424,
                                                     "end": 429
                                                 },
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
                                                 "parent": null,
@@ -742,7 +742,7 @@ class ItemSetEvent extends Event {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
                                             "parent": null,
@@ -752,7 +752,7 @@ class ItemSetEvent extends Event {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -775,7 +775,7 @@ class ItemSetEvent extends Event {
                                                         "kind": 74424,
                                                         "member": {
                                                             "kind": 4260561,
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -787,7 +787,7 @@ class ItemSetEvent extends Event {
                                                             "kind": 196711,
                                                             "text": "add",
                                                             "rawText": "add",
-                                                            "flags": 0,
+                                                            "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
                                                             "parent": null,
@@ -795,7 +795,7 @@ class ItemSetEvent extends Event {
                                                             "start": 444,
                                                             "end": 447
                                                         },
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
                                                         "parent": null,
@@ -811,7 +811,7 @@ class ItemSetEvent extends Event {
                                                                 "kind": 196712,
                                                                 "text": "listener",
                                                                 "rawText": "listener",
-                                                                "flags": 0,
+                                                                "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
                                                                 "parent": null,
@@ -822,14 +822,14 @@ class ItemSetEvent extends Event {
                                                         ],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 0,
+                                                        "flags": 65536,
                                                         "intersects": false,
                                                         "parent": null,
                                                         "emitNode": null,
                                                         "start": 456,
                                                         "end": 457
                                                     },
-                                                    "flags": 0,
+                                                    "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
                                                     "parent": null,
@@ -847,7 +847,7 @@ class ItemSetEvent extends Event {
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 16384,
+                                        "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -855,7 +855,7 @@ class ItemSetEvent extends Event {
                                         "start": 433,
                                         "end": 458
                                     },
-                                    "flags": 16384,
+                                    "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -867,7 +867,7 @@ class ItemSetEvent extends Event {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -875,7 +875,7 @@ class ItemSetEvent extends Event {
                                 "start": 394,
                                 "end": 462
                             },
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -884,7 +884,7 @@ class ItemSetEvent extends Event {
                             "end": 462
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -893,7 +893,7 @@ class ItemSetEvent extends Event {
                     "end": 465
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -903,7 +903,7 @@ class ItemSetEvent extends Event {
             }
         ],
         "transformFlags": 0,
-        "flags": 16384,
+        "flags": 81920,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -928,13 +928,29 @@ class ItemSetEvent extends Event {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+class Event {
+    private _listeners: any[] = [];
+    constructor() {
+        this._listeners = []
+    }
+    add(listener: () => any): void {
+        this._listeners.push(listener)
+    }
+}
+
+class ItemSetEvent extends Event {
+    add(listener: (items: ItemSet) => void) {
+        super.add(listener)
+    }
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -20,11 +20,11 @@ declare function decodeURI(encodedURI: string): string;
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "declare var NaN: number;\ndeclare function eval(x: string): any;\ndeclare function parseInt(s: string, radix?: number): number;\ndeclare function parseFloat(string: string): number;\ndeclare function isNaN(number: number): boolean;\ndeclare function isFinite(number: number): boolean;\ndeclare function decodeURI(encodedURI: string): string;",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -37,7 +37,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "NaN",
                                 "rawText": "NaN",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -62,11 +62,11 @@ declare function decodeURI(encodedURI: string): string;
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 23
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -74,7 +74,7 @@ declare function decodeURI(encodedURI: string): string;
                     "start": 11,
                     "end": 23
                 },
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -88,7 +88,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "eval",
                     "rawText": "eval",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -106,7 +106,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -129,7 +129,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -139,7 +139,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -159,7 +159,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -173,7 +173,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "parseInt",
                     "rawText": "parseInt",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -191,7 +191,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -214,7 +214,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -229,7 +229,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "radix",
                                 "rawText": "radix",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -252,7 +252,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -262,7 +262,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -282,7 +282,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -296,7 +296,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "parseFloat",
                     "rawText": "parseFloat",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -314,7 +314,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "string",
                                 "rawText": "string",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -337,7 +337,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -347,7 +347,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -367,7 +367,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -381,7 +381,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "isNaN",
                     "rawText": "isNaN",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -399,7 +399,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "number",
                                 "rawText": "number",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -422,7 +422,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -432,7 +432,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -452,7 +452,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -466,7 +466,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "isFinite",
                     "rawText": "isFinite",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -484,7 +484,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "number",
                                 "rawText": "number",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -507,7 +507,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -517,7 +517,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -537,7 +537,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201342976,
+                "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -551,7 +551,7 @@ declare function decodeURI(encodedURI: string): string;
                     "kind": 131102,
                     "text": "decodeURI",
                     "rawText": "decodeURI",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -569,7 +569,7 @@ declare function decodeURI(encodedURI: string): string;
                                 "kind": 131102,
                                 "text": "encodedURI",
                                 "rawText": "encodedURI",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -592,7 +592,7 @@ declare function decodeURI(encodedURI: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -602,7 +602,7 @@ declare function decodeURI(encodedURI: string): string;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -622,7 +622,7 @@ declare function decodeURI(encodedURI: string): string;
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201326592,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -632,7 +632,7 @@ declare function decodeURI(encodedURI: string): string;
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -657,13 +657,27 @@ declare function decodeURI(encodedURI: string): string;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+declare var NaN: number;
+
+declare function eval(x: string): any;
+
+declare function parseInt(s: string, radix?: number): number;
+
+declare function parseFloat(string: string): number;
+
+declare function isNaN(number: number): boolean;
+
+declare function isFinite(number: number): boolean;
+
+declare function decodeURI(encodedURI: string): string;
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

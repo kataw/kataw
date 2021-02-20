@@ -22,11 +22,11 @@ try {} catch (ex: string | number) {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "try {} catch (ex) {}\ntry {} catch (ex: unknown) {}\ntry {} catch (ex: any) {}\n\n// The following can't be error'd at parse time\ntry {} catch (ex: A) {}\ntry {} catch (ex: Error) {}\ntry {} catch (ex: string) {}\ntry {} catch (ex: string | number) {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097375,
@@ -36,7 +36,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -44,7 +44,7 @@ try {} catch (ex: string | number) {}
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -60,7 +60,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -70,7 +70,7 @@ try {} catch (ex: string | number) {}
                         },
                         "type": null,
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -84,7 +84,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -92,7 +92,7 @@ try {} catch (ex: string | number) {}
                             "start": 19,
                             "end": 19
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -100,7 +100,7 @@ try {} catch (ex: string | number) {}
                         "start": 17,
                         "end": 20
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -109,7 +109,7 @@ try {} catch (ex: string | number) {}
                     "end": 20
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -125,7 +125,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -133,7 +133,7 @@ try {} catch (ex: string | number) {}
                         "start": 26,
                         "end": 26
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -149,7 +149,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -168,7 +168,7 @@ try {} catch (ex: string | number) {}
                             "end": 46
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -182,7 +182,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -190,7 +190,7 @@ try {} catch (ex: string | number) {}
                             "start": 49,
                             "end": 49
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -198,7 +198,7 @@ try {} catch (ex: string | number) {}
                         "start": 47,
                         "end": 50
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -207,7 +207,7 @@ try {} catch (ex: string | number) {}
                     "end": 50
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -223,7 +223,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -231,7 +231,7 @@ try {} catch (ex: string | number) {}
                         "start": 56,
                         "end": 56
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -247,7 +247,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -266,7 +266,7 @@ try {} catch (ex: string | number) {}
                             "end": 72
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -280,7 +280,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -288,7 +288,7 @@ try {} catch (ex: string | number) {}
                             "start": 75,
                             "end": 75
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -296,7 +296,7 @@ try {} catch (ex: string | number) {}
                         "start": 73,
                         "end": 76
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -305,7 +305,7 @@ try {} catch (ex: string | number) {}
                     "end": 76
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -321,7 +321,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -329,7 +329,7 @@ try {} catch (ex: string | number) {}
                         "start": 131,
                         "end": 131
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -345,7 +345,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -359,7 +359,7 @@ try {} catch (ex: string | number) {}
                                 "kind": 196711,
                                 "text": "A",
                                 "rawText": "A",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -368,7 +368,7 @@ try {} catch (ex: string | number) {}
                                 "end": 145
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -377,7 +377,7 @@ try {} catch (ex: string | number) {}
                             "end": 146
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -391,7 +391,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -399,7 +399,7 @@ try {} catch (ex: string | number) {}
                             "start": 148,
                             "end": 148
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -407,7 +407,7 @@ try {} catch (ex: string | number) {}
                         "start": 146,
                         "end": 149
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -416,7 +416,7 @@ try {} catch (ex: string | number) {}
                     "end": 149
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -432,7 +432,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -440,7 +440,7 @@ try {} catch (ex: string | number) {}
                         "start": 155,
                         "end": 155
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -456,7 +456,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -470,7 +470,7 @@ try {} catch (ex: string | number) {}
                                 "kind": 196711,
                                 "text": "Error",
                                 "rawText": "Error",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -479,7 +479,7 @@ try {} catch (ex: string | number) {}
                                 "end": 173
                             },
                             "typeArguments": null,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -488,7 +488,7 @@ try {} catch (ex: string | number) {}
                             "end": 174
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -502,7 +502,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -510,7 +510,7 @@ try {} catch (ex: string | number) {}
                             "start": 176,
                             "end": 176
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -518,7 +518,7 @@ try {} catch (ex: string | number) {}
                         "start": 174,
                         "end": 177
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -527,7 +527,7 @@ try {} catch (ex: string | number) {}
                     "end": 177
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -543,7 +543,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -551,7 +551,7 @@ try {} catch (ex: string | number) {}
                         "start": 183,
                         "end": 183
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -567,7 +567,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -586,7 +586,7 @@ try {} catch (ex: string | number) {}
                             "end": 202
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -600,7 +600,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -608,7 +608,7 @@ try {} catch (ex: string | number) {}
                             "start": 205,
                             "end": 205
                         },
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -616,7 +616,7 @@ try {} catch (ex: string | number) {}
                         "start": 203,
                         "end": 206
                     },
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -625,7 +625,7 @@ try {} catch (ex: string | number) {}
                     "end": 206
                 },
                 "finallyBlock": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -641,7 +641,7 @@ try {} catch (ex: string | number) {}
                         "kind": 2084,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -649,7 +649,7 @@ try {} catch (ex: string | number) {}
                         "start": 212,
                         "end": 212
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -665,7 +665,7 @@ try {} catch (ex: string | number) {}
                             "kind": 131102,
                             "text": "ex",
                             "rawText": "ex",
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1025,
                             "parent": null,
@@ -697,7 +697,7 @@ try {} catch (ex: string | number) {}
                                     "end": 240
                                 }
                             ],
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -706,7 +706,7 @@ try {} catch (ex: string | number) {}
                             "end": 240
                         },
                         "initializer": null,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -720,7 +720,7 @@ try {} catch (ex: string | number) {}
                             "kind": 2084,
                             "statements": [],
                             "multiline": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
                             "parent": null,
@@ -728,7 +728,7 @@ try {} catch (ex: string | number) {}
                             "start": 243,
                             "end": 243
                         },
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -736,7 +736,7 @@ try {} catch (ex: string | number) {}
                         "start": 241,
                         "end": 244
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -745,7 +745,7 @@ try {} catch (ex: string | number) {}
                     "end": 244
                 },
                 "finallyBlock": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -755,7 +755,7 @@ try {} catch (ex: string | number) {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -780,13 +780,34 @@ try {} catch (ex: string | number) {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+try {}
+catch (ex) {}
+
+try {}
+catch (ex: unknown) {}
+
+try {}
+catch (ex: any) {}
+
+try {}
+catch (ex: A) {}
+
+try {}
+catch (ex: Error) {}
+
+try {}
+catch (ex: string) {}
+
+try {}
+catch (ex: string | number) {}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

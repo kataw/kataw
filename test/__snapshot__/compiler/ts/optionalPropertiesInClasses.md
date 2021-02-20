@@ -30,11 +30,11 @@ class C3 implements ifoo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface ifoo {\n\tx?:number;\n\ty:number;\n}\n\nclass C1 implements ifoo {\n\tpublic y:number;\n}\n\nclass C2 implements ifoo { // ERROR - still need 'y'\n\tpublic x:number;\n}\n\nclass C3 implements ifoo {\n\tpublic x:number;\n\tpublic y:number;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -42,7 +42,7 @@ class C3 implements ifoo {
                     "kind": 196712,
                     "text": "ifoo",
                     "rawText": "ifoo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -61,7 +61,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -84,7 +84,7 @@ class C3 implements ifoo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -98,7 +98,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -121,7 +121,7 @@ class C3 implements ifoo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -130,7 +130,7 @@ class C3 implements ifoo {
                             "end": 39
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -138,7 +138,7 @@ class C3 implements ifoo {
                     "start": 16,
                     "end": 39
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -152,7 +152,7 @@ class C3 implements ifoo {
                     "kind": 131102,
                     "text": "C1",
                     "rawText": "C1",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -173,7 +173,7 @@ class C3 implements ifoo {
                                     "kind": 196711,
                                     "text": "ifoo",
                                     "rawText": "ifoo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -182,7 +182,7 @@ class C3 implements ifoo {
                                     "end": 67
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -190,7 +190,7 @@ class C3 implements ifoo {
                                 "start": 62,
                                 "end": 69
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -199,7 +199,7 @@ class C3 implements ifoo {
                             "end": 67
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -216,7 +216,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -250,7 +250,7 @@ class C3 implements ifoo {
                                 "end": 77
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -259,7 +259,7 @@ class C3 implements ifoo {
                             "end": 87
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -268,7 +268,7 @@ class C3 implements ifoo {
                     "end": 89
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -282,7 +282,7 @@ class C3 implements ifoo {
                     "kind": 131102,
                     "text": "C2",
                     "rawText": "C2",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -303,7 +303,7 @@ class C3 implements ifoo {
                                     "kind": 196711,
                                     "text": "ifoo",
                                     "rawText": "ifoo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -312,7 +312,7 @@ class C3 implements ifoo {
                                     "end": 115
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -320,7 +320,7 @@ class C3 implements ifoo {
                                 "start": 110,
                                 "end": 117
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -329,7 +329,7 @@ class C3 implements ifoo {
                             "end": 115
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -346,7 +346,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -380,7 +380,7 @@ class C3 implements ifoo {
                                 "end": 151
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -389,7 +389,7 @@ class C3 implements ifoo {
                             "end": 161
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -398,7 +398,7 @@ class C3 implements ifoo {
                     "end": 163
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -412,7 +412,7 @@ class C3 implements ifoo {
                     "kind": 131102,
                     "text": "C3",
                     "rawText": "C3",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -433,7 +433,7 @@ class C3 implements ifoo {
                                     "kind": 196711,
                                     "text": "ifoo",
                                     "rawText": "ifoo",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -442,7 +442,7 @@ class C3 implements ifoo {
                                     "end": 189
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -450,7 +450,7 @@ class C3 implements ifoo {
                                 "start": 184,
                                 "end": 191
                             },
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -459,7 +459,7 @@ class C3 implements ifoo {
                             "end": 189
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -476,7 +476,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -510,7 +510,7 @@ class C3 implements ifoo {
                                 "end": 199
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -524,7 +524,7 @@ class C3 implements ifoo {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -558,7 +558,7 @@ class C3 implements ifoo {
                                 "end": 217
                             },
                             "isStatic": false,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "parent": null,
@@ -567,7 +567,7 @@ class C3 implements ifoo {
                             "end": 227
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
                     "parent": null,
@@ -576,7 +576,7 @@ class C3 implements ifoo {
                     "end": 229
                 },
                 "decorators": null,
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
                 "parent": null,
@@ -586,7 +586,7 @@ class C3 implements ifoo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -611,13 +611,31 @@ class C3 implements ifoo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface ifoo {
+    x?: number;
+    y: number;
+}
+
+class C1 implements ifoo {
+    public y: number;
+}
+
+class C2 implements ifoo {
+    public x: number;
+}
+
+class C3 implements ifoo {
+    public x: number;
+    public y: number;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

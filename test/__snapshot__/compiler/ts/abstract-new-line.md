@@ -113,13 +113,19 @@ class B {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+abstract
+
+class B {
+
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

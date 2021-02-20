@@ -30,11 +30,11 @@ var d = new x(x); // no error
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "var x: any;\nvar a = new x();\nvar b = new x('hello');\nvar c = new x(x);\n\n// grammar allows this for constructors\nvar d = new x<any>(x); // no error\n\n//// [anyAsConstructor.js]\n// any is considered an untyped function call\n// can be called except with type arguments which is an error\nvar x;\nvar a = new x();\nvar b = new x('hello');\nvar c = new x(x);\n// grammar allows this for constructors\nvar d = new x(x); // no error",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097397,
@@ -47,7 +47,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -72,11 +72,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 10
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -84,7 +84,7 @@ var d = new x(x); // no error
                     "start": 3,
                     "end": 10
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -103,7 +103,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -119,7 +119,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -133,7 +133,7 @@ var d = new x(x); // no error
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -145,7 +145,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 27
                             },
                             "flags": 15,
@@ -153,11 +153,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 27
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -165,7 +165,7 @@ var d = new x(x); // no error
                     "start": 15,
                     "end": 27
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -184,7 +184,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -200,7 +200,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -216,7 +216,7 @@ var d = new x(x); // no error
                                             "kind": 67279,
                                             "text": "hello",
                                             "rawText": "hello",
-                                            "flags": 16777216,
+                                            "flags": 16842752,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -227,7 +227,7 @@ var d = new x(x); // no error
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -239,7 +239,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 51
                             },
                             "flags": 32,
@@ -247,11 +247,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 51
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -259,7 +259,7 @@ var d = new x(x); // no error
                     "start": 32,
                     "end": 51
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -278,7 +278,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -294,7 +294,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -310,7 +310,7 @@ var d = new x(x); // no error
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -321,7 +321,7 @@ var d = new x(x); // no error
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -333,7 +333,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 69
                             },
                             "flags": 56,
@@ -341,11 +341,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 69
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -353,7 +353,7 @@ var d = new x(x); // no error
                     "start": 56,
                     "end": 69
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -372,7 +372,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -390,7 +390,7 @@ var d = new x(x); // no error
                                         "kind": 196712,
                                         "text": "x",
                                         "rawText": "x",
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
                                         "parent": null,
@@ -412,7 +412,7 @@ var d = new x(x); // no error
                                                 "end": 129
                                             }
                                         ],
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
                                         "parent": null,
@@ -427,7 +427,7 @@ var d = new x(x); // no error
                                                 "kind": 196712,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 0,
+                                                "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
                                                 "parent": null,
@@ -438,14 +438,14 @@ var d = new x(x); // no error
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 0,
+                                        "flags": 65536,
                                         "intersects": false,
                                         "parent": null,
                                         "emitNode": null,
                                         "start": 131,
                                         "end": 132
                                     },
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
                                     "parent": null,
@@ -460,7 +460,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 133
                             },
                             "flags": 115,
@@ -468,11 +468,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 133
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -480,7 +480,7 @@ var d = new x(x); // no error
                     "start": 115,
                     "end": 133
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -499,7 +499,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -515,11 +515,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 288
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -527,7 +527,7 @@ var d = new x(x); // no error
                     "start": 286,
                     "end": 288
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -546,7 +546,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -562,7 +562,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -576,7 +576,7 @@ var d = new x(x); // no error
                                     "elements": [],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -588,7 +588,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 305
                             },
                             "flags": 293,
@@ -596,11 +596,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 305
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -608,7 +608,7 @@ var d = new x(x); // no error
                     "start": 293,
                     "end": 305
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -627,7 +627,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -643,7 +643,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -659,7 +659,7 @@ var d = new x(x); // no error
                                             "kind": 67279,
                                             "text": "hello",
                                             "rawText": "hello",
-                                            "flags": 16777216,
+                                            "flags": 16842752,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -670,7 +670,7 @@ var d = new x(x); // no error
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -682,7 +682,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 329
                             },
                             "flags": 310,
@@ -690,11 +690,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 329
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -702,7 +702,7 @@ var d = new x(x); // no error
                     "start": 310,
                     "end": 329
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -721,7 +721,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -737,7 +737,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -753,7 +753,7 @@ var d = new x(x); // no error
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -764,7 +764,7 @@ var d = new x(x); // no error
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -776,7 +776,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 347
                             },
                             "flags": 334,
@@ -784,11 +784,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 347
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -796,7 +796,7 @@ var d = new x(x); // no error
                     "start": 334,
                     "end": 347
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -815,7 +815,7 @@ var d = new x(x); // no error
                                 "kind": 131102,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -831,7 +831,7 @@ var d = new x(x); // no error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -847,7 +847,7 @@ var d = new x(x); // no error
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 0,
+                                            "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
                                             "parent": null,
@@ -858,7 +858,7 @@ var d = new x(x); // no error
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "parent": null,
                                     "emitNode": null,
@@ -870,7 +870,7 @@ var d = new x(x); // no error
                                 "transformFlags": 32,
                                 "parent": null,
                                 "emitNode": null,
-                                "start": 0,
+                                "start": 65536,
                                 "end": 405
                             },
                             "flags": 392,
@@ -878,11 +878,11 @@ var d = new x(x); // no error
                             "transformFlags": 0,
                             "parent": null,
                             "emitNode": null,
-                            "start": 0,
+                            "start": 65536,
                             "end": 405
                         }
                     ],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -890,7 +890,7 @@ var d = new x(x); // no error
                     "start": 392,
                     "end": 405
                 },
-                "flags": 16384,
+                "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
                 "parent": null,
@@ -900,7 +900,7 @@ var d = new x(x); // no error
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -925,13 +925,33 @@ var d = new x(x); // no error
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+var x: any;
+
+var a = new x();
+
+var b = new x("hello");
+
+var c = new x(x);
+
+var d = new x<any>(x);
+
+var x;
+
+var a = new x();
+
+var b = new x("hello");
+
+var c = new x(x);
+
+var d = new x(x);
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

@@ -14,11 +14,11 @@ function foo<>() {}
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function foo<>() {}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -26,7 +26,7 @@ function foo<>() {}
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -38,7 +38,7 @@ function foo<>() {}
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -53,7 +53,7 @@ function foo<>() {}
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -61,7 +61,7 @@ function foo<>() {}
                         "start": 18,
                         "end": 18
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -72,7 +72,7 @@ function foo<>() {}
                 "typeParameters": {
                     "kind": 233,
                     "typeParameterList": [],
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -80,7 +80,7 @@ function foo<>() {}
                     "start": 13,
                     "end": 13
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -90,7 +90,7 @@ function foo<>() {}
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -115,13 +115,15 @@ function foo<>() {}
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function foo<>() { }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

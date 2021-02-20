@@ -14,11 +14,11 @@ function b(a) { return null; }
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "function b(a) { return null; }",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 264284,
@@ -26,7 +26,7 @@ function b(a) { return null; }
                     "kind": 131102,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
                     "parent": null,
@@ -44,7 +44,7 @@ function b(a) { return null; }
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
                                 "parent": null,
@@ -58,7 +58,7 @@ function b(a) { return null; }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 0,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
                             "parent": null,
@@ -68,7 +68,7 @@ function b(a) { return null; }
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -87,7 +87,7 @@ function b(a) { return null; }
                                 "expression": {
                                     "kind": 4260512,
                                     "text": null,
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -95,7 +95,7 @@ function b(a) { return null; }
                                     "start": 22,
                                     "end": 27
                                 },
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -105,7 +105,7 @@ function b(a) { return null; }
                             }
                         ],
                         "multiline": false,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -113,7 +113,7 @@ function b(a) { return null; }
                         "start": 15,
                         "end": 28
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -122,7 +122,7 @@ function b(a) { return null; }
                     "end": 30
                 },
                 "typeParameters": null,
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
                 "parent": null,
@@ -132,7 +132,7 @@ function b(a) { return null; }
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -157,13 +157,15 @@ function b(a) { return null; }
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+function b(a) { return null; }
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

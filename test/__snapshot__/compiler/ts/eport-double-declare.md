@@ -136,13 +136,17 @@ export declare declare var name;
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+export type declare = var;
+
+name
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

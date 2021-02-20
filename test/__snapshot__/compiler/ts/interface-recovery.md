@@ -21,11 +21,11 @@ interface Foo {
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "interface Foo {\n  private a;\n  public b;\n  protected c;\n  static d;\n  declare e;\n  abstract f;\n}",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 119,
@@ -33,7 +33,7 @@ interface Foo {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "parent": null,
@@ -52,7 +52,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -75,7 +75,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -89,7 +89,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -112,7 +112,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -126,7 +126,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -149,7 +149,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -163,7 +163,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -177,7 +177,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -191,7 +191,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "d",
                                 "rawText": "d",
-                                "flags": 2,
+                                "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -205,7 +205,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -219,7 +219,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "declare",
                                 "rawText": "declare",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -233,7 +233,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -247,7 +247,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 2,
+                                "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -261,7 +261,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -275,7 +275,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "abstract",
                                 "rawText": "abstract",
-                                "flags": 16384,
+                                "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -289,7 +289,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 2,
+                            "flags": 65538,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -303,7 +303,7 @@ interface Foo {
                                 "kind": 196711,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 2,
+                                "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "parent": null,
@@ -317,7 +317,7 @@ interface Foo {
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 16384,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
                             "parent": null,
@@ -326,7 +326,7 @@ interface Foo {
                             "end": 94
                         }
                     ],
-                    "flags": 16384,
+                    "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -334,7 +334,7 @@ interface Foo {
                     "start": 15,
                     "end": 94
                 },
-                "flags": 0,
+                "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
                 "parent": null,
@@ -344,7 +344,7 @@ interface Foo {
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -391,13 +391,25 @@ interface Foo {
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+interface Foo {
+    a;
+    b;
+    c;
+    static;
+    d;
+    declare;
+    e;
+    abstract;
+    f;
+}
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 

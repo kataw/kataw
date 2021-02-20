@@ -15,11 +15,11 @@ foo<number>();
 
 ```javascript
 {
-    "kind": 196,
+    "kind": 149,
     "source": "foo<A>();\nfoo<number>();",
     "filename": "",
-    "scriptBody": {
-        "kind": 197,
+    "moduleBody": {
+        "kind": 150,
         "statements": [
             {
                 "kind": 2097233,
@@ -29,7 +29,7 @@ foo<number>();
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -46,7 +46,7 @@ foo<number>();
                                     "kind": 196711,
                                     "text": "A",
                                     "rawText": "A",
-                                    "flags": 0,
+                                    "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
                                     "parent": null,
@@ -55,7 +55,7 @@ foo<number>();
                                     "end": 5
                                 },
                                 "typeArguments": null,
-                                "flags": 0,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
                                 "parent": null,
@@ -64,7 +64,7 @@ foo<number>();
                                 "end": 6
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -77,14 +77,14 @@ foo<number>();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -108,7 +108,7 @@ foo<number>();
                         "kind": 196712,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 16384,
+                        "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
                         "parent": null,
@@ -130,7 +130,7 @@ foo<number>();
                                 "end": 20
                             }
                         ],
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
                         "parent": null,
@@ -143,14 +143,14 @@ foo<number>();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 0,
+                        "flags": 65536,
                         "intersects": false,
                         "parent": null,
                         "emitNode": null,
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 0,
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
                     "parent": null,
@@ -168,7 +168,7 @@ foo<number>();
             }
         ],
         "transformFlags": 0,
-        "flags": 0,
+        "flags": 65536,
         "intersects": false,
         "parent": null,
         "emitNode": null,
@@ -193,13 +193,17 @@ foo<number>();
 
 
 ```javascript
-@{x2716}@ Soon to be open sourced
+
+foo<A>()
+
+foo<number>()
+
 ```
 
 ### Diagnostics
 
 
 ```javascript
-
+@{x2714}@ No errors
 ```
 
