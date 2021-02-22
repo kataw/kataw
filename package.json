@@ -31,6 +31,10 @@
     "minify",
     "transform"
   ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/kataw"
+  },
   "files": [
     "dist/*.min.js",
     "dist/**/*.d.ts",
