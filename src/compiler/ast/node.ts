@@ -524,5 +524,9 @@ export const enum NodeKind {
   DummyIdentifier = 250 | IsIdentifier,
   CatchParameter = 251 | IsStatement,
   NamespaceBlock = 252 | IsStatement,
-  NamespaceDeclaration = 253 | IsStatement
+  NamespaceDeclaration = 253 | IsStatement,
+
+  // Tokens
+
+  Period = 254
 }

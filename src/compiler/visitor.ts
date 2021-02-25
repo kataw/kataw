@@ -401,7 +401,6 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
     case NodeKind.ArrowParameters:
       return updateArrowParameters(
         node,
-        visitNode(node.typeParameters, visitor),
         visitParameterList(node.elements, visitor, context),
         visitNode(node.type, visitor),
         visitNode(node.accessModifier, visitor),

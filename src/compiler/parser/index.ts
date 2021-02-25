@@ -1311,8 +1311,8 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
       return parseArrowFunction(
         parser,
         context,
+        null,
         createArrowParameters(
-          null,
           [
             createFormalParameter(
               /* ellipsis */ false,
@@ -1346,8 +1346,8 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
       return parseArrowFunction(
         parser,
         context,
+        null,
         createArrowParameters(
-          null,
           [
             createFormalParameter(
               false,
@@ -1377,7 +1377,7 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
     }
   }
   return left.kind === NodeKind.ArrowParameters && parser.token === Token.Arrow
-    ? parseArrowFunction(parser, context, left, token === Token.AsyncKeyword, /* isParenthesized */ true, curPos)
+    ? parseArrowFunction(parser, context, null, left, token === Token.AsyncKeyword, /* isParenthesized */ true, curPos)
     : parseConditionalExpression(parser, context, left, curPos);
 }
 
@@ -1547,17 +1547,7 @@ function parseUpdateExpression(
       return parseJsxElementOrFragment(parser, context, /*inExpressionContext*/ true);
     }
 
-    if (context & Context.InArrowContext) return parseTypeAssertion(parser, context);
-
-    const typeParameters = tryParse(parser, context, nextProductionIsTypeParameter);
-
-    if (!typeParameters) return parseTypeAssertion(parser, context);
-
-    return parseCoverParenthesizedExpressionAndArrowParameterList(
-      parser,
-      context | Context.InArrowContext,
-      typeParameters
-    );
+    return parseTypeAssertion(parser, context);
   }
 
   const operand = parseLeftHandSideExpression(parser, context, /* allowCalls */ true);
@@ -1568,11 +1558,6 @@ function parseUpdateExpression(
     return createPostfixUpdateExpression(operator, operand, parser.nodeFlags, pos, parser.curPos);
   }
   return operand;
-}
-
-function nextProductionIsTypeParameter(parser: ParserState, context: Context) {
-  const expert = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
-  return parser.token === Token.LeftParen ? expert : undefined;
 }
 
 function nextTokenIsIdentifierOrKeywordOrGreaterThan(parser: ParserState, context: Context) {
@@ -1608,6 +1593,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
       /* Property */
       case Token.Period:
         nextToken(parser, context);
+        let x = { kind: NodeKind.Period, pos, end: parser.curPos };
         member = createPropertyAccessExpression(
           member,
           parsePropertyOrPrivatePropertyName(parser, context),
@@ -1615,6 +1601,8 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           pos,
           parser.curPos
         );
+        member.period = x;
+
         break;
 
       /* Property */
@@ -1820,8 +1808,8 @@ function parseCoverCallExpressionAndAsyncArrowHead(
               expression = parseArrowFunction(
                 parser,
                 context,
+                null,
                 createArrowParameters(
-                  null,
                   [
                     createFormalParameter(
                       /* ellipsis */ false,
@@ -1877,6 +1865,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           expression = parseArrowFunction(
             parser,
             context,
+            null,
             convertToArrowParams(parser, context, elements, innerPos),
             token === Token.AsyncKeyword,
             expression.kind === NodeKind.ArrowParameters,
@@ -1988,6 +1977,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           expression = parseArrowFunction(
             parser,
             context,
+            null,
             expression,
             token === Token.AsyncKeyword,
             /* isParenthesized */ true,
@@ -2010,7 +2000,6 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           if (!isParenthesized) {
             expression.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
             expression = createArrowParameters(
-              null,
               [
                 createFormalParameter(
                   false,
@@ -2037,6 +2026,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
           expression = parseArrowFunction(
             parser,
             context,
+            null,
             expression,
             token === Token.AsyncKeyword,
             isParenthesized,
@@ -2102,7 +2092,6 @@ function parseCoverCallExpressionAndAsyncArrowHead(
         }
 
         return createArrowParameters(
-          null,
           convertToArrowParams(parser, context, elements, innerPos),
           type,
           null,
@@ -2116,7 +2105,6 @@ function parseCoverCallExpressionAndAsyncArrowHead(
 
     if (parser.token === Token.Arrow) {
       return createArrowParameters(
-        null,
         convertToArrowParams(parser, context, elements, innerPos),
         null,
         null,
@@ -2704,6 +2692,7 @@ function parseComputedPropertyName(parser: ParserState, context: Context): Compu
 function parseArrowFunction(
   parser: ParserState,
   context: Context,
+  typeParameters: TypeParameters | null,
   arrowParameters: any,
   isAsync: boolean,
   isParenthesized: boolean,
@@ -2711,6 +2700,7 @@ function parseArrowFunction(
 ): ArrowFunction {
   consume(parser, context | Context.AllowRegExp, Token.Arrow);
   return createArrowFunction(
+    typeParameters,
     arrowParameters,
     parseConciseOrFunctionBody(
       parser,
@@ -2773,7 +2763,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
     case Token.LeftBrace:
       return parseObjectLiteral(parser, context);
     case Token.LeftParen:
-      return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context | Context.InArrowContext, 1);
+      return parseCoverParenthesizedExpressionAndArrowParameterList(parser, context | Context.InArrowContext);
     case Token.Decorator:
     case Token.ClassKeyword:
       return parseClassExpression(parser, context);
@@ -2807,11 +2797,8 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
       return parseArrowFunction(
         parser,
         context,
-        parseCoverParenthesizedExpressionAndArrowParameterList(
-          parser,
-          context | Context.InArrowContext,
-          typeParameters
-        ),
+        null,
+        parseCoverParenthesizedExpressionAndArrowParameterList(parser, context | Context.InArrowContext),
         true,
         true,
         pos
@@ -2883,8 +2870,7 @@ function parseNewExpressionOrNewDotTarget(parser: ParserState, context: Context)
 
 function parseCoverParenthesizedExpressionAndArrowParameterList(
   parser: ParserState,
-  context: Context,
-  typeParameters: any
+  context: Context
 ): ParenthesizedExpression | ArrowParameters | DummyIdentifier {
   const pos = parser.curPos;
   nextToken(parser, context | Context.AllowRegExp);
@@ -2900,7 +2886,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
       case Token.Colon:
       case Token.LeftBrace:
         return createArrowParameters(
-          typeParameters,
           [],
           consumeOpt(parser, context, Token.Colon) ? parseTypeOrTypePredicate(parser, context) : null,
           null,
@@ -3017,8 +3002,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             expression = parseArrowFunction(
               parser,
               context,
+              null,
               createArrowParameters(
-                createTypeParameters([], parser.nodeFlags, pos, pos),
                 [
                   createFormalParameter(
                     /* ellipsis */ false,
@@ -3076,7 +3061,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         if (!isParenthesized) {
           expression.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
           expression = createArrowParameters(
-            createTypeParameters([], parser.nodeFlags, pos, pos),
             [
               createFormalParameter(
                 false,
@@ -3103,6 +3087,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         expression = parseArrowFunction(
           parser,
           context,
+          null,
           expression,
           token === Token.AsyncKeyword,
           isParenthesized,
@@ -3138,7 +3123,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           }
 
           return createArrowParameters(
-            typeParameters,
             [
               createFormalParameter(
                 false,
@@ -3181,18 +3165,10 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           );
         }
 
-        return createArrowParameters(
-          createTypeParameters([], parser.nodeFlags, pos, pos),
-          [expression as any],
-          null,
-          null,
-          false,
-          NodeFlags.None,
-          pos,
-          parser.curPos
-        );
+        return createArrowParameters([expression as any], null, null, false, NodeFlags.None, pos, parser.curPos);
       }
     }
+
     return createParenthesizedExpression(expression, parser.nodeFlags, pos, parser.curPos);
   }
 
@@ -3311,8 +3287,8 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                     expression = parseArrowFunction(
                       parser,
                       context,
+                      null,
                       createArrowParameters(
-                        createTypeParameters([], parser.nodeFlags, pos, pos),
                         [
                           createFormalParameter(
                             /* ellipsis */ false,
@@ -3371,7 +3347,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 if (!isParenthesized) {
                   expression.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
                   expression = createArrowParameters(
-                    null,
                     [
                       createFormalParameter(
                         false,
@@ -3398,6 +3373,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
                 expression = parseArrowFunction(
                   parser,
                   context,
+                  null,
                   expression,
                   token === Token.AsyncKeyword,
                   isParenthesized,
@@ -3445,7 +3421,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           }
 
           return createArrowParameters(
-            typeParameters,
             convertToArrowParams(parser, context, expressions, pos),
             type,
             null as any,
@@ -3462,7 +3437,6 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
       if (parser.token === Token.Arrow) {
         return createArrowParameters(
-          typeParameters,
           convertToArrowParams(parser, context, expressions, pos),
           null,
           null,
@@ -6327,13 +6301,59 @@ function parseTypeOrTypePredicate(parser: ParserState, context: Context): TypeNo
     : type;
 }
 
-function parseTypeAssertion(parser: ParserState, context: Context): TypeAssertion {
+function parseTypeAssertion(parser: ParserState, context: Context): TypeAssertion | any {
   const pos = parser.curPos;
-  consume(parser, context, Token.LessThan);
-  const type = parseType(parser, context | Context.AllowConditionalTypes);
-  consume(parser, context | Context.AllowRegExp, Token.GreaterThan);
+  if (
+    lookAhead(parser, context, function () {
+      consume(parser, context, Token.LessThan);
+      nextToken(parser, context);
+      return parser.token === Token.GreaterThan;
+    })
+  ) {
+    consume(parser, context, Token.LessThan);
+    const type = parseType(parser, context | Context.AllowConditionalTypes);
+    const expression = parseUnaryExpression(parser, context);
+    return createTypeAssertion(type, expression, parser.nodeFlags, pos, parser.curPos);
+  }
+
+  const type = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   const expression = parseUnaryExpression(parser, context);
-  return createTypeAssertion(type, expression, parser.nodeFlags, pos, parser.curPos);
+
+  if (parser.token === Token.Arrow) {
+    return parseArrowFunction(
+      parser,
+      context,
+      type,
+      createArrowParameters(
+        [
+          createFormalParameter(
+            false,
+            expression as any,
+            false,
+            parseTypeAnnotation(parser, context),
+            null,
+            null,
+            null,
+            false,
+            NodeFlags.None,
+            parser.curPos,
+            parser.curPos
+          )
+        ],
+        null,
+        null,
+        false,
+        parser.nodeFlags,
+        pos,
+        parser.curPos
+      ),
+      false,
+      false,
+      pos
+    );
+  }
+
+  return createTypeAssertion(type as any, expression, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseDecorators(parser: ParserState, context: Context): DecoratorList | null {

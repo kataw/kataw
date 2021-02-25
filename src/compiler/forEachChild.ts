@@ -145,9 +145,7 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
       return visitNodes(node.properties, visitor);
     case NodeKind.ArrowParameters:
       return (
-        visitNodes(node.typeParameters, visitor) ||
-        visitNodes(node.elements, visitor) ||
-        visitNode(node.type, visitor || visitNode(node.accessModifier, visitor))
+        visitNodes(node.elements, visitor) || visitNode(node.type, visitor || visitNode(node.accessModifier, visitor))
       );
     case NodeKind.UnaryExpression:
       return visitNode(node.operand, visitor);
