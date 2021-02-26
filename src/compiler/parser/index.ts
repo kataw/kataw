@@ -472,7 +472,7 @@ function parseStatement(parser: ParserState, context: Context, allowFunction: bo
       return parseClassDeclaration(parser, context);
     case Token.EnumKeyword:
       const { curPos, nodeFlags } = parser;
-      if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
+      if (tryParse(parser, context, nextTokenIsIdentifier)) {
         return parseEnumDeclaration(parser, context, /* isConst */ false, nodeFlags, curPos);
       }
     /* falls through */
@@ -534,6 +534,10 @@ function nextTokenIsIdentifierOnSameLine(parser: ParserState, context: Context):
     (parser.token & (Token.IsIdentifier | Token.FutureReserved)) !== 0 &&
     (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0
   );
+}
+function nextTokenIsIdentifier(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return (parser.token & (Token.IsIdentifier | Token.FutureReserved)) !== 0;
 }
 
 function parseNameSpaceDeclaration(parser: ParserState, context: Context): any {
@@ -5519,8 +5523,8 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
         typeParameter,
         nameType,
         isReadOnly,
-        isSubtract,
         isAdd,
+        isSubtract,
         optional,
         type,
         parser.nodeFlags,
@@ -5625,7 +5629,7 @@ function parseTypeMember(
   const pos = parser.curPos;
   let modifiers = parseAccessModifier(parser, context);
 
-  const isStatic = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
+  const isStatic = parser.token === Token.StaticKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
 
   const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, isModifierCanFollowTypeMember);
 
@@ -6303,57 +6307,21 @@ function parseTypeOrTypePredicate(parser: ParserState, context: Context): TypeNo
 
 function parseTypeAssertion(parser: ParserState, context: Context): TypeAssertion | any {
   const pos = parser.curPos;
-  if (
-    lookAhead(parser, context, function () {
-      consume(parser, context, Token.LessThan);
-      nextToken(parser, context);
-      return parser.token === Token.GreaterThan;
-    })
-  ) {
+  const typeAssertion = tryParse(parser, context, function () {
     consume(parser, context, Token.LessThan);
     const type = parseType(parser, context | Context.AllowConditionalTypes);
-    const expression = parseUnaryExpression(parser, context);
-    return createTypeAssertion(type, expression, parser.nodeFlags, pos, parser.curPos);
-  }
+    if (!consume(parser, context, Token.GreaterThan)) return undefined;
+    return createTypeAssertion(type, parseUnaryExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
+  });
 
+  if (typeAssertion) {
+    return typeAssertion;
+  }
   const type = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
+  // This has to be type parameter followed by arrow function
   const expression = parseUnaryExpression(parser, context);
 
-  if (parser.token === Token.Arrow) {
-    return parseArrowFunction(
-      parser,
-      context,
-      type,
-      createArrowParameters(
-        [
-          createFormalParameter(
-            false,
-            expression as any,
-            false,
-            parseTypeAnnotation(parser, context),
-            null,
-            null,
-            null,
-            false,
-            NodeFlags.None,
-            parser.curPos,
-            parser.curPos
-          )
-        ],
-        null,
-        null,
-        false,
-        parser.nodeFlags,
-        pos,
-        parser.curPos
-      ),
-      false,
-      false,
-      pos
-    );
-  }
-
-  return createTypeAssertion(type as any, expression, parser.nodeFlags, pos, parser.curPos);
+  return parseArrowFunction(parser, context, type, expression as any, false, false, pos);
 }
 
 function parseDecorators(parser: ParserState, context: Context): DecoratorList | null {
