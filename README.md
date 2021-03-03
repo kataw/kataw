@@ -3,10 +3,10 @@
 <p align="center"> An insane fast Javascript toolchain supporting both Javascript and Typescript.</p>
 
 <p align="center">
-  [![code style: kataw](https://img.shields.io/badge/code_style-kataw-ff69b4.svg?style=flat-square)](https://github.com/kataw/kataw)
+
 </p>
 <br>
-
+  [![code style: kataw](https://img.shields.io/badge/code_style-kataw-ff69b4.svg?style=flat-square)](https://github.com/kataw/kataw)
 **WIP**
 
 Kataw is a Javascript toolchain with insane performance that can
