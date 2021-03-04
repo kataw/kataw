@@ -27,8 +27,6 @@ export interface MethodDefinition extends Node {
   readonly accessModifier: AccessModifier | null;
   readonly typeParameters: TypeParameters | null;
   readonly type: TypeNode | null;
-  /* @internal*/
-  readonly parent: ClassExpression | ClassDeclaration | ObjectBindingPattern | ObjectLiteral | null;
 }
 
 export function createMethodDefinition(
@@ -89,8 +87,6 @@ export function createMethodDefinition(
     flags,
     intersects: false,
     transformFlags,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

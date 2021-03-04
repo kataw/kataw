@@ -22,8 +22,6 @@ export function createPrivateIdentifier(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ClassFields,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

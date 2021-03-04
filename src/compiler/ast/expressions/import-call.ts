@@ -25,8 +25,6 @@ export function createImportCall(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2018 | TransformFlags.DynamicImport,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

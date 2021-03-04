@@ -11,7 +11,6 @@ import { CaseBlock } from './case-block';
 export interface CaseClause extends Node {
   readonly expression: Expression;
   readonly statements: readonly Statement[];
-  readonly parent: CaseBlock | null;
 }
 
 export function createCaseClause(
@@ -28,8 +27,6 @@ export function createCaseClause(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

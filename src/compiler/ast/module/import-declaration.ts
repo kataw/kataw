@@ -10,8 +10,6 @@ export interface ImportDeclaration extends Node {
   readonly fromClause: StringLiteral | Expression;
   readonly moduleSpecifier: Expression | null;
   readonly importClause: ImportClause | null;
-  /* @internal */
-  readonly parent: Script | Module | null;
 }
 
 export function createImportDeclaration(
@@ -31,8 +29,6 @@ export function createImportDeclaration(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

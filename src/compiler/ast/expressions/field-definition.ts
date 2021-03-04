@@ -54,8 +54,6 @@ export function createFieldDefinition(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ClassFields | TransformFlags.ESNext,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

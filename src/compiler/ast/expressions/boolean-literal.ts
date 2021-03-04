@@ -14,8 +14,6 @@ export function createBooleanLiteral(text: boolean, flags: NodeFlags, start: num
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

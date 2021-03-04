@@ -9,8 +9,6 @@ export interface ImportClause extends Node {
   readonly nameSpaceImport: BindingIdentifier | null;
   readonly namedImports: NamedImports | null;
   readonly isTypeOnly: boolean;
-  /* @internal */
-  readonly parent: ImportDeclaration | null;
 }
 
 export function createImportClause(
@@ -31,8 +29,6 @@ export function createImportClause(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

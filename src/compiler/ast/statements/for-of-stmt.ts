@@ -34,8 +34,6 @@ export function createForOfStatement(
     flags,
     intersects: false,
     transformFlags: isAwait ? TransformFlags.ES2015 | TransformFlags.ES2018 : TransformFlags.ES2015,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

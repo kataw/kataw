@@ -9,8 +9,6 @@ import { ArgumentList } from './argument-list';
  */
 export interface SpreadElement extends Node {
   readonly argument: Expression;
-  /* @internal */
-  readonly parent: ArrayLiteral | ArgumentList | null;
 }
 
 export function createSpreadElement(argument: Expression, flags: NodeFlags, start: number, end: number): SpreadElement {
@@ -20,8 +18,6 @@ export function createSpreadElement(argument: Expression, flags: NodeFlags, star
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2016,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -30,8 +30,6 @@ export function createJsxTagNamePropertyAccess(
       expression.transformFlags |
       (member.kind === NodeKind.IdentifierName ? member.transformFlags : NodeFlags.None) |
       TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

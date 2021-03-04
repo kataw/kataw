@@ -14,8 +14,6 @@ export function createNullLiteral(flags: NodeFlags, start: number, end: number):
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

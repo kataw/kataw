@@ -17,8 +17,6 @@ export function createModuleBody(statements: Statement[], flags: NodeFlags, star
     transformFlags: TransformFlags.None,
     flags,
     intersects: false,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

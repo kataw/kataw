@@ -37,8 +37,6 @@ export function createAssignmentExpression(
         : operator === '||=' || operator === '&&=' || operator === '??='
         ? TransformFlags.ES2016 | TransformFlags.ES2020
         : TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

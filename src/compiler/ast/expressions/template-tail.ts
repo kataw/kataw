@@ -7,13 +7,13 @@ import { TemplateExpression } from './template-expression';
 export interface TemplateTail extends Node {
   readonly rawText: string;
   readonly text: string;
-  /* @internal */
-  readonly parent: TemplateExpression | null;
+  readonly literal: boolean;
 }
 
 export function createTemplateTail(
   rawText: string,
   text: string,
+  literal: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -22,11 +22,10 @@ export function createTemplateTail(
     kind: NodeKind.TemplateTail,
     rawText,
     text,
+    literal,
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

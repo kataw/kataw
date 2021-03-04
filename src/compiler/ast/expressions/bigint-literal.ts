@@ -22,8 +22,6 @@ export function createBigIntLiteral(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ESNext,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

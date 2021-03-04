@@ -10,14 +10,14 @@ import { TypeArguments } from '../types/type-arguments';
  */
 export interface CallChain extends Node {
   readonly chain: ElementAccessChain | PropertyAccessChain | CallChain | null;
-  readonly argumentList: ArgumentList | null;
+  readonly argumentList: ArgumentList;
   readonly typeArguments: TypeArguments | null;
 }
 
 export function createCallChain(
   chain: ElementAccessChain | PropertyAccessChain | CallChain | null,
   typeArguments: TypeArguments | null,
-  argumentList: ArgumentList | null,
+  argumentList: ArgumentList,
   flags: NodeFlags,
   start: number,
   end: number
@@ -30,8 +30,6 @@ export function createCallChain(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2020,
-    parent: null,
-    emitNode: null,
     start,
     end
   };
@@ -41,7 +39,7 @@ export function updateCallChain(
   node: CallChain,
   chain: ElementAccessChain | PropertyAccessChain | CallChain | null,
   typeArguments: TypeArguments | null,
-  argumentList: ArgumentList | null
+  argumentList: ArgumentList
 ): CallChain {
   return node.chain !== chain || node.typeArguments !== typeArguments || node.argumentList !== argumentList
     ? updateNode(createCallChain(chain, typeArguments, argumentList, node.flags, node.start, node.end), node)

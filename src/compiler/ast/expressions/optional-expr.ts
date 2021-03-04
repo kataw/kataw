@@ -1,6 +1,6 @@
 import { OptionalChain } from './optional-chain';
 import { Expression } from '.';
-import { Node, NodeKind, NodeFlags } from '../node';
+import { Node, NodeKind, NodeFlags, TransformFlags } from '../node';
 import { updateNode } from '../../utils';
 
 /**
@@ -24,9 +24,7 @@ export function createOptionalExpression(
     chain,
     flags,
     intersects: false,
-    transformFlags: 0,
-    parent: null,
-    emitNode: null,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -28,8 +28,6 @@ export interface ExportDeclaration extends Node {
   readonly fromClause: StringLiteral | Expression;
   readonly exportFromClause: ExportFromClause | null;
   readonly isTypeOnly: boolean;
-  /* @internal */
-  readonly parent: Script | Module | null;
 }
 
 export function createExportDeclaration(
@@ -52,8 +50,6 @@ export function createExportDeclaration(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

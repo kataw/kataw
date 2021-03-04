@@ -10,14 +10,14 @@ import { IdentifierReference } from '../expressions/identifier-reference';
 export interface NamedTupleMember extends Node {
   readonly ellipsis: boolean;
   readonly name: IdentifierReference;
-  readonly optional: boolean;
+  readonly isOptional: boolean;
   readonly type: TypeNode;
 }
 
 export function createNamedTupleMember(
   ellipsis: boolean,
   name: IdentifierReference,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode,
   flags: NodeFlags,
   start: number,
@@ -27,13 +27,11 @@ export function createNamedTupleMember(
     kind: NodeKind.NamedTupleMember,
     ellipsis,
     name,
-    optional,
+    isOptional,
     type,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };
@@ -43,12 +41,12 @@ export function updateNamedTupleMember(
   node: NamedTupleMember,
   ellipsis: boolean,
   name: IdentifierReference,
-  optional: boolean,
+  isOptional: boolean,
   type: TypeNode
 ): NamedTupleMember {
-  return node.ellipsis !== ellipsis || node.type !== type || node.optional !== optional
+  return node.ellipsis !== ellipsis || node.type !== type || node.isOptional !== isOptional
     ? updateNode(
-        createNamedTupleMember(node.ellipsis, name, node.optional, type, node.flags, node.start, node.end),
+        createNamedTupleMember(node.ellipsis, name, node.isOptional, type, node.flags, node.start, node.end),
         node
       )
     : node;

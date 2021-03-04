@@ -52,8 +52,6 @@ export function createFormalParameter(
       TransformFlags.ES2015 |
       (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None) |
       (accessModifier ? TransformFlags.TypeScript : TransformFlags.None),
-    parent: null,
-    emitNode: null,
     start,
     end
   };

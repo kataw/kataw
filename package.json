@@ -86,7 +86,7 @@
     "source-map-support": "^0.5.13",
     "ts-node": "^9.1.1",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.1.5",
+    "typescript": "^4.2.3",
     "unicode-13.0.0": "^0.8.0"
   },
   "husky": {

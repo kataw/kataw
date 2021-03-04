@@ -31,8 +31,6 @@ export function createBindingPropertyList(
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
     flags,
     intersects: false,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

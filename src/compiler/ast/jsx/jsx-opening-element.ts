@@ -33,8 +33,6 @@ export function createJsxOpeningElement(
     flags,
     intersects: false,
     transformFlags: tagName.transformFlags | attributes.transformFlags,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

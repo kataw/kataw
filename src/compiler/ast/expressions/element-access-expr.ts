@@ -31,8 +31,6 @@ export function createElementAccessExpression(
         : expression.kind === NodeKind.Super
         ? TransformFlags.LexicalThis
         : TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

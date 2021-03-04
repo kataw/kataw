@@ -41,8 +41,6 @@ export function createClassExpression(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

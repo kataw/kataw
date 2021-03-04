@@ -17,8 +17,6 @@ export function createArrayType(elementType: TypeNode, flags: NodeFlags, start: 
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -22,8 +22,6 @@ export function createBindingIdentifier(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

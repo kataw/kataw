@@ -32,8 +32,6 @@ export function createJsxAttribute(
     intersects: false,
     transformFlags:
       name.transformFlags | (initializer ? initializer.transformFlags : NodeFlags.None) | TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

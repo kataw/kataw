@@ -24,8 +24,6 @@ export function createOptionalChain(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2020,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

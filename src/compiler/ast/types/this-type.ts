@@ -12,8 +12,6 @@ export function createThisType(flags: NodeFlags, start: number, end: number): Th
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

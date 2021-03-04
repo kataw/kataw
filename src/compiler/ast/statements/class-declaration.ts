@@ -43,8 +43,6 @@ export function createClassDeclaration(
     intersects: false,
     transformFlags:
       TransformFlags.ES2015 | (flags & NodeFlags.Abstract ? TransformFlags.TypeScript : TransformFlags.None),
-    parent: null,
-    emitNode: null,
     start,
     end
   };

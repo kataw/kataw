@@ -16,8 +16,6 @@ export function createDummyIdentifier(start: number, end: number): DummyIdentifi
     flags: NodeFlags.Synthetic | NodeFlags.HasErrors,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

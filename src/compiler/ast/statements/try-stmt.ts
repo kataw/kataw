@@ -31,8 +31,6 @@ export function createTryStatement(
       (block ? block.transformFlags : TransformFlags.None) |
       (catchClause ? catchClause.transformFlags : TransformFlags.None) |
       (finallyBlock ? finallyBlock.transformFlags : TransformFlags.None),
-    parent: null,
-    emitNode: null,
     start,
     end
   };

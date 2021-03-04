@@ -9,7 +9,6 @@ import { CaseBlock } from './case-block';
 
 export interface DefaultClause extends Node {
   readonly statements: readonly Statement[];
-  readonly parent: CaseBlock | null;
 }
 export function createDefaultClause(
   statements: readonly Statement[],
@@ -23,8 +22,6 @@ export function createDefaultClause(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -19,8 +19,6 @@ export function createComputedPropertyName(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.ComputedPropertyName,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -5,9 +5,7 @@ import { JsxFragment } from './jsx-fragment';
  * The opening element of a <>...</> JsxFragment
  */
 
-export interface JsxOpeningFragment extends Node {
-  readonly parent: JsxFragment | null;
-}
+export interface JsxOpeningFragment extends Node {}
 
 export function createJsxOpeningFragment(flags: NodeFlags, start: number, end: number): JsxOpeningFragment {
   return {
@@ -15,8 +13,6 @@ export function createJsxOpeningFragment(flags: NodeFlags, start: number, end: n
     flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

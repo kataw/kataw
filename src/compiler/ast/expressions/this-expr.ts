@@ -11,8 +11,6 @@ export function createThisExpression(flags: NodeFlags, start: number, end: numbe
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

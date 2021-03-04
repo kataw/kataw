@@ -7,8 +7,6 @@ import { updateNode } from '../../utils';
 export interface ExportFromClause extends Node {
   readonly moduleExportName: StringLiteral | null;
   readonly namedBinding: IdentifierName | null;
-  /* @internal */
-  readonly parent: ExportDeclaration | null;
 }
 
 export function createExportFromClause(
@@ -25,8 +23,6 @@ export function createExportFromClause(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

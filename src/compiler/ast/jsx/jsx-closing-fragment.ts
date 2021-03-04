@@ -13,8 +13,6 @@ export function createJsxClosingFragment(flags: NodeFlags, start: number, end: n
     flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

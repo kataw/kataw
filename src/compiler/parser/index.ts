@@ -1597,7 +1597,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
       /* Property */
       case Token.Period:
         nextToken(parser, context);
-        let x = { kind: NodeKind.Period, pos, end: parser.curPos };
+        const x = { kind: NodeKind.Period, pos, end: parser.curPos };
         member = createPropertyAccessExpression(
           member,
           parsePropertyOrPrivatePropertyName(parser, context),
@@ -1678,7 +1678,7 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
           member,
           null,
           parser.token === Token.TemplateTail
-            ? parseTemplateTail(parser, context)
+            ? parseTemplateTail(parser, context, /* literal */ false)
             : parseTemplateExpression(parser, context | Context.TaggedTemplate),
           false,
           parser.nodeFlags,
@@ -2202,8 +2202,8 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   let pos = parser.curPos;
 
   if (consumeOpt(parser, context | Context.AllowRegExp, Token.LeftBracket)) {
-    consumeOpt(parser, context, Token.RightBracket);
     chain = createElementAccessChain(chain, parseExpression(parser, context), parser.nodeFlags, pos, parser.curPos);
+    consumeOpt(parser, context, Token.RightBracket);
   } else if (parser.token === Token.LeftParen) {
     chain = createCallChain(chain, null, parseArguments(parser, context), parser.nodeFlags, pos, parser.curPos);
   } else if (parser.token & (Token.Keyword | Token.FutureReserved | Token.IsIdentifier)) {
@@ -2220,7 +2220,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
       chain as any,
       null,
       parser.token === Token.TemplateTail
-        ? parseTemplateTail(parser, context)
+        ? parseTemplateTail(parser, context, /* literal */ false)
         : parseTemplateExpression(parser, context),
       true,
       parser.nodeFlags,
@@ -2286,7 +2286,7 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
           chain as any,
           null,
           parser.token === Token.TemplateTail
-            ? parseTemplateTail(parser, context)
+            ? parseTemplateTail(parser, context, /* literal */ false)
             : parseTemplateExpression(parser, context),
           true,
           parser.nodeFlags,
@@ -2355,7 +2355,7 @@ function parseTemplateExpression(parser: ParserState, context: Context): Templat
   } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateCont);
   return createTemplateExpression(
     templateSpans,
-    parseTemplateTail(parser, context),
+    parseTemplateTail(parser, context, /* literal */ false),
     parser.nodeFlags,
     pos,
     parser.curPos
@@ -2369,10 +2369,10 @@ function parseTemplateSpan(parser: ParserState, context: Context): TemplateSpan 
   return createTemplateSpan(templateRaw, tokenValue, expression, parser.nodeFlags, curPos, parser.curPos);
 }
 
-function parseTemplateTail(parser: ParserState, context: Context): TemplateTail {
+function parseTemplateTail(parser: ParserState, context: Context, literal: boolean): TemplateTail {
   const { curPos, tokenValue, nodeFlags, templateRaw } = parser;
   consume(parser, context | Context.AllowRegExp, Token.TemplateTail);
-  return createTemplateTail(templateRaw, tokenValue, nodeFlags, curPos, parser.curPos);
+  return createTemplateTail(templateRaw, tokenValue, literal, nodeFlags, curPos, parser.curPos);
 }
 
 // ArrayLiteral :
@@ -2811,7 +2811,7 @@ function parsePrimaryExpression(parser: ParserState, context: Context): any {
     case Token.NewKeyword:
       return parseNewExpressionOrNewDotTarget(parser, context);
     case Token.TemplateTail:
-      return parseTemplateTail(parser, context);
+      return parseTemplateTail(parser, context, /* literal */ true);
     case Token.TemplateCont:
       return parseTemplateExpression(parser, context);
     case Token.SuperKeyword:
@@ -3758,7 +3758,7 @@ function parseFunctionStatementList(parser: ParserState, context: Context): Func
 function parseFormalParameterList(parser: ParserState, context: Context): FormalParameterList {
   const parameters = [];
   if (consume(parser, context, Token.LeftParen)) {
-    let curpPos = parser.curPos;
+    const curpPos = parser.curPos;
     let trailingComma = false;
     while (parser.token & 0b00000100000010000101000000000000 || parser.token === Token.Decorator) {
       parameters.push(getCurrentNode(parser, context, parseFormalParameter));
@@ -4804,7 +4804,7 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
   let isStatic = parser.token === Token.StaticKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Simple cases like "{ private readonly foo(" or "{ readonly foo<x>(" or "{ readonly static set(".
-  let isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
+  const isReadOnly = parser.token === Token.ReadonlyKeyword && tryParse(parser, context, canFollowAPropertyOnSameLine);
 
   // Cases like "{ abstract foo(" or "{ abstract foo<x>(" or "{ abstract xxx".
   if (!isAbstract)
@@ -5461,6 +5461,7 @@ function nextTokenIsLeftBracket(parser: ParserState, context: Context): boolean 
 function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): TypeLiteral | MappedType {
   const pos = parser.curPos;
   nextToken(parser, context);
+  const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   // try speculative parsing here...
   const mappedType =
     parser.token & 0b00100000000011000101000000000000 &&
@@ -5544,7 +5545,7 @@ function parseTypeLiteralOrMappedType(parser: ParserState, context: Context): Ty
   consume(parser, context, Token.RightBrace);
 
   return createTypeLiteral(
-    createObjectTypeMembers(members, parser.nodeFlags, innerPos, parser.curPos),
+    createObjectTypeMembers(members, multiline, parser.nodeFlags, innerPos, parser.curPos),
     parser.nodeFlags,
     pos,
     parser.curPos
@@ -5559,7 +5560,7 @@ function parseTemplateType(parser: ParserState, context: Context): TemplateLiter
   } while ((parser.token = scanTemplateTail(parser, context)) === Token.TemplateCont);
   return createTemplateLiteralType(
     templateSpans,
-    parseTemplateTail(parser, context),
+    parseTemplateTail(parser, context, /* literal */ false),
     parser.nodeFlags,
     pos,
     parser.curPos
@@ -5576,17 +5577,18 @@ function parseTemplateTypeSpan(parser: ParserState, context: Context): TemplateL
 function parseObjectType(parser: ParserState, context: Context): ObjectTypeMembers {
   let pos = parser.curPos;
   if (consume(parser, context, Token.LeftBrace)) {
+    const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
     const members = [];
     pos = parser.curPos;
     while (parser.token & 0b00110000000000000111000000000000) {
       members.push(getCurrentNode(parser, context, parseTypeMember));
     }
-    const result = createObjectTypeMembers(members, parser.nodeFlags, pos, parser.curPos);
+    const result = createObjectTypeMembers(members, multiline, parser.nodeFlags, pos, parser.curPos);
     consume(parser, context, Token.RightBrace);
     return result;
   }
   // missing list
-  return createObjectTypeMembers([], parser.nodeFlags, pos, pos);
+  return createObjectTypeMembers([], false, parser.nodeFlags, pos, pos);
 }
 
 function parseTypeMemberSemicolon(parser: ParserState, context: Context): void {
@@ -6091,13 +6093,14 @@ function parseTupleType(parser: ParserState, context: Context): TupleType {
   const pos = parser.curPos;
   const elements = [];
   nextToken(parser, context);
+  const multiline = (parser.nodeFlags & NodeFlags.PrecedingLineBreak) !== 0;
   while (parser.token & 0b01100100000010000101000000000000) {
     elements.push(getCurrentNode(parser, context, parseTupleElementNameOrTupleElementType));
     if (parser.token === Token.RightBracket) break;
     if (consumeOpt(parser, context, Token.Comma)) continue;
   }
   consume(parser, context, Token.RightBracket);
-  return createTupleType(elements, parser.nodeFlags, pos, parser.curPos);
+  return createTupleType(elements, multiline, parser.nodeFlags, pos, parser.curPos);
 }
 
 function isTupleElementName(parser: ParserState, context: Context): boolean {

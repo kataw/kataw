@@ -26,8 +26,6 @@ export function createKeywordTypeNode(kind: NodeKind, start: number, end: number
     flags: NodeFlags.None,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

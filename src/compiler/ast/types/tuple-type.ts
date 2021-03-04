@@ -8,17 +8,23 @@ import { TypeNode } from './';
 
 export interface TupleType extends Node {
   readonly elementTypes: TypeNode[];
+  readonly multiline: boolean;
 }
 
-export function createTupleType(elementTypes: TypeNode[], flags: NodeFlags, start: number, end: number): TupleType {
+export function createTupleType(
+  elementTypes: TypeNode[],
+  multiline: boolean,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): TupleType {
   return {
     kind: NodeKind.TupleType,
     elementTypes,
+    multiline,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };
@@ -26,6 +32,6 @@ export function createTupleType(elementTypes: TypeNode[], flags: NodeFlags, star
 
 export function updateTupleType(node: TupleType, elementTypes: TypeNode[]): TupleType {
   return node.elementTypes !== elementTypes
-    ? updateNode(createTupleType(elementTypes, node.flags, node.start, node.end), node)
+    ? updateNode(createTupleType(elementTypes, node.multiline, node.flags, node.start, node.end), node)
     : node;
 }

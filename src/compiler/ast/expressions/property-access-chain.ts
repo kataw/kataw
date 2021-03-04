@@ -27,8 +27,6 @@ export function createPropertyAccessChain(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2020,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

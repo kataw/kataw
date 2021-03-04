@@ -9,7 +9,6 @@ import { EnumMembersList } from './enum-members-list';
 export interface EnumMember extends Node {
   readonly name: PropertyName;
   readonly initializer: Expression | null;
-  readonly parent: EnumMembersList | null;
 }
 
 export function createEnumMember(
@@ -26,8 +25,6 @@ export function createEnumMember(
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

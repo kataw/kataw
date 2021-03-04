@@ -13,10 +13,12 @@ export type TypeMembers = CallSignature | ConstructSignature | PropertySignature
 
 export interface ObjectTypeMembers extends Node {
   readonly members: readonly TypeMembers[];
+  readonly multiline: boolean;
 }
 
 export function createObjectTypeMembers(
   members: readonly TypeMembers[],
+  multiline: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -24,11 +26,10 @@ export function createObjectTypeMembers(
   return {
     kind: NodeKind.ObjectTypeMembers,
     members,
+    multiline,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };
@@ -36,6 +37,6 @@ export function createObjectTypeMembers(
 
 export function updateObjectTypeMembers(node: ObjectTypeMembers, members: readonly TypeMembers[]): ObjectTypeMembers {
   return node.members !== members
-    ? updateNode(createObjectTypeMembers(members, node.flags, node.start, node.end), node)
+    ? updateNode(createObjectTypeMembers(members, node.multiline, node.flags, node.start, node.end), node)
     : node;
 }

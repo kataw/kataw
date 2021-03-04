@@ -17,8 +17,6 @@ export function createInferType(typeParameter: TypeParameter, flags: NodeFlags, 
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

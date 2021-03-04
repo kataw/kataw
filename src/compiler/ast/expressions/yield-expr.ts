@@ -24,8 +24,7 @@ export function createYieldExpression(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.ES2018 | TransformFlags.Yield,
-    parent: null,
-    emitNode: null,
+
     start,
     end
   };

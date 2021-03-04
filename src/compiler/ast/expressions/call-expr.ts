@@ -33,8 +33,6 @@ export function createCallExpression(
       : expression.kind === NodeKind.Super
       ? TransformFlags.LexicalThis
       : TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

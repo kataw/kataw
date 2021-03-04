@@ -3,11 +3,9 @@
  */
 export interface Node {
   kind: NodeKind;
-  parent: Node | null;
   flags: NodeFlags;
   intersects: boolean;
   transformFlags: TransformFlags;
-  emitNode: any | null;
   original?: Node | null;
   uniqueId?: number;
   start: number;
@@ -283,7 +281,7 @@ export const enum NodeKind {
   AssignmentElement = 13,
   AssignmentExpression = 14 | IsExpression,
   AssignmentRestProperty = 15,
-  AsyncArrowFunction = 16,
+  AsyncArrowFunction = 16 | IsExpression,
   AsyncFunctionDeclaration = 17 | IsFunctionDeclaration | IsAsync | IsBlockScope,
   AsyncFunctionExpression = 18 | IsAsync | IsBlockScope | IsFunctionExpression,
   AsyncGeneratorDeclaration = 19 | IsFunctionDeclaration | IsAsync | IsGenerator | IsBlockScope,
@@ -321,14 +319,14 @@ export const enum NodeKind {
   ClassExpression = 51 | IsExpression | IsObjectLiteralOrClassExpression | IsLeftHandSideExpression,
   ClassHeritage = 52,
   ClassProperty = 53,
-  CommaOperator = 54,
-  ComputedPropertyName = 55,
+  CommaOperator = 54 | IsExpression,
+  ComputedPropertyName = 55 | IsExpression,
   ConditionalExpression = 56 | IsExpression,
   ConditionalType = 57,
   ConstructSignature = 58,
   ConstructorType = 59,
   ContinueStatement = 60 | IsStatement,
-  CoverInitializedName = 61,
+  CoverInitializedName = 61 | IsExpression,
   DebuggerStatement = 62 | IsChildless | IsStatement,
   Decorator = 63,
   DecoratorList = 64,
@@ -383,7 +381,7 @@ export const enum NodeKind {
   ImportSpecifier = 113,
   ImportType = 114,
   ImportsList = 115,
-  IndexSignature = 116,
+  IndexSignature = 116 | IsExpression,
   IndexedAccessType = 117,
   InferType = 118,
   InterfaceDeclaration = 119,
@@ -499,7 +497,7 @@ export const enum NodeKind {
   TypeAliasDeclaration = 225,
   TypeAnnotation = 226,
   TypeArguments = 227,
-  TypeAssertion = 228,
+  TypeAssertion = 228 | IsExpression,
   TypeAssertionExpression = 229 | IsExpression,
   TypeLiteral = 230,
   TypeOperator = 231,

@@ -12,8 +12,6 @@ export function createIntrinsicKeyword(flags: NodeFlags, start: number, end: num
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

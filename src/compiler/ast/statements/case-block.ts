@@ -13,7 +13,6 @@ export type CaseOrDefaultClause = CaseClause | DefaultClause;
 
 export interface CaseBlock extends Node {
   readonly clauses: CaseOrDefaultClause[];
-  readonly parent: SwitchStatement | null;
 }
 
 export function createCaseBlock(
@@ -28,8 +27,6 @@ export function createCaseBlock(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

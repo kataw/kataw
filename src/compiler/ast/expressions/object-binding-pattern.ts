@@ -11,8 +11,6 @@ import { ParameterDeclaration } from '../types/parameter-declaration';
  */
 export interface ObjectBindingPattern extends Node {
   readonly propertyList: BindingPropertyList;
-  /* @internal */
-  readonly parent: BindingElement | VariableDeclaration | Parameter | ParameterDeclaration | null;
 }
 
 export function createObjectBindingPattern(
@@ -27,8 +25,6 @@ export function createObjectBindingPattern(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | TransformFlags.BindingPattern,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

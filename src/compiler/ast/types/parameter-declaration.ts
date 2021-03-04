@@ -45,8 +45,6 @@ export function createParameterDeclaration(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015 | (ellipsis ? TransformFlags.RestOrSpread : TransformFlags.None),
-    parent: null,
-    emitNode: null,
     start,
     end
   };

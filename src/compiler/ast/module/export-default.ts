@@ -8,8 +8,6 @@ import { updateNode } from '../../utils';
 
 export interface ExportDefault extends Node {
   readonly declaration: FunctionDeclaration | ClassDeclaration | Expression;
-  /* @internal */
-  readonly parent: Script | Module | null;
 }
 
 export function createExportDefault(
@@ -24,8 +22,6 @@ export function createExportDefault(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

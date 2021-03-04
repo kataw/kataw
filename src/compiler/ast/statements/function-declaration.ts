@@ -62,8 +62,6 @@ export function createFunctionDeclaration(
     flags,
     intersects: false,
     transformFlags,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

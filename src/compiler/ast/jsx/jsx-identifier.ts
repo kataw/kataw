@@ -15,8 +15,6 @@ export function createJsxIdentifier(text: string, start: number, end: number): J
     flags: NodeFlags.None,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

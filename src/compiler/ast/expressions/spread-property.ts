@@ -23,8 +23,6 @@ export function createSpreadProperty(
     flags,
     intersects: false,
     transformFlags: TransformFlags.RestOrSpread | TransformFlags.ES2018,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

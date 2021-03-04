@@ -59,8 +59,6 @@ export function createFunctionExpression(
     flags,
     intersects: false,
     transformFlags,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

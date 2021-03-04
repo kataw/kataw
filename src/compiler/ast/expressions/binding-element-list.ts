@@ -13,8 +13,6 @@ export type BindingListElements = OmittedExpression | BindingElement;
 export interface BindingElementList extends Node {
   readonly elements: BindingListElements[];
   readonly trailingComma: boolean;
-  /* @internal */
-  readonly parent: ArrayBindingPattern | null;
 }
 
 export function createBindingElementList(
@@ -31,8 +29,6 @@ export function createBindingElementList(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

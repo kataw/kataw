@@ -25,8 +25,6 @@ export function createJsxMemberExpression(
     flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

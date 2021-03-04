@@ -15,16 +15,12 @@ import { ThrowStatement } from './throw-stmt';
 import { TryStatement } from './try-stmt';
 import { IfStatement } from './if-stmt';
 import { EmptyStatement } from './empty-stmt';
-//import { VariableDeclaration } from '../declarations/variable-declaration';
 import { VariableStatement } from './variable-stmt';
-//import { LexicalDeclaration } from '../declarations/lexical-declaration';
 import { LexicalBinding } from './lexical-binding';
 import { CaseClause } from './case-clause';
 import { DefaultClause } from './default-clause';
 import { BindingList } from './binding-list';
 import { SwitchStatement } from './switch-stmt';
-//import { FunctionDeclaration } from '../declarations/function-declaration';
-//import { ClassDeclaration } from '../declarations/class-declaration';
 import { ForBinding } from './forBinding';
 
 export type CaseBlock = DefaultClause | CaseClause;

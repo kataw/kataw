@@ -11,8 +11,6 @@ export function createImportMeta(flags: NodeFlags, start: number, end: number): 
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2020,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

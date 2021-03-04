@@ -25,8 +25,6 @@ export function createPrefixUpdateExpression(
     flags,
     intersects: false,
     transformFlags: 0,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -30,8 +30,6 @@ export function createJsxElement(
     flags,
     intersects: false,
     transformFlags: openingElement.transformFlags | children.transformFlags | closingElement.transformFlags,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

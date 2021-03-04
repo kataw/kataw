@@ -42,8 +42,6 @@ export function createPropertyDefinition(
     flags,
     intersects: false,
     transformFlags: accessModifier ? TransformFlags.TypeScript : TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

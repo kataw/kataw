@@ -17,8 +17,6 @@ export function createUnionType(types: readonly TypeNode[], flags: NodeFlags, st
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

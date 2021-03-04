@@ -26,8 +26,6 @@ export function createLexicalDeclaration(
     transformFlags:
       TransformFlags.HoistedDeclarationOrCompletion |
       (flags & NodeFlags.BlockScoped ? TransformFlags.ES2015 | TransformFlags.BlockScopedBinding : TransformFlags.None),
-    parent: null,
-    emitNode: null,
     start,
     end
   };

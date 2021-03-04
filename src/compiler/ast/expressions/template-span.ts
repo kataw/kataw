@@ -10,8 +10,6 @@ export interface TemplateSpan extends Node {
   readonly rawText: string;
   readonly text: string;
   readonly expression: Expression | null;
-  /* @internal */
-  readonly parent: TemplateExpression | null;
 }
 
 export function createTemplateSpan(
@@ -30,8 +28,6 @@ export function createTemplateSpan(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2015,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -19,7 +19,6 @@ export function createJsxText(text: string, flags: NodeFlags, start: number, end
     intersects: false,
     transformFlags: TransformFlags.Jsx,
     parent: null,
-    emitNode: null,
     start,
     end
   };

@@ -26,8 +26,6 @@ export function createCatch(
     flags,
     intersects: false,
     transformFlags: catchParameter ? TransformFlags.None : TransformFlags.ES2019,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

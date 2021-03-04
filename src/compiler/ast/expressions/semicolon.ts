@@ -15,8 +15,6 @@ export function createSemicolon(flags: NodeFlags, start: number, end: number): S
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

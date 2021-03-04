@@ -12,8 +12,6 @@ export function createOmittedExpression(flags: NodeFlags, start: number, end: nu
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

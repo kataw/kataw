@@ -8,8 +8,6 @@ export interface ExportSpecifier extends Node {
   readonly name: IdentifierName | StringLiteral;
   readonly binding: IdentifierName | null;
   readonly moduleExportName: StringLiteral | null;
-  /* @internal */
-  readonly parent: ImportDeclaration | null;
 }
 
 export function createExportSpecifier(
@@ -28,8 +26,6 @@ export function createExportSpecifier(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

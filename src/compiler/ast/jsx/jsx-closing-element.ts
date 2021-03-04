@@ -25,8 +25,6 @@ export function createJsxClosingElement(
     flags,
     intersects: false,
     transformFlags: tagName.transformFlags | TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

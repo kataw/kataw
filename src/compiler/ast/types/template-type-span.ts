@@ -11,8 +11,6 @@ export interface TemplateLiteralTypeSpan extends Node {
   readonly type: TypeNode;
   readonly rawText: string;
   readonly text: string;
-  /* @internal */
-  readonly parent: TemplateLiteralType | null;
 }
 
 export function createTemplateLiteralTypeSpan(
@@ -31,8 +29,6 @@ export function createTemplateLiteralTypeSpan(
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

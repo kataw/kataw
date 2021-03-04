@@ -23,8 +23,6 @@ export function createJsxAttributesList(
     flags,
     intersects: false,
     transformFlags: TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

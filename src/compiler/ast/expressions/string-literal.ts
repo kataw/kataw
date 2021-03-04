@@ -22,8 +22,6 @@ export function createStringLiteral(
     flags,
     intersects: false,
     transformFlags: flags & NodeFlags.ExtendedUnicodeEscape ? TransformFlags.ES2015 : TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

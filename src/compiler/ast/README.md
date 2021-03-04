@@ -11,10 +11,8 @@ supporting a *hybrid* definition of *concrete syntax*.
 interface Node {
     kind: NodeKind;
     multiline?: boolean;
-    parent: Node | null;
     flags: NodeFlags;
     transformFlags: TransformFlags;
-    emitNode: EmitNode | null;
     start: number;
     end: number;
 }
@@ -43,7 +41,7 @@ interface Script <: Node {
  printable: boolean;
  diagnostics: Diagnostic[];
  incremental: boolean;
- parent: Node | null;
+ intersects: false;
 }
 ```
 
@@ -61,7 +59,7 @@ interface Module <: Node {
  printable: boolean;
  diagnostics: Diagnostic[];
  incremental: boolean;
- parent: Node | null;
+ intersects: false;
 }
 ```
 

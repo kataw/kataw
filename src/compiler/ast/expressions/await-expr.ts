@@ -22,8 +22,6 @@ export function createAwaitExpression(
     flags,
     intersects: false,
     transformFlags: TransformFlags.ES2017 | TransformFlags.ES2018 | TransformFlags.Await,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

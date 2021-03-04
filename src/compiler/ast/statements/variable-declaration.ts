@@ -13,7 +13,6 @@ export interface VariableDeclaration extends Node {
   readonly exclamation: boolean; // Optional definite assignment assertion
   readonly type: TypeNode | null; // Optional type annotation
   readonly initializer: Expression | null; // Optional initializer
-  readonly parent: VariableDeclarationList | null;
 }
 
 export function createVariableDeclaration(
@@ -34,8 +33,6 @@ export function createVariableDeclaration(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

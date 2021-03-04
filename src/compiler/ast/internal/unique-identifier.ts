@@ -20,8 +20,6 @@ export function createUniqueIdentifier(
     flags: NodeFlags.Synthetic,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start: -1,
     end: -1
   };

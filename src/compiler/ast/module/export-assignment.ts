@@ -6,8 +6,6 @@ import { updateNode } from '../../utils';
 
 export interface ExportAssignment extends Node {
   readonly expression: Expression;
-  /* @internal */
-  readonly parent: Script | Module | null;
 }
 
 export function createExportAssignment(
@@ -22,8 +20,6 @@ export function createExportAssignment(
     flags,
     intersects: false,
     transformFlags: TransformFlags.None,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

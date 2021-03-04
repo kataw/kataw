@@ -34,8 +34,6 @@ export function createJsxFragment(
       closingFragment.transformFlags |
       closingFragment.transformFlags |
       TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

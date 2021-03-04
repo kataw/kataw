@@ -32,8 +32,6 @@ export function createScript(
     jsx,
     printable: true,
     diagnostics,
-    parent: null,
-    emitNode: null,
     incremental: false,
     flags: NodeFlags.None,
     intersects: false,

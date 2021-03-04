@@ -27,8 +27,6 @@ export function createSingleNameBinding(
     flags,
     intersects: false,
     transformFlags: TransformFlags.BindingPattern,
-    parent: null,
-    emitNode: null,
     start,
     end
   };

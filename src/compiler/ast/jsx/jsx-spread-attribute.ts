@@ -22,8 +22,6 @@ export function createJsxSpreadAttribute(
     flags,
     intersects: false,
     transformFlags: expression.transformFlags | TransformFlags.Jsx,
-    parent: null,
-    emitNode: null,
     start,
     end
   };
