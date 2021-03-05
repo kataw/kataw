@@ -9,7 +9,7 @@ length into account, wrapping code when necessary.
 The formatted source will be 1:1 to original source with the exception for the pretty printing and the fact that unnecessary
 parentheses have been removed.
 
-The pretty printer tries to be smart enough to be able to understand what you want. As a result if this the formatter will
+The pretty printer tries to be smart enough to be able to understand what you want. As a result the formatter will
 change based on your code style.
 
 For example if you insert a line break
