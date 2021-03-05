@@ -47,6 +47,7 @@ The second argument allows you to specify various options:
 | `printWidth`  | 80 | Specify the line length that the printer will wrap on |
 | `tabWidth`  | 2 | Specify the number of spaces per indentation-level |
 | `semi`  | true |  Print semicolons at the ends of statements |
+| `trailingComma`  | true | Print trailing comma based on code style |
 | `singleQuote`  | false | Use single quotes instead of double quotes |
 | `bracketSpacing`  | true | Print spaces between brackets in object literals |
 | `endOfLine`  | 'crlf' | Define file endings ('lf', 'crlf', or 'cr') |
