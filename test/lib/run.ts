@@ -1,16 +1,11 @@
-import { parseScript, parseModule } from '../src/kataw';
+import { parseScript, parseModule } from '../../src/kataw';
 import { printSourceFile } from '../src/compiler/printer';
-import { Options } from '../src/compiler/types';
-import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './lib/utils';
-import { autogen } from './lib/autogenerate';
-import { resolve } from 'path';
+import { Options } from '../../src/compiler/types';
+import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './utils';
 
 let files: any = [];
 
 const AUTO_UPDATE = process.argv.includes('-u');
-const AUTO_GENERATE = process.argv.includes('-g');
-const AUTO_GENERATE_CONSERVATIVE = process.argv.includes('-G');
-const TARGET_FILE = process.argv.includes('-f') ? process.argv[process.argv.indexOf('-f') + 1] : '';
 
 if (process.argv.includes('-?') || process.argv.includes('--help')) {
   console.log(`
@@ -28,16 +23,13 @@ if (process.argv.includes('-?') || process.argv.includes('--help')) {
   process.exit();
 }
 
-if (AUTO_UPDATE && (AUTO_GENERATE || AUTO_GENERATE_CONSERVATIVE))
-  throw new Error('Cannot use auto update and auto generate together');
-
-async function extractFiles(list: any) {
+export async function extractFiles(list: any) {
   list.forEach((obj: any) => {
     ({ options: obj.options, input: obj.input } = parseTestFile(obj));
   });
 }
 
-async function runTest(list: any) {
+export async function runTest(list: any) {
   console.time(
     ColorCodes.GREEN + 'Running ' + ColorCodes.RESET + list.length + ' test cases.' + ColorCodes.yellow + ' Total time'
   );
@@ -92,13 +84,13 @@ async function generateSourceFile(
   return (isModule ? parseModule : parseScript)(input, options);
 }
 
-async function generateNewOutput(list: any) {
+export async function generateNewOutput(list: any) {
   list.forEach((obj: any) => {
     obj.data = generateOutputBlock(obj.data, obj.newoutput.ast, obj.newoutput.pretty, obj.options);
   });
 }
 
-async function writeNewOutput(list: any) {
+export async function writeNewOutput(list: any) {
   let updated = 0;
   await Promise.all(
     list.map((obj: any): any => {
@@ -108,6 +100,7 @@ async function writeNewOutput(list: any) {
           ++updated;
           promiseToWriteFile(file, data);
         } else {
+          process.exitCode = 1;
           console.log('Output mismatch for', file);
           return Promise.resolve();
         }
@@ -115,29 +108,6 @@ async function writeNewOutput(list: any) {
     })
   );
   console.log('Updated', updated, 'files');
-}
-
-async function main() {
-  if (TARGET_FILE) {
-    console.log('Using explicit file:', TARGET_FILE);
-    files = [TARGET_FILE];
-  } else {
-    files = files.filter((f: any) => !f.endsWith('autogen.md'));
-  }
-
-  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
-    throw new Error(e);
-  });
-
-  await extractFiles(list);
-
-  list.forEach((obj: any) => (obj.newoutput = {}));
-  await runTest(list);
-
-  await generateNewOutput(list);
-  await writeNewOutput(list);
-
-  console.timeEnd('Whole test run');
 }
 
 function parseTestFile(obj: any): any {
@@ -219,12 +189,13 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
         '';
 }
 
-console.time('Whole test run');
+// parsing files => testing objects
+export async function file2Tests(files: any) {
+  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
+    throw new Error(e);
+  });
 
-getTestFiles(resolve('test/__snapshot__'), '', files, true);
-
-if (AUTO_GENERATE) {
-  autogen(files, AUTO_GENERATE_CONSERVATIVE);
-} else {
-  main();
+  await extractFiles(list);
+  list.forEach((obj: any) => (obj.newoutput = {}));
+  return list;
 }

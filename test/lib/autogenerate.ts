@@ -31,8 +31,7 @@ export async function autogen(files: string[], conservative: boolean) {
   list.forEach((obj: any) => {
     const genDir = join(dirname(obj.file), 'gen');
     if (!conservative) {
-      const oldFiles: string[] = [];
-      getTestFiles(genDir, '', oldFiles, true, true);
+      const oldFiles: string[] = getTestFiles(genDir, '', true, true);
       // Note: the folder should only contain generated files and folders which should delete just fine
       oldFiles.forEach((file: string) => {
         try {
