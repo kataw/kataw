@@ -58,3 +58,28 @@ The second argument allows you to specify various options:
 | `spaceAfterCommaDelimiter`  | true | Insert space after comma delimiter |
 | `minify`  | false | Removes unnecessary whitespace, semicolons and line endings |
 | `sourceMap`  | false | Prins source map |
+
+## Parentheses
+
+The goal of this pretty printer is to avoid increasing the size of the AST, so no extra parentheses have been
+added to increase readability. Instead other clever tricks have been used to continue to maintain readability
+
+Here is an example and a comparison with Prettier:
+
+**Prettier's output:**
+
+`````js
+a => (a ? a : a);
+
+a <= a ? a : a;
+`````
+
+**Kataw's output:**
+
+```js
+a => a ? a : a;
+
+a <= a
+  ? a
+  : a;
+```
