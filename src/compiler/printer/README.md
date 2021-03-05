@@ -46,6 +46,7 @@ The second argument allows you to specify various options:
 | ----------- | -----------|------------------------------------------------- |
 | `printWidth`  | 80 | Specify the line length that the printer will wrap on |
 | `tabWidth`  | 2 | Specify the number of spaces per indentation-level |
+| `useTabs`  | false | Indent lines with tabs instead of spaces |
 | `semi`  | true |  Print semicolons at the ends of statements |
 | `trailingComma`  | true | Print trailing comma based on code style |
 | `singleQuote`  | false | Use single quotes instead of double quotes |
@@ -62,7 +63,7 @@ The second argument allows you to specify various options:
 ## Parentheses
 
 The goal of this pretty printer is to avoid increasing the size of the AST, so no extra parentheses have been
-added to increase readability. Instead other clever tricks have been used to continue to maintain readability
+added to increase readability - instead other clever tricks have been used.
 
 Here is an example and a comparison with Prettier:
 
