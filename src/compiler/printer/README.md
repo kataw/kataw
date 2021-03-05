@@ -42,9 +42,6 @@ kataw.printModule(source, OPTIONS);
 
 The second argument allows you to specify various options:
 
-
-The second argument allows you to specify various options:
-
 | Option        | Default |  Description |
 | ----------- | -----------|------------------------------------------------- |
 | `printWidth`  | 80 | Specify the line length that the printer will wrap on |
