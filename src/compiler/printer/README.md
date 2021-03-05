@@ -29,7 +29,14 @@ the code formatter will insert a new line after `[` and before `]` in multi-line
 
 ## API
 
+```js
 
+// Script
+kataw.printScript(source, OPTIONS);
+
+// Module goal
+kataw.printModule(source, OPTIONS);
+```
 
 ## Options
 
