@@ -29,14 +29,17 @@ the code formatter will insert a new line after `[` and before `]` in multi-line
 
 ## API
 
-Wait for it! The API is part of the pretty printer
+
 
 ## Options
 
 The second argument allows you to specify various options:
 
+
+The second argument allows you to specify various options:
+
 | Option        | Default |  Description |
-| ----------- | ------------------------------------------------------------ |
+| ----------- | -----------|------------------------------------------------- |
 | `printWidth`  | 80 | Specify the line length that the printer will wrap on |
 | `tabWidth`  | 2 | Specify the number of spaces per indentation-level |
 | `semi`  | true |  Print semicolons at the ends of statements |
