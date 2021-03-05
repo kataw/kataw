@@ -46,7 +46,7 @@ export function getTestFiles(path: any, file: any, files: any, silent: any, dirs
 
 // Make all non-printable ascii chars encoded in tests
 export function encodeUnicode(str: string): string {
-  return str.replace(/[^\u0020-\u007e\n]/ug, (m: any) => '@{x'+m.codePointAt(0).toString(16)+'}@');
+  return str.replace(/[^\u0020-\u007e\n]/gu, (m: any) => '@{x' + m.codePointAt(0).toString(16) + '}@');
 }
 
 export function decodeUnicode(str: string): string {
@@ -56,19 +56,19 @@ export function decodeUnicode(str: string): string {
 export function promiseToWriteFile(file: any, data: any): any {
   let res: any;
   let rej: any;
-  const p = new Promise((resolve, reject) => (res = resolve, rej = reject));
+  const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
   data = encodeUnicode(data);
-  writeFile(file, data, 'utf8', (err: any) => err ? rej(err) : res());
+  writeFile(file, data, 'utf8', (err: any) => (err ? rej(err) : res()));
   return p;
 }
 
 export function promiseToReadFile(file: any) {
   if (!existsSync(file)) console.error(ColorCodes.BLINK + 'File does not exist:' + ColorCodes.RESET + ' ' + file);
-  let res: any,
-  rej: any;
+  let res: any;
+  let rej: any;
   const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
-  readFile(file, 'utf8', (err, data) => err ? rej(err) : res({ file, previous: decodeUnicode(data), data: decodeUnicode(data) }));
+  readFile(file, 'utf8', (err, data) =>
+    err ? rej(err) : res({ file, previous: decodeUnicode(data), data: decodeUnicode(data) })
+  );
   return p;
 }
-
-
