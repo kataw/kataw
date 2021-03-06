@@ -1,245 +1,3 @@
-/**
- * Properties for every single valid AST Node type.
- */
-export interface Node {
-  kind: NodeKind;
-  flags: NodeFlags;
-  intersects: boolean;
-  transformFlags: TransformFlags;
-  original?: Node | null;
-  uniqueId?: number;
-  start: number;
-  end: number;
-}
-
-/**
- * Access modifiers
- */
-export const enum AccessModifiers {
-  Private = 0,
-  Public = 1,
-  Protected = 2
-}
-
-// Note: this *must* be kept in sync with the enum's order.
-//
-// It exploits the enum value ordering, and it's necessarily a complete and
-// utter hack.
-//
-// All to lower it to a single monomorphic array access.
-export const AccessModifierTypes = [NodeKind.PrivateModifier, NodeKind.PublicModifier, NodeKind.ProtectedModifier];
-
-export const enum NodeFlags {
-  /**
-   * This node has no flags.
-   */
-  None,
-  /**
-   * This node has a line terminator after it
-   */
-  Multiline = 1 << 0,
-  /**
-   * This node has some diagnostics associated with it
-   */
-  HasErrors = 1 << 1,
-  /**
-   * This node was inserted by the compiler
-   */
-  Synthetic = 1 << 2,
-  /**
-   * This node contains '__PROTO___' property
-   */
-  HasProto = 1 << 3,
-
-  /**
-   * This node const either 'let' or 'const' bindings
-   */
-
-  BlockScoped = 1 << 4,
-
-  /**
-   * This node has been "exported"
-   */
-
-  Exported = 1 << 5,
-
-  /**
-   * This node has "export default modifier"
-   */
-
-  ExportDefault = 1 << 6,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  BinaryIntegerLiteral = 1 << 7,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  HexIntegerLiteral = 1 << 8,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  OctalIntegerLiteral = 1 << 9,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  FloatingPointLiteral = 1 << 10,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  ScientificLiteral = 1 << 11,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  NonDecimalIntegerLiteral = 1 << 12,
-
-  /**
-   * This node const numeric literal values
-   */
-
-  ImplicitOctal = 1 << 13,
-
-  /**
-    This node constains a preceding linebreak
-   */
-
-  PrecedingLineBreak = 1 << 14,
-
-  /**
-   * This node is an async function (initialized by binding)
-   */
-
-  HasAsyncFunctions = 1 << 15,
-
-  /**
-   * This node is in strict mode
-   */
-
-  Strict = 1 << 16,
-
-  /**
-   * This node is in module mode
-   */
-
-  Module = 1 << 17,
-
-  /**
-   * This node contains a construcor (Methoddefinition)
-   */
-
-  Constructor = 1 << 18,
-
-  /**
-   * This node has an unterminated string literal or regular expression
-   */
-  Unterminated = 1 << 19,
-
-  /**
-   * This node contains an invalid escape (template rev.)
-   */
-  ContainsInvalidEscape = 1 << 20,
-
-  /**
-   * This node contains extended unicode escape
-   */
-  ExtendedUnicodeEscape = 1 << 21,
-
-  /**
-   * This node contains an unicode escapa
-   */
-  UnicodeEscape = 1 << 22,
-
-  /**
-   * This node has numeric separators
-   */
-  ContainsSeparator = 1 << 23,
-
-  /**
-   * This node has an string literal starting with single quote
-   */
-  SingleQuote = 1 << 24,
-
-  /**
-   * This node has an escaped keyword or identifier
-   */
-  EscapedKeywordOrIdentifier = 1 << 25,
-
-  /**
-   * This node has been decalared (Typescript)
-   */
-  Declared = 1 << 26,
-
-  /**
-   * This node is ambient
-   */
-  Ambient = 1 << 27,
-
-  /**
-   * This node is abstract
-   */
-
-  Abstract = 1 << 28,
-
-  /**
-   * This node is an parenthesized arrow
-   */
-
-  ParenthesizedArrow = 1 << 29
-}
-
-/**
- * Transformation flags
- */
-
-export const enum TransformFlags {
-  None = 0,
-  ES2015 = 1 << 0,
-  ES2016 = 1 << 1,
-  ES2017 = 1 << 2,
-  ES2018 = 1 << 3,
-  ES2019 = 1 << 4,
-  ES2020 = 1 << 5,
-  ESNext = 1 << 6,
-  Generator = 1 << 7,
-  HoistedDeclarationOrCompletion = 1 << 8,
-  BlockScopedBinding = 1 << 9,
-  BindingPattern = 1 << 10,
-  ObjectRestOrSpread = 1 << 11,
-  RestOrSpread = 1 << 12,
-  Jsx = 1 << 13,
-  Yield = 1 << 14,
-  Await = 1 << 15,
-  LexicalThis = 1 << 16,
-  ComputedPropertyName = 1 << 17,
-  DynamicImport = 1 << 18,
-  ClassFields = 1 << 19,
-  PossibleTopLevelAwait = 1 << 20,
-  TypeScript = 1 << 21
-}
-
-export const enum UniqueIdentifierFlags {
-  None = 0,
-  Auto = 1,
-  Loop = 2,
-  Unique = 3,
-  Node = 4,
-  KindMask = 7,
-  ReservedInNestedScopes = 1 << 3,
-  Optimistic = 1 << 4
-}
-
 // Every single valid AST Node Kind
 // Please keep it sorted alphabetically.
 export const enum NodeKind {
@@ -527,4 +285,247 @@ export const enum NodeKind {
   // Tokens
 
   Period = 254
+}
+
+
+/**
+ * Properties for every single valid AST Node type.
+ */
+export interface Node {
+  kind: NodeKind;
+  flags: NodeFlags;
+  intersects: boolean;
+  transformFlags: TransformFlags;
+  original?: Node | null;
+  uniqueId?: number;
+  start: number;
+  end: number;
+}
+
+/**
+ * Access modifiers
+ */
+export const enum AccessModifiers {
+  Private = 0,
+  Public = 1,
+  Protected = 2
+}
+
+// Note: this *must* be kept in sync with the enum's order.
+//
+// It exploits the enum value ordering, and it's necessarily a complete and
+// utter hack.
+//
+// All to lower it to a single monomorphic array access.
+export const AccessModifierTypes = [NodeKind.PrivateModifier, NodeKind.PublicModifier, NodeKind.ProtectedModifier];
+
+export const enum NodeFlags {
+  /**
+   * This node has no flags.
+   */
+  None,
+  /**
+   * This node has a line terminator after it
+   */
+  Multiline = 1 << 0,
+  /**
+   * This node has some diagnostics associated with it
+   */
+  HasErrors = 1 << 1,
+  /**
+   * This node was inserted by the compiler
+   */
+  Synthetic = 1 << 2,
+  /**
+   * This node contains '__PROTO___' property
+   */
+  HasProto = 1 << 3,
+
+  /**
+   * This node const either 'let' or 'const' bindings
+   */
+
+  BlockScoped = 1 << 4,
+
+  /**
+   * This node has been "exported"
+   */
+
+  Exported = 1 << 5,
+
+  /**
+   * This node has "export default modifier"
+   */
+
+  ExportDefault = 1 << 6,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  BinaryIntegerLiteral = 1 << 7,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  HexIntegerLiteral = 1 << 8,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  OctalIntegerLiteral = 1 << 9,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  FloatingPointLiteral = 1 << 10,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  ScientificLiteral = 1 << 11,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  NonDecimalIntegerLiteral = 1 << 12,
+
+  /**
+   * This node const numeric literal values
+   */
+
+  ImplicitOctal = 1 << 13,
+
+  /**
+    This node constains a preceding linebreak
+   */
+
+  PrecedingLineBreak = 1 << 14,
+
+  /**
+   * This node is an async function (initialized by binding)
+   */
+
+  HasAsyncFunctions = 1 << 15,
+
+  /**
+   * This node is in strict mode
+   */
+
+  Strict = 1 << 16,
+
+  /**
+   * This node is in module mode
+   */
+
+  Module = 1 << 17,
+
+  /**
+   * This node contains a construcor (Methoddefinition)
+   */
+
+  Constructor = 1 << 18,
+
+  /**
+   * This node has an unterminated string literal or regular expression
+   */
+  Unterminated = 1 << 19,
+
+  /**
+   * This node contains an invalid escape (template rev.)
+   */
+  ContainsInvalidEscape = 1 << 20,
+
+  /**
+   * This node contains extended unicode escape
+   */
+  ExtendedUnicodeEscape = 1 << 21,
+
+  /**
+   * This node contains an unicode escapa
+   */
+  UnicodeEscape = 1 << 22,
+
+  /**
+   * This node has numeric separators
+   */
+  ContainsSeparator = 1 << 23,
+
+  /**
+   * This node has an string literal starting with single quote
+   */
+  SingleQuote = 1 << 24,
+
+  /**
+   * This node has an escaped keyword or identifier
+   */
+  EscapedKeywordOrIdentifier = 1 << 25,
+
+  /**
+   * This node has been decalared (Typescript)
+   */
+  Declared = 1 << 26,
+
+  /**
+   * This node is ambient
+   */
+  Ambient = 1 << 27,
+
+  /**
+   * This node is abstract
+   */
+
+  Abstract = 1 << 28,
+
+  /**
+   * This node is an parenthesized arrow
+   */
+
+  ParenthesizedArrow = 1 << 29
+}
+
+/**
+ * Transformation flags
+ */
+
+export const enum TransformFlags {
+  None = 0,
+  ES2015 = 1 << 0,
+  ES2016 = 1 << 1,
+  ES2017 = 1 << 2,
+  ES2018 = 1 << 3,
+  ES2019 = 1 << 4,
+  ES2020 = 1 << 5,
+  ESNext = 1 << 6,
+  Generator = 1 << 7,
+  HoistedDeclarationOrCompletion = 1 << 8,
+  BlockScopedBinding = 1 << 9,
+  BindingPattern = 1 << 10,
+  ObjectRestOrSpread = 1 << 11,
+  RestOrSpread = 1 << 12,
+  Jsx = 1 << 13,
+  Yield = 1 << 14,
+  Await = 1 << 15,
+  LexicalThis = 1 << 16,
+  ComputedPropertyName = 1 << 17,
+  DynamicImport = 1 << 18,
+  ClassFields = 1 << 19,
+  PossibleTopLevelAwait = 1 << 20,
+  TypeScript = 1 << 21
+}
+
+export const enum UniqueIdentifierFlags {
+  None = 0,
+  Auto = 1,
+  Loop = 2,
+  Unique = 3,
+  Node = 4,
+  KindMask = 7,
+  ReservedInNestedScopes = 1 << 3,
+  Optimistic = 1 << 4
 }

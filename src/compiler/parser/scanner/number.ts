@@ -554,7 +554,7 @@ export function scanDigitsWithNumericSeparators(parser: ParserState, start: numb
 
 export function parseFloatingPointLiteral(parser: ParserState, cp: number, source: string): Token {
   let ret = scanDigitsWithNumericSeparators(parser, parser.pos, cp);
-  let flag = NodeFlags.FloatingPointLiteral;
+  const flag = NodeFlags.FloatingPointLiteral;
 
   // If we see an 'e' or 'E' we should only consume it if its of the form:
   // e<number> or E<number>

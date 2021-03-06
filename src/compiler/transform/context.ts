@@ -14,7 +14,7 @@ import { FunctionDeclaration } from '../ast/statements/function-declaration';
 /**
  * An interface for transformer context
  */
-export interface Context {}
+export interface Context {} // eslint-disable-line @typescript-eslint/no-empty-interface -- fix later(TODO)
 
 /* @internal */
 export const enum LexicalEnvironmentFlags {
