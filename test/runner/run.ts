@@ -1,8 +1,7 @@
 import { parseScript, parseModule } from '../../src/kataw';
-import { printSourceFile } from '../src/compiler/printer';
+import { printSourceFile } from '../../src/compiler/printer';
 import { Options } from '../../src/compiler/types';
 import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './utils';
-
 
 export async function extractFiles(list: any) {
   list.forEach((obj: any) => {
@@ -119,19 +118,18 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
   if (outputIndex < 0) outputIndex = currentOutput.length;
 
   let diagnosticString = '';
+
   if (printed !== '✖ Soon to be open sourced') {
     const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
-
     if (diagnostics.length) {
       diagnostics.forEach(function (a: any) {
         diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
         diagnosticString += '\n';
       });
     } else {
-      diagnosticString += 'No errors';
+      diagnosticString += '✔ No errors';
     }
   }
-
   return options.printer
     ? '' +
         currentOutput.slice(0, outputIndex) +
