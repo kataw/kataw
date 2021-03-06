@@ -33,7 +33,7 @@ export function san(dir: any) {
 }
 
 export function getTestFiles(path: any, file: any, files: any, silent: any, dirsToo?: any): any {
-  let combo = path + file;
+  const combo = path + file;
   if (statSync(combo).isFile()) {
     if (combo.slice(-3) === '.md' && combo.slice(-'README.md'.length) !== 'README.md') {
       files.push(combo);
@@ -56,7 +56,7 @@ export function decodeUnicode(str: string): string {
 export function promiseToWriteFile(file: any, data: any): any {
   let res: any;
   let rej: any;
-  let p = new Promise((resolve, reject) => (res = resolve, rej = reject));
+  const p = new Promise((resolve, reject) => (res = resolve, rej = reject));
   data = encodeUnicode(data);
   writeFile(file, data, 'utf8', (err: any) => err ? rej(err) : res());
   return p;
@@ -65,8 +65,8 @@ export function promiseToWriteFile(file: any, data: any): any {
 export function promiseToReadFile(file: any) {
   if (!existsSync(file)) console.error(ColorCodes.BLINK + 'File does not exist:' + ColorCodes.RESET + ' ' + file);
   let res: any,
-  rej: any,
-  p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
+  rej: any;
+  const p = new Promise((resolve, reject) => ((res = resolve), (rej = reject)));
   readFile(file, 'utf8', (err, data) => err ? rej(err) : res({ file, previous: decodeUnicode(data), data: decodeUnicode(data) }));
   return p;
 }

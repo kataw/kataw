@@ -5,7 +5,7 @@ import { JsxFragment } from './jsx-fragment';
  * The opening element of a <>...</> JsxFragment
  */
 
-export interface JsxOpeningFragment extends Node {}
+export type JsxOpeningFragment = Node
 
 export function createJsxOpeningFragment(flags: NodeFlags, start: number, end: number): JsxOpeningFragment {
   return {

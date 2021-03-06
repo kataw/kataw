@@ -24,14 +24,14 @@ export async function autogen(files: string[], conservative: boolean) {
 
   files = files.filter((f: string) => f.endsWith('autogen.md'));
 
-  let list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
+  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
     throw new Error(e);
   });
 
   list.forEach((obj: any) => {
-    let genDir = join(dirname(obj.file), 'gen');
+    const genDir = join(dirname(obj.file), 'gen');
     if (!conservative) {
-      let oldFiles: string[] = [];
+      const oldFiles: string[] = [];
       getTestFiles(genDir, '', oldFiles, true, true);
       // Note: the folder should only contain generated files and folders which should delete just fine
       oldFiles.forEach((file: string) => {
@@ -45,11 +45,11 @@ export async function autogen(files: string[], conservative: boolean) {
       mkdirSync(genDir, { recursive: true });
     }
 
-    let caseOffset = obj.data.indexOf(Constants.Cases);
-    let templateOffset = obj.data.indexOf(Constants.Templates, Constants.Cases);
-    let outputOffset = obj.data.indexOf(Constants.AutoGenOutput, Constants.Templates);
+    const caseOffset = obj.data.indexOf(Constants.Cases);
+    const templateOffset = obj.data.indexOf(Constants.Templates, Constants.Cases);
+    const outputOffset = obj.data.indexOf(Constants.AutoGenOutput, Constants.Templates);
 
-    let cases = obj.data
+    const cases = obj.data
       .slice(caseOffset + Constants.Cases.length, templateOffset)
       .split('> `````js\n')
       .slice(1)
@@ -63,7 +63,7 @@ export async function autogen(files: string[], conservative: boolean) {
           .join('\n');
       });
 
-    let params = obj.data
+    const params = obj.data
       .slice(
         templateOffset + Constants.Templates.length,
         obj.data.indexOf('####', templateOffset + Constants.Templates.length)
@@ -82,24 +82,24 @@ export async function autogen(files: string[], conservative: boolean) {
       }, {});
 
     // Temlates have a header and also have a ``js codeblock
-    let templates = obj.data
+    const templates = obj.data
       .slice(templateOffset + Constants.Templates.length, outputOffset)
       .split('\n#### ')
       .slice(1) // first element is the header
       .map((s: any) => {
         // We split on the #### so the title should be at the start of `s` now
-        let title = s.split('\n')[0].trim();
+        const title = s.split('\n')[0].trim();
         // Get everything inside the js code block
-        let code = s.split('`````js\n')[1].split('\n`````')[0];
+        const code = s.split('`````js\n')[1].split('\n`````')[0];
         return { title, code };
       });
     // Now generate all cases with each # in the params and templates replaced with each case
 
     templates.forEach(({ title, code }: any) => {
-      let caseDir = join(genDir, san(String(title)));
+      const caseDir = join(genDir, san(String(title)));
       mkdirSync(caseDir, { recursive: true });
       cases.forEach((c: any) => {
-        let testFile = join(caseDir, san(String(c)) + '.md');
+        const testFile = join(caseDir, san(String(c)) + '.md');
 
         // immediately generate a test case for it, as well
         writeFileSync(

@@ -6,6 +6,7 @@ import { autogen } from './lib/autogenerate';
 import { writeFile } from 'fs';
 import { resolve } from 'path';
 
+let files: any = [];
 const AUTO_UPDATE = process.argv.includes('-u');
 const AUTO_GENERATE = process.argv.includes('-g');
 const AUTO_GENERATE_CONSERVATIVE = process.argv.includes('-G');
@@ -42,10 +43,10 @@ async function runTest(list: any) {
   console.time(
     ColorCodes.GREEN + 'Running ' + ColorCodes.RESET + list.length + ' test cases.' + ColorCodes.yellow + ' Total time'
   );
-  let set = await Promise.all(
+  const set = await Promise.all(
     list.map(async (obj: any) => {
-      let { input, options } = obj;
-      let result = await generateSourceFile(
+      const { input, options } = obj;
+      const result = await generateSourceFile(
         input,
         {
           // Enable stage 3 support (ESNext)
@@ -140,17 +141,17 @@ function parseTestFile(obj: any): any {
   if (!previous) return;
 
   // find the options
-  let optionsOffset = data.indexOf(Constants.Options);
-  let start1 = data.indexOf(Constants.JsStart, optionsOffset);
-  let end1 = data.indexOf(Constants.JsEnd, optionsOffset);
+  const optionsOffset = data.indexOf(Constants.Options);
+  const start1 = data.indexOf(Constants.JsStart, optionsOffset);
+  const end1 = data.indexOf(Constants.JsEnd, optionsOffset);
 
   // Negative if no opions are set, so we pass a empty obj
   const options = optionsOffset === -1 ? {} : eval('0||' + data.slice(start1 + Constants.JsStart.length, end1) + '');
 
-  let inputOffset = data.indexOf(Constants.Input);
-  let start = data.indexOf(Constants.JsStart, inputOffset);
-  let end = data.indexOf(Constants.JsEnd, inputOffset);
-  let input = data.slice(start + Constants.JsStart.length, end);
+  const inputOffset = data.indexOf(Constants.Input);
+  const start = data.indexOf(Constants.JsStart, inputOffset);
+  const end = data.indexOf(Constants.JsEnd, inputOffset);
+  const input = data.slice(start + Constants.JsStart.length, end);
 
   return { options, input };
 }
@@ -201,8 +202,6 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
 }
 
 console.time('Whole test run');
-
-let files: any = [];
 
 getTestFiles(resolve('test/__snapshot__'), '', files, true);
 
