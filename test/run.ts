@@ -168,16 +168,17 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
   if (outputIndex < 0) outputIndex = currentOutput.length;
 
   let diagnosticString = '';
+  if (printed !== '✖ Soon to be open sourced') {
+    const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
 
-  const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
-
-  if (diagnostics.length) {
-    diagnostics.forEach(function (a: any) {
-      diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
-      diagnosticString += '\n';
-    });
-  } else {
-    diagnosticString += 'No errors';
+    if (diagnostics.length) {
+      diagnostics.forEach(function (a: any) {
+        diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
+        diagnosticString += '\n';
+      });
+    } else {
+      diagnosticString += 'No errors';
+    }
   }
 
   return options.printer
