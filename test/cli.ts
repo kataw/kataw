@@ -3,10 +3,10 @@
 // exitcode: 2 => bad argv
 // exitcode: 3 => unknown error(bug)
 
-import { getTestFiles } from './lib/utils';
+import { getTestFiles } from './runner/utils';
 import { resolve } from 'path';
-import { generateNewOutput, runTest, writeNewOutput, file2Tests } from './lib/run';
-import { autogen } from './lib/autogenerate';
+import { generateNewOutput, runTest, writeNewOutput, file2Tests } from './runner/run';
+import { autogen } from './runner/autogenerate';
 
 runCli();
 

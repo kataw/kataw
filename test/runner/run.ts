@@ -3,25 +3,6 @@ import { printSourceFile } from '../src/compiler/printer';
 import { Options } from '../../src/compiler/types';
 import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './utils';
 
-let files: any = [];
-
-const AUTO_UPDATE = process.argv.includes('-u');
-
-if (process.argv.includes('-?') || process.argv.includes('--help')) {
-  console.log(`
-  Kataw Test Runner
-  Usage:
-    \`tests/kataw.spec.mjs\` [options]
-  But for the time being:
-    \`ts-node tests/run.ts\`
-  Options:
-    -f "path"     Only test this file / dir
-    -g            Regenerate computed test case blocks (process all autogen.md files)
-    -G            Same as -g except it skips existing files
-    -u            Auto-update tests with the results (tests silently updated inline, use source control to diff)
-`);
-  process.exit();
-}
 
 export async function extractFiles(list: any) {
   list.forEach((obj: any) => {
@@ -90,13 +71,13 @@ export async function generateNewOutput(list: any) {
   });
 }
 
-export async function writeNewOutput(list: any) {
+export async function writeNewOutput(list: any, update: boolean) {
   let updated = 0;
   await Promise.all(
     list.map((obj: any): any => {
       const { data, previous, file } = obj;
       if (data !== previous) {
-        if (AUTO_UPDATE) {
+        if (update) {
           ++updated;
           promiseToWriteFile(file, data);
         } else {
