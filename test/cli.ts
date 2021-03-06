@@ -20,7 +20,7 @@ export async function runCli() {
     const list = await file2Tests(opts.files);
     await runTest(list);
     await generateNewOutput(list);
-    await writeNewOutput(list);
+    await writeNewOutput(list, opts.update);
   }
 }
 
@@ -30,7 +30,6 @@ export function cliOpts() {
 
   const gen = process.argv.includes('-g') || process.argv.includes('-G');
   const opts = {
-    help,
     gen,
     update: process.argv.includes('-u'),
     conservative: process.argv.includes('-G'), // skip existing
