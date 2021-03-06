@@ -1841,6 +1841,41 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 innerPos
               );
             }
+
+            if (parser.token === Token.Arrow) {
+              expression.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
+              expression = parseArrowFunction(
+                parser,
+                context,
+                null,
+                createArrowParameters(
+                  [
+                    createFormalParameter(
+                      false,
+                      expression as any,
+                      false,
+                      parseTypeAnnotation(parser, context),
+                      null,
+                      null,
+                      null,
+                      /* isReadOnly */ false,
+                      NodeFlags.None,
+                      parser.curPos,
+                      parser.curPos
+                    )
+                  ],
+                  null,
+                  null,
+                  /* trailingComma */ false,
+                  parser.nodeFlags,
+                  innerPos,
+                  parser.curPos
+                ),
+                token === Token.AsyncKeyword,
+                /* isParenthesized */ false,
+                innerPos
+              );
+            }
           }
         } else if (parser.token === Token.Assign) {
           state = Tristate.False;
