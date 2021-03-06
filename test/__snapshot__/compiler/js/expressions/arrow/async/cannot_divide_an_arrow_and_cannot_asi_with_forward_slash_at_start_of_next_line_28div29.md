@@ -25,9 +25,9 @@ _ => {}
                 "kind": 2097233,
                 "expression": {
                     "kind": 67592,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [
                             {
                                 "kind": 89,
@@ -39,8 +39,6 @@ _ => {}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 0,
                                     "end": 1
                                 },
@@ -53,8 +51,6 @@ _ => {}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 1,
                                 "end": 1
                             }
@@ -65,8 +61,6 @@ _ => {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -79,32 +73,24 @@ _ => {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 6,
                             "end": 6
                         },
                         "flags": 540672,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 7
                     },
                     "flags": 540672,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 7
             },
@@ -116,16 +102,12 @@ _ => {}
                     "flags": 540672,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 7,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 12
             }
@@ -133,8 +115,6 @@ _ => {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 12
     },
@@ -149,8 +129,6 @@ _ => {}
             "length": 1
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

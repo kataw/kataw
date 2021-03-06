@@ -29,8 +29,6 @@ do if(8)function s(){}while(y)
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 28,
                     "end": 29
                 },
@@ -43,8 +41,6 @@ do if(8)function s(){}while(y)
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 7
                     },
@@ -57,8 +53,6 @@ do if(8)function s(){}while(y)
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 16,
                             "end": 18
                         },
@@ -69,8 +63,6 @@ do if(8)function s(){}while(y)
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 20
                         },
@@ -84,16 +76,12 @@ do if(8)function s(){}while(y)
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 21
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 22
                         },
@@ -101,8 +89,6 @@ do if(8)function s(){}while(y)
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 256,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 22
                     },
@@ -111,16 +97,12 @@ do if(8)function s(){}while(y)
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             }
@@ -128,16 +110,12 @@ do if(8)function s(){}while(y)
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

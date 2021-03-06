@@ -61,8 +61,6 @@ export default class {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 58,
                                         "end": 110
                                     },
@@ -73,8 +71,6 @@ export default class {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 111,
                                         "end": 112
                                     },
@@ -89,16 +85,12 @@ export default class {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 113,
                                             "end": 113
                                         },
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 112,
                                         "end": 119
                                     },
@@ -109,16 +101,12 @@ export default class {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 110,
                                     "end": 119
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 58,
                                 "end": 119
                             }
@@ -126,8 +114,6 @@ export default class {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 58,
                         "end": 121
                     },
@@ -135,16 +121,12 @@ export default class {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 50,
                     "end": 121
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 121
             }
@@ -152,16 +134,12 @@ export default class {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 121
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

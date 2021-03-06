@@ -44,8 +44,6 @@ export type { T } from './mod';
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -53,8 +51,6 @@ export type { T } from './mod';
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 15
                             }
@@ -62,29 +58,23 @@ export type { T } from './mod';
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 13,
                         "end": 15
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 17
                 },
                 "exportFromClause": null,
                 "fromClause": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "./mod",
                     "rawText": "./mod",
                     "flags": 16842752,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 30
                 },
@@ -92,8 +82,6 @@ export type { T } from './mod';
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             }
@@ -101,16 +89,12 @@ export type { T } from './mod';
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -124,15 +108,13 @@ export type { T } from './mod';
 
 
 ```javascript
-
-export { T } from "./mod";
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -16,23 +16,23 @@
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "(() => {\n  // swallow error and fallback to using directory as path\n}) as string[];",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 65546,
+                    "kind": 73738,
                     "expression": {
                         "kind": 66224,
                         "expression": {
                             "kind": 67592,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": 1,
                                 "elements": [],
                                 "type": null,
                                 "accessModifier": null,
@@ -40,8 +40,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 1,
                                 "end": 1
                             },
@@ -51,88 +49,68 @@
                                     "kind": 94,
                                     "statements": [],
                                     "multiline": true,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 8
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 69
                             },
-                            "flags": 536936448,
+                            "flags": 536870912,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 1,
                             "end": 69
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 70
                     },
                     "type": {
-                        "kind": 7,
+                        "kind": 8199,
                         "elementType": {
-                            "kind": 4194510,
+                            "kind": 4202702,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 73,
                             "end": 80
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 73,
                         "end": 83
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 70,
                     "end": 82
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 83
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 83
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -146,16 +124,13 @@
 
 
 ```javascript
-
-(() =>  {
-}) as string[]
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

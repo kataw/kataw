@@ -47,8 +47,6 @@ let [await f] = [];
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 5,
                                                 "end": 10
                                             },
@@ -56,8 +54,6 @@ let [await f] = [];
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 10
                                         },
@@ -71,8 +67,6 @@ let [await f] = [];
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 10,
                                                 "end": 12
                                             },
@@ -80,8 +74,6 @@ let [await f] = [];
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 10,
                                             "end": 12
                                         }
@@ -90,16 +82,12 @@ let [await f] = [];
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 12
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 13
                             },
@@ -115,24 +103,18 @@ let [await f] = [];
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 17
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 18
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 18
                         }
@@ -140,16 +122,12 @@ let [await f] = [];
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 18
                 },
                 "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 19
             }
@@ -157,8 +135,6 @@ let [await f] = [];
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 19
     },
@@ -173,8 +149,6 @@ let [await f] = [];
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

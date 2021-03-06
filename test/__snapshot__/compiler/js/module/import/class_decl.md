@@ -35,8 +35,6 @@ class x { import {x} from "y"; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -55,8 +53,6 @@ class x { import {x} from "y"; }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 16
                             },
@@ -71,8 +67,6 @@ class x { import {x} from "y"; }
                             "flags": 65538,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 16
                         }
@@ -80,8 +74,6 @@ class x { import {x} from "y"; }
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 16
                 },
@@ -89,8 +81,6 @@ class x { import {x} from "y"; }
                 "flags": 65538,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 16
             },
@@ -108,16 +98,12 @@ class x { import {x} from "y"; }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 19
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 19
                         }
@@ -126,16 +112,12 @@ class x { import {x} from "y"; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 19
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 16,
                 "end": 20
             },
@@ -148,38 +130,30 @@ class x { import {x} from "y"; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 25
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 20,
                 "end": 25
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "y",
                     "rawText": "y",
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 29
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 25,
                 "end": 30
             }
@@ -187,8 +161,6 @@ class x { import {x} from "y"; }
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 32
     },
@@ -217,8 +189,6 @@ class x { import {x} from "y"; }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

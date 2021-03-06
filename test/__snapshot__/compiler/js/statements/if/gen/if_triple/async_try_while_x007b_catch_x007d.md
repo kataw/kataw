@@ -32,8 +32,6 @@ if if if async try while { catch }
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 2
                 },
@@ -45,8 +43,6 @@ if if if async try while { catch }
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 5
                     },
@@ -59,8 +55,6 @@ if if if async try while { catch }
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 14
                         },
@@ -75,16 +69,12 @@ if if if async try while { catch }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 18
                             },
@@ -98,24 +88,18 @@ if if if async try while { catch }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 14,
                             "end": 18
                         },
@@ -124,8 +108,6 @@ if if if async try while { catch }
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 18
                     },
@@ -134,8 +116,6 @@ if if if async try while { catch }
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 18
                 },
@@ -144,8 +124,6 @@ if if if async try while { catch }
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             },
@@ -163,8 +141,6 @@ if if if async try while { catch }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 26,
                                 "end": 32
                             }
@@ -174,16 +150,12 @@ if if if async try while { catch }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 26,
                         "end": 32
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 24,
                     "end": 34
                 },
@@ -195,24 +167,18 @@ if if if async try while { catch }
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 18,
                 "end": 34
             }
@@ -220,8 +186,6 @@ if if if async try while { catch }
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 34
     },
@@ -257,8 +221,6 @@ if if if async try while { catch }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -16,11 +16,11 @@ var v = a ?
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var v = a ?\n  b :\n  c;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
@@ -33,11 +33,9 @@ var v = a ?
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -49,11 +47,9 @@ var v = a ?
                                     "kind": 196712,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 7,
                                     "end": 9
                                 },
@@ -61,11 +57,9 @@ var v = a ?
                                     "kind": 196712,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 15
                                 },
@@ -73,61 +67,47 @@ var v = a ?
                                     "kind": 196712,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 21
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 21
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 21
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 21
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 22
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 22
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -141,15 +121,13 @@ var v = a ?
 
 
 ```javascript
-
-var v = a ? b : c;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

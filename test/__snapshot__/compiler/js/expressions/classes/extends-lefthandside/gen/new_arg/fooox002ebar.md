@@ -29,7 +29,7 @@ new fooo.bar
                 "expression": {
                     "kind": 66204,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 196712,
                             "text": "fooo",
@@ -37,8 +37,6 @@ new fooo.bar
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 8
                         },
@@ -49,34 +47,31 @@ new fooo.bar
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 12
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
-                        "end": 12
+                        "end": 12,
+                        "period": {
+                            "kind": 254,
+                            "pos": 8,
+                            "end": 9
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 32,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 12
             }
@@ -84,16 +79,12 @@ new fooo.bar
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 12
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

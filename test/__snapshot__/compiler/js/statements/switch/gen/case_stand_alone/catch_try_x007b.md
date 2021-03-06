@@ -35,16 +35,12 @@ case catch try {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 4
                 },
@@ -60,24 +56,18 @@ case catch try {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 16,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 10
                 },
@@ -85,8 +75,6 @@ case catch try {
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 16,
-                "parent": null,
-                "emitNode": null,
                 "start": 4,
                 "end": 10
             },
@@ -101,16 +89,12 @@ case catch try {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -124,24 +108,18 @@ case catch try {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 10,
                 "end": 16
             }
@@ -149,8 +127,6 @@ case catch try {
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 16
     },
@@ -186,8 +162,6 @@ case catch try {
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

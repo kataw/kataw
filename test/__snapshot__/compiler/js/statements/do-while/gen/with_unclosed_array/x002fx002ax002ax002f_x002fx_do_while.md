@@ -32,8 +32,6 @@ do[ /**/ /x do while
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 20
                 },
@@ -50,8 +48,6 @@ do[ /**/ /x do while
                                     "flags": 524288,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 3,
                                     "end": 20
                                 }
@@ -61,32 +57,24 @@ do[ /**/ /x do while
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 20
                         },
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 2,
                         "end": 20
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 20
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 20
             }
@@ -94,8 +82,6 @@ do[ /**/ /x do while
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 20
     },
@@ -117,8 +103,6 @@ do[ /**/ /x do while
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

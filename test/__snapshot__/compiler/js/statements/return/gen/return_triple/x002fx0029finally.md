@@ -32,16 +32,12 @@ return return return /)finally
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             },
@@ -53,16 +49,12 @@ return return return /)finally
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 13
             },
@@ -74,16 +66,12 @@ return return return /)finally
                     "flags": 524288,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 30
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 13,
                 "end": 30
             }
@@ -91,8 +79,6 @@ return return return /)finally
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
@@ -121,8 +107,6 @@ return return return /)finally
             "length": 1
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -32,8 +32,6 @@ do function while while
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 23
                 },
@@ -46,8 +44,6 @@ do function while while
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 11
                     },
@@ -58,8 +54,6 @@ do function while while
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 11
                     },
@@ -77,8 +71,6 @@ do function while while
                                         "flags": 6,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 23,
                                         "end": 23
                                     },
@@ -90,24 +82,18 @@ do function while while
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 23
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 23
                                 }
@@ -116,16 +102,12 @@ do function while while
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 23
                         },
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 23
                     },
@@ -133,16 +115,12 @@ do function while while
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 23
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             }
@@ -150,8 +128,6 @@ do function while while
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
@@ -180,8 +156,6 @@ do function while while
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

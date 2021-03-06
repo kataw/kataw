@@ -33,8 +33,6 @@ class public {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 12
                 },
@@ -47,8 +45,6 @@ class public {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 15
                 },
@@ -56,8 +52,6 @@ class public {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             }
@@ -65,16 +59,12 @@ class public {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 15
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

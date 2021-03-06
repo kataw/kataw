@@ -51,21 +51,19 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 217,
+                                "kind": 8409,
                                 "spans": [
                                     {
-                                        "kind": 218,
+                                        "kind": 8410,
                                         "type": {
-                                            "kind": 118,
+                                            "kind": 8310,
                                             "typeParameter": {
-                                                "kind": 232,
+                                                "kind": 8424,
                                                 "name": {
                                                     "kind": 196712,
                                                     "text": "bar",
@@ -73,8 +71,6 @@ type PropEventSource<T> = {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 19,
                                                     "end": 23
                                                 },
@@ -84,16 +80,12 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 19,
                                                 "end": 23
                                             },
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 23
                                         },
@@ -102,8 +94,6 @@ type PropEventSource<T> = {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 6,
                                         "end": 23
                                     }
@@ -112,19 +102,16 @@ type PropEventSource<T> = {
                                     "kind": 4260568,
                                     "rawText": "",
                                     "text": "",
+                                    "literal": false,
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 25
                             },
@@ -132,8 +119,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 25
                         }
@@ -141,21 +126,17 @@ type PropEventSource<T> = {
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 25
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 26
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "HelloWorld",
@@ -163,18 +144,16 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 31,
                     "end": 42
                 },
                 "type": {
-                    "kind": 217,
+                    "kind": 8409,
                     "spans": [
                         {
-                            "kind": 218,
+                            "kind": 8410,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Hello",
@@ -182,8 +161,6 @@ type PropEventSource<T> = {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
                                     "end": 53
                                 },
@@ -191,8 +168,6 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 48,
                                 "end": 54
                             },
@@ -201,15 +176,13 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 44,
                             "end": 53
                         },
                         {
-                            "kind": 218,
+                            "kind": 8410,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "World",
@@ -217,8 +190,6 @@ type PropEventSource<T> = {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 58,
                                     "end": 63
                                 },
@@ -226,8 +197,6 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 58,
                                 "end": 64
                             },
@@ -236,8 +205,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 53,
                             "end": 63
                         }
@@ -246,19 +213,16 @@ type PropEventSource<T> = {
                         "kind": 4260568,
                         "rawText": "",
                         "text": "",
+                        "literal": false,
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 63,
                         "end": 65
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 44,
                     "end": 65
                 },
@@ -266,13 +230,11 @@ type PropEventSource<T> = {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 26,
                 "end": 65
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "SeussFish",
@@ -280,21 +242,19 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 70,
                     "end": 80
                 },
                 "type": {
-                    "kind": 217,
+                    "kind": 8409,
                     "spans": [
                         {
-                            "kind": 218,
+                            "kind": 8410,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "Quantity",
@@ -302,8 +262,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 86,
                                             "end": 94
                                         },
@@ -311,13 +269,11 @@ type PropEventSource<T> = {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 86,
                                         "end": 96
                                     },
                                     {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "Color",
@@ -325,8 +281,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 96,
                                             "end": 102
                                         },
@@ -334,8 +288,6 @@ type PropEventSource<T> = {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 96,
                                         "end": 103
                                     }
@@ -343,8 +295,6 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 94,
                                 "end": 102
                             },
@@ -353,8 +303,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 82,
                             "end": 102
                         }
@@ -363,19 +311,16 @@ type PropEventSource<T> = {
                         "kind": 4260568,
                         "rawText": " fish",
                         "text": " fish",
+                        "literal": false,
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 102,
                         "end": 109
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 82,
                     "end": 109
                 },
@@ -383,8 +328,6 @@ type PropEventSource<T> = {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 65,
                 "end": 110
             },
@@ -397,8 +340,6 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 127,
                     "end": 140
                 },
@@ -415,19 +356,17 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 141,
                                 "end": 146
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 217,
+                                "kind": 8409,
                                 "spans": [
                                     {
-                                        "kind": 218,
+                                        "kind": 8410,
                                         "type": {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "VerticalAlignment",
@@ -435,8 +374,6 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 151,
                                                 "end": 168
                                             },
@@ -444,8 +381,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 151,
                                             "end": 169
                                         },
@@ -454,15 +389,13 @@ type PropEventSource<T> = {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 147,
                                         "end": 168
                                     },
                                     {
-                                        "kind": 218,
+                                        "kind": 8410,
                                         "type": {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "HorizontalAlignment",
@@ -470,8 +403,6 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 172,
                                                 "end": 191
                                             },
@@ -479,8 +410,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 172,
                                             "end": 192
                                         },
@@ -489,8 +418,6 @@ type PropEventSource<T> = {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 168,
                                         "end": 191
                                     }
@@ -499,19 +426,16 @@ type PropEventSource<T> = {
                                     "kind": 4260568,
                                     "rawText": "",
                                     "text": "",
+                                    "literal": false,
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 191,
                                     "end": 193
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 147,
                                 "end": 193
                             },
@@ -522,8 +446,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 141,
                             "end": 193
                         }
@@ -532,18 +454,14 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 141,
                     "end": 194
                 },
                 "type": {
-                    "kind": 4194550,
+                    "kind": 4202742,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 195,
                     "end": 200
                 },
@@ -552,13 +470,11 @@ type PropEventSource<T> = {
                 "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 118,
                 "end": 201
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "PropEventSource",
@@ -566,18 +482,16 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 206,
                     "end": 222
                 },
                 "type": {
-                    "kind": 230,
+                    "kind": 8422,
                     "objectTypeMembers": {
                         "kind": 169,
                         "members": [
                             {
-                                "kind": 147,
+                                "kind": 8339,
                                 "name": {
                                     "kind": 196711,
                                     "text": "on",
@@ -585,8 +499,6 @@ type PropEventSource<T> = {
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 229,
                                     "end": 234
                                 },
@@ -596,10 +508,10 @@ type PropEventSource<T> = {
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 175,
+                                    "kind": 8367,
                                     "parameterList": [
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -608,35 +520,31 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 235,
                                                 "end": 244
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 217,
+                                                "kind": 8409,
                                                 "spans": [
                                                     {
-                                                        "kind": 218,
+                                                        "kind": 8410,
                                                         "type": {
-                                                            "kind": 120,
+                                                            "kind": 8312,
                                                             "types": [
                                                                 {
-                                                                    "kind": 4194510,
+                                                                    "kind": 4202702,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 249,
                                                                     "end": 255
                                                                 },
                                                                 {
-                                                                    "kind": 231,
+                                                                    "kind": 8423,
                                                                     "operator": "keyof",
                                                                     "type": {
-                                                                        "kind": 236,
+                                                                        "kind": 8428,
                                                                         "typeName": {
                                                                             "kind": 196711,
                                                                             "text": "T",
@@ -644,8 +552,6 @@ type PropEventSource<T> = {
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 263,
                                                                             "end": 265
                                                                         },
@@ -653,16 +559,12 @@ type PropEventSource<T> = {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 2097152,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 263,
                                                                         "end": 266
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 257,
                                                                     "end": 265
                                                                 }
@@ -670,8 +572,6 @@ type PropEventSource<T> = {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 255,
                                                             "end": 265
                                                         },
@@ -680,8 +580,6 @@ type PropEventSource<T> = {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 245,
                                                         "end": 265
                                                     }
@@ -690,19 +588,16 @@ type PropEventSource<T> = {
                                                     "kind": 4260568,
                                                     "rawText": "Changed",
                                                     "text": "Changed",
+                                                    "literal": false,
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 265,
                                                     "end": 274
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 245,
                                                 "end": 274
                                             },
@@ -712,13 +607,11 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 235,
                                             "end": 274
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -727,42 +620,34 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 275,
                                                 "end": 284
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 95,
+                                                "kind": 8287,
                                                 "typeParameters": null,
                                                 "parameters": {
-                                                    "kind": 175,
+                                                    "kind": 8367,
                                                     "parameterList": [],
                                                     "trailingcomma": false,
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 287,
                                                     "end": 287
                                                 },
                                                 "returnType": {
-                                                    "kind": 4194550,
+                                                    "kind": 4202742,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 291,
                                                     "end": 296
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 285,
                                                 "end": 296
                                             },
@@ -772,8 +657,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 275,
                                             "end": 296
                                         }
@@ -782,51 +665,42 @@ type PropEventSource<T> = {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 235,
                                     "end": 296
                                 },
                                 "returnType": {
-                                    "kind": 4194550,
+                                    "kind": 4202742,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 298,
                                     "end": 303
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 229,
                                 "end": 304
                             }
                         ],
+                        "multiline": true,
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 229,
                         "end": 306
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 227,
                     "end": 306
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -834,8 +708,6 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 223,
                                 "end": 224
                             },
@@ -845,8 +717,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 223,
                             "end": 224
                         }
@@ -854,21 +724,17 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 223,
                     "end": 224
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 201,
                 "end": 307
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "PropEventSource",
@@ -876,18 +742,16 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 312,
                     "end": 328
                 },
                 "type": {
-                    "kind": 230,
+                    "kind": 8422,
                     "objectTypeMembers": {
                         "kind": 169,
                         "members": [
                             {
-                                "kind": 147,
+                                "kind": 8339,
                                 "name": {
                                     "kind": 196711,
                                     "text": "on",
@@ -895,8 +759,6 @@ type PropEventSource<T> = {
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 335,
                                     "end": 340
                                 },
@@ -905,10 +767,10 @@ type PropEventSource<T> = {
                                 "isOptional": false,
                                 "accessModifier": null,
                                 "typeParameters": {
-                                    "kind": 233,
+                                    "kind": 8425,
                                     "typeParameterList": [
                                         {
-                                            "kind": 232,
+                                            "kind": 8424,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "K",
@@ -916,29 +778,25 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 341,
                                                 "end": 342
                                             },
                                             "constraint": {
-                                                "kind": 120,
+                                                "kind": 8312,
                                                 "types": [
                                                     {
-                                                        "kind": 4194510,
+                                                        "kind": 4202702,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 350,
                                                         "end": 357
                                                     },
                                                     {
-                                                        "kind": 231,
+                                                        "kind": 8423,
                                                         "operator": "keyof",
                                                         "type": {
-                                                            "kind": 236,
+                                                            "kind": 8428,
                                                             "typeName": {
                                                                 "kind": 196711,
                                                                 "text": "T",
@@ -946,8 +804,6 @@ type PropEventSource<T> = {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 365,
                                                                 "end": 367
                                                             },
@@ -955,16 +811,12 @@ type PropEventSource<T> = {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 365,
                                                             "end": 368
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 359,
                                                         "end": 367
                                                     }
@@ -972,8 +824,6 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 357,
                                                 "end": 367
                                             },
@@ -982,8 +832,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 341,
                                             "end": 367
                                         }
@@ -991,16 +839,14 @@ type PropEventSource<T> = {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 341,
                                     "end": 367
                                 },
                                 "parameters": {
-                                    "kind": 175,
+                                    "kind": 8367,
                                     "parameterList": [
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1009,19 +855,17 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 374,
                                                 "end": 383
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 217,
+                                                "kind": 8409,
                                                 "spans": [
                                                     {
-                                                        "kind": 218,
+                                                        "kind": 8410,
                                                         "type": {
-                                                            "kind": 236,
+                                                            "kind": 8428,
                                                             "typeName": {
                                                                 "kind": 196711,
                                                                 "text": "K",
@@ -1029,8 +873,6 @@ type PropEventSource<T> = {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 388,
                                                                 "end": 389
                                                             },
@@ -1038,8 +880,6 @@ type PropEventSource<T> = {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 388,
                                                             "end": 390
                                                         },
@@ -1048,8 +888,6 @@ type PropEventSource<T> = {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 384,
                                                         "end": 389
                                                     }
@@ -1058,19 +896,16 @@ type PropEventSource<T> = {
                                                     "kind": 4260568,
                                                     "rawText": "Changed",
                                                     "text": "Changed",
+                                                    "literal": false,
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 389,
                                                     "end": 398
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 384,
                                                 "end": 398
                                             },
@@ -1080,13 +915,11 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 374,
                                             "end": 398
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1095,20 +928,18 @@ type PropEventSource<T> = {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 399,
                                                 "end": 408
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 95,
+                                                "kind": 8287,
                                                 "typeParameters": null,
                                                 "parameters": {
-                                                    "kind": 175,
+                                                    "kind": 8367,
                                                     "parameterList": [
                                                         {
-                                                            "kind": 174,
+                                                            "kind": 8366,
                                                             "ellipsis": false,
                                                             "binding": {
                                                                 "kind": 131102,
@@ -1117,16 +948,14 @@ type PropEventSource<T> = {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 411,
                                                                 "end": 419
                                                             },
                                                             "isOptional": false,
                                                             "type": {
-                                                                "kind": 117,
+                                                                "kind": 8309,
                                                                 "objectType": {
-                                                                    "kind": 236,
+                                                                    "kind": 8428,
                                                                     "typeName": {
                                                                         "kind": 196711,
                                                                         "text": "T",
@@ -1134,8 +963,6 @@ type PropEventSource<T> = {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 420,
                                                                         "end": 422
                                                                     },
@@ -1143,13 +970,11 @@ type PropEventSource<T> = {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 420,
                                                                     "end": 423
                                                                 },
                                                                 "indexType": {
-                                                                    "kind": 236,
+                                                                    "kind": 8428,
                                                                     "typeName": {
                                                                         "kind": 196711,
                                                                         "text": "K",
@@ -1157,8 +982,6 @@ type PropEventSource<T> = {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 423,
                                                                         "end": 424
                                                                     },
@@ -1166,16 +989,12 @@ type PropEventSource<T> = {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 423,
                                                                     "end": 425
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 420,
                                                                 "end": 426
                                                             },
@@ -1185,8 +1004,6 @@ type PropEventSource<T> = {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 411,
                                                             "end": 425
                                                         }
@@ -1195,26 +1012,20 @@ type PropEventSource<T> = {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 411,
                                                     "end": 425
                                                 },
                                                 "returnType": {
-                                                    "kind": 4194550,
+                                                    "kind": 4202742,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 429,
                                                     "end": 434
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 409,
                                                 "end": 434
                                             },
@@ -1224,8 +1035,6 @@ type PropEventSource<T> = {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 399,
                                             "end": 434
                                         }
@@ -1234,51 +1043,42 @@ type PropEventSource<T> = {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 374,
                                     "end": 434
                                 },
                                 "returnType": {
-                                    "kind": 4194550,
+                                    "kind": 4202742,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 437,
                                     "end": 442
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 335,
                                 "end": 443
                             }
                         ],
+                        "multiline": true,
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 335,
                         "end": 445
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 333,
                     "end": 445
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -1286,8 +1086,6 @@ type PropEventSource<T> = {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 329,
                                 "end": 330
                             },
@@ -1297,8 +1095,6 @@ type PropEventSource<T> = {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 329,
                             "end": 330
                         }
@@ -1306,16 +1102,12 @@ type PropEventSource<T> = {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 329,
                     "end": 330
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 307,
                 "end": 446
             }
@@ -1323,16 +1115,12 @@ type PropEventSource<T> = {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 446
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1346,29 +1134,13 @@ type PropEventSource<T> = {
 
 
 ```javascript
-
-let x: ;
-
-type HelloWorld = ;
-
-type SeussFish = ;
-
-declare function setAlignment(value: ): void;
-
-type PropEventSource<T> = {
-    on(eventName: , callback: () => void): void;
-};
-
-type PropEventSource<T> = {
-    on<K extends string & keyof T>(eventName: , callback: (newValue: T[K]) => void): void;
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

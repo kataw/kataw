@@ -35,8 +35,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 3
                     },
@@ -47,8 +45,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 9
                     },
@@ -56,19 +52,9 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "kind": 66224,
                         "expression": {
                             "kind": 67592,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": {
-                                    "kind": 233,
-                                    "typeParameterList": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 13,
-                                    "end": 13
-                                },
                                 "elements": [
                                     {
                                         "kind": 89,
@@ -80,8 +66,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 15,
                                             "end": 24
                                         },
@@ -94,8 +78,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 13,
                                         "end": 25
                                     }
@@ -106,8 +88,6 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 25
                             },
@@ -119,22 +99,18 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                         {
                                             "kind": 2097233,
                                             "expression": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "use strict",
                                                 "rawText": "use strict",
                                                 "flags": 16777216,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 30,
                                                 "end": 43
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 30,
                                             "end": 44
                                         },
@@ -147,16 +123,12 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 44,
                                                 "end": 46
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 44,
                                             "end": 46
                                         }
@@ -165,48 +137,36 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 46
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 28,
                                 "end": 48
                             },
                             "flags": 536870912,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 48
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 50
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 50
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 51
             }
@@ -214,16 +174,12 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 51
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -43,8 +43,6 @@ let { ...x, y, z } = obj;
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 5,
                                                 "end": 10
                                             },
@@ -52,8 +50,6 @@ let { ...x, y, z } = obj;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 10
                                         },
@@ -67,8 +63,6 @@ let { ...x, y, z } = obj;
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 11,
                                                 "end": 13
                                             },
@@ -76,8 +70,6 @@ let { ...x, y, z } = obj;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 13
                                         },
@@ -91,8 +83,6 @@ let { ...x, y, z } = obj;
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 14,
                                                 "end": 16
                                             },
@@ -100,8 +90,6 @@ let { ...x, y, z } = obj;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 16
                                         }
@@ -111,16 +99,12 @@ let { ...x, y, z } = obj;
                                     "transformFlags": 1025,
                                     "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 16
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 18
                             },
@@ -133,16 +117,12 @@ let { ...x, y, z } = obj;
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 24
                         }
@@ -150,16 +130,12 @@ let { ...x, y, z } = obj;
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 24
                 },
                 "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
@@ -167,16 +143,12 @@ let { ...x, y, z } = obj;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -33,8 +33,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -77,8 +73,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -91,8 +85,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 16,
                                             "end": 17
                                         }
@@ -101,8 +93,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -122,8 +112,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 26,
                                                     "end": 28
                                                 },
@@ -142,8 +130,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
@@ -158,8 +144,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                             "flags": 2,
                                                             "intersects": false,
                                                             "transformFlags": 524352,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 30,
                                                             "end": 36
                                                         }
@@ -167,8 +151,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 30,
                                                     "end": 36
                                                 },
@@ -176,8 +158,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 36
                                             }
@@ -186,16 +166,12 @@ class C { set x(_) { class C { get x) { super; } } } }
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 36
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 36
                                 },
@@ -206,16 +182,12 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 36
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 36
                         }
@@ -223,8 +195,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 36
                 },
@@ -232,8 +202,6 @@ class C { set x(_) { class C { get x) { super; } } } }
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             },
@@ -245,14 +213,12 @@ class C { set x(_) { class C { get x) { super; } } } }
                         {
                             "kind": 2097233,
                             "expression": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 4260561,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 39,
                                     "end": 45
                                 },
@@ -263,24 +229,18 @@ class C { set x(_) { class C { get x) { super; } } } }
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 39,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 2,
                                 "end": 45
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 39,
                             "end": 46
                         }
@@ -289,16 +249,12 @@ class C { set x(_) { class C { get x) { super; } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 39,
                     "end": 46
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 37,
                 "end": 48
             }
@@ -306,8 +262,6 @@ class C { set x(_) { class C { get x) { super; } } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 54
     },
@@ -350,8 +304,6 @@ class C { set x(_) { class C { get x) { super; } } } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

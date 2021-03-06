@@ -36,16 +36,12 @@
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 9
             },
@@ -58,16 +54,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 9,
                 "end": 17
             },
@@ -80,16 +72,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 24
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 17,
                 "end": 24
             },
@@ -102,16 +90,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 24,
                     "end": 28
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 24,
                 "end": 28
             },
@@ -124,16 +108,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 28,
                     "end": 36
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 28,
                 "end": 36
             },
@@ -146,23 +126,19 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 36,
                     "end": 42
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 36,
                 "end": 42
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 54,
+                    "kind": 65590,
                     "expressions": [
                         {
                             "kind": 196712,
@@ -171,8 +147,6 @@
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 42,
                             "end": 53
                         },
@@ -183,8 +157,6 @@
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 54,
                             "end": 65
                         }
@@ -192,16 +164,12 @@
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 42,
                     "end": 65
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 42,
                 "end": 65
             },
@@ -214,16 +182,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 65,
                     "end": 68
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 65,
                 "end": 68
             },
@@ -236,16 +200,12 @@
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 68,
                     "end": 75
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 68,
                 "end": 75
             },
@@ -263,16 +223,12 @@
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 75,
                             "end": 86
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 75,
                         "end": 89
                     },
@@ -283,24 +239,18 @@
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 90,
                         "end": 90
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 75,
                     "end": 90
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 75,
                 "end": 90
             }
@@ -308,8 +258,6 @@
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 90
     },
@@ -387,8 +335,6 @@
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -29,8 +29,6 @@ foo: while(z) { while(z) continue foo }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 3
                 },
@@ -43,8 +41,6 @@ foo: while(z) { while(z) continue foo }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 12
                     },
@@ -62,8 +58,6 @@ foo: while(z) { while(z) continue foo }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 22,
                                         "end": 23
                                     },
@@ -76,24 +70,18 @@ foo: while(z) { while(z) continue foo }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 33,
                                             "end": 37
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 24,
                                         "end": 37
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 37
                                 }
@@ -102,24 +90,18 @@ foo: while(z) { while(z) continue foo }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 15,
                             "end": 37
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 13,
                         "end": 39
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 39
                 },
@@ -127,8 +109,6 @@ foo: while(z) { while(z) continue foo }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 39
             }
@@ -136,16 +116,12 @@ foo: while(z) { while(z) continue foo }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 39
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

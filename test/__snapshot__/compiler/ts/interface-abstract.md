@@ -16,23 +16,21 @@ abstract interface Foo {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "abstract interface Foo {\n  foo: string;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 22
                 },
@@ -42,65 +40,54 @@ abstract interface Foo {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
                                 "end": 30
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 38
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 24,
                             "end": 39
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 24,
                     "end": 39
                 },
-                "flags": 268500994,
+                "flags": 268435458,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 8,
                 "end": 41
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 41
     },
@@ -115,8 +102,6 @@ abstract interface Foo {
             "length": 8
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -130,17 +115,13 @@ abstract interface Foo {
 
 
 ```javascript
-
-interface Foo {
-    foo: string;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

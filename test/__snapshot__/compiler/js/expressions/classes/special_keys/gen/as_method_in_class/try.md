@@ -33,8 +33,6 @@ class x {try(){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class x {try(){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -71,8 +67,6 @@ class x {try(){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 14
                                 },
@@ -87,16 +81,12 @@ class x {try(){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -107,16 +97,12 @@ class x {try(){}}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 16
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 16
                         }
@@ -124,8 +110,6 @@ class x {try(){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 17
                 },
@@ -133,8 +117,6 @@ class x {try(){}}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 17
             }
@@ -142,16 +124,12 @@ class x {try(){}}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 17
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

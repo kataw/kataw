@@ -32,8 +32,6 @@ if else class x {}
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 2
                 },
@@ -45,16 +43,12 @@ if else class x {}
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 2,
                         "end": 2
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 2
                 },
@@ -67,8 +61,6 @@ if else class x {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 13,
                         "end": 15
                     },
@@ -81,8 +73,6 @@ if else class x {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 17,
                         "end": 18
                     },
@@ -90,8 +80,6 @@ if else class x {}
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 7,
                     "end": 18
                 },
@@ -99,8 +87,6 @@ if else class x {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             }
@@ -108,8 +94,6 @@ if else class x {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 18
     },
@@ -131,8 +115,6 @@ if else class x {}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

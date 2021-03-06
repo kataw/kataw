@@ -54,15 +54,13 @@ for (const ctor of [
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 19
                             },
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 66224,
                                     "expression": {
@@ -75,8 +73,6 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 39,
                                             "end": 40
                                         },
@@ -89,16 +85,12 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 41,
                                                 "end": 41
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 40,
                                             "end": 42
                                         },
@@ -107,16 +99,12 @@ for (const ctor of [
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 4,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 23,
                                         "end": 42
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 43
                                 },
@@ -127,24 +115,23 @@ for (const ctor of [
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 44,
                                     "end": 55
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 43,
-                                "end": 55
+                                "end": 55,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 43,
+                                    "end": 44
+                                }
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 55
                         }
@@ -152,16 +139,12 @@ for (const ctor of [
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 55
                 },
                 "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 56
             },
@@ -180,15 +163,13 @@ for (const ctor of [
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 62,
                                 "end": 80
                             },
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 66224,
                                     "expression": {
@@ -201,8 +182,6 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 95,
                                             "end": 96
                                         },
@@ -215,16 +194,12 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 97,
                                                 "end": 97
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 96,
                                             "end": 98
                                         },
@@ -233,16 +208,12 @@ for (const ctor of [
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 128,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 84,
                                         "end": 98
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 82,
                                     "end": 99
                                 },
@@ -253,24 +224,23 @@ for (const ctor of [
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 100,
                                     "end": 111
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 99,
-                                "end": 111
+                                "end": 111,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 99,
+                                    "end": 100
+                                }
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 62,
                             "end": 111
                         }
@@ -278,16 +248,12 @@ for (const ctor of [
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 62,
                     "end": 111
                 },
                 "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 56,
                 "end": 112
             },
@@ -306,15 +272,13 @@ for (const ctor of [
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 118,
                                 "end": 141
                             },
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 66224,
                                     "expression": {
@@ -327,8 +291,6 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 162,
                                             "end": 163
                                         },
@@ -341,16 +303,12 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 164,
                                                 "end": 164
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 163,
                                             "end": 165
                                         },
@@ -359,16 +317,12 @@ for (const ctor of [
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 145,
                                         "end": 165
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 143,
                                     "end": 166
                                 },
@@ -379,24 +333,23 @@ for (const ctor of [
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 167,
                                     "end": 178
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 166,
-                                "end": 178
+                                "end": 178,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 166,
+                                    "end": 167
+                                }
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 118,
                             "end": 178
                         }
@@ -404,16 +357,12 @@ for (const ctor of [
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 118,
                     "end": 178
                 },
                 "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 112,
                 "end": 179
             },
@@ -434,8 +383,6 @@ for (const ctor of [
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 190,
                                     "end": 195
                                 },
@@ -445,8 +392,6 @@ for (const ctor of [
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 190,
                                 "end": 195
                             }
@@ -454,16 +399,12 @@ for (const ctor of [
                         "flags": 16,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 190,
                         "end": 195
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 185,
                     "end": 195
                 },
@@ -479,8 +420,6 @@ for (const ctor of [
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 200,
                                 "end": 211
                             },
@@ -491,8 +430,6 @@ for (const ctor of [
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 212,
                                 "end": 228
                             },
@@ -503,8 +440,6 @@ for (const ctor of [
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 229,
                                 "end": 249
                             },
@@ -515,8 +450,6 @@ for (const ctor of [
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 250,
                                 "end": 275
                             }
@@ -526,16 +459,12 @@ for (const ctor of [
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 200,
                         "end": 276
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 198,
                     "end": 278
                 },
@@ -549,7 +478,7 @@ for (const ctor of [
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "assert",
@@ -557,8 +486,6 @@ for (const ctor of [
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 281,
                                             "end": 290
                                         },
@@ -569,18 +496,19 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 291,
                                             "end": 297
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 290,
-                                        "end": 297
+                                        "end": 297,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 290,
+                                            "end": 291
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -593,16 +521,14 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 298,
                                                 "end": 309
                                             },
                                             {
                                                 "kind": 67592,
+                                                "typeParameters": null,
                                                 "arrowParameters": {
                                                     "kind": 65545,
-                                                    "typeParameters": 1,
                                                     "elements": [],
                                                     "type": null,
                                                     "accessModifier": null,
@@ -610,13 +536,11 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 310,
                                                     "end": 310
                                                 },
                                                 "contents": {
-                                                    "kind": 54,
+                                                    "kind": 65590,
                                                     "expressions": [
                                                         {
                                                             "kind": 66091,
@@ -627,8 +551,6 @@ for (const ctor of [
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 316,
                                                                 "end": 321
                                                             },
@@ -637,26 +559,22 @@ for (const ctor of [
                                                                 "kind": 3,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "#!\n_",
                                                                         "rawText": "#!\n_",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 322,
                                                                         "end": 329
                                                                     },
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "",
                                                                         "rawText": "",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 330,
                                                                         "end": 333
                                                                     }
@@ -665,16 +583,12 @@ for (const ctor of [
                                                                 "transformFlags": 0,
                                                                 "flags": 0,
                                                                 "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 329,
                                                                 "end": 334
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 321,
                                                             "end": 334
                                                         },
@@ -686,7 +600,7 @@ for (const ctor of [
                                                                     "rawText": "",
                                                                     "text": "",
                                                                     "expression": {
-                                                                        "kind": 74424,
+                                                                        "kind": 66232,
                                                                         "member": {
                                                                             "kind": 196712,
                                                                             "text": "ctor",
@@ -694,8 +608,6 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 339,
                                                                             "end": 343
                                                                         },
@@ -706,24 +618,23 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 344,
                                                                             "end": 348
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 343,
-                                                                        "end": 348
+                                                                        "end": 348,
+                                                                        "period": {
+                                                                            "kind": 254,
+                                                                            "pos": 343,
+                                                                            "end": 344
+                                                                        }
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 335,
                                                                     "end": 348
                                                                 }
@@ -732,19 +643,16 @@ for (const ctor of [
                                                                 "kind": 4260568,
                                                                 "rawText": " Call argument",
                                                                 "text": " Call argument",
+                                                                "literal": false,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 348,
                                                                 "end": 364
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 335,
                                                             "end": 364
                                                         }
@@ -752,16 +660,12 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 316,
                                                     "end": 364
                                                 },
                                                 "flags": 536870912,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 310,
                                                 "end": 364
                                             }
@@ -770,24 +674,18 @@ for (const ctor of [
                                         "transformFlags": 0,
                                         "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 309,
                                         "end": 365
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 297,
                                     "end": 365
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 281,
                                 "end": 366
                             },
@@ -796,7 +694,7 @@ for (const ctor of [
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "assert",
@@ -804,8 +702,6 @@ for (const ctor of [
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 366,
                                             "end": 375
                                         },
@@ -816,18 +712,19 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 376,
                                             "end": 382
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 375,
-                                        "end": 382
+                                        "end": 382,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 375,
+                                            "end": 376
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -840,16 +737,14 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 383,
                                                 "end": 394
                                             },
                                             {
                                                 "kind": 67592,
+                                                "typeParameters": null,
                                                 "arrowParameters": {
                                                     "kind": 65545,
-                                                    "typeParameters": 1,
                                                     "elements": [],
                                                     "type": null,
                                                     "accessModifier": null,
@@ -857,13 +752,11 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 395,
                                                     "end": 395
                                                 },
                                                 "contents": {
-                                                    "kind": 54,
+                                                    "kind": 65590,
                                                     "expressions": [
                                                         {
                                                             "kind": 66091,
@@ -874,8 +767,6 @@ for (const ctor of [
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 401,
                                                                 "end": 406
                                                             },
@@ -884,14 +775,12 @@ for (const ctor of [
                                                                 "kind": 3,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "#!\n_",
                                                                         "rawText": "#!\n_",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 407,
                                                                         "end": 414
                                                                     }
@@ -900,16 +789,12 @@ for (const ctor of [
                                                                 "transformFlags": 0,
                                                                 "flags": 0,
                                                                 "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 414,
                                                                 "end": 415
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 406,
                                                             "end": 415
                                                         },
@@ -921,7 +806,7 @@ for (const ctor of [
                                                                     "rawText": "",
                                                                     "text": "",
                                                                     "expression": {
-                                                                        "kind": 74424,
+                                                                        "kind": 66232,
                                                                         "member": {
                                                                             "kind": 196712,
                                                                             "text": "ctor",
@@ -929,8 +814,6 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 420,
                                                                             "end": 424
                                                                         },
@@ -941,24 +824,23 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 425,
                                                                             "end": 429
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 424,
-                                                                        "end": 429
+                                                                        "end": 429,
+                                                                        "period": {
+                                                                            "kind": 254,
+                                                                            "pos": 424,
+                                                                            "end": 425
+                                                                        }
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 416,
                                                                     "end": 429
                                                                 }
@@ -967,19 +849,16 @@ for (const ctor of [
                                                                 "kind": 4260568,
                                                                 "rawText": " Call body",
                                                                 "text": " Call body",
+                                                                "literal": false,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 429,
                                                                 "end": 441
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 416,
                                                             "end": 441
                                                         }
@@ -987,16 +866,12 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 401,
                                                     "end": 441
                                                 },
                                                 "flags": 536870912,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 395,
                                                 "end": 441
                                             }
@@ -1005,24 +880,18 @@ for (const ctor of [
                                         "transformFlags": 0,
                                         "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 394,
                                         "end": 442
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 382,
                                     "end": 442
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 366,
                                 "end": 443
                             },
@@ -1031,7 +900,7 @@ for (const ctor of [
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "assert",
@@ -1039,8 +908,6 @@ for (const ctor of [
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 443,
                                             "end": 452
                                         },
@@ -1051,18 +918,19 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 453,
                                             "end": 459
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 452,
-                                        "end": 459
+                                        "end": 459,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 452,
+                                            "end": 453
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -1075,16 +943,14 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 460,
                                                 "end": 471
                                             },
                                             {
                                                 "kind": 67592,
+                                                "typeParameters": null,
                                                 "arrowParameters": {
                                                     "kind": 65545,
-                                                    "typeParameters": 1,
                                                     "elements": [],
                                                     "type": null,
                                                     "accessModifier": null,
@@ -1092,13 +958,11 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 472,
                                                     "end": 472
                                                 },
                                                 "contents": {
-                                                    "kind": 54,
+                                                    "kind": 65590,
                                                     "expressions": [
                                                         {
                                                             "kind": 66204,
@@ -1109,8 +973,6 @@ for (const ctor of [
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 482,
                                                                 "end": 487
                                                             },
@@ -1119,26 +981,22 @@ for (const ctor of [
                                                                 "kind": 3,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "#!\n_",
                                                                         "rawText": "#!\n_",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 488,
                                                                         "end": 495
                                                                     },
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "",
                                                                         "rawText": "",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 496,
                                                                         "end": 499
                                                                     }
@@ -1147,16 +1005,12 @@ for (const ctor of [
                                                                 "transformFlags": 0,
                                                                 "flags": 0,
                                                                 "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 488,
                                                                 "end": 499
                                                             },
                                                             "flags": 478,
                                                             "intersects": false,
                                                             "transformFlags": 32,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 0,
                                                             "end": 500
                                                         },
@@ -1168,7 +1022,7 @@ for (const ctor of [
                                                                     "rawText": "",
                                                                     "text": "",
                                                                     "expression": {
-                                                                        "kind": 74424,
+                                                                        "kind": 66232,
                                                                         "member": {
                                                                             "kind": 196712,
                                                                             "text": "ctor",
@@ -1176,8 +1030,6 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 505,
                                                                             "end": 509
                                                                         },
@@ -1188,24 +1040,23 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 510,
                                                                             "end": 514
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 509,
-                                                                        "end": 514
+                                                                        "end": 514,
+                                                                        "period": {
+                                                                            "kind": 254,
+                                                                            "pos": 509,
+                                                                            "end": 510
+                                                                        }
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 501,
                                                                     "end": 514
                                                                 }
@@ -1214,19 +1065,16 @@ for (const ctor of [
                                                                 "kind": 4260568,
                                                                 "rawText": " Construct argument",
                                                                 "text": " Construct argument",
+                                                                "literal": false,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 514,
                                                                 "end": 535
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 501,
                                                             "end": 535
                                                         }
@@ -1234,16 +1082,12 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 478,
                                                     "end": 535
                                                 },
                                                 "flags": 536870912,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 472,
                                                 "end": 535
                                             }
@@ -1252,24 +1096,18 @@ for (const ctor of [
                                         "transformFlags": 0,
                                         "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 471,
                                         "end": 536
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 459,
                                     "end": 536
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 443,
                                 "end": 537
                             },
@@ -1278,7 +1116,7 @@ for (const ctor of [
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "assert",
@@ -1286,8 +1124,6 @@ for (const ctor of [
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 537,
                                             "end": 546
                                         },
@@ -1298,18 +1134,19 @@ for (const ctor of [
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 547,
                                             "end": 553
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 546,
-                                        "end": 553
+                                        "end": 553,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 546,
+                                            "end": 547
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -1322,16 +1159,14 @@ for (const ctor of [
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 554,
                                                 "end": 565
                                             },
                                             {
                                                 "kind": 67592,
+                                                "typeParameters": null,
                                                 "arrowParameters": {
                                                     "kind": 65545,
-                                                    "typeParameters": 1,
                                                     "elements": [],
                                                     "type": null,
                                                     "accessModifier": null,
@@ -1339,13 +1174,11 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 566,
                                                     "end": 566
                                                 },
                                                 "contents": {
-                                                    "kind": 54,
+                                                    "kind": 65590,
                                                     "expressions": [
                                                         {
                                                             "kind": 66204,
@@ -1356,8 +1189,6 @@ for (const ctor of [
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 576,
                                                                 "end": 581
                                                             },
@@ -1366,14 +1197,12 @@ for (const ctor of [
                                                                 "kind": 3,
                                                                 "elements": [
                                                                     {
-                                                                        "kind": 67279,
+                                                                        "kind": 4261583,
                                                                         "text": "#!\n_",
                                                                         "rawText": "#!\n_",
                                                                         "flags": 16777216,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 582,
                                                                         "end": 589
                                                                     }
@@ -1382,16 +1211,12 @@ for (const ctor of [
                                                                 "transformFlags": 0,
                                                                 "flags": 0,
                                                                 "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 582,
                                                                 "end": 589
                                                             },
                                                             "flags": 572,
                                                             "intersects": false,
                                                             "transformFlags": 32,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 0,
                                                             "end": 590
                                                         },
@@ -1403,7 +1228,7 @@ for (const ctor of [
                                                                     "rawText": "",
                                                                     "text": "",
                                                                     "expression": {
-                                                                        "kind": 74424,
+                                                                        "kind": 66232,
                                                                         "member": {
                                                                             "kind": 196712,
                                                                             "text": "ctor",
@@ -1411,8 +1236,6 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 595,
                                                                             "end": 599
                                                                         },
@@ -1423,24 +1246,23 @@ for (const ctor of [
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 600,
                                                                             "end": 604
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 599,
-                                                                        "end": 604
+                                                                        "end": 604,
+                                                                        "period": {
+                                                                            "kind": 254,
+                                                                            "pos": 599,
+                                                                            "end": 600
+                                                                        }
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 591,
                                                                     "end": 604
                                                                 }
@@ -1449,19 +1271,16 @@ for (const ctor of [
                                                                 "kind": 4260568,
                                                                 "rawText": " Construct body",
                                                                 "text": " Construct body",
+                                                                "literal": false,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 604,
                                                                 "end": 621
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 591,
                                                             "end": 621
                                                         }
@@ -1469,16 +1288,12 @@ for (const ctor of [
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 572,
                                                     "end": 621
                                                 },
                                                 "flags": 536870912,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 566,
                                                 "end": 621
                                             }
@@ -1487,24 +1302,18 @@ for (const ctor of [
                                         "transformFlags": 0,
                                         "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 565,
                                         "end": 622
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 553,
                                     "end": 622
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 537,
                                 "end": 623
                             }
@@ -1513,16 +1322,12 @@ for (const ctor of [
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 281,
                         "end": 623
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 279,
                     "end": 625
                 },
@@ -1530,8 +1335,6 @@ for (const ctor of [
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 179,
                 "end": 625
             }
@@ -1539,16 +1342,12 @@ for (const ctor of [
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 625
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

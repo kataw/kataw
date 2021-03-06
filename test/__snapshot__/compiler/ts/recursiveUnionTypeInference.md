@@ -20,60 +20,52 @@ function bar<T>(x: Foo<T> | string): T {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "interface Foo<T> {\n    x: T;\n}\n\nfunction bar<T>(x: Foo<T> | string): T {\n    return bar(x);\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 13
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 15
                             },
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 14,
                             "end": 15
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 15
                 },
@@ -82,69 +74,58 @@ function bar<T>(x: Foo<T> | string): T {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 24
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "typeArguments": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 25,
                                 "end": 28
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 28
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 28
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             },
@@ -154,11 +135,9 @@ function bar<T>(x: Foo<T> | string): T {
                     "kind": 131102,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 40,
                     "end": 44
                 },
@@ -172,91 +151,75 @@ function bar<T>(x: Foo<T> | string): T {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 48,
                                 "end": 49
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "Foo",
                                             "rawText": "Foo",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 50,
                                             "end": 54
                                         },
                                         "typeArguments": {
-                                            "kind": 227,
+                                            "kind": 8419,
                                             "typeArgumentsList": [
                                                 {
-                                                    "kind": 236,
+                                                    "kind": 8428,
                                                     "typeName": {
                                                         "kind": 196711,
                                                         "text": "T",
                                                         "rawText": "T",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 55,
                                                         "end": 56
                                                     },
                                                     "typeArguments": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 55,
                                                     "end": 57
                                                 }
                                             ],
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 55,
                                             "end": 56
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 50,
                                         "end": 59
                                     },
                                     {
-                                        "kind": 4194510,
+                                        "kind": 4202702,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 59,
                                         "end": 66
                                     }
                                 ],
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 57,
                                 "end": 66
                             },
@@ -264,44 +227,36 @@ function bar<T>(x: Foo<T> | string): T {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 48,
                             "end": 66
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 48,
                     "end": 67
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "T",
                         "rawText": "T",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 68,
                         "end": 70
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 68,
                     "end": 72
                 },
@@ -318,11 +273,9 @@ function bar<T>(x: Foo<T> | string): T {
                                         "kind": 196712,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 83,
                                         "end": 87
                                     },
@@ -334,117 +287,93 @@ function bar<T>(x: Foo<T> | string): T {
                                                 "kind": 196712,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 88,
                                                 "end": 89
                                             }
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 89,
                                         "end": 90
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 87,
                                     "end": 90
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 72,
                                 "end": 91
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 72,
                         "end": 91
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 70,
                     "end": 93
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 45,
                                 "end": 46
                             },
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 45,
                             "end": 46
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 45,
                     "end": 46
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 30,
                 "end": 93
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 93
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -458,21 +387,13 @@ function bar<T>(x: Foo<T> | string): T {
 
 
 ```javascript
-
-interface Foo<T> {
-    x: T;
-}
-
-function bar<T>(x: Foo<T> | string): T {
-    return bar(x);
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

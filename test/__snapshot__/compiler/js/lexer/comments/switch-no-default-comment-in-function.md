@@ -43,8 +43,6 @@ function bar(a) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -61,8 +59,6 @@ function bar(a) {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 14
                             },
@@ -75,8 +71,6 @@ function bar(a) {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 14
                         }
@@ -85,8 +79,6 @@ function bar(a) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 15
                 },
@@ -105,8 +97,6 @@ function bar(a) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 31
                                 },
@@ -122,8 +112,6 @@ function bar(a) {
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 47,
                                                 "end": 49
                                             },
@@ -134,8 +122,6 @@ function bar(a) {
                                                     "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 50,
                                                     "end": 69
                                                 }
@@ -143,8 +129,6 @@ function bar(a) {
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 69
                                         },
@@ -157,8 +141,6 @@ function bar(a) {
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 82,
                                                 "end": 84
                                             },
@@ -169,8 +151,6 @@ function bar(a) {
                                                     "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 85,
                                                     "end": 104
                                                 }
@@ -178,8 +158,6 @@ function bar(a) {
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 69,
                                             "end": 104
                                         }
@@ -187,16 +165,12 @@ function bar(a) {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 131
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 131
                             }
@@ -205,16 +179,12 @@ function bar(a) {
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 17,
                         "end": 131
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 133
                 },
@@ -222,8 +192,6 @@ function bar(a) {
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 133
             }
@@ -231,16 +199,12 @@ function bar(a) {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 133
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -33,8 +33,6 @@ class A extends async function *f(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -50,8 +48,6 @@ class A extends async function *f(){} {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 33
                         },
@@ -62,8 +58,6 @@ class A extends async function *f(){} {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 34,
                             "end": 35
                         },
@@ -76,16 +70,12 @@ class A extends async function *f(){} {}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 36,
                                 "end": 36
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 35,
                             "end": 37
                         },
@@ -94,8 +84,6 @@ class A extends async function *f(){} {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 8,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 37
                     },
@@ -103,8 +91,6 @@ class A extends async function *f(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 37
                 },
@@ -115,8 +101,6 @@ class A extends async function *f(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 39,
                     "end": 40
                 },
@@ -124,8 +108,6 @@ class A extends async function *f(){} {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             }
@@ -133,16 +115,12 @@ class A extends async function *f(){} {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

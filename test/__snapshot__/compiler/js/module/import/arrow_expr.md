@@ -41,8 +41,6 @@ let x = () => import {x} from "y"
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -50,9 +48,9 @@ let x = () => import {x} from "y"
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -60,8 +58,6 @@ let x = () => import {x} from "y"
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 7,
                                     "end": 7
                                 },
@@ -80,8 +76,6 @@ let x = () => import {x} from "y"
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 22,
                                                     "end": 23
                                                 }
@@ -91,40 +85,30 @@ let x = () => import {x} from "y"
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 22,
                                             "end": 23
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 24
                                     },
                                     "flags": 65538,
                                     "intersects": false,
                                     "transformFlags": 262152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 24
                                 },
                                 "flags": 536936450,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 24
                             },
                             "flags": 65538,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 24
                         },
@@ -137,8 +121,6 @@ let x = () => import {x} from "y"
                                 "flags": 65538,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
                                 "end": 29
                             },
@@ -148,8 +130,6 @@ let x = () => import {x} from "y"
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 24,
                             "end": 29
                         }
@@ -157,38 +137,30 @@ let x = () => import {x} from "y"
                     "flags": 65554,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 29
                 },
                 "flags": 65554,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 29
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "y",
                     "rawText": "y",
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 33
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 29,
                 "end": 33
             }
@@ -196,8 +168,6 @@ let x = () => import {x} from "y"
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 33
     },
@@ -226,8 +196,6 @@ let x = () => import {x} from "y"
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

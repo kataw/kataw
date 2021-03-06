@@ -32,8 +32,6 @@ switch switch switch /false//a
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
@@ -43,16 +41,12 @@ switch switch switch /false//a
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             },
@@ -64,8 +58,6 @@ switch switch switch /false//a
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 13
                 },
@@ -75,16 +67,12 @@ switch switch switch /false//a
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 13
             },
@@ -98,8 +86,6 @@ switch switch switch /false//a
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 20
                     },
@@ -110,16 +96,12 @@ switch switch switch /false//a
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 22,
                         "end": 27
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 27
                 },
@@ -129,16 +111,12 @@ switch switch switch /false//a
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 13,
                 "end": 27
             }
@@ -146,8 +124,6 @@ switch switch switch /false//a
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 27
     },
@@ -183,8 +159,6 @@ switch switch switch /false//a
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -28,19 +28,9 @@
                 "kind": 2097233,
                 "expression": {
                     "kind": 67592,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": {
-                            "kind": 233,
-                            "typeParameterList": [],
-                            "flags": 0,
-                            "intersects": false,
-                            "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 0,
-                            "end": 0
-                        },
                         "elements": [
                             {
                                 "kind": 89,
@@ -52,8 +42,6 @@
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 1,
                                     "end": 10
                                 },
@@ -66,8 +54,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 0,
                                 "end": 11
                             }
@@ -78,8 +64,6 @@
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 11
                     },
@@ -91,22 +75,18 @@
                                 {
                                     "kind": 2097233,
                                     "expression": {
-                                        "kind": 67279,
+                                        "kind": 4261583,
                                         "text": "use strict",
                                         "rawText": "use strict",
                                         "flags": 16777216,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 16,
                                         "end": 29
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 30
                                 },
@@ -119,16 +99,12 @@
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 30,
                                         "end": 32
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 32
                                 }
@@ -137,32 +113,24 @@
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 16,
                             "end": 32
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 34
                     },
                     "flags": 536870912,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 34
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             }
@@ -170,16 +138,12 @@
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 36
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

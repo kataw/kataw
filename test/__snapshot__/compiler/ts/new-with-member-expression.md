@@ -14,27 +14,25 @@ new foo.bar();
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "new foo.bar();",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
                 "expression": {
                     "kind": 66204,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 196712,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 7
                         },
@@ -42,21 +40,22 @@ new foo.bar();
                             "kind": 196711,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 7,
-                        "end": 11
+                        "end": 11,
+                        "period": {
+                            "kind": 254,
+                            "pos": 7,
+                            "end": 8
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": {
@@ -64,43 +63,33 @@ new foo.bar();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 32,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 65536,
+                    "start": 0,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -114,15 +103,13 @@ new foo.bar();
 
 
 ```javascript
-
-new foo.bar()
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

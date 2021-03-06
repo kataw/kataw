@@ -14,11 +14,11 @@ let s = e!.name;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "let s = e!.name;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -32,37 +32,31 @@ let s = e!.name;
                                 "kind": 131102,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
-                                    "kind": 66206,
+                                    "kind": 74398,
                                     "expression": {
                                         "kind": 196712,
                                         "text": "e",
                                         "rawText": "e",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 7,
                                         "end": 9
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -70,61 +64,52 @@ let s = e!.name;
                                     "kind": 196711,
                                     "text": "name",
                                     "rawText": "name",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 15
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
-                                "end": 15
+                                "end": 15,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 10,
+                                    "end": 11
+                                }
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 15
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 65552,
+                "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 16
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 16
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -138,15 +123,13 @@ let s = e!.name;
 
 
 ```javascript
-
-let s = e!.name;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

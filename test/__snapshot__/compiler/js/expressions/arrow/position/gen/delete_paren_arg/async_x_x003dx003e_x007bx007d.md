@@ -32,20 +32,10 @@ delete (async x => {})
                     "operand": {
                         "kind": 66224,
                         "expression": {
-                            "kind": 16,
+                            "kind": 65552,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": {
-                                    "kind": 233,
-                                    "typeParameterList": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 6,
-                                    "end": 6
-                                },
                                 "elements": [
                                     {
                                         "kind": 89,
@@ -57,8 +47,6 @@ delete (async x => {})
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 15
                                         },
@@ -71,8 +59,6 @@ delete (async x => {})
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 6,
                                         "end": 15
                                     }
@@ -83,8 +69,6 @@ delete (async x => {})
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 15
                             },
@@ -97,48 +81,36 @@ delete (async x => {})
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 21
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 6,
                             "end": 21
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 22
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 22
             }
@@ -146,16 +118,12 @@ delete (async x => {})
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 22
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

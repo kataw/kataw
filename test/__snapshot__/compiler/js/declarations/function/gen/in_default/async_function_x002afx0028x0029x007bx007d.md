@@ -36,8 +36,6 @@ switch (x) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 9
                 },
@@ -56,8 +54,6 @@ switch (x) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 44,
                                         "end": 45
                                     },
@@ -68,8 +64,6 @@ switch (x) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 46,
                                         "end": 47
                                     },
@@ -83,16 +77,12 @@ switch (x) {
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 48,
                                             "end": 48
                                         },
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 47,
                                         "end": 49
                                     },
@@ -100,8 +90,6 @@ switch (x) {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 264,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 49
                                 }
@@ -109,8 +97,6 @@ switch (x) {
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 49
                         }
@@ -118,16 +104,12 @@ switch (x) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 51
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 51
             }
@@ -135,16 +117,12 @@ switch (x) {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 51
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

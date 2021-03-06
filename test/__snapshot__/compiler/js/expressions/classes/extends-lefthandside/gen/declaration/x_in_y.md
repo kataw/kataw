@@ -33,8 +33,6 @@ class A extends x in y {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,8 +46,6 @@ class A extends x in y {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
@@ -57,8 +53,6 @@ class A extends x in y {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 17
                 },
@@ -69,8 +63,6 @@ class A extends x in y {}
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 0
                 },
@@ -78,8 +70,6 @@ class A extends x in y {}
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 17
             },
@@ -95,24 +85,18 @@ class A extends x in y {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 17,
                 "end": 22
             },
@@ -125,16 +109,12 @@ class A extends x in y {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 22,
                 "end": 25
             }
@@ -142,8 +122,6 @@ class A extends x in y {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
@@ -165,8 +143,6 @@ class A extends x in y {}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

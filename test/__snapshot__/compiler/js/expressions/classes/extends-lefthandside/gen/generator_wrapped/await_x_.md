@@ -37,8 +37,6 @@ x; {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 11
                 },
@@ -49,8 +47,6 @@ x; {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -69,8 +65,6 @@ x; {}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -84,8 +78,6 @@ x; {}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 38
                                     },
@@ -93,8 +85,6 @@ x; {}
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 38
                                 },
@@ -105,8 +95,6 @@ x; {}
                                     "flags": 16386,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 14
                                 },
@@ -114,8 +102,6 @@ x; {}
                                 "flags": 16386,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 38
                             },
@@ -128,16 +114,12 @@ x; {}
                                     "flags": 16386,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 38,
                                 "end": 41
                             },
@@ -150,16 +132,12 @@ x; {}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 43,
                                     "end": 43
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 41,
                                 "end": 44
                             }
@@ -168,16 +146,12 @@ x; {}
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 44
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 46
                 },
@@ -185,8 +159,6 @@ x; {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 46
             }
@@ -194,8 +166,6 @@ x; {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 46
     },
@@ -210,8 +180,6 @@ x; {}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

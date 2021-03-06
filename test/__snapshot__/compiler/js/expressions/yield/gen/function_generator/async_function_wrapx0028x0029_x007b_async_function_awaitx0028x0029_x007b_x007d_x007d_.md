@@ -33,8 +33,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -97,8 +89,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 54,
                                                     "end": 59
                                                 },
@@ -109,8 +99,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 60,
                                                     "end": 61
                                                 },
@@ -129,8 +117,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 78,
                                                                     "end": 84
                                                                 },
@@ -141,8 +127,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 85,
                                                                     "end": 86
                                                                 },
@@ -156,16 +140,12 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 88,
                                                                         "end": 88
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 86,
                                                                     "end": 90
                                                                 },
@@ -173,8 +153,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 260,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 63,
                                                                 "end": 90
                                                             }
@@ -183,16 +161,12 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 63,
                                                         "end": 90
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 61,
                                                     "end": 92
                                                 },
@@ -200,8 +174,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 260,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 92
                                             },
@@ -210,8 +182,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 92,
                                                 "end": 93
                                             }
@@ -220,16 +190,12 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 93
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 95
                                 },
@@ -237,8 +203,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 95
                             }
@@ -247,16 +211,12 @@ function * gen() { function not_gen() { async function wrap() { async function a
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 95
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 96
                 },
@@ -264,8 +224,6 @@ function * gen() { function not_gen() { async function wrap() { async function a
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 96
             }
@@ -273,16 +231,12 @@ function * gen() { function not_gen() { async function wrap() { async function a
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 96
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

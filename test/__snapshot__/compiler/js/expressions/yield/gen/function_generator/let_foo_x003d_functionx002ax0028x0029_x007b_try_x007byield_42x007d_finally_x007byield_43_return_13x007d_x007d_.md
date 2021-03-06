@@ -33,8 +33,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -103,8 +95,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 43,
                                                                 "end": 47
                                                             },
@@ -120,8 +110,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 60,
                                                                     "end": 61
                                                                 },
@@ -149,24 +137,18 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                         "flags": 0,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 74,
                                                                                                         "end": 77
                                                                                                     },
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 16393,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 69,
                                                                                                     "end": 77
                                                                                                 },
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 69,
                                                                                                 "end": 77
                                                                                             }
@@ -175,16 +157,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 69,
                                                                                         "end": 77
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 67,
                                                                                     "end": 78
                                                                                 },
@@ -206,24 +184,18 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                         "flags": 0,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 93,
                                                                                                         "end": 96
                                                                                                     },
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 16393,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 88,
                                                                                                     "end": 96
                                                                                                 },
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 88,
                                                                                                 "end": 97
                                                                                             },
@@ -236,16 +208,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 104,
                                                                                                     "end": 107
                                                                                                 },
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 97,
                                                                                                 "end": 107
                                                                                             }
@@ -254,24 +222,18 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 88,
                                                                                         "end": 107
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 86,
                                                                                     "end": 108
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 63,
                                                                                 "end": 108
                                                                             }
@@ -280,16 +242,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 63,
                                                                         "end": 108
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 61,
                                                                     "end": 110
                                                                 },
@@ -298,16 +256,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 128,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 49,
                                                                 "end": 110
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 43,
                                                             "end": 110
                                                         }
@@ -315,16 +269,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                     "flags": 16,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 43,
                                                     "end": 110
                                                 },
                                                 "flags": 16,
                                                 "intersects": false,
                                                 "transformFlags": 769,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 111
                                             }
@@ -333,16 +283,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 111
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 113
                                 },
@@ -350,8 +296,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 113
                             }
@@ -360,16 +304,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 113
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 114
                 },
@@ -377,8 +317,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 114
             }
@@ -386,16 +324,12 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 114
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

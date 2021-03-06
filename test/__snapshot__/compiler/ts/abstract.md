@@ -42,8 +42,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 17
                 },
@@ -56,8 +54,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 20
                 },
@@ -65,13 +61,11 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 8,
                 "end": 20
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "abstract",
@@ -79,13 +73,11 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 28,
                     "end": 37
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "class",
@@ -93,8 +85,6 @@ export default abstract class C5 { abstract foo(): void; }
                         "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 37,
                         "end": 43
                     },
@@ -102,8 +92,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 37,
                     "end": 46
                 },
@@ -111,8 +99,6 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 81922,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 20,
                 "end": 43
             },
@@ -125,16 +111,12 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 43,
                     "end": 46
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 43,
                 "end": 46
             },
@@ -147,16 +129,12 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 48,
                     "end": 48
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 46,
                 "end": 49
             },
@@ -169,8 +147,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 71,
                     "end": 74
                 },
@@ -183,8 +159,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 76,
                     "end": 77
                 },
@@ -192,8 +166,6 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 268517408,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 65,
                 "end": 77
             },
@@ -209,8 +181,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 164,
                     "end": 166
                 },
@@ -218,8 +188,6 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 268517440,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 156,
                 "end": 166
             },
@@ -232,8 +200,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 196,
                     "end": 199
                 },
@@ -246,8 +212,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 201,
                     "end": 203
                 },
@@ -255,8 +219,6 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 268517440,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 190,
                 "end": 203
             },
@@ -269,8 +231,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 284,
                     "end": 287
                 },
@@ -295,8 +255,6 @@ export default abstract class C5 { abstract foo(): void; }
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 298,
                                     "end": 302
                                 },
@@ -307,8 +265,6 @@ export default abstract class C5 { abstract foo(): void; }
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 303,
                                     "end": 304
                                 },
@@ -317,12 +273,10 @@ export default abstract class C5 { abstract foo(): void; }
                                 "contents": null,
                                 "decorators": null,
                                 "type": {
-                                    "kind": 4194550,
+                                    "kind": 4202742,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 305,
                                     "end": 310
                                 },
@@ -331,16 +285,12 @@ export default abstract class C5 { abstract foo(): void; }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 302,
                                 "end": 311
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 289,
                             "end": 311
                         }
@@ -348,8 +298,6 @@ export default abstract class C5 { abstract foo(): void; }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 289,
                     "end": 313
                 },
@@ -357,8 +305,6 @@ export default abstract class C5 { abstract foo(): void; }
                 "flags": 268501056,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 278,
                 "end": 313
             }
@@ -366,16 +312,12 @@ export default abstract class C5 { abstract foo(): void; }
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 313
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -389,39 +331,13 @@ export default abstract class C5 { abstract foo(): void; }
 
 
 ```javascript
-
-abstract class C1 {
-
-}
-
-type abstract = class;
-
-C2
-
-{}
-
-export abstract class C3 {
-
-}
-
-export default abstract class {
-
-}
-
-export default abstract class C4 {
-
-}
-
-export default abstract class C5 {
-    abstract foo(): void;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

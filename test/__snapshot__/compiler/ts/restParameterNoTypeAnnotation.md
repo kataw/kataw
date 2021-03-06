@@ -38,8 +38,6 @@ function foo(...rest) {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -56,8 +54,6 @@ function foo(...rest) {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 20
                             },
@@ -70,8 +66,6 @@ function foo(...rest) {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 20
                         }
@@ -80,8 +74,6 @@ function foo(...rest) {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 21
                 },
@@ -105,24 +97,20 @@ function foo(...rest) {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 32,
                                                 "end": 34
                                             },
                                             "exclamation": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 35,
                                                 "end": 42
                                             },
                                             "initializer": {
-                                                "kind": 74308,
+                                                "kind": 66116,
                                                 "member": {
                                                     "kind": 196712,
                                                     "text": "rest",
@@ -130,8 +118,6 @@ function foo(...rest) {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 44,
                                                     "end": 49
                                                 },
@@ -142,24 +128,18 @@ function foo(...rest) {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 50,
                                                     "end": 51
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 49,
                                                 "end": 52
                                             },
                                             "flags": 32,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 65536,
                                             "end": 52
                                         }
@@ -167,16 +147,12 @@ function foo(...rest) {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 52
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 53
                             },
@@ -189,16 +165,12 @@ function foo(...rest) {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 65,
                                     "end": 67
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 53,
                                 "end": 68
                             }
@@ -207,16 +179,12 @@ function foo(...rest) {
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 68
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 70
                 },
@@ -224,8 +192,6 @@ function foo(...rest) {
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 70
             }
@@ -233,16 +199,12 @@ function foo(...rest) {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 70
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -256,18 +218,13 @@ function foo(...rest) {
 
 
 ```javascript
-
-function foo(...rest) {
-    var x: number = rest[0];
-    return x;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

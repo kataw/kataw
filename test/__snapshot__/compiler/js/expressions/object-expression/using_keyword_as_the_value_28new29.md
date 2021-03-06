@@ -31,8 +31,6 @@ s = {s: new}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -51,8 +49,6 @@ s = {s: new}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -64,8 +60,6 @@ s = {s: new}
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 11
                                         },
@@ -74,8 +68,6 @@ s = {s: new}
                                         "flags": 7,
                                         "intersects": false,
                                         "transformFlags": 32,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 2,
                                         "end": 11
                                     },
@@ -84,8 +76,6 @@ s = {s: new}
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 11
                                 }
@@ -95,32 +85,24 @@ s = {s: new}
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 11
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 12
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 12
             }
@@ -128,8 +110,6 @@ s = {s: new}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 12
     },
@@ -144,8 +124,6 @@ s = {s: new}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -33,16 +33,12 @@ else {} if(x) { catch
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 4,
                 "end": 7
             },
@@ -55,8 +51,6 @@ else {} if(x) { catch
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 12
                 },
@@ -76,16 +70,12 @@ else {} if(x) { catch
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 15
                                 },
@@ -101,24 +91,18 @@ else {} if(x) { catch
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 21
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 16,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -126,8 +110,6 @@ else {} if(x) { catch
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 16,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 21
                             }
@@ -136,16 +118,12 @@ else {} if(x) { catch
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 21
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 21
                 },
@@ -154,8 +132,6 @@ else {} if(x) { catch
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 21
             }
@@ -163,8 +139,6 @@ else {} if(x) { catch
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
@@ -186,8 +160,6 @@ else {} if(x) { catch
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

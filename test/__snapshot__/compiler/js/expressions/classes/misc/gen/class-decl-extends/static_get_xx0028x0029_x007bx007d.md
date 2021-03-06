@@ -33,8 +33,6 @@ class C extends Base { static get x() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,8 +46,6 @@ class C extends Base { static get x() {} }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 20
                     },
@@ -57,8 +53,6 @@ class C extends Base { static get x() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 20
                 },
@@ -81,8 +75,6 @@ class C extends Base { static get x() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 35
                                 },
@@ -93,8 +85,6 @@ class C extends Base { static get x() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -109,16 +99,12 @@ class C extends Base { static get x() {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 40
                                 },
@@ -129,16 +115,12 @@ class C extends Base { static get x() {} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 35,
                                 "end": 40
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 40
                         }
@@ -146,8 +128,6 @@ class C extends Base { static get x() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 42
                 },
@@ -155,8 +135,6 @@ class C extends Base { static get x() {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 42
             }
@@ -164,16 +142,12 @@ class C extends Base { static get x() {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 42
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

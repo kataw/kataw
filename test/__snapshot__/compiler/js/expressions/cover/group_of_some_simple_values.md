@@ -25,7 +25,7 @@
                 "expression": {
                     "kind": 66224,
                     "expression": {
-                        "kind": 54,
+                        "kind": 65590,
                         "expressions": [
                             {
                                 "kind": 196712,
@@ -34,8 +34,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 1,
                                 "end": 2
                             },
@@ -46,20 +44,16 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
                             {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 10
                             },
@@ -70,8 +64,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 13
                             },
@@ -82,8 +74,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 16
                             },
@@ -94,8 +84,6 @@
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 19
                             }
@@ -103,24 +91,18 @@
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 1,
                         "end": 19
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -128,16 +110,12 @@
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

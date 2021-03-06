@@ -33,8 +33,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -77,8 +73,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -91,8 +85,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 16,
                                             "end": 17
                                         }
@@ -101,8 +93,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -122,8 +112,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 26,
                                                     "end": 28
                                                 },
@@ -148,8 +136,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 30,
                                                                     "end": 42
                                                                 },
@@ -160,8 +146,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 43,
                                                                     "end": 44
                                                                 },
@@ -181,8 +165,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 46,
                                                                                         "end": 52
                                                                                     },
@@ -194,24 +176,18 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                                         "transformFlags": 0,
                                                                                         "flags": 0,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 54,
                                                                                         "end": 54
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 65536,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 52,
                                                                                     "end": 54
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 46,
                                                                                 "end": 55
                                                                             }
@@ -220,16 +196,12 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 46,
                                                                         "end": 55
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 44,
                                                                     "end": 57
                                                                 },
@@ -240,16 +212,12 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                 "flags": 262144,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 42,
                                                                 "end": 57
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 30,
                                                             "end": 57
                                                         }
@@ -257,8 +225,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 30,
                                                     "end": 59
                                                 },
@@ -266,8 +232,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 59
                                             }
@@ -276,16 +240,12 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 59
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 61
                                 },
@@ -296,16 +256,12 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 61
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 61
                         }
@@ -313,8 +269,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 63
                 },
@@ -322,8 +276,6 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 63
             }
@@ -331,16 +283,12 @@ class C { set x(_) { class C { constructor() { super(); } } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 63
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

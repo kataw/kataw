@@ -32,8 +32,6 @@ if if if try { !xxx
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 2
                 },
@@ -45,8 +43,6 @@ if if if try { !xxx
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 5
                     },
@@ -58,8 +54,6 @@ if if if try { !xxx
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 8
                         },
@@ -82,24 +76,18 @@ if if if try { !xxx
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 16,
                                                     "end": 19
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 14,
                                                 "end": 19
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 19
                                         }
@@ -108,16 +96,12 @@ if if if try { !xxx
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 19
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 19
                             },
@@ -131,24 +115,18 @@ if if if try { !xxx
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 19
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 19
                         },
@@ -157,8 +135,6 @@ if if if try { !xxx
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 19
                     },
@@ -167,8 +143,6 @@ if if if try { !xxx
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 19
                 },
@@ -177,8 +151,6 @@ if if if try { !xxx
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 19
             }
@@ -186,8 +158,6 @@ if if if try { !xxx
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 19
     },
@@ -223,8 +193,6 @@ if if if try { !xxx
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

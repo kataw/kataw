@@ -33,8 +33,6 @@ class C { constructor() { new super; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { constructor() { new super; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -71,8 +67,6 @@ class C { constructor() { new super; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -88,14 +82,12 @@ class C { constructor() { new super; } }
                                                 "expression": {
                                                     "kind": 66204,
                                                     "expression": {
-                                                        "kind": 74424,
+                                                        "kind": 66232,
                                                         "member": {
                                                             "kind": 4260561,
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 29,
                                                             "end": 35
                                                         },
@@ -106,16 +98,12 @@ class C { constructor() { new super; } }
                                                             "flags": 2,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 35,
                                                             "end": 35
                                                         },
                                                         "flags": 29,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 2,
                                                         "end": 35
                                                     },
@@ -124,16 +112,12 @@ class C { constructor() { new super; } }
                                                     "flags": 25,
                                                     "intersects": false,
                                                     "transformFlags": 32,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 2,
                                                     "end": 35
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 36
                                             }
@@ -142,16 +126,12 @@ class C { constructor() { new super; } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 36
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 38
                                 },
@@ -162,16 +142,12 @@ class C { constructor() { new super; } }
                                 "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 38
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 38
                         }
@@ -179,8 +155,6 @@ class C { constructor() { new super; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 40
                 },
@@ -188,8 +162,6 @@ class C { constructor() { new super; } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             }
@@ -197,8 +169,6 @@ class C { constructor() { new super; } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
@@ -213,8 +183,6 @@ class C { constructor() { new super; } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

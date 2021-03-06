@@ -27,22 +27,18 @@
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "use strict",
                     "rawText": "use strict",
                     "flags": 16777216,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 13
             },
@@ -57,8 +53,6 @@
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 13,
                         "end": 18
                     },
@@ -67,7 +61,7 @@
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 196712,
                                     "text": "await",
@@ -75,8 +69,6 @@
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 24
                                 },
@@ -87,42 +79,37 @@
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
                                     "end": 28
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
-                                "end": 28
+                                "end": 28,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 24,
+                                    "end": 25
+                                }
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 24,
                         "end": 29
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 29
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 13,
                 "end": 29
             }
@@ -130,16 +117,12 @@
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 29
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

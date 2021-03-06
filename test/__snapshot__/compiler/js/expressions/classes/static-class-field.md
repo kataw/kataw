@@ -29,8 +29,6 @@ class x { static #foo = bar }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -49,8 +47,6 @@ class x { static #foo = bar }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 21
                             },
@@ -65,8 +61,6 @@ class x { static #foo = bar }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 27
                             },
@@ -76,8 +70,6 @@ class x { static #foo = bar }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 27
                         }
@@ -85,8 +77,6 @@ class x { static #foo = bar }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 29
                 },
@@ -94,8 +84,6 @@ class x { static #foo = bar }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 29
             }
@@ -103,16 +91,12 @@ class x { static #foo = bar }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 29
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

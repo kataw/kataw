@@ -36,16 +36,12 @@ switch {} default(x) { =! class function try while with foo!
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 8
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 9
                 },
@@ -66,24 +62,18 @@ switch {} default(x) { =! class function try while with foo!
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 17,
                                         "end": 20
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 20
                                 },
@@ -96,16 +86,12 @@ switch {} default(x) { =! class function try while with foo!
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 24
                                 },
@@ -126,8 +112,6 @@ switch {} default(x) { =! class function try while with foo!
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 25
                                             },
@@ -135,24 +119,18 @@ switch {} default(x) { =! class function try while with foo!
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 25,
                                             "end": 31
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 24,
                                         "end": 31
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 31
                                 },
@@ -165,8 +143,6 @@ switch {} default(x) { =! class function try while with foo!
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 40
                                     },
@@ -177,8 +153,6 @@ switch {} default(x) { =! class function try while with foo!
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 40
                                     },
@@ -196,15 +170,13 @@ switch {} default(x) { =! class function try while with foo!
                                                         "flags": 6,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 50,
                                                         "end": 50
                                                     },
                                                     "statement": {
                                                         "kind": 2097400,
                                                         "expression": {
-                                                            "kind": 66206,
+                                                            "kind": 74398,
                                                             "expression": {
                                                                 "kind": 196712,
                                                                 "text": "foo",
@@ -212,16 +184,12 @@ switch {} default(x) { =! class function try while with foo!
                                                                 "flags": 2,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 55,
                                                                 "end": 59
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 59,
                                                             "end": 60
                                                         },
@@ -233,32 +201,24 @@ switch {} default(x) { =! class function try while with foo!
                                                                 "flags": 6,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 60,
                                                                 "end": 60
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 60,
                                                             "end": 60
                                                         },
                                                         "flags": 2,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 50,
                                                         "end": 60
                                                     },
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 44,
                                                     "end": 60
                                                 }
@@ -267,16 +227,12 @@ switch {} default(x) { =! class function try while with foo!
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 44,
                                             "end": 60
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 60
                                     },
@@ -284,8 +240,6 @@ switch {} default(x) { =! class function try while with foo!
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 256,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 60
                                 }
@@ -293,8 +247,6 @@ switch {} default(x) { =! class function try while with foo!
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 60
                         }
@@ -302,16 +254,12 @@ switch {} default(x) { =! class function try while with foo!
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 60
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 60
             }
@@ -319,8 +267,6 @@ switch {} default(x) { =! class function try while with foo!
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 60
     },
@@ -405,8 +351,6 @@ switch {} default(x) { =! class function try while with foo!
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

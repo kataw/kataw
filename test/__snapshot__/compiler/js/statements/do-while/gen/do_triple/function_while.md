@@ -32,8 +32,6 @@ do do do function while while while while
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 41,
                     "end": 41
                 },
@@ -45,8 +43,6 @@ do do do function while while while while
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 41,
                         "end": 41
                     },
@@ -58,8 +54,6 @@ do do do function while while while while
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 41,
                             "end": 41
                         },
@@ -72,8 +66,6 @@ do do do function while while while while
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 17
                             },
@@ -84,8 +76,6 @@ do do do function while while while while
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 17
                             },
@@ -103,8 +93,6 @@ do do do function while while while while
                                                 "flags": 6,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 29,
                                                 "end": 29
                                             },
@@ -116,8 +104,6 @@ do do do function while while while while
                                                     "flags": 6,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 35,
                                                     "end": 35
                                                 },
@@ -129,8 +115,6 @@ do do do function while while while while
                                                         "flags": 6,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 41,
                                                         "end": 41
                                                     },
@@ -142,40 +126,30 @@ do do do function while while while while
                                                             "flags": 6,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 41,
                                                             "end": 41
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 41,
                                                         "end": 41
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 35,
                                                     "end": 41
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 29,
                                                 "end": 41
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 41
                                         }
@@ -184,16 +158,12 @@ do do do function while while while while
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 41
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 41
                             },
@@ -201,32 +171,24 @@ do do do function while while while while
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 256,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 41
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 41
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 41
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 41
             }
@@ -234,8 +196,6 @@ do do do function while while while while
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 41
     },
@@ -271,8 +231,6 @@ do do do function while while while while
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

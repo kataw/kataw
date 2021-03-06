@@ -35,8 +35,6 @@ function *P(){
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 11
                 },
@@ -47,8 +45,6 @@ function *P(){
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -67,8 +63,6 @@ function *P(){
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -81,8 +75,6 @@ function *P(){
                                         "flags": 6,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 32
                                     },
@@ -90,8 +82,6 @@ function *P(){
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 32
                                 },
@@ -102,8 +92,6 @@ function *P(){
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 14
                                 },
@@ -111,8 +99,6 @@ function *P(){
                                 "flags": 16386,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 32
                             },
@@ -128,24 +114,18 @@ function *P(){
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 39
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 39
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 39
                             },
@@ -158,16 +138,12 @@ function *P(){
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 41,
                                     "end": 41
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 39,
                                 "end": 42
                             }
@@ -176,16 +152,12 @@ function *P(){
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 42
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 44
                 },
@@ -193,8 +165,6 @@ function *P(){
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 44
             }
@@ -202,8 +172,6 @@ function *P(){
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 44
     },
@@ -225,8 +193,6 @@ function *P(){
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

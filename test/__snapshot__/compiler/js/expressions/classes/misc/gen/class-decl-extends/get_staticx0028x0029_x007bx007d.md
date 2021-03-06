@@ -33,8 +33,6 @@ class C extends Base { get static() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,8 +46,6 @@ class C extends Base { get static() {} }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 20
                     },
@@ -57,8 +53,6 @@ class C extends Base { get static() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 20
                 },
@@ -81,8 +75,6 @@ class C extends Base { get static() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 33
                                 },
@@ -93,8 +85,6 @@ class C extends Base { get static() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -109,16 +99,12 @@ class C extends Base { get static() {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 38
                                 },
@@ -129,16 +115,12 @@ class C extends Base { get static() {} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 38
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 38
                         }
@@ -146,8 +128,6 @@ class C extends Base { get static() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 40
                 },
@@ -155,8 +135,6 @@ class C extends Base { get static() {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             }
@@ -164,16 +142,12 @@ class C extends Base { get static() {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

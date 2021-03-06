@@ -35,8 +35,6 @@ function *P(){
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 11
                 },
@@ -47,8 +45,6 @@ function *P(){
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -67,8 +63,6 @@ function *P(){
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -76,14 +70,12 @@ function *P(){
                                 "classHeritage": {
                                     "kind": 52,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 4260561,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 32,
                                             "end": 38
                                         },
@@ -94,25 +86,24 @@ function *P(){
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 39,
                                             "end": 42
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 38,
-                                        "end": 42
+                                        "end": 42,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 38,
+                                            "end": 39
+                                        }
                                     },
                                     "typeArguments": null,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 42
                                 },
@@ -123,8 +114,6 @@ function *P(){
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 44,
                                     "end": 45
                                 },
@@ -132,8 +121,6 @@ function *P(){
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 45
                             }
@@ -142,16 +129,12 @@ function *P(){
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 45
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 47
                 },
@@ -159,8 +142,6 @@ function *P(){
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 47
             }
@@ -168,16 +149,12 @@ function *P(){
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 47
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

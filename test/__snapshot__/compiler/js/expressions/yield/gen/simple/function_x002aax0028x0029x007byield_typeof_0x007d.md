@@ -33,8 +33,6 @@ function *a(){yield typeof 0}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 11
                 },
@@ -45,8 +43,6 @@ function *a(){yield typeof 0}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -71,32 +67,24 @@ function *a(){yield typeof 0}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 28
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 19,
                                         "end": 28
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 16393,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 28
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 28
                             }
@@ -105,16 +93,12 @@ function *a(){yield typeof 0}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 28
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 29
                 },
@@ -122,8 +106,6 @@ function *a(){yield typeof 0}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 29
             }
@@ -131,16 +113,12 @@ function *a(){yield typeof 0}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 29
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

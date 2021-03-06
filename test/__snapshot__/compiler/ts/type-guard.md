@@ -16,11 +16,11 @@ function isString(x: any): x is string {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function isString(x: any): x is string {\n    return typeof x === 'string'\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -28,11 +28,9 @@ function isString(x: any): x is string {
                     "kind": 131102,
                     "text": "isString",
                     "rawText": "isString",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 17
                 },
@@ -46,22 +44,18 @@ function isString(x: any): x is string {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 19
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 24
                             },
@@ -69,54 +63,44 @@ function isString(x: any): x is string {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 25
                 },
                 "type": {
-                    "kind": 234,
+                    "kind": 8426,
                     "asserts": false,
                     "parameterName": {
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 26,
                         "end": 28
                     },
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 31,
                         "end": 38
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 26,
                     "end": 38
                 },
@@ -136,92 +120,72 @@ function isString(x: any): x is string {
                                             "kind": 196712,
                                             "text": "x",
                                             "rawText": "x",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 58,
                                             "end": 60
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 51,
                                         "end": 60
                                     },
                                     "operator": "===",
                                     "right": {
-                                        "kind": 67279,
+                                        "kind": 4261583,
                                         "text": "string",
                                         "rawText": "string",
-                                        "flags": 16842752,
+                                        "flags": 16777216,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 64,
                                         "end": 73
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 51,
                                     "end": 73
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 40,
                                 "end": 73
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 40,
                         "end": 73
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 38,
                     "end": 75
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 75
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 75
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -235,17 +199,13 @@ function isString(x: any): x is string {
 
 
 ```javascript
-
-function isString(x: any): x is string {
-    return typeof x === "string";
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

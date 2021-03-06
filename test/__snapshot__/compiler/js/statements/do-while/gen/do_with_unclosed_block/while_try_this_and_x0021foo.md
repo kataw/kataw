@@ -33,8 +33,6 @@ do {} while (x) { while try this and !foo
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -47,24 +45,18 @@ do {} while (x) { while try this and !foo
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 5
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             },
@@ -81,8 +73,6 @@ do {} while (x) { while try this and !foo
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 23
                             },
@@ -97,16 +87,12 @@ do {} while (x) { while try this and !foo
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 27
                                 },
@@ -120,32 +106,24 @@ do {} while (x) { while try this and !foo
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 27
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 27
                         },
@@ -156,23 +134,19 @@ do {} while (x) { while try this and !foo
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 32
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 32
                         },
                         {
                             "kind": 2097233,
                             "expression": {
-                                "kind": 66206,
+                                "kind": 74398,
                                 "expression": {
                                     "kind": 196712,
                                     "text": "and",
@@ -180,24 +154,18 @@ do {} while (x) { while try this and !foo
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 36
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 36,
                                 "end": 38
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 38
                         },
@@ -210,16 +178,12 @@ do {} while (x) { while try this and !foo
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 38,
                                 "end": 41
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 38,
                             "end": 41
                         }
@@ -228,16 +192,12 @@ do {} while (x) { while try this and !foo
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 41
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 15,
                 "end": 41
             }
@@ -245,8 +205,6 @@ do {} while (x) { while try this and !foo
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 41
     },
@@ -282,8 +240,6 @@ do {} while (x) { while try this and !foo
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -16,40 +16,36 @@ declare enum E {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare enum E {\n e = -3 // Negative\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 71,
+                "kind": 8263,
                 "name": {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 14
                 },
                 "members": {
-                    "kind": 73,
+                    "kind": 8265,
                     "enumMembersList": [
                         {
-                            "kind": 72,
+                            "kind": 8264,
                             "name": {
                                 "kind": 196711,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 19
                             },
@@ -60,62 +56,48 @@ declare enum E {
                                     "kind": 4261540,
                                     "text": 3,
                                     "rawText": "3",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 24
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 24
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 16,
                             "end": 24
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 24
                 },
                 "isConst": false,
-                "flags": 201392128,
+                "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 38
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 38
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -129,17 +111,13 @@ declare enum E {
 
 
 ```javascript
-
-declare enum E {
-    e = - 3
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

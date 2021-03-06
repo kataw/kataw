@@ -35,16 +35,12 @@ case catch default
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 4
                 },
@@ -60,24 +56,18 @@ case catch default
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 16,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 10
                 },
@@ -85,8 +75,6 @@ case catch default
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 16,
-                "parent": null,
-                "emitNode": null,
                 "start": 4,
                 "end": 10
             }
@@ -94,8 +82,6 @@ case catch default
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 18
     },
@@ -124,8 +110,6 @@ case catch default
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

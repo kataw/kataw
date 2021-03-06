@@ -35,8 +35,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 3
                     },
@@ -44,19 +42,9 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "kind": 66224,
                         "expression": {
                             "kind": 67592,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": {
-                                    "kind": 233,
-                                    "typeParameterList": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 7,
-                                    "end": 7
-                                },
                                 "elements": [
                                     {
                                         "kind": 89,
@@ -68,8 +56,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 8,
                                             "end": 17
                                         },
@@ -82,8 +68,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 7,
                                         "end": 18
                                     }
@@ -94,8 +78,6 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 18
                             },
@@ -107,22 +89,18 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                         {
                                             "kind": 2097233,
                                             "expression": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "use strict",
                                                 "rawText": "use strict",
                                                 "flags": 16777216,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 36
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 37
                                         },
@@ -135,16 +113,12 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 37,
                                                 "end": 39
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 37,
                                             "end": 39
                                         }
@@ -153,32 +127,24 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 39
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 41
                             },
                             "flags": 536870912,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 7,
                             "end": 41
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 42
                     },
@@ -189,24 +155,18 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 44,
                         "end": 48
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 48
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 49
             }
@@ -214,16 +174,12 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 49
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -32,8 +32,6 @@ do class x {} while
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 19
                 },
@@ -46,8 +44,6 @@ do class x {} while
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 10
                     },
@@ -60,8 +56,6 @@ do class x {} while
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 13
                     },
@@ -69,16 +63,12 @@ do class x {} while
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 13
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 19
             }
@@ -86,8 +76,6 @@ do class x {} while
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 19
     },
@@ -109,8 +97,6 @@ do class x {} while
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

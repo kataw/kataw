@@ -29,14 +29,12 @@ import { for } from "iteration"
             {
                 "kind": 110,
                 "fromClause": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "iteration",
                     "rawText": "iteration",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 31
                 },
@@ -59,8 +57,6 @@ import { for } from "iteration"
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 8,
                                         "end": 12
                                     },
@@ -71,16 +67,12 @@ import { for } from "iteration"
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 8,
                                         "end": 12
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 12
                                 }
@@ -88,16 +80,12 @@ import { for } from "iteration"
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 12
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 14
                     },
@@ -105,16 +93,12 @@ import { for } from "iteration"
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 14
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             }
@@ -122,16 +106,12 @@ import { for } from "iteration"
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

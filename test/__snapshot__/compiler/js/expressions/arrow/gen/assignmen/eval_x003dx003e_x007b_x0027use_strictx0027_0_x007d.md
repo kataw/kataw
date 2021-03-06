@@ -35,17 +35,15 @@ x = eval => { 'use strict'; 0 } ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
                     "operator": "=",
                     "right": {
                         "kind": 67592,
+                        "typeParameters": null,
                         "arrowParameters": {
                             "kind": 65545,
-                            "typeParameters": null,
                             "elements": [
                                 {
                                     "kind": 89,
@@ -57,8 +55,6 @@ x = eval => { 'use strict'; 0 } ;
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 3,
                                         "end": 8
                                     },
@@ -71,8 +67,6 @@ x = eval => { 'use strict'; 0 } ;
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 8
                                 }
@@ -83,8 +77,6 @@ x = eval => { 'use strict'; 0 } ;
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 8
                         },
@@ -96,22 +88,18 @@ x = eval => { 'use strict'; 0 } ;
                                     {
                                         "kind": 2097233,
                                         "expression": {
-                                            "kind": 67279,
+                                            "kind": 4261583,
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 16777216,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 26
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 13,
                                         "end": 27
                                     },
@@ -124,16 +112,12 @@ x = eval => { 'use strict'; 0 } ;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 27,
                                             "end": 29
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 27,
                                         "end": 29
                                     }
@@ -142,40 +126,30 @@ x = eval => { 'use strict'; 0 } ;
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 29
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 31
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 31
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 31
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 33
             }
@@ -183,16 +157,12 @@ x = eval => { 'use strict'; 0 } ;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 33
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

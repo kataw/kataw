@@ -31,7 +31,7 @@ x! *= 1
                 "expression": {
                     "kind": 65550,
                     "left": {
-                        "kind": 66206,
+                        "kind": 74398,
                         "expression": {
                             "kind": 196712,
                             "text": "x",
@@ -39,16 +39,12 @@ x! *= 1
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 1
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 1,
                         "end": 2
                     },
@@ -60,24 +56,18 @@ x! *= 1
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 7
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 7
             }
@@ -85,16 +75,12 @@ x! *= 1
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 7
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -108,15 +94,13 @@ x! *= 1
 
 
 ```javascript
-
-x! *= 1
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

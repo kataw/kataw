@@ -33,8 +33,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 14
                 },
@@ -51,8 +49,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 20
                             },
@@ -65,8 +61,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 15,
                             "end": 20
                         }
@@ -75,8 +69,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 21
                 },
@@ -95,8 +87,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 29
                                 },
@@ -111,8 +101,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 30,
                                             "end": 36
                                         },
@@ -129,8 +117,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 38,
                                                         "end": 43
                                                     },
@@ -144,8 +130,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 45,
                                                             "end": 51
                                                         },
@@ -160,8 +144,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 52,
                                                                     "end": 53
                                                                 }
@@ -170,24 +152,18 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                                             "transformFlags": 0,
                                                             "flags": 0,
                                                             "intersects": false,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 53,
                                                             "end": 54
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 51,
                                                         "end": 54
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 54
                                                 }
@@ -196,24 +172,18 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                             "transformFlags": 0,
                                             "flags": 0,
                                             "intersects": false,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 43,
                                             "end": 55
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 36,
                                         "end": 55
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 56
                                 },
@@ -221,8 +191,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 56
                             }
@@ -231,16 +199,12 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 56
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 58
                 },
@@ -248,8 +212,6 @@ function yield(yield) { yield: yield (yield + yield(0)); }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 58
             }
@@ -257,16 +219,12 @@ function yield(yield) { yield: yield (yield + yield(0)); }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 58
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

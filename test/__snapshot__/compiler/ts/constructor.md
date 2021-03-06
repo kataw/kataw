@@ -18,11 +18,11 @@ class C {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class C {\n    constructor(x: number, y: number);\n    constructor(x: string, y: string);\n    constructor(x: any, y: any) {}\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -30,11 +30,9 @@ class C {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -56,11 +54,9 @@ class C {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 25
                                 },
@@ -74,22 +70,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 27
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 28,
                                                 "end": 35
                                             },
@@ -97,11 +89,9 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 35
                                         },
@@ -112,22 +102,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 36,
                                                 "end": 38
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 46
                                             },
@@ -135,21 +121,17 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 36,
                                             "end": 46
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 47
                                 },
@@ -160,19 +142,15 @@ class C {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 327680,
+                                "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 25,
                                 "end": 48
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 48
                         },
@@ -188,11 +166,9 @@ class C {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
                                     "end": 64
                                 },
@@ -206,22 +182,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 65,
                                                 "end": 66
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 67,
                                                 "end": 74
                                             },
@@ -229,11 +201,9 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 65,
                                             "end": 74
                                         },
@@ -244,22 +214,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 75,
                                                 "end": 77
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 78,
                                                 "end": 85
                                             },
@@ -267,21 +233,17 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 75,
                                             "end": 85
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 65,
                                     "end": 86
                                 },
@@ -292,19 +254,15 @@ class C {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 327680,
+                                "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 64,
                                 "end": 87
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 48,
                             "end": 87
                         },
@@ -320,11 +278,9 @@ class C {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 87,
                                     "end": 103
                                 },
@@ -338,22 +294,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 104,
                                                 "end": 105
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194306,
+                                                "kind": 4202498,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 106,
                                                 "end": 110
                                             },
@@ -361,11 +313,9 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 104,
                                             "end": 110
                                         },
@@ -376,22 +326,18 @@ class C {
                                                 "kind": 131102,
                                                 "text": "y",
                                                 "rawText": "y",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 111,
                                                 "end": 113
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194306,
+                                                "kind": 4202498,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 114,
                                                 "end": 118
                                             },
@@ -399,21 +345,17 @@ class C {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 111,
                                             "end": 118
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 104,
                                     "end": 119
                                 },
@@ -425,19 +367,15 @@ class C {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 121,
                                         "end": 121
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 119,
                                     "end": 122
                                 },
@@ -445,54 +383,42 @@ class C {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 327680,
+                                "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 103,
                                 "end": 122
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 87,
                             "end": 122
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 124
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 124
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 124
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -506,19 +432,13 @@ class C {
 
 
 ```javascript
-
-class C {
-    constructor(x: number, y: number);
-    constructor(x: string, y: string);
-    constructor(x: any, y: any) { }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

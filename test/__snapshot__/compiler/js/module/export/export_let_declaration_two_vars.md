@@ -43,8 +43,6 @@ export let x, y
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -54,8 +52,6 @@ export let x, y
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
                                 "end": 12
                             },
@@ -68,8 +64,6 @@ export let x, y
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -79,8 +73,6 @@ export let x, y
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 15
                             }
@@ -88,16 +80,12 @@ export let x, y
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 15
                     },
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 15
                 },
@@ -108,8 +96,6 @@ export let x, y
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             }
@@ -117,16 +103,12 @@ export let x, y
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 15
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

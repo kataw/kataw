@@ -33,8 +33,6 @@ class C extends (
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -44,7 +42,7 @@ class C extends (
                     "expression": {
                         "kind": 66224,
                         "expression": {
-                            "kind": 54,
+                            "kind": 65590,
                             "expressions": [
                                 {
                                     "kind": 196712,
@@ -53,8 +51,6 @@ class C extends (
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 21
                                 },
@@ -65,8 +61,6 @@ class C extends (
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 26
                                 }
@@ -74,16 +68,12 @@ class C extends (
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 26
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 28
                     },
@@ -91,8 +81,6 @@ class C extends (
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 28
                 },
@@ -103,8 +91,6 @@ class C extends (
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 30,
                     "end": 32
                 },
@@ -112,8 +98,6 @@ class C extends (
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 32
             }
@@ -121,16 +105,12 @@ class C extends (
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 32
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

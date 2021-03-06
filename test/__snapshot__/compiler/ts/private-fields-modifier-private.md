@@ -16,11 +16,11 @@ class A {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class A {\n  private #a;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -28,11 +28,9 @@ class A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,11 +46,9 @@ class A {
                                 "kind": 196711,
                                 "text": "#a",
                                 "rawText": "#a",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 22
                             },
@@ -67,52 +63,40 @@ class A {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 19
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 23
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 25
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -126,17 +110,13 @@ class A {
 
 
 ```javascript
-
-class A {
-    private #a;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -15,11 +15,11 @@ class A extends A { }
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class B extends A { }\nclass A extends A { }",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -27,11 +27,9 @@ class A extends A { }
                     "kind": 131102,
                     "text": "B",
                     "rawText": "B",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -42,20 +40,16 @@ class A extends A { }
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 17
                 },
@@ -63,20 +57,16 @@ class A extends A { }
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 21
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             },
@@ -86,11 +76,9 @@ class A extends A { }
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 29
                 },
@@ -101,20 +89,16 @@ class A extends A { }
                         "kind": 196712,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 37,
                         "end": 39
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 37,
                     "end": 39
                 },
@@ -122,37 +106,29 @@ class A extends A { }
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 41,
                     "end": 43
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 21,
                 "end": 43
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 43
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -166,21 +142,13 @@ class A extends A { }
 
 
 ```javascript
-
-class B extends A {
-
-}
-
-class A extends A {
-
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

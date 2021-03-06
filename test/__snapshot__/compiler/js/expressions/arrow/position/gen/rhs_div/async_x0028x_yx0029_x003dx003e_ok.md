@@ -35,15 +35,12 @@ x / async (x, y) => ok
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
                     "operator": "/",
                     "right": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [
                             {
                                 "kind": 89,
@@ -55,8 +52,6 @@ x / async (x, y) => ok
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -69,8 +64,6 @@ x / async (x, y) => ok
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 16
                             },
@@ -84,8 +77,6 @@ x / async (x, y) => ok
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -98,8 +89,6 @@ x / async (x, y) => ok
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 16
                             }
@@ -110,24 +99,18 @@ x / async (x, y) => ok
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 16
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 16
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 16
             },
@@ -140,16 +123,12 @@ x / async (x, y) => ok
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 19,
                 "end": 22
             }
@@ -157,8 +136,6 @@ x / async (x, y) => ok
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 22
     },
@@ -173,8 +150,6 @@ x / async (x, y) => ok
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

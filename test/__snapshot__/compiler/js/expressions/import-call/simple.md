@@ -23,14 +23,12 @@ import.call
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 74424,
+                    "kind": 66232,
                     "member": {
                         "kind": 4194416,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 32,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 6
                     },
@@ -41,24 +39,23 @@ import.call
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 7,
                         "end": 11
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
-                    "end": 11
+                    "end": 11,
+                    "period": {
+                        "kind": 254,
+                        "pos": 6,
+                        "end": 7
+                    }
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 11
             }
@@ -66,16 +63,12 @@ import.call
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 11
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

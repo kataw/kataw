@@ -15,11 +15,11 @@ foo<bar>`baz`;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "foo<bar>`baz`;\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
@@ -31,11 +31,9 @@ foo<bar>`baz`;
                             "kind": 196712,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 3
                         },
@@ -44,19 +42,15 @@ foo<bar>`baz`;
                             "kind": 196712,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 4,
                             "end": 7
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 7
                     },
@@ -65,44 +59,35 @@ foo<bar>`baz`;
                         "kind": 4260568,
                         "rawText": "baz",
                         "text": "baz",
-                        "flags": 65536,
+                        "literal": true,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -116,15 +101,13 @@ foo<bar>`baz`;
 
 
 ```javascript
-
-foo < bar > baz
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

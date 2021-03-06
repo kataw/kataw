@@ -35,8 +35,6 @@ return class x {} return
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 14
                     },
@@ -49,8 +47,6 @@ return class x {} return
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 17
                     },
@@ -58,16 +54,12 @@ return class x {} return
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 17
             },
@@ -77,8 +69,6 @@ return class x {} return
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 17,
                 "end": 24
             }
@@ -86,8 +76,6 @@ return class x {} return
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 24
     },
@@ -102,8 +90,6 @@ return class x {} return
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

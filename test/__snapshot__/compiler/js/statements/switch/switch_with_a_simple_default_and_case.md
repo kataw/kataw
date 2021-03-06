@@ -29,8 +29,6 @@ switch (A) {default: D; case B: C; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 9
                 },
@@ -49,16 +47,12 @@ switch (A) {default: D; case B: C; }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 23
                                 }
@@ -66,8 +60,6 @@ switch (A) {default: D; case B: C; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 23
                         },
@@ -80,8 +72,6 @@ switch (A) {default: D; case B: C; }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 28,
                                 "end": 30
                             },
@@ -95,16 +85,12 @@ switch (A) {default: D; case B: C; }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 31,
                                         "end": 33
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 34
                                 }
@@ -112,8 +98,6 @@ switch (A) {default: D; case B: C; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 23,
                             "end": 34
                         }
@@ -121,16 +105,12 @@ switch (A) {default: D; case B: C; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 36
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             }
@@ -138,16 +118,12 @@ switch (A) {default: D; case B: C; }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 36
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

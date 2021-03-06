@@ -32,8 +32,6 @@ if( catch
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 3
                 },
@@ -48,16 +46,12 @@ if( catch
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 3
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 3
                     },
@@ -73,24 +67,18 @@ if( catch
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 9
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 9
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 16,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 9
                     },
@@ -98,8 +86,6 @@ if( catch
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 16,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 9
                 },
@@ -108,8 +94,6 @@ if( catch
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 9
             }
@@ -117,8 +101,6 @@ if( catch
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 9
     },
@@ -133,8 +115,6 @@ if( catch
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

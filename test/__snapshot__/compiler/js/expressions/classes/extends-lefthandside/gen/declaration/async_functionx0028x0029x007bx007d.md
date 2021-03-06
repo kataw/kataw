@@ -33,8 +33,6 @@ class A extends async function(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -51,8 +49,6 @@ class A extends async function(){} {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 31,
                             "end": 32
                         },
@@ -65,16 +61,12 @@ class A extends async function(){} {}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 33
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 34
                         },
@@ -83,8 +75,6 @@ class A extends async function(){} {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 4,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 34
                     },
@@ -92,8 +82,6 @@ class A extends async function(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 34
                 },
@@ -104,8 +92,6 @@ class A extends async function(){} {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 36,
                     "end": 37
                 },
@@ -113,8 +99,6 @@ class A extends async function(){} {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 37
             }
@@ -122,16 +106,12 @@ class A extends async function(){} {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 37
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

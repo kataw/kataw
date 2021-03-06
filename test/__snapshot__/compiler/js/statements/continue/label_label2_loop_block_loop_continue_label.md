@@ -29,8 +29,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 3
                 },
@@ -43,8 +41,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 8
                     },
@@ -57,8 +53,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 50,
                             "end": 51
                         },
@@ -76,8 +70,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 39
                                         },
@@ -90,24 +82,18 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 30
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 31
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 14,
                                         "end": 41
                                     }
@@ -116,24 +102,18 @@ foo: bar: do { do continue foo; while(z); } while(z)
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 41
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 43
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 9,
                         "end": 52
                     },
@@ -141,8 +121,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 52
                 },
@@ -150,8 +128,6 @@ foo: bar: do { do continue foo; while(z); } while(z)
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 52
             }
@@ -159,16 +135,12 @@ foo: bar: do { do continue foo; while(z); } while(z)
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 52
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

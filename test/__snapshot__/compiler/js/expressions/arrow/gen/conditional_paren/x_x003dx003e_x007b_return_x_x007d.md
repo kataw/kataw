@@ -35,8 +35,6 @@ bar ? baz : ( x => { return x; } );
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 3
                     },
@@ -47,8 +45,6 @@ bar ? baz : ( x => { return x; } );
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 9
                     },
@@ -56,19 +52,9 @@ bar ? baz : ( x => { return x; } );
                         "kind": 66224,
                         "expression": {
                             "kind": 67592,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": {
-                                    "kind": 233,
-                                    "typeParameterList": [],
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 11,
-                                    "end": 11
-                                },
                                 "elements": [
                                     {
                                         "kind": 89,
@@ -80,8 +66,6 @@ bar ? baz : ( x => { return x; } );
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 15
                                         },
@@ -94,8 +78,6 @@ bar ? baz : ( x => { return x; } );
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 15
                                     }
@@ -106,8 +88,6 @@ bar ? baz : ( x => { return x; } );
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 15
                             },
@@ -125,16 +105,12 @@ bar ? baz : ( x => { return x; } );
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 27,
                                                 "end": 29
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 30
                                         }
@@ -143,48 +119,36 @@ bar ? baz : ( x => { return x; } );
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 30
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 32
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 32
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 34
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 34
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 35
             }
@@ -192,16 +156,12 @@ bar ? baz : ( x => { return x; } );
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 35
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

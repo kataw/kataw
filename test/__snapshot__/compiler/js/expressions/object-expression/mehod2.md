@@ -43,8 +43,6 @@ x = { method(test) { } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -63,8 +61,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 12
                                     },
@@ -75,8 +71,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 13,
                                         "end": 14
                                     },
@@ -91,16 +85,12 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 16,
                                             "end": 16
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -111,8 +101,6 @@ x = { method(test) { } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 18
                                 }
@@ -122,32 +110,24 @@ x = { method(test) { } }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 18
                         },
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 20
                     },
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 20
             },
@@ -162,8 +142,6 @@ x = { method(test) { } }
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 23
                     },
@@ -182,8 +160,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 27,
                                         "end": 31
                                     },
@@ -194,8 +170,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 33
                                     },
@@ -210,16 +184,12 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 35,
                                             "end": 35
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 33,
                                         "end": 37
                                     },
@@ -230,8 +200,6 @@ x = { method(test) { } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 37
                                 }
@@ -241,32 +209,24 @@ x = { method(test) { } }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 37
                         },
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 25,
                         "end": 39
                     },
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 39
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 20,
                 "end": 39
             },
@@ -281,8 +241,6 @@ x = { method(test) { } }
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 39,
                         "end": 42
                     },
@@ -301,8 +259,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 46,
                                         "end": 50
                                     },
@@ -313,8 +269,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 51,
                                         "end": 52
                                     },
@@ -329,16 +283,12 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 54,
                                             "end": 54
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 52,
                                         "end": 56
                                     },
@@ -349,8 +299,6 @@ x = { method(test) { } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 50,
                                     "end": 56
                                 }
@@ -360,32 +308,24 @@ x = { method(test) { } }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 46,
                             "end": 56
                         },
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 44,
                         "end": 58
                     },
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 39,
                     "end": 58
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 39,
                 "end": 58
             },
@@ -400,8 +340,6 @@ x = { method(test) { } }
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 58,
                         "end": 61
                     },
@@ -422,8 +360,6 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 65,
                                             "end": 72
                                         },
@@ -440,8 +376,6 @@ x = { method(test) { } }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1025,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 73,
                                                         "end": 77
                                                     },
@@ -454,8 +388,6 @@ x = { method(test) { } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 73,
                                                     "end": 77
                                                 }
@@ -464,8 +396,6 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 73,
                                             "end": 78
                                         },
@@ -480,16 +410,12 @@ x = { method(test) { } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 80,
                                                 "end": 80
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 78,
                                             "end": 82
                                         },
@@ -500,8 +426,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 72,
                                         "end": 82
                                     }
@@ -511,16 +435,12 @@ x = { method(test) { } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 65,
                                 "end": 82
                             },
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 63,
                             "end": 84
                         },
@@ -542,8 +462,6 @@ x = { method(test) { } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 88,
                                                     "end": 97
                                                 },
@@ -554,8 +472,6 @@ x = { method(test) { } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 98,
                                                     "end": 99
                                                 },
@@ -570,16 +486,12 @@ x = { method(test) { } }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 100,
                                                         "end": 100
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 99,
                                                     "end": 101
                                                 },
@@ -590,8 +502,6 @@ x = { method(test) { } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 97,
                                                 "end": 101
                                             }
@@ -601,16 +511,12 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 88,
                                         "end": 101
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 87,
                                     "end": 102
                                 }
@@ -619,32 +525,24 @@ x = { method(test) { } }
                             "transformFlags": 0,
                             "flags": 0,
                             "intersects": false,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 88,
                             "end": 103
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 84,
                         "end": 103
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 58,
                     "end": 103
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 58,
                 "end": 104
             },
@@ -659,8 +557,6 @@ x = { method(test) { } }
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 104,
                         "end": 107
                     },
@@ -681,8 +577,6 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 112,
                                             "end": 120
                                         },
@@ -693,8 +587,6 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 121,
                                             "end": 122
                                         },
@@ -709,16 +601,12 @@ x = { method(test) { } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 123,
                                                 "end": 123
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 122,
                                             "end": 124
                                         },
@@ -729,8 +617,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 120,
                                         "end": 124
                                     }
@@ -740,40 +626,30 @@ x = { method(test) { } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 112,
                                 "end": 124
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 111,
                             "end": 125
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 109,
                         "end": 126
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 104,
                     "end": 126
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 104,
                 "end": 127
             },
@@ -788,8 +664,6 @@ x = { method(test) { } }
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 127,
                         "end": 130
                     },
@@ -808,8 +682,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 134,
                                         "end": 141
                                     },
@@ -826,8 +698,6 @@ x = { method(test) { } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 142,
                                                     "end": 146
                                                 },
@@ -840,8 +710,6 @@ x = { method(test) { } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 142,
                                                 "end": 146
                                             }
@@ -850,8 +718,6 @@ x = { method(test) { } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 142,
                                         "end": 147
                                     },
@@ -866,16 +732,12 @@ x = { method(test) { } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 149,
                                             "end": 149
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 147,
                                         "end": 151
                                     },
@@ -886,8 +748,6 @@ x = { method(test) { } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 141,
                                     "end": 151
                                 }
@@ -897,32 +757,24 @@ x = { method(test) { } }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 134,
                             "end": 151
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 132,
                         "end": 153
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 127,
                     "end": 153
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 127,
                 "end": 153
             }
@@ -930,16 +782,12 @@ x = { method(test) { } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 153
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -29,8 +29,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -41,8 +39,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -63,8 +59,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 24
                                     },
@@ -79,14 +73,12 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                     {
                                                         "kind": 65721,
                                                         "left": {
-                                                            "kind": 67279,
+                                                            "kind": 4261583,
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 28,
                                                             "end": 33
                                                         },
@@ -101,16 +93,12 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 40,
                                                                     "end": 42
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 32780,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 34,
                                                                 "end": 42
                                                             },
@@ -122,16 +110,12 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 44,
                                                                 "end": 46
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 34,
                                                             "end": 46
                                                         },
@@ -140,8 +124,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 28,
                                                         "end": 46
                                                     }
@@ -151,16 +133,12 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 28,
                                                 "end": 46
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 47
                                         },
@@ -172,32 +150,24 @@ async function g() {   s = {"foo": await a = x} = x   }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 49,
                                             "end": 51
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 26,
                                         "end": 51
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 51
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 51
                             }
@@ -206,16 +176,12 @@ async function g() {   s = {"foo": await a = x} = x   }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 51
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 55
                 },
@@ -223,8 +189,6 @@ async function g() {   s = {"foo": await a = x} = x   }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 260,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 55
             }
@@ -232,16 +196,12 @@ async function g() {   s = {"foo": await a = x} = x   }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 55
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

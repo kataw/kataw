@@ -40,8 +40,6 @@ z(x)?x:y;
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 1
                         },
@@ -56,8 +54,6 @@ z(x)?x:y;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 2,
                                     "end": 3
                                 }
@@ -66,16 +62,12 @@ z(x)?x:y;
                             "transformFlags": 0,
                             "flags": 65536,
                             "intersects": false,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 1,
                         "end": 4
                     },
@@ -86,8 +78,6 @@ z(x)?x:y;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 6
                     },
@@ -98,24 +88,18 @@ z(x)?x:y;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 7,
                         "end": 8
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 8
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 9
             }
@@ -123,16 +107,12 @@ z(x)?x:y;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 9
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

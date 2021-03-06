@@ -42,14 +42,12 @@ const TestRender = () => <TestComponent />;
             {
                 "kind": 110,
                 "fromClause": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "react",
                     "rawText": "react",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 30
                 },
@@ -63,8 +61,6 @@ const TestRender = () => <TestComponent />;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 17
                     },
@@ -73,16 +69,12 @@ const TestRender = () => <TestComponent />;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 17
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             },
@@ -95,8 +87,6 @@ const TestRender = () => <TestComponent />;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 37,
                     "end": 51
                 },
@@ -104,7 +94,7 @@ const TestRender = () => <TestComponent />;
                 "classHeritage": {
                     "kind": 52,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 196712,
                             "text": "React",
@@ -112,8 +102,6 @@ const TestRender = () => <TestComponent />;
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 59,
                             "end": 65
                         },
@@ -124,29 +112,30 @@ const TestRender = () => <TestComponent />;
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 66,
                             "end": 75
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 65,
-                        "end": 75
+                        "end": 75,
+                        "period": {
+                            "kind": 254,
+                            "pos": 65,
+                            "end": 66
+                        }
                     },
                     "typeArguments": {
-                        "kind": 227,
+                        "kind": 8419,
                         "typeArgumentsList": [
                             {
-                                "kind": 230,
+                                "kind": 8422,
                                 "objectTypeMembers": {
                                     "kind": 169,
                                     "members": [
                                         {
-                                            "kind": 188,
+                                            "kind": 8380,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "isAny",
@@ -154,20 +143,18 @@ const TestRender = () => <TestComponent />;
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 77,
                                                 "end": 83
                                             },
                                             "isOptional": false,
                                             "accessModifier": null,
                                             "type": {
-                                                "kind": 95,
+                                                "kind": 8287,
                                                 "typeParameters": {
-                                                    "kind": 233,
+                                                    "kind": 8425,
                                                     "typeParameterList": [
                                                         {
-                                                            "kind": 232,
+                                                            "kind": 8424,
                                                             "name": {
                                                                 "kind": 196711,
                                                                 "text": "T",
@@ -175,8 +162,6 @@ const TestRender = () => <TestComponent />;
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 86,
                                                                 "end": 87
                                                             },
@@ -186,8 +171,6 @@ const TestRender = () => <TestComponent />;
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 86,
                                                             "end": 87
                                                         }
@@ -195,16 +178,14 @@ const TestRender = () => <TestComponent />;
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 86,
                                                     "end": 87
                                                 },
                                                 "parameters": {
-                                                    "kind": 175,
+                                                    "kind": 8367,
                                                     "parameterList": [
                                                         {
-                                                            "kind": 174,
+                                                            "kind": 8366,
                                                             "ellipsis": false,
                                                             "binding": {
                                                                 "kind": 131102,
@@ -213,19 +194,15 @@ const TestRender = () => <TestComponent />;
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 89,
                                                                 "end": 92
                                                             },
                                                             "isOptional": false,
                                                             "type": {
-                                                                "kind": 4194306,
+                                                                "kind": 4202498,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 2097152,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 93,
                                                                 "end": 97
                                                             },
@@ -235,8 +212,6 @@ const TestRender = () => <TestComponent />;
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 89,
                                                             "end": 97
                                                         }
@@ -245,13 +220,11 @@ const TestRender = () => <TestComponent />;
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 89,
                                                     "end": 97
                                                 },
                                                 "returnType": {
-                                                    "kind": 234,
+                                                    "kind": 8426,
                                                     "asserts": false,
                                                     "parameterName": {
                                                         "kind": 196712,
@@ -260,13 +233,11 @@ const TestRender = () => <TestComponent />;
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 101,
                                                         "end": 105
                                                     },
                                                     "type": {
-                                                        "kind": 236,
+                                                        "kind": 8428,
                                                         "typeName": {
                                                             "kind": 196711,
                                                             "text": "T",
@@ -274,8 +245,6 @@ const TestRender = () => <TestComponent />;
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 108,
                                                             "end": 110
                                                         },
@@ -283,24 +252,18 @@ const TestRender = () => <TestComponent />;
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 108,
                                                         "end": 112
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 101,
                                                     "end": 110
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 84,
                                                 "end": 110
                                             },
@@ -310,25 +273,20 @@ const TestRender = () => <TestComponent />;
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 77,
                                             "end": 110
                                         }
                                     ],
+                                    "multiline": false,
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 77,
                                     "end": 112
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 76,
                                 "end": 112
                             }
@@ -336,16 +294,12 @@ const TestRender = () => <TestComponent />;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 76,
                         "end": 112
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 59,
                     "end": 113
                 },
@@ -362,8 +316,6 @@ const TestRender = () => <TestComponent />;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 126,
                                 "end": 139
                             },
@@ -385,13 +337,11 @@ const TestRender = () => <TestComponent />;
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 143,
                                                 "end": 157
                                             },
                                             "right": {
-                                                "kind": 74424,
+                                                "kind": 66232,
                                                 "member": {
                                                     "kind": 196712,
                                                     "text": "TestComponent",
@@ -399,8 +349,6 @@ const TestRender = () => <TestComponent />;
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 158,
                                                     "end": 172
                                                 },
@@ -411,26 +359,25 @@ const TestRender = () => <TestComponent />;
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 173,
                                                     "end": 178
                                                 },
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 172,
-                                                "end": 178
+                                                "end": 178,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 172,
+                                                    "end": 173
+                                                }
                                             },
                                             "accessModifier": null,
                                             "decorators": null,
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 143,
                                             "end": 178
                                         }
@@ -440,16 +387,12 @@ const TestRender = () => <TestComponent />;
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 143,
                                     "end": 178
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 141,
                                 "end": 184
                             },
@@ -459,8 +402,6 @@ const TestRender = () => <TestComponent />;
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 115,
                             "end": 184
                         },
@@ -479,8 +420,6 @@ const TestRender = () => <TestComponent />;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 252,
                                     "end": 258
                                 },
@@ -497,19 +436,15 @@ const TestRender = () => <TestComponent />;
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 262,
                                                 "end": 265
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194306,
+                                                "kind": 4202498,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 266,
                                                 "end": 270
                                             },
@@ -520,8 +455,6 @@ const TestRender = () => <TestComponent />;
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 262,
                                             "end": 270
                                         }
@@ -530,8 +463,6 @@ const TestRender = () => <TestComponent />;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 262,
                                     "end": 271
                                 },
@@ -550,16 +481,12 @@ const TestRender = () => <TestComponent />;
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 298,
                                                     "end": 303
                                                 },
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 283,
                                                 "end": 304
                                             }
@@ -568,22 +495,18 @@ const TestRender = () => <TestComponent />;
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 283,
                                         "end": 304
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 281,
                                     "end": 310
                                 },
                                 "decorators": null,
                                 "type": {
-                                    "kind": 234,
+                                    "kind": 8426,
                                     "asserts": false,
                                     "parameterName": {
                                         "kind": 196712,
@@ -592,13 +515,11 @@ const TestRender = () => <TestComponent />;
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 272,
                                         "end": 276
                                     },
                                     "type": {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "T",
@@ -606,8 +527,6 @@ const TestRender = () => <TestComponent />;
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 279,
                                             "end": 281
                                         },
@@ -615,25 +534,21 @@ const TestRender = () => <TestComponent />;
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 279,
                                         "end": 283
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 272,
                                     "end": 281
                                 },
                                 "accessModifier": null,
                                 "typeParameters": {
-                                    "kind": 233,
+                                    "kind": 8425,
                                     "typeParameterList": [
                                         {
-                                            "kind": 232,
+                                            "kind": 8424,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "T",
@@ -641,8 +556,6 @@ const TestRender = () => <TestComponent />;
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 259,
                                                 "end": 260
                                             },
@@ -652,8 +565,6 @@ const TestRender = () => <TestComponent />;
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 259,
                                             "end": 260
                                         }
@@ -661,24 +572,18 @@ const TestRender = () => <TestComponent />;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 259,
                                     "end": 260
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 258,
                                 "end": 310
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 184,
                             "end": 310
                         }
@@ -686,8 +591,6 @@ const TestRender = () => <TestComponent />;
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 115,
                     "end": 312
                 },
@@ -695,8 +598,6 @@ const TestRender = () => <TestComponent />;
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 31,
                 "end": 312
             },
@@ -715,8 +616,6 @@ const TestRender = () => <TestComponent />;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 319,
                                 "end": 330
                             },
@@ -724,9 +623,9 @@ const TestRender = () => <TestComponent />;
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -734,8 +633,6 @@ const TestRender = () => <TestComponent />;
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 332,
                                     "end": 332
                                 },
@@ -747,8 +644,6 @@ const TestRender = () => <TestComponent />;
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8192,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 340,
                                         "end": 353
                                     },
@@ -758,8 +653,6 @@ const TestRender = () => <TestComponent />;
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 8192,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 353,
                                         "end": 353
                                     },
@@ -767,24 +660,18 @@ const TestRender = () => <TestComponent />;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 8192,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 338,
                                     "end": 356
                                 },
                                 "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 332,
                                 "end": 356
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 319,
                             "end": 356
                         }
@@ -792,16 +679,12 @@ const TestRender = () => <TestComponent />;
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 319,
                     "end": 356
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 312,
                 "end": 357
             }
@@ -809,16 +692,12 @@ const TestRender = () => <TestComponent />;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 357
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -832,29 +711,13 @@ const TestRender = () => <TestComponent />;
 
 
 ```javascript
-
-import  from "react";
-
-class TestComponent extends React.Component<{
-        isAny: <T>(obj: any) => obj is T;
-    }> {
-    static defaultProps = { isAny : TestComponent.isAny };
-    static isAny(obj: any): obj is T {
-        return true;
-    }
-}
-
-const TestRender = () => < />;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ Type expected - start: 276, end: 0
-@{x2716}@ Identifier expected - start: 277, end: 0
-@{x2716}@ Identifier expected - start: 278, end: 0
 
 ```
 

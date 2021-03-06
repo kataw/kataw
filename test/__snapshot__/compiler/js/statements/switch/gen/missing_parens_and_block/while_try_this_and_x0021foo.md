@@ -32,8 +32,6 @@ switch case while try this and !foo
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
@@ -48,8 +46,6 @@ switch case while try this and !foo
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 11
                             },
@@ -62,8 +58,6 @@ switch case while try this and !foo
                                         "flags": 6,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 17,
                                         "end": 17
                                     },
@@ -78,16 +72,12 @@ switch case while try this and !foo
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 21
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 21,
                                             "end": 21
                                         },
@@ -101,32 +91,24 @@ switch case while try this and !foo
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 21
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 17,
                                         "end": 21
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 21
                                 },
@@ -137,23 +119,19 @@ switch case while try this and !foo
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 26
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 26
                                 },
                                 {
                                     "kind": 2097233,
                                     "expression": {
-                                        "kind": 66206,
+                                        "kind": 74398,
                                         "expression": {
                                             "kind": 196712,
                                             "text": "and",
@@ -161,24 +139,18 @@ switch case while try this and !foo
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 30
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 30,
                                         "end": 32
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 32
                                 },
@@ -191,16 +163,12 @@ switch case while try this and !foo
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 35
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 35
                                 }
@@ -208,8 +176,6 @@ switch case while try this and !foo
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 6,
                             "end": 35
                         }
@@ -217,16 +183,12 @@ switch case while try this and !foo
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 35
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 35
             }
@@ -234,8 +196,6 @@ switch case while try this and !foo
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 35
     },
@@ -285,8 +245,6 @@ switch case while try this and !foo
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

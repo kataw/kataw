@@ -27,10 +27,10 @@ async async => ok, async async => ok
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 16,
+                    "kind": 65552,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [
                             {
                                 "kind": 89,
@@ -42,8 +42,6 @@ async async => ok, async async => ok
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 11
                                 },
@@ -56,8 +54,6 @@ async async => ok, async async => ok
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 11
                             }
@@ -68,13 +64,11 @@ async async => ok, async async => ok
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 11
                     },
                     "contents": {
-                        "kind": 54,
+                        "kind": 65590,
                         "expressions": [
                             {
                                 "kind": 196712,
@@ -83,16 +77,14 @@ async async => ok, async async => ok
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 17
                             },
                             {
-                                "kind": 16,
+                                "kind": 65552,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": null,
                                     "elements": [
                                         {
                                             "kind": 89,
@@ -104,8 +96,6 @@ async async => ok, async async => ok
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 24,
                                                 "end": 30
                                             },
@@ -118,8 +108,6 @@ async async => ok, async async => ok
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 33,
                                             "end": 30
                                         }
@@ -130,8 +118,6 @@ async async => ok, async async => ok
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 30
                                 },
@@ -142,16 +128,12 @@ async async => ok, async async => ok
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 36
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 36
                             }
@@ -159,24 +141,18 @@ async async => ok, async async => ok
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 36
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 36
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             }
@@ -184,16 +160,12 @@ async async => ok, async async => ok
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 36
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -20,11 +20,11 @@ Foo(() =>
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function Foo(x: any)\n{\n}\n\nFoo(() =>\n    // do something\n    127);",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -32,11 +32,9 @@ Foo(() =>
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -50,22 +48,18 @@ Foo(() =>
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 14
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 19
                             },
@@ -73,21 +67,17 @@ Foo(() =>
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 19
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 20
                 },
@@ -98,28 +88,22 @@ Foo(() =>
                         "kind": 94,
                         "statements": [],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 22,
                         "end": 22
                     },
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 24
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 24
             },
@@ -131,11 +115,9 @@ Foo(() =>
                         "kind": 196712,
                         "text": "Foo",
                         "rawText": "Foo",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 24,
                         "end": 29
                     },
@@ -145,9 +127,9 @@ Foo(() =>
                         "elements": [
                             {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -155,8 +137,6 @@ Foo(() =>
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 30
                                 },
@@ -164,62 +144,48 @@ Foo(() =>
                                     "kind": 4261540,
                                     "text": 127,
                                     "rawText": "127",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 63
                                 },
-                                "flags": 536936448,
+                                "flags": 536870912,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 63
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 31,
                         "end": 64
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 64
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 24,
                 "end": 65
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 65
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -233,18 +199,13 @@ Foo(() =>
 
 
 ```javascript
-
-function Foo(x: any) {
-}
-
-Foo(() => 127)
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -31,7 +31,7 @@ export default (function log() {} as typeof console.log)
                 "declaration": {
                     "kind": 66224,
                     "expression": {
-                        "kind": 65546,
+                        "kind": 73738,
                         "expression": {
                             "kind": 8456285,
                             "name": {
@@ -41,8 +41,6 @@ export default (function log() {} as typeof console.log)
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
                                 "end": 28
                             },
@@ -53,8 +51,6 @@ export default (function log() {} as typeof console.log)
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 30
                             },
@@ -67,16 +63,12 @@ export default (function log() {} as typeof console.log)
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 32
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 33
                             },
@@ -85,15 +77,13 @@ export default (function log() {} as typeof console.log)
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 16,
                             "end": 33
                         },
                         "type": {
-                            "kind": 235,
+                            "kind": 8427,
                             "exprName": {
-                                "kind": 191,
+                                "kind": 8383,
                                 "left": {
                                     "kind": 196711,
                                     "text": "console",
@@ -101,8 +91,6 @@ export default (function log() {} as typeof console.log)
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 43,
                                     "end": 51
                                 },
@@ -113,48 +101,36 @@ export default (function log() {} as typeof console.log)
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 52,
                                     "end": 55
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 43,
                                 "end": 55
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 36,
                             "end": 55
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 33,
                         "end": 55
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 56
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 56
             }
@@ -162,16 +138,12 @@ export default (function log() {} as typeof console.log)
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 56
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -185,15 +157,13 @@ export default (function log() {} as typeof console.log)
 
 
 ```javascript
-
-export default (function log() { } as typeof console.log);
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -17,11 +17,11 @@ function foo(...rest: number) { // error
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function foo(...rest: number) { // error\n\tvar x: string = rest[0];\n\treturn x;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -29,11 +29,9 @@ function foo(...rest: number) { // error
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -47,22 +45,18 @@ function foo(...rest: number) { // error
                                 "kind": 131102,
                                 "text": "rest",
                                 "rawText": "rest",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 20
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 28
                             },
@@ -70,21 +64,17 @@ function foo(...rest: number) { // error
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 29
                 },
@@ -105,36 +95,30 @@ function foo(...rest: number) { // error
                                                 "kind": 131102,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 45,
                                                 "end": 47
                                             },
                                             "exclamation": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 48,
                                                 "end": 55
                                             },
                                             "initializer": {
-                                                "kind": 74308,
+                                                "kind": 66116,
                                                 "member": {
                                                     "kind": 196712,
                                                     "text": "rest",
                                                     "rawText": "rest",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 57,
                                                     "end": 62
                                                 },
@@ -142,44 +126,34 @@ function foo(...rest: number) { // error
                                                     "kind": 4261540,
                                                     "text": 0,
                                                     "rawText": "0",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 63,
                                                     "end": 64
                                                 },
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 62,
                                                 "end": 65
                                             },
                                             "flags": 45,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65536,
+                                            "start": 0,
                                             "end": 65
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 65
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 66
                             },
@@ -189,63 +163,49 @@ function foo(...rest: number) { // error
                                     "kind": 196712,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 74,
                                     "end": 76
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 66,
                                 "end": 77
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 31,
                         "end": 77
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 79
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 79
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 79
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -259,18 +219,13 @@ function foo(...rest: number) { // error
 
 
 ```javascript
-
-function foo(...rest: number) {
-    var x: string = rest[0];
-    return x;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

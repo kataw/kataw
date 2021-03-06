@@ -53,7 +53,7 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
 foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
   ? baaaaaaaaaaaaaaaaaaaaar
   : baaaaaaaaaaaaaaaaaaaaaz)!!!!!;
-© 2021 GitHub, Inc.
+@{xa9}@ 2021 GitHub, Inc.
 `````
 
 ## Output
@@ -64,3001 +64,2238 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
 
 ```javascript
 {
-    "kind": 149,
-    "source": "class LanguageSpec_section_4_5_error_cases {\n    public set AnnotatedSetter_SetterFirst(a: number) { }\n    public get AnnotatedSetter_SetterFirst() { return \"\"; }\n\n    public get AnnotatedSetter_SetterLast() { return \"\"; }\n    public set AnnotatedSetter_SetterLast(a: number) { }\n\n    public get AnnotatedGetter_GetterFirst(): string { return \"\"; }\n    public set AnnotatedGetter_GetterFirst(aStr) { aStr = 0; }\n\n    public set AnnotatedGetter_GetterLast(aStr) { aStr = 0; }\n    public get AnnotatedGetter_GetterLast(): string { return \"\"; }\n}\n\n//// [accessors_spec_section-4.5_error-cases.js]\nvar LanguageSpec_section_4_5_error_cases = (function () {\n    function LanguageSpec_section_4_5_error_cases() {\n    }\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedSetter_SetterFirst\", {\n        get: function () { return \"\"; },\n        set: function (a) { },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedSetter_SetterLast\", {\n        get: function () { return \"\"; },\n        set: function (a) { },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedGetter_GetterFirst\", {\n        get: function () { return \"\"; },\n        set: function (aStr) { aStr = 0; },\n        enumerable: true,\n        configurable: true\n    });\n    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, \"AnnotatedGetter_GetterLast\", {\n        get: function () { return \"\"; },\n        set: function (aStr) { aStr = 0; },\n        enumerable: true,\n        configurable: true\n    });\n    return LanguageSpec_section_4_5_error_cases;\n})();",
+    "kind": 196,
+    "source": "foo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression\n  ? callNode.parent.parent\n  : callNode.parent\n).TSESTree!.BinaryExpression;\n\nfoo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression\n  ? callNode.parent.parent\n  : callNode.parent\n).TSESTree!.BinaryExpression;\n\nbifornCringerMoshedPerplexSawder = (glimseGlyphsHazardNoopsTieTie === 0 &&\nkochabCooieGameOnOboleUnweave === Math.PI\n  ? averredBathersBoxroomBuggyNurl\n  : anodyneCondosMalateOverateRetinol\n).annularCooeedSplicesWalksWayWay\n  .annularCooeedSplicesWalksWayWay(annularCooeedSplicesWalksWayWay)!\n  .annularCooeedSplicesWalksWayWay();\n\nfoo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression\n  ? callNode.parent.parent\n  : callNode.parent\n).TSESTree!.BinaryExpression!;\n\nfoo = (callNode.parent?.type === AST_NODE_TYPES.ChainExpression\n  ? callNode.parent.parent\n  : callNode.parent\n).TSESTree!.BinaryExpression!;\n\nbifornCringerMoshedPerplexSawder = (glimseGlyphsHazardNoopsTieTie === 0 &&\nkochabCooieGameOnOboleUnweave === Math.PI\n  ? averredBathersBoxroomBuggyNurl\n  : anodyneCondosMalateOverateRetinol\n).annularCooeedSplicesWalksWayWay\n  .annularCooeedSplicesWalksWayWay(annularCooeedSplicesWalksWayWay)!\n  .annularCooeedSplicesWalksWayWay()!;\n\nbifornCringerMoshedPerplexSawder =\n  askTrovenaBeenaDependsRowans +\n  (glimseGlyphsHazardNoopsTieTie === 0\n    ? averredBathersBoxroomBuggyNurl\n    : anodyneCondosMalateOverateRetinol\n  ).Foo!.foo;\n\nfoo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n  ? baaaaaaaaaaaaaaaaaaaaar\n  : baaaaaaaaaaaaaaaaaaaaaz)!;\n\nfoo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond\n  ? baaaaaaaaaaaaaaaaaaaaar\n  : baaaaaaaaaaaaaaaaaaaaaz)!!!!!;\n@{xa9}@ 2021 GitHub, Inc.",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 48,
-                "name": {
-                    "kind": 131102,
-                    "text": "LanguageSpec_section_4_5_error_cases",
-                    "rawText": "LanguageSpec_section_4_5_error_cases",
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 5,
-                    "end": 42
-                },
-                "typeParameters": null,
-                "classHeritage": null,
-                "implementClauses": null,
-                "members": {
-                    "kind": 50,
-                    "elements": [
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedSetter_SetterFirst",
-                                    "rawText": "AnnotatedSetter_SetterFirst",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 59,
-                                    "end": 87
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 88,
-                                                "end": 89
-                                            },
-                                            "isOptional": false,
-                                            "type": {
-                                                "kind": 161,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 90,
-                                                "end": 97
-                                            },
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 88,
-                                            "end": 97
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 88,
-                                    "end": 98
-                                },
-                                "isSetter": true,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 100,
-                                        "end": 100
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 98,
-                                    "end": 102
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 44,
-                                    "end": 55
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 87,
-                                "end": 102
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 44,
-                            "end": 102
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedSetter_SetterFirst",
-                                    "rawText": "AnnotatedSetter_SetterFirst",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 117,
-                                    "end": 145
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 146,
-                                    "end": 147
-                                },
-                                "isSetter": false,
-                                "isGetter": true,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097346,
-                                                "expression": {
-                                                    "kind": 67279,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 156,
-                                                    "end": 159
-                                                },
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 149,
-                                                "end": 160
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 149,
-                                        "end": 160
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 147,
-                                    "end": 162
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 102,
-                                    "end": 113
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 145,
-                                "end": 162
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 102,
-                            "end": 162
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedSetter_SetterLast",
-                                    "rawText": "AnnotatedSetter_SetterLast",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 178,
-                                    "end": 205
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 206,
-                                    "end": 207
-                                },
-                                "isSetter": false,
-                                "isGetter": true,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097346,
-                                                "expression": {
-                                                    "kind": 67279,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 216,
-                                                    "end": 219
-                                                },
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 209,
-                                                "end": 220
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 209,
-                                        "end": 220
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 207,
-                                    "end": 222
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 162,
-                                    "end": 174
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 205,
-                                "end": 222
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 162,
-                            "end": 222
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedSetter_SetterLast",
-                                    "rawText": "AnnotatedSetter_SetterLast",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 237,
-                                    "end": 264
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 265,
-                                                "end": 266
-                                            },
-                                            "isOptional": false,
-                                            "type": {
-                                                "kind": 161,
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 267,
-                                                "end": 274
-                                            },
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 265,
-                                            "end": 274
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 265,
-                                    "end": 275
-                                },
-                                "isSetter": true,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 277,
-                                        "end": 277
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 275,
-                                    "end": 279
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 222,
-                                    "end": 233
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 264,
-                                "end": 279
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 222,
-                            "end": 279
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedGetter_GetterFirst",
-                                    "rawText": "AnnotatedGetter_GetterFirst",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 295,
-                                    "end": 323
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 324,
-                                    "end": 325
-                                },
-                                "isSetter": false,
-                                "isGetter": true,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097346,
-                                                "expression": {
-                                                    "kind": 67279,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 342,
-                                                    "end": 345
-                                                },
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 335,
-                                                "end": 346
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 335,
-                                        "end": 346
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 333,
-                                    "end": 348
-                                },
-                                "decorators": null,
-                                "type": {
-                                    "kind": 4194510,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 326,
-                                    "end": 333
-                                },
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 279,
-                                    "end": 291
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 323,
-                                "end": 348
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 279,
-                            "end": 348
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedGetter_GetterFirst",
-                                    "rawText": "AnnotatedGetter_GetterFirst",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 363,
-                                    "end": 391
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "aStr",
-                                                "rawText": "aStr",
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 392,
-                                                "end": 396
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 392,
-                                            "end": 396
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 392,
-                                    "end": 397
-                                },
-                                "isSetter": true,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097233,
-                                                "expression": {
-                                                    "kind": 65550,
-                                                    "left": {
-                                                        "kind": 196712,
-                                                        "text": "aStr",
-                                                        "rawText": "aStr",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 399,
-                                                        "end": 404
-                                                    },
-                                                    "operator": "=",
-                                                    "right": {
-                                                        "kind": 4261540,
-                                                        "text": 0,
-                                                        "rawText": "0",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 406,
-                                                        "end": 408
-                                                    },
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 399,
-                                                    "end": 408
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 399,
-                                                "end": 409
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 399,
-                                        "end": 409
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 397,
-                                    "end": 411
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 348,
-                                    "end": 359
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 391,
-                                "end": 411
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 348,
-                            "end": 411
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedGetter_GetterLast",
-                                    "rawText": "AnnotatedGetter_GetterLast",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 427,
-                                    "end": 454
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [
-                                        {
-                                            "kind": 89,
-                                            "ellipsis": false,
-                                            "binding": {
-                                                "kind": 131102,
-                                                "text": "aStr",
-                                                "rawText": "aStr",
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 455,
-                                                "end": 459
-                                            },
-                                            "isOptional": false,
-                                            "type": null,
-                                            "initializer": null,
-                                            "decorators": null,
-                                            "accessModifier": null,
-                                            "isReadOnly": false,
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 455,
-                                            "end": 459
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 455,
-                                    "end": 460
-                                },
-                                "isSetter": true,
-                                "isGetter": false,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097233,
-                                                "expression": {
-                                                    "kind": 65550,
-                                                    "left": {
-                                                        "kind": 196712,
-                                                        "text": "aStr",
-                                                        "rawText": "aStr",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 462,
-                                                        "end": 467
-                                                    },
-                                                    "operator": "=",
-                                                    "right": {
-                                                        "kind": 4261540,
-                                                        "text": 0,
-                                                        "rawText": "0",
-                                                        "flags": 65536,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 469,
-                                                        "end": 471
-                                                    },
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 462,
-                                                    "end": 471
-                                                },
-                                                "flags": 0,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 462,
-                                                "end": 472
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 462,
-                                        "end": 472
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 460,
-                                    "end": 474
-                                },
-                                "decorators": null,
-                                "type": null,
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 411,
-                                    "end": 423
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 454,
-                                "end": 474
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 411,
-                            "end": 474
-                        },
-                        {
-                            "kind": 49,
-                            "isStatic": false,
-                            "isAbstract": false,
-                            "isReadOnly": false,
-                            "isOptional": false,
-                            "method": {
-                                "kind": 16844946,
-                                "name": {
-                                    "kind": 196711,
-                                    "text": "AnnotatedGetter_GetterLast",
-                                    "rawText": "AnnotatedGetter_GetterLast",
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 489,
-                                    "end": 516
-                                },
-                                "formalParameters": {
-                                    "kind": 90,
-                                    "formalParameterList": [],
-                                    "trailingComma": false,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 517,
-                                    "end": 518
-                                },
-                                "isSetter": false,
-                                "isGetter": true,
-                                "contents": {
-                                    "kind": 91,
-                                    "functionStatementList": {
-                                        "kind": 94,
-                                        "statements": [
-                                            {
-                                                "kind": 2097346,
-                                                "expression": {
-                                                    "kind": 67279,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 65536,
-                                                    "intersects": false,
-                                                    "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
-                                                    "start": 535,
-                                                    "end": 538
-                                                },
-                                                "flags": 65536,
-                                                "intersects": false,
-                                                "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 528,
-                                                "end": 539
-                                            }
-                                        ],
-                                        "multiline": false,
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 528,
-                                        "end": 539
-                                    },
-                                    "flags": 81920,
-                                    "intersects": false,
-                                    "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 526,
-                                    "end": 541
-                                },
-                                "decorators": null,
-                                "type": {
-                                    "kind": 4194510,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 519,
-                                    "end": 526
-                                },
-                                "accessModifier": {
-                                    "kind": 4194494,
-                                    "flags": 0,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 474,
-                                    "end": 485
-                                },
-                                "typeParameters": null,
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 516,
-                                "end": 541
-                            },
-                            "flags": 81920,
-                            "intersects": false,
-                            "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 474,
-                            "end": 541
-                        }
-                    ],
-                    "flags": 81920,
-                    "intersects": false,
-                    "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 44,
-                    "end": 543
-                },
-                "decorators": null,
-                "flags": 81920,
-                "intersects": false,
-                "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
-                "start": 0,
-                "end": 543
-            },
-            {
-                "kind": 2097397,
-                "declarationList": {
-                    "kind": 244,
-                    "declarations": [
-                        {
-                            "kind": 243,
-                            "binding": {
-                                "kind": 131102,
-                                "text": "LanguageSpec_section_4_5_error_cases",
-                                "rawText": "LanguageSpec_section_4_5_error_cases",
-                                "flags": 65536,
-                                "intersects": false,
-                                "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 597,
-                                "end": 634
-                            },
-                            "exclamation": false,
-                            "type": null,
-                            "initializer": {
-                                "kind": 66091,
-                                "expression": {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 3
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 66232,
+                        "member": {
+                            "kind": 74398,
+                            "expression": {
+                                "kind": 66232,
+                                "member": {
                                     "kind": 66224,
                                     "expression": {
-                                        "kind": 8456285,
-                                        "name": null,
-                                        "formalParameters": {
-                                            "kind": 90,
-                                            "formalParameterList": [],
-                                            "trailingComma": false,
-                                            "flags": 65536,
-                                            "intersects": false,
-                                            "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 648,
-                                            "end": 649
-                                        },
-                                        "contents": {
-                                            "kind": 91,
-                                            "functionStatementList": {
-                                                "kind": 94,
-                                                "statements": [
-                                                    {
-                                                        "kind": 264284,
-                                                        "name": {
-                                                            "kind": 131102,
-                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 664,
-                                                            "end": 701
-                                                        },
-                                                        "formalParameters": {
-                                                            "kind": 90,
-                                                            "formalParameterList": [],
-                                                            "trailingComma": false,
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 702,
-                                                            "end": 703
-                                                        },
-                                                        "type": null,
-                                                        "contents": {
-                                                            "kind": 91,
-                                                            "functionStatementList": {
-                                                                "kind": 94,
-                                                                "statements": [],
-                                                                "multiline": true,
-                                                                "flags": 81920,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 705,
-                                                                "end": 705
-                                                            },
-                                                            "flags": 81920,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 703,
-                                                            "end": 711
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 81920,
-                                                        "intersects": false,
-                                                        "transformFlags": 256,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 651,
-                                                        "end": 711
-                                                    },
-                                                    {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 66091,
-                                                            "expression": {
-                                                                "kind": 74424,
-                                                                "member": {
-                                                                    "kind": 196712,
-                                                                    "text": "Object",
-                                                                    "rawText": "Object",
-                                                                    "flags": 81920,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 711,
-                                                                    "end": 722
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 196711,
-                                                                    "text": "defineProperty",
-                                                                    "rawText": "defineProperty",
-                                                                    "flags": 65536,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 723,
-                                                                    "end": 737
-                                                                },
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 722,
-                                                                "end": 737
-                                                            },
-                                                            "typeArguments": null,
-                                                            "argumentList": {
-                                                                "kind": 3,
-                                                                "elements": [
-                                                                    {
-                                                                        "kind": 74424,
-                                                                        "member": {
-                                                                            "kind": 196712,
-                                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 738,
-                                                                            "end": 774
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 196711,
-                                                                            "text": "prototype",
-                                                                            "rawText": "prototype",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 775,
-                                                                            "end": 784
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 774,
-                                                                        "end": 784
-                                                                    },
-                                                                    {
-                                                                        "kind": 67279,
-                                                                        "text": "AnnotatedSetter_SetterFirst",
-                                                                        "rawText": "AnnotatedSetter_SetterFirst",
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 785,
-                                                                        "end": 815
-                                                                    },
-                                                                    {
-                                                                        "kind": 67224232,
-                                                                        "propertyList": {
-                                                                            "kind": 65722,
-                                                                            "properties": [
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "get",
-                                                                                        "rawText": "get",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 818,
-                                                                                        "end": 830
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 842,
-                                                                                            "end": 843
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097346,
-                                                                                                        "expression": {
-                                                                                                            "kind": 67279,
-                                                                                                            "text": "",
-                                                                                                            "rawText": "",
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 852,
-                                                                                                            "end": 855
-                                                                                                        },
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 845,
-                                                                                                        "end": 856
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 845,
-                                                                                                "end": 856
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 843,
-                                                                                            "end": 858
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 831,
-                                                                                        "end": 858
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 818,
-                                                                                    "end": 858
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "set",
-                                                                                        "rawText": "set",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 859,
-                                                                                        "end": 871
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [
-                                                                                                {
-                                                                                                    "kind": 89,
-                                                                                                    "ellipsis": false,
-                                                                                                    "binding": {
-                                                                                                        "kind": 131102,
-                                                                                                        "text": "a",
-                                                                                                        "rawText": "a",
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 1025,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 883,
-                                                                                                        "end": 884
-                                                                                                    },
-                                                                                                    "isOptional": false,
-                                                                                                    "type": null,
-                                                                                                    "initializer": null,
-                                                                                                    "decorators": null,
-                                                                                                    "accessModifier": null,
-                                                                                                    "isReadOnly": false,
-                                                                                                    "flags": 65536,
-                                                                                                    "intersects": false,
-                                                                                                    "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
-                                                                                                    "start": 883,
-                                                                                                    "end": 884
-                                                                                                }
-                                                                                            ],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 883,
-                                                                                            "end": 885
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 887,
-                                                                                                "end": 887
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 885,
-                                                                                            "end": 889
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 872,
-                                                                                        "end": 889
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 859,
-                                                                                    "end": 889
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "enumerable",
-                                                                                        "rawText": "enumerable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 890,
-                                                                                        "end": 909
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 910,
-                                                                                        "end": 915
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 890,
-                                                                                    "end": 915
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "configurable",
-                                                                                        "rawText": "configurable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 916,
-                                                                                        "end": 937
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 938,
-                                                                                        "end": 943
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 81920,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 916,
-                                                                                    "end": 943
-                                                                                }
-                                                                            ],
-                                                                            "trailingComma": false,
-                                                                            "multiline": true,
-                                                                            "flags": 81920,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 818,
-                                                                            "end": 943
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 816,
-                                                                        "end": 949
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "transformFlags": 0,
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 774,
-                                                                "end": 950
-                                                            },
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 737,
-                                                            "end": 950
-                                                        },
+                                        "kind": 65592,
+                                        "shortCircuit": {
+                                            "kind": 65563,
+                                            "left": {
+                                                "kind": 65708,
+                                                "member": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "callNode",
+                                                        "rawText": "callNode",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 711,
-                                                        "end": 951
+                                                        "start": 7,
+                                                        "end": 15
                                                     },
-                                                    {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 66091,
-                                                            "expression": {
-                                                                "kind": 74424,
-                                                                "member": {
-                                                                    "kind": 196712,
-                                                                    "text": "Object",
-                                                                    "rawText": "Object",
-                                                                    "flags": 81920,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 951,
-                                                                    "end": 962
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 196711,
-                                                                    "text": "defineProperty",
-                                                                    "rawText": "defineProperty",
-                                                                    "flags": 65536,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 963,
-                                                                    "end": 977
-                                                                },
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 962,
-                                                                "end": 977
-                                                            },
-                                                            "typeArguments": null,
-                                                            "argumentList": {
-                                                                "kind": 3,
-                                                                "elements": [
-                                                                    {
-                                                                        "kind": 74424,
-                                                                        "member": {
-                                                                            "kind": 196712,
-                                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 978,
-                                                                            "end": 1014
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 196711,
-                                                                            "text": "prototype",
-                                                                            "rawText": "prototype",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1015,
-                                                                            "end": 1024
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1014,
-                                                                        "end": 1024
-                                                                    },
-                                                                    {
-                                                                        "kind": 67279,
-                                                                        "text": "AnnotatedSetter_SetterLast",
-                                                                        "rawText": "AnnotatedSetter_SetterLast",
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1025,
-                                                                        "end": 1054
-                                                                    },
-                                                                    {
-                                                                        "kind": 67224232,
-                                                                        "propertyList": {
-                                                                            "kind": 65722,
-                                                                            "properties": [
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "get",
-                                                                                        "rawText": "get",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1057,
-                                                                                        "end": 1069
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1081,
-                                                                                            "end": 1082
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097346,
-                                                                                                        "expression": {
-                                                                                                            "kind": 67279,
-                                                                                                            "text": "",
-                                                                                                            "rawText": "",
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 1091,
-                                                                                                            "end": 1094
-                                                                                                        },
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1084,
-                                                                                                        "end": 1095
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1084,
-                                                                                                "end": 1095
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1082,
-                                                                                            "end": 1097
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1070,
-                                                                                        "end": 1097
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1057,
-                                                                                    "end": 1097
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "set",
-                                                                                        "rawText": "set",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1098,
-                                                                                        "end": 1110
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [
-                                                                                                {
-                                                                                                    "kind": 89,
-                                                                                                    "ellipsis": false,
-                                                                                                    "binding": {
-                                                                                                        "kind": 131102,
-                                                                                                        "text": "a",
-                                                                                                        "rawText": "a",
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 1025,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1122,
-                                                                                                        "end": 1123
-                                                                                                    },
-                                                                                                    "isOptional": false,
-                                                                                                    "type": null,
-                                                                                                    "initializer": null,
-                                                                                                    "decorators": null,
-                                                                                                    "accessModifier": null,
-                                                                                                    "isReadOnly": false,
-                                                                                                    "flags": 65536,
-                                                                                                    "intersects": false,
-                                                                                                    "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
-                                                                                                    "start": 1122,
-                                                                                                    "end": 1123
-                                                                                                }
-                                                                                            ],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1122,
-                                                                                            "end": 1124
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1126,
-                                                                                                "end": 1126
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1124,
-                                                                                            "end": 1128
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1111,
-                                                                                        "end": 1128
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1098,
-                                                                                    "end": 1128
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "enumerable",
-                                                                                        "rawText": "enumerable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1129,
-                                                                                        "end": 1148
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1149,
-                                                                                        "end": 1154
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1129,
-                                                                                    "end": 1154
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "configurable",
-                                                                                        "rawText": "configurable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1155,
-                                                                                        "end": 1176
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1177,
-                                                                                        "end": 1182
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 81920,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1155,
-                                                                                    "end": 1182
-                                                                                }
-                                                                            ],
-                                                                            "trailingComma": false,
-                                                                            "multiline": true,
-                                                                            "flags": 81920,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1057,
-                                                                            "end": 1182
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1055,
-                                                                        "end": 1188
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "transformFlags": 0,
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 1014,
-                                                                "end": 1189
-                                                            },
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 977,
-                                                            "end": 1189
-                                                        },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "parent",
+                                                        "rawText": "parent",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 951,
-                                                        "end": 1190
+                                                        "start": 16,
+                                                        "end": 22
                                                     },
-                                                    {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 66091,
-                                                            "expression": {
-                                                                "kind": 74424,
-                                                                "member": {
-                                                                    "kind": 196712,
-                                                                    "text": "Object",
-                                                                    "rawText": "Object",
-                                                                    "flags": 81920,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 1190,
-                                                                    "end": 1201
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 196711,
-                                                                    "text": "defineProperty",
-                                                                    "rawText": "defineProperty",
-                                                                    "flags": 65536,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 1202,
-                                                                    "end": 1216
-                                                                },
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 1201,
-                                                                "end": 1216
-                                                            },
-                                                            "typeArguments": null,
-                                                            "argumentList": {
-                                                                "kind": 3,
-                                                                "elements": [
-                                                                    {
-                                                                        "kind": 74424,
-                                                                        "member": {
-                                                                            "kind": 196712,
-                                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1217,
-                                                                            "end": 1253
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 196711,
-                                                                            "text": "prototype",
-                                                                            "rawText": "prototype",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1254,
-                                                                            "end": 1263
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1253,
-                                                                        "end": 1263
-                                                                    },
-                                                                    {
-                                                                        "kind": 67279,
-                                                                        "text": "AnnotatedGetter_GetterFirst",
-                                                                        "rawText": "AnnotatedGetter_GetterFirst",
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1264,
-                                                                        "end": 1294
-                                                                    },
-                                                                    {
-                                                                        "kind": 67224232,
-                                                                        "propertyList": {
-                                                                            "kind": 65722,
-                                                                            "properties": [
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "get",
-                                                                                        "rawText": "get",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1297,
-                                                                                        "end": 1309
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1321,
-                                                                                            "end": 1322
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097346,
-                                                                                                        "expression": {
-                                                                                                            "kind": 67279,
-                                                                                                            "text": "",
-                                                                                                            "rawText": "",
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 1331,
-                                                                                                            "end": 1334
-                                                                                                        },
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1324,
-                                                                                                        "end": 1335
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1324,
-                                                                                                "end": 1335
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1322,
-                                                                                            "end": 1337
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1310,
-                                                                                        "end": 1337
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1297,
-                                                                                    "end": 1337
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "set",
-                                                                                        "rawText": "set",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1338,
-                                                                                        "end": 1350
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [
-                                                                                                {
-                                                                                                    "kind": 89,
-                                                                                                    "ellipsis": false,
-                                                                                                    "binding": {
-                                                                                                        "kind": 131102,
-                                                                                                        "text": "aStr",
-                                                                                                        "rawText": "aStr",
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 1025,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1362,
-                                                                                                        "end": 1366
-                                                                                                    },
-                                                                                                    "isOptional": false,
-                                                                                                    "type": null,
-                                                                                                    "initializer": null,
-                                                                                                    "decorators": null,
-                                                                                                    "accessModifier": null,
-                                                                                                    "isReadOnly": false,
-                                                                                                    "flags": 65536,
-                                                                                                    "intersects": false,
-                                                                                                    "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
-                                                                                                    "start": 1362,
-                                                                                                    "end": 1366
-                                                                                                }
-                                                                                            ],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1362,
-                                                                                            "end": 1367
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097233,
-                                                                                                        "expression": {
-                                                                                                            "kind": 65550,
-                                                                                                            "left": {
-                                                                                                                "kind": 196712,
-                                                                                                                "text": "aStr",
-                                                                                                                "rawText": "aStr",
-                                                                                                                "flags": 65536,
-                                                                                                                "intersects": false,
-                                                                                                                "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
-                                                                                                                "start": 1369,
-                                                                                                                "end": 1374
-                                                                                                            },
-                                                                                                            "operator": "=",
-                                                                                                            "right": {
-                                                                                                                "kind": 4261540,
-                                                                                                                "text": 0,
-                                                                                                                "rawText": "0",
-                                                                                                                "flags": 65536,
-                                                                                                                "intersects": false,
-                                                                                                                "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
-                                                                                                                "start": 1376,
-                                                                                                                "end": 1378
-                                                                                                            },
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 1369,
-                                                                                                            "end": 1378
-                                                                                                        },
-                                                                                                        "flags": 0,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1369,
-                                                                                                        "end": 1379
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1369,
-                                                                                                "end": 1379
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1367,
-                                                                                            "end": 1381
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1351,
-                                                                                        "end": 1381
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1338,
-                                                                                    "end": 1381
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "enumerable",
-                                                                                        "rawText": "enumerable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1382,
-                                                                                        "end": 1401
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1402,
-                                                                                        "end": 1407
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1382,
-                                                                                    "end": 1407
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "configurable",
-                                                                                        "rawText": "configurable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1408,
-                                                                                        "end": 1429
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1430,
-                                                                                        "end": 1435
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 81920,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1408,
-                                                                                    "end": 1435
-                                                                                }
-                                                                            ],
-                                                                            "trailingComma": false,
-                                                                            "multiline": true,
-                                                                            "flags": 81920,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1297,
-                                                                            "end": 1435
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1295,
-                                                                        "end": 1441
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "transformFlags": 0,
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 1253,
-                                                                "end": 1442
-                                                            },
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 1216,
-                                                            "end": 1442
-                                                        },
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 1190,
-                                                        "end": 1443
-                                                    },
-                                                    {
-                                                        "kind": 2097233,
-                                                        "expression": {
-                                                            "kind": 66091,
-                                                            "expression": {
-                                                                "kind": 74424,
-                                                                "member": {
-                                                                    "kind": 196712,
-                                                                    "text": "Object",
-                                                                    "rawText": "Object",
-                                                                    "flags": 81920,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 1443,
-                                                                    "end": 1454
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 196711,
-                                                                    "text": "defineProperty",
-                                                                    "rawText": "defineProperty",
-                                                                    "flags": 65536,
-                                                                    "intersects": false,
-                                                                    "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
-                                                                    "start": 1455,
-                                                                    "end": 1469
-                                                                },
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 1454,
-                                                                "end": 1469
-                                                            },
-                                                            "typeArguments": null,
-                                                            "argumentList": {
-                                                                "kind": 3,
-                                                                "elements": [
-                                                                    {
-                                                                        "kind": 74424,
-                                                                        "member": {
-                                                                            "kind": 196712,
-                                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1470,
-                                                                            "end": 1506
-                                                                        },
-                                                                        "expression": {
-                                                                            "kind": 196711,
-                                                                            "text": "prototype",
-                                                                            "rawText": "prototype",
-                                                                            "flags": 65536,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1507,
-                                                                            "end": 1516
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1506,
-                                                                        "end": 1516
-                                                                    },
-                                                                    {
-                                                                        "kind": 67279,
-                                                                        "text": "AnnotatedGetter_GetterLast",
-                                                                        "rawText": "AnnotatedGetter_GetterLast",
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1517,
-                                                                        "end": 1546
-                                                                    },
-                                                                    {
-                                                                        "kind": 67224232,
-                                                                        "propertyList": {
-                                                                            "kind": 65722,
-                                                                            "properties": [
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "get",
-                                                                                        "rawText": "get",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1549,
-                                                                                        "end": 1561
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1573,
-                                                                                            "end": 1574
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097346,
-                                                                                                        "expression": {
-                                                                                                            "kind": 67279,
-                                                                                                            "text": "",
-                                                                                                            "rawText": "",
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 1583,
-                                                                                                            "end": 1586
-                                                                                                        },
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1576,
-                                                                                                        "end": 1587
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1576,
-                                                                                                "end": 1587
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1574,
-                                                                                            "end": 1589
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1562,
-                                                                                        "end": 1589
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1549,
-                                                                                    "end": 1589
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "set",
-                                                                                        "rawText": "set",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1590,
-                                                                                        "end": 1602
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 8456285,
-                                                                                        "name": null,
-                                                                                        "formalParameters": {
-                                                                                            "kind": 90,
-                                                                                            "formalParameterList": [
-                                                                                                {
-                                                                                                    "kind": 89,
-                                                                                                    "ellipsis": false,
-                                                                                                    "binding": {
-                                                                                                        "kind": 131102,
-                                                                                                        "text": "aStr",
-                                                                                                        "rawText": "aStr",
-                                                                                                        "flags": 65536,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 1025,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1614,
-                                                                                                        "end": 1618
-                                                                                                    },
-                                                                                                    "isOptional": false,
-                                                                                                    "type": null,
-                                                                                                    "initializer": null,
-                                                                                                    "decorators": null,
-                                                                                                    "accessModifier": null,
-                                                                                                    "isReadOnly": false,
-                                                                                                    "flags": 65536,
-                                                                                                    "intersects": false,
-                                                                                                    "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
-                                                                                                    "start": 1614,
-                                                                                                    "end": 1618
-                                                                                                }
-                                                                                            ],
-                                                                                            "trailingComma": false,
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1614,
-                                                                                            "end": 1619
-                                                                                        },
-                                                                                        "contents": {
-                                                                                            "kind": 91,
-                                                                                            "functionStatementList": {
-                                                                                                "kind": 94,
-                                                                                                "statements": [
-                                                                                                    {
-                                                                                                        "kind": 2097233,
-                                                                                                        "expression": {
-                                                                                                            "kind": 65550,
-                                                                                                            "left": {
-                                                                                                                "kind": 196712,
-                                                                                                                "text": "aStr",
-                                                                                                                "rawText": "aStr",
-                                                                                                                "flags": 65536,
-                                                                                                                "intersects": false,
-                                                                                                                "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
-                                                                                                                "start": 1621,
-                                                                                                                "end": 1626
-                                                                                                            },
-                                                                                                            "operator": "=",
-                                                                                                            "right": {
-                                                                                                                "kind": 4261540,
-                                                                                                                "text": 0,
-                                                                                                                "rawText": "0",
-                                                                                                                "flags": 65536,
-                                                                                                                "intersects": false,
-                                                                                                                "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
-                                                                                                                "start": 1628,
-                                                                                                                "end": 1630
-                                                                                                            },
-                                                                                                            "flags": 65536,
-                                                                                                            "intersects": false,
-                                                                                                            "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
-                                                                                                            "start": 1621,
-                                                                                                            "end": 1630
-                                                                                                        },
-                                                                                                        "flags": 0,
-                                                                                                        "intersects": false,
-                                                                                                        "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
-                                                                                                        "start": 1621,
-                                                                                                        "end": 1631
-                                                                                                    }
-                                                                                                ],
-                                                                                                "multiline": false,
-                                                                                                "flags": 65536,
-                                                                                                "intersects": false,
-                                                                                                "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
-                                                                                                "start": 1621,
-                                                                                                "end": 1631
-                                                                                            },
-                                                                                            "flags": 65536,
-                                                                                            "intersects": false,
-                                                                                            "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
-                                                                                            "start": 1619,
-                                                                                            "end": 1633
-                                                                                        },
-                                                                                        "typeParameters": null,
-                                                                                        "type": null,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1603,
-                                                                                        "end": 1633
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1590,
-                                                                                    "end": 1633
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "enumerable",
-                                                                                        "rawText": "enumerable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1634,
-                                                                                        "end": 1653
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 65536,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1654,
-                                                                                        "end": 1659
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 65536,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1634,
-                                                                                    "end": 1659
-                                                                                },
-                                                                                {
-                                                                                    "kind": 65721,
-                                                                                    "left": {
-                                                                                        "kind": 196711,
-                                                                                        "text": "configurable",
-                                                                                        "rawText": "configurable",
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1660,
-                                                                                        "end": 1681
-                                                                                    },
-                                                                                    "right": {
-                                                                                        "kind": 4260391,
-                                                                                        "text": true,
-                                                                                        "flags": 81920,
-                                                                                        "intersects": false,
-                                                                                        "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
-                                                                                        "start": 1682,
-                                                                                        "end": 1687
-                                                                                    },
-                                                                                    "accessModifier": null,
-                                                                                    "decorators": null,
-                                                                                    "flags": 81920,
-                                                                                    "intersects": false,
-                                                                                    "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
-                                                                                    "start": 1660,
-                                                                                    "end": 1687
-                                                                                }
-                                                                            ],
-                                                                            "trailingComma": false,
-                                                                            "multiline": true,
-                                                                            "flags": 81920,
-                                                                            "intersects": false,
-                                                                            "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
-                                                                            "start": 1549,
-                                                                            "end": 1687
-                                                                        },
-                                                                        "flags": 65536,
-                                                                        "intersects": false,
-                                                                        "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
-                                                                        "start": 1547,
-                                                                        "end": 1693
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "transformFlags": 0,
-                                                                "flags": 65536,
-                                                                "intersects": false,
-                                                                "parent": null,
-                                                                "emitNode": null,
-                                                                "start": 1506,
-                                                                "end": 1694
-                                                            },
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 1469,
-                                                            "end": 1694
-                                                        },
-                                                        "flags": 0,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 1443,
-                                                        "end": 1695
-                                                    },
-                                                    {
-                                                        "kind": 2097346,
-                                                        "expression": {
-                                                            "kind": 196712,
-                                                            "text": "LanguageSpec_section_4_5_error_cases",
-                                                            "rawText": "LanguageSpec_section_4_5_error_cases",
-                                                            "flags": 65536,
-                                                            "intersects": false,
-                                                            "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 1706,
-                                                            "end": 1743
-                                                        },
-                                                        "flags": 81920,
-                                                        "intersects": false,
-                                                        "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
-                                                        "start": 1695,
-                                                        "end": 1744
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 15,
+                                                    "end": 22,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 15,
+                                                        "end": 16
                                                     }
-                                                ],
-                                                "multiline": true,
-                                                "flags": 81920,
+                                                },
+                                                "chain": {
+                                                    "kind": 65707,
+                                                    "chain": {
+                                                        "kind": 65719,
+                                                        "chain": null,
+                                                        "expression": {
+                                                            "kind": 196711,
+                                                            "text": "type",
+                                                            "rawText": "type",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 24,
+                                                            "end": 28
+                                                        },
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 32,
+                                                        "start": 24,
+                                                        "end": 28
+                                                    },
+                                                    "flags": 0,
+                                                    "pos": 24,
+                                                    "end": 28
+                                                },
+                                                "flags": 0,
+                                                "pos": 22,
+                                                "end": 28
+                                            },
+                                            "operator": "===",
+                                            "right": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "AST_NODE_TYPES",
+                                                    "rawText": "AST_NODE_TYPES",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 32,
+                                                    "end": 47
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "ChainExpression",
+                                                    "rawText": "ChainExpression",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 48,
+                                                    "end": 63
+                                                },
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 651,
-                                                "end": 1744
+                                                "start": 47,
+                                                "end": 63,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 47,
+                                                    "end": 48
+                                                }
                                             },
-                                            "flags": 65536,
+                                            "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 649,
-                                            "end": 1746
+                                            "start": 5,
+                                            "end": 63
                                         },
-                                        "typeParameters": null,
-                                        "type": null,
-                                        "flags": 65536,
+                                        "consequent": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "callNode",
+                                                    "rawText": "callNode",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 67,
+                                                    "end": 76
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 77,
+                                                    "end": 83
+                                                },
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 76,
+                                                "end": 83,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 76,
+                                                    "end": 77
+                                                }
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "parent",
+                                                "rawText": "parent",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 84,
+                                                "end": 90
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 83,
+                                            "end": 90,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 83,
+                                                "end": 84
+                                            }
+                                        },
+                                        "alternate": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 196712,
+                                                "text": "callNode",
+                                                "rawText": "callNode",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 94,
+                                                "end": 103
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "parent",
+                                                "rawText": "parent",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 104,
+                                                "end": 110
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 103,
+                                            "end": 110,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 103,
+                                                "end": 104
+                                            }
+                                        },
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 638,
-                                        "end": 1746
+                                        "start": 5,
+                                        "end": 110
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 636,
-                                    "end": 1747
+                                    "start": 5,
+                                    "end": 112
                                 },
-                                "typeArguments": null,
-                                "argumentList": {
-                                    "kind": 3,
-                                    "elements": [],
-                                    "trailingComma": false,
-                                    "transformFlags": 0,
-                                    "flags": 65536,
+                                "expression": {
+                                    "kind": 196711,
+                                    "text": "TSESTree",
+                                    "rawText": "TSESTree",
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 1749,
-                                    "end": 1749
+                                    "transformFlags": 0,
+                                    "start": 113,
+                                    "end": 121
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 1747,
-                                "end": 1749
+                                "start": 112,
+                                "end": 121,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 112,
+                                    "end": 113
+                                }
                             },
-                            "flags": 597,
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 121,
+                            "end": 122
+                        },
+                        "expression": {
+                            "kind": 196711,
+                            "text": "BinaryExpression",
+                            "rawText": "BinaryExpression",
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
-                            "end": 1749
+                            "start": 123,
+                            "end": 139
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 122,
+                        "end": 139,
+                        "period": {
+                            "kind": 254,
+                            "pos": 122,
+                            "end": 123
                         }
-                    ],
-                    "flags": 65536,
+                    },
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 597,
-                    "end": 1749
+                    "start": 0,
+                    "end": 139
                 },
-                "flags": 81920,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 543,
-                "end": 1750
+                "start": 0,
+                "end": 140
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 140,
+                        "end": 145
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 66232,
+                        "member": {
+                            "kind": 74398,
+                            "expression": {
+                                "kind": 66232,
+                                "member": {
+                                    "kind": 66224,
+                                    "expression": {
+                                        "kind": 65592,
+                                        "shortCircuit": {
+                                            "kind": 65563,
+                                            "left": {
+                                                "kind": 65708,
+                                                "member": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "callNode",
+                                                        "rawText": "callNode",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 149,
+                                                        "end": 157
+                                                    },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "parent",
+                                                        "rawText": "parent",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 158,
+                                                        "end": 164
+                                                    },
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 157,
+                                                    "end": 164,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 157,
+                                                        "end": 158
+                                                    }
+                                                },
+                                                "chain": {
+                                                    "kind": 65707,
+                                                    "chain": {
+                                                        "kind": 65719,
+                                                        "chain": null,
+                                                        "expression": {
+                                                            "kind": 196711,
+                                                            "text": "type",
+                                                            "rawText": "type",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 166,
+                                                            "end": 170
+                                                        },
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 32,
+                                                        "start": 166,
+                                                        "end": 170
+                                                    },
+                                                    "flags": 0,
+                                                    "pos": 166,
+                                                    "end": 170
+                                                },
+                                                "flags": 0,
+                                                "pos": 164,
+                                                "end": 170
+                                            },
+                                            "operator": "===",
+                                            "right": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "AST_NODE_TYPES",
+                                                    "rawText": "AST_NODE_TYPES",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 174,
+                                                    "end": 189
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "ChainExpression",
+                                                    "rawText": "ChainExpression",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 190,
+                                                    "end": 205
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 189,
+                                                "end": 205,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 189,
+                                                    "end": 190
+                                                }
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 147,
+                                            "end": 205
+                                        },
+                                        "consequent": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "callNode",
+                                                    "rawText": "callNode",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 209,
+                                                    "end": 218
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 219,
+                                                    "end": 225
+                                                },
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 218,
+                                                "end": 225,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 218,
+                                                    "end": 219
+                                                }
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "parent",
+                                                "rawText": "parent",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 226,
+                                                "end": 232
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 225,
+                                            "end": 232,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 225,
+                                                "end": 226
+                                            }
+                                        },
+                                        "alternate": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 196712,
+                                                "text": "callNode",
+                                                "rawText": "callNode",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 236,
+                                                "end": 245
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "parent",
+                                                "rawText": "parent",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 246,
+                                                "end": 252
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 245,
+                                            "end": 252,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 245,
+                                                "end": 246
+                                            }
+                                        },
+                                        "flags": 16384,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 147,
+                                        "end": 252
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 147,
+                                    "end": 254
+                                },
+                                "expression": {
+                                    "kind": 196711,
+                                    "text": "TSESTree",
+                                    "rawText": "TSESTree",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 255,
+                                    "end": 263
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 254,
+                                "end": 263,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 254,
+                                    "end": 255
+                                }
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 263,
+                            "end": 264
+                        },
+                        "expression": {
+                            "kind": 196711,
+                            "text": "BinaryExpression",
+                            "rawText": "BinaryExpression",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 265,
+                            "end": 281
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 264,
+                        "end": 281,
+                        "period": {
+                            "kind": 254,
+                            "pos": 264,
+                            "end": 265
+                        }
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 140,
+                    "end": 281
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 140,
+                "end": 282
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "bifornCringerMoshedPerplexSawder",
+                        "rawText": "bifornCringerMoshedPerplexSawder",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 282,
+                        "end": 316
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 66091,
+                        "expression": {
+                            "kind": 66232,
+                            "member": {
+                                "kind": 74398,
+                                "expression": {
+                                    "kind": 66091,
+                                    "expression": {
+                                        "kind": 66232,
+                                        "member": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 66224,
+                                                "expression": {
+                                                    "kind": 65592,
+                                                    "shortCircuit": {
+                                                        "kind": 65563,
+                                                        "left": {
+                                                            "kind": 65563,
+                                                            "left": {
+                                                                "kind": 196712,
+                                                                "text": "glimseGlyphsHazardNoopsTieTie",
+                                                                "rawText": "glimseGlyphsHazardNoopsTieTie",
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 320,
+                                                                "end": 349
+                                                            },
+                                                            "operator": "===",
+                                                            "right": {
+                                                                "kind": 4261540,
+                                                                "text": 0,
+                                                                "rawText": "0",
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 353,
+                                                                "end": 355
+                                                            },
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 318,
+                                                            "end": 355
+                                                        },
+                                                        "operator": "&&",
+                                                        "right": {
+                                                            "kind": 65563,
+                                                            "left": {
+                                                                "kind": 196712,
+                                                                "text": "kochabCooieGameOnOboleUnweave",
+                                                                "rawText": "kochabCooieGameOnOboleUnweave",
+                                                                "flags": 16384,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 358,
+                                                                "end": 388
+                                                            },
+                                                            "operator": "===",
+                                                            "right": {
+                                                                "kind": 66232,
+                                                                "member": {
+                                                                    "kind": 196712,
+                                                                    "text": "Math",
+                                                                    "rawText": "Math",
+                                                                    "flags": 0,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 392,
+                                                                    "end": 397
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 196711,
+                                                                    "text": "PI",
+                                                                    "rawText": "PI",
+                                                                    "flags": 0,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 398,
+                                                                    "end": 400
+                                                                },
+                                                                "flags": 16384,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 397,
+                                                                "end": 400,
+                                                                "period": {
+                                                                    "kind": 254,
+                                                                    "pos": 397,
+                                                                    "end": 398
+                                                                }
+                                                            },
+                                                            "flags": 16384,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 388,
+                                                            "end": 400
+                                                        },
+                                                        "flags": 16384,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 318,
+                                                        "end": 400
+                                                    },
+                                                    "consequent": {
+                                                        "kind": 196712,
+                                                        "text": "averredBathersBoxroomBuggyNurl",
+                                                        "rawText": "averredBathersBoxroomBuggyNurl",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 404,
+                                                        "end": 435
+                                                    },
+                                                    "alternate": {
+                                                        "kind": 196712,
+                                                        "text": "anodyneCondosMalateOverateRetinol",
+                                                        "rawText": "anodyneCondosMalateOverateRetinol",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 439,
+                                                        "end": 473
+                                                    },
+                                                    "flags": 16384,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 318,
+                                                    "end": 473
+                                                },
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 318,
+                                                "end": 475
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "annularCooeedSplicesWalksWayWay",
+                                                "rawText": "annularCooeedSplicesWalksWayWay",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 476,
+                                                "end": 507
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 475,
+                                            "end": 507,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 475,
+                                                "end": 476
+                                            }
+                                        },
+                                        "expression": {
+                                            "kind": 196711,
+                                            "text": "annularCooeedSplicesWalksWayWay",
+                                            "rawText": "annularCooeedSplicesWalksWayWay",
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 511,
+                                            "end": 542
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 507,
+                                        "end": 542,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 507,
+                                            "end": 511
+                                        }
+                                    },
+                                    "typeArguments": null,
+                                    "argumentList": {
+                                        "kind": 3,
+                                        "elements": [
+                                            {
+                                                "kind": 196712,
+                                                "text": "annularCooeedSplicesWalksWayWay",
+                                                "rawText": "annularCooeedSplicesWalksWayWay",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 543,
+                                                "end": 574
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "transformFlags": 0,
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "start": 574,
+                                        "end": 575
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 542,
+                                    "end": 575
+                                },
+                                "flags": 16384,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "start": 575,
+                                "end": 576
+                            },
+                            "expression": {
+                                "kind": 196711,
+                                "text": "annularCooeedSplicesWalksWayWay",
+                                "rawText": "annularCooeedSplicesWalksWayWay",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 580,
+                                "end": 611
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 576,
+                            "end": 611,
+                            "period": {
+                                "kind": 254,
+                                "pos": 576,
+                                "end": 580
+                            }
+                        },
+                        "typeArguments": null,
+                        "argumentList": {
+                            "kind": 3,
+                            "elements": [],
+                            "trailingComma": false,
+                            "transformFlags": 0,
+                            "flags": 0,
+                            "intersects": false,
+                            "start": 613,
+                            "end": 613
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 611,
+                        "end": 613
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 282,
+                    "end": 613
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 282,
+                "end": 614
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 614,
+                        "end": 619
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 74398,
+                        "expression": {
+                            "kind": 66232,
+                            "member": {
+                                "kind": 74398,
+                                "expression": {
+                                    "kind": 66232,
+                                    "member": {
+                                        "kind": 66224,
+                                        "expression": {
+                                            "kind": 65592,
+                                            "shortCircuit": {
+                                                "kind": 65563,
+                                                "left": {
+                                                    "kind": 65708,
+                                                    "member": {
+                                                        "kind": 66232,
+                                                        "member": {
+                                                            "kind": 196712,
+                                                            "text": "callNode",
+                                                            "rawText": "callNode",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 623,
+                                                            "end": 631
+                                                        },
+                                                        "expression": {
+                                                            "kind": 196711,
+                                                            "text": "parent",
+                                                            "rawText": "parent",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 632,
+                                                            "end": 638
+                                                        },
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 631,
+                                                        "end": 638,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 631,
+                                                            "end": 632
+                                                        }
+                                                    },
+                                                    "chain": {
+                                                        "kind": 65707,
+                                                        "chain": {
+                                                            "kind": 65719,
+                                                            "chain": null,
+                                                            "expression": {
+                                                                "kind": 196711,
+                                                                "text": "type",
+                                                                "rawText": "type",
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 640,
+                                                                "end": 644
+                                                            },
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 32,
+                                                            "start": 640,
+                                                            "end": 644
+                                                        },
+                                                        "flags": 0,
+                                                        "pos": 640,
+                                                        "end": 644
+                                                    },
+                                                    "flags": 0,
+                                                    "pos": 638,
+                                                    "end": 644
+                                                },
+                                                "operator": "===",
+                                                "right": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "AST_NODE_TYPES",
+                                                        "rawText": "AST_NODE_TYPES",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 648,
+                                                        "end": 663
+                                                    },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "ChainExpression",
+                                                        "rawText": "ChainExpression",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 664,
+                                                        "end": 679
+                                                    },
+                                                    "flags": 16384,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 663,
+                                                    "end": 679,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 663,
+                                                        "end": 664
+                                                    }
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 621,
+                                                "end": 679
+                                            },
+                                            "consequent": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "callNode",
+                                                        "rawText": "callNode",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 683,
+                                                        "end": 692
+                                                    },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "parent",
+                                                        "rawText": "parent",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 693,
+                                                        "end": 699
+                                                    },
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 692,
+                                                    "end": 699,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 692,
+                                                        "end": 693
+                                                    }
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 700,
+                                                    "end": 706
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 699,
+                                                "end": 706,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 699,
+                                                    "end": 700
+                                                }
+                                            },
+                                            "alternate": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "callNode",
+                                                    "rawText": "callNode",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 710,
+                                                    "end": 719
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 720,
+                                                    "end": 726
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 719,
+                                                "end": 726,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 719,
+                                                    "end": 720
+                                                }
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 621,
+                                            "end": 726
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 621,
+                                        "end": 728
+                                    },
+                                    "expression": {
+                                        "kind": 196711,
+                                        "text": "TSESTree",
+                                        "rawText": "TSESTree",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 729,
+                                        "end": 737
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 728,
+                                    "end": 737,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 728,
+                                        "end": 729
+                                    }
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "start": 737,
+                                "end": 738
+                            },
+                            "expression": {
+                                "kind": 196711,
+                                "text": "BinaryExpression",
+                                "rawText": "BinaryExpression",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 739,
+                                "end": 755
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 738,
+                            "end": 755,
+                            "period": {
+                                "kind": 254,
+                                "pos": 738,
+                                "end": 739
+                            }
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 755,
+                        "end": 756
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 614,
+                    "end": 756
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 614,
+                "end": 757
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 757,
+                        "end": 762
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 74398,
+                        "expression": {
+                            "kind": 66232,
+                            "member": {
+                                "kind": 74398,
+                                "expression": {
+                                    "kind": 66232,
+                                    "member": {
+                                        "kind": 66224,
+                                        "expression": {
+                                            "kind": 65592,
+                                            "shortCircuit": {
+                                                "kind": 65563,
+                                                "left": {
+                                                    "kind": 65708,
+                                                    "member": {
+                                                        "kind": 66232,
+                                                        "member": {
+                                                            "kind": 196712,
+                                                            "text": "callNode",
+                                                            "rawText": "callNode",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 766,
+                                                            "end": 774
+                                                        },
+                                                        "expression": {
+                                                            "kind": 196711,
+                                                            "text": "parent",
+                                                            "rawText": "parent",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 775,
+                                                            "end": 781
+                                                        },
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 774,
+                                                        "end": 781,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 774,
+                                                            "end": 775
+                                                        }
+                                                    },
+                                                    "chain": {
+                                                        "kind": 65707,
+                                                        "chain": {
+                                                            "kind": 65719,
+                                                            "chain": null,
+                                                            "expression": {
+                                                                "kind": 196711,
+                                                                "text": "type",
+                                                                "rawText": "type",
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 783,
+                                                                "end": 787
+                                                            },
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 32,
+                                                            "start": 783,
+                                                            "end": 787
+                                                        },
+                                                        "flags": 0,
+                                                        "pos": 783,
+                                                        "end": 787
+                                                    },
+                                                    "flags": 0,
+                                                    "pos": 781,
+                                                    "end": 787
+                                                },
+                                                "operator": "===",
+                                                "right": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "AST_NODE_TYPES",
+                                                        "rawText": "AST_NODE_TYPES",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 791,
+                                                        "end": 806
+                                                    },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "ChainExpression",
+                                                        "rawText": "ChainExpression",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 807,
+                                                        "end": 822
+                                                    },
+                                                    "flags": 16384,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 806,
+                                                    "end": 822,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 806,
+                                                        "end": 807
+                                                    }
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 764,
+                                                "end": 822
+                                            },
+                                            "consequent": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 66232,
+                                                    "member": {
+                                                        "kind": 196712,
+                                                        "text": "callNode",
+                                                        "rawText": "callNode",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 826,
+                                                        "end": 835
+                                                    },
+                                                    "expression": {
+                                                        "kind": 196711,
+                                                        "text": "parent",
+                                                        "rawText": "parent",
+                                                        "flags": 0,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 836,
+                                                        "end": 842
+                                                    },
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 835,
+                                                    "end": 842,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 835,
+                                                        "end": 836
+                                                    }
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 843,
+                                                    "end": 849
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 842,
+                                                "end": 849,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 842,
+                                                    "end": 843
+                                                }
+                                            },
+                                            "alternate": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 196712,
+                                                    "text": "callNode",
+                                                    "rawText": "callNode",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 853,
+                                                    "end": 862
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "parent",
+                                                    "rawText": "parent",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 863,
+                                                    "end": 869
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 862,
+                                                "end": 869,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 862,
+                                                    "end": 863
+                                                }
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 764,
+                                            "end": 869
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 764,
+                                        "end": 871
+                                    },
+                                    "expression": {
+                                        "kind": 196711,
+                                        "text": "TSESTree",
+                                        "rawText": "TSESTree",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 872,
+                                        "end": 880
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 871,
+                                    "end": 880,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 871,
+                                        "end": 872
+                                    }
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "start": 880,
+                                "end": 881
+                            },
+                            "expression": {
+                                "kind": 196711,
+                                "text": "BinaryExpression",
+                                "rawText": "BinaryExpression",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 882,
+                                "end": 898
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 881,
+                            "end": 898,
+                            "period": {
+                                "kind": 254,
+                                "pos": 881,
+                                "end": 882
+                            }
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 898,
+                        "end": 899
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 757,
+                    "end": 899
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 757,
+                "end": 900
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "bifornCringerMoshedPerplexSawder",
+                        "rawText": "bifornCringerMoshedPerplexSawder",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 900,
+                        "end": 934
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 74398,
+                        "expression": {
+                            "kind": 66091,
+                            "expression": {
+                                "kind": 66232,
+                                "member": {
+                                    "kind": 74398,
+                                    "expression": {
+                                        "kind": 66091,
+                                        "expression": {
+                                            "kind": 66232,
+                                            "member": {
+                                                "kind": 66232,
+                                                "member": {
+                                                    "kind": 66224,
+                                                    "expression": {
+                                                        "kind": 65592,
+                                                        "shortCircuit": {
+                                                            "kind": 65563,
+                                                            "left": {
+                                                                "kind": 65563,
+                                                                "left": {
+                                                                    "kind": 196712,
+                                                                    "text": "glimseGlyphsHazardNoopsTieTie",
+                                                                    "rawText": "glimseGlyphsHazardNoopsTieTie",
+                                                                    "flags": 0,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 938,
+                                                                    "end": 967
+                                                                },
+                                                                "operator": "===",
+                                                                "right": {
+                                                                    "kind": 4261540,
+                                                                    "text": 0,
+                                                                    "rawText": "0",
+                                                                    "flags": 0,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 971,
+                                                                    "end": 973
+                                                                },
+                                                                "flags": 0,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 936,
+                                                                "end": 973
+                                                            },
+                                                            "operator": "&&",
+                                                            "right": {
+                                                                "kind": 65563,
+                                                                "left": {
+                                                                    "kind": 196712,
+                                                                    "text": "kochabCooieGameOnOboleUnweave",
+                                                                    "rawText": "kochabCooieGameOnOboleUnweave",
+                                                                    "flags": 16384,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 976,
+                                                                    "end": 1006
+                                                                },
+                                                                "operator": "===",
+                                                                "right": {
+                                                                    "kind": 66232,
+                                                                    "member": {
+                                                                        "kind": 196712,
+                                                                        "text": "Math",
+                                                                        "rawText": "Math",
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 0,
+                                                                        "start": 1010,
+                                                                        "end": 1015
+                                                                    },
+                                                                    "expression": {
+                                                                        "kind": 196711,
+                                                                        "text": "PI",
+                                                                        "rawText": "PI",
+                                                                        "flags": 0,
+                                                                        "intersects": false,
+                                                                        "transformFlags": 0,
+                                                                        "start": 1016,
+                                                                        "end": 1018
+                                                                    },
+                                                                    "flags": 16384,
+                                                                    "intersects": false,
+                                                                    "transformFlags": 0,
+                                                                    "start": 1015,
+                                                                    "end": 1018,
+                                                                    "period": {
+                                                                        "kind": 254,
+                                                                        "pos": 1015,
+                                                                        "end": 1016
+                                                                    }
+                                                                },
+                                                                "flags": 16384,
+                                                                "intersects": false,
+                                                                "transformFlags": 0,
+                                                                "start": 1006,
+                                                                "end": 1018
+                                                            },
+                                                            "flags": 16384,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 936,
+                                                            "end": 1018
+                                                        },
+                                                        "consequent": {
+                                                            "kind": 196712,
+                                                            "text": "averredBathersBoxroomBuggyNurl",
+                                                            "rawText": "averredBathersBoxroomBuggyNurl",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 1022,
+                                                            "end": 1053
+                                                        },
+                                                        "alternate": {
+                                                            "kind": 196712,
+                                                            "text": "anodyneCondosMalateOverateRetinol",
+                                                            "rawText": "anodyneCondosMalateOverateRetinol",
+                                                            "flags": 0,
+                                                            "intersects": false,
+                                                            "transformFlags": 0,
+                                                            "start": 1057,
+                                                            "end": 1091
+                                                        },
+                                                        "flags": 16384,
+                                                        "intersects": false,
+                                                        "transformFlags": 0,
+                                                        "start": 936,
+                                                        "end": 1091
+                                                    },
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 936,
+                                                    "end": 1093
+                                                },
+                                                "expression": {
+                                                    "kind": 196711,
+                                                    "text": "annularCooeedSplicesWalksWayWay",
+                                                    "rawText": "annularCooeedSplicesWalksWayWay",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1094,
+                                                    "end": 1125
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1093,
+                                                "end": 1125,
+                                                "period": {
+                                                    "kind": 254,
+                                                    "pos": 1093,
+                                                    "end": 1094
+                                                }
+                                            },
+                                            "expression": {
+                                                "kind": 196711,
+                                                "text": "annularCooeedSplicesWalksWayWay",
+                                                "rawText": "annularCooeedSplicesWalksWayWay",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1129,
+                                                "end": 1160
+                                            },
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 1125,
+                                            "end": 1160,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 1125,
+                                                "end": 1129
+                                            }
+                                        },
+                                        "typeArguments": null,
+                                        "argumentList": {
+                                            "kind": 3,
+                                            "elements": [
+                                                {
+                                                    "kind": 196712,
+                                                    "text": "annularCooeedSplicesWalksWayWay",
+                                                    "rawText": "annularCooeedSplicesWalksWayWay",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1161,
+                                                    "end": 1192
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "transformFlags": 0,
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "start": 1192,
+                                            "end": 1193
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 1160,
+                                        "end": 1193
+                                    },
+                                    "flags": 16384,
+                                    "intersects": false,
+                                    "transformFlags": 2097152,
+                                    "start": 1193,
+                                    "end": 1194
+                                },
+                                "expression": {
+                                    "kind": 196711,
+                                    "text": "annularCooeedSplicesWalksWayWay",
+                                    "rawText": "annularCooeedSplicesWalksWayWay",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 1198,
+                                    "end": 1229
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1194,
+                                "end": 1229,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 1194,
+                                    "end": 1198
+                                }
+                            },
+                            "typeArguments": null,
+                            "argumentList": {
+                                "kind": 3,
+                                "elements": [],
+                                "trailingComma": false,
+                                "transformFlags": 0,
+                                "flags": 0,
+                                "intersects": false,
+                                "start": 1231,
+                                "end": 1231
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1229,
+                            "end": 1231
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 1231,
+                        "end": 1232
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 900,
+                    "end": 1232
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 900,
+                "end": 1233
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "bifornCringerMoshedPerplexSawder",
+                        "rawText": "bifornCringerMoshedPerplexSawder",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1233,
+                        "end": 1267
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 65563,
+                        "left": {
+                            "kind": 196712,
+                            "text": "askTrovenaBeenaDependsRowans",
+                            "rawText": "askTrovenaBeenaDependsRowans",
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1269,
+                            "end": 1300
+                        },
+                        "operator": "+",
+                        "right": {
+                            "kind": 66232,
+                            "member": {
+                                "kind": 74398,
+                                "expression": {
+                                    "kind": 66232,
+                                    "member": {
+                                        "kind": 66224,
+                                        "expression": {
+                                            "kind": 65592,
+                                            "shortCircuit": {
+                                                "kind": 65563,
+                                                "left": {
+                                                    "kind": 196712,
+                                                    "text": "glimseGlyphsHazardNoopsTieTie",
+                                                    "rawText": "glimseGlyphsHazardNoopsTieTie",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1306,
+                                                    "end": 1335
+                                                },
+                                                "operator": "===",
+                                                "right": {
+                                                    "kind": 4261540,
+                                                    "text": 0,
+                                                    "rawText": "0",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1339,
+                                                    "end": 1341
+                                                },
+                                                "flags": 16384,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1302,
+                                                "end": 1341
+                                            },
+                                            "consequent": {
+                                                "kind": 196712,
+                                                "text": "averredBathersBoxroomBuggyNurl",
+                                                "rawText": "averredBathersBoxroomBuggyNurl",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1347,
+                                                "end": 1378
+                                            },
+                                            "alternate": {
+                                                "kind": 196712,
+                                                "text": "anodyneCondosMalateOverateRetinol",
+                                                "rawText": "anodyneCondosMalateOverateRetinol",
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1384,
+                                                "end": 1418
+                                            },
+                                            "flags": 16384,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 1302,
+                                            "end": 1418
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 1302,
+                                        "end": 1422
+                                    },
+                                    "expression": {
+                                        "kind": 196711,
+                                        "text": "Foo",
+                                        "rawText": "Foo",
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 0,
+                                        "start": 1423,
+                                        "end": 1426
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 1422,
+                                    "end": 1426,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 1422,
+                                        "end": 1423
+                                    }
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "start": 1426,
+                                "end": 1427
+                            },
+                            "expression": {
+                                "kind": 196711,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1428,
+                                "end": 1431
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1427,
+                            "end": 1431,
+                            "period": {
+                                "kind": 254,
+                                "pos": 1427,
+                                "end": 1428
+                            }
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1269,
+                        "end": 1431
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1233,
+                    "end": 1431
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1233,
+                "end": 1432
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1432,
+                        "end": 1437
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 74398,
+                        "expression": {
+                            "kind": 66224,
+                            "expression": {
+                                "kind": 65592,
+                                "shortCircuit": {
+                                    "kind": 196712,
+                                    "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
+                                    "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 1441,
+                                    "end": 1496
+                                },
+                                "consequent": {
+                                    "kind": 196712,
+                                    "text": "baaaaaaaaaaaaaaaaaaaaar",
+                                    "rawText": "baaaaaaaaaaaaaaaaaaaaar",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 1500,
+                                    "end": 1524
+                                },
+                                "alternate": {
+                                    "kind": 196712,
+                                    "text": "baaaaaaaaaaaaaaaaaaaaaz",
+                                    "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 0,
+                                    "start": 1528,
+                                    "end": 1552
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1439,
+                                "end": 1552
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1439,
+                            "end": 1553
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 1553,
+                        "end": 1554
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1432,
+                    "end": 1554
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1432,
+                "end": 1555
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65550,
+                    "left": {
+                        "kind": 196712,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 16384,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 1555,
+                        "end": 1560
+                    },
+                    "operator": "=",
+                    "right": {
+                        "kind": 74398,
+                        "expression": {
+                            "kind": 74398,
+                            "expression": {
+                                "kind": 74398,
+                                "expression": {
+                                    "kind": 74398,
+                                    "expression": {
+                                        "kind": 74398,
+                                        "expression": {
+                                            "kind": 66224,
+                                            "expression": {
+                                                "kind": 65592,
+                                                "shortCircuit": {
+                                                    "kind": 196712,
+                                                    "text": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
+                                                    "rawText": "coooooooooooooooooooooooooooooooooooooooooooooooooooond",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1564,
+                                                    "end": 1619
+                                                },
+                                                "consequent": {
+                                                    "kind": 196712,
+                                                    "text": "baaaaaaaaaaaaaaaaaaaaar",
+                                                    "rawText": "baaaaaaaaaaaaaaaaaaaaar",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1623,
+                                                    "end": 1647
+                                                },
+                                                "alternate": {
+                                                    "kind": 196712,
+                                                    "text": "baaaaaaaaaaaaaaaaaaaaaz",
+                                                    "rawText": "baaaaaaaaaaaaaaaaaaaaaz",
+                                                    "flags": 0,
+                                                    "intersects": false,
+                                                    "transformFlags": 0,
+                                                    "start": 1651,
+                                                    "end": 1675
+                                                },
+                                                "flags": 0,
+                                                "intersects": false,
+                                                "transformFlags": 0,
+                                                "start": 1562,
+                                                "end": 1675
+                                            },
+                                            "flags": 0,
+                                            "intersects": false,
+                                            "transformFlags": 0,
+                                            "start": 1562,
+                                            "end": 1676
+                                        },
+                                        "flags": 0,
+                                        "intersects": false,
+                                        "transformFlags": 2097152,
+                                        "start": 1676,
+                                        "end": 1677
+                                    },
+                                    "flags": 0,
+                                    "intersects": false,
+                                    "transformFlags": 2097152,
+                                    "start": 1677,
+                                    "end": 1678
+                                },
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 2097152,
+                                "start": 1678,
+                                "end": 1679
+                            },
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 1679,
+                            "end": 1680
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 2097152,
+                        "start": 1680,
+                        "end": 1681
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1555,
+                    "end": 1681
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1555,
+                "end": 1682
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 4261540,
+                    "text": 2021,
+                    "rawText": "2021",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1684,
+                    "end": 1689
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1684,
+                "end": 1689
+            },
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65590,
+                    "expressions": [
+                        {
+                            "kind": 196712,
+                            "text": "GitHub",
+                            "rawText": "GitHub",
+                            "flags": 2,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1689,
+                            "end": 1696
+                        },
+                        {
+                            "kind": 66232,
+                            "member": {
+                                "kind": 196712,
+                                "text": "Inc",
+                                "rawText": "Inc",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1697,
+                                "end": 1701
+                            },
+                            "expression": {
+                                "kind": 196711,
+                                "text": "",
+                                "rawText": "",
+                                "flags": 2,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 1702,
+                                "end": 1702
+                            },
+                            "flags": 2,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1701,
+                            "end": 1702,
+                            "period": {
+                                "kind": 254,
+                                "pos": 1701,
+                                "end": 1702
+                            }
+                        }
+                    ],
+                    "flags": 2,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1689,
+                    "end": 1702
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 1689,
+                "end": 1702
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
-        "end": 1750
+        "end": 1702
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 1683,
+            "length": 1
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 1690,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Dot property must be an identifier",
+            "start": 1701,
+            "length": 0
+        }
+    ],
     "incremental": false,
     "flags": 0,
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 1750
+    "end": 1702
 }
 ```
 
@@ -3066,34 +2303,13 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
 
 
 ```javascript
-
-class LanguageSpec_section_4_5_error_cases {
-    public set AnnotatedSetter_SetterFirst(a: number) { }
-    public get AnnotatedSetter_SetterFirst() { return ""; }
-    public get AnnotatedSetter_SetterLast() { return ""; }
-    public set AnnotatedSetter_SetterLast(a: number) { }
-    public get AnnotatedGetter_GetterFirst(): string { return ""; }
-    public set AnnotatedGetter_GetterFirst(aStr) { aStr = 0 }
-    public set AnnotatedGetter_GetterLast(aStr) { aStr = 0 }
-    public get AnnotatedGetter_GetterLast(): string { return ""; }
-}
-
-var LanguageSpec_section_4_5_error_cases = (function () {
-    function LanguageSpec_section_4_5_error_cases() {
-    }
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterFirst", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedSetter_SetterLast", { get : function () { return ""; }, set : function (a) { }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterFirst", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
-    Object.defineProperty(LanguageSpec_section_4_5_error_cases.prototype, "AnnotatedGetter_GetterLast", { get : function () { return ""; }, set : function (aStr) { aStr = 0 }, enumerable : true, configurable : true })
-    return LanguageSpec_section_4_5_error_cases;
-})();
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -34,14 +34,12 @@
                             "expression": {
                                 "kind": 66224,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 4194416,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 32,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 2,
                                         "end": 9
                                     },
@@ -52,32 +50,29 @@
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 10,
                                         "end": 14
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
-                                    "end": 14
+                                    "end": 14,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 9,
+                                        "end": 10
+                                    }
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 1,
                                 "end": 14
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 1,
                             "end": 14
                         }
@@ -86,16 +81,12 @@
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 1,
                     "end": 14
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
@@ -103,8 +94,6 @@
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
@@ -119,8 +108,6 @@
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

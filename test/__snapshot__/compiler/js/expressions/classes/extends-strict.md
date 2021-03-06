@@ -39,8 +39,6 @@ class C extends (function B() {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -50,8 +48,6 @@ class C extends (function B() {
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 5
                         }
@@ -59,16 +55,12 @@ class C extends (function B() {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 5
                 },
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             },
@@ -81,8 +73,6 @@ class C extends (function B() {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 15
                 },
@@ -102,8 +92,6 @@ class C extends (function B() {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 35
                                 },
@@ -114,8 +102,6 @@ class C extends (function B() {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -136,16 +122,12 @@ class C extends (function B() {
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 49,
                                                         "end": 49
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 48,
                                                     "end": 50
                                                 },
@@ -154,16 +136,12 @@ class C extends (function B() {
                                                     "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 51,
                                                     "end": 52
                                                 },
                                                 "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 52
                                             },
@@ -176,16 +154,12 @@ class C extends (function B() {
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 61,
                                                     "end": 63
                                                 },
                                                 "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 52,
                                                 "end": 64
                                             }
@@ -194,16 +168,12 @@ class C extends (function B() {
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 64
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 66
                                 },
@@ -212,8 +182,6 @@ class C extends (function B() {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 25,
                                 "end": 66
                             },
@@ -225,24 +193,18 @@ class C extends (function B() {
                                 "transformFlags": 0,
                                 "flags": 0,
                                 "intersects": false,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 68,
                                 "end": 68
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 66,
                             "end": 68
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 69
                     },
@@ -250,8 +212,6 @@ class C extends (function B() {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 69
                 },
@@ -262,8 +222,6 @@ class C extends (function B() {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 71,
                     "end": 72
                 },
@@ -271,8 +229,6 @@ class C extends (function B() {
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 72
             }
@@ -280,16 +236,12 @@ class C extends (function B() {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 72
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

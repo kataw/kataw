@@ -40,8 +40,6 @@ export = B;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 14
                     },
@@ -54,8 +52,6 @@ export = B;
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 18
                     },
@@ -63,8 +59,6 @@ export = B;
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 18
                 },
@@ -75,13 +69,11 @@ export = B;
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             },
             {
-                "kind": 75,
+                "kind": 8267,
                 "expression": {
                     "kind": 196712,
                     "text": "B",
@@ -89,16 +81,12 @@ export = B;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 26,
                 "end": 31
             }
@@ -106,16 +94,12 @@ export = B;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -129,19 +113,13 @@ export = B;
 
 
 ```javascript
-
-export class C {
-
-};
-
-
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

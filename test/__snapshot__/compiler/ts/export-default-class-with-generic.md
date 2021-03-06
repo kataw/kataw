@@ -34,10 +34,10 @@ export default class<T> {
                     "kind": 48,
                     "name": null,
                     "typeParameters": {
-                        "kind": 233,
+                        "kind": 8425,
                         "typeParameterList": [
                             {
-                                "kind": 232,
+                                "kind": 8424,
                                 "name": {
                                     "kind": 196711,
                                     "text": "T",
@@ -45,8 +45,6 @@ export default class<T> {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -56,8 +54,6 @@ export default class<T> {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 22
                             }
@@ -65,8 +61,6 @@ export default class<T> {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 22
                     },
@@ -78,8 +72,6 @@ export default class<T> {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 25,
                         "end": 28
                     },
@@ -87,16 +79,12 @@ export default class<T> {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 28
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -104,16 +92,12 @@ export default class<T> {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -127,17 +111,13 @@ export default class<T> {
 
 
 ```javascript
-
-export default class<T> {
-
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

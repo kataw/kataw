@@ -14,11 +14,11 @@
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": " let a: number = 1",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -32,22 +32,18 @@
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 4,
                                 "end": 6
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 14
                             },
@@ -55,53 +51,41 @@
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 18
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 4,
                             "end": 18
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 18
                 },
-                "flags": 65552,
+                "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 18
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -115,15 +99,13 @@
 
 
 ```javascript
-
-let a: number = 1;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

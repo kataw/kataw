@@ -27,10 +27,10 @@ async => ok, a
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 16,
+                    "kind": 65552,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [
                             {
                                 "kind": 89,
@@ -42,8 +42,6 @@ async => ok, a
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 0,
                                     "end": 5
                                 },
@@ -56,8 +54,6 @@ async => ok, a
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 5
                             }
@@ -68,13 +64,11 @@ async => ok, a
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 5
                     },
                     "contents": {
-                        "kind": 54,
+                        "kind": 65590,
                         "expressions": [
                             {
                                 "kind": 196712,
@@ -83,8 +77,6 @@ async => ok, a
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 11
                             },
@@ -95,8 +87,6 @@ async => ok, a
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 14
                             }
@@ -104,24 +94,18 @@ async => ok, a
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 14
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
@@ -129,16 +113,12 @@ async => ok, a
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -29,14 +29,12 @@ import {bar, baz,} from "foo";
             {
                 "kind": 110,
                 "fromClause": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 29
                 },
@@ -59,8 +57,6 @@ import {bar, baz,} from "foo";
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 8,
                                         "end": 11
                                     },
@@ -71,16 +67,12 @@ import {bar, baz,} from "foo";
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 8,
                                         "end": 11
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 11
                                 },
@@ -94,8 +86,6 @@ import {bar, baz,} from "foo";
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 12,
                                         "end": 16
                                     },
@@ -106,16 +96,12 @@ import {bar, baz,} from "foo";
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 12,
                                         "end": 16
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 16
                                 }
@@ -123,16 +109,12 @@ import {bar, baz,} from "foo";
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 17
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 18
                     },
@@ -140,16 +122,12 @@ import {bar, baz,} from "foo";
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             }
@@ -157,16 +135,12 @@ import {bar, baz,} from "foo";
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

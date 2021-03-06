@@ -44,8 +44,6 @@ export {default} from "foo";
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 15
                                 },
@@ -53,8 +51,6 @@ export {default} from "foo";
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 15
                             }
@@ -62,29 +58,23 @@ export {default} from "foo";
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 15
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 16
                 },
                 "exportFromClause": null,
                 "fromClause": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 27
                 },
@@ -92,8 +82,6 @@ export {default} from "foo";
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -101,16 +89,12 @@ export {default} from "foo";
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

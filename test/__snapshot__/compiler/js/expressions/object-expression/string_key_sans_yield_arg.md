@@ -29,8 +29,6 @@ function *f(){   s = {"foo": yield}   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 11
                 },
@@ -41,8 +39,6 @@ function *f(){   s = {"foo": yield}   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -63,8 +59,6 @@ function *f(){   s = {"foo": yield}   }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -77,14 +71,12 @@ function *f(){   s = {"foo": yield}   }
                                                 {
                                                     "kind": 65721,
                                                     "left": {
-                                                        "kind": 67279,
+                                                        "kind": 4261583,
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 22,
                                                         "end": 27
                                                     },
@@ -95,8 +87,6 @@ function *f(){   s = {"foo": yield}   }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 16393,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 28,
                                                         "end": 34
                                                     },
@@ -105,8 +95,6 @@ function *f(){   s = {"foo": yield}   }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 22,
                                                     "end": 34
                                                 }
@@ -116,32 +104,24 @@ function *f(){   s = {"foo": yield}   }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 22,
                                             "end": 34
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 35
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 35
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 35
                             }
@@ -150,16 +130,12 @@ function *f(){   s = {"foo": yield}   }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 35
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 39
                 },
@@ -167,8 +143,6 @@ function *f(){   s = {"foo": yield}   }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 39
             }
@@ -176,16 +150,12 @@ function *f(){   s = {"foo": yield}   }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 39
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

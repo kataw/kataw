@@ -17,11 +17,11 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "// error: no intialization expected in ambient declarations\ndeclare const c1: boolean = true;\ndeclare const c2: number = 0;\ndeclare const c3 = null, c4 :string = \"\", c5: any = 0;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -35,58 +35,46 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 131102,
                                 "text": "c1",
                                 "rawText": "c1",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 73,
                                 "end": 76
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 4259878,
+                                "kind": 4268070,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 77,
                                 "end": 85
                             },
                             "initializer": {
                                 "kind": 4260391,
                                 "text": true,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 87,
                                 "end": 92
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 73,
                             "end": 92
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 73,
                     "end": 92
                 },
-                "flags": 201408528,
+                "flags": 201342992,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 67,
                 "end": 93
             },
@@ -102,22 +90,18 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 131102,
                                 "text": "c2",
                                 "rawText": "c2",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 107,
                                 "end": 110
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 111,
                                 "end": 118
                             },
@@ -125,36 +109,28 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 120,
                                 "end": 122
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 107,
                             "end": 122
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 107,
                     "end": 122
                 },
-                "flags": 201408528,
+                "flags": 201342992,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 101,
                 "end": 123
             },
@@ -170,11 +146,9 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 131102,
                                 "text": "c3",
                                 "rawText": "c3",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 137,
                                 "end": 140
                             },
@@ -183,19 +157,15 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                             "initializer": {
                                 "kind": 4260512,
                                 "text": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 142,
                                 "end": 147
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 137,
                             "end": 147
                         },
@@ -205,42 +175,34 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 131102,
                                 "text": "c4",
                                 "rawText": "c4",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 148,
                                 "end": 151
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 153,
                                 "end": 159
                             },
                             "initializer": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "",
                                 "rawText": "",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 161,
                                 "end": 164
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 148,
                             "end": 164
                         },
@@ -250,22 +212,18 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 131102,
                                 "text": "c5",
                                 "rawText": "c5",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 165,
                                 "end": 168
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 169,
                                 "end": 173
                             },
@@ -273,53 +231,41 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
                                 "kind": 4261540,
                                 "text": 0,
                                 "rawText": "0",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 175,
                                 "end": 177
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 165,
                             "end": 177
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 137,
                     "end": 177
                 },
-                "flags": 201392144,
+                "flags": 201326608,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 131,
                 "end": 178
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 178
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -333,19 +279,13 @@ declare const c3 = null, c4 :string = "", c5: any = 0;
 
 
 ```javascript
-
-declare const c1: boolean = true;
-
-declare const c2: number = 0;
-
-declare const c3 = null, c4: string = "", c5: any = 0;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

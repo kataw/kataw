@@ -33,8 +33,6 @@ function not_gen() { await.b[c] => async }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { await.b[c] => async }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -59,9 +55,9 @@ function not_gen() { await.b[c] => async }}
                             {
                                 "kind": 2097233,
                                 "expression": {
-                                    "kind": 74308,
+                                    "kind": 66116,
                                     "member": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "await",
@@ -69,8 +65,6 @@ function not_gen() { await.b[c] => async }}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 26
                                         },
@@ -81,18 +75,19 @@ function not_gen() { await.b[c] => async }}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 27,
                                             "end": 28
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 26,
-                                        "end": 28
+                                        "end": 28,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 26,
+                                            "end": 27
+                                        }
                                     },
                                     "expression": {
                                         "kind": 196712,
@@ -101,24 +96,18 @@ function not_gen() { await.b[c] => async }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 30
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 28,
                                     "end": 31
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 31
                             }
@@ -127,16 +116,12 @@ function not_gen() { await.b[c] => async }}
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 31
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 31
                 },
@@ -144,8 +129,6 @@ function not_gen() { await.b[c] => async }}
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             },
@@ -158,16 +141,12 @@ function not_gen() { await.b[c] => async }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 34,
                     "end": 40
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 34,
                 "end": 40
             }
@@ -175,8 +154,6 @@ function not_gen() { await.b[c] => async }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 43
     },
@@ -198,8 +175,6 @@ function not_gen() { await.b[c] => async }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

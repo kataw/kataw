@@ -31,8 +31,6 @@ foo(a, b, ...c)
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 3
                     },
@@ -47,8 +45,6 @@ foo(a, b, ...c)
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 4,
                                 "end": 5
                             },
@@ -59,8 +55,6 @@ foo(a, b, ...c)
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 8
                             },
@@ -73,16 +67,12 @@ foo(a, b, ...c)
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 14
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 14
                             }
@@ -91,24 +81,18 @@ foo(a, b, ...c)
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 15
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 15
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             }
@@ -116,16 +100,12 @@ foo(a, b, ...c)
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 15
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

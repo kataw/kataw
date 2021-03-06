@@ -33,8 +33,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -116,8 +108,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 61,
                                                                             "end": 68
                                                                         },
@@ -134,8 +124,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 1025,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 72,
                                                                                         "end": 77
                                                                                     },
@@ -148,8 +136,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 4097,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 69,
                                                                                     "end": 77
                                                                                 }
@@ -158,8 +144,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 69,
                                                                             "end": 78
                                                                         },
@@ -174,16 +158,12 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 80,
                                                                                 "end": 80
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 78,
                                                                             "end": 81
                                                                         },
@@ -194,16 +174,12 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 4,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 68,
                                                                         "end": 81
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 48,
                                                                     "end": 81
                                                                 }
@@ -211,8 +187,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 48,
                                                             "end": 83
                                                         },
@@ -220,24 +194,18 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 41,
                                                         "end": 83
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 39,
                                                     "end": 84
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 84
                                             }
@@ -246,16 +214,12 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 84
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 86
                                 },
@@ -263,8 +227,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 86
                             }
@@ -273,16 +235,12 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 86
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 87
                 },
@@ -290,8 +248,6 @@ function * gen() { function not_gen() { (class { static async method(...await) {
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 87
             }
@@ -299,16 +255,12 @@ function * gen() { function not_gen() { (class { static async method(...await) {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 87
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

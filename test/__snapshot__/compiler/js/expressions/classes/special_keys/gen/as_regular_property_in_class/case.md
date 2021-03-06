@@ -33,8 +33,6 @@ class x {case: x}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -53,8 +51,6 @@ class x {case: x}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 13
                             },
@@ -62,7 +58,7 @@ class x {case: x}
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "x",
@@ -70,8 +66,6 @@ class x {case: x}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -79,8 +73,6 @@ class x {case: x}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 17
                             },
@@ -91,8 +83,6 @@ class x {case: x}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 16
                         }
@@ -100,8 +90,6 @@ class x {case: x}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 17
                 },
@@ -109,8 +97,6 @@ class x {case: x}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 17
             }
@@ -118,16 +104,12 @@ class x {case: x}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 17
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

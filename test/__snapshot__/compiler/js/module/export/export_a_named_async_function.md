@@ -37,8 +37,6 @@ export async function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 23
                     },
@@ -49,8 +47,6 @@ export async function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 24,
                         "end": 25
                     },
@@ -64,16 +60,12 @@ export async function f(){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 26,
                             "end": 26
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 25,
                         "end": 27
                     },
@@ -81,8 +73,6 @@ export async function f(){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 260,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 27
                 },
@@ -93,8 +83,6 @@ export async function f(){}
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 27
             }
@@ -102,16 +90,12 @@ export async function f(){}
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 27
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

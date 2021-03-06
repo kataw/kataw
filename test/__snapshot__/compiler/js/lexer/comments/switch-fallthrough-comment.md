@@ -41,8 +41,6 @@ switch(foo) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 7,
                     "end": 10
                 },
@@ -58,8 +56,6 @@ switch(foo) {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 35
                             },
@@ -67,8 +63,6 @@ switch(foo) {
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 36
                         },
@@ -81,8 +75,6 @@ switch(foo) {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 70,
                                 "end": 72
                             },
@@ -98,8 +90,6 @@ switch(foo) {
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 73,
                                             "end": 86
                                         },
@@ -111,24 +101,18 @@ switch(foo) {
                                             "transformFlags": 0,
                                             "flags": 0,
                                             "intersects": false,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 88,
                                             "end": 88
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 86,
                                         "end": 88
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 73,
                                     "end": 89
                                 }
@@ -136,8 +120,6 @@ switch(foo) {
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 36,
                             "end": 89
                         }
@@ -145,16 +127,12 @@ switch(foo) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 91
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 91
             }
@@ -162,16 +140,12 @@ switch(foo) {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 91
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -30,19 +30,16 @@
                     "kind": 4260568,
                     "rawText": "",
                     "text": "await;",
+                    "literal": true,
                     "flags": 524288,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 7
             }
@@ -50,8 +47,6 @@
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 7
     },
@@ -66,8 +61,6 @@
             "length": 1
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

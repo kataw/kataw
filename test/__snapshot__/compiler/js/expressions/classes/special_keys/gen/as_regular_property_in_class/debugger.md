@@ -33,8 +33,6 @@ class x {debugger: x}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -53,8 +51,6 @@ class x {debugger: x}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 17
                             },
@@ -62,7 +58,7 @@ class x {debugger: x}
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "x",
@@ -70,8 +66,6 @@ class x {debugger: x}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -79,8 +73,6 @@ class x {debugger: x}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 21
                             },
@@ -91,8 +83,6 @@ class x {debugger: x}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 20
                         }
@@ -100,8 +90,6 @@ class x {debugger: x}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 21
                 },
@@ -109,8 +97,6 @@ class x {debugger: x}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -118,16 +104,12 @@ class x {debugger: x}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

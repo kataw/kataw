@@ -37,8 +37,6 @@ export function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
@@ -49,8 +47,6 @@ export function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 19
                     },
@@ -64,16 +60,12 @@ export function f(){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 20
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 19,
                         "end": 21
                     },
@@ -81,8 +73,6 @@ export function f(){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 21
                 },
@@ -93,8 +83,6 @@ export function f(){}
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -102,16 +90,12 @@ export function f(){}
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

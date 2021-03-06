@@ -48,8 +48,6 @@ class A {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -59,8 +57,6 @@ class A {
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 5
                         }
@@ -68,16 +64,12 @@ class A {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 5
                 },
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             },
@@ -90,8 +82,6 @@ class A {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 26
                 },
@@ -108,8 +98,6 @@ class A {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 29
                             },
@@ -122,8 +110,6 @@ class A {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 29
                         }
@@ -132,8 +118,6 @@ class A {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 30
                 },
@@ -148,7 +132,7 @@ class A {
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "Object",
@@ -156,8 +140,6 @@ class A {
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 41,
                                             "end": 48
                                         },
@@ -168,18 +150,19 @@ class A {
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 49,
                                             "end": 55
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 48,
-                                        "end": 55
+                                        "end": 55,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 48,
+                                            "end": 49
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -192,8 +175,6 @@ class A {
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 56,
                                                 "end": 58
                                             },
@@ -211,8 +192,6 @@ class A {
                                                                 "flags": 16384,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 61,
                                                                 "end": 74
                                                             },
@@ -229,8 +208,6 @@ class A {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 75,
                                                                             "end": 80
                                                                         },
@@ -243,8 +220,6 @@ class A {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 1,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 75,
                                                                         "end": 80
                                                                     }
@@ -253,8 +228,6 @@ class A {
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 75,
                                                                 "end": 81
                                                             },
@@ -276,8 +249,6 @@ class A {
                                                                                     "flags": 16384,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 83,
                                                                                     "end": 91
                                                                                 },
@@ -289,24 +260,18 @@ class A {
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 93,
                                                                                     "end": 99
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 83,
                                                                                 "end": 99
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 83,
                                                                             "end": 100
                                                                         }
@@ -315,16 +280,12 @@ class A {
                                                                     "flags": 16384,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 83,
                                                                     "end": 100
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 81,
                                                                 "end": 106
                                                             },
@@ -335,8 +296,6 @@ class A {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 74,
                                                             "end": 106
                                                         }
@@ -346,16 +305,12 @@ class A {
                                                     "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 61,
                                                     "end": 107
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 59,
                                                 "end": 111
                                             }
@@ -364,24 +319,18 @@ class A {
                                         "transformFlags": 0,
                                         "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 58,
                                         "end": 112
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 55,
                                     "end": 112
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 113
                             }
@@ -390,16 +339,12 @@ class A {
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 32,
                         "end": 113
                     },
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 30,
                     "end": 115
                 },
@@ -407,8 +352,6 @@ class A {
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 115
             },
@@ -421,8 +364,6 @@ class A {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 122,
                     "end": 124
                 },
@@ -447,8 +388,6 @@ class A {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 139,
                                     "end": 145
                                 },
@@ -459,8 +398,6 @@ class A {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 146,
                                     "end": 147
                                 },
@@ -475,16 +412,12 @@ class A {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 149,
                                         "end": 149
                                     },
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 147,
                                     "end": 150
                                 },
@@ -500,16 +433,12 @@ class A {
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 130,
                                                 "end": 139
                                             },
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 130,
                                             "end": 139
                                         }
@@ -517,8 +446,6 @@ class A {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 130,
                                     "end": 139
                                 },
@@ -528,16 +455,12 @@ class A {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 145,
                                 "end": 150
                             },
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 126,
                             "end": 150
                         }
@@ -545,8 +468,6 @@ class A {
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 126,
                     "end": 152
                 },
@@ -554,8 +475,6 @@ class A {
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 115,
                 "end": 152
             }
@@ -563,16 +482,12 @@ class A {
         "transformFlags": 0,
         "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 152
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

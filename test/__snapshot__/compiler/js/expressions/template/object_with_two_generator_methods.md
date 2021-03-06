@@ -31,8 +31,6 @@ wrap({* foo(){},*bar(){}});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -54,8 +52,6 @@ wrap({* foo(){},*bar(){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 7,
                                                 "end": 11
                                             },
@@ -66,8 +62,6 @@ wrap({* foo(){},*bar(){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 12,
                                                 "end": 13
                                             },
@@ -82,16 +76,12 @@ wrap({* foo(){},*bar(){}});
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 14,
                                                     "end": 14
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 13,
                                                 "end": 15
                                             },
@@ -102,8 +92,6 @@ wrap({* foo(){},*bar(){}});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 15
                                         },
@@ -116,8 +104,6 @@ wrap({* foo(){},*bar(){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 20
                                             },
@@ -128,8 +114,6 @@ wrap({* foo(){},*bar(){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 22
                                             },
@@ -144,16 +128,12 @@ wrap({* foo(){},*bar(){}});
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 23,
                                                     "end": 23
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 24
                                             },
@@ -164,8 +144,6 @@ wrap({* foo(){},*bar(){}});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 24
                                         }
@@ -175,16 +153,12 @@ wrap({* foo(){},*bar(){}});
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 24
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 25
                             }
@@ -193,24 +167,18 @@ wrap({* foo(){},*bar(){}});
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 26
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 26
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 27
             }
@@ -218,16 +186,12 @@ wrap({* foo(){},*bar(){}});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 27
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

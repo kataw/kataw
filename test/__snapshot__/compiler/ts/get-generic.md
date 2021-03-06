@@ -16,11 +16,11 @@ declare class C {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare class C {\n    get<T>(): void;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -28,11 +28,9 @@ declare class C {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 15
                 },
@@ -54,11 +52,9 @@ declare class C {
                                     "kind": 196711,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 25
                                 },
@@ -66,11 +62,9 @@ declare class C {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 30
                                 },
@@ -79,101 +73,81 @@ declare class C {
                                 "contents": null,
                                 "decorators": null,
                                 "type": {
-                                    "kind": 4194550,
+                                    "kind": 4202742,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 36
                                 },
                                 "accessModifier": null,
                                 "typeParameters": {
-                                    "kind": 233,
+                                    "kind": 8425,
                                     "typeParameterList": [
                                         {
-                                            "kind": 232,
+                                            "kind": 8424,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 27
                                             },
                                             "constraint": null,
                                             "defaultType": null,
                                             "expression": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 27
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 25,
                                 "end": 37
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 37
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 39
                 },
                 "decorators": null,
-                "flags": 201392128,
+                "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 39
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 39
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -187,17 +161,13 @@ declare class C {
 
 
 ```javascript
-
-declare class C {
-    get(): void;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

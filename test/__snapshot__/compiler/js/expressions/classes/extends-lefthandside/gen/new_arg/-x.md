@@ -36,8 +36,6 @@ new -x
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 3
                         },
@@ -46,8 +44,6 @@ new -x
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 32,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 2,
                         "end": 3
                     },
@@ -59,24 +55,18 @@ new -x
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 6
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             }
@@ -84,8 +74,6 @@ new -x
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 6
     },
@@ -100,8 +88,6 @@ new -x
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

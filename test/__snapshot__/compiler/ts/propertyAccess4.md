@@ -14,26 +14,24 @@ null.toBAZ();
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "null.toBAZ();",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
                 "expression": {
                     "kind": 66091,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 4260512,
                             "text": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 4
                         },
@@ -41,21 +39,22 @@ null.toBAZ();
                             "kind": 196711,
                             "text": "toBAZ",
                             "rawText": "toBAZ",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 10
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
-                        "end": 10
+                        "end": 10,
+                        "period": {
+                            "kind": 254,
+                            "pos": 4,
+                            "end": 5
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": {
@@ -63,43 +62,33 @@ null.toBAZ();
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 13
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 13
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -113,15 +102,13 @@ null.toBAZ();
 
 
 ```javascript
-
-null.toBAZ()
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

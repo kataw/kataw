@@ -33,8 +33,6 @@ function f() { class C { await() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 10
                 },
@@ -45,8 +43,6 @@ function f() { class C { await() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 12
                 },
@@ -65,8 +61,6 @@ function f() { class C { await() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -91,8 +85,6 @@ function f() { class C { await() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 24,
                                                     "end": 30
                                                 },
@@ -103,8 +95,6 @@ function f() { class C { await() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 32
                                                 },
@@ -119,16 +109,12 @@ function f() { class C { await() { } } }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 34,
                                                         "end": 34
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 32,
                                                     "end": 36
                                                 },
@@ -139,16 +125,12 @@ function f() { class C { await() { } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 30,
                                                 "end": 36
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 24,
                                             "end": 36
                                         }
@@ -156,8 +138,6 @@ function f() { class C { await() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 38
                                 },
@@ -165,8 +145,6 @@ function f() { class C { await() { } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 38
                             }
@@ -175,16 +153,12 @@ function f() { class C { await() { } } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 38
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 40
                 },
@@ -192,8 +166,6 @@ function f() { class C { await() { } } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             }
@@ -201,16 +173,12 @@ function f() { class C { await() { } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

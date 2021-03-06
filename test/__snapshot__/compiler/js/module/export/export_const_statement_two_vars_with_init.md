@@ -43,8 +43,6 @@ export const x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 14
                                 },
@@ -57,16 +55,12 @@ export const x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 19
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 19
                             },
@@ -79,8 +73,6 @@ export const x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -93,16 +85,12 @@ export const x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 27
                             }
@@ -110,16 +98,12 @@ export const x = 10, y = 20
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 27
                     },
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 27
                 },
@@ -130,8 +114,6 @@ export const x = 10, y = 20
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 27
             }
@@ -139,16 +121,12 @@ export const x = 10, y = 20
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 27
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

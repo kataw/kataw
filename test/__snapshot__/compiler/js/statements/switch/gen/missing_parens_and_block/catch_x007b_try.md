@@ -32,8 +32,6 @@ switch case catch { try
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
@@ -48,8 +46,6 @@ switch case catch { try
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 11
                             },
@@ -65,16 +61,12 @@ switch case catch { try
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 11
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 11
                                     },
@@ -97,16 +89,12 @@ switch case catch { try
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 23,
                                                                 "end": 23
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 23,
                                                             "end": 23
                                                         },
@@ -120,24 +108,18 @@ switch case catch { try
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 23,
                                                                 "end": 23
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 23,
                                                             "end": 23
                                                         },
                                                         "flags": 2,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 19,
                                                         "end": 23
                                                     }
@@ -146,24 +128,18 @@ switch case catch { try
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 19,
                                                 "end": 23
                                             },
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 23
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 16,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 23
                                     },
@@ -171,8 +147,6 @@ switch case catch { try
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 16,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 23
                                 }
@@ -180,8 +154,6 @@ switch case catch { try
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 6,
                             "end": 23
                         }
@@ -189,16 +161,12 @@ switch case catch { try
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 23
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             }
@@ -206,8 +174,6 @@ switch case catch { try
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
@@ -236,8 +202,6 @@ switch case catch { try
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

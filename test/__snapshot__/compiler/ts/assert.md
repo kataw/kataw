@@ -68,8 +68,6 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 18
                             },
@@ -77,9 +75,9 @@ class AssertsFoo {
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [
                                         {
                                             "kind": 89,
@@ -94,19 +92,15 @@ class AssertsFoo {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 22,
                                                     "end": 23
                                                 },
                                                 "isOptional": false,
                                                 "type": {
-                                                    "kind": 4194306,
+                                                    "kind": 4202498,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 24,
                                                     "end": 28
                                                 },
@@ -117,8 +111,6 @@ class AssertsFoo {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 28
                                             },
@@ -131,14 +123,12 @@ class AssertsFoo {
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 40
                                         }
                                     ],
                                     "type": {
-                                        "kind": 234,
+                                        "kind": 8426,
                                         "asserts": true,
                                         "parameterName": {
                                             "kind": 196712,
@@ -147,8 +137,6 @@ class AssertsFoo {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 40
                                         },
@@ -156,8 +144,6 @@ class AssertsFoo {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 30,
                                         "end": 40
                                     },
@@ -166,8 +152,6 @@ class AssertsFoo {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 40
                                 },
@@ -181,7 +165,7 @@ class AssertsFoo {
                                                 "expression": {
                                                     "kind": 66091,
                                                     "expression": {
-                                                        "kind": 74424,
+                                                        "kind": 66232,
                                                         "member": {
                                                             "kind": 196712,
                                                             "text": "console",
@@ -189,8 +173,6 @@ class AssertsFoo {
                                                             "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 45,
                                                             "end": 55
                                                         },
@@ -201,18 +183,19 @@ class AssertsFoo {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 56,
                                                             "end": 62
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 55,
-                                                        "end": 62
+                                                        "end": 62,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 55,
+                                                            "end": 56
+                                                        }
                                                     },
                                                     "typeArguments": null,
                                                     "argumentList": {
@@ -230,37 +213,29 @@ class AssertsFoo {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 69,
                                                                         "end": 71
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 63,
                                                                     "end": 71
                                                                 },
                                                                 "operator": "===",
                                                                 "right": {
-                                                                    "kind": 67279,
+                                                                    "kind": 4261583,
                                                                     "text": "string",
                                                                     "rawText": "string",
                                                                     "flags": 16842752,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 75,
                                                                     "end": 84
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 63,
                                                                 "end": 84
                                                             }
@@ -269,24 +244,18 @@ class AssertsFoo {
                                                         "transformFlags": 0,
                                                         "flags": 65536,
                                                         "intersects": false,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 69,
                                                         "end": 85
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 62,
                                                     "end": 85
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 45,
                                                 "end": 86
                                             }
@@ -295,32 +264,24 @@ class AssertsFoo {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 45,
                                         "end": 86
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 43,
                                     "end": 88
                                 },
                                 "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 88
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 88
                         }
@@ -328,16 +289,12 @@ class AssertsFoo {
                     "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 88
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 88
             },
@@ -350,8 +307,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 98,
                     "end": 112
                 },
@@ -368,19 +323,15 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 113,
                                 "end": 114
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 115,
                                 "end": 119
                             },
@@ -391,8 +342,6 @@ class AssertsFoo {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 113,
                             "end": 119
                         }
@@ -401,13 +350,11 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 113,
                     "end": 120
                 },
                 "type": {
-                    "kind": 234,
+                    "kind": 8426,
                     "asserts": true,
                     "parameterName": {
                         "kind": 196712,
@@ -416,8 +363,6 @@ class AssertsFoo {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 129,
                         "end": 131
                     },
@@ -425,8 +370,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 121,
                     "end": 131
                 },
@@ -440,7 +383,7 @@ class AssertsFoo {
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "console",
@@ -448,8 +391,6 @@ class AssertsFoo {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 133,
                                             "end": 143
                                         },
@@ -460,18 +401,19 @@ class AssertsFoo {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 144,
                                             "end": 150
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 143,
-                                        "end": 150
+                                        "end": 150,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 143,
+                                            "end": 144
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -489,37 +431,29 @@ class AssertsFoo {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 157,
                                                         "end": 159
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 151,
                                                     "end": 159
                                                 },
                                                 "operator": "===",
                                                 "right": {
-                                                    "kind": 67279,
+                                                    "kind": 4261583,
                                                     "text": "string",
                                                     "rawText": "string",
                                                     "flags": 16842752,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 163,
                                                     "end": 172
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 151,
                                                 "end": 172
                                             }
@@ -528,24 +462,18 @@ class AssertsFoo {
                                         "transformFlags": 0,
                                         "flags": 65536,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 157,
                                         "end": 173
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 150,
                                     "end": 173
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 133,
                                 "end": 174
                             }
@@ -554,16 +482,12 @@ class AssertsFoo {
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 133,
                         "end": 174
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 131,
                     "end": 176
                 },
@@ -571,8 +495,6 @@ class AssertsFoo {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 88,
                 "end": 176
             },
@@ -591,8 +513,6 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 183,
                                 "end": 205
                             },
@@ -600,9 +520,9 @@ class AssertsFoo {
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [
                                         {
                                             "kind": 89,
@@ -617,19 +537,15 @@ class AssertsFoo {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 209,
                                                     "end": 210
                                                 },
                                                 "isOptional": false,
                                                 "type": {
-                                                    "kind": 4194306,
+                                                    "kind": 4202498,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 211,
                                                     "end": 215
                                                 },
@@ -640,8 +556,6 @@ class AssertsFoo {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 207,
                                                 "end": 215
                                             },
@@ -654,14 +568,12 @@ class AssertsFoo {
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 207,
                                             "end": 237
                                         }
                                     ],
                                     "type": {
-                                        "kind": 234,
+                                        "kind": 8426,
                                         "asserts": true,
                                         "parameterName": {
                                             "kind": 196712,
@@ -670,26 +582,20 @@ class AssertsFoo {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 225,
                                             "end": 227
                                         },
                                         "type": {
-                                            "kind": 4194510,
+                                            "kind": 4202702,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 230,
                                             "end": 237
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 217,
                                         "end": 237
                                     },
@@ -698,8 +604,6 @@ class AssertsFoo {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 207,
                                     "end": 237
                                 },
@@ -713,7 +617,7 @@ class AssertsFoo {
                                                 "expression": {
                                                     "kind": 66091,
                                                     "expression": {
-                                                        "kind": 74424,
+                                                        "kind": 66232,
                                                         "member": {
                                                             "kind": 196712,
                                                             "text": "console",
@@ -721,8 +625,6 @@ class AssertsFoo {
                                                             "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 242,
                                                             "end": 252
                                                         },
@@ -733,18 +635,19 @@ class AssertsFoo {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 253,
                                                             "end": 259
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 252,
-                                                        "end": 259
+                                                        "end": 259,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 252,
+                                                            "end": 253
+                                                        }
                                                     },
                                                     "typeArguments": null,
                                                     "argumentList": {
@@ -762,37 +665,29 @@ class AssertsFoo {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 266,
                                                                         "end": 268
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 260,
                                                                     "end": 268
                                                                 },
                                                                 "operator": "===",
                                                                 "right": {
-                                                                    "kind": 67279,
+                                                                    "kind": 4261583,
                                                                     "text": "string",
                                                                     "rawText": "string",
                                                                     "flags": 16842752,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 272,
                                                                     "end": 281
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 260,
                                                                 "end": 281
                                                             }
@@ -801,24 +696,18 @@ class AssertsFoo {
                                                         "transformFlags": 0,
                                                         "flags": 65536,
                                                         "intersects": false,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 266,
                                                         "end": 282
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 259,
                                                     "end": 282
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 242,
                                                 "end": 283
                                             }
@@ -827,32 +716,24 @@ class AssertsFoo {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 242,
                                         "end": 283
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 240,
                                     "end": 285
                                 },
                                 "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 207,
                                 "end": 285
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 183,
                             "end": 285
                         }
@@ -860,16 +741,12 @@ class AssertsFoo {
                     "flags": 81936,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 183,
                     "end": 285
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 176,
                 "end": 285
             },
@@ -882,8 +759,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 295,
                     "end": 318
                 },
@@ -900,19 +775,15 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 319,
                                 "end": 320
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 321,
                                 "end": 325
                             },
@@ -923,8 +794,6 @@ class AssertsFoo {
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 319,
                             "end": 325
                         }
@@ -933,13 +802,11 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 319,
                     "end": 326
                 },
                 "type": {
-                    "kind": 234,
+                    "kind": 8426,
                     "asserts": true,
                     "parameterName": {
                         "kind": 196712,
@@ -948,26 +815,20 @@ class AssertsFoo {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 335,
                         "end": 337
                     },
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 340,
                         "end": 347
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 327,
                     "end": 347
                 },
@@ -981,7 +842,7 @@ class AssertsFoo {
                                 "expression": {
                                     "kind": 66091,
                                     "expression": {
-                                        "kind": 74424,
+                                        "kind": 66232,
                                         "member": {
                                             "kind": 196712,
                                             "text": "console",
@@ -989,8 +850,6 @@ class AssertsFoo {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 349,
                                             "end": 359
                                         },
@@ -1001,18 +860,19 @@ class AssertsFoo {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 360,
                                             "end": 366
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 359,
-                                        "end": 366
+                                        "end": 366,
+                                        "period": {
+                                            "kind": 254,
+                                            "pos": 359,
+                                            "end": 360
+                                        }
                                     },
                                     "typeArguments": null,
                                     "argumentList": {
@@ -1030,37 +890,29 @@ class AssertsFoo {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 373,
                                                         "end": 375
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 367,
                                                     "end": 375
                                                 },
                                                 "operator": "===",
                                                 "right": {
-                                                    "kind": 67279,
+                                                    "kind": 4261583,
                                                     "text": "string",
                                                     "rawText": "string",
                                                     "flags": 16842752,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 379,
                                                     "end": 388
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 367,
                                                 "end": 388
                                             }
@@ -1069,24 +921,18 @@ class AssertsFoo {
                                         "transformFlags": 0,
                                         "flags": 65536,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 373,
                                         "end": 389
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 366,
                                     "end": 389
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 349,
                                 "end": 390
                             }
@@ -1095,16 +941,12 @@ class AssertsFoo {
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 349,
                         "end": 390
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 347,
                     "end": 392
                 },
@@ -1112,13 +954,11 @@ class AssertsFoo {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 285,
                 "end": 392
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "AssertFoo",
@@ -1126,8 +966,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 403,
                     "end": 413
                 },
@@ -1137,7 +975,7 @@ class AssertsFoo {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 147,
+                            "kind": 8339,
                             "name": {
                                 "kind": 196711,
                                 "text": "isString",
@@ -1145,8 +983,6 @@ class AssertsFoo {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 415,
                                 "end": 426
                             },
@@ -1156,10 +992,10 @@ class AssertsFoo {
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1168,19 +1004,15 @@ class AssertsFoo {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 427,
                                             "end": 431
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 4194306,
+                                            "kind": 4202498,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 432,
                                             "end": 436
                                         },
@@ -1190,8 +1022,6 @@ class AssertsFoo {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 427,
                                         "end": 436
                                     }
@@ -1200,13 +1030,11 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 427,
                                 "end": 436
                             },
                             "returnType": {
-                                "kind": 234,
+                                "kind": 8426,
                                 "asserts": true,
                                 "parameterName": {
                                     "kind": 196712,
@@ -1215,8 +1043,6 @@ class AssertsFoo {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 446,
                                     "end": 451
                                 },
@@ -1224,33 +1050,26 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 438,
                                 "end": 451
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 415,
                             "end": 452
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 415,
                     "end": 452
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 392,
                 "end": 454
             },
@@ -1263,8 +1082,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 461,
                     "end": 472
                 },
@@ -1289,8 +1106,6 @@ class AssertsFoo {
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 474,
                                     "end": 482
                                 },
@@ -1301,8 +1116,6 @@ class AssertsFoo {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 483,
                                     "end": 484
                                 },
@@ -1319,8 +1132,6 @@ class AssertsFoo {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 500,
                                                 "end": 512
                                             }
@@ -1329,30 +1140,24 @@ class AssertsFoo {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 500,
                                         "end": 512
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 498,
                                     "end": 516
                                 },
                                 "decorators": null,
                                 "type": {
-                                    "kind": 234,
+                                    "kind": 8426,
                                     "asserts": true,
                                     "parameterName": {
-                                        "kind": 4194524,
+                                        "kind": 4202716,
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 493,
                                         "end": 498
                                     },
@@ -1360,8 +1165,6 @@ class AssertsFoo {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 485,
                                     "end": 498
                                 },
@@ -1370,16 +1173,12 @@ class AssertsFoo {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 482,
                                 "end": 516
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 474,
                             "end": 516
                         },
@@ -1392,8 +1191,6 @@ class AssertsFoo {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 516,
                                 "end": 524
                             },
@@ -1403,20 +1200,18 @@ class AssertsFoo {
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": {
-                                        "kind": 234,
+                                        "kind": 8426,
                                         "asserts": true,
                                         "parameterName": {
-                                            "kind": 4194524,
+                                            "kind": 4202716,
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 538,
                                             "end": 543
                                         },
@@ -1424,8 +1219,6 @@ class AssertsFoo {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 530,
                                         "end": 543
                                     },
@@ -1434,8 +1227,6 @@ class AssertsFoo {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 526,
                                     "end": 526
                                 },
@@ -1450,8 +1241,6 @@ class AssertsFoo {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 548,
                                                 "end": 560
                                             }
@@ -1460,24 +1249,18 @@ class AssertsFoo {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 548,
                                         "end": 560
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 546,
                                     "end": 564
                                 },
                                 "flags": 536952832,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 526,
                                 "end": 564
                             },
@@ -1487,8 +1270,6 @@ class AssertsFoo {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 516,
                             "end": 564
                         }
@@ -1496,8 +1277,6 @@ class AssertsFoo {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 474,
                     "end": 566
                 },
@@ -1505,8 +1284,6 @@ class AssertsFoo {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 454,
                 "end": 566
             }
@@ -1514,16 +1291,12 @@ class AssertsFoo {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 566
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1537,42 +1310,13 @@ class AssertsFoo {
 
 
 ```javascript
-
-const assertString = (x: any) =>  {
-    console.assert(typeof x === "string")
-};
-
-function assertsString(x: any): asserts x {
-    console.assert(typeof x === "string")
-}
-
-const assertStringWithGuard = (x: any) =>  {
-    console.assert(typeof x === "string")
-};
-
-function assertsStringWithGuard(x: any): asserts x is string {
-    console.assert(typeof x === "string")
-}
-
-interface AssertFoo {
-    isString(node: any): asserts node;
-}
-
-class AssertsFoo {
-    isBar(): asserts this {
-        return;
-    }
-    isBaz = () =>  {
-        return;
-    };
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

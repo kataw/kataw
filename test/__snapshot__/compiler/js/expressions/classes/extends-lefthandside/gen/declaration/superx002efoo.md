@@ -33,8 +33,6 @@ class A extends super.foo {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -42,14 +40,12 @@ class A extends super.foo {}
                 "classHeritage": {
                     "kind": 52,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 4260561,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 15,
                             "end": 21
                         },
@@ -60,25 +56,24 @@ class A extends super.foo {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 25
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
-                        "end": 25
+                        "end": 25,
+                        "period": {
+                            "kind": 254,
+                            "pos": 21,
+                            "end": 22
+                        }
                     },
                     "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 25
                 },
@@ -89,8 +84,6 @@ class A extends super.foo {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 28
                 },
@@ -98,8 +91,6 @@ class A extends super.foo {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -107,16 +98,12 @@ class A extends super.foo {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -38,8 +38,6 @@ var await; var f = (async function() { y = async x => await x });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 9
                             },
@@ -49,8 +47,6 @@ var await; var f = (async function() { y = async x => await x });
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 9
                         }
@@ -58,16 +54,12 @@ var await; var f = (async function() { y = async x => await x });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 10
             },
@@ -85,8 +77,6 @@ var await; var f = (async function() { y = async x => await x });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 16
                             },
@@ -104,8 +94,6 @@ var await; var f = (async function() { y = async x => await x });
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 36
                                     },
@@ -125,17 +113,15 @@ var await; var f = (async function() { y = async x => await x });
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 38,
                                                             "end": 40
                                                         },
                                                         "operator": "=",
                                                         "right": {
-                                                            "kind": 16,
+                                                            "kind": 65552,
+                                                            "typeParameters": null,
                                                             "arrowParameters": {
                                                                 "kind": 65545,
-                                                                "typeParameters": null,
                                                                 "elements": [
                                                                     {
                                                                         "kind": 89,
@@ -147,8 +133,6 @@ var await; var f = (async function() { y = async x => await x });
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 48,
                                                                             "end": 50
                                                                         },
@@ -161,8 +145,6 @@ var await; var f = (async function() { y = async x => await x });
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 1,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 53,
                                                                         "end": 50
                                                                     }
@@ -173,8 +155,6 @@ var await; var f = (async function() { y = async x => await x });
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 42,
                                                                 "end": 50
                                                             },
@@ -187,40 +167,30 @@ var await; var f = (async function() { y = async x => await x });
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 59,
                                                                     "end": 61
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 32780,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 53,
                                                                 "end": 61
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 42,
                                                             "end": 61
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 38,
                                                         "end": 61
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 61
                                                 }
@@ -229,16 +199,12 @@ var await; var f = (async function() { y = async x => await x });
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 61
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 36,
                                         "end": 63
                                     },
@@ -247,24 +213,18 @@ var await; var f = (async function() { y = async x => await x });
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 4,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 63
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 64
                             },
                             "flags": 14,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 64
                         }
@@ -272,16 +232,12 @@ var await; var f = (async function() { y = async x => await x });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 64
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 10,
                 "end": 65
             }
@@ -289,16 +245,12 @@ var await; var f = (async function() { y = async x => await x });
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 65
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

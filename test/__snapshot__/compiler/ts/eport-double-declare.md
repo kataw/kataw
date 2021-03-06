@@ -27,7 +27,7 @@ export declare declare var name;
         "kind": 150,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "declare",
@@ -35,13 +35,11 @@ export declare declare var name;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 22
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "var",
@@ -49,8 +47,6 @@ export declare declare var name;
                         "flags": 65538,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 22,
                         "end": 26
                     },
@@ -58,8 +54,6 @@ export declare declare var name;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 31
                 },
@@ -67,8 +61,6 @@ export declare declare var name;
                 "flags": 65570,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 26
             },
@@ -81,16 +73,12 @@ export declare declare var name;
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 26,
                     "end": 31
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 26,
                 "end": 32
             }
@@ -98,8 +86,6 @@ export declare declare var name;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 32
     },
@@ -121,8 +107,6 @@ export declare declare var name;
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -136,17 +120,13 @@ export declare declare var name;
 
 
 ```javascript
-
-export type declare = var;
-
-name
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

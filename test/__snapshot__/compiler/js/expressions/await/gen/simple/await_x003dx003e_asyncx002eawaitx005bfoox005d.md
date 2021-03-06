@@ -28,9 +28,9 @@ await => async.await[foo]
                 "kind": 2097233,
                 "expression": {
                     "kind": 67592,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [
                             {
                                 "kind": 89,
@@ -42,8 +42,6 @@ await => async.await[foo]
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 0,
                                     "end": 5
                                 },
@@ -56,8 +54,6 @@ await => async.await[foo]
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 5
                             }
@@ -68,15 +64,13 @@ await => async.await[foo]
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 5
                     },
                     "contents": {
-                        "kind": 74308,
+                        "kind": 66116,
                         "member": {
-                            "kind": 74424,
+                            "kind": 66232,
                             "member": {
                                 "kind": 196712,
                                 "text": "async",
@@ -84,8 +78,6 @@ await => async.await[foo]
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 14
                             },
@@ -96,18 +88,19 @@ await => async.await[foo]
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 20
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 14,
-                            "end": 20
+                            "end": 20,
+                            "period": {
+                                "kind": 254,
+                                "pos": 14,
+                                "end": 15
+                            }
                         },
                         "expression": {
                             "kind": 196712,
@@ -116,32 +109,24 @@ await => async.await[foo]
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 25
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 25
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
@@ -149,16 +134,12 @@ await => async.await[foo]
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -16,11 +16,11 @@ class Foo { private readonly foo; } // correct
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class Foo { readonly private foo; } // wrong\n\nclass Foo { private readonly foo; } // correct",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -28,11 +28,9 @@ class Foo { private readonly foo; } // correct
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 9
                 },
@@ -48,11 +46,9 @@ class Foo { private readonly foo; } // correct
                                 "kind": 196711,
                                 "text": "private",
                                 "rawText": "private",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 28
                             },
@@ -64,11 +60,9 @@ class Foo { private readonly foo; } // correct
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 28
                         },
@@ -78,11 +72,9 @@ class Foo { private readonly foo; } // correct
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 65538,
+                                "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 28,
                                 "end": 32
                             },
@@ -94,29 +86,23 @@ class Foo { private readonly foo; } // correct
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 28,
                             "end": 33
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 35
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 35
             },
@@ -126,11 +112,9 @@ class Foo { private readonly foo; } // correct
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 51,
                     "end": 55
                 },
@@ -146,11 +130,9 @@ class Foo { private readonly foo; } // correct
                                 "kind": 196711,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 74,
                                 "end": 78
                             },
@@ -165,44 +147,34 @@ class Foo { private readonly foo; } // correct
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 57,
                                 "end": 65
                             },
                             "isStatic": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 57,
                             "end": 79
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 57,
                     "end": 81
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 35,
                 "end": 81
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 81
     },
@@ -217,8 +189,6 @@ class Foo { private readonly foo; } // correct
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -232,22 +202,13 @@ class Foo { private readonly foo; } // correct
 
 
 ```javascript
-
-class Foo {
-    readonly private;
-    foo;
-}
-
-class Foo {
-    private readonly foo;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

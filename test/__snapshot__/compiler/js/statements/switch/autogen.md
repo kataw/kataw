@@ -166,3 +166,119 @@ switch[ #
 `````
 
 
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "switch case #",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 2097362,
+                "expression": {
+                    "kind": 131322,
+                    "text": "",
+                    "flags": 6,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 6,
+                    "end": 6
+                },
+                "caseBlock": {
+                    "kind": 2093,
+                    "clauses": [
+                        {
+                            "kind": 46,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "#",
+                                "rawText": "case",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 11,
+                                "end": 13
+                            },
+                            "statements": [],
+                            "flags": 2,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 6,
+                            "end": 13
+                        }
+                    ],
+                    "flags": 2,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 6,
+                    "end": 13
+                },
+                "flags": 2,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 13
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 2,
+        "intersects": false,
+        "start": 0,
+        "end": 13
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'(' expected.",
+            "start": 7,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 13,
+            "length": 1
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "':' expected.",
+            "start": 12,
+            "length": 0
+        }
+    ],
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 13
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
+

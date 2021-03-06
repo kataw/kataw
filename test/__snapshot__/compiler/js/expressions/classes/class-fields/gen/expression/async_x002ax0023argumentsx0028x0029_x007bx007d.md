@@ -33,8 +33,6 @@ class C extends Base { async *#arguments() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,8 +46,6 @@ class C extends Base { async *#arguments() {} }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 20
                     },
@@ -57,8 +53,6 @@ class C extends Base { async *#arguments() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 20
                 },
@@ -81,8 +75,6 @@ class C extends Base { async *#arguments() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 524288,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 40
                                 },
@@ -93,8 +85,6 @@ class C extends Base { async *#arguments() {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 41,
                                     "end": 42
                                 },
@@ -109,16 +99,12 @@ class C extends Base { async *#arguments() {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 44,
                                         "end": 44
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 42,
                                     "end": 45
                                 },
@@ -129,16 +115,12 @@ class C extends Base { async *#arguments() {} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097160,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 40,
                                 "end": 45
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 45
                         }
@@ -146,8 +128,6 @@ class C extends Base { async *#arguments() {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 47
                 },
@@ -155,8 +135,6 @@ class C extends Base { async *#arguments() {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 47
             }
@@ -164,16 +142,12 @@ class C extends Base { async *#arguments() {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 47
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

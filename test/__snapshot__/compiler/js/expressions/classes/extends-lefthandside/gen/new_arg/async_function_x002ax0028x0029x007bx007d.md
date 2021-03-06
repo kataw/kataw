@@ -38,8 +38,6 @@ new async function *(){}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 22
                         },
@@ -52,16 +50,12 @@ new async function *(){}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 24
                         },
@@ -70,8 +64,6 @@ new async function *(){}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 8,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 24
                     },
@@ -80,16 +72,12 @@ new async function *(){}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 32,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 24
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 24
             }
@@ -97,16 +85,12 @@ new async function *(){}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 24
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

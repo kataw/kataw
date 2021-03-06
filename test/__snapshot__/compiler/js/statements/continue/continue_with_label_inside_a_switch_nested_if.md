@@ -29,8 +29,6 @@ switch (x) { case x: if (foo) continue foo; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 9
                 },
@@ -46,8 +44,6 @@ switch (x) { case x: if (foo) continue foo; }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 19
                             },
@@ -61,8 +57,6 @@ switch (x) { case x: if (foo) continue foo; }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 28
                                     },
@@ -75,16 +69,12 @@ switch (x) { case x: if (foo) continue foo; }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 42
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 43
                                     },
@@ -93,8 +83,6 @@ switch (x) { case x: if (foo) continue foo; }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 43
                                 }
@@ -102,8 +90,6 @@ switch (x) { case x: if (foo) continue foo; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 43
                         }
@@ -111,16 +97,12 @@ switch (x) { case x: if (foo) continue foo; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 45
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 45
             }
@@ -128,16 +110,12 @@ switch (x) { case x: if (foo) continue foo; }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 45
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

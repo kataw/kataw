@@ -33,8 +33,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -71,8 +67,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 24,
                                                 "end": 28
                                             },
@@ -88,8 +82,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 41,
                                                     "end": 42
                                                 },
@@ -117,24 +109,18 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 55,
                                                                                         "end": 58
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 16393,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 50,
                                                                                     "end": 58
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 50,
                                                                                 "end": 58
                                                                             }
@@ -143,16 +129,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 50,
                                                                         "end": 58
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 48,
                                                                     "end": 59
                                                                 },
@@ -174,24 +156,18 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 74,
                                                                                         "end": 77
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 16393,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 69,
                                                                                     "end": 77
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 69,
                                                                                 "end": 78
                                                                             },
@@ -204,16 +180,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 85,
                                                                                     "end": 88
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 78,
                                                                                 "end": 88
                                                                             }
@@ -222,24 +194,18 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 69,
                                                                         "end": 88
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 67,
                                                                     "end": 89
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 44,
                                                                 "end": 89
                                                             }
@@ -248,16 +214,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 44,
                                                         "end": 89
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 42,
                                                     "end": 91
                                                 },
@@ -266,16 +228,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 128,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 30,
                                                 "end": 91
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 24,
                                             "end": 91
                                         }
@@ -283,16 +241,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                                     "flags": 16,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 91
                                 },
                                 "flags": 16,
                                 "intersects": false,
                                 "transformFlags": 769,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 92
                             }
@@ -301,16 +255,12 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 92
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 94
                 },
@@ -318,8 +268,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 94
             }
@@ -327,8 +275,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 95
     },
@@ -343,8 +289,6 @@ function not_gen() { let foo = function*() { try {yield 42} finally {yield 43; r
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

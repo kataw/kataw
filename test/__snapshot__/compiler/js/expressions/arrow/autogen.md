@@ -411,3 +411,105 @@ x = # ;
 `````js
 # ;
 `````
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "bar ? (#) : baz;",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 2097233,
+                "expression": {
+                    "kind": 65592,
+                    "shortCircuit": {
+                        "kind": 196712,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 0,
+                        "end": 3
+                    },
+                    "consequent": {
+                        "kind": 66224,
+                        "expression": {
+                            "kind": 196712,
+                            "text": "#",
+                            "rawText": "bar",
+                            "flags": 0,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 5,
+                        "end": 9
+                    },
+                    "alternate": {
+                        "kind": 196712,
+                        "text": "baz",
+                        "rawText": "baz",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 11,
+                        "end": 15
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 15
+                },
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 16
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 0,
+        "intersects": false,
+        "start": 0,
+        "end": 16
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [],
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 16
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
+

@@ -16,60 +16,21 @@ class Qux {}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "//// [accessorsEmit.ts]\n@sealed\nclass Qux {}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
-            {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": null,
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 81922,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 0,
-                "end": 25
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "sealed",
-                    "rawText": "sealed",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
-                    "start": 25,
-                    "end": 31
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
-                "start": 25,
-                "end": 31
-            },
             {
                 "kind": 48,
                 "name": {
                     "kind": 131102,
                     "text": "Qux",
                     "rawText": "Qux",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 37,
                     "end": 41
                 },
@@ -79,45 +40,56 @@ class Qux {}
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 43,
                     "end": 44
                 },
-                "decorators": null,
-                "flags": 81920,
+                "decorators": {
+                    "kind": 64,
+                    "decoratorList": [
+                        {
+                            "kind": 63,
+                            "expression": {
+                                "kind": 196712,
+                                "text": "sealed",
+                                "rawText": "sealed",
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 25,
+                                "end": 31
+                            },
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 2097152,
+                            "start": 25,
+                            "end": 31
+                        }
+                    ],
+                    "flags": 16384,
+                    "intersects": false,
+                    "transformFlags": 2097152,
+                    "start": 25,
+                    "end": 31
+                },
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
-                "start": 31,
+                "start": 0,
                 "end": 44
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 44
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 25,
-            "length": 0
-        }
-    ],
-    "parent": null,
-    "emitNode": null,
+    "diagnostics": [],
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -131,23 +103,13 @@ class Qux {}
 
 
 ```javascript
-
-export ;
-
-sealed
-
-class Qux {
-
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ The `export` keyword can only be used with the module goal - start: 1, end: 0
-@{x2716}@ Unexpected token. - start: 8, end: 0
 
 ```
 

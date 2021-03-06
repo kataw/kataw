@@ -19,11 +19,11 @@ function boo{
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function boo{\n   static test()\n   static test(name:string)\n   static test(name?:any){}\n}\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,11 +31,9 @@ function boo{
                     "kind": 131102,
                     "text": "boo",
                     "rawText": "boo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -43,11 +41,9 @@ function boo{
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 12
                 },
@@ -63,19 +59,15 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 23
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 23
                             },
@@ -87,11 +79,9 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 65538,
+                                        "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 23,
                                         "end": 28
                                     },
@@ -101,26 +91,20 @@ function boo{
                                         "elements": [],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 30,
                                         "end": 30
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 30
                             },
@@ -130,19 +114,15 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 40
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 40
                             },
@@ -154,11 +134,9 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 65538,
+                                        "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 45
                                     },
@@ -173,22 +151,18 @@ function boo{
                                                     "kind": 4325406,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 46,
                                                     "end": 50
                                                 },
                                                 "isOptional": false,
                                                 "type": {
-                                                    "kind": 4194510,
+                                                    "kind": 4202702,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 51,
                                                     "end": 57
                                                 },
@@ -196,37 +170,29 @@ function boo{
                                                 "decorators": null,
                                                 "accessModifier": null,
                                                 "isReadOnly": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 46,
                                                 "end": 57
                                             }
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 50,
                                         "end": 58
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 58
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 40,
                                 "end": 58
                             },
@@ -236,19 +202,15 @@ function boo{
                                     "kind": 196712,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 58,
                                     "end": 68
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 58,
                                 "end": 68
                             },
@@ -260,11 +222,9 @@ function boo{
                                         "kind": 196712,
                                         "text": "test",
                                         "rawText": "test",
-                                        "flags": 65538,
+                                        "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 68,
                                         "end": 73
                                     },
@@ -279,22 +239,18 @@ function boo{
                                                     "kind": 4325406,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 74,
                                                     "end": 78
                                                 },
                                                 "isOptional": true,
                                                 "type": {
-                                                    "kind": 4194306,
+                                                    "kind": 4202498,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 80,
                                                     "end": 83
                                                 },
@@ -305,34 +261,26 @@ function boo{
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 74,
                                                 "end": 83
                                             }
                                         ],
                                         "trailingComma": false,
                                         "transformFlags": 0,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 78,
                                         "end": 84
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 73,
                                     "end": 84
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 68,
                                 "end": 84
                             },
@@ -342,55 +290,43 @@ function boo{
                                     "kind": 2084,
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 85,
                                     "end": 85
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 84,
                                 "end": 86
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 13,
                         "end": 86
                     },
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 88
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 88
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 88
     },
@@ -433,8 +369,6 @@ function boo{
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -448,23 +382,13 @@ function boo{
 
 
 ```javascript
-
-function boo() {
-    static
-    test()
-    static
-    test(name: string)
-    static
-    test(name?: any)
-    {}
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

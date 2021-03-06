@@ -31,8 +31,6 @@ wrap({set [foo](a){}});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -48,7 +46,7 @@ wrap({set [foo](a){}});
                                         {
                                             "kind": 16844946,
                                             "name": {
-                                                "kind": 55,
+                                                "kind": 65591,
                                                 "expression": {
                                                     "kind": 196712,
                                                     "text": "foo",
@@ -56,16 +54,12 @@ wrap({set [foo](a){}});
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 11,
                                                     "end": 14
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 131073,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 9,
                                                 "end": 15
                                             },
@@ -82,8 +76,6 @@ wrap({set [foo](a){}});
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 16,
                                                             "end": 17
                                                         },
@@ -96,8 +88,6 @@ wrap({set [foo](a){}});
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 16,
                                                         "end": 17
                                                     }
@@ -106,8 +96,6 @@ wrap({set [foo](a){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 18
                                             },
@@ -122,16 +110,12 @@ wrap({set [foo](a){}});
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 19,
                                                     "end": 19
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 18,
                                                 "end": 20
                                             },
@@ -142,8 +126,6 @@ wrap({set [foo](a){}});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 15,
                                             "end": 20
                                         }
@@ -153,16 +135,12 @@ wrap({set [foo](a){}});
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 20
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 21
                             }
@@ -171,24 +149,18 @@ wrap({set [foo](a){}});
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 22
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             }
@@ -196,16 +168,12 @@ wrap({set [foo](a){}});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

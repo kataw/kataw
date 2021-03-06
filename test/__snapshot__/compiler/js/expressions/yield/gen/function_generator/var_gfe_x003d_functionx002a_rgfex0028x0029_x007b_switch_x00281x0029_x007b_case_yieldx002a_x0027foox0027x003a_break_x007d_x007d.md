@@ -33,8 +33,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -102,8 +94,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 43,
                                                                 "end": 47
                                                             },
@@ -118,8 +108,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 59,
                                                                     "end": 64
                                                                 },
@@ -130,8 +118,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 65,
                                                                     "end": 66
                                                                 },
@@ -149,8 +135,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 77,
                                                                                     "end": 78
                                                                                 },
@@ -163,22 +147,18 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                 "kind": 65785,
                                                                                                 "delegate": true,
                                                                                                 "expression": {
-                                                                                                    "kind": 67279,
+                                                                                                    "kind": 4261583,
                                                                                                     "text": "foo",
                                                                                                     "rawText": "foo",
                                                                                                     "flags": 16777216,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 93,
                                                                                                     "end": 99
                                                                                                 },
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 16393,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 86,
                                                                                                 "end": 99
                                                                                             },
@@ -189,8 +169,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 100,
                                                                                                     "end": 107
                                                                                                 }
@@ -198,8 +176,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 81,
                                                                                             "end": 107
                                                                                         }
@@ -207,16 +183,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 79,
                                                                                     "end": 109
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 68,
                                                                                 "end": 109
                                                                             }
@@ -225,16 +197,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 68,
                                                                         "end": 109
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 66,
                                                                     "end": 111
                                                                 },
@@ -243,16 +211,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 128,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 49,
                                                                 "end": 111
                                                             },
                                                             "flags": 43,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 0,
                                                             "end": 111
                                                         }
@@ -260,16 +224,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 43,
                                                     "end": 111
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 111
                                             }
@@ -278,16 +238,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 111
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 113
                                 },
@@ -295,8 +251,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 113
                             }
@@ -305,16 +259,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 113
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 114
                 },
@@ -322,8 +272,6 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 114
             }
@@ -331,16 +279,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 114
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

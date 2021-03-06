@@ -27,7 +27,7 @@ import(x,import(y))
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 54,
+                    "kind": 65590,
                     "expressions": [
                         {
                             "kind": 66156,
@@ -39,16 +39,12 @@ import(x,import(y))
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 262152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 8
                         },
@@ -62,16 +58,12 @@ import(x,import(y))
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 17
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 262152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 18
                         }
@@ -79,16 +71,12 @@ import(x,import(y))
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 18
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             }
@@ -96,8 +84,6 @@ import(x,import(y))
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 19
     },
@@ -119,8 +105,6 @@ import(x,import(y))
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

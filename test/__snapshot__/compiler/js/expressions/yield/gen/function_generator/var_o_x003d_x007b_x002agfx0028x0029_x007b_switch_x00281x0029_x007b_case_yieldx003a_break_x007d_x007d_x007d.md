@@ -33,8 +33,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -102,8 +94,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 43,
                                                                 "end": 45
                                                             },
@@ -123,8 +113,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 51,
                                                                                 "end": 53
                                                                             },
@@ -135,8 +123,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 54,
                                                                                 "end": 55
                                                                             },
@@ -156,8 +142,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 66,
                                                                                                 "end": 67
                                                                                             },
@@ -173,8 +157,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                             "flags": 0,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 16393,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 75,
                                                                                                             "end": 81
                                                                                                         },
@@ -185,8 +167,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                                 "flags": 0,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
                                                                                                                 "start": 82,
                                                                                                                 "end": 89
                                                                                                             }
@@ -194,8 +174,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                         "flags": 0,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 70,
                                                                                                         "end": 89
                                                                                                     }
@@ -203,16 +181,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 68,
                                                                                                 "end": 91
                                                                                             },
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 57,
                                                                                             "end": 91
                                                                                         }
@@ -221,16 +195,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 57,
                                                                                     "end": 91
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 55,
                                                                                 "end": 93
                                                                             },
@@ -241,8 +211,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 2097152,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 53,
                                                                             "end": 93
                                                                         }
@@ -252,24 +220,18 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 49,
                                                                     "end": 93
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 47,
                                                                 "end": 95
                                                             },
                                                             "flags": 43,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 0,
                                                             "end": 95
                                                         }
@@ -277,16 +239,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 43,
                                                     "end": 95
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 95
                                             }
@@ -295,16 +253,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 95
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 97
                                 },
@@ -312,8 +266,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 97
                             }
@@ -322,16 +274,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 97
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 98
                 },
@@ -339,8 +287,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 98
             }
@@ -348,16 +294,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 98
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

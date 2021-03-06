@@ -14,55 +14,49 @@ type X = A<import("").B<any>>;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "type X = A<import(\"\").B<any>>;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "X",
                     "rawText": "X",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 6
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 10
                     },
                     "typeArguments": {
-                        "kind": 227,
+                        "kind": 8419,
                         "typeArgumentsList": [
                             {
-                                "kind": 114,
+                                "kind": 8306,
                                 "isTypeOf": false,
                                 "argument": {
-                                    "kind": 208,
+                                    "kind": 8400,
                                     "value": "",
                                     "rawValue": "",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -70,84 +64,66 @@ type X = A<import("").B<any>>;
                                     "kind": 196711,
                                     "text": "B",
                                     "rawText": "B",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 23
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 4194306,
+                                            "kind": 4202498,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 24,
                                             "end": 27
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 27
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 28
                             }
                         ],
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 28
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 30
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -161,15 +137,13 @@ type X = A<import("").B<any>>;
 
 
 ```javascript
-
-type X = A<import("").B<any>>;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

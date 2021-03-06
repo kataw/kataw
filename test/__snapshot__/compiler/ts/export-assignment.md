@@ -27,7 +27,7 @@ export = foo;
         "kind": 150,
         "statements": [
             {
-                "kind": 75,
+                "kind": 8267,
                 "expression": {
                     "kind": 196712,
                     "text": "foo",
@@ -35,16 +35,12 @@ export = foo;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 13
             }
@@ -52,16 +48,12 @@ export = foo;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 13
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -75,15 +67,13 @@ export = foo;
 
 
 ```javascript
-
-
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

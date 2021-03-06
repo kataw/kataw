@@ -43,8 +43,6 @@ export const x
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 14
                                 },
@@ -54,8 +52,6 @@ export const x
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 14
                             }
@@ -63,16 +59,12 @@ export const x
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 14
                 },
@@ -83,8 +75,6 @@ export const x
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
@@ -92,16 +82,12 @@ export const x
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

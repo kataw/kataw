@@ -33,8 +33,6 @@ function* gf() { class C { *yield() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 12
                 },
@@ -45,8 +43,6 @@ function* gf() { class C { *yield() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -65,8 +61,6 @@ function* gf() { class C { *yield() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 24
                                 },
@@ -91,8 +85,6 @@ function* gf() { class C { *yield() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 28,
                                                     "end": 33
                                                 },
@@ -103,8 +95,6 @@ function* gf() { class C { *yield() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 34,
                                                     "end": 35
                                                 },
@@ -119,16 +109,12 @@ function* gf() { class C { *yield() { } } }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 37,
                                                         "end": 37
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 35,
                                                     "end": 39
                                                 },
@@ -139,16 +125,12 @@ function* gf() { class C { *yield() { } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 33,
                                                 "end": 39
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 39
                                         }
@@ -156,8 +138,6 @@ function* gf() { class C { *yield() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 41
                                 },
@@ -165,8 +145,6 @@ function* gf() { class C { *yield() { } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 41
                             }
@@ -175,16 +153,12 @@ function* gf() { class C { *yield() { } } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 41
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 43
                 },
@@ -192,8 +166,6 @@ function* gf() { class C { *yield() { } } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 43
             }
@@ -201,16 +173,12 @@ function* gf() { class C { *yield() { } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 43
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

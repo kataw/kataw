@@ -33,8 +33,6 @@ async function af(a, b = await a) { }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 17
                 },
@@ -51,8 +49,6 @@ async function af(a, b = await a) { }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 19
                             },
@@ -65,8 +61,6 @@ async function af(a, b = await a) { }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 19
                         },
@@ -80,8 +74,6 @@ async function af(a, b = await a) { }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 22
                             },
@@ -94,8 +86,6 @@ async function af(a, b = await a) { }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
                                 "end": 30
                             },
@@ -105,8 +95,6 @@ async function af(a, b = await a) { }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 30
                         },
@@ -120,8 +108,6 @@ async function af(a, b = await a) { }
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 32
                             },
@@ -134,8 +120,6 @@ async function af(a, b = await a) { }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 30,
                             "end": 32
                         }
@@ -144,8 +128,6 @@ async function af(a, b = await a) { }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 33
                 },
@@ -159,16 +141,12 @@ async function af(a, b = await a) { }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 35,
                         "end": 35
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 33,
                     "end": 37
                 },
@@ -176,8 +154,6 @@ async function af(a, b = await a) { }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 260,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 37
             }
@@ -185,8 +161,6 @@ async function af(a, b = await a) { }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 37
     },
@@ -201,8 +175,6 @@ async function af(a, b = await a) { }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

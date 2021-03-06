@@ -27,7 +27,7 @@ foo(async async => {}).bar
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 74424,
+                    "kind": 66232,
                     "member": {
                         "kind": 66091,
                         "expression": {
@@ -37,8 +37,6 @@ foo(async async => {}).bar
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 3
                         },
@@ -47,10 +45,10 @@ foo(async async => {}).bar
                             "kind": 3,
                             "elements": [
                                 {
-                                    "kind": 16,
+                                    "kind": 65552,
+                                    "typeParameters": null,
                                     "arrowParameters": {
                                         "kind": 65545,
-                                        "typeParameters": null,
                                         "elements": [
                                             {
                                                 "kind": 89,
@@ -62,8 +60,6 @@ foo(async async => {}).bar
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 9,
                                                     "end": 15
                                                 },
@@ -76,8 +72,6 @@ foo(async async => {}).bar
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 15,
                                                 "end": 15
                                             }
@@ -88,8 +82,6 @@ foo(async async => {}).bar
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 4,
                                         "end": 15
                                     },
@@ -102,24 +94,18 @@ foo(async async => {}).bar
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 18,
                                         "end": 21
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 4,
                                     "end": 21
                                 }
@@ -128,16 +114,12 @@ foo(async async => {}).bar
                             "transformFlags": 0,
                             "flags": 0,
                             "intersects": false,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 22
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 22
                     },
@@ -148,24 +130,23 @@ foo(async async => {}).bar
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 26
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
-                    "end": 26
+                    "end": 26,
+                    "period": {
+                        "kind": 254,
+                        "pos": 22,
+                        "end": 23
+                    }
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 26
             }
@@ -173,16 +154,12 @@ foo(async async => {}).bar
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 26
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

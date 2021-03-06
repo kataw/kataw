@@ -27,22 +27,18 @@
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 67279,
+                    "kind": 4261583,
                     "text": "use strict",
                     "rawText": "use strict",
                     "flags": 16777216,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 12
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 13
             },
@@ -69,8 +65,6 @@
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 19,
                                                 "end": 22
                                             },
@@ -84,8 +78,6 @@
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 26,
                                                     "end": 31
                                                 },
@@ -93,16 +85,12 @@
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 4097,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 31
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 19,
                                             "end": 31
                                         },
@@ -116,8 +104,6 @@
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 31,
                                                 "end": 33
                                             },
@@ -125,8 +111,6 @@
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 31,
                                             "end": 33
                                         }
@@ -136,16 +120,12 @@
                                     "transformFlags": 1025,
                                     "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 33
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 35
                             },
@@ -161,24 +141,18 @@
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 39,
                                     "end": 39
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 37,
                                 "end": 40
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 40
                         }
@@ -186,16 +160,12 @@
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 40
                 },
                 "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 13,
                 "end": 41
             }
@@ -203,8 +173,6 @@
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 41
     },
@@ -219,8 +187,6 @@
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

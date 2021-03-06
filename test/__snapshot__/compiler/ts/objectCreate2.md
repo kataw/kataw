@@ -22,11 +22,11 @@ var o = Object.create(<object>{});
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "\ndeclare var union: null | { a: number, b: string };\n\nvar n = Object.create(null);             // any\nvar t = Object.create({ a: 1, b: \"\" });  // {a: number, b: string }\nvar u = Object.create(union);            // {a: number, b: string }\nvar e = Object.create({});               // {}\nvar o = Object.create(<object>{});\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
@@ -39,130 +39,109 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "union",
                                 "rawText": "union",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 18
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 4194463,
+                                        "kind": 4202655,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 19,
                                         "end": 24
                                     },
                                     {
-                                        "kind": 230,
+                                        "kind": 8422,
                                         "objectTypeMembers": {
                                             "kind": 169,
                                             "members": [
                                                 {
-                                                    "kind": 188,
+                                                    "kind": 8380,
                                                     "name": {
                                                         "kind": 196711,
                                                         "text": "a",
                                                         "rawText": "a",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 28,
                                                         "end": 30
                                                     },
                                                     "isOptional": false,
                                                     "accessModifier": null,
                                                     "type": {
-                                                        "kind": 161,
+                                                        "kind": 4202657,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 31,
                                                         "end": 38
                                                     },
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 28,
                                                     "end": 39
                                                 },
                                                 {
-                                                    "kind": 188,
+                                                    "kind": 8380,
                                                     "name": {
                                                         "kind": 196711,
                                                         "text": "b",
                                                         "rawText": "b",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 39,
                                                         "end": 41
                                                     },
                                                     "isOptional": false,
                                                     "accessModifier": null,
                                                     "type": {
-                                                        "kind": 4194510,
+                                                        "kind": 4202702,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 42,
                                                         "end": 49
                                                     },
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 39,
                                                     "end": 49
                                                 }
                                             ],
-                                            "flags": 65536,
+                                            "multiline": false,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 28,
                                             "end": 51
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 26,
                                         "end": 51
                                     }
                                 ],
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 24,
                                 "end": 51
                             },
@@ -170,25 +149,19 @@ var o = Object.create(<object>{});
                             "flags": 12,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 51
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 51
                 },
-                "flags": 201408512,
+                "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 8,
                 "end": 52
             },
@@ -203,11 +176,9 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "n",
                                 "rawText": "n",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 57,
                                 "end": 59
                             },
@@ -216,16 +187,14 @@ var o = Object.create(<object>{});
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Object",
                                         "rawText": "Object",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 61,
                                         "end": 68
                                     },
@@ -233,21 +202,22 @@ var o = Object.create(<object>{});
                                         "kind": 196711,
                                         "text": "create",
                                         "rawText": "create",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 69,
                                         "end": 75
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 68,
-                                    "end": 75
+                                    "end": 75,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 68,
+                                        "end": 69
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
@@ -256,54 +226,42 @@ var o = Object.create(<object>{});
                                         {
                                             "kind": 4260512,
                                             "text": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 76,
                                             "end": 80
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 80,
                                     "end": 81
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 75,
                                 "end": 81
                             },
                             "flags": 57,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 81
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 57,
                     "end": 81
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 52,
                 "end": 82
             },
@@ -318,11 +276,9 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "t",
                                 "rawText": "t",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 105,
                                 "end": 107
                             },
@@ -331,16 +287,14 @@ var o = Object.create(<object>{});
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Object",
                                         "rawText": "Object",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 109,
                                         "end": 116
                                     },
@@ -348,21 +302,22 @@ var o = Object.create(<object>{});
                                         "kind": 196711,
                                         "text": "create",
                                         "rawText": "create",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 117,
                                         "end": 123
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 116,
-                                    "end": 123
+                                    "end": 123,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 116,
+                                        "end": 117
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
@@ -379,11 +334,9 @@ var o = Object.create(<object>{});
                                                             "kind": 196711,
                                                             "text": "a",
                                                             "rawText": "a",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 125,
                                                             "end": 127
                                                         },
@@ -391,21 +344,17 @@ var o = Object.create(<object>{});
                                                             "kind": 4261540,
                                                             "text": 1,
                                                             "rawText": "1",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 128,
                                                             "end": 130
                                                         },
                                                         "accessModifier": null,
                                                         "decorators": null,
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 125,
                                                         "end": 130
                                                     },
@@ -415,95 +364,75 @@ var o = Object.create(<object>{});
                                                             "kind": 196711,
                                                             "text": "b",
                                                             "rawText": "b",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 131,
                                                             "end": 133
                                                         },
                                                         "right": {
-                                                            "kind": 67279,
+                                                            "kind": 4261583,
                                                             "text": "",
                                                             "rawText": "",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 134,
                                                             "end": 137
                                                         },
                                                         "accessModifier": null,
                                                         "decorators": null,
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 131,
                                                         "end": 137
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "multiline": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 125,
                                                 "end": 137
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 124,
                                             "end": 139
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 125,
                                     "end": 140
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 123,
                                 "end": 140
                             },
                             "flags": 105,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 140
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 105,
                     "end": 140
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 82,
                 "end": 141
             },
@@ -518,11 +447,9 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "u",
                                 "rawText": "u",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 173,
                                 "end": 175
                             },
@@ -531,16 +458,14 @@ var o = Object.create(<object>{});
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Object",
                                         "rawText": "Object",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 177,
                                         "end": 184
                                     },
@@ -548,21 +473,22 @@ var o = Object.create(<object>{});
                                         "kind": 196711,
                                         "text": "create",
                                         "rawText": "create",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 185,
                                         "end": 191
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 184,
-                                    "end": 191
+                                    "end": 191,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 184,
+                                        "end": 185
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
@@ -572,54 +498,42 @@ var o = Object.create(<object>{});
                                             "kind": 196712,
                                             "text": "union",
                                             "rawText": "union",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 192,
                                             "end": 197
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 197,
                                     "end": 198
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 191,
                                 "end": 198
                             },
                             "flags": 173,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 198
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 173,
                     "end": 198
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 141,
                 "end": 199
             },
@@ -634,11 +548,9 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "e",
                                 "rawText": "e",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 241,
                                 "end": 243
                             },
@@ -647,16 +559,14 @@ var o = Object.create(<object>{});
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Object",
                                         "rawText": "Object",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 245,
                                         "end": 252
                                     },
@@ -664,21 +574,22 @@ var o = Object.create(<object>{});
                                         "kind": 196711,
                                         "text": "create",
                                         "rawText": "create",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 253,
                                         "end": 259
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 252,
-                                    "end": 259
+                                    "end": 259,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 252,
+                                        "end": 253
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
@@ -691,62 +602,48 @@ var o = Object.create(<object>{});
                                                 "properties": [],
                                                 "trailingComma": false,
                                                 "multiline": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 261,
                                                 "end": 261
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 260,
                                             "end": 262
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 261,
                                     "end": 263
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 259,
                                 "end": 263
                             },
                             "flags": 241,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 263
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 241,
                     "end": 263
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 199,
                 "end": 264
             },
@@ -761,11 +658,9 @@ var o = Object.create(<object>{});
                                 "kind": 131102,
                                 "text": "o",
                                 "rawText": "o",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 288,
                                 "end": 290
                             },
@@ -774,16 +669,14 @@ var o = Object.create(<object>{});
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Object",
                                         "rawText": "Object",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 292,
                                         "end": 299
                                     },
@@ -791,35 +684,34 @@ var o = Object.create(<object>{});
                                         "kind": 196711,
                                         "text": "create",
                                         "rawText": "create",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 300,
                                         "end": 306
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 299,
-                                    "end": 306
+                                    "end": 306,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 299,
+                                        "end": 300
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
                                     "kind": 3,
                                     "elements": [
                                         {
-                                            "kind": 228,
+                                            "kind": 73956,
                                             "type": {
-                                                "kind": 4194471,
+                                                "kind": 4202663,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 308,
                                                 "end": 314
                                             },
@@ -830,87 +722,67 @@ var o = Object.create(<object>{});
                                                     "properties": [],
                                                     "trailingComma": false,
                                                     "multiline": false,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 316,
                                                     "end": 316
                                                 },
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 315,
                                                 "end": 317
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 307,
                                             "end": 317
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 308,
                                     "end": 318
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 306,
                                 "end": 318
                             },
                             "flags": 288,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 318
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 288,
                     "end": 318
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 264,
                 "end": 319
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 319
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -924,28 +796,13 @@ var o = Object.create(<object>{});
 
 
 ```javascript
-
-declare var union: null | {
-    a: number;
-    b: string;
-};
-
-var n = Object.create(null);
-
-var t = Object.create({ a : 1, b : "" });
-
-var u = Object.create(union);
-
-var e = Object.create({ });
-
-var o = Object.create(<object>{ });
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

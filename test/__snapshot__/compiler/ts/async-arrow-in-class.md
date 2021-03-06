@@ -16,11 +16,11 @@ class Test {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class Test {\n    static member = async (x: string) => { };\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -28,11 +28,9 @@ class Test {
                     "kind": 131102,
                     "text": "Test",
                     "rawText": "Test",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 10
                 },
@@ -48,11 +46,9 @@ class Test {
                                 "kind": 196711,
                                 "text": "member",
                                 "rawText": "member",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 30
                             },
@@ -61,10 +57,10 @@ class Test {
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 16,
+                                "kind": 65552,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": null,
                                     "elements": [
                                         {
                                             "kind": 89,
@@ -73,22 +69,18 @@ class Test {
                                                 "kind": 4325406,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 41
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 42,
                                                 "end": 49
                                             },
@@ -96,11 +88,9 @@ class Test {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 40,
                                             "end": 49
                                         }
@@ -111,8 +101,6 @@ class Test {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 41,
                                     "end": 50
                                 },
@@ -122,73 +110,57 @@ class Test {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 55,
                                         "end": 55
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 53,
                                     "end": 57
                                 },
-                                "flags": 536936448,
+                                "flags": 536870912,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 57
                             },
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 58
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 60
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 60
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 60
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -202,17 +174,13 @@ class Test {
 
 
 ```javascript
-
-class Test {
-    static member = async (x: string) =>  { };
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

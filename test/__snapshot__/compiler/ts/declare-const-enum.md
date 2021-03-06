@@ -14,60 +14,50 @@ declare const enum E {}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare const enum E {}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 71,
+                "kind": 8263,
                 "name": {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 20
                 },
                 "members": {
-                    "kind": 73,
+                    "kind": 8265,
                     "enumMembersList": [],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 22
                 },
                 "isConst": true,
-                "flags": 201392128,
+                "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 23
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -81,16 +71,13 @@ declare const enum E {}
 
 
 ```javascript
-
-declare const enum E {
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

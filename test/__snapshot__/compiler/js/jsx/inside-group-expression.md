@@ -40,8 +40,6 @@ var el = ( <span /> )
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 6
                             },
@@ -57,8 +55,6 @@ var el = ( <span /> )
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8192,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 12,
                                         "end": 16
                                     },
@@ -68,8 +64,6 @@ var el = ( <span /> )
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 8192,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 16,
                                         "end": 16
                                     },
@@ -77,24 +71,18 @@ var el = ( <span /> )
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 8192,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 10,
                                     "end": 19
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 21
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 21
                         }
@@ -102,16 +90,12 @@ var el = ( <span /> )
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 21
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -119,16 +103,12 @@ var el = ( <span /> )
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

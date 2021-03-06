@@ -35,16 +35,12 @@ catch =! class function try while with foo! finally
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 0
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 0
                 },
@@ -60,24 +56,18 @@ catch =! class function try while with foo! finally
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 5
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 5
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 16,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 5
                 },
@@ -85,8 +75,6 @@ catch =! class function try while with foo! finally
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 16,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 5
             },
@@ -107,8 +95,6 @@ catch =! class function try while with foo! finally
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 8
                         },
@@ -116,24 +102,18 @@ catch =! class function try while with foo! finally
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 7,
                     "end": 14
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 14
             },
@@ -146,8 +126,6 @@ catch =! class function try while with foo! finally
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 23
                 },
@@ -158,8 +136,6 @@ catch =! class function try while with foo! finally
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 23
                 },
@@ -177,15 +153,13 @@ catch =! class function try while with foo! finally
                                     "flags": 6,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 33
                                 },
                                 "statement": {
                                     "kind": 2097400,
                                     "expression": {
-                                        "kind": 66206,
+                                        "kind": 74398,
                                         "expression": {
                                             "kind": 196712,
                                             "text": "foo",
@@ -193,16 +167,12 @@ catch =! class function try while with foo! finally
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 42
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 42,
                                         "end": 43
                                     },
@@ -217,16 +187,12 @@ catch =! class function try while with foo! finally
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 43,
                                                 "end": 43
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 43,
                                             "end": 43
                                         },
@@ -240,40 +206,30 @@ catch =! class function try while with foo! finally
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 51,
                                                 "end": 51
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 51,
                                             "end": 51
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 43,
                                         "end": 51
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 51
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 51
                             }
@@ -282,16 +238,12 @@ catch =! class function try while with foo! finally
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 27,
                         "end": 51
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 51
                 },
@@ -299,8 +251,6 @@ catch =! class function try while with foo! finally
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 14,
                 "end": 51
             }
@@ -308,8 +258,6 @@ catch =! class function try while with foo! finally
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 51
     },
@@ -366,8 +314,6 @@ catch =! class function try while with foo! finally
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -16,11 +16,11 @@ const fn = function* <T>(input: T): Generator<number> {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "const fn = function* <T>(input: T): Generator<number> {\n  yield 2;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -34,11 +34,9 @@ const fn = function* <T>(input: T): Generator<number> {
                                 "kind": 131102,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 8
                             },
@@ -57,35 +55,29 @@ const fn = function* <T>(input: T): Generator<number> {
                                                 "kind": 131102,
                                                 "text": "input",
                                                 "rawText": "input",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 30
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
                                                     "kind": 196711,
                                                     "text": "T",
                                                     "rawText": "T",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 33
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 31,
                                                 "end": 34
                                             },
@@ -93,21 +85,17 @@ const fn = function* <T>(input: T): Generator<number> {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 25,
                                             "end": 33
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
                                     "end": 34
                                 },
@@ -125,176 +113,140 @@ const fn = function* <T>(input: T): Generator<number> {
                                                         "kind": 4261540,
                                                         "text": 2,
                                                         "rawText": "2",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 63,
                                                         "end": 65
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 16393,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 55,
                                                     "end": 65
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 55,
                                                 "end": 66
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 55,
                                         "end": 66
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 53,
                                     "end": 68
                                 },
                                 "typeParameters": {
-                                    "kind": 233,
+                                    "kind": 8425,
                                     "typeParameterList": [
                                         {
-                                            "kind": 232,
+                                            "kind": 8424,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "T",
                                                 "rawText": "T",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 23
                                             },
                                             "constraint": null,
                                             "defaultType": null,
                                             "expression": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 22,
                                             "end": 23
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 23
                                 },
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "Generator",
                                         "rawText": "Generator",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 45
                                     },
                                     "typeArguments": {
-                                        "kind": 227,
+                                        "kind": 8419,
                                         "typeArgumentsList": [
                                             {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 46,
                                                 "end": 52
                                             }
                                         ],
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 46,
                                         "end": 52
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 55
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 128,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
                                 "end": 68
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 68
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 68
                 },
-                "flags": 65552,
+                "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 68
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 68
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -308,17 +260,13 @@ const fn = function* <T>(input: T): Generator<number> {
 
 
 ```javascript
-
-const fn =  function* <T>(input: T): Generator<number> {
-    yield 2
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

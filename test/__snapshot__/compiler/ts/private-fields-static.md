@@ -17,11 +17,11 @@ class A {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class A {\n  static #x;\n  static #y: string;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -29,11 +29,9 @@ class A {
                     "kind": 131102,
                     "text": "A",
                     "rawText": "A",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -49,11 +47,9 @@ class A {
                                 "kind": 196711,
                                 "text": "#x",
                                 "rawText": "#x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 21
                             },
@@ -65,11 +61,9 @@ class A {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 22
                         },
@@ -79,11 +73,9 @@ class A {
                                 "kind": 196711,
                                 "text": "#y",
                                 "rawText": "#y",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 34
                             },
@@ -91,12 +83,10 @@ class A {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 35,
                                 "end": 42
                             },
@@ -104,46 +94,36 @@ class A {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 43
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 45
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 45
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 45
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -157,18 +137,13 @@ class A {
 
 
 ```javascript
-
-class A {
-    static #x;
-    static #y: string;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

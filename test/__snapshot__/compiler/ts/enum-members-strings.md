@@ -17,63 +17,55 @@ enum E {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "enum E {\n    \"foo\",\n    \"bar\" = 1\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 71,
+                "kind": 8263,
                 "name": {
                     "kind": 196712,
                     "text": "E",
                     "rawText": "E",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 6
                 },
                 "members": {
-                    "kind": 73,
+                    "kind": 8265,
                     "enumMembersList": [
                         {
-                            "kind": 72,
+                            "kind": 8264,
                             "name": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 18
                             },
                             "initializer": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 18
                         },
                         {
-                            "kind": 72,
+                            "kind": 8264,
                             "name": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 29
                             },
@@ -81,54 +73,42 @@ enum E {
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 33
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 33
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 33
                 },
                 "isConst": false,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 35
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 35
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -142,18 +122,13 @@ enum E {
 
 
 ```javascript
-
-enum E {
-    "foo",
-    "bar" = 1
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -47,7 +47,7 @@ export default class Operation {
         "kind": 150,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "IValidationError",
@@ -55,8 +55,6 @@ export default class Operation {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 33
                 },
@@ -66,7 +64,7 @@ export default class Operation {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "message",
@@ -74,20 +72,16 @@ export default class Operation {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 35,
                                 "end": 47
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 48,
                                 "end": 55
                             },
@@ -97,25 +91,20 @@ export default class Operation {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 35,
                             "end": 56
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 35,
                     "end": 56
                 },
                 "flags": 81952,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 58
             },
@@ -130,8 +119,6 @@ export default class Operation {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 80,
                         "end": 90
                     },
@@ -156,8 +143,6 @@ export default class Operation {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 92,
                                         "end": 115
                                     },
@@ -174,19 +159,15 @@ export default class Operation {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 116,
                                                     "end": 131
                                                 },
                                                 "isOptional": false,
                                                 "type": {
-                                                    "kind": 4194306,
+                                                    "kind": 4202498,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 132,
                                                     "end": 136
                                                 },
@@ -197,8 +178,6 @@ export default class Operation {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 116,
                                                 "end": 136
                                             }
@@ -207,8 +186,6 @@ export default class Operation {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 116,
                                         "end": 137
                                     },
@@ -234,19 +211,17 @@ export default class Operation {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 179,
                                                                     "end": 186
                                                                 },
                                                                 "exclamation": false,
                                                                 "type": {
-                                                                    "kind": 240,
+                                                                    "kind": 8432,
                                                                     "types": [
                                                                         {
-                                                                            "kind": 7,
+                                                                            "kind": 8199,
                                                                             "elementType": {
-                                                                                "kind": 236,
+                                                                                "kind": 8428,
                                                                                 "typeName": {
                                                                                     "kind": 196711,
                                                                                     "text": "IValidationError",
@@ -254,8 +229,6 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 187,
                                                                                     "end": 204
                                                                                 },
@@ -263,26 +236,20 @@ export default class Operation {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 2097152,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 187,
                                                                                 "end": 205
                                                                             },
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 2097152,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 187,
                                                                             "end": 208
                                                                         },
                                                                         {
-                                                                            "kind": 4194463,
+                                                                            "kind": 4202655,
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 2097152,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 208,
                                                                             "end": 213
                                                                         }
@@ -290,8 +257,6 @@ export default class Operation {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 206,
                                                                     "end": 213
                                                                 },
@@ -301,16 +266,12 @@ export default class Operation {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 215,
                                                                     "end": 220
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 179,
                                                                 "end": 220
                                                             }
@@ -318,16 +279,12 @@ export default class Operation {
                                                         "flags": 65552,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 179,
                                                         "end": 220
                                                     },
                                                     "flags": 81936,
                                                     "intersects": false,
                                                     "transformFlags": 769,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 167,
                                                     "end": 221
                                                 },
@@ -348,8 +305,6 @@ export default class Operation {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 1025,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 239,
                                                                         "end": 257
                                                                     },
@@ -359,8 +314,6 @@ export default class Operation {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 239,
                                                                     "end": 257
                                                                 }
@@ -368,23 +321,19 @@ export default class Operation {
                                                             "flags": 65552,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 239,
                                                             "end": 257
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 256,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 234,
                                                         "end": 257
                                                     },
                                                     "expression": {
                                                         "kind": 66091,
                                                         "expression": {
-                                                            "kind": 74424,
+                                                            "kind": 66232,
                                                             "member": {
                                                                 "kind": 196712,
                                                                 "text": "Object",
@@ -392,8 +341,6 @@ export default class Operation {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 260,
                                                                 "end": 267
                                                             },
@@ -404,18 +351,19 @@ export default class Operation {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 268,
                                                                 "end": 272
                                                             },
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 267,
-                                                            "end": 272
+                                                            "end": 272,
+                                                            "period": {
+                                                                "kind": 254,
+                                                                "pos": 267,
+                                                                "end": 268
+                                                            }
                                                         },
                                                         "typeArguments": null,
                                                         "argumentList": {
@@ -428,8 +376,6 @@ export default class Operation {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 273,
                                                                     "end": 288
                                                                 }
@@ -438,16 +384,12 @@ export default class Operation {
                                                             "transformFlags": 0,
                                                             "flags": 65536,
                                                             "intersects": false,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 288,
                                                             "end": 289
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 272,
                                                         "end": 289
                                                     },
@@ -471,63 +413,51 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 310,
                                                                                     "end": 320
                                                                                 },
                                                                                 "exclamation": false,
                                                                                 "type": {
-                                                                                    "kind": 4194306,
+                                                                                    "kind": 4202498,
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 2097152,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 321,
                                                                                     "end": 325
                                                                                 },
                                                                                 "initializer": {
                                                                                     "kind": 66091,
                                                                                     "expression": {
-                                                                                        "kind": 74424,
+                                                                                        "kind": 66232,
                                                                                         "member": {
                                                                                             "kind": 66224,
                                                                                             "expression": {
-                                                                                                "kind": 65546,
+                                                                                                "kind": 73738,
                                                                                                 "expression": {
                                                                                                     "kind": 4260571,
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 329,
                                                                                                     "end": 333
                                                                                                 },
                                                                                                 "type": {
-                                                                                                    "kind": 4194306,
+                                                                                                    "kind": 4202498,
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 2097152,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 336,
                                                                                                     "end": 340
                                                                                                 },
                                                                                                 "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 2097152,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 333,
                                                                                                 "end": 340
                                                                                             },
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 327,
                                                                                             "end": 341
                                                                                         },
@@ -538,18 +468,19 @@ export default class Operation {
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 342,
                                                                                             "end": 354
                                                                                         },
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 341,
-                                                                                        "end": 354
+                                                                                        "end": 354,
+                                                                                        "period": {
+                                                                                            "kind": 254,
+                                                                                            "pos": 341,
+                                                                                            "end": 342
+                                                                                        }
                                                                                     },
                                                                                     "typeArguments": null,
                                                                                     "argumentList": {
@@ -559,24 +490,18 @@ export default class Operation {
                                                                                         "transformFlags": 0,
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 356,
                                                                                         "end": 356
                                                                                     },
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 354,
                                                                                     "end": 356
                                                                                 },
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 310,
                                                                                 "end": 356
                                                                             }
@@ -584,16 +509,12 @@ export default class Operation {
                                                                         "flags": 65552,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 310,
                                                                         "end": 356
                                                                     },
                                                                     "flags": 81936,
                                                                     "intersects": false,
                                                                     "transformFlags": 769,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 292,
                                                                     "end": 357
                                                                 },
@@ -602,8 +523,6 @@ export default class Operation {
                                                                     "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 357,
                                                                     "end": 358
                                                                 },
@@ -622,8 +541,6 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 376,
                                                                                     "end": 383
                                                                                 },
@@ -632,44 +549,36 @@ export default class Operation {
                                                                                 "initializer": {
                                                                                     "kind": 66091,
                                                                                     "expression": {
-                                                                                        "kind": 74424,
+                                                                                        "kind": 66232,
                                                                                         "member": {
                                                                                             "kind": 66224,
                                                                                             "expression": {
-                                                                                                "kind": 65546,
+                                                                                                "kind": 73738,
                                                                                                 "expression": {
                                                                                                     "kind": 4260571,
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 387,
                                                                                                     "end": 391
                                                                                                 },
                                                                                                 "type": {
-                                                                                                    "kind": 4194306,
+                                                                                                    "kind": 4202498,
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 2097152,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 394,
                                                                                                     "end": 398
                                                                                                 },
                                                                                                 "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 2097152,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 391,
                                                                                                 "end": 398
                                                                                             },
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 385,
                                                                                             "end": 399
                                                                                         },
@@ -680,18 +589,19 @@ export default class Operation {
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 400,
                                                                                             "end": 409
                                                                                         },
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 399,
-                                                                                        "end": 409
+                                                                                        "end": 409,
+                                                                                        "period": {
+                                                                                            "kind": 254,
+                                                                                            "pos": 399,
+                                                                                            "end": 400
+                                                                                        }
                                                                                     },
                                                                                     "typeArguments": null,
                                                                                     "argumentList": {
@@ -701,24 +611,18 @@ export default class Operation {
                                                                                         "transformFlags": 0,
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 411,
                                                                                         "end": 411
                                                                                     },
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 409,
                                                                                     "end": 411
                                                                                 },
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 376,
                                                                                 "end": 411
                                                                             }
@@ -726,16 +630,12 @@ export default class Operation {
                                                                         "flags": 65552,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 376,
                                                                         "end": 411
                                                                     },
                                                                     "flags": 81936,
                                                                     "intersects": false,
                                                                     "transformFlags": 769,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 358,
                                                                     "end": 412
                                                                 },
@@ -754,8 +654,6 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 431,
                                                                                     "end": 443
                                                                                 },
@@ -764,7 +662,7 @@ export default class Operation {
                                                                                 "initializer": {
                                                                                     "kind": 66091,
                                                                                     "expression": {
-                                                                                        "kind": 74424,
+                                                                                        "kind": 66232,
                                                                                         "member": {
                                                                                             "kind": 196712,
                                                                                             "text": "parameter",
@@ -772,8 +670,6 @@ export default class Operation {
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 445,
                                                                                             "end": 455
                                                                                         },
@@ -784,25 +680,26 @@ export default class Operation {
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 456,
                                                                                             "end": 464
                                                                                         },
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 455,
-                                                                                        "end": 464
+                                                                                        "end": 464,
+                                                                                        "period": {
+                                                                                            "kind": 254,
+                                                                                            "pos": 455,
+                                                                                            "end": 456
+                                                                                        }
                                                                                     },
                                                                                     "typeArguments": null,
                                                                                     "argumentList": {
                                                                                         "kind": 3,
                                                                                         "elements": [
                                                                                             {
-                                                                                                "kind": 74308,
+                                                                                                "kind": 66116,
                                                                                                 "member": {
                                                                                                     "kind": 196712,
                                                                                                     "text": "values",
@@ -810,15 +707,13 @@ export default class Operation {
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 465,
                                                                                                     "end": 471
                                                                                                 },
                                                                                                 "expression": {
-                                                                                                    "kind": 74424,
+                                                                                                    "kind": 66232,
                                                                                                     "member": {
-                                                                                                        "kind": 74424,
+                                                                                                        "kind": 66232,
                                                                                                         "member": {
                                                                                                             "kind": 196712,
                                                                                                             "text": "parameter",
@@ -826,8 +721,6 @@ export default class Operation {
                                                                                                             "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 472,
                                                                                                             "end": 481
                                                                                                         },
@@ -838,18 +731,19 @@ export default class Operation {
                                                                                                             "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 482,
                                                                                                             "end": 493
                                                                                                         },
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 481,
-                                                                                                        "end": 493
+                                                                                                        "end": 493,
+                                                                                                        "period": {
+                                                                                                            "kind": 254,
+                                                                                                            "pos": 481,
+                                                                                                            "end": 482
+                                                                                                        }
                                                                                                     },
                                                                                                     "expression": {
                                                                                                         "kind": 196711,
@@ -858,24 +752,23 @@ export default class Operation {
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 494,
                                                                                                         "end": 498
                                                                                                     },
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 493,
-                                                                                                    "end": 498
+                                                                                                    "end": 498,
+                                                                                                    "period": {
+                                                                                                        "kind": 254,
+                                                                                                        "pos": 493,
+                                                                                                        "end": 494
+                                                                                                    }
                                                                                                 },
                                                                                                 "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 471,
                                                                                                 "end": 499
                                                                                             }
@@ -884,24 +777,18 @@ export default class Operation {
                                                                                         "transformFlags": 0,
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 471,
                                                                                         "end": 500
                                                                                     },
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 464,
                                                                                     "end": 500
                                                                                 },
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 431,
                                                                                 "end": 500
                                                                             }
@@ -909,16 +796,12 @@ export default class Operation {
                                                                         "flags": 65552,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 431,
                                                                         "end": 500
                                                                     },
                                                                     "flags": 81936,
                                                                     "intersects": false,
                                                                     "transformFlags": 769,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 412,
                                                                     "end": 501
                                                                 },
@@ -933,8 +816,6 @@ export default class Operation {
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 517,
                                                                             "end": 528
                                                                         },
@@ -942,7 +823,7 @@ export default class Operation {
                                                                         "right": {
                                                                             "kind": 65563,
                                                                             "left": {
-                                                                                "kind": 74424,
+                                                                                "kind": 66232,
                                                                                 "member": {
                                                                                     "kind": 196712,
                                                                                     "text": "innerResult",
@@ -950,8 +831,6 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 531,
                                                                                     "end": 543
                                                                                 },
@@ -962,18 +841,19 @@ export default class Operation {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 544,
                                                                                     "end": 550
                                                                                 },
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 543,
-                                                                                "end": 550
+                                                                                "end": 550,
+                                                                                "period": {
+                                                                                    "kind": 254,
+                                                                                    "pos": 543,
+                                                                                    "end": 544
+                                                                                }
                                                                             },
                                                                             "operator": ">",
                                                                             "right": {
@@ -983,24 +863,18 @@ export default class Operation {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 552,
                                                                                 "end": 554
                                                                             },
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 550,
                                                                             "end": 554
                                                                         },
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 517,
                                                                         "end": 554
                                                                     },
@@ -1020,8 +894,6 @@ export default class Operation {
                                                                                             "flags": 81920,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 557,
                                                                                             "end": 646
                                                                                         },
@@ -1029,7 +901,7 @@ export default class Operation {
                                                                                         "right": {
                                                                                             "kind": 66091,
                                                                                             "expression": {
-                                                                                                "kind": 74424,
+                                                                                                "kind": 66232,
                                                                                                 "member": {
                                                                                                     "kind": 66224,
                                                                                                     "expression": {
@@ -1041,8 +913,6 @@ export default class Operation {
                                                                                                             "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 650,
                                                                                                             "end": 656
                                                                                                         },
@@ -1057,32 +927,24 @@ export default class Operation {
                                                                                                                 "flags": 65536,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
                                                                                                                 "start": 661,
                                                                                                                 "end": 661
                                                                                                             },
                                                                                                             "flags": 65536,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 659,
                                                                                                             "end": 662
                                                                                                         },
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 648,
                                                                                                         "end": 662
                                                                                                     },
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 648,
                                                                                                     "end": 663
                                                                                                 },
@@ -1093,18 +955,19 @@ export default class Operation {
                                                                                                     "flags": 65536,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 664,
                                                                                                     "end": 670
                                                                                                 },
                                                                                                 "flags": 65536,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 663,
-                                                                                                "end": 670
+                                                                                                "end": 670,
+                                                                                                "period": {
+                                                                                                    "kind": 254,
+                                                                                                    "pos": 663,
+                                                                                                    "end": 664
+                                                                                                }
                                                                                             },
                                                                                             "typeArguments": null,
                                                                                             "argumentList": {
@@ -1117,8 +980,6 @@ export default class Operation {
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 671,
                                                                                                         "end": 682
                                                                                                     }
@@ -1127,32 +988,24 @@ export default class Operation {
                                                                                                 "transformFlags": 0,
                                                                                                 "flags": 65536,
                                                                                                 "intersects": false,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 682,
                                                                                                 "end": 683
                                                                                             },
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 670,
                                                                                             "end": 683
                                                                                         },
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 557,
                                                                                         "end": 683
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 557,
                                                                                     "end": 684
                                                                                 }
@@ -1161,16 +1014,12 @@ export default class Operation {
                                                                             "flags": 81920,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 557,
                                                                             "end": 684
                                                                         },
                                                                         "flags": 81920,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 555,
                                                                         "end": 698
                                                                     },
@@ -1179,8 +1028,6 @@ export default class Operation {
                                                                     "flags": 81920,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 501,
                                                                     "end": 698
                                                                 }
@@ -1189,16 +1036,12 @@ export default class Operation {
                                                             "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 292,
                                                             "end": 698
                                                         },
                                                         "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 290,
                                                         "end": 708
                                                     },
@@ -1206,8 +1049,6 @@ export default class Operation {
                                                     "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 221,
                                                     "end": 708
                                                 },
@@ -1220,16 +1061,12 @@ export default class Operation {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 724,
                                                         "end": 731
                                                     },
                                                     "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 708,
                                                     "end": 732
                                                 }
@@ -1238,27 +1075,23 @@ export default class Operation {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 167,
                                             "end": 732
                                         },
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 165,
                                         "end": 738
                                     },
                                     "decorators": null,
                                     "type": {
-                                        "kind": 240,
+                                        "kind": 8432,
                                         "types": [
                                             {
-                                                "kind": 7,
+                                                "kind": 8199,
                                                 "elementType": {
-                                                    "kind": 236,
+                                                    "kind": 8428,
                                                     "typeName": {
                                                         "kind": 196711,
                                                         "text": "IValidationError",
@@ -1266,8 +1099,6 @@ export default class Operation {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 139,
                                                         "end": 156
                                                     },
@@ -1275,26 +1106,20 @@ export default class Operation {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 139,
                                                     "end": 157
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 139,
                                                 "end": 160
                                             },
                                             {
-                                                "kind": 4194463,
+                                                "kind": 4202655,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 160,
                                                 "end": 165
                                             }
@@ -1302,8 +1127,6 @@ export default class Operation {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 158,
                                         "end": 165
                                     },
@@ -1312,16 +1135,12 @@ export default class Operation {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 115,
                                     "end": 738
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 92,
                                 "end": 738
                             }
@@ -1329,8 +1148,6 @@ export default class Operation {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 92,
                         "end": 740
                     },
@@ -1338,16 +1155,12 @@ export default class Operation {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 74,
                     "end": 740
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 58,
                 "end": 740
             }
@@ -1355,16 +1168,12 @@ export default class Operation {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 740
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1378,34 +1187,13 @@ export default class Operation {
 
 
 ```javascript
-
-export interface IValidationError {
-    message: string;
-}
-
-export default class Operation {
-    validateParameters(parameterValues: any): IValidationError[] | null {
-        let result: IValidationError[] | null = null;
-        for (const parameterLocation; of Object.keys(parameterValues)) {
-            const parameter: any = (this as any).getParameter();
-            ;
-            const values = (this as any).getValues();
-            const innerResult = parameter.validate(values[parameter.oaParameter.name]);
-            if (innerResult && innerResult.length > 0) {
-                result = (result || []).concat(innerResult)
-            }
-        }
-        return result;
-    }
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ ';' expected. - start: 263, end: 0
 
 ```
 

@@ -19,11 +19,11 @@ class Foo {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class Foo {\n  isBar(): this is string {\n  }\n  isBaz = (): this is string => {\n  }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -31,11 +31,9 @@ class Foo {
                     "kind": 131102,
                     "text": "Foo",
                     "rawText": "Foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 9
                 },
@@ -57,11 +55,9 @@ class Foo {
                                     "kind": 196711,
                                     "text": "isBar",
                                     "rawText": "isBar",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 19
                                 },
@@ -69,11 +65,9 @@ class Foo {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -85,71 +79,57 @@ class Foo {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 39
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 43
                                 },
                                 "decorators": null,
                                 "type": {
-                                    "kind": 234,
+                                    "kind": 8426,
                                     "asserts": false,
                                     "parameterName": {
                                         "kind": 196712,
                                         "text": "this",
                                         "rawText": "this",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 22,
                                         "end": 27
                                     },
                                     "type": {
-                                        "kind": 4194510,
+                                        "kind": 4202702,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 30,
                                         "end": 37
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 37
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 43
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 43
                         },
@@ -159,11 +139,9 @@ class Foo {
                                 "kind": 196711,
                                 "text": "isBaz",
                                 "rawText": "isBaz",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 43,
                                 "end": 51
                             },
@@ -173,40 +151,34 @@ class Foo {
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": {
-                                        "kind": 234,
+                                        "kind": 8426,
                                         "asserts": false,
                                         "parameterName": {
                                             "kind": 196712,
                                             "text": "this",
                                             "rawText": "this",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 57,
                                             "end": 62
                                         },
                                         "type": {
-                                            "kind": 4194510,
+                                            "kind": 4202702,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 65,
                                             "end": 72
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 57,
                                         "end": 72
                                     },
@@ -215,8 +187,6 @@ class Foo {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 53,
                                     "end": 53
                                 },
@@ -226,73 +196,57 @@ class Foo {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 77,
                                         "end": 77
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 75,
                                     "end": 81
                                 },
-                                "flags": 536952832,
+                                "flags": 536887296,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 53,
                                 "end": 81
                             },
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 43,
                             "end": 81
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 83
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 83
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 83
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -306,20 +260,13 @@ class Foo {
 
 
 ```javascript
-
-class Foo {
-    isBar(): this is string {
-    }
-    isBaz = () =>  {
-    };
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

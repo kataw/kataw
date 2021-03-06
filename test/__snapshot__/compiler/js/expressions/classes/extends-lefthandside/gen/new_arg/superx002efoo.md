@@ -29,14 +29,12 @@ new super.foo
                 "expression": {
                     "kind": 66204,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 4260561,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 9
                         },
@@ -47,34 +45,31 @@ new super.foo
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 9,
-                        "end": 13
+                        "end": 13,
+                        "period": {
+                            "kind": 254,
+                            "pos": 9,
+                            "end": 10
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 32,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 13
             }
@@ -82,16 +77,12 @@ new super.foo
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 13
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

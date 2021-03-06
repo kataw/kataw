@@ -31,8 +31,6 @@ wrap({'a':b, 'c':d});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -48,14 +46,12 @@ wrap({'a':b, 'c':d});
                                         {
                                             "kind": 65721,
                                             "left": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 16777216,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 6,
                                                 "end": 9
                                             },
@@ -66,8 +62,6 @@ wrap({'a':b, 'c':d});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -76,22 +70,18 @@ wrap({'a':b, 'c':d});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 6,
                                             "end": 11
                                         },
                                         {
                                             "kind": 65721,
                                             "left": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 16777216,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 12,
                                                 "end": 16
                                             },
@@ -102,8 +92,6 @@ wrap({'a':b, 'c':d});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -112,8 +100,6 @@ wrap({'a':b, 'c':d});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 12,
                                             "end": 18
                                         }
@@ -123,16 +109,12 @@ wrap({'a':b, 'c':d});
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 18
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 19
                             }
@@ -141,24 +123,18 @@ wrap({'a':b, 'c':d});
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 20
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -166,16 +142,12 @@ wrap({'a':b, 'c':d});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -23,10 +23,10 @@ async () => { \u{61}wait: x }
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 16,
+                    "kind": 65552,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": null,
                         "elements": [],
                         "type": null,
                         "accessModifier": null,
@@ -34,8 +34,6 @@ async () => { \u{61}wait: x }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 8
                     },
@@ -54,16 +52,12 @@ async () => { \u{61}wait: x }
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 24,
                                             "end": 24
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 32780,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 13,
                                         "end": 24
                                     },
@@ -76,16 +70,12 @@ async () => { \u{61}wait: x }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 25,
                                             "end": 27
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 27
                                     },
@@ -93,8 +83,6 @@ async () => { \u{61}wait: x }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 27
                                 }
@@ -103,32 +91,24 @@ async () => { \u{61}wait: x }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 27
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 29
                     },
                     "flags": 536870912,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 29
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 29
             }
@@ -136,8 +116,6 @@ async () => { \u{61}wait: x }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 29
     },
@@ -152,8 +130,6 @@ async () => { \u{61}wait: x }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

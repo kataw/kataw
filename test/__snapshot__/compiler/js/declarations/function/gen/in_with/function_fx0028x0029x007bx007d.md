@@ -33,8 +33,6 @@ with (x) function f(){}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 7
                 },
@@ -47,8 +45,6 @@ with (x) function f(){}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 17,
                         "end": 19
                     },
@@ -59,8 +55,6 @@ with (x) function f(){}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 21
                     },
@@ -74,16 +68,12 @@ with (x) function f(){}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 22
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 23
                     },
@@ -91,16 +81,12 @@ with (x) function f(){}
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 23
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             }
@@ -108,8 +94,6 @@ with (x) function f(){}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
@@ -124,8 +108,6 @@ with (x) function f(){}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -32,11 +32,11 @@ var y = {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class C {\n    get x() {\n        return 1;\n    }\n}\n\nclass D {\n    set x(v) {\n    }\n}\n\nvar x = {\n    get a() { return 1 }\n}\n\nvar y = {\n    set b(v) { }\n}\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -44,11 +44,9 @@ var y = {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -70,11 +68,9 @@ var y = {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -82,11 +78,9 @@ var y = {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -103,37 +97,29 @@ var y = {
                                                     "kind": 4261540,
                                                     "text": 1,
                                                     "rawText": "1",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 40
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 41
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 23,
                                         "end": 41
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 47
                                 },
@@ -141,37 +127,29 @@ var y = {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 47
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 47
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 49
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 49
             },
@@ -181,11 +159,9 @@ var y = {
                     "kind": 131102,
                     "text": "D",
                     "rawText": "D",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 56,
                     "end": 58
                 },
@@ -207,11 +183,9 @@ var y = {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 68,
                                     "end": 70
                                 },
@@ -225,11 +199,9 @@ var y = {
                                                 "kind": 131102,
                                                 "text": "v",
                                                 "rawText": "v",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 71,
                                                 "end": 72
                                             },
@@ -239,21 +211,17 @@ var y = {
                                             "decorators": null,
                                             "accessModifier": null,
                                             "isReadOnly": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 71,
                                             "end": 72
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 71,
                                     "end": 73
                                 },
@@ -265,19 +233,15 @@ var y = {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 75,
                                         "end": 75
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 73,
                                     "end": 81
                                 },
@@ -285,37 +249,29 @@ var y = {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 70,
                                 "end": 81
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 60,
                             "end": 81
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 60,
                     "end": 83
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 49,
                 "end": 83
             },
@@ -330,11 +286,9 @@ var y = {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 88,
                                 "end": 90
                             },
@@ -351,11 +305,9 @@ var y = {
                                                 "kind": 196711,
                                                 "text": "a",
                                                 "rawText": "a",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 102,
                                                 "end": 104
                                             },
@@ -363,11 +315,9 @@ var y = {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 105,
                                                 "end": 106
                                             },
@@ -384,37 +334,29 @@ var y = {
                                                                 "kind": 4261540,
                                                                 "text": 1,
                                                                 "rawText": "1",
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 115,
                                                                 "end": 117
                                                             },
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 108,
                                                             "end": 117
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 108,
                                                     "end": 117
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 106,
                                                 "end": 119
                                             },
@@ -422,55 +364,43 @@ var y = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 104,
                                             "end": 119
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 94,
                                     "end": 119
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 92,
                                 "end": 121
                             },
                             "flags": 88,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 81920,
+                            "start": 16384,
                             "end": 121
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 88,
                     "end": 121
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 83,
                 "end": 121
             },
@@ -485,11 +415,9 @@ var y = {
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 126,
                                 "end": 128
                             },
@@ -506,11 +434,9 @@ var y = {
                                                 "kind": 196711,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 140,
                                                 "end": 142
                                             },
@@ -524,11 +450,9 @@ var y = {
                                                             "kind": 131102,
                                                             "text": "v",
                                                             "rawText": "v",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 143,
                                                             "end": 144
                                                         },
@@ -538,21 +462,17 @@ var y = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 143,
                                                         "end": 144
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 143,
                                                 "end": 145
                                             },
@@ -564,19 +484,15 @@ var y = {
                                                     "kind": 94,
                                                     "statements": [],
                                                     "multiline": false,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 147,
                                                     "end": 147
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 145,
                                                 "end": 149
                                             },
@@ -584,72 +500,56 @@ var y = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 142,
                                             "end": 149
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 132,
                                     "end": 149
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 130,
                                 "end": 151
                             },
                             "flags": 126,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 81920,
+                            "start": 16384,
                             "end": 151
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 126,
                     "end": 151
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 121,
                 "end": 151
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 151
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -663,28 +563,13 @@ var y = {
 
 
 ```javascript
-
-class C {
-    get x() {
-        return 1;
-    }
-}
-
-class D {
-    set x(v) {
-    }
-}
-
-var x = { get a() { return 1; } };
-
-var y = { set b(v) { } };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

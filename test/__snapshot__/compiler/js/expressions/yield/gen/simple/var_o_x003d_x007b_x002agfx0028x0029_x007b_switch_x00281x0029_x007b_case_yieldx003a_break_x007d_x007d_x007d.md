@@ -38,8 +38,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -59,8 +57,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 11,
                                                 "end": 13
                                             },
@@ -71,8 +67,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -92,8 +86,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 26,
                                                                 "end": 27
                                                             },
@@ -109,8 +101,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 16393,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
@@ -121,8 +111,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 42,
                                                                                 "end": 49
                                                                             }
@@ -130,8 +118,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 30,
                                                                         "end": 49
                                                                     }
@@ -139,16 +125,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 28,
                                                                 "end": 51
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 17,
                                                             "end": 51
                                                         }
@@ -157,16 +139,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 17,
                                                     "end": 51
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 15,
                                                 "end": 53
                                             },
@@ -177,8 +155,6 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 53
                                         }
@@ -188,24 +164,18 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 53
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 55
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 55
                         }
@@ -213,16 +183,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 55
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 55
             }
@@ -230,16 +196,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 55
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

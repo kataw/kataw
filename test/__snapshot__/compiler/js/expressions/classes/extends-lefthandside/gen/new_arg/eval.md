@@ -35,8 +35,6 @@ new eval
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 8
                     },
@@ -45,16 +43,12 @@ new eval
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 32,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 8
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 8
             }
@@ -62,16 +56,12 @@ new eval
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 8
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

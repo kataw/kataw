@@ -33,8 +33,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,16 +61,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 26
                             }
@@ -83,16 +75,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 26
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 26
                 },
@@ -100,8 +88,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 26
             },
@@ -114,16 +100,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 41,
                     "end": 42
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 41,
                 "end": 42
             },
@@ -141,8 +123,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 44,
                                 "end": 49
                             },
@@ -155,16 +135,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 50,
                                     "end": 53
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 50,
                                 "end": 53
                             },
@@ -172,8 +148,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 44,
                             "end": 53
                         }
@@ -182,16 +156,12 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 44,
                     "end": 53
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 42,
                 "end": 54
             }
@@ -199,8 +169,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 57
     },
@@ -236,8 +204,6 @@ function not_gen() { yield /* comment */\n {yield: 42} }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

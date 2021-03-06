@@ -44,7 +44,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
         "kind": 150,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "Signs",
@@ -52,21 +52,19 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 10
                 },
                 "type": {
-                    "kind": 240,
+                    "kind": 8432,
                     "types": [
                         {
-                            "kind": 230,
+                            "kind": 8422,
                             "objectTypeMembers": {
                                 "kind": 169,
                                 "members": [
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "kind",
@@ -74,22 +72,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 19
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 208,
+                                            "kind": 8400,
                                             "value": "a",
                                             "rawValue": "a",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 24
                                         },
@@ -99,13 +93,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 14,
                                         "end": 25
                                     },
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "a",
@@ -113,22 +105,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 25,
                                             "end": 27
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 163,
+                                            "kind": 8355,
                                             "value": 3,
                                             "rawValue": "3",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 28,
                                             "end": 30
                                         },
@@ -138,35 +126,30 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 31
                                     }
                                 ],
+                                "multiline": false,
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 33
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 12,
                             "end": 33
                         },
                         {
-                            "kind": 230,
+                            "kind": 8422,
                             "objectTypeMembers": {
                                 "kind": 169,
                                 "members": [
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "kind",
@@ -174,22 +157,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 37,
                                             "end": 42
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 208,
+                                            "kind": 8400,
                                             "value": "b",
                                             "rawValue": "b",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 43,
                                             "end": 47
                                         },
@@ -199,13 +178,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 48
                                     },
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "b",
@@ -213,22 +190,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 48,
                                             "end": 50
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 163,
+                                            "kind": 8355,
                                             "value": 2,
                                             "rawValue": "2",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 51,
                                             "end": 53
                                         },
@@ -238,35 +211,30 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 48,
                                         "end": 54
                                     }
                                 ],
+                                "multiline": false,
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 37,
                                 "end": 56
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 35,
                             "end": 56
                         },
                         {
-                            "kind": 230,
+                            "kind": 8422,
                             "objectTypeMembers": {
                                 "kind": 169,
                                 "members": [
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "kind",
@@ -274,22 +242,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 60,
                                             "end": 65
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 208,
+                                            "kind": 8400,
                                             "value": "c",
                                             "rawValue": "c",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 66,
                                             "end": 70
                                         },
@@ -299,13 +263,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 60,
                                         "end": 71
                                     },
                                     {
-                                        "kind": 188,
+                                        "kind": 8380,
                                         "name": {
                                             "kind": 196711,
                                             "text": "c",
@@ -313,22 +275,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 71,
                                             "end": 73
                                         },
                                         "isOptional": false,
                                         "accessModifier": null,
                                         "type": {
-                                            "kind": 163,
+                                            "kind": 8355,
                                             "value": 1,
                                             "rawValue": "1",
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 74,
                                             "end": 76
                                         },
@@ -338,25 +296,20 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 71,
                                         "end": 77
                                     }
                                 ],
+                                "multiline": false,
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 60,
                                 "end": 79
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 58,
                             "end": 79
                         }
@@ -364,8 +317,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 33,
                     "end": 79
                 },
@@ -373,13 +324,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 80
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "Opts",
@@ -387,16 +336,14 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 91,
                     "end": 96
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -404,8 +351,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 97,
                                 "end": 98
                             },
@@ -415,8 +360,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 97,
                             "end": 98
                         }
@@ -424,8 +367,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 97,
                     "end": 98
                 },
@@ -434,7 +375,7 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "low",
@@ -442,20 +383,16 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 101,
                                 "end": 109
                             },
                             "isOptional": true,
                             "accessModifier": null,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 111,
                                 "end": 118
                             },
@@ -465,13 +402,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 101,
                             "end": 119
                         },
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "sign",
@@ -479,15 +414,13 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 119,
                                 "end": 128
                             },
                             "isOptional": true,
                             "accessModifier": null,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "T",
@@ -495,8 +428,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 130,
                                     "end": 132
                                 },
@@ -504,8 +435,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 130,
                                 "end": 134
                             },
@@ -515,30 +444,25 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 119,
                             "end": 132
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 101,
                     "end": 132
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 80,
                 "end": 134
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "Wrapper",
@@ -546,16 +470,14 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 144,
                     "end": 152
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -563,8 +485,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 153,
                                 "end": 154
                             },
@@ -574,8 +494,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 153,
                             "end": 154
                         }
@@ -583,8 +501,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 153,
                     "end": 154
                 },
@@ -592,19 +508,16 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "objectTypeMembers": {
                     "kind": 169,
                     "members": [],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 157,
                     "end": 157
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 134,
                 "end": 159
             },
@@ -617,8 +530,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 177,
                     "end": 184
                 },
@@ -635,14 +546,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 202,
                                 "end": 206
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Opts",
@@ -650,16 +559,14 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 207,
                                     "end": 212
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "T",
@@ -667,8 +574,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 213,
                                                 "end": 214
                                             },
@@ -676,8 +581,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 213,
                                             "end": 215
                                         }
@@ -685,16 +588,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 213,
                                     "end": 214
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 207,
                                 "end": 216
                             },
@@ -705,8 +604,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 202,
                             "end": 215
                         }
@@ -715,13 +612,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 202,
                     "end": 216
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "Wrapper",
@@ -729,16 +624,14 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 217,
                         "end": 225
                     },
                     "typeArguments": {
-                        "kind": 227,
+                        "kind": 8419,
                         "typeArgumentsList": [
                             {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "T",
@@ -746,8 +639,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 226,
                                     "end": 227
                                 },
@@ -755,8 +646,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 226,
                                 "end": 228
                             }
@@ -764,25 +653,21 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 226,
                         "end": 227
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 217,
                     "end": 229
                 },
                 "contents": null,
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -790,13 +675,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 185,
                                 "end": 186
                             },
                             "constraint": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Signs",
@@ -804,8 +687,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 194,
                                     "end": 200
                                 },
@@ -813,8 +694,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 194,
                                 "end": 201
                             },
@@ -823,8 +702,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 185,
                             "end": 200
                         }
@@ -832,16 +709,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 185,
                     "end": 200
                 },
                 "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 168,
                 "end": 229
             },
@@ -854,8 +727,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 247,
                     "end": 254
                 },
@@ -872,14 +743,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 258,
                                 "end": 259
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Wrapper",
@@ -887,16 +756,14 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 260,
                                     "end": 268
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "T",
@@ -904,8 +771,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 269,
                                                 "end": 270
                                             },
@@ -913,8 +778,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 269,
                                             "end": 271
                                         }
@@ -922,16 +785,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 269,
                                     "end": 270
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 260,
                                 "end": 272
                             },
@@ -942,8 +801,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 258,
                             "end": 271
                         }
@@ -952,13 +809,11 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 258,
                     "end": 272
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196711,
                         "text": "T",
@@ -966,8 +821,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 273,
                         "end": 275
                     },
@@ -975,17 +828,15 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 273,
                     "end": 276
                 },
                 "contents": null,
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
@@ -993,8 +844,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 255,
                                 "end": 256
                             },
@@ -1004,8 +853,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 255,
                             "end": 256
                         }
@@ -1013,16 +860,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 255,
                     "end": 256
                 },
                 "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 238,
                 "end": 276
             },
@@ -1043,8 +886,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 290,
                                     "end": 292
                                 },
@@ -1059,8 +900,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 294,
                                         "end": 301
                                     },
@@ -1082,8 +921,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 303,
                                                                 "end": 307
                                                             },
@@ -1094,8 +931,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 308,
                                                                 "end": 310
                                                             },
@@ -1104,8 +939,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 303,
                                                             "end": 310
                                                         },
@@ -1118,8 +951,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 311,
                                                                 "end": 316
                                                             },
@@ -1137,20 +968,16 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 319,
                                                                                 "end": 324
                                                                             },
                                                                             "right": {
-                                                                                "kind": 67279,
+                                                                                "kind": 4261583,
                                                                                 "text": "a",
                                                                                 "rawText": "a",
                                                                                 "flags": 16842752,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 325,
                                                                                 "end": 329
                                                                             },
@@ -1159,8 +986,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 319,
                                                                             "end": 329
                                                                         },
@@ -1173,8 +998,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 330,
                                                                                 "end": 332
                                                                             },
@@ -1185,8 +1008,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 333,
                                                                                 "end": 335
                                                                             },
@@ -1195,8 +1016,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 330,
                                                                             "end": 335
                                                                         }
@@ -1206,16 +1025,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 319,
                                                                     "end": 335
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 317,
                                                                 "end": 337
                                                             },
@@ -1224,8 +1039,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 311,
                                                             "end": 337
                                                         }
@@ -1235,16 +1048,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 303,
                                                     "end": 337
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 302,
                                                 "end": 338
                                             }
@@ -1253,24 +1062,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "transformFlags": 0,
                                         "flags": 65536,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 303,
                                         "end": 339
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 301,
                                     "end": 339
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 290,
                                 "end": 339
                             }
@@ -1278,16 +1081,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 290,
                         "end": 339
                     },
                     "flags": 81936,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 276,
                     "end": 340
                 },
@@ -1298,8 +1097,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 276,
                 "end": 340
             },
@@ -1320,8 +1117,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 354,
                                     "end": 358
                                 },
@@ -1336,8 +1131,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 360,
                                         "end": 367
                                     },
@@ -1352,8 +1145,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 368,
                                                 "end": 369
                                             }
@@ -1362,24 +1153,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "transformFlags": 0,
                                         "flags": 65536,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 369,
                                         "end": 370
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 367,
                                     "end": 370
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 354,
                                 "end": 370
                             }
@@ -1387,16 +1172,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 354,
                         "end": 370
                     },
                     "flags": 81936,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 340,
                     "end": 371
                 },
@@ -1407,8 +1188,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 340,
                 "end": 371
             },
@@ -1429,8 +1208,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 385,
                                     "end": 390
                                 },
@@ -1445,8 +1222,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 392,
                                         "end": 399
                                     },
@@ -1463,8 +1238,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 400,
                                                     "end": 406
                                                 },
@@ -1486,8 +1259,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 408,
                                                                             "end": 412
                                                                         },
@@ -1498,8 +1269,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 413,
                                                                             "end": 415
                                                                         },
@@ -1508,8 +1277,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 408,
                                                                         "end": 415
                                                                     },
@@ -1522,8 +1289,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 416,
                                                                             "end": 421
                                                                         },
@@ -1541,20 +1306,16 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 424,
                                                                                             "end": 429
                                                                                         },
                                                                                         "right": {
-                                                                                            "kind": 67279,
+                                                                                            "kind": 4261583,
                                                                                             "text": "a",
                                                                                             "rawText": "a",
                                                                                             "flags": 16842752,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 430,
                                                                                             "end": 434
                                                                                         },
@@ -1563,8 +1324,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 424,
                                                                                         "end": 434
                                                                                     },
@@ -1577,8 +1336,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 435,
                                                                                             "end": 437
                                                                                         },
@@ -1589,8 +1346,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 438,
                                                                                             "end": 440
                                                                                         },
@@ -1599,8 +1354,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                         "flags": 65536,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 435,
                                                                                         "end": 440
                                                                                     }
@@ -1610,16 +1363,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 424,
                                                                                 "end": 440
                                                                             },
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 422,
                                                                             "end": 442
                                                                         },
@@ -1628,8 +1377,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 416,
                                                                         "end": 442
                                                                     }
@@ -1639,16 +1386,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 408,
                                                                 "end": 442
                                                             },
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 407,
                                                             "end": 443
                                                         }
@@ -1657,16 +1400,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                                     "transformFlags": 0,
                                                     "flags": 65536,
                                                     "intersects": false,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 408,
                                                     "end": 444
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 406,
                                                 "end": 444
                                             }
@@ -1675,24 +1414,18 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                                         "transformFlags": 0,
                                         "flags": 65536,
                                         "intersects": false,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 406,
                                         "end": 445
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 399,
                                     "end": 445
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 385,
                                 "end": 445
                             }
@@ -1700,16 +1433,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 385,
                         "end": 445
                     },
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 371,
                     "end": 446
                 },
@@ -1720,8 +1449,6 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 371,
                 "end": 446
             }
@@ -1729,16 +1456,12 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 446
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1752,42 +1475,13 @@ export const yone = unwrap(sepsis({ low: 1, sign: { kind: 'a', a: 3 }}));
 
 
 ```javascript
-
-type Signs = {
-    kind: "a";
-    a: 3;
-} | {
-    kind: "b";
-    b: 2;
-} | {
-    kind: "c";
-    c: 1;
-};
-
-interface Opts<T> {
-    low?: number;
-    sign?: T;
-}
-
-interface Wrapper<T> {
-}
-
-declare function sepsis<T extends Signs>(opts: Opts<T>): Wrapper<T>;
-
-declare function unwrap<T>(w: Wrapper<T>): T;
-
-export const y = sepsis({ low : 1, sign : { kind : "a", a : 3 } });;
-
-export const yun = unwrap(y);;
-
-export const yone = unwrap(sepsis({ low : 1, sign : { kind : "a", a : 3 } }));;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

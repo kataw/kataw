@@ -35,8 +35,6 @@ x = {arrow: async (x, y) => ok}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -55,16 +53,14 @@ x = {arrow: async (x, y) => ok}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 10
                                     },
                                     "right": {
-                                        "kind": 16,
+                                        "kind": 65552,
+                                        "typeParameters": null,
                                         "arrowParameters": {
                                             "kind": 65545,
-                                            "typeParameters": null,
                                             "elements": [
                                                 {
                                                     "kind": 89,
@@ -76,8 +72,6 @@ x = {arrow: async (x, y) => ok}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 21,
                                                         "end": 23
                                                     },
@@ -90,8 +84,6 @@ x = {arrow: async (x, y) => ok}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 21,
                                                     "end": 24
                                                 },
@@ -105,8 +97,6 @@ x = {arrow: async (x, y) => ok}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 19,
                                                         "end": 20
                                                     },
@@ -119,8 +109,6 @@ x = {arrow: async (x, y) => ok}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 21,
                                                     "end": 24
                                                 }
@@ -131,8 +119,6 @@ x = {arrow: async (x, y) => ok}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 24
                                         },
@@ -143,16 +129,12 @@ x = {arrow: async (x, y) => ok}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 27,
                                             "end": 30
                                         },
                                         "flags": 536870912,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 30
                                     },
@@ -161,8 +143,6 @@ x = {arrow: async (x, y) => ok}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 30
                                 }
@@ -172,32 +152,24 @@ x = {arrow: async (x, y) => ok}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 30
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 31
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 31
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             }
@@ -205,16 +177,12 @@ x = {arrow: async (x, y) => ok}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -21,11 +21,11 @@ class ViewTokensChangedEvent {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class ViewTokensChangedEvent {\n  public readonly ranges: {\n    /**\n     * Start line number of range\n     */\n    readonly fromLineNumber: number;\n  }[];\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -33,11 +33,9 @@ class ViewTokensChangedEvent {
                     "kind": 131102,
                     "text": "ViewTokensChangedEvent",
                     "rawText": "ViewTokensChangedEvent",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 28
                 },
@@ -53,11 +51,9 @@ class ViewTokensChangedEvent {
                                 "kind": 196711,
                                 "text": "ranges",
                                 "rawText": "ranges",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 48,
                                 "end": 55
                             },
@@ -65,71 +61,60 @@ class ViewTokensChangedEvent {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 7,
+                                "kind": 8199,
                                 "elementType": {
-                                    "kind": 230,
+                                    "kind": 8422,
                                     "objectTypeMembers": {
                                         "kind": 169,
                                         "members": [
                                             {
-                                                "kind": 188,
+                                                "kind": 8380,
                                                 "name": {
                                                     "kind": 196711,
                                                     "text": "fromLineNumber",
                                                     "rawText": "fromLineNumber",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 121,
                                                     "end": 136
                                                 },
                                                 "isOptional": false,
                                                 "accessModifier": null,
                                                 "type": {
-                                                    "kind": 161,
+                                                    "kind": 4202657,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 137,
                                                     "end": 144
                                                 },
-                                                "isStatic": true,
-                                                "isReadOnly": false,
+                                                "isStatic": false,
+                                                "isReadOnly": true,
                                                 "initializer": null,
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 58,
                                                 "end": 145
                                             }
                                         ],
-                                        "flags": 65536,
+                                        "multiline": true,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 58,
                                         "end": 149
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 56,
                                     "end": 149
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 56,
                                 "end": 152
                             },
@@ -140,52 +125,40 @@ class ViewTokensChangedEvent {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 39
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 30,
                             "end": 152
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 30,
                     "end": 154
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 154
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 154
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -199,19 +172,13 @@ class ViewTokensChangedEvent {
 
 
 ```javascript
-
-class ViewTokensChangedEvent {
-    public readonly ranges: {
-        fromLineNumber: number;
-    }[];
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

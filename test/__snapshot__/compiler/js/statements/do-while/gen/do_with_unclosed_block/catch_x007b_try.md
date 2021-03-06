@@ -33,8 +33,6 @@ do {} while (x) { catch { try
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -47,24 +45,18 @@ do {} while (x) { catch { try
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 5
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             },
@@ -84,16 +76,12 @@ do {} while (x) { catch { try
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 17
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 17
                             },
@@ -116,16 +104,12 @@ do {} while (x) { catch { try
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 29,
                                                         "end": 29
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 29,
                                                     "end": 29
                                                 },
@@ -139,24 +123,18 @@ do {} while (x) { catch { try
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 29,
                                                         "end": 29
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 29,
                                                     "end": 29
                                                 },
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 29
                                             }
@@ -165,24 +143,18 @@ do {} while (x) { catch { try
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 29
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 29
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 16,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 29
                             },
@@ -190,8 +162,6 @@ do {} while (x) { catch { try
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 16,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 29
                         }
@@ -200,16 +170,12 @@ do {} while (x) { catch { try
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 29
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 15,
                 "end": 29
             }
@@ -217,8 +183,6 @@ do {} while (x) { catch { try
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 29
     },
@@ -240,8 +204,6 @@ do {} while (x) { catch { try
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

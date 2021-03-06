@@ -29,8 +29,6 @@ function* g() {   [...{ x = yield }] = y   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 11
                 },
@@ -41,8 +39,6 @@ function* g() {   [...{ x = yield }] = y   }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 13
                 },
@@ -69,7 +65,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                             "kind": 65722,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 61,
+                                                                    "kind": 65597,
                                                                     "left": {
                                                                         "kind": 196712,
                                                                         "text": "x",
@@ -77,8 +73,6 @@ function* g() {   [...{ x = yield }] = y   }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 23,
                                                                         "end": 25
                                                                     },
@@ -91,8 +85,6 @@ function* g() {   [...{ x = yield }] = y   }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 16393,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 27,
                                                                         "end": 33
                                                                     },
@@ -100,8 +92,6 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 23,
                                                                     "end": 33
                                                                 }
@@ -111,24 +101,18 @@ function* g() {   [...{ x = yield }] = y   }
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 23,
                                                             "end": 33
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 22,
                                                         "end": 35
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 19,
                                                     "end": 35
                                                 }
@@ -138,16 +122,12 @@ function* g() {   [...{ x = yield }] = y   }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 19,
                                             "end": 35
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 15,
                                         "end": 36
                                     },
@@ -159,24 +139,18 @@ function* g() {   [...{ x = yield }] = y   }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 38,
                                         "end": 40
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 40
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 40
                             }
@@ -185,16 +159,12 @@ function* g() {   [...{ x = yield }] = y   }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 40
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 44
                 },
@@ -202,8 +172,6 @@ function* g() {   [...{ x = yield }] = y   }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 44
             }
@@ -211,16 +179,12 @@ function* g() {   [...{ x = yield }] = y   }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 44
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -39,8 +39,6 @@ let x = function *f(foo = await){}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -55,8 +53,6 @@ let x = function *f(foo = await){}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 19
                                 },
@@ -73,8 +69,6 @@ let x = function *f(foo = await){}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 23
                                             },
@@ -87,8 +81,6 @@ let x = function *f(foo = await){}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 31
                                             },
@@ -98,8 +90,6 @@ let x = function *f(foo = await){}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 31
                                         }
@@ -108,8 +98,6 @@ let x = function *f(foo = await){}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 32
                                 },
@@ -122,16 +110,12 @@ let x = function *f(foo = await){}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 34
                                 },
@@ -140,16 +124,12 @@ let x = function *f(foo = await){}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 128,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 34
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 34
                         }
@@ -157,16 +137,12 @@ let x = function *f(foo = await){}
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 34
                 },
                 "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 34
             }
@@ -174,16 +150,12 @@ let x = function *f(foo = await){}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 34
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

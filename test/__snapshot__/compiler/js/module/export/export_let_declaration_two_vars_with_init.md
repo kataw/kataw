@@ -43,8 +43,6 @@ export let x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -57,16 +55,12 @@ export let x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 17
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
                                 "end": 17
                             },
@@ -79,8 +73,6 @@ export let x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -93,16 +85,12 @@ export let x = 10, y = 20
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 25
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 25
                             }
@@ -110,16 +98,12 @@ export let x = 10, y = 20
                         "flags": 65552,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 25
                     },
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 769,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 25
                 },
@@ -130,8 +114,6 @@ export let x = 10, y = 20
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
@@ -139,16 +121,12 @@ export let x = 10, y = 20
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

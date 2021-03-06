@@ -33,8 +33,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,8 +61,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 40
                                 },
@@ -77,8 +71,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 41,
                                     "end": 42
                                 },
@@ -97,8 +89,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 59,
                                                     "end": 65
                                                 },
@@ -109,8 +99,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 66,
                                                     "end": 67
                                                 },
@@ -124,16 +112,12 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 69,
                                                         "end": 69
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 67,
                                                     "end": 71
                                                 },
@@ -141,8 +125,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 260,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 44,
                                                 "end": 71
                                             }
@@ -151,16 +133,12 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 44,
                                         "end": 71
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 42,
                                     "end": 73
                                 },
@@ -168,8 +146,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 260,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 73
                             },
@@ -178,8 +154,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 73,
                                 "end": 74
                             }
@@ -188,16 +162,12 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 74
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 76
                 },
@@ -205,8 +175,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 76
             }
@@ -214,8 +182,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 77
     },
@@ -230,8 +196,6 @@ function not_gen() { async function wrap() { async function await() { } }; }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

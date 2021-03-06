@@ -27,7 +27,7 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
         "kind": 150,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "TupleWithRest",
@@ -35,124 +35,101 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 18
                 },
                 "type": {
-                    "kind": 224,
+                    "kind": 8416,
                     "elementTypes": [
                         {
-                            "kind": 161,
+                            "kind": 4202657,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 28
                         },
                         {
-                            "kind": 193,
+                            "kind": 8385,
                             "type": {
-                                "kind": 177,
+                                "kind": 8369,
                                 "type": {
-                                    "kind": 57,
+                                    "kind": 8249,
                                     "checkType": {
-                                        "kind": 163,
+                                        "kind": 8355,
                                         "value": 1,
                                         "rawValue": "1",
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 34,
                                         "end": 35
                                     },
                                     "extendsType": {
-                                        "kind": 163,
+                                        "kind": 8355,
                                         "value": 2,
                                         "rawValue": "2",
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 43,
                                         "end": 45
                                     },
                                     "trueType": {
-                                        "kind": 7,
+                                        "kind": 8199,
                                         "elementType": {
-                                            "kind": 4194510,
+                                            "kind": 4202702,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 47,
                                             "end": 54
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 47,
                                         "end": 58
                                     },
                                     "falseType": {
-                                        "kind": 7,
+                                        "kind": 8199,
                                         "elementType": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 58,
                                             "end": 65
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 58,
                                         "end": 68
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
                                     "end": 67
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 68
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 29,
                             "end": 68
                         }
                     ],
+                    "multiline": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 69
                 },
@@ -160,8 +137,6 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 70
             }
@@ -169,16 +144,12 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 70
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -192,15 +163,13 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
 
 
 ```javascript
-
-type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

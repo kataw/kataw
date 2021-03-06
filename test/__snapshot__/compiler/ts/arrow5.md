@@ -14,19 +14,19 @@
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "(private public: foo, protected: bar): string =>x",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
                 "expression": {
                     "kind": 67592,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": 1,
                         "elements": [
                             {
                                 "kind": 89,
@@ -35,35 +35,29 @@
                                     "kind": 4325406,
                                     "text": "protected",
                                     "rawText": "protected",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 31
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "bar",
                                         "rawText": "bar",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 36
                                     },
                                     "typeArguments": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 37
                                 },
@@ -71,11 +65,9 @@
                                 "decorators": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 36
                             },
@@ -86,35 +78,29 @@
                                     "kind": 131102,
                                     "text": "public",
                                     "rawText": "public",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 16,
                                         "end": 20
                                     },
                                     "typeArguments": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 21
                                 },
@@ -125,38 +111,30 @@
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 1,
                                     "end": 8
                                 },
                                 "isReadOnly": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097153,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 1,
                                 "end": 20
                             }
                         ],
                         "type": {
-                            "kind": 4194510,
+                            "kind": 4202702,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 38,
                             "end": 45
                         },
                         "accessModifier": null,
                         "trailingComma": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 1,
                         "end": 36
                     },
@@ -164,44 +142,34 @@
                         "kind": 196712,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 48,
                         "end": 49
                     },
-                    "flags": 536936448,
+                    "flags": 536870912,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 49
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 49
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 49
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -215,15 +183,13 @@
 
 
 ```javascript
-
-(protected: bar, private public: foo) => x
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

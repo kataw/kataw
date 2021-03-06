@@ -16,11 +16,11 @@ function foo(bar:any):(a)=>void { return function(){} }
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function foo(bar:number):(b:string)=>void;\nfunction foo(bar:string):(a:number)=>void;\nfunction foo(bar:any):(a)=>void { return function(){} }",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -28,11 +28,9 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -46,22 +44,18 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 16
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 23
                             },
@@ -69,102 +63,84 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 24
                 },
                 "type": {
-                    "kind": 95,
+                    "kind": 8287,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 175,
+                        "kind": 8367,
                         "parameterList": [
                             {
-                                "kind": 174,
+                                "kind": 8366,
                                 "ellipsis": false,
                                 "binding": {
                                     "kind": 131102,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 27
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 4194510,
+                                    "kind": 4202702,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 28,
                                     "end": 34
                                 },
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 26,
                                 "end": 34
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 26,
                         "end": 34
                     },
                     "returnType": {
-                        "kind": 4194550,
+                        "kind": 4202742,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 37,
                         "end": 41
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 41
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 42
             },
@@ -174,11 +150,9 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 51,
                     "end": 55
                 },
@@ -192,22 +166,18 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 56,
                                 "end": 59
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 60,
                                 "end": 66
                             },
@@ -215,102 +185,84 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 56,
                             "end": 66
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 56,
                     "end": 67
                 },
                 "type": {
-                    "kind": 95,
+                    "kind": 8287,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 175,
+                        "kind": 8367,
                         "parameterList": [
                             {
-                                "kind": 174,
+                                "kind": 8366,
                                 "ellipsis": false,
                                 "binding": {
                                     "kind": 131102,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 69,
                                     "end": 70
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 71,
                                     "end": 77
                                 },
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 69,
                                 "end": 77
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 69,
                         "end": 77
                     },
                     "returnType": {
-                        "kind": 4194550,
+                        "kind": 4202742,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 80,
                         "end": 84
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 68,
                     "end": 84
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 42,
                 "end": 85
             },
@@ -320,11 +272,9 @@ function foo(bar:any):(a)=>void { return function(){} }
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 94,
                     "end": 98
                 },
@@ -338,22 +288,18 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 99,
                                 "end": 102
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 103,
                                 "end": 106
                             },
@@ -361,42 +307,36 @@ function foo(bar:any):(a)=>void { return function(){} }
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 99,
                             "end": 106
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 99,
                     "end": 107
                 },
                 "type": {
-                    "kind": 95,
+                    "kind": 8287,
                     "typeParameters": null,
                     "parameters": {
-                        "kind": 175,
+                        "kind": 8367,
                         "parameterList": [
                             {
-                                "kind": 174,
+                                "kind": 8366,
                                 "ellipsis": false,
                                 "binding": {
                                     "kind": 131102,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 109,
                                     "end": 110
                                 },
@@ -405,39 +345,31 @@ function foo(bar:any):(a)=>void { return function(){} }
                                 "initializer": null,
                                 "accessModifier": null,
                                 "isReadOnly": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 109,
                                 "end": 110
                             }
                         ],
                         "trailingcomma": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 109,
                         "end": 110
                     },
                     "returnType": {
-                        "kind": 4194550,
+                        "kind": 4202742,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 113,
                         "end": 117
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 108,
                     "end": 117
                 },
@@ -455,11 +387,9 @@ function foo(bar:any):(a)=>void { return function(){} }
                                         "kind": 90,
                                         "formalParameterList": [],
                                         "trailingComma": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 136,
                                         "end": 137
                                     },
@@ -469,81 +399,63 @@ function foo(bar:any):(a)=>void { return function(){} }
                                             "kind": 94,
                                             "statements": [],
                                             "multiline": false,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 138,
                                             "end": 138
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 137,
                                         "end": 139
                                     },
                                     "typeParameters": null,
                                     "type": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 126,
                                     "end": 139
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 119,
                                 "end": 139
                             }
                         ],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 119,
                         "end": 139
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 117,
                     "end": 141
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 85,
                 "end": 141
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 141
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -557,19 +469,13 @@ function foo(bar:any):(a)=>void { return function(){} }
 
 
 ```javascript
-
-function foo(bar: number): (b: string) => void;
-
-function foo(bar: string): (a: number) => void;
-
-function foo(bar: any): (a) => void { return function () { }; }
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

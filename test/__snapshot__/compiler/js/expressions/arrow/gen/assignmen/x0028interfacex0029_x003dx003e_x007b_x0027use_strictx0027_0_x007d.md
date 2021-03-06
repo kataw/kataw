@@ -35,27 +35,15 @@ x = (interface) => { 'use strict'; 0 } ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
                     "operator": "=",
                     "right": {
                         "kind": 67592,
+                        "typeParameters": null,
                         "arrowParameters": {
                             "kind": 65545,
-                            "typeParameters": {
-                                "kind": 233,
-                                "typeParameterList": [],
-                                "flags": 0,
-                                "intersects": false,
-                                "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
-                                "start": 3,
-                                "end": 3
-                            },
                             "elements": [
                                 {
                                     "kind": 89,
@@ -67,8 +55,6 @@ x = (interface) => { 'use strict'; 0 } ;
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -81,8 +67,6 @@ x = (interface) => { 'use strict'; 0 } ;
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 3,
                                     "end": 15
                                 }
@@ -93,8 +77,6 @@ x = (interface) => { 'use strict'; 0 } ;
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 15
                         },
@@ -106,22 +88,18 @@ x = (interface) => { 'use strict'; 0 } ;
                                     {
                                         "kind": 2097233,
                                         "expression": {
-                                            "kind": 67279,
+                                            "kind": 4261583,
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 16777216,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 33
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 34
                                     },
@@ -134,16 +112,12 @@ x = (interface) => { 'use strict'; 0 } ;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 36
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 34,
                                         "end": 36
                                     }
@@ -152,40 +126,30 @@ x = (interface) => { 'use strict'; 0 } ;
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 36
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 38
                         },
                         "flags": 536870912,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 38
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 38
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             }
@@ -193,16 +157,12 @@ x = (interface) => { 'use strict'; 0 } ;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

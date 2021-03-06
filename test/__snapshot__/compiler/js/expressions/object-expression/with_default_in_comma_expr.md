@@ -23,7 +23,7 @@ x, {foo = y, bar} = doo
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 54,
+                    "kind": 65590,
                     "expressions": [
                         {
                             "kind": 196712,
@@ -32,8 +32,6 @@ x, {foo = y, bar} = doo
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 1
                         },
@@ -45,7 +43,7 @@ x, {foo = y, bar} = doo
                                     "kind": 65722,
                                     "properties": [
                                         {
-                                            "kind": 61,
+                                            "kind": 65597,
                                             "left": {
                                                 "kind": 196712,
                                                 "text": "foo",
@@ -53,8 +51,6 @@ x, {foo = y, bar} = doo
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 4,
                                                 "end": 7
                                             },
@@ -67,8 +63,6 @@ x, {foo = y, bar} = doo
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 9,
                                                 "end": 11
                                             },
@@ -76,8 +70,6 @@ x, {foo = y, bar} = doo
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 4,
                                             "end": 11
                                         },
@@ -88,8 +80,6 @@ x, {foo = y, bar} = doo
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 12,
                                             "end": 16
                                         }
@@ -99,16 +89,12 @@ x, {foo = y, bar} = doo
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 4,
                                     "end": 16
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 2,
                                 "end": 17
                             },
@@ -120,16 +106,12 @@ x, {foo = y, bar} = doo
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 23
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 2,
                             "end": 23
                         }
@@ -137,16 +119,12 @@ x, {foo = y, bar} = doo
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 23
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             }
@@ -154,16 +132,12 @@ x, {foo = y, bar} = doo
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 23
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -37,8 +37,6 @@ foo(function* f(){})
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 3
                     },
@@ -55,8 +53,6 @@ foo(function* f(){})
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -67,8 +63,6 @@ foo(function* f(){})
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -81,16 +75,12 @@ foo(function* f(){})
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 18,
                                         "end": 18
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -99,8 +89,6 @@ foo(function* f(){})
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 128,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 4,
                                 "end": 19
                             }
@@ -109,24 +97,18 @@ foo(function* f(){})
                         "transformFlags": 0,
                         "flags": 65536,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 20
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 20
             }
@@ -134,16 +116,12 @@ foo(function* f(){})
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 20
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

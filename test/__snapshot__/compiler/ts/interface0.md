@@ -19,60 +19,52 @@ var y: Generic<number> = { x: 3 };
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "interface Generic<T> {\n    x: T;\n}\n\nvar y: Generic<number> = { x: 3 };\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "Generic",
                     "rawText": "Generic",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 17
                 },
                 "typeParameters": {
-                    "kind": 233,
+                    "kind": 8425,
                     "typeParameterList": [
                         {
-                            "kind": 232,
+                            "kind": 8424,
                             "name": {
                                 "kind": 196711,
                                 "text": "T",
                                 "rawText": "T",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 19
                             },
                             "constraint": null,
                             "defaultType": null,
                             "expression": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 19
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 19
                 },
@@ -81,69 +73,58 @@ var y: Generic<number> = { x: 3 };
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 22,
                                 "end": 28
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "T",
                                     "rawText": "T",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "typeArguments": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 32
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 32
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 32
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 34
             },
@@ -158,56 +139,46 @@ var y: Generic<number> = { x: 3 };
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 39,
                                 "end": 41
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Generic",
                                     "rawText": "Generic",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 42,
                                     "end": 50
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 51,
                                             "end": 57
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 51,
                                     "end": 57
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 42,
                                 "end": 60
                             },
@@ -222,11 +193,9 @@ var y: Generic<number> = { x: 3 };
                                                 "kind": 196711,
                                                 "text": "x",
                                                 "rawText": "x",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 62,
                                                 "end": 64
                                             },
@@ -234,82 +203,64 @@ var y: Generic<number> = { x: 3 };
                                                 "kind": 4261540,
                                                 "text": 3,
                                                 "rawText": "3",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 65,
                                                 "end": 67
                                             },
                                             "accessModifier": null,
                                             "decorators": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 62,
                                             "end": 67
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 62,
                                     "end": 67
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 60,
                                 "end": 69
                             },
                             "flags": 39,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 69
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 39,
                     "end": 69
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 34,
                 "end": 70
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 70
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -323,19 +274,13 @@ var y: Generic<number> = { x: 3 };
 
 
 ```javascript
-
-interface Generic<T> {
-    x: T;
-}
-
-var y: Generic<number> = { x : 3 };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

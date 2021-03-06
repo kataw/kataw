@@ -38,8 +38,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 9
                             },
@@ -49,8 +47,6 @@ var await; var f = (async function() { await => async.await[foo] });
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 9
                         }
@@ -58,16 +54,12 @@ var await; var f = (async function() { await => async.await[foo] });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 10
             },
@@ -85,8 +77,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 16
                             },
@@ -95,20 +85,10 @@ var await; var f = (async function() { await => async.await[foo] });
                             "initializer": {
                                 "kind": 66224,
                                 "expression": {
-                                    "kind": 16,
+                                    "kind": 65552,
+                                    "typeParameters": null,
                                     "arrowParameters": {
                                         "kind": 65545,
-                                        "typeParameters": {
-                                            "kind": 233,
-                                            "typeParameterList": [],
-                                            "flags": 2,
-                                            "intersects": false,
-                                            "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 18,
-                                            "end": 18
-                                        },
                                         "elements": [
                                             {
                                                 "kind": 89,
@@ -123,8 +103,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 35,
                                                         "end": 36
                                                     },
@@ -143,24 +121,18 @@ var await; var f = (async function() { await => async.await[foo] });
                                                                             "flags": 6,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 44,
                                                                             "end": 44
                                                                         },
                                                                         "flags": 2,
                                                                         "intersects": false,
                                                                         "transformFlags": 32780,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 38,
                                                                         "end": 44
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 38,
                                                                     "end": 44
                                                                 }
@@ -169,16 +141,12 @@ var await; var f = (async function() { await => async.await[foo] });
                                                             "flags": 2,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 38,
                                                             "end": 44
                                                         },
                                                         "flags": 2,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 36,
                                                         "end": 44
                                                     },
@@ -187,8 +155,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 4,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 20,
                                                     "end": 44
                                                 },
@@ -201,8 +167,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 18,
                                                 "end": 44
                                             }
@@ -213,15 +177,13 @@ var await; var f = (async function() { await => async.await[foo] });
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 18,
                                         "end": 44
                                     },
                                     "contents": {
-                                        "kind": 74308,
+                                        "kind": 66116,
                                         "member": {
-                                            "kind": 74424,
+                                            "kind": 66232,
                                             "member": {
                                                 "kind": 196712,
                                                 "text": "async",
@@ -229,8 +191,6 @@ var await; var f = (async function() { await => async.await[foo] });
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 47,
                                                 "end": 53
                                             },
@@ -241,18 +201,19 @@ var await; var f = (async function() { await => async.await[foo] });
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 54,
                                                 "end": 59
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 53,
-                                            "end": 59
+                                            "end": 59,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 53,
+                                                "end": 54
+                                            }
                                         },
                                         "expression": {
                                             "kind": 196712,
@@ -261,40 +222,30 @@ var await; var f = (async function() { await => async.await[foo] });
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 60,
                                             "end": 63
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 59,
                                         "end": 64
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 64
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 64
                             },
                             "flags": 14,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 64
                         }
@@ -302,16 +253,12 @@ var await; var f = (async function() { await => async.await[foo] });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 64
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 10,
                 "end": 64
             },
@@ -320,8 +267,6 @@ var await; var f = (async function() { await => async.await[foo] });
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 67,
                 "end": 68
             }
@@ -329,8 +274,6 @@ var await; var f = (async function() { await => async.await[foo] });
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 68
     },
@@ -352,8 +295,6 @@ var await; var f = (async function() { await => async.await[foo] });
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

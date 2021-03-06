@@ -33,8 +33,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,8 +61,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 33
                                 },
@@ -77,8 +71,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -97,8 +89,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 45,
                                                     "end": 51
                                                 },
@@ -109,8 +99,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 52,
                                                     "end": 53
                                                 },
@@ -124,16 +112,12 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 54,
                                                         "end": 54
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 53,
                                                     "end": 55
                                                 },
@@ -141,8 +125,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 256,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 36,
                                                 "end": 55
                                             },
@@ -151,8 +133,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 55,
                                                 "end": 56
                                             }
@@ -161,16 +141,12 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 36,
                                         "end": 56
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 58
                                 },
@@ -178,8 +154,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 384,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 58
                             }
@@ -188,16 +162,12 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 58
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 60
                 },
@@ -205,8 +175,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 60
             }
@@ -214,8 +182,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 61
     },
@@ -230,8 +196,6 @@ function not_gen() { function *gf(){ function yield(){}; } }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

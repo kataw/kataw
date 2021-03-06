@@ -41,8 +41,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -59,19 +57,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 14
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 22
                             },
@@ -82,8 +76,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 22
                         },
@@ -97,29 +89,23 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 28
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 7,
+                                "kind": 8199,
                                 "elementType": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 35
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 38
                             },
@@ -130,8 +116,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 23,
                             "end": 37
                         }
@@ -140,8 +124,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 38
                 },
@@ -155,16 +137,12 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 39,
                         "end": 39
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 38,
                     "end": 40
                 },
@@ -172,8 +150,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 40
             },
@@ -186,8 +162,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 50,
                     "end": 54
                 },
@@ -204,19 +178,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 55,
                                 "end": 56
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 58,
                                 "end": 64
                             },
@@ -227,8 +197,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 55,
                             "end": 64
                         },
@@ -242,19 +210,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 65,
                                 "end": 67
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 69,
                                 "end": 75
                             },
@@ -265,8 +229,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 65,
                             "end": 75
                         },
@@ -280,29 +242,23 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 80,
                                 "end": 81
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 7,
+                                "kind": 8199,
                                 "elementType": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 82,
                                     "end": 88
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 82,
                                 "end": 91
                             },
@@ -313,8 +269,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 76,
                             "end": 90
                         }
@@ -323,8 +277,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 55,
                     "end": 91
                 },
@@ -338,16 +290,12 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 92,
                         "end": 92
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 91,
                     "end": 93
                 },
@@ -355,8 +303,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 40,
                 "end": 93
             },
@@ -369,8 +315,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 103,
                     "end": 107
                 },
@@ -387,19 +331,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 108,
                                 "end": 109
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 110,
                                 "end": 116
                             },
@@ -410,8 +350,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 108,
                             "end": 116
                         },
@@ -425,19 +363,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 117,
                                 "end": 119
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 121,
                                 "end": 127
                             },
@@ -448,8 +382,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 117,
                             "end": 127
                         },
@@ -463,29 +395,23 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 132,
                                 "end": 133
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 7,
+                                "kind": 8199,
                                 "elementType": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 134,
                                     "end": 140
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 134,
                                 "end": 143
                             },
@@ -496,8 +422,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 128,
                             "end": 142
                         }
@@ -506,8 +430,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 108,
                     "end": 143
                 },
@@ -521,16 +443,12 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 144,
                         "end": 144
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 143,
                     "end": 145
                 },
@@ -538,8 +456,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 93,
                 "end": 145
             },
@@ -552,8 +468,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 155,
                     "end": 159
                 },
@@ -570,19 +484,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 160,
                                 "end": 161
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 162,
                                 "end": 168
                             },
@@ -593,8 +503,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 160,
                             "end": 168
                         },
@@ -608,19 +516,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 169,
                                 "end": 171
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 173,
                                 "end": 179
                             },
@@ -631,8 +535,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 169,
                             "end": 179
                         },
@@ -646,19 +548,15 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 180,
                                 "end": 182
                             },
                             "isOptional": true,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 184,
                                 "end": 190
                             },
@@ -669,8 +567,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 180,
                             "end": 190
                         },
@@ -684,29 +580,23 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 195,
                                 "end": 196
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 7,
+                                "kind": 8199,
                                 "elementType": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 197,
                                     "end": 203
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 197,
                                 "end": 206
                             },
@@ -717,8 +607,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 191,
                             "end": 205
                         }
@@ -727,8 +615,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 160,
                     "end": 206
                 },
@@ -742,16 +628,12 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 207,
                         "end": 207
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 206,
                     "end": 208
                 },
@@ -759,8 +641,6 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 145,
                 "end": 208
             }
@@ -768,16 +648,12 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 208
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -791,21 +667,13 @@ function f21(a:string, b?:string, c?:number, ...d:number[]){}
 
 
 ```javascript
-
-function f18(a?: string, ...b: number[]) { }
-
-function f19(a?: string, b?: number, ...c: number[]) { }
-
-function f20(a: string, b?: string, ...c: number[]) { }
-
-function f21(a: string, b?: string, c?: number, ...d: number[]) { }
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

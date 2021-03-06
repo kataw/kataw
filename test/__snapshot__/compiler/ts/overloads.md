@@ -38,8 +38,6 @@ export function f(x: string): string;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
@@ -56,19 +54,15 @@ export function f(x: string): string;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 19
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 161,
+                                    "kind": 4202657,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 27
                                 },
@@ -79,8 +73,6 @@ export function f(x: string): string;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 27
                             }
@@ -89,18 +81,14 @@ export function f(x: string): string;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 28
                     },
                     "type": {
-                        "kind": 161,
+                        "kind": 4202657,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 29,
                         "end": 36
                     },
@@ -109,8 +97,6 @@ export function f(x: string): string;
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 37
                 },
@@ -121,8 +107,6 @@ export function f(x: string): string;
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 37
             },
@@ -137,8 +121,6 @@ export function f(x: string): string;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 53,
                         "end": 55
                     },
@@ -155,19 +137,15 @@ export function f(x: string): string;
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 56,
                                     "end": 57
                                 },
                                 "isOptional": false,
                                 "type": {
-                                    "kind": 4194510,
+                                    "kind": 4202702,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 58,
                                     "end": 65
                                 },
@@ -178,8 +156,6 @@ export function f(x: string): string;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 56,
                                 "end": 65
                             }
@@ -188,18 +164,14 @@ export function f(x: string): string;
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 56,
                         "end": 66
                     },
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 67,
                         "end": 74
                     },
@@ -208,8 +180,6 @@ export function f(x: string): string;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 44,
                     "end": 75
                 },
@@ -220,8 +190,6 @@ export function f(x: string): string;
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 37,
                 "end": 75
             }
@@ -229,16 +197,12 @@ export function f(x: string): string;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 75
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -252,17 +216,13 @@ export function f(x: string): string;
 
 
 ```javascript
-
-export function f(x: number): number;;
-
-export function f(x: string): string;;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

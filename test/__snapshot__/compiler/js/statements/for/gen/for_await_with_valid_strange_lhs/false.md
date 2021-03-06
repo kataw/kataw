@@ -33,8 +33,6 @@ async function f() { for await ("foo".x in y) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ async function f() { for await ("foo".x in y) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -59,16 +55,14 @@ async function f() { for await ("foo".x in y) {} }
                             {
                                 "kind": 2099286,
                                 "initializer": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
-                                        "kind": 67279,
+                                        "kind": 4261583,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 37
                                     },
@@ -79,18 +73,19 @@ async function f() { for await ("foo".x in y) {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 38,
                                         "end": 39
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
-                                    "end": 39
+                                    "end": 39,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 37,
+                                        "end": 38
+                                    }
                                 },
                                 "expression": {
                                     "kind": 196712,
@@ -99,8 +94,6 @@ async function f() { for await ("foo".x in y) {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 42,
                                     "end": 44
                                 },
@@ -113,24 +106,18 @@ async function f() { for await ("foo".x in y) {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 47,
                                         "end": 47
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 48
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 48
                             }
@@ -139,16 +126,12 @@ async function f() { for await ("foo".x in y) {} }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 48
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 50
                 },
@@ -156,8 +139,6 @@ async function f() { for await ("foo".x in y) {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 260,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 50
             }
@@ -165,8 +146,6 @@ async function f() { for await ("foo".x in y) {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 50
     },
@@ -181,8 +160,6 @@ async function f() { for await ("foo".x in y) {} }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

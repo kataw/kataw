@@ -37,8 +37,6 @@ async (a as T) => {};
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 5
                     },
@@ -47,7 +45,7 @@ async (a as T) => {};
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 65546,
+                                "kind": 73738,
                                 "expression": {
                                     "kind": 196712,
                                     "text": "a",
@@ -55,13 +53,11 @@ async (a as T) => {};
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 7,
                                     "end": 8
                                 },
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "T",
@@ -69,8 +65,6 @@ async (a as T) => {};
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 13
                                     },
@@ -78,16 +72,12 @@ async (a as T) => {};
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 14
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 13
                             }
@@ -96,24 +86,18 @@ async (a as T) => {};
                         "transformFlags": 0,
                         "flags": 65536,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 14
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             },
@@ -126,16 +110,12 @@ async (a as T) => {};
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 17,
                 "end": 20
             },
@@ -144,8 +124,6 @@ async (a as T) => {};
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 20,
                 "end": 21
             }
@@ -153,8 +131,6 @@ async (a as T) => {};
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
@@ -169,8 +145,6 @@ async (a as T) => {};
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -184,19 +158,13 @@ async (a as T) => {};
 
 
 ```javascript
-
-async(a as T)
-
-{}
-
-;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -31,8 +31,6 @@ z(z(z(a&&=)));
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -49,8 +47,6 @@ z(z(z(a&&=)));
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -67,8 +63,6 @@ z(z(z(a&&=)));
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 4,
                                                 "end": 5
                                             },
@@ -85,8 +79,6 @@ z(z(z(a&&=)));
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 6,
                                                             "end": 7
                                                         },
@@ -97,16 +89,12 @@ z(z(z(a&&=)));
                                                             "flags": 6,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 10,
                                                             "end": 10
                                                         },
                                                         "flags": 2,
                                                         "intersects": false,
                                                         "transformFlags": 34,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 6,
                                                         "end": 10
                                                     }
@@ -115,16 +103,12 @@ z(z(z(a&&=)));
                                                 "transformFlags": 0,
                                                 "flags": 0,
                                                 "intersects": false,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 7,
                                                 "end": 11
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 11
                                         }
@@ -133,16 +117,12 @@ z(z(z(a&&=)));
                                     "transformFlags": 0,
                                     "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 12
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 12
                             }
@@ -151,24 +131,18 @@ z(z(z(a&&=)));
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 13
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 1,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             }
@@ -176,8 +150,6 @@ z(z(z(a&&=)));
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 14
     },
@@ -192,8 +164,6 @@ z(z(z(a&&=)));
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

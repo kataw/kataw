@@ -29,8 +29,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 7,
                     "end": 8
                 },
@@ -46,8 +44,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 27
                                 }
@@ -55,8 +51,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 27
                         },
@@ -69,8 +63,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 34
                             },
@@ -81,8 +73,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 42
                                 }
@@ -90,8 +80,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 42
                         },
@@ -104,8 +92,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 47,
                                 "end": 49
                             },
@@ -116,8 +102,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 50,
                                     "end": 57
                                 }
@@ -125,8 +109,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 42,
                             "end": 57
                         },
@@ -139,8 +121,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 66,
                                     "end": 73
                                 }
@@ -148,8 +128,6 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 57,
                             "end": 73
                         }
@@ -157,16 +135,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 75
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 75
             }
@@ -174,16 +148,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 75
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

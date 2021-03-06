@@ -29,8 +29,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -44,8 +42,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
@@ -53,8 +49,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 17
                 },
@@ -77,8 +71,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 30
                                 },
@@ -89,8 +81,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -105,19 +95,9 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                 "kind": 2097233,
                                                 "expression": {
                                                     "kind": 67592,
+                                                    "typeParameters": null,
                                                     "arrowParameters": {
                                                         "kind": 65545,
-                                                        "typeParameters": {
-                                                            "kind": 233,
-                                                            "typeParameterList": [],
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 33,
-                                                            "end": 33
-                                                        },
                                                         "elements": [
                                                             {
                                                                 "kind": 89,
@@ -130,26 +110,22 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                             {
                                                                                 "kind": 134217756,
                                                                                 "left": {
-                                                                                    "kind": 67279,
+                                                                                    "kind": 4261583,
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 39,
                                                                                     "end": 44
                                                                                 },
                                                                                 "right": {
-                                                                                    "kind": 74424,
+                                                                                    "kind": 66232,
                                                                                     "member": {
                                                                                         "kind": 4260561,
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 45,
                                                                                         "end": 51
                                                                                     },
@@ -160,16 +136,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                         "flags": 2,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 51,
                                                                                         "end": 51
                                                                                     },
                                                                                     "flags": 45,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 2,
                                                                                     "end": 51
                                                                                 },
@@ -178,8 +150,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                                 "flags": 2,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 39,
                                                                                 "end": 51
                                                                             }
@@ -189,16 +159,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                         "flags": 2,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 39,
                                                                         "end": 51
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 38,
                                                                     "end": 52
                                                                 },
@@ -211,8 +177,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 33,
                                                                 "end": 53
                                                             }
@@ -223,8 +187,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 33,
                                                         "end": 53
                                                     },
@@ -235,24 +197,18 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 56,
                                                         "end": 58
                                                     },
                                                     "flags": 536870912,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 33,
                                                     "end": 58
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 33,
                                                 "end": 58
                                             }
@@ -261,16 +217,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 33,
                                         "end": 58
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 63
                                 },
@@ -281,16 +233,12 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                 "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 30,
                                 "end": 63
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 63
                         }
@@ -298,8 +246,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 64
                 },
@@ -307,8 +253,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 64
             }
@@ -316,8 +260,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 64
     },
@@ -332,8 +274,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

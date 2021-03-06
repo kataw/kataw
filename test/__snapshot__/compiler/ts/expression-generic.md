@@ -16,11 +16,11 @@
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "(class<T> {});\n(class C<T> {});\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
@@ -30,39 +30,33 @@
                         "kind": 82483,
                         "name": null,
                         "typeParameters": {
-                            "kind": 233,
+                            "kind": 8425,
                             "typeParameterList": [
                                 {
-                                    "kind": 232,
+                                    "kind": 8424,
                                     "name": {
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 7,
                                         "end": 8
                                     },
                                     "constraint": null,
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 7,
                                     "end": 8
                                 }
                             ],
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 7,
                             "end": 8
                         },
@@ -71,36 +65,28 @@
                         "members": {
                             "kind": 50,
                             "elements": [],
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 12
                         },
                         "decorators": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 1,
                         "end": 12
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 13
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 14
             },
@@ -114,48 +100,40 @@
                             "kind": 131102,
                             "text": "C",
                             "rawText": "C",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 23
                         },
                         "typeParameters": {
-                            "kind": 233,
+                            "kind": 8425,
                             "typeParameterList": [
                                 {
-                                    "kind": 232,
+                                    "kind": 8424,
                                     "name": {
                                         "kind": 196711,
                                         "text": "T",
                                         "rawText": "T",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 24,
                                         "end": 25
                                     },
                                     "constraint": null,
                                     "defaultType": null,
                                     "expression": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 25
                                 }
                             ],
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 24,
                             "end": 25
                         },
@@ -164,53 +142,41 @@
                         "members": {
                             "kind": 50,
                             "elements": [],
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 28,
                             "end": 29
                         },
                         "decorators": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 29
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 30
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 14,
                 "end": 31
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -224,21 +190,13 @@
 
 
 ```javascript
-
-(class<T> {
-
-})
-
-(class C<T> {
-
-})
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

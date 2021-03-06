@@ -31,8 +31,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 5
                     },
@@ -41,14 +39,14 @@ async({a=1}. {b=2}, {c=3} = {}))
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 67224232,
                                     "propertyList": {
                                         "kind": 65722,
                                         "properties": [
                                             {
-                                                "kind": 61,
+                                                "kind": 65597,
                                                 "left": {
                                                     "kind": 196712,
                                                     "text": "a",
@@ -56,8 +54,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 7,
                                                     "end": 8
                                                 },
@@ -70,8 +66,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 9,
                                                     "end": 10
                                                 },
@@ -79,8 +73,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 7,
                                                 "end": 10
                                             }
@@ -90,16 +82,12 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 7,
                                         "end": 10
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 11
                                 },
@@ -110,18 +98,19 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 12
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
-                                "end": 12
+                                "end": 12,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 11,
+                                    "end": 12
+                                }
                             },
                             {
                                 "kind": 67224232,
@@ -129,7 +118,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "kind": 65722,
                                     "properties": [
                                         {
-                                            "kind": 61,
+                                            "kind": 65597,
                                             "left": {
                                                 "kind": 196712,
                                                 "text": "b",
@@ -137,8 +126,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 14,
                                                 "end": 15
                                             },
@@ -151,8 +138,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -160,8 +145,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 17
                                         }
@@ -171,16 +154,12 @@ async({a=1}. {b=2}, {c=3} = {}))
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 17
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 18
                             },
@@ -192,7 +171,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "kind": 65722,
                                         "properties": [
                                             {
-                                                "kind": 61,
+                                                "kind": 65597,
                                                 "left": {
                                                     "kind": 196712,
                                                     "text": "c",
@@ -200,8 +179,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 21,
                                                     "end": 22
                                                 },
@@ -214,8 +191,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 23,
                                                     "end": 24
                                                 },
@@ -223,8 +198,6 @@ async({a=1}. {b=2}, {c=3} = {}))
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 24
                                             }
@@ -234,16 +207,12 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 24
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 25
                                 },
@@ -258,24 +227,18 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 30
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 30
                             }
@@ -284,24 +247,18 @@ async({a=1}. {b=2}, {c=3} = {}))
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 7,
                         "end": 31
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 31
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             }
@@ -309,8 +266,6 @@ async({a=1}. {b=2}, {c=3} = {}))
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 32
     },
@@ -332,8 +287,6 @@ async({a=1}. {b=2}, {c=3} = {}))
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

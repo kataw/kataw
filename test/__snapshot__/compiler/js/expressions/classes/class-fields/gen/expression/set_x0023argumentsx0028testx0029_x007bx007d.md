@@ -33,8 +33,6 @@ class C extends Base { set #arguments(test) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -48,8 +46,6 @@ class C extends Base { set #arguments(test) {} }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 20
                     },
@@ -57,8 +53,6 @@ class C extends Base { set #arguments(test) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 20
                 },
@@ -81,8 +75,6 @@ class C extends Base { set #arguments(test) {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 524288,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 37
                                 },
@@ -99,8 +91,6 @@ class C extends Base { set #arguments(test) {} }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 38,
                                                 "end": 42
                                             },
@@ -113,8 +103,6 @@ class C extends Base { set #arguments(test) {} }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 42
                                         }
@@ -123,8 +111,6 @@ class C extends Base { set #arguments(test) {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 38,
                                     "end": 43
                                 },
@@ -139,16 +125,12 @@ class C extends Base { set #arguments(test) {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 43,
                                     "end": 46
                                 },
@@ -159,16 +141,12 @@ class C extends Base { set #arguments(test) {} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 37,
                                 "end": 46
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 46
                         }
@@ -176,8 +154,6 @@ class C extends Base { set #arguments(test) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 48
                 },
@@ -185,8 +161,6 @@ class C extends Base { set #arguments(test) {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 48
             }
@@ -194,16 +168,12 @@ class C extends Base { set #arguments(test) {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 48
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

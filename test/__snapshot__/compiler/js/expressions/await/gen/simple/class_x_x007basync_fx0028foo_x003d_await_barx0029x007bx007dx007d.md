@@ -33,8 +33,6 @@ class x {async f(foo = await bar){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class x {async f(foo = await bar){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -77,8 +73,6 @@ class x {async f(foo = await bar){}}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 20
                                             },
@@ -93,16 +87,12 @@ class x {async f(foo = await bar){}}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 28,
                                                     "end": 32
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 32780,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 32
                                             },
@@ -112,8 +102,6 @@ class x {async f(foo = await bar){}}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 32
                                         }
@@ -122,8 +110,6 @@ class x {async f(foo = await bar){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 33
                                 },
@@ -138,16 +124,12 @@ class x {async f(foo = await bar){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 35
                                 },
@@ -158,16 +140,12 @@ class x {async f(foo = await bar){}}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 4,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 35
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 35
                         }
@@ -175,8 +153,6 @@ class x {async f(foo = await bar){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 36
                 },
@@ -184,8 +160,6 @@ class x {async f(foo = await bar){}}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             }
@@ -193,16 +167,12 @@ class x {async f(foo = await bar){}}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 36
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

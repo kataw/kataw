@@ -24,11 +24,11 @@ class b extends a {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class a {\n    static get x(): () => string {\n        return null;\n    }\n}\n\nclass b extends a {\n    static x() {\n        return \"20\";\n    }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -36,11 +36,9 @@ class b extends a {
                     "kind": 131102,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -62,11 +60,9 @@ class b extends a {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -74,11 +70,9 @@ class b extends a {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -94,107 +88,85 @@ class b extends a {
                                                 "expression": {
                                                     "kind": 4260512,
                                                     "text": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 59,
                                                     "end": 64
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 44,
                                                 "end": 65
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 44,
                                         "end": 65
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 42,
                                     "end": 71
                                 },
                                 "decorators": null,
                                 "type": {
-                                    "kind": 95,
+                                    "kind": 8287,
                                     "typeParameters": null,
                                     "parameters": {
-                                        "kind": 175,
+                                        "kind": 8367,
                                         "parameterList": [],
                                         "trailingcomma": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 31,
                                         "end": 31
                                     },
                                     "returnType": {
-                                        "kind": 4194510,
+                                        "kind": 4202702,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 42
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 42
                                 },
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 26,
                                 "end": 71
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 71
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 73
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 73
             },
@@ -204,11 +176,9 @@ class b extends a {
                     "kind": 131102,
                     "text": "b",
                     "rawText": "b",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 80,
                     "end": 82
                 },
@@ -219,20 +189,16 @@ class b extends a {
                         "kind": 196712,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 90,
                         "end": 92
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 90,
                     "end": 92
                 },
@@ -252,11 +218,9 @@ class b extends a {
                                     "kind": 196711,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 105,
                                     "end": 107
                                 },
@@ -264,11 +228,9 @@ class b extends a {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 108,
                                     "end": 109
                                 },
@@ -282,40 +244,32 @@ class b extends a {
                                             {
                                                 "kind": 2097346,
                                                 "expression": {
-                                                    "kind": 67279,
+                                                    "kind": 4261583,
                                                     "text": "20",
                                                     "rawText": "20",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 126,
                                                     "end": 131
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 111,
                                                 "end": 132
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 111,
                                         "end": 132
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 109,
                                     "end": 138
                                 },
@@ -323,54 +277,42 @@ class b extends a {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 107,
                                 "end": 138
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 94,
                             "end": 138
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 94,
                     "end": 140
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 73,
                 "end": 140
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 140
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -384,25 +326,13 @@ class b extends a {
 
 
 ```javascript
-
-class a {
-    static get x(): () => string {
-        return null;
-    }
-}
-
-class b extends a {
-    static x() {
-        return "20";
-    }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -14,11 +14,11 @@ declare function foo(bar: string): string;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare function foo(bar: string): string;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -26,11 +26,9 @@ declare function foo(bar: string): string;
                     "kind": 131102,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 20
                 },
@@ -44,22 +42,18 @@ declare function foo(bar: string): string;
                                 "kind": 131102,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 24
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 25,
                                 "end": 32
                             },
@@ -67,58 +61,46 @@ declare function foo(bar: string): string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 32
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 33
                 },
                 "type": {
-                    "kind": 4194510,
+                    "kind": 4202702,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 34,
                     "end": 41
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201392128,
+                "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 42
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 42
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -132,15 +114,13 @@ declare function foo(bar: string): string;
 
 
 ```javascript
-
-declare function foo(bar: string): string;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

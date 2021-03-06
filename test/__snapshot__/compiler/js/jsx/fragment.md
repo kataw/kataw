@@ -44,8 +44,6 @@ class Columns extends React.Component {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 13
                 },
@@ -53,7 +51,7 @@ class Columns extends React.Component {
                 "classHeritage": {
                     "kind": 52,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 196712,
                             "text": "React",
@@ -61,8 +59,6 @@ class Columns extends React.Component {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 27
                         },
@@ -73,25 +69,24 @@ class Columns extends React.Component {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 28,
                             "end": 37
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 27,
-                        "end": 37
+                        "end": 37,
+                        "period": {
+                            "kind": 254,
+                            "pos": 27,
+                            "end": 28
+                        }
                     },
                     "typeArguments": null,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 37
                 },
@@ -114,8 +109,6 @@ class Columns extends React.Component {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 39,
                                     "end": 54
                                 },
@@ -126,8 +119,6 @@ class Columns extends React.Component {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 55,
                                     "end": 56
                                 },
@@ -149,8 +140,6 @@ class Columns extends React.Component {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 77,
                                                             "end": 92
                                                         },
@@ -164,7 +153,6 @@ class Columns extends React.Component {
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
                                                                     "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 92,
                                                                     "end": 107
                                                                 },
@@ -178,8 +166,6 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 108,
                                                                             "end": 110
                                                                         },
@@ -189,8 +175,6 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 110,
                                                                             "end": 110
                                                                         },
@@ -198,8 +182,6 @@ class Columns extends React.Component {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 107,
                                                                         "end": 111
                                                                     },
@@ -213,7 +195,6 @@ class Columns extends React.Component {
                                                                                 "intersects": false,
                                                                                 "transformFlags": 8192,
                                                                                 "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 111,
                                                                                 "end": 116
                                                                             }
@@ -221,8 +202,6 @@ class Columns extends React.Component {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 111,
                                                                         "end": 116
                                                                     },
@@ -234,24 +213,18 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 118,
                                                                             "end": 120
                                                                         },
                                                                         "flags": 16384,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 116,
                                                                         "end": 121
                                                                     },
                                                                     "flags": 16384,
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 107,
                                                                     "end": 121
                                                                 },
@@ -262,7 +235,6 @@ class Columns extends React.Component {
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
                                                                     "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 121,
                                                                     "end": 136
                                                                 },
@@ -276,8 +248,6 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 137,
                                                                             "end": 139
                                                                         },
@@ -287,8 +257,6 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 139,
                                                                             "end": 139
                                                                         },
@@ -296,8 +264,6 @@ class Columns extends React.Component {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 136,
                                                                         "end": 140
                                                                     },
@@ -311,7 +277,6 @@ class Columns extends React.Component {
                                                                                 "intersects": false,
                                                                                 "transformFlags": 8192,
                                                                                 "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 140,
                                                                                 "end": 145
                                                                             }
@@ -319,8 +284,6 @@ class Columns extends React.Component {
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 140,
                                                                         "end": 145
                                                                     },
@@ -332,24 +295,18 @@ class Columns extends React.Component {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 8192,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 147,
                                                                             "end": 149
                                                                         },
                                                                         "flags": 16384,
                                                                         "intersects": false,
                                                                         "transformFlags": 8192,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 145,
                                                                         "end": 150
                                                                     },
                                                                     "flags": 16384,
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 136,
                                                                     "end": 150
                                                                 },
@@ -360,7 +317,6 @@ class Columns extends React.Component {
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
                                                                     "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 150,
                                                                     "end": 163
                                                                 }
@@ -368,8 +324,6 @@ class Columns extends React.Component {
                                                             "flags": 16384,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 92,
                                                             "end": 163
                                                         },
@@ -378,32 +332,24 @@ class Columns extends React.Component {
                                                             "flags": 16384,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 163,
                                                             "end": 166
                                                         },
                                                         "flags": 16384,
                                                         "intersects": false,
                                                         "transformFlags": 8192,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 77,
                                                         "end": 166
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 75,
                                                     "end": 174
                                                 },
                                                 "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 58,
                                                 "end": 175
                                             }
@@ -412,16 +358,12 @@ class Columns extends React.Component {
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 58,
                                         "end": 175
                                     },
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 56,
                                     "end": 179
                                 },
@@ -432,16 +374,12 @@ class Columns extends React.Component {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 54,
                                 "end": 179
                             },
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 39,
                             "end": 179
                         }
@@ -449,8 +387,6 @@ class Columns extends React.Component {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 39,
                     "end": 181
                 },
@@ -458,8 +394,6 @@ class Columns extends React.Component {
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 181
             }
@@ -467,16 +401,12 @@ class Columns extends React.Component {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 181
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

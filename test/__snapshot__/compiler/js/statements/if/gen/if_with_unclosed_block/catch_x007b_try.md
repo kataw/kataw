@@ -33,16 +33,12 @@ else {} if(x) { catch { try
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 4,
                 "end": 7
             },
@@ -55,8 +51,6 @@ else {} if(x) { catch { try
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 12
                 },
@@ -76,16 +70,12 @@ else {} if(x) { catch { try
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 15,
                                         "end": 15
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 15
                                 },
@@ -108,16 +98,12 @@ else {} if(x) { catch { try
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 27,
                                                             "end": 27
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 27,
                                                         "end": 27
                                                     },
@@ -131,24 +117,18 @@ else {} if(x) { catch { try
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 27,
                                                             "end": 27
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 27,
                                                         "end": 27
                                                     },
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 23,
                                                     "end": 27
                                                 }
@@ -157,24 +137,18 @@ else {} if(x) { catch { try
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 27
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 16,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 27
                                 },
@@ -182,8 +156,6 @@ else {} if(x) { catch { try
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 16,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 27
                             }
@@ -192,16 +164,12 @@ else {} if(x) { catch { try
                         "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 27
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 27
                 },
@@ -210,8 +178,6 @@ else {} if(x) { catch { try
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 27
             }
@@ -219,8 +185,6 @@ else {} if(x) { catch { try
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 27
     },
@@ -249,8 +213,6 @@ else {} if(x) { catch { try
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

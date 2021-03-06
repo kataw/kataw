@@ -35,11 +35,11 @@ postMessages(
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "postMessage(\n  <IActionMessage>{\n    context: item.context,\n    topic: item.topic\n  }\n);\n\nwindow.postMessage(\n  {\n    context: item.context,\n    topic: item.topic\n  } as IActionMessage\n);\n\npostMessages(\n  <IActionMessage[]>[\n    {\n      context: item.context,\n      topic: item.topic\n    }\n  ]\n);",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
@@ -49,11 +49,9 @@ postMessages(
                         "kind": 196712,
                         "text": "postMessage",
                         "rawText": "postMessage",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 11
                     },
@@ -62,27 +60,23 @@ postMessages(
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 228,
+                                "kind": 73956,
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "IActionMessage",
                                         "rawText": "IActionMessage",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 16,
                                         "end": 30
                                     },
                                     "typeArguments": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 31
                                 },
@@ -97,25 +91,21 @@ postMessages(
                                                     "kind": 196711,
                                                     "text": "context",
                                                     "rawText": "context",
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 32,
                                                     "end": 44
                                                 },
                                                 "right": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "item",
                                                         "rawText": "item",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 45,
                                                         "end": 50
                                                     },
@@ -123,29 +113,28 @@ postMessages(
                                                         "kind": 196711,
                                                         "text": "context",
                                                         "rawText": "context",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 51,
                                                         "end": 58
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 50,
-                                                    "end": 58
+                                                    "end": 58,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 50,
+                                                        "end": 51
+                                                    }
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 32,
                                                 "end": 58
                                             },
@@ -155,25 +144,21 @@ postMessages(
                                                     "kind": 196711,
                                                     "text": "topic",
                                                     "rawText": "topic",
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 59,
                                                     "end": 69
                                                 },
                                                 "right": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "item",
                                                         "rawText": "item",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 70,
                                                         "end": 75
                                                     },
@@ -181,82 +166,69 @@ postMessages(
                                                         "kind": 196711,
                                                         "text": "topic",
                                                         "rawText": "topic",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 76,
                                                         "end": 81
                                                     },
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 75,
-                                                    "end": 81
+                                                    "end": 81,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 75,
+                                                        "end": 76
+                                                    }
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 59,
                                                 "end": 81
                                             }
                                         ],
                                         "trailingComma": false,
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 81
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 85
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 85
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 87
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 87
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 88
             },
@@ -265,16 +237,14 @@ postMessages(
                 "expression": {
                     "kind": 66091,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 196712,
                             "text": "window",
                             "rawText": "window",
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 88,
                             "end": 96
                         },
@@ -282,28 +252,29 @@ postMessages(
                             "kind": 196711,
                             "text": "postMessage",
                             "rawText": "postMessage",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 97,
                             "end": 108
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 96,
-                        "end": 108
+                        "end": 108,
+                        "period": {
+                            "kind": 254,
+                            "pos": 96,
+                            "end": 97
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": {
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 65546,
+                                "kind": 73738,
                                 "expression": {
                                     "kind": 67224232,
                                     "propertyList": {
@@ -315,25 +286,21 @@ postMessages(
                                                     "kind": 196711,
                                                     "text": "context",
                                                     "rawText": "context",
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 113,
                                                     "end": 125
                                                 },
                                                 "right": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "item",
                                                         "rawText": "item",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 126,
                                                         "end": 131
                                                     },
@@ -341,29 +308,28 @@ postMessages(
                                                         "kind": 196711,
                                                         "text": "context",
                                                         "rawText": "context",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 132,
                                                         "end": 139
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 131,
-                                                    "end": 139
+                                                    "end": 139,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 131,
+                                                        "end": 132
+                                                    }
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 113,
                                                 "end": 139
                                             },
@@ -373,25 +339,21 @@ postMessages(
                                                     "kind": 196711,
                                                     "text": "topic",
                                                     "rawText": "topic",
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 140,
                                                     "end": 150
                                                 },
                                                 "right": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "item",
                                                         "rawText": "item",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 151,
                                                         "end": 156
                                                     },
@@ -399,105 +361,88 @@ postMessages(
                                                         "kind": 196711,
                                                         "text": "topic",
                                                         "rawText": "topic",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 157,
                                                         "end": 162
                                                     },
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 156,
-                                                    "end": 162
+                                                    "end": 162,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 156,
+                                                        "end": 157
+                                                    }
                                                 },
                                                 "accessModifier": null,
                                                 "decorators": null,
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 140,
                                                 "end": 162
                                             }
                                         ],
                                         "trailingComma": false,
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 113,
                                         "end": 162
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 109,
                                     "end": 166
                                 },
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "IActionMessage",
                                         "rawText": "IActionMessage",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 169,
                                         "end": 184
                                     },
                                     "typeArguments": null,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 169,
                                     "end": 186
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 166,
                                 "end": 184
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 113,
                         "end": 186
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 108,
                     "end": 186
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 88,
                 "end": 187
             },
@@ -509,11 +454,9 @@ postMessages(
                         "kind": 196712,
                         "text": "postMessages",
                         "rawText": "postMessages",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 187,
                         "end": 201
                     },
@@ -522,37 +465,31 @@ postMessages(
                         "kind": 3,
                         "elements": [
                             {
-                                "kind": 228,
+                                "kind": 73956,
                                 "type": {
-                                    "kind": 7,
+                                    "kind": 8199,
                                     "elementType": {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "IActionMessage",
                                             "rawText": "IActionMessage",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 206,
                                             "end": 220
                                         },
                                         "typeArguments": null,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 206,
                                         "end": 221
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 206,
                                     "end": 223
                                 },
@@ -572,25 +509,21 @@ postMessages(
                                                                 "kind": 196711,
                                                                 "text": "context",
                                                                 "rawText": "context",
-                                                                "flags": 81920,
+                                                                "flags": 16384,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 230,
                                                                 "end": 244
                                                             },
                                                             "right": {
-                                                                "kind": 74424,
+                                                                "kind": 66232,
                                                                 "member": {
                                                                     "kind": 196712,
                                                                     "text": "item",
                                                                     "rawText": "item",
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 245,
                                                                     "end": 250
                                                                 },
@@ -598,29 +531,28 @@ postMessages(
                                                                     "kind": 196711,
                                                                     "text": "context",
                                                                     "rawText": "context",
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 251,
                                                                     "end": 258
                                                                 },
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 250,
-                                                                "end": 258
+                                                                "end": 258,
+                                                                "period": {
+                                                                    "kind": 254,
+                                                                    "pos": 250,
+                                                                    "end": 251
+                                                                }
                                                             },
                                                             "accessModifier": null,
                                                             "decorators": null,
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 230,
                                                             "end": 258
                                                         },
@@ -630,25 +562,21 @@ postMessages(
                                                                 "kind": 196711,
                                                                 "text": "topic",
                                                                 "rawText": "topic",
-                                                                "flags": 81920,
+                                                                "flags": 16384,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 259,
                                                                 "end": 271
                                                             },
                                                             "right": {
-                                                                "kind": 74424,
+                                                                "kind": 66232,
                                                                 "member": {
                                                                     "kind": 196712,
                                                                     "text": "item",
                                                                     "rawText": "item",
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 272,
                                                                     "end": 277
                                                                 },
@@ -656,118 +584,97 @@ postMessages(
                                                                     "kind": 196711,
                                                                     "text": "topic",
                                                                     "rawText": "topic",
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 278,
                                                                     "end": 283
                                                                 },
-                                                                "flags": 81920,
+                                                                "flags": 16384,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 277,
-                                                                "end": 283
+                                                                "end": 283,
+                                                                "period": {
+                                                                    "kind": 254,
+                                                                    "pos": 277,
+                                                                    "end": 278
+                                                                }
                                                             },
                                                             "accessModifier": null,
                                                             "decorators": null,
-                                                            "flags": 81920,
+                                                            "flags": 16384,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 259,
                                                             "end": 283
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "multiline": true,
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 230,
                                                     "end": 283
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 224,
                                                 "end": 289
                                             }
                                         ],
                                         "trailingComma": false,
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 224,
                                         "end": 289
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 223,
                                     "end": 293
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 202,
                                 "end": 293
                             }
                         ],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 206,
                         "end": 295
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 201,
                     "end": 295
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 187,
                 "end": 296
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 296
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -781,21 +688,13 @@ postMessages(
 
 
 ```javascript
-
-postMessage(<IActionMessage>{ context : item.context, topic : item.topic })
-
-window.postMessage({ context : item.context, topic : item.topic } as IActionMessage)
-
-postMessages(<IActionMessage[]>[
-    { context : item.context, topic : item.topic }
-])
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -22,11 +22,11 @@ const thing = {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "const thing = {\n    _size: 0,\n    get size(): number {\n        return this._size;\n    },\n    set size(value: string | number) {\n        this._size = typeof value === 'string' ? parseInt(value) : value;\n    }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -40,11 +40,9 @@ const thing = {
                                 "kind": 131102,
                                 "text": "thing",
                                 "rawText": "thing",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 11
                             },
@@ -61,11 +59,9 @@ const thing = {
                                                 "kind": 196711,
                                                 "text": "_size",
                                                 "rawText": "_size",
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 15,
                                                 "end": 25
                                             },
@@ -73,21 +69,17 @@ const thing = {
                                                 "kind": 4261540,
                                                 "text": 0,
                                                 "rawText": "0",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 28
                                             },
                                             "accessModifier": null,
                                             "decorators": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 15,
                                             "end": 28
                                         },
@@ -97,11 +89,9 @@ const thing = {
                                                 "kind": 196711,
                                                 "text": "size",
                                                 "rawText": "size",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 37,
                                                 "end": 42
                                             },
@@ -109,11 +99,9 @@ const thing = {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 43,
                                                 "end": 44
                                             },
@@ -127,14 +115,12 @@ const thing = {
                                                         {
                                                             "kind": 2097346,
                                                             "expression": {
-                                                                "kind": 74424,
+                                                                "kind": 66232,
                                                                 "member": {
                                                                     "kind": 4260571,
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 69,
                                                                     "end": 74
                                                                 },
@@ -142,66 +128,57 @@ const thing = {
                                                                     "kind": 196711,
                                                                     "text": "_size",
                                                                     "rawText": "_size",
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 75,
                                                                     "end": 80
                                                                 },
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 74,
-                                                                "end": 80
+                                                                "end": 80,
+                                                                "period": {
+                                                                    "kind": 254,
+                                                                    "pos": 74,
+                                                                    "end": 75
+                                                                }
                                                             },
-                                                            "flags": 81920,
+                                                            "flags": 16384,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 54,
                                                             "end": 81
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 54,
                                                     "end": 81
                                                 },
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 52,
                                                 "end": 87
                                             },
                                             "decorators": null,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 45,
                                                 "end": 52
                                             },
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 42,
                                             "end": 87
                                         },
@@ -211,11 +188,9 @@ const thing = {
                                                 "kind": 196711,
                                                 "text": "size",
                                                 "rawText": "size",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 96,
                                                 "end": 101
                                             },
@@ -229,44 +204,36 @@ const thing = {
                                                             "kind": 131102,
                                                             "text": "value",
                                                             "rawText": "value",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 102,
                                                             "end": 107
                                                         },
                                                         "isOptional": false,
                                                         "type": {
-                                                            "kind": 240,
+                                                            "kind": 8432,
                                                             "types": [
                                                                 {
-                                                                    "kind": 4194510,
+                                                                    "kind": 4202702,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 108,
                                                                     "end": 115
                                                                 },
                                                                 {
-                                                                    "kind": 161,
+                                                                    "kind": 4202657,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 117,
                                                                     "end": 124
                                                                 }
                                                             ],
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 115,
                                                             "end": 124
                                                         },
@@ -274,21 +241,17 @@ const thing = {
                                                         "decorators": null,
                                                         "accessModifier": null,
                                                         "isReadOnly": false,
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 102,
                                                         "end": 124
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 102,
                                                 "end": 125
                                             },
@@ -304,14 +267,12 @@ const thing = {
                                                             "expression": {
                                                                 "kind": 65550,
                                                                 "left": {
-                                                                    "kind": 74424,
+                                                                    "kind": 66232,
                                                                     "member": {
                                                                         "kind": 4260571,
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 127,
                                                                         "end": 140
                                                                     },
@@ -319,21 +280,22 @@ const thing = {
                                                                         "kind": 196711,
                                                                         "text": "_size",
                                                                         "rawText": "_size",
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 141,
                                                                         "end": 146
                                                                     },
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 140,
-                                                                    "end": 146
+                                                                    "end": 146,
+                                                                    "period": {
+                                                                        "kind": 254,
+                                                                        "pos": 140,
+                                                                        "end": 141
+                                                                    }
                                                                 },
                                                                 "operator": "=",
                                                                 "right": {
@@ -347,40 +309,32 @@ const thing = {
                                                                                 "kind": 196712,
                                                                                 "text": "value",
                                                                                 "rawText": "value",
-                                                                                "flags": 65536,
+                                                                                "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 155,
                                                                                 "end": 161
                                                                             },
-                                                                            "flags": 65536,
+                                                                            "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 148,
                                                                             "end": 161
                                                                         },
                                                                         "operator": "===",
                                                                         "right": {
-                                                                            "kind": 67279,
+                                                                            "kind": 4261583,
                                                                             "text": "string",
                                                                             "rawText": "string",
-                                                                            "flags": 16842752,
+                                                                            "flags": 16777216,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 165,
                                                                             "end": 174
                                                                         },
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 148,
                                                                         "end": 174
                                                                     },
@@ -390,11 +344,9 @@ const thing = {
                                                                             "kind": 196712,
                                                                             "text": "parseInt",
                                                                             "rawText": "parseInt",
-                                                                            "flags": 65536,
+                                                                            "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 176,
                                                                             "end": 185
                                                                         },
@@ -406,29 +358,23 @@ const thing = {
                                                                                     "kind": 196712,
                                                                                     "text": "value",
                                                                                     "rawText": "value",
-                                                                                    "flags": 65536,
+                                                                                    "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 186,
                                                                                     "end": 191
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "transformFlags": 0,
-                                                                            "flags": 65536,
+                                                                            "flags": 0,
                                                                             "intersects": false,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 191,
                                                                             "end": 192
                                                                         },
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 185,
                                                                         "end": 192
                                                                     },
@@ -436,53 +382,41 @@ const thing = {
                                                                         "kind": 196712,
                                                                         "text": "value",
                                                                         "rawText": "value",
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 194,
                                                                         "end": 200
                                                                     },
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 148,
                                                                     "end": 200
                                                                 },
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 127,
                                                                 "end": 200
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 127,
                                                             "end": 201
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 127,
                                                     "end": 201
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 125,
                                                 "end": 207
                                             },
@@ -490,72 +424,56 @@ const thing = {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 101,
                                             "end": 207
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": true,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 207
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 209
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 209
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 209
                 },
-                "flags": 65552,
+                "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 209
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 209
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -569,19 +487,13 @@ const thing = {
 
 
 ```javascript
-
-const thing = { _size : 0, get size(): number {
-        return this._size;
-    }, set size(value: string | number) {
-        this._size = typeof value === "string" ? parseInt(value) : value
-    } };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -33,8 +33,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -77,8 +73,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 18,
                                                 "end": 21
                                             },
@@ -103,8 +97,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 26,
                                                                             "end": 27
                                                                         },
@@ -117,8 +109,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 28,
                                                                                 "end": 30
                                                                             },
@@ -135,16 +125,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 36,
                                                                                             "end": 40
                                                                                         },
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 32780,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 31,
                                                                                         "end": 40
                                                                                     }
@@ -153,16 +139,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                                 "transformFlags": 0,
                                                                                 "flags": 0,
                                                                                 "intersects": false,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 36,
                                                                                 "end": 41
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 30,
                                                                             "end": 41
                                                                         },
@@ -171,8 +153,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 26,
                                                                         "end": 41
                                                                     }
@@ -182,16 +162,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 26,
                                                                 "end": 41
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 25,
                                                             "end": 42
                                                         }
@@ -201,16 +177,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 25,
                                                     "end": 42
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 43
                                             },
@@ -220,8 +192,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 18,
                                             "end": 43
                                         }
@@ -230,8 +200,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 44
                                 },
@@ -246,16 +214,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 44,
                                     "end": 46
                                 },
@@ -266,16 +230,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097160,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 46
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 46
                         }
@@ -283,8 +243,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 47
                 },
@@ -292,8 +250,6 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 47
             }
@@ -301,16 +257,12 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 47
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

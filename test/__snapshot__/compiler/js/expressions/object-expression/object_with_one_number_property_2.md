@@ -31,8 +31,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -54,8 +52,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 1024,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 6,
                                                 "end": 8
                                             },
@@ -66,8 +62,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 9,
                                                 "end": 10
                                             },
@@ -76,8 +70,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 6,
                                             "end": 10
                                         },
@@ -90,8 +82,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 256,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 11,
                                                 "end": 16
                                             },
@@ -102,8 +92,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 18
                                             },
@@ -112,8 +100,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 18
                                         },
@@ -126,8 +112,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 128,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 19,
                                                 "end": 23
                                             },
@@ -138,8 +122,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 24,
                                                 "end": 25
                                             },
@@ -148,8 +130,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 19,
                                             "end": 25
                                         },
@@ -162,8 +142,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 512,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 31
                                             },
@@ -174,8 +152,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 32,
                                                 "end": 33
                                             },
@@ -184,8 +160,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 33
                                         },
@@ -198,8 +172,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -210,8 +182,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 41,
                                                 "end": 42
                                             },
@@ -220,8 +190,6 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 42
                                         }
@@ -231,16 +199,12 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 42
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 43
                             }
@@ -249,24 +213,18 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 44
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 44
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 45
             }
@@ -274,16 +232,12 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 45
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

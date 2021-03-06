@@ -19,147 +19,123 @@ type x = [];
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "type x = a[][];\ntype x = a[]\\n[];\ntype x = []\\n[];\ntype x = [][]\\na;\ntype x = \\na[];\ntype x = [];",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 6
                 },
                 "type": {
-                    "kind": 7,
+                    "kind": 8199,
                     "elementType": {
-                        "kind": 7,
+                        "kind": 8199,
                         "elementType": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 10
                             },
                             "typeArguments": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 8,
                             "end": 11
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 15
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 15
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 22
                 },
                 "type": {
-                    "kind": 7,
+                    "kind": 8199,
                     "elementType": {
-                        "kind": 236,
+                        "kind": 8428,
                         "typeName": {
                             "kind": 196711,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 24,
                             "end": 26
                         },
                         "typeArguments": null,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 24,
                         "end": 27
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 24,
                     "end": 29
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 15,
                 "end": 28
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 74308,
+                    "kind": 66116,
                     "member": {
                         "kind": 196712,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 29,
                         "end": 30
                     },
@@ -169,74 +145,61 @@ type x = [];
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 30,
                         "end": 30
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 30,
                     "end": 32
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 29,
                 "end": 33
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 38,
                     "end": 40
                 },
                 "type": {
-                    "kind": 224,
+                    "kind": 8416,
                     "elementTypes": [],
-                    "flags": 65536,
+                    "multiline": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 42,
                     "end": 45
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 33,
                 "end": 45
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 74308,
+                    "kind": 66116,
                     "member": {
                         "kind": 196712,
                         "text": "n",
                         "rawText": "n",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 46,
                         "end": 47
                     },
@@ -246,68 +209,55 @@ type x = [];
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 47,
                         "end": 47
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 47,
                     "end": 49
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 46,
                 "end": 50
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 55,
                     "end": 57
                 },
                 "type": {
-                    "kind": 7,
+                    "kind": 8199,
                     "elementType": {
-                        "kind": 224,
+                        "kind": 8416,
                         "elementTypes": [],
-                        "flags": 65536,
+                        "multiline": false,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 59,
                         "end": 62
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 59,
                     "end": 65
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 50,
                 "end": 64
             },
@@ -317,81 +267,67 @@ type x = [];
                     "kind": 196712,
                     "text": "na",
                     "rawText": "na",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 65,
                     "end": 67
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 65,
                 "end": 68
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 73,
                     "end": 75
                 },
                 "type": {
-                    "kind": 236,
+                    "kind": 8428,
                     "typeName": {
                         "kind": 196712,
                         "text": "",
                         "rawText": "",
-                        "flags": 65538,
+                        "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 77,
                         "end": 77
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 77,
                     "end": 79
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 68,
                 "end": 77
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 74308,
+                    "kind": 66116,
                     "member": {
                         "kind": 196712,
                         "text": "na",
                         "rawText": "na",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 79,
                         "end": 81
                     },
@@ -401,67 +337,54 @@ type x = [];
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 81,
                         "end": 81
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 81,
                     "end": 83
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 79,
                 "end": 84
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 89,
                     "end": 91
                 },
                 "type": {
-                    "kind": 224,
+                    "kind": 8416,
                     "elementTypes": [],
-                    "flags": 65536,
+                    "multiline": false,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 93,
                     "end": 96
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 84,
                 "end": 97
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 97
     },
@@ -518,8 +441,6 @@ type x = [];
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -533,34 +454,13 @@ type x = [];
 
 
 ```javascript
-
-type x = a[][];
-
-type x = a[];
-
-n[undefined]
-
-type x = [];
-
-n[undefined]
-
-type x = [][];
-
-na
-
-type x = ;
-
-na[undefined]
-
-type x = [];
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ Type expected - start: 104, end: 0
 
 ```
 

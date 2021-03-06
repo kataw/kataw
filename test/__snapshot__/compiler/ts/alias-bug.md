@@ -19,11 +19,11 @@ function use() {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function use() {\n  var p1: provide.Provide;\n  var p2: foo.Provide;\n  var p3:booz.bar;\n  var p22 = new provide.Provide();\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -31,11 +31,9 @@ function use() {
                     "kind": 131102,
                     "text": "use",
                     "rawText": "use",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 12
                 },
@@ -43,11 +41,9 @@ function use() {
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -68,28 +64,24 @@ function use() {
                                                 "kind": 131102,
                                                 "text": "p1",
                                                 "rawText": "p1",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 25
                                             },
                                             "exclamation": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
-                                                    "kind": 191,
+                                                    "kind": 8383,
                                                     "left": {
                                                         "kind": 196711,
                                                         "text": "provide",
                                                         "rawText": "provide",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 26,
                                                         "end": 34
                                                     },
@@ -97,28 +89,22 @@ function use() {
                                                         "kind": 196711,
                                                         "text": "Provide",
                                                         "rawText": "Provide",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 35,
                                                         "end": 42
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 26,
                                                     "end": 42
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 43
                                             },
@@ -126,25 +112,19 @@ function use() {
                                             "flags": 22,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65536,
+                                            "start": 0,
                                             "end": 42
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 42
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 43
                             },
@@ -159,28 +139,24 @@ function use() {
                                                 "kind": 131102,
                                                 "text": "p2",
                                                 "rawText": "p2",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 49,
                                                 "end": 52
                                             },
                                             "exclamation": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
-                                                    "kind": 191,
+                                                    "kind": 8383,
                                                     "left": {
                                                         "kind": 196711,
                                                         "text": "foo",
                                                         "rawText": "foo",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 53,
                                                         "end": 57
                                                     },
@@ -188,28 +164,22 @@ function use() {
                                                         "kind": 196711,
                                                         "text": "Provide",
                                                         "rawText": "Provide",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 58,
                                                         "end": 65
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 53,
                                                     "end": 65
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 53,
                                                 "end": 66
                                             },
@@ -217,25 +187,19 @@ function use() {
                                             "flags": 49,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65536,
+                                            "start": 0,
                                             "end": 65
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 49,
                                     "end": 65
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 43,
                                 "end": 66
                             },
@@ -250,28 +214,24 @@ function use() {
                                                 "kind": 131102,
                                                 "text": "p3",
                                                 "rawText": "p3",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 72,
                                                 "end": 75
                                             },
                                             "exclamation": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
-                                                    "kind": 191,
+                                                    "kind": 8383,
                                                     "left": {
                                                         "kind": 196711,
                                                         "text": "booz",
                                                         "rawText": "booz",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 76,
                                                         "end": 80
                                                     },
@@ -279,28 +239,22 @@ function use() {
                                                         "kind": 196711,
                                                         "text": "bar",
                                                         "rawText": "bar",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 81,
                                                         "end": 84
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 76,
                                                     "end": 84
                                                 },
                                                 "typeArguments": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 76,
                                                 "end": 85
                                             },
@@ -308,25 +262,19 @@ function use() {
                                             "flags": 72,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65536,
+                                            "start": 0,
                                             "end": 84
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 72,
                                     "end": 84
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 66,
                                 "end": 85
                             },
@@ -341,11 +289,9 @@ function use() {
                                                 "kind": 131102,
                                                 "text": "p22",
                                                 "rawText": "p22",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 91,
                                                 "end": 95
                                             },
@@ -354,16 +300,14 @@ function use() {
                                             "initializer": {
                                                 "kind": 66204,
                                                 "expression": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "provide",
                                                         "rawText": "provide",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 101,
                                                         "end": 109
                                                     },
@@ -371,21 +315,22 @@ function use() {
                                                         "kind": 196711,
                                                         "text": "Provide",
                                                         "rawText": "Provide",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 110,
                                                         "end": 117
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 109,
-                                                    "end": 117
+                                                    "end": 117,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 109,
+                                                        "end": 110
+                                                    }
                                                 },
                                                 "typeArguments": null,
                                                 "argumentList": {
@@ -393,87 +338,67 @@ function use() {
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "transformFlags": 0,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 118,
                                                     "end": 118
                                                 },
                                                 "flags": 97,
                                                 "intersects": false,
                                                 "transformFlags": 32,
-                                                "parent": null,
-                                                "emitNode": null,
-                                                "start": 65536,
+                                                "start": 0,
                                                 "end": 119
                                             },
                                             "flags": 91,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65536,
+                                            "start": 0,
                                             "end": 119
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 91,
                                     "end": 119
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 85,
                                 "end": 120
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 120
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 122
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 122
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 122
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -487,20 +412,13 @@ function use() {
 
 
 ```javascript
-
-function use() {
-    var p1: provide.Provide;
-    var p2: foo.Provide;
-    var p3: booz.bar;
-    var p22 = new provide.Provide();
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

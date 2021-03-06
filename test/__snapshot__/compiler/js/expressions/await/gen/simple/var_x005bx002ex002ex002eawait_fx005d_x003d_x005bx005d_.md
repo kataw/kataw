@@ -46,8 +46,6 @@ var [...await f] = [];
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 8,
                                                 "end": 13
                                             },
@@ -55,8 +53,6 @@ var [...await f] = [];
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 4097,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 13
                                         },
@@ -70,8 +66,6 @@ var [...await f] = [];
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 13,
                                                 "end": 15
                                             },
@@ -79,8 +73,6 @@ var [...await f] = [];
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 15
                                         }
@@ -89,16 +81,12 @@ var [...await f] = [];
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 15
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 16
                             },
@@ -114,24 +102,18 @@ var [...await f] = [];
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 21
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 21
                         }
@@ -139,16 +121,12 @@ var [...await f] = [];
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 21
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 22
             }
@@ -156,8 +134,6 @@ var [...await f] = [];
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 22
     },
@@ -172,8 +148,6 @@ var [...await f] = [];
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

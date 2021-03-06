@@ -27,11 +27,11 @@ f ^= 1;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class f { }\n\nf += '';\nf += 1;\nf -= 1;\nf *= 1;\nf /= 1;\nf %= 1;\nf &= 1;\nf |= 1;\nf <<= 1;\nf >>= 1;\nf >>>= 1;\nf ^= 1;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -39,11 +39,9 @@ f ^= 1;
                     "kind": 131102,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -53,20 +51,16 @@ f ^= 1;
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 11
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 11
             },
@@ -78,40 +72,32 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 11,
                         "end": 14
                     },
                     "operator": "+=",
                     "right": {
-                        "kind": 67279,
+                        "kind": 4261583,
                         "text": "",
                         "rawText": "",
-                        "flags": 16842752,
+                        "flags": 16777216,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 17,
                         "end": 20
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 11,
                 "end": 21
             },
@@ -123,11 +109,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 23
                     },
@@ -136,27 +120,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 26,
                         "end": 28
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 28
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 21,
                 "end": 29
             },
@@ -168,11 +146,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 29,
                         "end": 31
                     },
@@ -181,27 +157,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 34,
                         "end": 36
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 36
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 29,
                 "end": 37
             },
@@ -213,11 +183,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 37,
                         "end": 39
                     },
@@ -226,27 +194,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 42,
                         "end": 44
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 37,
                     "end": 44
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 37,
                 "end": 45
             },
@@ -258,11 +220,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 45,
                         "end": 47
                     },
@@ -271,27 +231,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 50,
                         "end": 52
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 45,
                     "end": 52
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 45,
                 "end": 53
             },
@@ -303,11 +257,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 53,
                         "end": 55
                     },
@@ -316,27 +268,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 58,
                         "end": 60
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 53,
                     "end": 60
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 53,
                 "end": 61
             },
@@ -348,11 +294,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 61,
                         "end": 63
                     },
@@ -361,27 +305,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 66,
                         "end": 68
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 61,
                     "end": 68
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 61,
                 "end": 69
             },
@@ -393,11 +331,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 69,
                         "end": 71
                     },
@@ -406,27 +342,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 74,
                         "end": 76
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 69,
                     "end": 76
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 69,
                 "end": 77
             },
@@ -438,11 +368,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 77,
                         "end": 79
                     },
@@ -451,27 +379,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 83,
                         "end": 85
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 77,
                     "end": 85
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 77,
                 "end": 86
             },
@@ -483,11 +405,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 86,
                         "end": 88
                     },
@@ -496,27 +416,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 92,
                         "end": 94
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 86,
                     "end": 94
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 86,
                 "end": 95
             },
@@ -528,11 +442,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 95,
                         "end": 97
                     },
@@ -541,27 +453,21 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 102,
                         "end": 104
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 95,
                     "end": 104
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 95,
                 "end": 105
             },
@@ -573,11 +479,9 @@ f ^= 1;
                         "kind": 196712,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 105,
                         "end": 107
                     },
@@ -586,44 +490,34 @@ f ^= 1;
                         "kind": 4261540,
                         "text": 1,
                         "rawText": "1",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 110,
                         "end": 112
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 105,
                     "end": 112
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 105,
                 "end": 113
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 113
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -637,41 +531,13 @@ f ^= 1;
 
 
 ```javascript
-
-class f {
-
-}
-
-f += ""
-
-f += 1
-
-f -= 1
-
-f *= 1
-
-f /= 1
-
-f %= 1
-
-f &= 1
-
-f |= 1
-
-f <<= 1
-
-f >>= 1
-
-f >>>= 1
-
-f ^= 1
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

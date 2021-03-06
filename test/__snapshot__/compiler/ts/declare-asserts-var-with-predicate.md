@@ -14,11 +14,11 @@ declare function assertIsString(value: unknown): asserts value is string;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare function assertIsString(value: unknown): asserts value is string;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -26,11 +26,9 @@ declare function assertIsString(value: unknown): asserts value is string;
                     "kind": 131102,
                     "text": "assertIsString",
                     "rawText": "assertIsString",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 31
                 },
@@ -44,22 +42,18 @@ declare function assertIsString(value: unknown): asserts value is string;
                                 "kind": 131102,
                                 "text": "value",
                                 "rawText": "value",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 37
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194546,
+                                "kind": 4202738,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 38,
                                 "end": 46
                             },
@@ -67,81 +61,65 @@ declare function assertIsString(value: unknown): asserts value is string;
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 46
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 32,
                     "end": 47
                 },
                 "type": {
-                    "kind": 234,
+                    "kind": 8426,
                     "asserts": true,
                     "parameterName": {
                         "kind": 196712,
                         "text": "value",
                         "rawText": "value",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 56,
                         "end": 62
                     },
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 65,
                         "end": 72
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 48,
                     "end": 72
                 },
                 "contents": null,
                 "typeParameters": null,
-                "flags": 201392128,
+                "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 73
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 73
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -155,15 +133,13 @@ declare function assertIsString(value: unknown): asserts value is string;
 
 
 ```javascript
-
-declare function assertIsString(value: unknown): asserts value is string;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 
