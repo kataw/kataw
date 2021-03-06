@@ -53,12 +53,6 @@ export function cliOpts() {
 function showHelp() {
   console.log(`
     Kataw Test Runner
-    Usage:
-      \`tests/kataw.spec.mjs\` [options]
-    But for the time being:
-      \`node --experimental-modules tests/zeparser.spec.mjs\`
-    And suggested if also testing builds:
-      \`node --experimental-modules cli/build.mjs; node --experimental-modules tests/zeparser.spec.mjs\` [options]
     Options:
       -f "path"     Only test this file / dir
       -g            Regenerate computed test case blocks (process all autogen.md files)
