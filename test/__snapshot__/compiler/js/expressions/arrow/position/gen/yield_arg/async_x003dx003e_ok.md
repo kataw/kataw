@@ -60,7 +60,7 @@ function *f() {
                                     "kind": 65785,
                                     "delegate": false,
                                     "expression": {
-                                        "kind": 65552,
+                                        "kind": 67592,
                                         "typeParameters": null,
                                         "arrowParameters": {
                                             "kind": 65545,

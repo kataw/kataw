@@ -55,7 +55,7 @@ function f(a = async => ok) {}
                             "isOptional": false,
                             "type": null,
                             "initializer": {
-                                "kind": 65552,
+                                "kind": 67592,
                                 "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,

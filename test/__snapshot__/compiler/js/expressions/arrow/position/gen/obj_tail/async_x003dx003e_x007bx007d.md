@@ -59,7 +59,7 @@ x = {arrow: async => {}}.y
                                             "end": 10
                                         },
                                         "right": {
-                                            "kind": 65552,
+                                            "kind": 67592,
                                             "typeParameters": null,
                                             "arrowParameters": {
                                                 "kind": 65545,

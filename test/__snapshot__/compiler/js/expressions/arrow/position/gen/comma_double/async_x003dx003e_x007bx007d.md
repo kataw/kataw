@@ -30,7 +30,7 @@ async => {}, async => {}
                     "kind": 65590,
                     "expressions": [
                         {
-                            "kind": 65552,
+                            "kind": 67592,
                             "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
@@ -95,7 +95,7 @@ async => {}, async => {}
                             "end": 11
                         },
                         {
-                            "kind": 65552,
+                            "kind": 67592,
                             "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,

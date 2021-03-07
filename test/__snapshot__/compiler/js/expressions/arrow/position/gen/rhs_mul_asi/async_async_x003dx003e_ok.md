@@ -65,7 +65,7 @@ x
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 65552,
+                    "kind": 67592,
                     "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,

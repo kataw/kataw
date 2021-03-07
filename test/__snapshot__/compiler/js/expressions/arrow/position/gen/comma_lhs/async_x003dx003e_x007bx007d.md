@@ -30,7 +30,7 @@ async => {}, a
                     "kind": 65590,
                     "expressions": [
                         {
-                            "kind": 65552,
+                            "kind": 67592,
                             "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
