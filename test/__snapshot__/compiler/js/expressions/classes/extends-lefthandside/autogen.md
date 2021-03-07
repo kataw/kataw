@@ -451,3 +451,108 @@ new #
 `````js
 for (# in x) ;
 `````
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "class A extends # {}",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 48,
+                "name": {
+                    "kind": 131102,
+                    "text": "A",
+                    "rawText": "A",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 5,
+                    "end": 7
+                },
+                "typeParameters": null,
+                "classHeritage": {
+                    "kind": 52,
+                    "expression": {
+                        "kind": 196712,
+                        "text": "#",
+                        "rawText": "extends",
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 15,
+                        "end": 17
+                    },
+                    "typeArguments": null,
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 15,
+                    "end": 17
+                },
+                "implementClauses": null,
+                "members": {
+                    "kind": 50,
+                    "elements": [],
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1,
+                    "start": 19,
+                    "end": 20
+                },
+                "decorators": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 1,
+                "start": 0,
+                "end": 20
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 0,
+        "intersects": false,
+        "start": 0,
+        "end": 20
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 17,
+            "length": 1
+        }
+    ],
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
+

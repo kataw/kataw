@@ -38,8 +38,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 7
                             },
@@ -54,8 +52,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 24
                                 },
@@ -66,8 +62,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -85,8 +79,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 37,
                                                     "end": 38
                                                 },
@@ -99,22 +91,18 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 65785,
                                                                 "delegate": true,
                                                                 "expression": {
-                                                                    "kind": 67279,
+                                                                    "kind": 4261583,
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 16777216,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 53,
                                                                     "end": 59
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 16393,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 46,
                                                                 "end": 59
                                                             },
@@ -125,8 +113,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 60,
                                                                     "end": 67
                                                                 }
@@ -134,8 +120,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 41,
                                                             "end": 67
                                                         }
@@ -143,16 +127,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 39,
                                                     "end": 69
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 28,
                                                 "end": 69
                                             }
@@ -161,16 +141,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 28,
                                         "end": 69
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 26,
                                     "end": 71
                                 },
@@ -179,16 +155,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 128,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 71
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 71
                         }
@@ -196,16 +168,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 71
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 71
             }
@@ -213,16 +181,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 71
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

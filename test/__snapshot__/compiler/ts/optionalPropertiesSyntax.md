@@ -48,23 +48,21 @@ interface indexSig {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "interface fnSigs {\n    //functions signatures can be optional\n    fn(): void;\n    fn?(): void; //err\n    fn2?(): void;\n}\n\ninterface callSig {\n    //Call signatures can't be optional\n    (): any;\n    ()?: any; //err\n    ?(): any; //err\n}\n\ninterface constructSig {\n    //Construct signatures can't be optional\n    new (): any;\n    new ()?: any; //err\n    new ?(): any; //err\n}\n\ninterface propertySig {\n    //Property signatures can be optional\n    prop: any;\n    prop?: any;\n    prop2?: any;\n}\n\ninterface indexSig {\n    //Index signatures can't be optional\n    [idx: number]: any;\n    [idx: number]?: any; //err\n    ? [idx: number]: any; //err\n    [idx?: number]: any; //err\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "fnSigs",
                     "rawText": "fnSigs",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 16
                 },
@@ -74,16 +72,14 @@ interface indexSig {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 147,
+                            "kind": 8339,
                             "name": {
                                 "kind": 196711,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 68
                             },
@@ -93,46 +89,38 @@ interface indexSig {
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 69,
                                 "end": 69
                             },
                             "returnType": {
-                                "kind": 4194550,
+                                "kind": 4202742,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 71,
                                 "end": 76
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 77
                         },
                         {
-                            "kind": 147,
+                            "kind": 8339,
                             "name": {
                                 "kind": 196711,
                                 "text": "fn",
                                 "rawText": "fn",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 77,
                                 "end": 84
                             },
@@ -142,46 +130,38 @@ interface indexSig {
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 86,
                                 "end": 86
                             },
                             "returnType": {
-                                "kind": 4194550,
+                                "kind": 4202742,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 88,
                                 "end": 93
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 77,
                             "end": 94
                         },
                         {
-                            "kind": 147,
+                            "kind": 8339,
                             "name": {
                                 "kind": 196711,
                                 "text": "fn2",
                                 "rawText": "fn2",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 94,
                                 "end": 108
                             },
@@ -191,63 +171,52 @@ interface indexSig {
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 110,
                                 "end": 110
                             },
                             "returnType": {
-                                "kind": 4194550,
+                                "kind": 4202742,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 112,
                                 "end": 117
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 94,
                             "end": 118
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 118
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 120
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "callSig",
                     "rawText": "callSig",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 131,
                     "end": 139
                 },
@@ -257,80 +226,67 @@ interface indexSig {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 44,
+                            "kind": 8236,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 187,
                                 "end": 187
                             },
                             "returnType": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 189,
                                 "end": 193
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 141,
                             "end": 194
                         },
                         {
-                            "kind": 44,
+                            "kind": 8236,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 200,
                                 "end": 200
                             },
                             "returnType": null,
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 194,
                             "end": 201
                         }
                     ],
-                    "flags": 65538,
+                    "multiline": true,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 141,
                     "end": 201
                 },
-                "flags": 81922,
+                "flags": 16386,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 120,
                 "end": 201
             },
@@ -340,19 +296,15 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 203,
                     "end": 207
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 203,
                 "end": 208
             },
@@ -360,15 +312,12 @@ interface indexSig {
                 "kind": 2097233,
                 "expression": {
                     "kind": 65545,
-                    "typeParameters": 1,
                     "elements": [],
                     "type": {
-                        "kind": 4194306,
+                        "kind": 4202498,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 223,
                         "end": 227
                     },
@@ -377,30 +326,24 @@ interface indexSig {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 220,
                     "end": 220
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 220,
                 "end": 228
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "constructSig",
                     "rawText": "constructSig",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 247,
                     "end": 260
                 },
@@ -410,80 +353,67 @@ interface indexSig {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 317,
                                 "end": 317
                             },
                             "returnType": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 319,
                                 "end": 323
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 315,
                             "end": 324
                         },
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 334,
                                 "end": 334
                             },
                             "returnType": null,
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 332,
                             "end": 335
                         }
                     ],
-                    "flags": 65538,
+                    "multiline": true,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 262,
                     "end": 335
                 },
-                "flags": 81922,
+                "flags": 16386,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 236,
                 "end": 335
             },
@@ -493,19 +423,15 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 337,
                     "end": 341
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 337,
                 "end": 342
             },
@@ -521,8 +447,6 @@ interface indexSig {
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 356,
                             "end": 356
                         },
@@ -531,22 +455,17 @@ interface indexSig {
                         "flags": 342,
                         "intersects": false,
                         "transformFlags": 32,
-                        "parent": null,
-                        "emitNode": null,
-                        "start": 65538,
+                        "start": 2,
                         "end": 356
                     },
                     "consequent": {
                         "kind": 65545,
-                        "typeParameters": 1,
                         "elements": [],
                         "type": {
-                            "kind": 4194306,
+                            "kind": 4202498,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 361,
                             "end": 365
                         },
@@ -555,8 +474,6 @@ interface indexSig {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 358,
                         "end": 358
                     },
@@ -566,38 +483,30 @@ interface indexSig {
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 365,
                         "end": 365
                     },
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 342,
                     "end": 365
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 342,
                 "end": 366
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "propertySig",
                     "rawText": "propertySig",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 385,
                     "end": 397
                 },
@@ -607,144 +516,121 @@ interface indexSig {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 399,
                                 "end": 450
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 451,
                                 "end": 455
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 399,
                             "end": 456
                         },
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 456,
                                 "end": 465
                             },
                             "isOptional": true,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 467,
                                 "end": 471
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 456,
                             "end": 472
                         },
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "prop2",
                                 "rawText": "prop2",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 472,
                                 "end": 482
                             },
                             "isOptional": true,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 484,
                                 "end": 488
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 472,
                             "end": 489
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 399,
                     "end": 489
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 374,
                 "end": 491
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "indexSig",
                     "rawText": "indexSig",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 502,
                     "end": 511
                 },
@@ -754,156 +640,131 @@ interface indexSig {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 116,
+                            "kind": 73844,
                             "accessModifier": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
                                             "text": "idx",
                                             "rawText": "idx",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 560,
                                             "end": 563
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 564,
                                             "end": 571
                                         },
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 560,
                                         "end": 571
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 560,
                                 "end": 571
                             },
                             "returnType": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 573,
                                 "end": 577
                             },
                             "isStatic": false,
                             "isReadOnly": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 560,
                             "end": 578
                         },
                         {
-                            "kind": 116,
+                            "kind": 73844,
                             "accessModifier": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
                                             "text": "idx",
                                             "rawText": "idx",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 584,
                                             "end": 587
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 588,
                                             "end": 595
                                         },
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 584,
                                         "end": 595
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 584,
                                 "end": 595
                             },
                             "returnType": null,
                             "isStatic": false,
                             "isReadOnly": false,
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 584,
                             "end": 596
                         }
                     ],
-                    "flags": 65538,
+                    "multiline": true,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 513,
                     "end": 596
                 },
-                "flags": 81922,
+                "flags": 16386,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 491,
                 "end": 596
             },
@@ -913,19 +774,15 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 598,
                     "end": 602
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 598,
                 "end": 603
             },
@@ -940,38 +797,30 @@ interface indexSig {
                                 "kind": 196712,
                                 "text": "idx",
                                 "rawText": "idx",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 617,
                                 "end": 620
                             }
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 65538,
+                        "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 617,
                         "end": 620
                     },
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 615,
                     "end": 620
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 615,
                 "end": 620
             },
@@ -981,19 +830,15 @@ interface indexSig {
                     "kind": 196712,
                     "text": "number",
                     "rawText": "number",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 621,
                     "end": 628
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 621,
                 "end": 628
             },
@@ -1003,19 +848,15 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 630,
                     "end": 634
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 630,
                 "end": 635
             },
@@ -1032,11 +873,9 @@ interface indexSig {
                                     "kind": 196712,
                                     "text": "idx",
                                     "rawText": "idx",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 647,
                                     "end": 650
                                 },
@@ -1046,8 +885,6 @@ interface indexSig {
                                     "flags": 6,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 651,
                                     "end": 651
                                 },
@@ -1055,46 +892,36 @@ interface indexSig {
                                     "kind": 196712,
                                     "text": "number",
                                     "rawText": "number",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 652,
                                     "end": 659
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 647,
                                 "end": 659
                             }
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 647,
                         "end": 659
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 635,
                     "end": 660
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 635,
                 "end": 660
             },
@@ -1104,28 +931,22 @@ interface indexSig {
                     "kind": 196712,
                     "text": "any",
                     "rawText": "any",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 661,
                     "end": 665
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 661,
                 "end": 666
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 674
     },
@@ -1196,8 +1017,6 @@ interface indexSig {
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1211,60 +1030,13 @@ interface indexSig {
 
 
 ```javascript
-
-interface fnSigs {
-    fn(): void;
-    fn?(): void;
-    fn2?(): void;
-}
-
-interface callSig {
-    ():any;
-    ();
-}
-
-any
-
-
-
-interface constructSig {
-    new ():any;
-    new ();
-}
-
-any
-
-new undefined ?  : undefined
-
-interface propertySig {
-    prop: any;
-    prop?: any;
-    prop2?: any;
-}
-
-interface indexSig {
-    [idx: number]: any;
-    [idx: number];
-}
-
-any
-
-[idx]
-
-number
-
-any
-
-[idx ? undefined : number]
-
-any
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

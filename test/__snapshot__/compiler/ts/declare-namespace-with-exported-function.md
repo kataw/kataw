@@ -29,7 +29,7 @@ declare namespace d3 {
         "kind": 150,
         "statements": [
             {
-                "kind": 2097405,
+                "kind": 2105597,
                 "name": {
                     "kind": 196712,
                     "text": "d3",
@@ -37,13 +37,11 @@ declare namespace d3 {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 20
                 },
                 "body": {
-                    "kind": 2097404,
+                    "kind": 2105596,
                     "statements": [
                         {
                             "kind": 76,
@@ -56,8 +54,6 @@ declare namespace d3 {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 40,
                                     "end": 47
                                 },
@@ -74,19 +70,15 @@ declare namespace d3 {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 48,
                                                 "end": 56
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 57,
                                                 "end": 64
                                             },
@@ -97,8 +89,6 @@ declare namespace d3 {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 48,
                                             "end": 64
                                         }
@@ -107,13 +97,11 @@ declare namespace d3 {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
                                     "end": 65
                                 },
                                 "type": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "Selection",
@@ -121,21 +109,17 @@ declare namespace d3 {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 66,
                                         "end": 76
                                     },
                                     "typeArguments": {
-                                        "kind": 227,
+                                        "kind": 8419,
                                         "typeArgumentsList": [
                                             {
-                                                "kind": 4194306,
+                                                "kind": 4202498,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 77,
                                                 "end": 80
                                             }
@@ -143,16 +127,12 @@ declare namespace d3 {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 77,
                                         "end": 80
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 66,
                                     "end": 82
                                 },
@@ -161,8 +141,6 @@ declare namespace d3 {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 82
                             },
@@ -173,8 +151,6 @@ declare namespace d3 {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 22,
                             "end": 82
                         }
@@ -183,16 +159,12 @@ declare namespace d3 {
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 82
                 },
                 "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 84
             }
@@ -200,16 +172,12 @@ declare namespace d3 {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 84
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -223,17 +191,13 @@ declare namespace d3 {
 
 
 ```javascript
-
-declare namespace d3 {
-    export function select(selector: string): Selection<any>;;
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

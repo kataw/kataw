@@ -20,11 +20,11 @@ var y!: MyComponent
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class MyComponent {\nngModel!: ng.INgModelController;\n}\n\nconst x!: string\n\nvar y!: MyComponent",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -32,11 +32,9 @@ var y!: MyComponent
                     "kind": 131102,
                     "text": "MyComponent",
                     "rawText": "MyComponent",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 17
                 },
@@ -52,11 +50,9 @@ var y!: MyComponent
                                 "kind": 196711,
                                 "text": "ngModel",
                                 "rawText": "ngModel",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 27
                             },
@@ -64,18 +60,16 @@ var y!: MyComponent
                             "isOptional": false,
                             "exclamation": true,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
-                                    "kind": 191,
+                                    "kind": 8383,
                                     "left": {
                                         "kind": 196711,
                                         "text": "ng",
                                         "rawText": "ng",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 32
                                     },
@@ -83,28 +77,22 @@ var y!: MyComponent
                                         "kind": 196711,
                                         "text": "INgModelController",
                                         "rawText": "INgModelController",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 33,
                                         "end": 51
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 51
                                 },
                                 "typeArguments": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 52
                             },
@@ -112,29 +100,23 @@ var y!: MyComponent
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 52
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 54
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 54
             },
@@ -150,48 +132,38 @@ var y!: MyComponent
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 61,
                                 "end": 63
                             },
                             "exclamation": true,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 65,
                                 "end": 72
                             },
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 61,
                             "end": 72
                         }
                     ],
-                    "flags": 81936,
+                    "flags": 16400,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 61,
                     "end": 72
                 },
-                "flags": 81936,
+                "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 54,
                 "end": 72
             },
@@ -206,35 +178,29 @@ var y!: MyComponent
                                 "kind": 131102,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 77,
                                 "end": 79
                             },
                             "exclamation": true,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "MyComponent",
                                     "rawText": "MyComponent",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 81,
                                     "end": 93
                                 },
                                 "typeArguments": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 81,
                                 "end": 93
                             },
@@ -242,42 +208,32 @@ var y!: MyComponent
                             "flags": 77,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 93
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 77,
                     "end": 93
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 72,
                 "end": 93
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 93
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -291,21 +247,13 @@ var y!: MyComponent
 
 
 ```javascript
-
-class MyComponent {
-    ngModel!: ng.INgModelController;
-}
-
-const x!: string;
-
-var y!: MyComponent;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

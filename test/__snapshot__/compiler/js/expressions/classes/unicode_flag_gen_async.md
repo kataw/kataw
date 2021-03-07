@@ -29,8 +29,6 @@ class x { async *prot\u006ftype(){} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -55,8 +53,6 @@ class x { async *prot\u006ftype(){} }
                                     "flags": 4194304,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 17,
                                     "end": 31
                                 },
@@ -67,8 +63,6 @@ class x { async *prot\u006ftype(){} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -83,16 +77,12 @@ class x { async *prot\u006ftype(){} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 33,
                                     "end": 35
                                 },
@@ -103,16 +93,12 @@ class x { async *prot\u006ftype(){} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097160,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 35
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 35
                         }
@@ -120,8 +106,6 @@ class x { async *prot\u006ftype(){} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 37
                 },
@@ -129,8 +113,6 @@ class x { async *prot\u006ftype(){} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 37
             }
@@ -138,16 +120,12 @@ class x { async *prot\u006ftype(){} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 37
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -47,7 +47,7 @@ class C extends B {
         "kind": 150,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "A",
@@ -55,8 +55,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 11
                 },
@@ -66,7 +64,7 @@ class C extends B {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "prop",
@@ -74,20 +72,16 @@ class C extends B {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 22
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 30
                             },
@@ -97,13 +91,11 @@ class C extends B {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 31
                         },
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
                                 "kind": 196711,
                                 "text": "raw",
@@ -111,20 +103,16 @@ class C extends B {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 39
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 40,
                                 "end": 47
                             },
@@ -134,13 +122,11 @@ class C extends B {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 31,
                             "end": 48
                         },
                         {
-                            "kind": 147,
+                            "kind": 8339,
                             "name": {
                                 "kind": 196711,
                                 "text": "m",
@@ -148,8 +134,6 @@ class C extends B {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 48,
                                 "end": 54
                             },
@@ -159,49 +143,40 @@ class C extends B {
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [],
                                 "trailingcomma": false,
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 55,
                                 "end": 55
                             },
                             "returnType": {
-                                "kind": 4194550,
+                                "kind": 4202742,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 57,
                                 "end": 62
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 48,
                             "end": 63
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 63
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 65
             },
@@ -214,8 +189,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 80,
                     "end": 82
                 },
@@ -227,7 +200,7 @@ class C extends B {
                         {
                             "kind": 106,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "A",
@@ -235,8 +208,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 93,
                                     "end": 95
                                 },
@@ -244,16 +215,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 93,
                                 "end": 97
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 93,
                             "end": 95
                         }
@@ -261,8 +228,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 93,
                     "end": 95
                 },
@@ -278,8 +243,6 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 110,
                                 "end": 115
                             },
@@ -287,12 +250,10 @@ class C extends B {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 116,
                                 "end": 123
                             },
@@ -303,8 +264,6 @@ class C extends B {
                             "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 97,
                             "end": 124
                         },
@@ -317,8 +276,6 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 137,
                                 "end": 141
                             },
@@ -326,12 +283,10 @@ class C extends B {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 142,
                                 "end": 149
                             },
@@ -342,8 +297,6 @@ class C extends B {
                             "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 124,
                             "end": 150
                         },
@@ -356,8 +309,6 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 172,
                                 "end": 175
                             },
@@ -365,12 +316,10 @@ class C extends B {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 176,
                                 "end": 183
                             },
@@ -381,8 +330,6 @@ class C extends B {
                             "flags": 268517376,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 150,
                             "end": 184
                         },
@@ -401,8 +348,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 201,
                                     "end": 214
                                 },
@@ -413,8 +358,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 215,
                                     "end": 216
                                 },
@@ -423,12 +366,10 @@ class C extends B {
                                 "contents": null,
                                 "decorators": null,
                                 "type": {
-                                    "kind": 4194510,
+                                    "kind": 4202702,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 217,
                                     "end": 224
                                 },
@@ -437,16 +378,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 214,
                                 "end": 225
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 184,
                             "end": 225
                         },
@@ -465,8 +402,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 242,
                                     "end": 255
                                 },
@@ -483,19 +418,15 @@ class C extends B {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 256,
                                                 "end": 259
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 4194510,
+                                                "kind": 4202702,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 260,
                                                 "end": 267
                                             },
@@ -506,8 +437,6 @@ class C extends B {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 256,
                                             "end": 267
                                         }
@@ -516,8 +445,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 256,
                                     "end": 268
                                 },
@@ -531,16 +458,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 255,
                                 "end": 269
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 225,
                             "end": 269
                         },
@@ -559,8 +482,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 282,
                                     "end": 284
                                 },
@@ -571,8 +492,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 285,
                                     "end": 286
                                 },
@@ -581,12 +500,10 @@ class C extends B {
                                 "contents": null,
                                 "decorators": null,
                                 "type": {
-                                    "kind": 4194550,
+                                    "kind": 4202742,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 287,
                                     "end": 292
                                 },
@@ -595,16 +512,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 284,
                                 "end": 293
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 269,
                             "end": 293
                         }
@@ -612,8 +525,6 @@ class C extends B {
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 97,
                     "end": 295
                 },
@@ -621,8 +532,6 @@ class C extends B {
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 74,
                 "end": 295
             },
@@ -635,8 +544,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 301,
                     "end": 303
                 },
@@ -650,8 +557,6 @@ class C extends B {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 311,
                         "end": 313
                     },
@@ -659,8 +564,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 311,
                     "end": 313
                 },
@@ -683,8 +586,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 323,
                                     "end": 328
                                 },
@@ -695,8 +596,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 329,
                                     "end": 330
                                 },
@@ -710,22 +609,18 @@ class C extends B {
                                             {
                                                 "kind": 2097346,
                                                 "expression": {
-                                                    "kind": 67279,
+                                                    "kind": 4261583,
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 339,
                                                     "end": 345
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 332,
                                                 "end": 346
                                             }
@@ -734,16 +629,12 @@ class C extends B {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 332,
                                         "end": 346
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 330,
                                     "end": 348
                                 },
@@ -754,16 +645,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 328,
                                 "end": 348
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 315,
                             "end": 348
                         },
@@ -782,8 +669,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 356,
                                     "end": 361
                                 },
@@ -800,8 +685,6 @@ class C extends B {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 362,
                                                 "end": 363
                                             },
@@ -814,8 +697,6 @@ class C extends B {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 362,
                                             "end": 363
                                         }
@@ -824,8 +705,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 362,
                                     "end": 364
                                 },
@@ -840,16 +719,12 @@ class C extends B {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 366,
                                         "end": 366
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 364,
                                     "end": 368
                                 },
@@ -860,16 +735,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 361,
                                 "end": 368
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 348,
                             "end": 368
                         },
@@ -882,8 +753,6 @@ class C extends B {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 368,
                                 "end": 376
                             },
@@ -892,14 +761,12 @@ class C extends B {
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "edge",
                                 "rawText": "edge",
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 378,
                                 "end": 385
                             },
@@ -909,8 +776,6 @@ class C extends B {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 368,
                             "end": 386
                         },
@@ -923,8 +788,6 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 399,
                                 "end": 402
                             },
@@ -933,14 +796,12 @@ class C extends B {
                             "exclamation": false,
                             "type": null,
                             "initializer": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "readonly please",
                                 "rawText": "readonly please",
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 404,
                                 "end": 422
                             },
@@ -950,8 +811,6 @@ class C extends B {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 386,
                             "end": 423
                         },
@@ -964,8 +823,6 @@ class C extends B {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 423,
                                 "end": 440
                             },
@@ -973,12 +830,10 @@ class C extends B {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 441,
                                 "end": 448
                             },
@@ -989,8 +844,6 @@ class C extends B {
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 423,
                             "end": 449
                         },
@@ -1009,8 +862,6 @@ class C extends B {
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 449,
                                     "end": 494
                                 },
@@ -1021,8 +872,6 @@ class C extends B {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 495,
                                     "end": 496
                                 },
@@ -1037,16 +886,12 @@ class C extends B {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 498,
                                         "end": 498
                                     },
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 496,
                                     "end": 500
                                 },
@@ -1057,16 +902,12 @@ class C extends B {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 494,
                                 "end": 500
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 449,
                             "end": 500
                         }
@@ -1074,8 +915,6 @@ class C extends B {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 315,
                     "end": 502
                 },
@@ -1083,8 +922,6 @@ class C extends B {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 295,
                 "end": 502
             }
@@ -1092,16 +929,12 @@ class C extends B {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 502
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1115,37 +948,13 @@ class C extends B {
 
 
 ```javascript
-
-interface A {
-    prop: string;
-    raw: string;
-    m(): void;
-}
-
-abstract class B implements A {
-    abstract prop: string;
-    abstract raw: string;
-    abstract readonly ro: string;
-    abstract get readonlyProp(): string;
-    abstract set readonlyProp(val: string);
-    abstract m(): void;
-}
-
-class C extends B {
-    get prop() { return "foo"; }
-    set prop(v) { }
-    raw = "edge";
-    readonly ro = "readonly please";
-    readonlyProp: string;
-    m() { }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -33,8 +33,6 @@ function* gf() { yield 'foo' }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 12
                 },
@@ -45,8 +43,6 @@ function* gf() { yield 'foo' }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -62,30 +58,24 @@ function* gf() { yield 'foo' }
                                     "kind": 65785,
                                     "delegate": false,
                                     "expression": {
-                                        "kind": 67279,
+                                        "kind": 4261583,
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 16777216,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 22,
                                         "end": 28
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 16393,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 28
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 28
                             }
@@ -94,16 +84,12 @@ function* gf() { yield 'foo' }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 28
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 30
                 },
@@ -111,8 +97,6 @@ function* gf() { yield 'foo' }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             }
@@ -120,16 +104,12 @@ function* gf() { yield 'foo' }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

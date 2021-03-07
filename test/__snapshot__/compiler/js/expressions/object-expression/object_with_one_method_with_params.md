@@ -31,8 +31,6 @@ wrap({foo(a,b,c){}});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -54,8 +52,6 @@ wrap({foo(a,b,c){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 6,
                                                 "end": 9
                                             },
@@ -72,8 +68,6 @@ wrap({foo(a,b,c){}});
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 10,
                                                             "end": 11
                                                         },
@@ -86,8 +80,6 @@ wrap({foo(a,b,c){}});
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 10,
                                                         "end": 11
                                                     },
@@ -101,8 +93,6 @@ wrap({foo(a,b,c){}});
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 12,
                                                             "end": 13
                                                         },
@@ -115,8 +105,6 @@ wrap({foo(a,b,c){}});
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 12,
                                                         "end": 13
                                                     },
@@ -130,8 +118,6 @@ wrap({foo(a,b,c){}});
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 14,
                                                             "end": 15
                                                         },
@@ -144,8 +130,6 @@ wrap({foo(a,b,c){}});
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 14,
                                                         "end": 15
                                                     }
@@ -154,8 +138,6 @@ wrap({foo(a,b,c){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 10,
                                                 "end": 16
                                             },
@@ -170,16 +152,12 @@ wrap({foo(a,b,c){}});
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 17,
                                                     "end": 17
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 18
                                             },
@@ -190,8 +168,6 @@ wrap({foo(a,b,c){}});
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 9,
                                             "end": 18
                                         }
@@ -201,16 +177,12 @@ wrap({foo(a,b,c){}});
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 18
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 19
                             }
@@ -219,24 +191,18 @@ wrap({foo(a,b,c){}});
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 20
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 20
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -244,16 +210,12 @@ wrap({foo(a,b,c){}});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

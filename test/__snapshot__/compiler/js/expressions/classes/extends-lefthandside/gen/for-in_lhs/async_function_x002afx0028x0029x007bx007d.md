@@ -35,8 +35,6 @@ for (async function *f(){} in x) ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 22
                     },
@@ -47,8 +45,6 @@ for (async function *f(){} in x) ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 24
                     },
@@ -61,16 +57,12 @@ for (async function *f(){} in x) ;
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 25,
                             "end": 25
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 24,
                         "end": 26
                     },
@@ -79,8 +71,6 @@ for (async function *f(){} in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 8,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 26
                 },
@@ -91,8 +81,6 @@ for (async function *f(){} in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 31
                 },
@@ -101,16 +89,12 @@ for (async function *f(){} in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 32,
                     "end": 34
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 34
             }
@@ -118,16 +102,12 @@ for (async function *f(){} in x) ;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 34
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

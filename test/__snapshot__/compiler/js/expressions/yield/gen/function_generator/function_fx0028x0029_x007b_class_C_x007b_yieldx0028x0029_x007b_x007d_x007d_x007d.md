@@ -33,8 +33,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -97,8 +89,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 48,
                                                     "end": 50
                                                 },
@@ -109,8 +99,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 51,
                                                     "end": 52
                                                 },
@@ -129,8 +117,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 60,
                                                                     "end": 62
                                                                 },
@@ -155,8 +141,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 64,
                                                                                     "end": 70
                                                                                 },
@@ -167,8 +151,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 71,
                                                                                     "end": 72
                                                                                 },
@@ -183,16 +165,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 74,
                                                                                         "end": 74
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 72,
                                                                                     "end": 76
                                                                                 },
@@ -203,16 +181,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 70,
                                                                                 "end": 76
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 64,
                                                                             "end": 76
                                                                         }
@@ -220,8 +194,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 64,
                                                                     "end": 78
                                                                 },
@@ -229,8 +201,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 54,
                                                                 "end": 78
                                                             }
@@ -239,16 +209,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 54,
                                                         "end": 78
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 52,
                                                     "end": 80
                                                 },
@@ -256,8 +222,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 256,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 80
                                             }
@@ -266,16 +230,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 80
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 82
                                 },
@@ -283,8 +243,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 82
                             }
@@ -293,16 +251,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 82
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 83
                 },
@@ -310,8 +264,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 83
             }
@@ -319,16 +271,12 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 83
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -14,55 +14,19 @@ async <T>() => await null;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "async <T>() => await null;",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 16,
+                    "kind": 65552,
+                    "typeParameters": null,
                     "arrowParameters": {
                         "kind": 65545,
-                        "typeParameters": {
-                            "kind": 233,
-                            "typeParameterList": [
-                                {
-                                    "kind": 232,
-                                    "name": {
-                                        "kind": 196711,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
-                                        "start": 7,
-                                        "end": 8
-                                    },
-                                    "constraint": null,
-                                    "defaultType": null,
-                                    "expression": null,
-                                    "flags": 65536,
-                                    "intersects": false,
-                                    "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
-                                    "start": 7,
-                                    "end": 8
-                                }
-                            ],
-                            "flags": 65536,
-                            "intersects": false,
-                            "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 7,
-                            "end": 8
-                        },
                         "elements": [],
                         "type": null,
                         "accessModifier": null,
@@ -70,8 +34,6 @@ async <T>() => await null;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 9,
                         "end": 9
                     },
@@ -80,52 +42,40 @@ async <T>() => await null;
                         "expression": {
                             "kind": 4260512,
                             "text": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 25
                         },
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 32780,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 14,
                         "end": 25
                     },
-                    "flags": 536936448,
+                    "flags": 536870912,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 25
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 26
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 26
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -139,15 +89,13 @@ async <T>() => await null;
 
 
 ```javascript
-
-async () => await null
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

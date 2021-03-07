@@ -14,11 +14,11 @@ const ranges = test.rangesByText().get("#foo");
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "const ranges = test.rangesByText().get(\"#foo\");",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -32,11 +32,9 @@ const ranges = test.rangesByText().get("#foo");
                                 "kind": 131102,
                                 "text": "ranges",
                                 "rawText": "ranges",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 12
                             },
@@ -45,20 +43,18 @@ const ranges = test.rangesByText().get("#foo");
                             "initializer": {
                                 "kind": 66091,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 66091,
                                         "expression": {
-                                            "kind": 74424,
+                                            "kind": 66232,
                                             "member": {
                                                 "kind": 196712,
                                                 "text": "test",
                                                 "rawText": "test",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 14,
                                                 "end": 19
                                             },
@@ -66,21 +62,22 @@ const ranges = test.rangesByText().get("#foo");
                                                 "kind": 196711,
                                                 "text": "rangesByText",
                                                 "rawText": "rangesByText",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 32
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 19,
-                                            "end": 32
+                                            "end": 32,
+                                            "period": {
+                                                "kind": 254,
+                                                "pos": 19,
+                                                "end": 20
+                                            }
                                         },
                                         "typeArguments": null,
                                         "argumentList": {
@@ -88,18 +85,14 @@ const ranges = test.rangesByText().get("#foo");
                                             "elements": [],
                                             "trailingComma": false,
                                             "transformFlags": 0,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 34
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 34
                                     },
@@ -107,95 +100,80 @@ const ranges = test.rangesByText().get("#foo");
                                         "kind": 196711,
                                         "text": "get",
                                         "rawText": "get",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 38
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
-                                    "end": 38
+                                    "end": 38,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 34,
+                                        "end": 35
+                                    }
                                 },
                                 "typeArguments": null,
                                 "argumentList": {
                                     "kind": 3,
                                     "elements": [
                                         {
-                                            "kind": 67279,
+                                            "kind": 4261583,
                                             "text": "#foo",
                                             "rawText": "#foo",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 39,
                                             "end": 45
                                         }
                                     ],
                                     "trailingComma": false,
                                     "transformFlags": 0,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 46
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 38,
                                 "end": 46
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 46
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 46
                 },
-                "flags": 65552,
+                "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 47
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 47
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -209,15 +187,13 @@ const ranges = test.rangesByText().get("#foo");
 
 
 ```javascript
-
-const ranges = test.rangesByText().get("#foo");
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

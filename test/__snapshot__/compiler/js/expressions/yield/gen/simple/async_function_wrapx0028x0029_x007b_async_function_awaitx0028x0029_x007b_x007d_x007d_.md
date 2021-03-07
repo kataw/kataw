@@ -33,8 +33,6 @@ async function wrap() { async function await() { } };
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 19
                 },
@@ -45,8 +43,6 @@ async function wrap() { async function await() { } };
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 21
                 },
@@ -65,8 +61,6 @@ async function wrap() { async function await() { } };
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 38,
                                     "end": 44
                                 },
@@ -77,8 +71,6 @@ async function wrap() { async function await() { } };
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -92,16 +84,12 @@ async function wrap() { async function await() { } };
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 48,
                                         "end": 48
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 46,
                                     "end": 50
                                 },
@@ -109,8 +97,6 @@ async function wrap() { async function await() { } };
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 260,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 50
                             }
@@ -119,16 +105,12 @@ async function wrap() { async function await() { } };
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 50
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 52
                 },
@@ -136,8 +118,6 @@ async function wrap() { async function await() { } };
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 260,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 52
             },
@@ -146,8 +126,6 @@ async function wrap() { async function await() { } };
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 52,
                 "end": 53
             }
@@ -155,16 +133,12 @@ async function wrap() { async function await() { } };
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 53
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

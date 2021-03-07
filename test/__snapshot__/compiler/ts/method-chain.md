@@ -38,20 +38,18 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                 "expression": {
                     "kind": 66091,
                     "expression": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 66091,
                             "expression": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 4260571,
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 0,
                                         "end": 4
                                     },
@@ -62,18 +60,19 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 13
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 4,
-                                    "end": 13
+                                    "end": 13,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 4,
+                                        "end": 5
+                                    }
                                 },
                                 "expression": {
                                     "kind": 196711,
@@ -82,18 +81,19 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 14,
                                     "end": 20
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
-                                "end": 20
+                                "end": 20,
+                                "period": {
+                                    "kind": 254,
+                                    "pos": 13,
+                                    "end": 14
+                                }
                             },
                             "typeArguments": null,
                             "argumentList": {
@@ -107,7 +107,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "rawText": "/shops/",
                                                 "text": "/shops/",
                                                 "expression": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "shopLocation",
@@ -115,8 +115,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 31,
                                                         "end": 43
                                                     },
@@ -127,24 +125,23 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 44,
                                                         "end": 48
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 43,
-                                                    "end": 48
+                                                    "end": 48,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 43,
+                                                        "end": 44
+                                                    }
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 48
                                             }
@@ -153,19 +150,16 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "kind": 4260568,
                                             "rawText": "",
                                             "text": "",
+                                            "literal": false,
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 48,
                                             "end": 50
                                         },
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 50
                                     }
@@ -174,16 +168,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                 "transformFlags": 0,
                                 "flags": 81920,
                                 "intersects": false,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 51
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 51
                         },
@@ -194,18 +184,19 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 79,
                             "end": 84
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 51,
-                        "end": 84
+                        "end": 84,
+                        "period": {
+                            "kind": 254,
+                            "pos": 51,
+                            "end": 79
+                        }
                     },
                     "typeArguments": null,
                     "argumentList": {
@@ -213,9 +204,9 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                         "elements": [
                             {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [
                                         {
                                             "kind": 89,
@@ -227,14 +218,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 123,
                                                 "end": 130
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
                                                     "kind": 196711,
                                                     "text": "Observable",
@@ -242,16 +231,14 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 131,
                                                     "end": 142
                                                 },
                                                 "typeArguments": {
-                                                    "kind": 227,
+                                                    "kind": 8419,
                                                     "typeArgumentsList": [
                                                         {
-                                                            "kind": 236,
+                                                            "kind": 8428,
                                                             "typeName": {
                                                                 "kind": 196711,
                                                                 "text": "ShopQueryResult",
@@ -259,8 +246,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 143,
                                                                 "end": 158
                                                             },
@@ -268,8 +253,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 143,
                                                             "end": 159
                                                         }
@@ -277,16 +260,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 143,
                                                     "end": 158
                                                 },
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 131,
                                                 "end": 160
                                             },
@@ -297,8 +276,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 122,
                                             "end": 159
                                         },
@@ -312,19 +289,15 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 108,
                                                 "end": 114
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 115,
                                                 "end": 122
                                             },
@@ -335,8 +308,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 107,
                                             "end": 122
                                         },
@@ -350,14 +321,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 86,
                                                 "end": 90
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 236,
+                                                "kind": 8428,
                                                 "typeName": {
                                                     "kind": 196711,
                                                     "text": "ShopQueryResult",
@@ -365,8 +334,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 91,
                                                     "end": 107
                                                 },
@@ -374,8 +341,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 91,
                                                 "end": 108
                                             },
@@ -386,19 +351,15 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 85,
                                             "end": 107
                                         }
                                     ],
                                     "type": {
-                                        "kind": 4194306,
+                                        "kind": 4202498,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 161,
                                         "end": 165
                                     },
@@ -407,8 +368,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 86,
                                     "end": 159
                                 },
@@ -432,8 +391,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 214,
                                                                 "end": 216
                                                             },
@@ -446,16 +403,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 218,
                                                                 "end": 223
                                                             },
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 214,
                                                             "end": 223
                                                         }
@@ -463,16 +416,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "flags": 65552,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 214,
                                                     "end": 223
                                                 },
                                                 "flags": 81936,
                                                 "intersects": false,
                                                 "transformFlags": 769,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 170,
                                                 "end": 224
                                             },
@@ -481,7 +430,7 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                 "expression": {
                                                     "kind": 65550,
                                                     "left": {
-                                                        "kind": 74424,
+                                                        "kind": 66232,
                                                         "member": {
                                                             "kind": 196712,
                                                             "text": "s",
@@ -489,8 +438,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 224,
                                                             "end": 232
                                                         },
@@ -501,22 +448,23 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 233,
                                                             "end": 241
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 232,
-                                                        "end": 241
+                                                        "end": 241,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 232,
+                                                            "end": 233
+                                                        }
                                                     },
                                                     "operator": "=",
                                                     "right": {
-                                                        "kind": 74424,
+                                                        "kind": 66232,
                                                         "member": {
                                                             "kind": 196712,
                                                             "text": "shopLocation",
@@ -524,8 +472,6 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 243,
                                                             "end": 256
                                                         },
@@ -536,32 +482,29 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 257,
                                                             "end": 265
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 256,
-                                                        "end": 265
+                                                        "end": 265,
+                                                        "period": {
+                                                            "kind": 254,
+                                                            "pos": 256,
+                                                            "end": 257
+                                                        }
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 224,
                                                     "end": 265
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 224,
                                                 "end": 266
                                             },
@@ -574,16 +517,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 279,
                                                     "end": 281
                                                 },
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 266,
                                                 "end": 282
                                             }
@@ -592,24 +531,18 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 170,
                                         "end": 282
                                     },
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 168,
                                     "end": 286
                                 },
                                 "flags": 536936448,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 85,
                                 "end": 286
                             }
@@ -618,24 +551,18 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
                         "transformFlags": 0,
                         "flags": 65536,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 86,
                         "end": 287
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 84,
                     "end": 287
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 288
             }
@@ -643,16 +570,12 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 288
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -666,19 +589,13 @@ this.firebase.object(`/shops/${shopLocation.shop}`)
 
 
 ```javascript
-
-this.firebase.object(`/shops/${shopLocation.shop{`).first((source: Observable<ShopQueryResult>, index: number, shop: ShopQueryResult) =>  {
-    const s = shop;
-    s.distance = shopLocation.distance
-    return s;
-})
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

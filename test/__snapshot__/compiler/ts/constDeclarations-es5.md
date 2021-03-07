@@ -43,8 +43,6 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 8
                             },
@@ -56,16 +54,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
                                 "end": 16
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 16
                         }
@@ -73,16 +67,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 16
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 17
             },
@@ -101,19 +91,15 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 23,
                                 "end": 26
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 34
                             },
@@ -124,16 +110,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 36,
                                 "end": 39
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 23,
                             "end": 39
                         }
@@ -141,16 +123,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 23,
                     "end": 39
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 17,
                 "end": 40
             },
@@ -169,8 +147,6 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 46,
                                 "end": 49
                             },
@@ -183,16 +159,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 51,
                                 "end": 53
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 46,
                             "end": 53
                         },
@@ -205,39 +177,31 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 54,
                                 "end": 58
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 60,
                                 "end": 66
                             },
                             "initializer": {
-                                "kind": 67279,
+                                "kind": 4261583,
                                 "text": "",
                                 "rawText": "",
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 68,
                                 "end": 71
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 54,
                             "end": 71
                         },
@@ -250,8 +214,6 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 72,
                                 "end": 76
                             },
@@ -263,16 +225,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 78,
                                 "end": 83
                             },
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 72,
                             "end": 83
                         }
@@ -280,16 +238,12 @@ const z9 = 0, z10 :string = "", z11 = null;
                     "flags": 65552,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 46,
                     "end": 83
                 },
                 "flags": 81936,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 40,
                 "end": 84
             }
@@ -297,16 +251,12 @@ const z9 = 0, z10 :string = "", z11 = null;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 84
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -320,19 +270,13 @@ const z9 = 0, z10 :string = "", z11 = null;
 
 
 ```javascript
-
-const z7 = false;
-
-const z8: number = 23;
-
-const z9 = 0, z10: string = "", z11 = null;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

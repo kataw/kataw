@@ -35,8 +35,6 @@ x = {[ a + b instanceof c ]: y}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -49,7 +47,7 @@ x = {[ a + b instanceof c ]: y}
                                 {
                                     "kind": 65721,
                                     "left": {
-                                        "kind": 55,
+                                        "kind": 65591,
                                         "expression": {
                                             "kind": 65563,
                                             "left": {
@@ -61,8 +59,6 @@ x = {[ a + b instanceof c ]: y}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 6,
                                                     "end": 8
                                                 },
@@ -74,16 +70,12 @@ x = {[ a + b instanceof c ]: y}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 10,
                                                     "end": 12
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 6,
                                                 "end": 12
                                             },
@@ -95,24 +87,18 @@ x = {[ a + b instanceof c ]: y}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 6,
                                             "end": 25
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 131073,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 27
                                     },
@@ -123,8 +109,6 @@ x = {[ a + b instanceof c ]: y}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 28,
                                         "end": 30
                                     },
@@ -133,8 +117,6 @@ x = {[ a + b instanceof c ]: y}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 30
                                 }
@@ -144,32 +126,24 @@ x = {[ a + b instanceof c ]: y}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 30
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 31
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 31
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 31
             }
@@ -177,16 +151,12 @@ x = {[ a + b instanceof c ]: y}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 31
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

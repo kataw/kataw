@@ -33,8 +33,6 @@ class A extends `temp {waitforit} late` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -45,11 +43,10 @@ class A extends `temp {waitforit} late` {}
                         "kind": 4260568,
                         "rawText": "temp {waitforit} late",
                         "text": "temp {waitforit} late",
+                        "literal": true,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 39
                     },
@@ -57,8 +54,6 @@ class A extends `temp {waitforit} late` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 39
                 },
@@ -69,8 +64,6 @@ class A extends `temp {waitforit} late` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 41,
                     "end": 42
                 },
@@ -78,8 +71,6 @@ class A extends `temp {waitforit} late` {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 42
             }
@@ -87,16 +78,12 @@ class A extends `temp {waitforit} late` {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 42
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

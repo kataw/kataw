@@ -27,13 +27,13 @@ eval => { 'use strict'; 0 } , bar;
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 54,
+                    "kind": 65590,
                     "expressions": [
                         {
                             "kind": 67592,
+                            "typeParameters": null,
                             "arrowParameters": {
                                 "kind": 65545,
-                                "typeParameters": null,
                                 "elements": [
                                     {
                                         "kind": 89,
@@ -45,8 +45,6 @@ eval => { 'use strict'; 0 } , bar;
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 0,
                                             "end": 4
                                         },
@@ -59,8 +57,6 @@ eval => { 'use strict'; 0 } , bar;
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 4,
                                         "end": 4
                                     }
@@ -71,8 +67,6 @@ eval => { 'use strict'; 0 } , bar;
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 0,
                                 "end": 4
                             },
@@ -84,22 +78,18 @@ eval => { 'use strict'; 0 } , bar;
                                         {
                                             "kind": 2097233,
                                             "expression": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "use strict",
                                                 "rawText": "use strict",
                                                 "flags": 16777216,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 9,
                                                 "end": 22
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 9,
                                             "end": 23
                                         },
@@ -112,16 +102,12 @@ eval => { 'use strict'; 0 } , bar;
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 25
                                         }
@@ -130,24 +116,18 @@ eval => { 'use strict'; 0 } , bar;
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 25
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 27
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 27
                         },
@@ -158,8 +138,6 @@ eval => { 'use strict'; 0 } , bar;
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 29,
                             "end": 33
                         }
@@ -167,16 +145,12 @@ eval => { 'use strict'; 0 } , bar;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 33
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 34
             }
@@ -184,16 +158,12 @@ eval => { 'use strict'; 0 } , bar;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 34
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

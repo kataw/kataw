@@ -21,11 +21,11 @@ abstract class AbstractRule {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "abstract class AbstractRule {\n    /**\n     * @deprecated\n     * Failures will be filtered based on `tslint:disable` comments by tslint.\n     * This method now does nothing.\n     */\n    filterFailures() {}\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -33,11 +33,9 @@ abstract class AbstractRule {
                     "kind": 131102,
                     "text": "AbstractRule",
                     "rawText": "AbstractRule",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 27
                 },
@@ -59,11 +57,9 @@ abstract class AbstractRule {
                                     "kind": 196711,
                                     "text": "filterFailures",
                                     "rawText": "filterFailures",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 199
                                 },
@@ -71,11 +67,9 @@ abstract class AbstractRule {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 200,
                                     "end": 201
                                 },
@@ -87,19 +81,15 @@ abstract class AbstractRule {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 203,
                                         "end": 203
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 201,
                                     "end": 204
                                 },
@@ -107,54 +97,42 @@ abstract class AbstractRule {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 199,
                                 "end": 204
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 29,
                             "end": 204
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 206
                 },
                 "decorators": null,
-                "flags": 268500992,
+                "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 8,
                 "end": 206
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 206
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -168,17 +146,13 @@ abstract class AbstractRule {
 
 
 ```javascript
-
-abstract class AbstractRule {
-    filterFailures() { }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

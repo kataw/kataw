@@ -33,8 +33,6 @@ class A extends fooo`bar` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -50,8 +48,6 @@ class A extends fooo`bar` {}
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 15,
                             "end": 20
                         },
@@ -60,11 +56,10 @@ class A extends fooo`bar` {}
                             "kind": 4260568,
                             "rawText": "bar",
                             "text": "bar",
+                            "literal": false,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 25
                         },
@@ -72,8 +67,6 @@ class A extends fooo`bar` {}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 25
                     },
@@ -81,8 +74,6 @@ class A extends fooo`bar` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 25
                 },
@@ -93,8 +84,6 @@ class A extends fooo`bar` {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 28
                 },
@@ -102,8 +91,6 @@ class A extends fooo`bar` {}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -111,16 +98,12 @@ class A extends fooo`bar` {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

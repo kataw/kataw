@@ -33,8 +33,6 @@ do async function f(){} while (x);
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 31,
                     "end": 32
                 },
@@ -49,8 +47,6 @@ do async function f(){} while (x);
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1025,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 19
                         },
@@ -61,8 +57,6 @@ do async function f(){} while (x);
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 21
                         },
@@ -75,16 +69,12 @@ do async function f(){} while (x);
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 22,
                                 "end": 22
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 21,
                             "end": 23
                         },
@@ -93,24 +83,18 @@ do async function f(){} while (x);
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 4,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 2,
                         "end": 23
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 23
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 34
             }
@@ -118,8 +102,6 @@ do async function f(){} while (x);
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 34
     },
@@ -134,8 +116,6 @@ do async function f(){} while (x);
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -40,8 +40,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 19
                 },
@@ -58,19 +56,17 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 37
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 230,
+                                "kind": 8422,
                                 "objectTypeMembers": {
                                     "kind": 169,
                                     "members": [
                                         {
-                                            "kind": 188,
+                                            "kind": 8380,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "a",
@@ -78,20 +74,16 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 41
                                             },
                                             "isOptional": false,
                                             "accessModifier": null,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 42,
                                                 "end": 49
                                             },
@@ -101,25 +93,20 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 40,
                                             "end": 49
                                         }
                                     ],
+                                    "multiline": false,
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 40,
                                     "end": 50
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 38,
                                 "end": 50
                             },
@@ -130,8 +117,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 50
                         }
@@ -140,18 +125,14 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 136
                 },
                 "type": {
-                    "kind": 161,
+                    "kind": 4202657,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 137,
                     "end": 144
                 },
@@ -160,8 +141,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 "flags": 201408512,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 145
             },
@@ -174,8 +153,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 163,
                     "end": 175
                 },
@@ -192,8 +169,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 176,
                                 "end": 188
                             },
@@ -206,8 +181,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 176,
                             "end": 188
                         }
@@ -216,8 +189,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 176,
                     "end": 199
                 },
@@ -227,8 +198,6 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
                 "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 154,
                 "end": 210
             }
@@ -236,16 +205,12 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 210
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -259,19 +224,13 @@ declare function /* foo */ f( /* baz */ a /* taz */) /* bar */;
 
 
 ```javascript
-
-declare function fn(currentRequest: {
-        a: number;
-    }): number;
-
-declare function f(a);
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

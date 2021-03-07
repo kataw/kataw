@@ -277,7 +277,7 @@
 > `````
 
 > `````js
-> 656 abc €{[]}
+> 656 abc @{x20ac}@{[]}
 > `````
 
 > `````js
@@ -417,4 +417,97 @@
 {[ #
 `````
 
+
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "{{",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 2099237,
+                "block": {
+                    "kind": 2084,
+                    "statements": [
+                        {
+                            "kind": 2099237,
+                            "block": {
+                                "kind": 2084,
+                                "statements": [],
+                                "multiline": false,
+                                "flags": 0,
+                                "intersects": false,
+                                "transformFlags": 0,
+                                "start": 2,
+                                "end": 2
+                            },
+                            "flags": 2,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 1,
+                            "end": 2
+                        }
+                    ],
+                    "multiline": false,
+                    "flags": 2,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 1,
+                    "end": 2
+                },
+                "flags": 2,
+                "intersects": false,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 2
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 2,
+        "intersects": false,
+        "start": 0,
+        "end": 2
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'}' expected.",
+            "start": 1,
+            "length": 0
+        }
+    ],
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 2
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
 

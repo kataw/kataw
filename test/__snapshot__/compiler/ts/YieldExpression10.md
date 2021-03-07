@@ -17,11 +17,11 @@ var v = { * foo() {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var v = { * foo() {\n    yield(foo);\n  }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
@@ -34,11 +34,9 @@ var v = { * foo() {
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -55,11 +53,9 @@ var v = { * foo() {
                                                 "kind": 196711,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 11,
                                                 "end": 15
                                             },
@@ -67,11 +63,9 @@ var v = { * foo() {
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 17
                                             },
@@ -93,53 +87,41 @@ var v = { * foo() {
                                                                         "kind": 196712,
                                                                         "text": "foo",
                                                                         "rawText": "foo",
-                                                                        "flags": 65536,
+                                                                        "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 30,
                                                                         "end": 33
                                                                     },
-                                                                    "flags": 65536,
+                                                                    "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 29,
                                                                     "end": 34
                                                                 },
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 16393,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 19,
                                                                 "end": 34
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 19,
                                                             "end": 35
                                                         }
                                                     ],
                                                     "multiline": true,
-                                                    "flags": 81920,
+                                                    "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 19,
                                                     "end": 35
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 39
                                             },
@@ -147,72 +129,56 @@ var v = { * foo() {
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 15,
                                             "end": 39
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 39
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 41
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 41
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 41
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 41
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 41
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -226,17 +192,13 @@ var v = { * foo() {
 
 
 ```javascript
-
-var v = { * foo() {
-        yield (foo)
-    } };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

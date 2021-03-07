@@ -27,22 +27,18 @@ do throw function (v, h) {
                 "expression": {
                     "kind": 66224,
                     "expression": {
-                        "kind": 67279,
+                        "kind": 4261583,
                         "text": "",
                         "rawText": "",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 52,
                         "end": 54
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 51,
                     "end": 55
                 },
@@ -64,8 +60,6 @@ do throw function (v, h) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 19,
                                         "end": 20
                                     },
@@ -78,8 +72,6 @@ do throw function (v, h) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 20
                                 },
@@ -93,8 +85,6 @@ do throw function (v, h) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -107,8 +97,6 @@ do throw function (v, h) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 23
                                 }
@@ -117,8 +105,6 @@ do throw function (v, h) {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 24
                         },
@@ -130,22 +116,18 @@ do throw function (v, h) {
                                     {
                                         "kind": 2097233,
                                         "expression": {
-                                            "kind": 67279,
+                                            "kind": 4261583,
                                             "text": "use strict",
                                             "rawText": "use strict",
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 26,
                                             "end": 41
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 26,
                                         "end": 41
                                     }
@@ -154,16 +136,12 @@ do throw function (v, h) {
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 26,
                                 "end": 41
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 24,
                             "end": 43
                         },
@@ -172,24 +150,18 @@ do throw function (v, h) {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 8,
                         "end": 43
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 2,
                     "end": 43
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 56
             }
@@ -197,8 +169,6 @@ do throw function (v, h) {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 56
     },
@@ -213,8 +183,6 @@ do throw function (v, h) {
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

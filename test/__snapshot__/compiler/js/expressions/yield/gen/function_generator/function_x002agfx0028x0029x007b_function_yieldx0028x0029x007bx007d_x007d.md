@@ -33,8 +33,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -97,8 +89,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 50,
                                                     "end": 52
                                                 },
@@ -109,8 +99,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 53,
                                                     "end": 54
                                                 },
@@ -129,8 +117,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 64,
                                                                     "end": 70
                                                                 },
@@ -141,8 +127,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 71,
                                                                     "end": 72
                                                                 },
@@ -156,16 +140,12 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 73,
                                                                         "end": 73
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 72,
                                                                     "end": 74
                                                                 },
@@ -173,8 +153,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 256,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 55,
                                                                 "end": 74
                                                             },
@@ -183,8 +161,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 74,
                                                                 "end": 75
                                                             }
@@ -193,16 +169,12 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 55,
                                                         "end": 75
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 54,
                                                     "end": 77
                                                 },
@@ -210,8 +182,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 384,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 77
                                             }
@@ -220,16 +190,12 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 77
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 79
                                 },
@@ -237,8 +203,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 79
                             }
@@ -247,16 +211,12 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 79
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 80
                 },
@@ -264,8 +224,6 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 80
             }
@@ -273,16 +231,12 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 80
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

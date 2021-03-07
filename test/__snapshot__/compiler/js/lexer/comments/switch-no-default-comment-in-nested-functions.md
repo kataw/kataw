@@ -43,8 +43,6 @@ function isConstant(node) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 19
                 },
@@ -61,8 +59,6 @@ function isConstant(node) {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 24
                             },
@@ -75,8 +71,6 @@ function isConstant(node) {
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 20,
                             "end": 24
                         }
@@ -85,8 +79,6 @@ function isConstant(node) {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 25
                 },
@@ -99,7 +91,7 @@ function isConstant(node) {
                             {
                                 "kind": 2097362,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "node",
@@ -107,8 +99,6 @@ function isConstant(node) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 44,
                                         "end": 48
                                     },
@@ -119,18 +109,19 @@ function isConstant(node) {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 49,
                                         "end": 53
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
-                                    "end": 53
+                                    "end": 53,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 48,
+                                        "end": 49
+                                    }
                                 },
                                 "caseBlock": {
                                     "kind": 2093,
@@ -138,14 +129,12 @@ function isConstant(node) {
                                         {
                                             "kind": 46,
                                             "expression": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "SequenceExpression",
                                                 "rawText": "SequenceExpression",
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 73,
                                                 "end": 94
                                             },
@@ -161,8 +150,6 @@ function isConstant(node) {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 118,
                                                             "end": 129
                                                         },
@@ -171,9 +158,9 @@ function isConstant(node) {
                                                             "kind": 3,
                                                             "elements": [
                                                                 {
-                                                                    "kind": 74308,
+                                                                    "kind": 66116,
                                                                     "member": {
-                                                                        "kind": 74424,
+                                                                        "kind": 66232,
                                                                         "member": {
                                                                             "kind": 196712,
                                                                             "text": "node",
@@ -181,8 +168,6 @@ function isConstant(node) {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 130,
                                                                             "end": 134
                                                                         },
@@ -193,25 +178,26 @@ function isConstant(node) {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 135,
                                                                             "end": 146
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 134,
-                                                                        "end": 146
+                                                                        "end": 146,
+                                                                        "period": {
+                                                                            "kind": 254,
+                                                                            "pos": 134,
+                                                                            "end": 135
+                                                                        }
                                                                     },
                                                                     "expression": {
                                                                         "kind": 65563,
                                                                         "left": {
-                                                                            "kind": 74424,
+                                                                            "kind": 66232,
                                                                             "member": {
-                                                                                "kind": 74424,
+                                                                                "kind": 66232,
                                                                                 "member": {
                                                                                     "kind": 196712,
                                                                                     "text": "node",
@@ -219,8 +205,6 @@ function isConstant(node) {
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 147,
                                                                                     "end": 151
                                                                                 },
@@ -231,18 +215,19 @@ function isConstant(node) {
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 152,
                                                                                     "end": 163
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 151,
-                                                                                "end": 163
+                                                                                "end": 163,
+                                                                                "period": {
+                                                                                    "kind": 254,
+                                                                                    "pos": 151,
+                                                                                    "end": 152
+                                                                                }
                                                                             },
                                                                             "expression": {
                                                                                 "kind": 196711,
@@ -251,18 +236,19 @@ function isConstant(node) {
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 164,
                                                                                 "end": 170
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 163,
-                                                                            "end": 170
+                                                                            "end": 170,
+                                                                            "period": {
+                                                                                "kind": 254,
+                                                                                "pos": 163,
+                                                                                "end": 164
+                                                                            }
                                                                         },
                                                                         "operator": "-",
                                                                         "right": {
@@ -272,24 +258,18 @@ function isConstant(node) {
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 172,
                                                                             "end": 174
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 147,
                                                                         "end": 174
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 146,
                                                                     "end": 175
                                                                 }
@@ -298,24 +278,18 @@ function isConstant(node) {
                                                             "transformFlags": 0,
                                                             "flags": 0,
                                                             "intersects": false,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 134,
                                                             "end": 176
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 129,
                                                         "end": 176
                                                     },
                                                     "flags": 16384,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 95,
                                                     "end": 177
                                                 }
@@ -323,8 +297,6 @@ function isConstant(node) {
                                             "flags": 16384,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 56,
                                             "end": 177
                                         }
@@ -332,16 +304,12 @@ function isConstant(node) {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 54,
                                     "end": 213
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 213
                             },
@@ -353,16 +321,12 @@ function isConstant(node) {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 228,
                                     "end": 234
                                 },
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 213,
                                 "end": 235
                             }
@@ -371,16 +335,12 @@ function isConstant(node) {
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 27,
                         "end": 235
                     },
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 241
                 },
@@ -388,8 +348,6 @@ function isConstant(node) {
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 241
             }
@@ -397,16 +355,12 @@ function isConstant(node) {
         "transformFlags": 0,
         "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 241
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

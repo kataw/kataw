@@ -35,14 +35,12 @@ x = {arrow: async async => {}}.y
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
                     "operator": "=",
                     "right": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 67224232,
                             "propertyList": {
@@ -57,16 +55,14 @@ x = {arrow: async async => {}}.y
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 10
                                         },
                                         "right": {
-                                            "kind": 16,
+                                            "kind": 65552,
+                                            "typeParameters": null,
                                             "arrowParameters": {
                                                 "kind": 65545,
-                                                "typeParameters": null,
                                                 "elements": [
                                                     {
                                                         "kind": 89,
@@ -78,8 +74,6 @@ x = {arrow: async async => {}}.y
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 17,
                                                             "end": 23
                                                         },
@@ -92,8 +86,6 @@ x = {arrow: async async => {}}.y
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 26,
                                                         "end": 23
                                                     }
@@ -104,8 +96,6 @@ x = {arrow: async async => {}}.y
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 11,
                                                 "end": 23
                                             },
@@ -118,24 +108,18 @@ x = {arrow: async async => {}}.y
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 28,
                                                     "end": 28
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 29
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 29
                                         },
@@ -144,8 +128,6 @@ x = {arrow: async async => {}}.y
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 29
                                     }
@@ -155,16 +137,12 @@ x = {arrow: async async => {}}.y
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 29
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 30
                         },
@@ -175,32 +153,29 @@ x = {arrow: async async => {}}.y
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 31,
                             "end": 32
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 30,
-                        "end": 32
+                        "end": 32,
+                        "period": {
+                            "kind": 254,
+                            "pos": 30,
+                            "end": 31
+                        }
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 32
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 32
             }
@@ -208,16 +183,12 @@ x = {arrow: async async => {}}.y
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 32
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

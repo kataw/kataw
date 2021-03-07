@@ -34,11 +34,11 @@ abstract class C {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "abstract class C {\n    readonly r;\n    readonly r2?: number;\n    abstract a;\n    static s;\n\n    public pu;\n    protected po;\n    private pi;\n\n    readonly abstract ra;\n    abstract readonly ar;\n    static readonly sr;\n\n    public readonly pur;\n    public abstract pua;\n    public static pus;\n    public readonly abstract pura;\n    public abstract readonly puar;\n    public static readonly pusr;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -46,11 +46,9 @@ abstract class C {
                     "kind": 131102,
                     "text": "C",
                     "rawText": "C",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -66,11 +64,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "r",
                                 "rawText": "r",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 33
                             },
@@ -82,11 +78,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 34
                         },
@@ -96,11 +90,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "r2",
                                 "rawText": "r2",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 47,
                                 "end": 50
                             },
@@ -108,12 +100,10 @@ abstract class C {
                             "isOptional": true,
                             "exclamation": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 52,
                                 "end": 59
                             },
@@ -121,11 +111,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 34,
                             "end": 60
                         },
@@ -135,11 +123,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 73,
                                 "end": 75
                             },
@@ -151,11 +137,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 60,
                             "end": 76
                         },
@@ -165,11 +149,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 87,
                                 "end": 89
                             },
@@ -181,11 +163,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 76,
                             "end": 90
                         },
@@ -195,11 +175,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pu",
                                 "rawText": "pu",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 102,
                                 "end": 105
                             },
@@ -214,17 +192,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 90,
                                 "end": 102
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 90,
                             "end": 106
                         },
@@ -234,11 +208,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "po",
                                 "rawText": "po",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 120,
                                 "end": 123
                             },
@@ -253,17 +225,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 106,
                                 "end": 120
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 106,
                             "end": 124
                         },
@@ -273,11 +241,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pi",
                                 "rawText": "pi",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 136,
                                 "end": 139
                             },
@@ -292,17 +258,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 124,
                                 "end": 136
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 124,
                             "end": 140
                         },
@@ -312,11 +274,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "ra",
                                 "rawText": "ra",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 163,
                                 "end": 166
                             },
@@ -328,11 +288,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 140,
                             "end": 167
                         },
@@ -342,11 +300,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "ar",
                                 "rawText": "ar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 189,
                                 "end": 192
                             },
@@ -358,11 +314,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 167,
                             "end": 193
                         },
@@ -372,11 +326,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "sr",
                                 "rawText": "sr",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 213,
                                 "end": 216
                             },
@@ -388,11 +340,9 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 193,
                             "end": 217
                         },
@@ -402,11 +352,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pur",
                                 "rawText": "pur",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 238,
                                 "end": 242
                             },
@@ -421,17 +369,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 217,
                                 "end": 229
                             },
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 217,
                             "end": 243
                         },
@@ -441,11 +385,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pua",
                                 "rawText": "pua",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 263,
                                 "end": 267
                             },
@@ -460,17 +402,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 243,
                                 "end": 254
                             },
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 243,
                             "end": 268
                         },
@@ -480,11 +418,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pus",
                                 "rawText": "pus",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 286,
                                 "end": 290
                             },
@@ -499,17 +435,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 268,
                                 "end": 279
                             },
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 268,
                             "end": 291
                         },
@@ -519,11 +451,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pura",
                                 "rawText": "pura",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 320,
                                 "end": 325
                             },
@@ -538,17 +468,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 291,
                                 "end": 302
                             },
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 291,
                             "end": 326
                         },
@@ -558,11 +484,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "puar",
                                 "rawText": "puar",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 355,
                                 "end": 360
                             },
@@ -577,17 +501,13 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 326,
                                 "end": 337
                             },
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 268451840,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 326,
                             "end": 361
                         },
@@ -597,11 +517,9 @@ abstract class C {
                                 "kind": 196711,
                                 "text": "pusr",
                                 "rawText": "pusr",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 388,
                                 "end": 393
                             },
@@ -616,52 +534,40 @@ abstract class C {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 361,
                                 "end": 372
                             },
                             "isStatic": true,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 361,
                             "end": 394
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 396
                 },
                 "decorators": null,
-                "flags": 268500992,
+                "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,
-                "parent": null,
-                "emitNode": null,
                 "start": 8,
                 "end": 396
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 396
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -675,32 +581,13 @@ abstract class C {
 
 
 ```javascript
-
-abstract class C {
-    readonly r;
-    readonly r2?: number;
-    abstract a;
-    static s;
-    public pu;
-    protected po;
-    private pi;
-    abstract readonly ra;
-    abstract readonly ar;
-    readonly static sr;
-    public readonly pur;
-    public abstract pua;
-    public static pus;
-    public abstract readonly pura;
-    public abstract readonly puar;
-    public readonly static pusr;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

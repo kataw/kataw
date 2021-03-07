@@ -29,8 +29,6 @@ class A { [x=y](foo) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -49,7 +47,7 @@ class A { [x=y](foo) {} }
                             "method": {
                                 "kind": 16844946,
                                 "name": {
-                                    "kind": 55,
+                                    "kind": 65591,
                                     "expression": {
                                         "kind": 65550,
                                         "left": {
@@ -59,8 +57,6 @@ class A { [x=y](foo) {} }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 12
                                         },
@@ -72,24 +68,18 @@ class A { [x=y](foo) {} }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 13,
                                             "end": 14
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 11,
                                         "end": 14
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 131073,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 15
                                 },
@@ -106,8 +96,6 @@ class A { [x=y](foo) {} }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 19
                                             },
@@ -120,8 +108,6 @@ class A { [x=y](foo) {} }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 16,
                                             "end": 19
                                         }
@@ -130,8 +116,6 @@ class A { [x=y](foo) {} }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -146,16 +130,12 @@ class A { [x=y](foo) {} }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 23
                                 },
@@ -166,16 +146,12 @@ class A { [x=y](foo) {} }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 23
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 23
                         }
@@ -183,8 +159,6 @@ class A { [x=y](foo) {} }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 25
                 },
@@ -192,8 +166,6 @@ class A { [x=y](foo) {} }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
@@ -201,16 +173,12 @@ class A { [x=y](foo) {} }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

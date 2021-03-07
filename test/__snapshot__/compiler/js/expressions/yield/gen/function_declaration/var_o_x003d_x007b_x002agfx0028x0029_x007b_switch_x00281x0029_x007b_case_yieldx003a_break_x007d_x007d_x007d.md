@@ -33,8 +33,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -70,8 +66,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 24,
                                                 "end": 26
                                             },
@@ -91,8 +85,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 32,
                                                                 "end": 34
                                                             },
@@ -103,8 +95,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 35,
                                                                 "end": 36
                                                             },
@@ -124,8 +114,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 47,
                                                                                 "end": 48
                                                                             },
@@ -141,8 +129,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 16393,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 56,
                                                                                             "end": 62
                                                                                         },
@@ -153,8 +139,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 63,
                                                                                                 "end": 70
                                                                                             }
@@ -162,8 +146,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 51,
                                                                                         "end": 70
                                                                                     }
@@ -171,16 +153,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 49,
                                                                                 "end": 72
                                                                             },
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 38,
                                                                             "end": 72
                                                                         }
@@ -189,16 +167,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 38,
                                                                     "end": 72
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 36,
                                                                 "end": 74
                                                             },
@@ -209,8 +183,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 34,
                                                             "end": 74
                                                         }
@@ -220,24 +192,18 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 30,
                                                     "end": 74
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 28,
                                                 "end": 76
                                             },
                                             "flags": 24,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 0,
                                             "end": 76
                                         }
@@ -245,16 +211,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 24,
                                     "end": 76
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 76
                             }
@@ -263,16 +225,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 76
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 78
                 },
@@ -280,8 +238,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 78
             }
@@ -289,8 +245,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 79
     },
@@ -305,8 +259,6 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

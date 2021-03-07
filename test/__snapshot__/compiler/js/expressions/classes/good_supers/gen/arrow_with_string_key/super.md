@@ -37,8 +37,6 @@ class x extends y {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -52,8 +50,6 @@ class x extends y {
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 15,
                         "end": 17
                     },
@@ -61,8 +57,6 @@ class x extends y {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 17
                 },
@@ -85,8 +79,6 @@ class x extends y {
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 33
                                 },
@@ -97,8 +89,6 @@ class x extends y {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -113,19 +103,9 @@ class x extends y {
                                                 "kind": 2097233,
                                                 "expression": {
                                                     "kind": 67592,
+                                                    "typeParameters": null,
                                                     "arrowParameters": {
                                                         "kind": 65545,
-                                                        "typeParameters": {
-                                                            "kind": 233,
-                                                            "typeParameterList": [],
-                                                            "flags": 0,
-                                                            "intersects": false,
-                                                            "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
-                                                            "start": 37,
-                                                            "end": 37
-                                                        },
                                                         "elements": [
                                                             {
                                                                 "kind": 89,
@@ -138,26 +118,22 @@ class x extends y {
                                                                             {
                                                                                 "kind": 134217756,
                                                                                 "left": {
-                                                                                    "kind": 67279,
+                                                                                    "kind": 4261583,
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 44,
                                                                                     "end": 49
                                                                                 },
                                                                                 "right": {
-                                                                                    "kind": 74424,
+                                                                                    "kind": 66232,
                                                                                     "member": {
                                                                                         "kind": 4260561,
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 50,
                                                                                         "end": 56
                                                                                     },
@@ -168,16 +144,12 @@ class x extends y {
                                                                                         "flags": 2,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 56,
                                                                                         "end": 56
                                                                                     },
                                                                                     "flags": 50,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 2,
                                                                                     "end": 56
                                                                                 },
@@ -186,8 +158,6 @@ class x extends y {
                                                                                 "flags": 2,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 44,
                                                                                 "end": 56
                                                                             }
@@ -197,16 +167,12 @@ class x extends y {
                                                                         "flags": 2,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 44,
                                                                         "end": 56
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 43,
                                                                     "end": 57
                                                                 },
@@ -219,8 +185,6 @@ class x extends y {
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 37,
                                                                 "end": 58
                                                             }
@@ -231,8 +195,6 @@ class x extends y {
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 37,
                                                         "end": 58
                                                     },
@@ -243,24 +205,18 @@ class x extends y {
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 61,
                                                         "end": 63
                                                     },
                                                     "flags": 536887296,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 37,
                                                     "end": 63
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 37,
                                                 "end": 63
                                             }
@@ -269,16 +225,12 @@ class x extends y {
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 63
                                     },
                                     "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 67
                                 },
@@ -289,16 +241,12 @@ class x extends y {
                                 "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 67
                             },
                             "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 19,
                             "end": 67
                         }
@@ -306,8 +254,6 @@ class x extends y {
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 69
                 },
@@ -315,8 +261,6 @@ class x extends y {
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 69
             }
@@ -324,8 +268,6 @@ class x extends y {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 69
     },
@@ -340,8 +282,6 @@ class x extends y {
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

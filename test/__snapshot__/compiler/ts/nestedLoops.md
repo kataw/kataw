@@ -53,8 +53,6 @@ export class Test  {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 17
                     },
@@ -79,8 +77,6 @@ export class Test  {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 36
                                     },
@@ -91,8 +87,6 @@ export class Test  {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 38
                                     },
@@ -118,14 +112,12 @@ export class Test  {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 53,
                                                                     "end": 64
                                                                 },
                                                                 "exclamation": false,
                                                                 "type": {
-                                                                    "kind": 236,
+                                                                    "kind": 8428,
                                                                     "typeName": {
                                                                         "kind": 196711,
                                                                         "text": "Array",
@@ -133,21 +125,17 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 65,
                                                                         "end": 71
                                                                     },
                                                                     "typeArguments": {
-                                                                        "kind": 227,
+                                                                        "kind": 8419,
                                                                         "typeArgumentsList": [
                                                                             {
-                                                                                "kind": 161,
+                                                                                "kind": 4202657,
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 2097152,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 72,
                                                                                 "end": 78
                                                                             }
@@ -155,16 +143,12 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 2097152,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 72,
                                                                         "end": 78
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 65,
                                                                     "end": 81
                                                                 },
@@ -180,8 +164,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 83,
                                                                                 "end": 84
                                                                             },
@@ -192,8 +174,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 85,
                                                                                 "end": 87
                                                                             },
@@ -204,8 +184,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 88,
                                                                                 "end": 90
                                                                             }
@@ -215,24 +193,18 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 83,
                                                                         "end": 90
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 81,
                                                                     "end": 91
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 53,
                                                                 "end": 91
                                                             }
@@ -240,16 +212,12 @@ export class Test  {
                                                         "flags": 65552,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 53,
                                                         "end": 91
                                                     },
                                                     "flags": 81936,
                                                     "intersects": false,
                                                     "transformFlags": 769,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 40,
                                                     "end": 92
                                                 },
@@ -268,14 +236,12 @@ export class Test  {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 104,
                                                                     "end": 115
                                                                 },
                                                                 "exclamation": false,
                                                                 "type": {
-                                                                    "kind": 236,
+                                                                    "kind": 8428,
                                                                     "typeName": {
                                                                         "kind": 196711,
                                                                         "text": "Array",
@@ -283,21 +249,17 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 116,
                                                                         "end": 122
                                                                     },
                                                                     "typeArguments": {
-                                                                        "kind": 227,
+                                                                        "kind": 8419,
                                                                         "typeArgumentsList": [
                                                                             {
-                                                                                "kind": 161,
+                                                                                "kind": 4202657,
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 2097152,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 123,
                                                                                 "end": 129
                                                                             }
@@ -305,16 +267,12 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 2097152,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 123,
                                                                         "end": 129
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 116,
                                                                     "end": 132
                                                                 },
@@ -330,8 +288,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 134,
                                                                                 "end": 135
                                                                             },
@@ -342,8 +298,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 136,
                                                                                 "end": 138
                                                                             },
@@ -354,8 +308,6 @@ export class Test  {
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 139,
                                                                                 "end": 141
                                                                             }
@@ -365,24 +317,18 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 134,
                                                                         "end": 141
                                                                     },
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 132,
                                                                     "end": 142
                                                                 },
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 104,
                                                                 "end": 142
                                                             }
@@ -390,16 +336,12 @@ export class Test  {
                                                         "flags": 65552,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 104,
                                                         "end": 142
                                                     },
                                                     "flags": 81936,
                                                     "intersects": false,
                                                     "transformFlags": 769,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 92,
                                                     "end": 143
                                                 },
@@ -420,8 +362,6 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 1025,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 161,
                                                                         "end": 167
                                                                     },
@@ -431,8 +371,6 @@ export class Test  {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 161,
                                                                     "end": 167
                                                                 }
@@ -440,16 +378,12 @@ export class Test  {
                                                             "flags": 65552,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 161,
                                                             "end": 167
                                                         },
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 256,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 158,
                                                         "end": 167
                                                     },
@@ -460,8 +394,6 @@ export class Test  {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 170,
                                                         "end": 181
                                                     },
@@ -482,8 +414,6 @@ export class Test  {
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 203,
                                                                             "end": 209
                                                                         },
@@ -493,8 +423,6 @@ export class Test  {
                                                                         "flags": 65536,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 203,
                                                                         "end": 209
                                                                     }
@@ -502,16 +430,12 @@ export class Test  {
                                                                 "flags": 65552,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 203,
                                                                 "end": 209
                                                             },
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 256,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 200,
                                                             "end": 209
                                                         },
@@ -522,8 +446,6 @@ export class Test  {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 212,
                                                             "end": 223
                                                         },
@@ -537,14 +459,12 @@ export class Test  {
                                                                         "expression": {
                                                                             "kind": 66091,
                                                                             "expression": {
-                                                                                "kind": 74424,
+                                                                                "kind": 66232,
                                                                                 "member": {
                                                                                     "kind": 4260571,
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 226,
                                                                                     "end": 247
                                                                                 },
@@ -555,18 +475,19 @@ export class Test  {
                                                                                     "flags": 65536,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 248,
                                                                                     "end": 257
                                                                                 },
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 247,
-                                                                                "end": 257
+                                                                                "end": 257,
+                                                                                "period": {
+                                                                                    "kind": 254,
+                                                                                    "pos": 247,
+                                                                                    "end": 248
+                                                                                }
                                                                             },
                                                                             "typeArguments": null,
                                                                             "argumentList": {
@@ -574,9 +495,9 @@ export class Test  {
                                                                                 "elements": [
                                                                                     {
                                                                                         "kind": 67592,
+                                                                                        "typeParameters": null,
                                                                                         "arrowParameters": {
                                                                                             "kind": 65545,
-                                                                                            "typeParameters": 1,
                                                                                             "elements": [
                                                                                                 {
                                                                                                     "kind": 89,
@@ -588,8 +509,6 @@ export class Test  {
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 268,
                                                                                                         "end": 277
                                                                                                     },
@@ -602,8 +521,6 @@ export class Test  {
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 258,
                                                                                                     "end": 278
                                                                                                 },
@@ -617,8 +534,6 @@ export class Test  {
                                                                                                         "flags": 65536,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 259,
                                                                                                         "end": 267
                                                                                                     },
@@ -631,8 +546,6 @@ export class Test  {
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 1,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 258,
                                                                                                     "end": 278
                                                                                                 }
@@ -643,8 +556,6 @@ export class Test  {
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 259,
                                                                                             "end": 277
                                                                                         },
@@ -668,8 +579,6 @@ export class Test  {
                                                                                                                         "flags": 65536,
                                                                                                                         "intersects": false,
                                                                                                                         "transformFlags": 1025,
-                                                                                                                        "parent": null,
-                                                                                                                        "emitNode": null,
                                                                                                                         "start": 307,
                                                                                                                         "end": 309
                                                                                                                     },
@@ -686,8 +595,6 @@ export class Test  {
                                                                                                                                 "flags": 65536,
                                                                                                                                 "intersects": false,
                                                                                                                                 "transformFlags": 0,
-                                                                                                                                "parent": null,
-                                                                                                                                "emitNode": null,
                                                                                                                                 "start": 311,
                                                                                                                                 "end": 317
                                                                                                                             },
@@ -699,16 +606,12 @@ export class Test  {
                                                                                                                                 "flags": 65536,
                                                                                                                                 "intersects": false,
                                                                                                                                 "transformFlags": 0,
-                                                                                                                                "parent": null,
-                                                                                                                                "emitNode": null,
                                                                                                                                 "start": 319,
                                                                                                                                 "end": 325
                                                                                                                             },
                                                                                                                             "flags": 65536,
                                                                                                                             "intersects": false,
                                                                                                                             "transformFlags": 0,
-                                                                                                                            "parent": null,
-                                                                                                                            "emitNode": null,
                                                                                                                             "start": 311,
                                                                                                                             "end": 325
                                                                                                                         },
@@ -720,24 +623,18 @@ export class Test  {
                                                                                                                             "flags": 65536,
                                                                                                                             "intersects": false,
                                                                                                                             "transformFlags": 0,
-                                                                                                                            "parent": null,
-                                                                                                                            "emitNode": null,
                                                                                                                             "start": 327,
                                                                                                                             "end": 336
                                                                                                                         },
                                                                                                                         "flags": 65536,
                                                                                                                         "intersects": false,
                                                                                                                         "transformFlags": 0,
-                                                                                                                        "parent": null,
-                                                                                                                        "emitNode": null,
                                                                                                                         "start": 311,
                                                                                                                         "end": 336
                                                                                                                     },
                                                                                                                     "flags": 65536,
                                                                                                                     "intersects": false,
                                                                                                                     "transformFlags": 0,
-                                                                                                                    "parent": null,
-                                                                                                                    "emitNode": null,
                                                                                                                     "start": 307,
                                                                                                                     "end": 336
                                                                                                                 }
@@ -745,16 +642,12 @@ export class Test  {
                                                                                                             "flags": 65552,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 307,
                                                                                                             "end": 336
                                                                                                         },
                                                                                                         "flags": 81936,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 769,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 283,
                                                                                                         "end": 337
                                                                                                     }
@@ -763,24 +656,18 @@ export class Test  {
                                                                                                 "flags": 81920,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 283,
                                                                                                 "end": 337
                                                                                             },
                                                                                             "flags": 65536,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 281,
                                                                                             "end": 355
                                                                                         },
                                                                                         "flags": 536936448,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 258,
                                                                                         "end": 355
                                                                                     }
@@ -789,24 +676,18 @@ export class Test  {
                                                                                 "transformFlags": 0,
                                                                                 "flags": 65536,
                                                                                 "intersects": false,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 259,
                                                                                 "end": 356
                                                                             },
                                                                             "flags": 65536,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 257,
                                                                             "end": 356
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 226,
                                                                         "end": 357
                                                                     }
@@ -815,16 +696,12 @@ export class Test  {
                                                                 "flags": 81920,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 226,
                                                                 "end": 357
                                                             },
                                                             "flags": 81920,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 224,
                                                             "end": 371
                                                         },
@@ -832,8 +709,6 @@ export class Test  {
                                                         "flags": 81920,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 182,
                                                         "end": 371
                                                     },
@@ -841,8 +716,6 @@ export class Test  {
                                                     "flags": 81920,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 143,
                                                     "end": 371
                                                 }
@@ -851,16 +724,12 @@ export class Test  {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 40,
                                             "end": 371
                                         },
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 38,
                                         "end": 377
                                     },
@@ -871,16 +740,12 @@ export class Test  {
                                     "flags": 327680,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 377
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 377
                             },
@@ -899,8 +764,6 @@ export class Test  {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 389,
                                         "end": 399
                                     },
@@ -917,20 +780,18 @@ export class Test  {
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 400,
                                                     "end": 404
                                                 },
                                                 "isOptional": false,
                                                 "type": {
-                                                    "kind": 95,
+                                                    "kind": 8287,
                                                     "typeParameters": null,
                                                     "parameters": {
-                                                        "kind": 175,
+                                                        "kind": 8367,
                                                         "parameterList": [
                                                             {
-                                                                "kind": 174,
+                                                                "kind": 8366,
                                                                 "ellipsis": false,
                                                                 "binding": {
                                                                     "kind": 131102,
@@ -939,19 +800,15 @@ export class Test  {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 407,
                                                                     "end": 415
                                                                 },
                                                                 "isOptional": false,
                                                                 "type": {
-                                                                    "kind": 4194306,
+                                                                    "kind": 4202498,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 416,
                                                                     "end": 420
                                                                 },
@@ -961,13 +818,11 @@ export class Test  {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 407,
                                                                 "end": 420
                                                             },
                                                             {
-                                                                "kind": 174,
+                                                                "kind": 8366,
                                                                 "ellipsis": false,
                                                                 "binding": {
                                                                     "kind": 131102,
@@ -976,19 +831,15 @@ export class Test  {
                                                                     "flags": 65536,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 421,
                                                                     "end": 430
                                                                 },
                                                                 "isOptional": false,
                                                                 "type": {
-                                                                    "kind": 4194306,
+                                                                    "kind": 4202498,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 431,
                                                                     "end": 435
                                                                 },
@@ -998,8 +849,6 @@ export class Test  {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 421,
                                                                 "end": 435
                                                             }
@@ -1008,26 +857,20 @@ export class Test  {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 407,
                                                         "end": 435
                                                     },
                                                     "returnType": {
-                                                        "kind": 4194550,
+                                                        "kind": 4202742,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 439,
                                                         "end": 444
                                                     },
                                                     "flags": 65536,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 405,
                                                     "end": 444
                                                 },
@@ -1038,8 +881,6 @@ export class Test  {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 400,
                                                 "end": 444
                                             }
@@ -1048,8 +889,6 @@ export class Test  {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 400,
                                         "end": 445
                                     },
@@ -1064,27 +903,21 @@ export class Test  {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 453,
                                             "end": 453
                                         },
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 451,
                                         "end": 459
                                     },
                                     "decorators": null,
                                     "type": {
-                                        "kind": 4194550,
+                                        "kind": 4202742,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 446,
                                         "end": 451
                                     },
@@ -1093,8 +926,6 @@ export class Test  {
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 377,
                                         "end": 389
                                     },
@@ -1102,16 +933,12 @@ export class Test  {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 399,
                                     "end": 459
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 377,
                                 "end": 459
                             }
@@ -1119,8 +946,6 @@ export class Test  {
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 461
                     },
@@ -1128,8 +953,6 @@ export class Test  {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 461
                 },
@@ -1140,8 +963,6 @@ export class Test  {
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 461
             }
@@ -1149,16 +970,12 @@ export class Test  {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 461
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1172,28 +989,13 @@ export class Test  {
 
 
 ```javascript
-
-export class Test {
-    constructor() {
-        let outerArray: Array<number> = [1, 2, 3];
-        let innerArray: Array<number> = [1, 2, 3];
-        for (let outer; of outerArray)
-            for (let inner; of innerArray) {
-                this.aFunction((oldValue, newValue) =>  {
-                    let x = outer + inner + newValue;
-                })
-            }
-    }
-    public aFunction(func: (newValue: any, oldValue: any) => void): void {
-    }
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

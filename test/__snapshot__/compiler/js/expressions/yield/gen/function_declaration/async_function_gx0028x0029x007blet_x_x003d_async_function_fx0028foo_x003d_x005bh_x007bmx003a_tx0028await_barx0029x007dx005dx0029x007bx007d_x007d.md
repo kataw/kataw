@@ -33,8 +33,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,8 +61,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -77,8 +71,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 38,
                                     "end": 39
                                 },
@@ -103,8 +95,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 43,
                                                                 "end": 45
                                                             },
@@ -119,8 +109,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1025,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 62,
                                                                     "end": 64
                                                                 },
@@ -137,8 +125,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1025,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 65,
                                                                                 "end": 68
                                                                             },
@@ -156,8 +142,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 72,
                                                                                             "end": 73
                                                                                         },
@@ -175,8 +159,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                             "flags": 0,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 76,
                                                                                                             "end": 77
                                                                                                         },
@@ -189,8 +171,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                 "flags": 0,
                                                                                                                 "intersects": false,
                                                                                                                 "transformFlags": 0,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
                                                                                                                 "start": 78,
                                                                                                                 "end": 80
                                                                                                             },
@@ -207,16 +187,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                             "flags": 0,
                                                                                                                             "intersects": false,
                                                                                                                             "transformFlags": 0,
-                                                                                                                            "parent": null,
-                                                                                                                            "emitNode": null,
                                                                                                                             "start": 86,
                                                                                                                             "end": 90
                                                                                                                         },
                                                                                                                         "flags": 0,
                                                                                                                         "intersects": false,
                                                                                                                         "transformFlags": 32780,
-                                                                                                                        "parent": null,
-                                                                                                                        "emitNode": null,
                                                                                                                         "start": 81,
                                                                                                                         "end": 90
                                                                                                                     }
@@ -225,16 +201,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                                 "transformFlags": 0,
                                                                                                                 "flags": 0,
                                                                                                                 "intersects": false,
-                                                                                                                "parent": null,
-                                                                                                                "emitNode": null,
                                                                                                                 "start": 86,
                                                                                                                 "end": 91
                                                                                                             },
                                                                                                             "flags": 0,
                                                                                                             "intersects": false,
                                                                                                             "transformFlags": 0,
-                                                                                                            "parent": null,
-                                                                                                            "emitNode": null,
                                                                                                             "start": 80,
                                                                                                             "end": 91
                                                                                                         },
@@ -243,8 +215,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                         "flags": 0,
                                                                                                         "intersects": false,
                                                                                                         "transformFlags": 0,
-                                                                                                        "parent": null,
-                                                                                                        "emitNode": null,
                                                                                                         "start": 76,
                                                                                                         "end": 91
                                                                                                     }
@@ -254,16 +224,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                                 "flags": 0,
                                                                                                 "intersects": false,
                                                                                                 "transformFlags": 0,
-                                                                                                "parent": null,
-                                                                                                "emitNode": null,
                                                                                                 "start": 76,
                                                                                                 "end": 91
                                                                                             },
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 74,
                                                                                             "end": 92
                                                                                         }
@@ -273,16 +239,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 72,
                                                                                     "end": 92
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 70,
                                                                                 "end": 93
                                                                             },
@@ -292,8 +254,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 65,
                                                                             "end": 93
                                                                         }
@@ -302,8 +262,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 65,
                                                                     "end": 94
                                                                 },
@@ -316,16 +274,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 95,
                                                                         "end": 95
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 94,
                                                                     "end": 96
                                                                 },
@@ -334,16 +288,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 4,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 47,
                                                                 "end": 96
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 43,
                                                             "end": 96
                                                         }
@@ -351,16 +301,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                     "flags": 16,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 43,
                                                     "end": 96
                                                 },
                                                 "flags": 16,
                                                 "intersects": false,
                                                 "transformFlags": 769,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 96
                                             }
@@ -369,16 +315,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 96
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 39,
                                     "end": 101
                                 },
@@ -386,8 +328,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 260,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 101
                             }
@@ -396,16 +336,12 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 101
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 103
                 },
@@ -413,8 +349,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 103
             }
@@ -422,8 +356,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 104
     },
@@ -438,8 +370,6 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

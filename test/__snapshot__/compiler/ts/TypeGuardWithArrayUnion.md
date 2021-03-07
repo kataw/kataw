@@ -22,11 +22,11 @@ function saySize(message: Message | Message[]) {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class Message {\n    value: string;\n}\n\nfunction saySize(message: Message | Message[]) {\n    if (message instanceof Array) {\n        return message.length;  // Should have type Message[] here\n    }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -34,11 +34,9 @@ function saySize(message: Message | Message[]) {
                     "kind": 131102,
                     "text": "Message",
                     "rawText": "Message",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 13
                 },
@@ -54,11 +52,9 @@ function saySize(message: Message | Message[]) {
                                 "kind": 196711,
                                 "text": "value",
                                 "rawText": "value",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 25
                             },
@@ -66,12 +62,10 @@ function saySize(message: Message | Message[]) {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 26,
                                 "end": 33
                             },
@@ -79,29 +73,23 @@ function saySize(message: Message | Message[]) {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 15,
                             "end": 34
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 36
                 },
                 "decorators": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             },
@@ -111,11 +99,9 @@ function saySize(message: Message | Message[]) {
                     "kind": 131102,
                     "text": "saySize",
                     "rawText": "saySize",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 46,
                     "end": 54
                 },
@@ -129,80 +115,66 @@ function saySize(message: Message | Message[]) {
                                 "kind": 131102,
                                 "text": "message",
                                 "rawText": "message",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 55,
                                 "end": 62
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 236,
+                                        "kind": 8428,
                                         "typeName": {
                                             "kind": 196711,
                                             "text": "Message",
                                             "rawText": "Message",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 63,
                                             "end": 71
                                         },
                                         "typeArguments": null,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 63,
                                         "end": 73
                                     },
                                     {
-                                        "kind": 7,
+                                        "kind": 8199,
                                         "elementType": {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "Message",
                                                 "rawText": "Message",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 73,
                                                 "end": 81
                                             },
                                             "typeArguments": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 73,
                                             "end": 82
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 73,
                                         "end": 84
                                     }
                                 ],
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 71,
                                 "end": 83
                             },
@@ -210,21 +182,17 @@ function saySize(message: Message | Message[]) {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 55,
                             "end": 83
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 55,
                     "end": 84
                 },
@@ -242,11 +210,9 @@ function saySize(message: Message | Message[]) {
                                         "kind": 196712,
                                         "text": "message",
                                         "rawText": "message",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 95,
                                         "end": 102
                                     },
@@ -255,19 +221,15 @@ function saySize(message: Message | Message[]) {
                                         "kind": 196712,
                                         "text": "Array",
                                         "rawText": "Array",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 113,
                                         "end": 119
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 95,
                                     "end": 119
                                 },
@@ -279,16 +241,14 @@ function saySize(message: Message | Message[]) {
                                             {
                                                 "kind": 2097346,
                                                 "expression": {
-                                                    "kind": 74424,
+                                                    "kind": 66232,
                                                     "member": {
                                                         "kind": 196712,
                                                         "text": "message",
                                                         "rawText": "message",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 137,
                                                         "end": 145
                                                     },
@@ -296,99 +256,82 @@ function saySize(message: Message | Message[]) {
                                                         "kind": 196711,
                                                         "text": "length",
                                                         "rawText": "length",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 146,
                                                         "end": 152
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 145,
-                                                    "end": 152
+                                                    "end": 152,
+                                                    "period": {
+                                                        "kind": 254,
+                                                        "pos": 145,
+                                                        "end": 146
+                                                    }
                                                 },
-                                                "flags": 81920,
+                                                "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 122,
                                                 "end": 153
                                             }
                                         ],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 122,
                                         "end": 153
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 120,
                                     "end": 195
                                 },
                                 "alternate": null,
                                 "isWebCompat": true,
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 86,
                                 "end": 195
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 86,
                         "end": 195
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 84,
                     "end": 197
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 36,
                 "end": 197
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 197
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -402,23 +345,13 @@ function saySize(message: Message | Message[]) {
 
 
 ```javascript
-
-class Message {
-    value: string;
-}
-
-function saySize(message: Message | Message[]) {
-    if (message instanceof Array) {
-        return message.length;
-    }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

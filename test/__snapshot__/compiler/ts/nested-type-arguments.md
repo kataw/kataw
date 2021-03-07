@@ -14,11 +14,11 @@ var nestedArray: Array<Array<Array<string>>>
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var nestedArray: Array<Array<Array<string>>>",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
@@ -31,124 +31,102 @@ var nestedArray: Array<Array<Array<string>>>
                                 "kind": 131102,
                                 "text": "nestedArray",
                                 "rawText": "nestedArray",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 15
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 22
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 236,
+                                            "kind": 8428,
                                             "typeName": {
                                                 "kind": 196711,
                                                 "text": "Array",
                                                 "rawText": "Array",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 23,
                                                 "end": 28
                                             },
                                             "typeArguments": {
-                                                "kind": 227,
+                                                "kind": 8419,
                                                 "typeArgumentsList": [
                                                     {
-                                                        "kind": 236,
+                                                        "kind": 8428,
                                                         "typeName": {
                                                             "kind": 196711,
                                                             "text": "Array",
                                                             "rawText": "Array",
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 29,
                                                             "end": 34
                                                         },
                                                         "typeArguments": {
-                                                            "kind": 227,
+                                                            "kind": 8419,
                                                             "typeArgumentsList": [
                                                                 {
-                                                                    "kind": 4194510,
+                                                                    "kind": 4202702,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 35,
                                                                     "end": 41
                                                                 }
                                                             ],
-                                                            "flags": 65536,
+                                                            "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 35,
                                                             "end": 41
                                                         },
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 29,
                                                         "end": 43
                                                     }
                                                 ],
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 29,
                                                 "end": 42
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 23,
                                             "end": 44
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 43
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 44
                             },
@@ -156,42 +134,32 @@ var nestedArray: Array<Array<Array<string>>>
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 44
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 44
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 44
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 44
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -205,15 +173,13 @@ var nestedArray: Array<Array<Array<string>>>
 
 
 ```javascript
-
-var nestedArray: Array<Array<Array<string>>>;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

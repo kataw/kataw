@@ -17,23 +17,21 @@ interface I {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "interface I {\n    [Symbol.iterator]: number;\n    [Symbol.iterator]?: number;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "I",
                     "rawText": "I",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 11
                 },
@@ -43,20 +41,18 @@ interface I {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
-                                "kind": 55,
+                                "kind": 65591,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Symbol",
                                         "rawText": "Symbol",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -64,68 +60,61 @@ interface I {
                                         "kind": 196711,
                                         "text": "iterator",
                                         "rawText": "iterator",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 26,
                                         "end": 34
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
-                                    "end": 34
+                                    "end": 34,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 25,
+                                        "end": 26
+                                    }
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 131073,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 35
                             },
                             "isOptional": false,
                             "accessModifier": null,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 36,
                                 "end": 43
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 44
                         },
                         {
-                            "kind": 188,
+                            "kind": 8380,
                             "name": {
-                                "kind": 55,
+                                "kind": 65591,
                                 "expression": {
-                                    "kind": 74424,
+                                    "kind": 66232,
                                     "member": {
                                         "kind": 196712,
                                         "text": "Symbol",
                                         "rawText": "Symbol",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 50,
                                         "end": 56
                                     },
@@ -133,84 +122,72 @@ interface I {
                                         "kind": 196711,
                                         "text": "iterator",
                                         "rawText": "iterator",
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 57,
                                         "end": 65
                                     },
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 56,
-                                    "end": 65
+                                    "end": 65,
+                                    "period": {
+                                        "kind": 254,
+                                        "pos": 56,
+                                        "end": 57
+                                    }
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 131073,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 44,
                                 "end": 66
                             },
                             "isOptional": true,
                             "accessModifier": null,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 68,
                                 "end": 75
                             },
                             "isStatic": false,
                             "isReadOnly": false,
                             "initializer": null,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 44,
                             "end": 76
                         }
                     ],
-                    "flags": 81920,
+                    "multiline": true,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 76
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 78
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 78
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -224,18 +201,13 @@ interface I {
 
 
 ```javascript
-
-interface I {
-    [Symbol.iterator]: number;
-    [Symbol.iterator]?: number;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

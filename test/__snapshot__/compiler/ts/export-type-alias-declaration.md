@@ -27,7 +27,7 @@ export type TestAlias = string | number;
         "kind": 150,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "TestAlias",
@@ -35,31 +35,25 @@ export type TestAlias = string | number;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 21
                 },
                 "type": {
-                    "kind": 240,
+                    "kind": 8432,
                     "types": [
                         {
-                            "kind": 4194510,
+                            "kind": 4202702,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 23,
                             "end": 30
                         },
                         {
-                            "kind": 161,
+                            "kind": 4202657,
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 39
                         }
@@ -67,8 +61,6 @@ export type TestAlias = string | number;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 30,
                     "end": 39
                 },
@@ -76,8 +68,6 @@ export type TestAlias = string | number;
                 "flags": 65568,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 40
             }
@@ -85,16 +75,12 @@ export type TestAlias = string | number;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 40
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -108,15 +94,13 @@ export type TestAlias = string | number;
 
 
 ```javascript
-
-export type TestAlias = string | number;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

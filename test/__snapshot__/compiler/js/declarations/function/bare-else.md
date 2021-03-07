@@ -35,8 +35,6 @@ if (x) ; else function f(){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 5
                 },
@@ -45,8 +43,6 @@ if (x) ; else function f(){}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 8
                 },
@@ -59,8 +55,6 @@ if (x) ; else function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 22,
                         "end": 24
                     },
@@ -71,8 +65,6 @@ if (x) ; else function f(){}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 25,
                         "end": 26
                     },
@@ -86,16 +78,12 @@ if (x) ; else function f(){}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 27
                         },
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 26,
                         "end": 28
                     },
@@ -103,8 +91,6 @@ if (x) ; else function f(){}
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 28
                 },
@@ -112,8 +98,6 @@ if (x) ; else function f(){}
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -121,8 +105,6 @@ if (x) ; else function f(){}
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
@@ -137,8 +119,6 @@ if (x) ; else function f(){}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

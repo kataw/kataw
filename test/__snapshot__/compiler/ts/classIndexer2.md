@@ -20,11 +20,11 @@ class C123 {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class C123 {\n    [s: string]: number;\n    x: number;\n    y: string;\n    constructor() {\n    }\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -32,11 +32,9 @@ class C123 {
                     "kind": 131102,
                     "text": "C123",
                     "rawText": "C123",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 10
                 },
@@ -47,75 +45,63 @@ class C123 {
                     "kind": 50,
                     "elements": [
                         {
-                            "kind": 116,
+                            "kind": 73844,
                             "accessModifier": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
                                             "text": "s",
                                             "rawText": "s",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 4194510,
+                                            "kind": 4202702,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 20,
                                             "end": 27
                                         },
                                         "initializer": null,
                                         "accessModifier": null,
                                         "isReadOnly": false,
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 18,
                                         "end": 27
                                     }
                                 ],
                                 "trailingcomma": false,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 27
                             },
                             "returnType": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 36
                             },
                             "isStatic": false,
                             "isReadOnly": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 18,
                             "end": 37
                         },
@@ -125,11 +111,9 @@ class C123 {
                                 "kind": 196711,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 37,
                                 "end": 43
                             },
@@ -137,12 +121,10 @@ class C123 {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 44,
                                 "end": 51
                             },
@@ -150,11 +132,9 @@ class C123 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 37,
                             "end": 52
                         },
@@ -164,11 +144,9 @@ class C123 {
                                 "kind": 196711,
                                 "text": "y",
                                 "rawText": "y",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 52,
                                 "end": 58
                             },
@@ -176,12 +154,10 @@ class C123 {
                             "isOptional": false,
                             "exclamation": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 59,
                                 "end": 66
                             },
@@ -189,11 +165,9 @@ class C123 {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 52,
                             "end": 67
                         },
@@ -209,11 +183,9 @@ class C123 {
                                     "kind": 196711,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 67,
                                     "end": 83
                                 },
@@ -221,11 +193,9 @@ class C123 {
                                     "kind": 90,
                                     "formalParameterList": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 84,
                                     "end": 85
                                 },
@@ -237,19 +207,15 @@ class C123 {
                                         "kind": 94,
                                         "statements": [],
                                         "multiline": true,
-                                        "flags": 81920,
+                                        "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 87,
                                         "end": 87
                                     },
-                                    "flags": 81920,
+                                    "flags": 16384,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 85,
                                     "end": 93
                                 },
@@ -257,54 +223,42 @@ class C123 {
                                 "type": null,
                                 "accessModifier": null,
                                 "typeParameters": null,
-                                "flags": 327680,
+                                "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 83,
                                 "end": 93
                             },
-                            "flags": 81920,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 67,
                             "end": 93
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 12,
                     "end": 95
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 95
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 95
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -318,21 +272,13 @@ class C123 {
 
 
 ```javascript
-
-class C123 {
-    [s: string]: number;
-    x: number;
-    y: string;
-    constructor() {
-    }
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

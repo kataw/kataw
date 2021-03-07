@@ -33,8 +33,6 @@ class C { constructor() { class C { set x(_) { super( } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -71,8 +67,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -92,8 +86,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 33
                                                 },
@@ -118,8 +110,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 39,
                                                                     "end": 41
                                                                 },
@@ -136,8 +126,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1025,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 42,
                                                                                 "end": 43
                                                                             },
@@ -150,8 +138,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 42,
                                                                             "end": 43
                                                                         }
@@ -160,8 +146,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 42,
                                                                     "end": 44
                                                                 },
@@ -181,8 +165,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 46,
                                                                                         "end": 52
                                                                                     },
@@ -194,24 +176,18 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                                         "transformFlags": 0,
                                                                                         "flags": 0,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 55,
                                                                                         "end": 53
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 65536,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 52,
                                                                                     "end": 53
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 46,
                                                                                 "end": 53
                                                                             }
@@ -220,16 +196,12 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 46,
                                                                         "end": 53
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 44,
                                                                     "end": 55
                                                                 },
@@ -240,16 +212,12 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 41,
                                                                 "end": 55
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 35,
                                                             "end": 55
                                                         }
@@ -257,8 +225,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 35,
                                                     "end": 57
                                                 },
@@ -266,8 +232,6 @@ class C { constructor() { class C { set x(_) { super( } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 25,
                                                 "end": 57
                                             }
@@ -276,16 +240,12 @@ class C { constructor() { class C { set x(_) { super( } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 25,
                                         "end": 57
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 23,
                                     "end": 57
                                 },
@@ -296,16 +256,12 @@ class C { constructor() { class C { set x(_) { super( } }
                                 "flags": 262144,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 57
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 57
                         }
@@ -313,8 +269,6 @@ class C { constructor() { class C { set x(_) { super( } }
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 57
                 },
@@ -322,8 +276,6 @@ class C { constructor() { class C { set x(_) { super( } }
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 57
             }
@@ -331,8 +283,6 @@ class C { constructor() { class C { set x(_) { super( } }
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 57
     },
@@ -347,8 +297,6 @@ class C { constructor() { class C { set x(_) { super( } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

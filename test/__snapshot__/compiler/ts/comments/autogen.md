@@ -23,7 +23,7 @@
 > `````
 
 > `````js
->  /** 校验子节点值的时机 */
+>  /** @{x6821}@@{x9a8c}@@{x5b50}@@{x8282}@@{x70b9}@@{x503c}@@{x7684}@@{x65f6}@@{x673a}@ */
 > `````
 
 > `````js
@@ -140,4 +140,141 @@ y = # b
 a, # b, # c
 `````
 
+
+
+## Output
+
+
+### Hybrid CST
+
+
+```javascript
+{
+    "kind": 196,
+    "source": "function x(\n  #\n) {}",
+    "filename": "",
+    "scriptBody": {
+        "kind": 197,
+        "statements": [
+            {
+                "kind": 264284,
+                "name": {
+                    "kind": 131102,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 1025,
+                    "start": 8,
+                    "end": 10
+                },
+                "formalParameters": {
+                    "kind": 90,
+                    "formalParameterList": [
+                        {
+                            "kind": 89,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "#",
+                                "rawText": "x",
+                                "flags": 16384,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 11,
+                                "end": 15
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 16384,
+                            "intersects": false,
+                            "transformFlags": 1,
+                            "start": 11,
+                            "end": 15
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 16384,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 11,
+                    "end": 17
+                },
+                "type": null,
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "intersects": false,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "flags": 0,
+                    "intersects": false,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 20
+                },
+                "typeParameters": null,
+                "flags": 0,
+                "intersects": false,
+                "transformFlags": 256,
+                "start": 0,
+                "end": 20
+            }
+        ],
+        "transformFlags": 0,
+        "flags": 0,
+        "intersects": false,
+        "start": 0,
+        "end": 20
+    },
+    "jsx": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 15,
+            "length": 1
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Private identifiers cannot be used as parameters",
+            "start": 14,
+            "length": 0
+        }
+    ],
+    "incremental": false,
+    "flags": 0,
+    "intersects": false,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+
+```javascript
+
+```
 

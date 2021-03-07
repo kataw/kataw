@@ -36,23 +36,19 @@ var {...[]} = {}
                                             "kind": 32,
                                             "ellipsis": true,
                                             "key": {
-                                                "kind": 55,
+                                                "kind": 65591,
                                                 "expression": {
                                                     "kind": 131322,
                                                     "text": "",
                                                     "flags": 6,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 9,
                                                     "end": 9
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 131073,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 8,
                                                 "end": 10
                                             },
@@ -66,8 +62,6 @@ var {...[]} = {}
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 10,
                                                     "end": 10
                                                 },
@@ -75,16 +69,12 @@ var {...[]} = {}
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 10,
                                                 "end": 10
                                             },
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 10
                                         }
@@ -94,16 +84,12 @@ var {...[]} = {}
                                     "transformFlags": 1025,
                                     "flags": 2,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 10
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 11
                             },
@@ -119,24 +105,18 @@ var {...[]} = {}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 15
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 16
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 16
                         }
@@ -144,16 +124,12 @@ var {...[]} = {}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 16
             }
@@ -161,8 +137,6 @@ var {...[]} = {}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 16
     },
@@ -184,8 +158,6 @@ var {...[]} = {}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

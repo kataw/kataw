@@ -47,8 +47,6 @@ export namespace E {}
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -58,8 +56,6 @@ export namespace E {}
                                 "flags": 10,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 65536,
                                 "end": 12
                             }
@@ -67,16 +63,12 @@ export namespace E {}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 12
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 13
                 },
@@ -87,8 +79,6 @@ export namespace E {}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 13
             },
@@ -103,8 +93,6 @@ export namespace E {}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 29,
                         "end": 31
                     },
@@ -115,8 +103,6 @@ export namespace E {}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 32,
                         "end": 33
                     },
@@ -130,16 +116,12 @@ export namespace E {}
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 35,
                             "end": 35
                         },
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 33,
                         "end": 36
                     },
@@ -147,8 +129,6 @@ export namespace E {}
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 256,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 36
                 },
@@ -159,8 +139,6 @@ export namespace E {}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 13,
                 "end": 36
             },
@@ -175,8 +153,6 @@ export namespace E {}
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 1025,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 49,
                         "end": 51
                     },
@@ -189,8 +165,6 @@ export namespace E {}
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 1,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 53,
                         "end": 54
                     },
@@ -198,8 +172,6 @@ export namespace E {}
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 43,
                     "end": 54
                 },
@@ -210,13 +182,11 @@ export namespace E {}
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 36,
                 "end": 54
             },
             {
-                "kind": 71,
+                "kind": 8263,
                 "name": {
                     "kind": 196712,
                     "text": "D",
@@ -224,19 +194,15 @@ export namespace E {}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 67,
                     "end": 69
                 },
                 "members": {
-                    "kind": 73,
+                    "kind": 8265,
                     "enumMembersList": [],
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 71,
                     "end": 71
                 },
@@ -244,13 +210,11 @@ export namespace E {}
                 "flags": 81952,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 62,
                 "end": 72
             },
             {
-                "kind": 2097405,
+                "kind": 2105597,
                 "name": {
                     "kind": 196712,
                     "text": "E",
@@ -258,28 +222,22 @@ export namespace E {}
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 89,
                     "end": 91
                 },
                 "body": {
-                    "kind": 2097404,
+                    "kind": 2105596,
                     "statements": [],
                     "multiline": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 93,
                     "end": 93
                 },
                 "flags": 65568,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 79,
                 "end": 94
             }
@@ -287,16 +245,12 @@ export namespace E {}
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 94
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -310,26 +264,13 @@ export namespace E {}
 
 
 ```javascript
-
-export var a;;
-
-export function b() { };
-
-export class C {
-
-};
-
-enum D {
-}
-
-namespace E {};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

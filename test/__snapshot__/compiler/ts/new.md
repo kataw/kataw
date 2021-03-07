@@ -89,7 +89,7 @@ interface TimerConstructor {
         "kind": 150,
         "statements": [
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "FooConstructor",
@@ -97,8 +97,6 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 24
                 },
@@ -108,15 +106,15 @@ interface TimerConstructor {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -125,19 +123,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 40
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 41,
                                             "end": 48
                                         },
@@ -147,13 +141,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 34,
                                         "end": 48
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -162,19 +154,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 49,
                                             "end": 55
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 56,
                                             "end": 63
                                         },
@@ -184,13 +172,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 49,
                                         "end": 63
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -199,19 +185,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 64,
                                             "end": 70
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 71,
                                             "end": 78
                                         },
@@ -221,13 +203,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 64,
                                         "end": 78
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -236,19 +216,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 79,
                                             "end": 85
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 86,
                                             "end": 93
                                         },
@@ -258,13 +234,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 79,
                                         "end": 93
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -273,19 +247,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 94,
                                             "end": 100
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 101,
                                             "end": 108
                                         },
@@ -295,13 +265,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 94,
                                         "end": 108
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -310,19 +278,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 109,
                                             "end": 115
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 116,
                                             "end": 123
                                         },
@@ -332,13 +296,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 109,
                                         "end": 123
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -347,19 +309,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 124,
                                             "end": 130
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 131,
                                             "end": 138
                                         },
@@ -369,13 +327,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 124,
                                         "end": 138
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -384,19 +340,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 139,
                                             "end": 145
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 146,
                                             "end": 153
                                         },
@@ -406,8 +358,6 @@ interface TimerConstructor {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 139,
                                         "end": 153
                                     }
@@ -416,13 +366,11 @@ interface TimerConstructor {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 34,
                                 "end": 153
                             },
                             "returnType": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Foo",
@@ -430,8 +378,6 @@ interface TimerConstructor {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 158,
                                     "end": 162
                                 },
@@ -439,38 +385,31 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 158,
                                 "end": 163
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 163
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 26,
                     "end": 163
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 165
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "BarConstructor",
@@ -478,8 +417,6 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 176,
                     "end": 191
                 },
@@ -489,14 +426,14 @@ interface TimerConstructor {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": {
-                                "kind": 233,
+                                "kind": 8425,
                                 "typeParameterList": [
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "A",
@@ -504,8 +441,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 201,
                                             "end": 202
                                         },
@@ -515,13 +450,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 201,
                                         "end": 202
                                     },
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "B",
@@ -529,8 +462,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 203,
                                             "end": 205
                                         },
@@ -540,13 +471,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 203,
                                         "end": 205
                                     },
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "C",
@@ -554,8 +483,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 206,
                                             "end": 208
                                         },
@@ -565,8 +492,6 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 206,
                                         "end": 208
                                     }
@@ -574,16 +499,14 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 201,
                                 "end": 208
                             },
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -592,19 +515,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 210,
                                             "end": 216
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 217,
                                             "end": 224
                                         },
@@ -614,13 +533,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 210,
                                         "end": 224
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -629,19 +546,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 225,
                                             "end": 231
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 232,
                                             "end": 239
                                         },
@@ -651,13 +564,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 225,
                                         "end": 239
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -666,19 +577,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 240,
                                             "end": 246
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 247,
                                             "end": 254
                                         },
@@ -688,13 +595,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 240,
                                         "end": 254
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -703,19 +608,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 255,
                                             "end": 261
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 262,
                                             "end": 269
                                         },
@@ -725,13 +626,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 255,
                                         "end": 269
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -740,19 +639,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 270,
                                             "end": 276
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 277,
                                             "end": 284
                                         },
@@ -762,13 +657,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 270,
                                         "end": 284
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -777,19 +670,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 285,
                                             "end": 291
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 292,
                                             "end": 299
                                         },
@@ -799,13 +688,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 285,
                                         "end": 299
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -814,19 +701,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 300,
                                             "end": 306
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 307,
                                             "end": 314
                                         },
@@ -836,13 +719,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 300,
                                         "end": 314
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -851,19 +732,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 315,
                                             "end": 321
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 322,
                                             "end": 329
                                         },
@@ -873,8 +750,6 @@ interface TimerConstructor {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 315,
                                         "end": 329
                                     }
@@ -883,13 +758,11 @@ interface TimerConstructor {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 210,
                                 "end": 329
                             },
                             "returnType": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Foo",
@@ -897,8 +770,6 @@ interface TimerConstructor {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 334,
                                     "end": 338
                                 },
@@ -906,38 +777,31 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 334,
                                 "end": 339
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 199,
                             "end": 339
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 193,
                     "end": 339
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 165,
                 "end": 341
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "BazConstructor",
@@ -945,26 +809,24 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 347,
                     "end": 362
                 },
                 "type": {
-                    "kind": 230,
+                    "kind": 8422,
                     "objectTypeMembers": {
                         "kind": 169,
                         "members": [
                             {
-                                "kind": 58,
+                                "kind": 8250,
                                 "isReadOnly": false,
                                 "accessModifier": null,
                                 "typeParameters": null,
                                 "parameters": {
-                                    "kind": 175,
+                                    "kind": 8367,
                                     "parameterList": [
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -973,19 +835,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 374,
                                                 "end": 380
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 381,
                                                 "end": 388
                                             },
@@ -995,13 +853,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 374,
                                             "end": 388
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1010,19 +866,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 389,
                                                 "end": 395
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 396,
                                                 "end": 403
                                             },
@@ -1032,13 +884,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 389,
                                             "end": 403
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1047,19 +897,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 404,
                                                 "end": 410
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 411,
                                                 "end": 418
                                             },
@@ -1069,13 +915,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 404,
                                             "end": 418
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1084,19 +928,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 419,
                                                 "end": 425
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 426,
                                                 "end": 433
                                             },
@@ -1106,13 +946,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 419,
                                             "end": 433
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1121,19 +959,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 434,
                                                 "end": 440
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 441,
                                                 "end": 448
                                             },
@@ -1143,13 +977,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 434,
                                             "end": 448
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1158,19 +990,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 449,
                                                 "end": 455
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 456,
                                                 "end": 463
                                             },
@@ -1180,13 +1008,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 449,
                                             "end": 463
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1195,19 +1021,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 464,
                                                 "end": 470
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 471,
                                                 "end": 478
                                             },
@@ -1217,13 +1039,11 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 464,
                                             "end": 478
                                         },
                                         {
-                                            "kind": 174,
+                                            "kind": 8366,
                                             "ellipsis": false,
                                             "binding": {
                                                 "kind": 131102,
@@ -1232,19 +1052,15 @@ interface TimerConstructor {
                                                 "flags": 81920,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 479,
                                                 "end": 485
                                             },
                                             "isOptional": false,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 486,
                                                 "end": 493
                                             },
@@ -1254,8 +1070,6 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 479,
                                             "end": 493
                                         }
@@ -1264,13 +1078,11 @@ interface TimerConstructor {
                                     "flags": 81920,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 374,
                                     "end": 493
                                 },
                                 "returnType": {
-                                    "kind": 236,
+                                    "kind": 8428,
                                     "typeName": {
                                         "kind": 196711,
                                         "text": "Foo",
@@ -1278,8 +1090,6 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 498,
                                         "end": 502
                                     },
@@ -1287,33 +1097,26 @@ interface TimerConstructor {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 498,
                                     "end": 503
                                 },
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 372,
                                 "end": 503
                             }
                         ],
+                        "multiline": true,
                         "flags": 81920,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 366,
                         "end": 505
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 364,
                     "end": 505
                 },
@@ -1321,13 +1124,11 @@ interface TimerConstructor {
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 341,
                 "end": 505
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "ConstructorBigGenerics",
@@ -1335,8 +1136,6 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 517,
                     "end": 540
                 },
@@ -1346,14 +1145,14 @@ interface TimerConstructor {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": {
-                                "kind": 233,
+                                "kind": 8425,
                                 "typeParameterList": [
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
@@ -1361,8 +1160,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 563,
                                             "end": 587
                                         },
@@ -1372,13 +1169,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 563,
                                         "end": 587
                                     },
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
@@ -1386,8 +1181,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 588,
                                             "end": 613
                                         },
@@ -1397,13 +1190,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 588,
                                         "end": 613
                                     },
                                     {
-                                        "kind": 232,
+                                        "kind": 8424,
                                         "name": {
                                             "kind": 196711,
                                             "text": "AAAAAAAAAAAAAAAAAAAAAAAA",
@@ -1411,8 +1202,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 614,
                                             "end": 639
                                         },
@@ -1422,8 +1211,6 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 614,
                                         "end": 639
                                     }
@@ -1431,16 +1218,14 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 563,
                                 "end": 639
                             },
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1449,19 +1234,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 641,
                                             "end": 647
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 648,
                                             "end": 655
                                         },
@@ -1471,13 +1252,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 641,
                                         "end": 655
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1486,19 +1265,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 656,
                                             "end": 662
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 663,
                                             "end": 670
                                         },
@@ -1508,13 +1283,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 656,
                                         "end": 670
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1523,19 +1296,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 671,
                                             "end": 677
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 678,
                                             "end": 685
                                         },
@@ -1545,13 +1314,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 671,
                                         "end": 685
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1560,19 +1327,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 686,
                                             "end": 692
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 693,
                                             "end": 700
                                         },
@@ -1582,13 +1345,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 686,
                                         "end": 700
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1597,19 +1358,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 701,
                                             "end": 707
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 708,
                                             "end": 715
                                         },
@@ -1619,13 +1376,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 701,
                                         "end": 715
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1634,19 +1389,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 716,
                                             "end": 722
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 723,
                                             "end": 730
                                         },
@@ -1656,13 +1407,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 716,
                                         "end": 730
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1671,19 +1420,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 731,
                                             "end": 737
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 738,
                                             "end": 745
                                         },
@@ -1693,13 +1438,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 731,
                                         "end": 745
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1708,19 +1451,15 @@ interface TimerConstructor {
                                             "flags": 81920,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 746,
                                             "end": 752
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 753,
                                             "end": 760
                                         },
@@ -1730,8 +1469,6 @@ interface TimerConstructor {
                                         "flags": 81920,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 746,
                                         "end": 760
                                     }
@@ -1740,13 +1477,11 @@ interface TimerConstructor {
                                 "flags": 81920,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 641,
                                 "end": 760
                             },
                             "returnType": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Foo",
@@ -1754,8 +1489,6 @@ interface TimerConstructor {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 765,
                                     "end": 769
                                 },
@@ -1763,38 +1496,31 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 765,
                                 "end": 770
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 561,
                             "end": 770
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 542,
                     "end": 770
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 505,
                 "end": 772
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "ConstructorInline",
@@ -1802,8 +1528,6 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 783,
                     "end": 801
                 },
@@ -1813,15 +1537,15 @@ interface TimerConstructor {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 44,
+                            "kind": 8236,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1830,8 +1554,6 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 861,
                                             "end": 862
                                         },
@@ -1843,8 +1565,6 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 861,
                                         "end": 862
                                     }
@@ -1853,48 +1573,39 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 861,
                                 "end": 862
                             },
                             "returnType": {
-                                "kind": 4194306,
+                                "kind": 4202498,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 864,
                                 "end": 868
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 803,
                             "end": 869
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 803,
                     "end": 869
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 772,
                 "end": 871
             },
             {
-                "kind": 119,
+                "kind": 8311,
                 "name": {
                     "kind": 196712,
                     "text": "TimerConstructor",
@@ -1902,8 +1613,6 @@ interface TimerConstructor {
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 882,
                     "end": 899
                 },
@@ -1913,15 +1622,15 @@ interface TimerConstructor {
                     "kind": 169,
                     "members": [
                         {
-                            "kind": 58,
+                            "kind": 8250,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,
                             "parameters": {
-                                "kind": 175,
+                                "kind": 8367,
                                 "parameterList": [
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1930,19 +1639,15 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 937,
                                             "end": 945
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 161,
+                                            "kind": 4202657,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 946,
                                             "end": 953
                                         },
@@ -1952,13 +1657,11 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 937,
                                         "end": 953
                                     },
                                     {
-                                        "kind": 174,
+                                        "kind": 8366,
                                         "ellipsis": false,
                                         "binding": {
                                             "kind": 131102,
@@ -1967,20 +1670,18 @@ interface TimerConstructor {
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 954,
                                             "end": 963
                                         },
                                         "isOptional": false,
                                         "type": {
-                                            "kind": 95,
+                                            "kind": 8287,
                                             "typeParameters": null,
                                             "parameters": {
-                                                "kind": 175,
+                                                "kind": 8367,
                                                 "parameterList": [
                                                     {
-                                                        "kind": 174,
+                                                        "kind": 8366,
                                                         "ellipsis": false,
                                                         "binding": {
                                                             "kind": 131102,
@@ -1989,14 +1690,12 @@ interface TimerConstructor {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 966,
                                                             "end": 973
                                                         },
                                                         "isOptional": false,
                                                         "type": {
-                                                            "kind": 236,
+                                                            "kind": 8428,
                                                             "typeName": {
                                                                 "kind": 196711,
                                                                 "text": "Timer",
@@ -2004,8 +1703,6 @@ interface TimerConstructor {
                                                                 "flags": 65536,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 974,
                                                                 "end": 980
                                                             },
@@ -2013,8 +1710,6 @@ interface TimerConstructor {
                                                             "flags": 65536,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 974,
                                                             "end": 981
                                                         },
@@ -2024,8 +1719,6 @@ interface TimerConstructor {
                                                         "flags": 65536,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 966,
                                                         "end": 980
                                                     }
@@ -2034,26 +1727,20 @@ interface TimerConstructor {
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 966,
                                                 "end": 980
                                             },
                                             "returnType": {
-                                                "kind": 4194550,
+                                                "kind": 4202742,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 984,
                                                 "end": 989
                                             },
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 964,
                                             "end": 989
                                         },
@@ -2063,8 +1750,6 @@ interface TimerConstructor {
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 954,
                                         "end": 989
                                     }
@@ -2073,13 +1758,11 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 937,
                                 "end": 989
                             },
                             "returnType": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Timer",
@@ -2087,8 +1770,6 @@ interface TimerConstructor {
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 991,
                                     "end": 997
                                 },
@@ -2096,33 +1777,26 @@ interface TimerConstructor {
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 991,
                                 "end": 998
                             },
                             "flags": 81920,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 935,
                             "end": 998
                         }
                     ],
+                    "multiline": true,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 901,
                     "end": 998
                 },
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 871,
                 "end": 1000
             }
@@ -2130,16 +1804,12 @@ interface TimerConstructor {
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 1000
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -2153,37 +1823,13 @@ interface TimerConstructor {
 
 
 ```javascript
-
-interface FooConstructor {
-    new (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number):Foo;
-}
-
-interface BarConstructor {
-    new <A, B, C>(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number):Foo;
-}
-
-type BazConstructor = {
-    new (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number):Foo;
-};
-
-interface ConstructorBigGenerics {
-    new <AAAAAAAAAAAAAAAAAAAAAAAA, AAAAAAAAAAAAAAAAAAAAAAAA, AAAAAAAAAAAAAAAAAAAAAAAA>(a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number):Foo;
-}
-
-interface ConstructorInline {
-    (i):any;
-}
-
-interface TimerConstructor {
-    new (interval: number, callback: (handler: Timer) => void):Timer;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

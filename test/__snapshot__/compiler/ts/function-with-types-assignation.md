@@ -16,11 +16,11 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function message(name:string, age:number = 100, ...args:Array<string>):string {\n  return name;\n}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -28,11 +28,9 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                     "kind": 131102,
                     "text": "message",
                     "rawText": "message",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -46,22 +44,18 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "kind": 131102,
                                 "text": "name",
                                 "rawText": "name",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 21
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 22,
                                 "end": 28
                             },
@@ -69,11 +63,9 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 17,
                             "end": 28
                         },
@@ -84,22 +76,18 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "kind": 131102,
                                 "text": "age",
                                 "rawText": "age",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 33
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 161,
+                                "kind": 4202657,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 34,
                                 "end": 40
                             },
@@ -107,22 +95,18 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "kind": 4261540,
                                 "text": 100,
                                 "rawText": "100",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 42,
                                 "end": 46
                             },
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 29,
                             "end": 46
                         },
@@ -133,56 +117,46 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                 "kind": 131102,
                                 "text": "args",
                                 "rawText": "args",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 51,
                                 "end": 55
                             },
                             "isOptional": false,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "Array",
                                     "rawText": "Array",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 56,
                                     "end": 61
                                 },
                                 "typeArguments": {
-                                    "kind": 227,
+                                    "kind": 8419,
                                     "typeArgumentsList": [
                                         {
-                                            "kind": 4194510,
+                                            "kind": 4202702,
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 62,
                                             "end": 68
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 62,
                                     "end": 68
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 56,
                                 "end": 70
                             },
@@ -190,31 +164,25 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 47,
                             "end": 69
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 70
                 },
                 "type": {
-                    "kind": 4194510,
+                    "kind": 4202702,
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 71,
                     "end": 77
                 },
@@ -229,63 +197,49 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
                                     "kind": 196712,
                                     "text": "name",
                                     "rawText": "name",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 88,
                                     "end": 93
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 79,
                                 "end": 94
                             }
                         ],
                         "multiline": true,
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 79,
                         "end": 94
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 77,
                     "end": 96
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 96
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 96
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -299,17 +253,13 @@ function message(name:string, age:number = 100, ...args:Array<string>):string {
 
 
 ```javascript
-
-function message(name: string, age: number = 100, ...args: Array<string>): string {
-    return name;
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

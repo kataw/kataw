@@ -22,11 +22,11 @@ var {...rest3 } = nullUnion;
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "declare const undefinedUnion: { n: number } | undefined;\nvar rest2: { n: number };\nvar {...rest2 } = undefinedUnion;\n\n\ndeclare const nullUnion: { n: number } | null;\nvar rest3: { n: number };\nvar {...rest3 } = nullUnion;\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -40,119 +40,98 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "undefinedUnion",
                                 "rawText": "undefinedUnion",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 13,
                                 "end": 28
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 230,
+                                        "kind": 8422,
                                         "objectTypeMembers": {
                                             "kind": 169,
                                             "members": [
                                                 {
-                                                    "kind": 188,
+                                                    "kind": 8380,
                                                     "name": {
                                                         "kind": 196711,
                                                         "text": "n",
                                                         "rawText": "n",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 31,
                                                         "end": 33
                                                     },
                                                     "isOptional": false,
                                                     "accessModifier": null,
                                                     "type": {
-                                                        "kind": 161,
+                                                        "kind": 4202657,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 34,
                                                         "end": 41
                                                     },
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 41
                                                 }
                                             ],
-                                            "flags": 65536,
+                                            "multiline": false,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 31,
                                             "end": 43
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 43
                                     },
                                     {
-                                        "kind": 4194543,
+                                        "kind": 4202735,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 45,
                                         "end": 55
                                     }
                                 ],
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 43,
                                 "end": 55
                             },
                             "initializer": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 13,
                             "end": 55
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 55
                 },
-                "flags": 201408528,
+                "flags": 201342992,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 7,
                 "end": 56
             },
@@ -167,71 +146,60 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "rest2",
                                 "rawText": "rest2",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 60,
                                 "end": 66
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 230,
+                                "kind": 8422,
                                 "objectTypeMembers": {
                                     "kind": 169,
                                     "members": [
                                         {
-                                            "kind": 188,
+                                            "kind": 8380,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 69,
                                                 "end": 71
                                             },
                                             "isOptional": false,
                                             "accessModifier": null,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 72,
                                                 "end": 79
                                             },
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 69,
                                             "end": 79
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "multiline": false,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 69,
                                     "end": 81
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 67,
                                 "end": 81
                             },
@@ -239,25 +207,19 @@ var {...rest3 } = nullUnion;
                             "flags": 60,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 81
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 60,
                     "end": 81
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 56,
                 "end": 82
             },
@@ -280,20 +242,16 @@ var {...rest3 } = nullUnion;
                                                 "kind": 131102,
                                                 "text": "rest2",
                                                 "rawText": "rest2",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 88,
                                                 "end": 96
                                             },
                                             "right": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 88,
                                             "end": 96
                                         }
@@ -301,18 +259,14 @@ var {...rest3 } = nullUnion;
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 88,
                                     "end": 96
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 86,
                                 "end": 98
                             },
@@ -322,36 +276,28 @@ var {...rest3 } = nullUnion;
                                 "kind": 196712,
                                 "text": "undefinedUnion",
                                 "rawText": "undefinedUnion",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 100,
                                 "end": 115
                             },
                             "flags": 86,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 115
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 86,
                     "end": 115
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 82,
                 "end": 116
             },
@@ -367,119 +313,98 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "nullUnion",
                                 "rawText": "nullUnion",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 132,
                                 "end": 142
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 240,
+                                "kind": 8432,
                                 "types": [
                                     {
-                                        "kind": 230,
+                                        "kind": 8422,
                                         "objectTypeMembers": {
                                             "kind": 169,
                                             "members": [
                                                 {
-                                                    "kind": 188,
+                                                    "kind": 8380,
                                                     "name": {
                                                         "kind": 196711,
                                                         "text": "n",
                                                         "rawText": "n",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 145,
                                                         "end": 147
                                                     },
                                                     "isOptional": false,
                                                     "accessModifier": null,
                                                     "type": {
-                                                        "kind": 161,
+                                                        "kind": 4202657,
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 2097152,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 148,
                                                         "end": 155
                                                     },
                                                     "isStatic": false,
                                                     "isReadOnly": false,
                                                     "initializer": null,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 2097152,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 145,
                                                     "end": 155
                                                 }
                                             ],
-                                            "flags": 65536,
+                                            "multiline": false,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 145,
                                             "end": 157
                                         },
-                                        "flags": 65536,
+                                        "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 143,
                                         "end": 157
                                     },
                                     {
-                                        "kind": 4194463,
+                                        "kind": 4202655,
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 159,
                                         "end": 164
                                     }
                                 ],
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 157,
                                 "end": 164
                             },
                             "initializer": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 132,
                             "end": 164
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 132,
                     "end": 164
                 },
-                "flags": 201408528,
+                "flags": 201342992,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 126,
                 "end": 165
             },
@@ -494,71 +419,60 @@ var {...rest3 } = nullUnion;
                                 "kind": 131102,
                                 "text": "rest3",
                                 "rawText": "rest3",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 169,
                                 "end": 175
                             },
                             "exclamation": false,
                             "type": {
-                                "kind": 230,
+                                "kind": 8422,
                                 "objectTypeMembers": {
                                     "kind": 169,
                                     "members": [
                                         {
-                                            "kind": 188,
+                                            "kind": 8380,
                                             "name": {
                                                 "kind": 196711,
                                                 "text": "n",
                                                 "rawText": "n",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 178,
                                                 "end": 180
                                             },
                                             "isOptional": false,
                                             "accessModifier": null,
                                             "type": {
-                                                "kind": 161,
+                                                "kind": 4202657,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 2097152,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 181,
                                                 "end": 188
                                             },
                                             "isStatic": false,
                                             "isReadOnly": false,
                                             "initializer": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 178,
                                             "end": 188
                                         }
                                     ],
-                                    "flags": 65536,
+                                    "multiline": false,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 178,
                                     "end": 190
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 176,
                                 "end": 190
                             },
@@ -566,25 +480,19 @@ var {...rest3 } = nullUnion;
                             "flags": 169,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 190
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 169,
                     "end": 190
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 165,
                 "end": 191
             },
@@ -607,20 +515,16 @@ var {...rest3 } = nullUnion;
                                                 "kind": 131102,
                                                 "text": "rest3",
                                                 "rawText": "rest3",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 197,
                                                 "end": 205
                                             },
                                             "right": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 197,
                                             "end": 205
                                         }
@@ -628,18 +532,14 @@ var {...rest3 } = nullUnion;
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 197,
                                     "end": 205
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 195,
                                 "end": 207
                             },
@@ -649,53 +549,41 @@ var {...rest3 } = nullUnion;
                                 "kind": 196712,
                                 "text": "nullUnion",
                                 "rawText": "nullUnion",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 209,
                                 "end": 219
                             },
                             "flags": 195,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65536,
+                            "start": 0,
                             "end": 219
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 195,
                     "end": 219
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 191,
                 "end": 220
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 220
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -709,33 +597,13 @@ var {...rest3 } = nullUnion;
 
 
 ```javascript
-
-declare const undefinedUnion: {
-    n: number;
-} | undefined;
-
-var rest2: {
-    n: number;
-};
-
-var { ...rest2 } = undefinedUnion;
-
-declare const nullUnion: {
-    n: number;
-} | null;
-
-var rest3: {
-    n: number;
-};
-
-var { ...rest3 } = nullUnion;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

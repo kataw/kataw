@@ -38,8 +38,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 9
                             },
@@ -49,8 +47,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 9
                         }
@@ -58,16 +54,12 @@ var await; var f = (async function() { async function wrap() { async function aw
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 10
             },
@@ -85,8 +77,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 16
                             },
@@ -104,8 +94,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 36
                                     },
@@ -123,8 +111,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1025,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 53,
                                                         "end": 58
                                                     },
@@ -135,8 +121,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 59,
                                                         "end": 60
                                                     },
@@ -155,8 +139,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 1025,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 77,
                                                                         "end": 83
                                                                     },
@@ -167,8 +149,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 84,
                                                                         "end": 85
                                                                     },
@@ -182,16 +162,12 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 87,
                                                                             "end": 87
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 85,
                                                                         "end": 89
                                                                     },
@@ -199,8 +175,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 260,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 62,
                                                                     "end": 89
                                                                 }
@@ -209,16 +183,12 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 62,
                                                             "end": 89
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 60,
                                                         "end": 91
                                                     },
@@ -226,8 +196,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 260,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 91
                                                 },
@@ -236,8 +204,6 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 91,
                                                     "end": 92
                                                 }
@@ -246,16 +212,12 @@ var await; var f = (async function() { async function wrap() { async function aw
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 92
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 36,
                                         "end": 94
                                     },
@@ -264,24 +226,18 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 4,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 94
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 95
                             },
                             "flags": 14,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 95
                         }
@@ -289,16 +245,12 @@ var await; var f = (async function() { async function wrap() { async function aw
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 95
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 10,
                 "end": 96
             }
@@ -306,16 +258,12 @@ var await; var f = (async function() { async function wrap() { async function aw
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 96
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

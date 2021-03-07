@@ -36,8 +36,6 @@ export as namespace A;
                 "flags": 65538,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 6
             },
@@ -50,21 +48,17 @@ export as namespace A;
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 6,
                 "end": 9
             },
             {
-                "kind": 2097405,
+                "kind": 2105597,
                 "name": {
                     "kind": 196712,
                     "text": "A",
@@ -72,28 +66,22 @@ export as namespace A;
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 21
                 },
                 "body": {
-                    "kind": 2097404,
+                    "kind": 2105596,
                     "statements": [],
                     "multiline": false,
                     "flags": 65538,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 65538,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 9,
                 "end": 21
             },
@@ -102,8 +90,6 @@ export as namespace A;
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 21,
                 "end": 22
             }
@@ -111,8 +97,6 @@ export as namespace A;
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 22
     },
@@ -141,8 +125,6 @@ export as namespace A;
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -156,22 +138,13 @@ export as namespace A;
 
 
 ```javascript
-
-export ;
-
-as
-
-namespace A {};
-
-;
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ Unexpected token. - start: 8, end: 0
 
 ```
 

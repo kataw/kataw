@@ -33,8 +33,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 10,
                     "end": 14
                 },
@@ -45,8 +43,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 15,
                     "end": 16
                 },
@@ -65,8 +61,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 35
                                 },
@@ -77,8 +71,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -97,8 +89,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 48,
                                                     "end": 54
                                                 },
@@ -115,8 +105,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1025,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 55,
                                                                 "end": 60
                                                             },
@@ -129,8 +117,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 55,
                                                             "end": 60
                                                         }
@@ -139,8 +125,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 55,
                                                     "end": 61
                                                 },
@@ -159,8 +143,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 63,
                                                                     "end": 69
                                                                 },
@@ -175,8 +157,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 70,
                                                                             "end": 76
                                                                         },
@@ -193,8 +173,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 78,
                                                                                         "end": 83
                                                                                     },
@@ -208,8 +186,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                             "flags": 0,
                                                                                             "intersects": false,
                                                                                             "transformFlags": 0,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 85,
                                                                                             "end": 91
                                                                                         },
@@ -224,8 +200,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                                     "flags": 0,
                                                                                                     "intersects": false,
                                                                                                     "transformFlags": 0,
-                                                                                                    "parent": null,
-                                                                                                    "emitNode": null,
                                                                                                     "start": 92,
                                                                                                     "end": 93
                                                                                                 }
@@ -234,24 +208,18 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                                             "transformFlags": 0,
                                                                                             "flags": 0,
                                                                                             "intersects": false,
-                                                                                            "parent": null,
-                                                                                            "emitNode": null,
                                                                                             "start": 93,
                                                                                             "end": 94
                                                                                         },
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 91,
                                                                                         "end": 94
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 78,
                                                                                     "end": 94
                                                                                 }
@@ -260,24 +228,18 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                             "transformFlags": 0,
                                                                             "flags": 0,
                                                                             "intersects": false,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 83,
                                                                             "end": 95
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 76,
                                                                         "end": 95
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 70,
                                                                     "end": 96
                                                                 },
@@ -285,8 +247,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 63,
                                                                 "end": 96
                                                             }
@@ -295,16 +255,12 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 63,
                                                         "end": 96
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 61,
                                                     "end": 98
                                                 },
@@ -312,8 +268,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 256,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 39,
                                                 "end": 98
                                             }
@@ -322,16 +276,12 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 39,
                                         "end": 98
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 37,
                                     "end": 100
                                 },
@@ -339,8 +289,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 256,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 100
                             }
@@ -349,16 +297,12 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 18,
                         "end": 100
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 101
                 },
@@ -366,8 +310,6 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 101
             }
@@ -375,16 +317,12 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 101
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -27,7 +27,7 @@ for (fooo.bar in x) ;
             {
                 "kind": 2099286,
                 "initializer": {
-                    "kind": 74424,
+                    "kind": 66232,
                     "member": {
                         "kind": 196712,
                         "text": "fooo",
@@ -35,8 +35,6 @@ for (fooo.bar in x) ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 5,
                         "end": 9
                     },
@@ -47,18 +45,19 @@ for (fooo.bar in x) ;
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 10,
                         "end": 13
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
-                    "end": 13
+                    "end": 13,
+                    "period": {
+                        "kind": 254,
+                        "pos": 9,
+                        "end": 10
+                    }
                 },
                 "expression": {
                     "kind": 196712,
@@ -67,8 +66,6 @@ for (fooo.bar in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 16,
                     "end": 18
                 },
@@ -77,16 +74,12 @@ for (fooo.bar in x) ;
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 21
             }
@@ -94,16 +87,12 @@ for (fooo.bar in x) ;
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 21
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

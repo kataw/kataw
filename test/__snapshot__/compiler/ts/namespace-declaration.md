@@ -17,28 +17,26 @@ namespace x {
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "namespace x {\n  export abstract class x {}\n}\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
-                "kind": 2097405,
+                "kind": 2105597,
                 "name": {
                     "kind": 196712,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 11
                 },
                 "body": {
-                    "kind": 2097404,
+                    "kind": 2105596,
                     "statements": [
                         {
                             "kind": 48,
@@ -46,11 +44,9 @@ namespace x {
                                 "kind": 131102,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 37,
                                 "end": 39
                             },
@@ -60,55 +56,51 @@ namespace x {
                             "members": {
                                 "kind": 50,
                                 "elements": [],
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 41,
                                 "end": 42
                             },
                             "decorators": null,
-                            "flags": 268517408,
+                            "flags": 268451872,
                             "intersects": false,
                             "transformFlags": 2097153,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 31,
                             "end": 42
                         }
                     ],
                     "multiline": true,
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 42
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 44
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 44
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "The `export` keyword can only be used with the module goal",
+            "start": 16,
+            "length": 0
+        }
+    ],
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -122,20 +114,13 @@ namespace x {
 
 
 ```javascript
-
-namespace x {
-    export abstract class x {
-
-    }
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ The `export` keyword can only be used with the module goal - start: 19, end: 0
 
 ```
 

@@ -15,11 +15,11 @@ let {[foo2()]: bar3} = {};
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "let foo2 = () => \"bar\";\nlet {[foo2()]: bar3} = {};",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 142,
@@ -33,11 +33,9 @@ let {[foo2()]: bar3} = {};
                                 "kind": 131102,
                                 "text": "foo2",
                                 "rawText": "foo2",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 8
                             },
@@ -45,9 +43,9 @@ let {[foo2()]: bar3} = {};
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -55,53 +53,41 @@ let {[foo2()]: bar3} = {};
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 10,
                                     "end": 10
                                 },
                                 "contents": {
-                                    "kind": 67279,
+                                    "kind": 4261583,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 16,
                                     "end": 22
                                 },
-                                "flags": 536936448,
+                                "flags": 536870912,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 10,
                                 "end": 22
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 22
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 22
                 },
-                "flags": 81936,
+                "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 23
             },
@@ -122,18 +108,16 @@ let {[foo2()]: bar3} = {};
                                             "kind": 32,
                                             "ellipsis": false,
                                             "key": {
-                                                "kind": 55,
+                                                "kind": 65591,
                                                 "expression": {
                                                     "kind": 66091,
                                                     "expression": {
                                                         "kind": 196712,
                                                         "text": "foo2",
                                                         "rawText": "foo2",
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 30,
                                                         "end": 34
                                                     },
@@ -143,26 +127,20 @@ let {[foo2()]: bar3} = {};
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "transformFlags": 0,
-                                                        "flags": 65536,
+                                                        "flags": 0,
                                                         "intersects": false,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 36,
                                                         "end": 36
                                                     },
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 34,
                                                     "end": 36
                                                 },
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 131073,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 29,
                                                 "end": 37
                                             },
@@ -173,28 +151,22 @@ let {[foo2()]: bar3} = {};
                                                     "kind": 131102,
                                                     "text": "bar3",
                                                     "rawText": "bar3",
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 43
                                                 },
                                                 "right": null,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 38,
                                                 "end": 43
                                             },
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1025,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 29,
                                             "end": 43
                                         }
@@ -202,18 +174,14 @@ let {[foo2()]: bar3} = {};
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 29,
                                     "end": 43
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 27,
                                 "end": 44
                             },
@@ -226,61 +194,47 @@ let {[foo2()]: bar3} = {};
                                     "properties": [],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
                                     "end": 48
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 46,
                                 "end": 49
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 27,
                             "end": 49
                         }
                     ],
-                    "flags": 65552,
+                    "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 27,
                     "end": 49
                 },
-                "flags": 81936,
+                "flags": 16400,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 23,
                 "end": 50
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 50
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -294,17 +248,13 @@ let {[foo2()]: bar3} = {};
 
 
 ```javascript
-
-let foo2 = () => "bar";
-
-let { [foo2()]: bar3 } = { };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

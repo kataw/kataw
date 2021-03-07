@@ -33,8 +33,6 @@ class C { *method() { class C { get x) { super; } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { *method() { class C { get x) { super; } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 17
                                 },
@@ -71,8 +67,6 @@ class C { *method() { class C { get x) { super; } } } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 19
                                 },
@@ -92,8 +86,6 @@ class C { *method() { class C { get x) { super; } } } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 27,
                                                     "end": 29
                                                 },
@@ -112,8 +104,6 @@ class C { *method() { class C { get x) { super; } } } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 35,
                                                                 "end": 37
                                                             },
@@ -128,8 +118,6 @@ class C { *method() { class C { get x) { super; } } } }
                                                             "flags": 2,
                                                             "intersects": false,
                                                             "transformFlags": 524352,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 31,
                                                             "end": 37
                                                         }
@@ -137,8 +125,6 @@ class C { *method() { class C { get x) { super; } } } }
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 37
                                                 },
@@ -146,8 +132,6 @@ class C { *method() { class C { get x) { super; } } } }
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 37
                                             }
@@ -156,16 +140,12 @@ class C { *method() { class C { get x) { super; } } } }
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 37
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 37
                                 },
@@ -176,16 +156,12 @@ class C { *method() { class C { get x) { super; } } } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 37
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 37
                         }
@@ -193,8 +169,6 @@ class C { *method() { class C { get x) { super; } } } }
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 37
                 },
@@ -202,8 +176,6 @@ class C { *method() { class C { get x) { super; } } } }
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 37
             },
@@ -215,14 +187,12 @@ class C { *method() { class C { get x) { super; } } } }
                         {
                             "kind": 2097233,
                             "expression": {
-                                "kind": 74424,
+                                "kind": 66232,
                                 "member": {
                                     "kind": 4260561,
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 40,
                                     "end": 46
                                 },
@@ -233,24 +203,18 @@ class C { *method() { class C { get x) { super; } } } }
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 46,
                                     "end": 46
                                 },
                                 "flags": 40,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 2,
                                 "end": 46
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 40,
                             "end": 47
                         }
@@ -259,16 +223,12 @@ class C { *method() { class C { get x) { super; } } } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 40,
                     "end": 47
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 38,
                 "end": 49
             }
@@ -276,8 +236,6 @@ class C { *method() { class C { get x) { super; } } } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 55
     },
@@ -320,8 +278,6 @@ class C { *method() { class C { get x) { super; } } } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

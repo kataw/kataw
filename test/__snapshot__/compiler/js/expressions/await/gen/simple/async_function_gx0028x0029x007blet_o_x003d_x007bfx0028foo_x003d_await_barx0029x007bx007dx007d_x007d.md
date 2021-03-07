@@ -33,8 +33,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -71,8 +67,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 22,
                                                 "end": 24
                                             },
@@ -92,8 +86,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 28,
                                                                 "end": 29
                                                             },
@@ -110,8 +102,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 30,
                                                                             "end": 33
                                                                         },
@@ -124,8 +114,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
@@ -135,8 +123,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 1,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 30,
                                                                         "end": 41
                                                                     },
@@ -150,8 +136,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                             "flags": 2,
                                                                             "intersects": false,
                                                                             "transformFlags": 1025,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 41,
                                                                             "end": 45
                                                                         },
@@ -164,8 +148,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 1,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 41,
                                                                         "end": 45
                                                                     }
@@ -174,8 +156,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 30,
                                                                 "end": 46
                                                             },
@@ -190,16 +170,12 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 47,
                                                                     "end": 47
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 46,
                                                                 "end": 48
                                                             },
@@ -210,8 +186,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 29,
                                                             "end": 48
                                                         }
@@ -221,24 +195,18 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 28,
                                                     "end": 48
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 26,
                                                 "end": 49
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 22,
                                             "end": 49
                                         }
@@ -246,16 +214,12 @@ async function g(){let o = {f(foo = await bar){}}    }
                                     "flags": 16,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 22,
                                     "end": 49
                                 },
                                 "flags": 16,
                                 "intersects": false,
                                 "transformFlags": 769,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 19,
                                 "end": 49
                             }
@@ -264,16 +228,12 @@ async function g(){let o = {f(foo = await bar){}}    }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 19,
                         "end": 49
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 54
                 },
@@ -281,8 +241,6 @@ async function g(){let o = {f(foo = await bar){}}    }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 260,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 54
             }
@@ -290,8 +248,6 @@ async function g(){let o = {f(foo = await bar){}}    }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 54
     },
@@ -306,8 +262,6 @@ async function g(){let o = {f(foo = await bar){}}    }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

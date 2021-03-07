@@ -33,8 +33,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 12
                 },
@@ -45,8 +43,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 13,
                     "end": 14
                 },
@@ -65,8 +61,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -79,22 +73,18 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                 "kind": 65785,
                                                 "delegate": true,
                                                 "expression": {
-                                                    "kind": 67279,
+                                                    "kind": 4261583,
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 16777216,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 41,
                                                     "end": 47
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 16393,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 34,
                                                 "end": 47
                                             },
@@ -105,8 +95,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 48,
                                                     "end": 55
                                                 }
@@ -114,8 +102,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 29,
                                             "end": 55
                                         }
@@ -123,16 +109,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 27,
                                     "end": 57
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 16,
                                 "end": 57
                             }
@@ -141,16 +123,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 16,
                         "end": 57
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 59
                 },
@@ -158,8 +136,6 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 384,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 59
             }
@@ -167,16 +143,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 59
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

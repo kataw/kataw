@@ -33,8 +33,6 @@ class C { *method() { class C { set x(_) { super( } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 7
                 },
@@ -59,8 +57,6 @@ class C { *method() { class C { set x(_) { super( } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 17
                                 },
@@ -71,8 +67,6 @@ class C { *method() { class C { set x(_) { super( } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 19
                                 },
@@ -92,8 +86,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1025,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 27,
                                                     "end": 29
                                                 },
@@ -118,8 +110,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 35,
                                                                     "end": 37
                                                                 },
@@ -136,8 +126,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1025,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 38,
                                                                                 "end": 39
                                                                             },
@@ -150,8 +138,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 1,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 38,
                                                                             "end": 39
                                                                         }
@@ -160,8 +146,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 38,
                                                                     "end": 40
                                                                 },
@@ -181,8 +165,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                         "flags": 0,
                                                                                         "intersects": false,
                                                                                         "transformFlags": 0,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 42,
                                                                                         "end": 48
                                                                                     },
@@ -194,24 +176,18 @@ class C { *method() { class C { set x(_) { super( } }
                                                                                         "transformFlags": 0,
                                                                                         "flags": 0,
                                                                                         "intersects": false,
-                                                                                        "parent": null,
-                                                                                        "emitNode": null,
                                                                                         "start": 51,
                                                                                         "end": 49
                                                                                     },
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 65536,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 48,
                                                                                     "end": 49
                                                                                 },
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 0,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 42,
                                                                                 "end": 49
                                                                             }
@@ -220,16 +196,12 @@ class C { *method() { class C { set x(_) { super( } }
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 42,
                                                                         "end": 49
                                                                     },
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 40,
                                                                     "end": 51
                                                                 },
@@ -240,16 +212,12 @@ class C { *method() { class C { set x(_) { super( } }
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 37,
                                                                 "end": 51
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 31,
                                                             "end": 51
                                                         }
@@ -257,8 +225,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 53
                                                 },
@@ -266,8 +232,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 21,
                                                 "end": 53
                                             }
@@ -276,16 +240,12 @@ class C { *method() { class C { set x(_) { super( } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 21,
                                         "end": 53
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 19,
                                     "end": 53
                                 },
@@ -296,16 +256,12 @@ class C { *method() { class C { set x(_) { super( } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 17,
                                 "end": 53
                             },
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 9,
                             "end": 53
                         }
@@ -313,8 +269,6 @@ class C { *method() { class C { set x(_) { super( } }
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 9,
                     "end": 53
                 },
@@ -322,8 +276,6 @@ class C { *method() { class C { set x(_) { super( } }
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 53
             }
@@ -331,8 +283,6 @@ class C { *method() { class C { set x(_) { super( } }
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 53
     },
@@ -347,8 +297,6 @@ class C { *method() { class C { set x(_) { super( } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

@@ -66,7 +66,7 @@ type M = { [m in M] /* commentG */: string }
         "kind": 150,
         "statements": [
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "A",
@@ -74,15 +74,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 6
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "a",
@@ -90,13 +88,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 28,
                             "end": 29
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "A",
@@ -104,8 +100,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 32,
                                 "end": 34
                             },
@@ -113,8 +107,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 32,
                             "end": 35
                         },
@@ -123,8 +115,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 28,
                         "end": 34
                     },
@@ -134,20 +124,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 36,
                         "end": 43
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 46
                 },
@@ -155,13 +141,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 46
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "B",
@@ -169,15 +153,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 52,
                     "end": 54
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "b",
@@ -185,13 +167,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 77,
                             "end": 78
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "B",
@@ -199,8 +179,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 81,
                                 "end": 83
                             },
@@ -208,8 +186,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 81,
                             "end": 84
                         },
@@ -218,8 +194,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 77,
                         "end": 83
                     },
@@ -229,20 +203,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 85,
                         "end": 92
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 56,
                     "end": 94
                 },
@@ -250,13 +220,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 46,
                 "end": 94
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "C",
@@ -264,15 +232,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 100,
                     "end": 102
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "c",
@@ -280,13 +246,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 110,
                             "end": 126
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "C",
@@ -294,8 +258,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 129,
                                 "end": 131
                             },
@@ -303,8 +265,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 129,
                             "end": 132
                         },
@@ -313,8 +273,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 110,
                         "end": 131
                     },
@@ -324,20 +282,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 133,
                         "end": 140
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 104,
                     "end": 142
                 },
@@ -345,13 +299,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 94,
                 "end": 142
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "D",
@@ -359,15 +311,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 148,
                     "end": 150
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "d",
@@ -375,13 +325,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 158,
                             "end": 159
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "D",
@@ -389,8 +337,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 177,
                                 "end": 179
                             },
@@ -398,8 +344,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 177,
                             "end": 180
                         },
@@ -408,8 +352,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 158,
                         "end": 179
                     },
@@ -419,20 +361,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 181,
                         "end": 188
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 152,
                     "end": 190
                 },
@@ -440,13 +378,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 142,
                 "end": 190
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "E",
@@ -454,15 +390,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 196,
                     "end": 198
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "e",
@@ -470,13 +404,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 206,
                             "end": 207
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "E",
@@ -484,8 +416,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 210,
                                 "end": 227
                             },
@@ -493,8 +423,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 210,
                             "end": 228
                         },
@@ -503,8 +431,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 206,
                         "end": 227
                     },
@@ -514,20 +440,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 229,
                         "end": 236
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 200,
                     "end": 238
                 },
@@ -535,13 +457,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 190,
                 "end": 238
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "F",
@@ -549,15 +469,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 244,
                     "end": 246
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "f",
@@ -565,13 +483,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 254,
                             "end": 255
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "F",
@@ -579,8 +495,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 258,
                                 "end": 260
                             },
@@ -588,8 +502,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 258,
                             "end": 276
                         },
@@ -598,8 +510,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 254,
                         "end": 260
                     },
@@ -609,20 +519,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 277,
                         "end": 284
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 248,
                     "end": 286
                 },
@@ -630,13 +536,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 238,
                 "end": 286
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "G",
@@ -644,15 +548,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 292,
                     "end": 294
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "g",
@@ -660,13 +562,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 302,
                             "end": 303
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "G",
@@ -674,8 +574,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 306,
                                 "end": 308
                             },
@@ -683,8 +581,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 306,
                             "end": 309
                         },
@@ -693,8 +589,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 302,
                         "end": 308
                     },
@@ -704,20 +598,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 325,
                         "end": 332
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 296,
                     "end": 334
                 },
@@ -725,13 +615,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 286,
                 "end": 334
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "H",
@@ -739,15 +627,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 340,
                     "end": 342
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "h",
@@ -755,13 +641,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 363,
                             "end": 364
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "H",
@@ -769,8 +653,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 367,
                                 "end": 369
                             },
@@ -778,8 +660,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 367,
                             "end": 370
                         },
@@ -788,8 +668,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 363,
                         "end": 369
                     },
@@ -799,20 +677,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 371,
                         "end": 378
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 344,
                     "end": 380
                 },
@@ -820,13 +694,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 334,
                 "end": 380
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "I",
@@ -834,15 +706,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 386,
                     "end": 388
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "i",
@@ -850,13 +720,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 394,
                             "end": 410
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "I",
@@ -864,8 +732,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 413,
                                 "end": 415
                             },
@@ -873,8 +739,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 413,
                             "end": 416
                         },
@@ -883,8 +747,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 394,
                         "end": 415
                     },
@@ -894,20 +756,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 417,
                         "end": 424
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 390,
                     "end": 426
                 },
@@ -915,13 +773,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 380,
                 "end": 426
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "J",
@@ -929,15 +785,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 432,
                     "end": 434
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "j",
@@ -945,13 +799,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 440,
                             "end": 441
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "J",
@@ -959,8 +811,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 459,
                                 "end": 461
                             },
@@ -968,8 +818,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 459,
                             "end": 462
                         },
@@ -978,8 +826,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 440,
                         "end": 461
                     },
@@ -989,20 +835,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 463,
                         "end": 470
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 436,
                     "end": 472
                 },
@@ -1010,13 +852,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 426,
                 "end": 472
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "K",
@@ -1024,15 +864,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 478,
                     "end": 480
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "k",
@@ -1040,13 +878,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 486,
                             "end": 487
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "K",
@@ -1054,8 +890,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 490,
                                 "end": 507
                             },
@@ -1063,8 +897,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 490,
                             "end": 508
                         },
@@ -1073,8 +905,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 486,
                         "end": 507
                     },
@@ -1084,20 +914,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 509,
                         "end": 516
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 482,
                     "end": 518
                 },
@@ -1105,13 +931,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 472,
                 "end": 518
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "L",
@@ -1119,15 +943,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 524,
                     "end": 526
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "l",
@@ -1135,13 +957,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 532,
                             "end": 533
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "L",
@@ -1149,8 +969,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 536,
                                 "end": 538
                             },
@@ -1158,8 +976,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 536,
                             "end": 554
                         },
@@ -1168,8 +984,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 532,
                         "end": 538
                     },
@@ -1179,20 +993,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 555,
                         "end": 562
                     },
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 528,
                     "end": 564
                 },
@@ -1200,13 +1010,11 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 518,
                 "end": 564
             },
             {
-                "kind": 225,
+                "kind": 8417,
                 "name": {
                     "kind": 196712,
                     "text": "M",
@@ -1214,15 +1022,13 @@ type M = { [m in M] /* commentG */: string }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 570,
                     "end": 572
                 },
                 "type": {
-                    "kind": 143,
+                    "kind": 8335,
                     "typeParameter": {
-                        "kind": 232,
+                        "kind": 8424,
                         "name": {
                             "kind": 196711,
                             "text": "m",
@@ -1230,13 +1036,11 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 578,
                             "end": 579
                         },
                         "constraint": {
-                            "kind": 236,
+                            "kind": 8428,
                             "typeName": {
                                 "kind": 196711,
                                 "text": "M",
@@ -1244,8 +1048,6 @@ type M = { [m in M] /* commentG */: string }
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 582,
                                 "end": 584
                             },
@@ -1253,8 +1055,6 @@ type M = { [m in M] /* commentG */: string }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 582,
                             "end": 585
                         },
@@ -1263,8 +1063,6 @@ type M = { [m in M] /* commentG */: string }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 578,
                         "end": 584
                     },
@@ -1274,20 +1072,16 @@ type M = { [m in M] /* commentG */: string }
                     "minus": false,
                     "isOptional": false,
                     "type": {
-                        "kind": 4194510,
+                        "kind": 4202702,
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 601,
                         "end": 608
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 574,
                     "end": 610
                 },
@@ -1295,8 +1089,6 @@ type M = { [m in M] /* commentG */: string }
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 2097152,
-                "parent": null,
-                "emitNode": null,
                 "start": 564,
                 "end": 610
             }
@@ -1304,16 +1096,12 @@ type M = { [m in M] /* commentG */: string }
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 610
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1327,65 +1115,13 @@ type M = { [m in M] /* commentG */: string }
 
 
 ```javascript
-
-type A = {
-    [a in A]: string;
-};
-
-type B = {
-    [b in B]: string;
-};
-
-type C = {
-    [c in C]: string;
-};
-
-type D = {
-    [d in D]: string;
-};
-
-type E = {
-    [e in E]: string;
-};
-
-type F = {
-    [f in F]: string;
-};
-
-type G = {
-    [g in G]: string;
-};
-
-type H = {
-    [h in H]: string;
-};
-
-type I = {
-    [i in I]: string;
-};
-
-type J = {
-    [j in J]: string;
-};
-
-type K = {
-    [k in K]: string;
-};
-
-type L = {
-    [l in L]: string;
-};
-
-type M = {
-    [m in M]: string;
-};
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

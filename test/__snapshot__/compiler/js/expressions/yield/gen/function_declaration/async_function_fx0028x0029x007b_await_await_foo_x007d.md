@@ -33,8 +33,6 @@ function not_gen() { async function f(){ await await foo; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { async function f(){ await await foo; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,8 +61,6 @@ function not_gen() { async function f(){ await await foo; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -77,8 +71,6 @@ function not_gen() { async function f(){ await await foo; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 38,
                                     "end": 39
                                 },
@@ -101,32 +93,24 @@ function not_gen() { async function f(){ await await foo; } }}
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 52,
                                                             "end": 56
                                                         },
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 32780,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 46,
                                                         "end": 56
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 32780,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 40,
                                                     "end": 56
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 57
                                             }
@@ -135,16 +119,12 @@ function not_gen() { async function f(){ await await foo; } }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 40,
                                         "end": 57
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 39,
                                     "end": 59
                                 },
@@ -152,8 +132,6 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 260,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 59
                             }
@@ -162,16 +140,12 @@ function not_gen() { async function f(){ await await foo; } }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 59
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 61
                 },
@@ -179,8 +153,6 @@ function not_gen() { async function f(){ await await foo; } }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 61
             }
@@ -188,8 +160,6 @@ function not_gen() { async function f(){ await await foo; } }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 62
     },
@@ -204,8 +174,6 @@ function not_gen() { async function f(){ await await foo; } }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

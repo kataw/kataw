@@ -31,8 +31,6 @@ wrap({async [foo""](){}});
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -46,7 +44,7 @@ wrap({async [foo""](){}});
                                     "kind": 65722,
                                     "properties": [
                                         {
-                                            "kind": 55,
+                                            "kind": 65591,
                                             "expression": {
                                                 "kind": 196712,
                                                 "text": "foo",
@@ -54,30 +52,24 @@ wrap({async [foo""](){}});
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 13,
                                                 "end": 16
                                             },
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 131073,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 16
                                         },
                                         {
                                             "kind": 65721,
                                             "left": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 16,
                                                 "end": 18
                                             },
@@ -87,8 +79,6 @@ wrap({async [foo""](){}});
                                                 "flags": 6,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 18,
                                                 "end": 18
                                             },
@@ -97,8 +87,6 @@ wrap({async [foo""](){}});
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 16,
                                             "end": 18
                                         }
@@ -108,16 +96,12 @@ wrap({async [foo""](){}});
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 6,
                                     "end": 18
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 18
                             }
@@ -126,24 +110,18 @@ wrap({async [foo""](){}});
                         "transformFlags": 0,
                         "flags": 2,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 18
                     },
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 18
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             },
@@ -151,7 +129,6 @@ wrap({async [foo""](){}});
                 "kind": 2097233,
                 "expression": {
                     "kind": 65545,
-                    "typeParameters": 1,
                     "elements": [],
                     "type": null,
                     "accessModifier": null,
@@ -159,16 +136,12 @@ wrap({async [foo""](){}});
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 19,
                 "end": 21
             },
@@ -181,16 +154,12 @@ wrap({async [foo""](){}});
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 21,
                 "end": 23
             },
@@ -199,8 +168,6 @@ wrap({async [foo""](){}});
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 25,
                 "end": 26
             }
@@ -208,8 +175,6 @@ wrap({async [foo""](){}});
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 26
     },
@@ -252,8 +217,6 @@ wrap({async [foo""](){}});
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

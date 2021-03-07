@@ -14,11 +14,11 @@ example.inner?.greet<string>()
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "example.inner?.greet<string>()",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097233,
@@ -27,16 +27,14 @@ example.inner?.greet<string>()
                     "expression": {
                         "kind": 65708,
                         "member": {
-                            "kind": 74424,
+                            "kind": 66232,
                             "member": {
                                 "kind": 196712,
                                 "text": "example",
                                 "rawText": "example",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 0,
                                 "end": 7
                             },
@@ -44,21 +42,22 @@ example.inner?.greet<string>()
                                 "kind": 196711,
                                 "text": "inner",
                                 "rawText": "inner",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 8,
                                 "end": 13
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 7,
-                            "end": 13
+                            "end": 13,
+                            "period": {
+                                "kind": 254,
+                                "pos": 7,
+                                "end": 8
+                            }
                         },
                         "chain": {
                             "kind": 65707,
@@ -69,19 +68,15 @@ example.inner?.greet<string>()
                                     "kind": 196711,
                                     "text": "greet",
                                     "rawText": "greet",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 20
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 32,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 15,
                                 "end": 20
                             },
@@ -94,24 +89,20 @@ example.inner?.greet<string>()
                         "end": 20
                     },
                     "typeArguments": {
-                        "kind": 227,
+                        "kind": 8419,
                         "typeArgumentsList": [
                             {
-                                "kind": 4194510,
+                                "kind": 4202702,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 21,
                                 "end": 27
                             }
                         ],
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 21,
                         "end": 28
                     },
@@ -120,43 +111,33 @@ example.inner?.greet<string>()
                         "elements": [],
                         "trailingComma": false,
                         "transformFlags": 0,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 29,
                         "end": 29
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 20,
                     "end": 30
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 30
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 30
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -170,15 +151,13 @@ example.inner?.greet<string>()
 
 
 ```javascript
-
-example.inner?.greet<string>()
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

@@ -23,30 +23,26 @@ enum void {}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var typeof = 10;\nfunction throw() {}\nvar {while, return} = { while: 1, return: 2 };\nvar {this, switch: { continue} } = { this: 1, switch: { continue: 2 }};\nvar [debugger, if] = [1, 2];\nenum void {}\n\n\n\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
                 "declarationList": {
                     "kind": 244,
                     "declarations": [],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 3
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 3
             },
@@ -63,16 +59,12 @@ enum void {}
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 10,
                             "end": 10
                         },
-                        "flags": 65538,
+                        "flags": 2,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 10
                     },
@@ -81,27 +73,21 @@ enum void {}
                         "kind": 4261540,
                         "text": 10,
                         "rawText": "10",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 12,
                         "end": 15
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 15
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 3,
                 "end": 16
             },
@@ -111,11 +97,9 @@ enum void {}
                     "kind": 131102,
                     "text": "",
                     "rawText": "",
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 25
                 },
@@ -123,11 +107,9 @@ enum void {}
                     "kind": 90,
                     "formalParameterList": [],
                     "trailingComma": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 25
                 },
@@ -141,7 +123,6 @@ enum void {}
                                 "kind": 2097233,
                                 "expression": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -149,16 +130,12 @@ enum void {}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 31,
                                     "end": 31
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 31,
                                 "end": 33
                             },
@@ -168,19 +145,15 @@ enum void {}
                                     "kind": 2084,
                                     "statements": [],
                                     "multiline": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 35
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 33,
                                 "end": 36
                             },
@@ -199,18 +172,14 @@ enum void {}
                                                     "multiline": false,
                                                     "trailingComma": false,
                                                     "transformFlags": 1025,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 42,
                                                     "end": 42
                                                 },
-                                                "flags": 65538,
+                                                "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 42
                                             },
@@ -220,32 +189,26 @@ enum void {}
                                             "flags": 40,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
-                                            "start": 65538,
+                                            "start": 2,
                                             "end": 42
                                         }
                                     ],
-                                    "flags": 65538,
+                                    "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 40,
                                     "end": 42
                                 },
-                                "flags": 81922,
+                                "flags": 16386,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 36,
                                 "end": 42
                             },
                             {
                                 "kind": 2097399,
                                 "expression": {
-                                    "kind": 54,
+                                    "kind": 65590,
                                     "expressions": [
                                         {
                                             "kind": 131322,
@@ -253,8 +216,6 @@ enum void {}
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 47,
                                             "end": 47
                                         },
@@ -264,63 +225,49 @@ enum void {}
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 48,
                                             "end": 48
                                         }
                                     ],
-                                    "flags": 65538,
+                                    "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 47,
                                     "end": 48
                                 },
                                 "statement": {
                                     "kind": 2097346,
                                     "expression": null,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 48,
                                     "end": 55
                                 },
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 42,
                                 "end": 55
                             }
                         ],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 31,
                         "end": 55
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 25,
                     "end": 56
                 },
                 "typeParameters": null,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 16,
                 "end": 56
             },
@@ -337,8 +284,6 @@ enum void {}
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 66,
                                 "end": 66
                             },
@@ -350,59 +295,47 @@ enum void {}
                                     "flags": 6,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 66,
                                     "end": 66
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 66,
                                 "end": 66
                             },
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 60,
                             "end": 66
                         }
                     ],
                     "multiline": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 60,
                     "end": 66
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 58,
                 "end": 66
             },
             {
                 "kind": 2097233,
                 "expression": {
-                    "kind": 54,
+                    "kind": 65590,
                     "expressions": [
                         {
                             "kind": 4261540,
                             "text": 1,
                             "rawText": "1",
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 67,
                             "end": 69
                         },
@@ -412,25 +345,19 @@ enum void {}
                             "flags": 6,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 70,
                             "end": 70
                         }
                     ],
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 67,
                     "end": 70
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 67,
                 "end": 70
             },
@@ -442,16 +369,12 @@ enum void {}
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 77,
                     "end": 77
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 70,
                 "end": 77
             },
@@ -461,29 +384,23 @@ enum void {}
                     "kind": 4261540,
                     "text": 2,
                     "rawText": "2",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 78,
                     "end": 80
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 78,
                 "end": 80
             },
             {
                 "kind": 6291526,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 82,
                 "end": 83
             },
@@ -506,20 +423,16 @@ enum void {}
                                                 "kind": 131102,
                                                 "text": "this",
                                                 "rawText": "this",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 89,
                                                 "end": 93
                                             },
                                             "right": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 1024,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 89,
                                             "end": 93
                                         }
@@ -527,18 +440,14 @@ enum void {}
                                     "multiline": false,
                                     "trailingComma": false,
                                     "transformFlags": 1025,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 89,
                                     "end": 94
                                 },
-                                "flags": 65538,
+                                "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 87,
                                 "end": 94
                             },
@@ -548,25 +457,19 @@ enum void {}
                             "flags": 87,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65538,
+                            "start": 2,
                             "end": 94
                         }
                     ],
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 87,
                     "end": 94
                 },
-                "flags": 81922,
+                "flags": 16386,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 83,
                 "end": 94
             },
@@ -578,27 +481,21 @@ enum void {}
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 101,
                     "end": 101
                 },
                 "caseBlock": {
                     "kind": 2093,
                     "clauses": [],
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 101,
                     "end": 101
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 94,
                 "end": 101
             },
@@ -610,29 +507,23 @@ enum void {}
                         {
                             "kind": 2097212,
                             "label": null,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 104,
                             "end": 113
                         }
                     ],
                     "multiline": false,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 104,
                     "end": 113
                 },
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 102,
                 "end": 114
             },
@@ -645,28 +536,24 @@ enum void {}
                             "kind": 2097292,
                             "label": {
                                 "kind": 4260571,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 120,
                                 "end": 125
                             },
                             "statement": {
                                 "kind": 2097233,
                                 "expression": {
-                                    "kind": 54,
+                                    "kind": 65590,
                                     "expressions": [
                                         {
                                             "kind": 4261540,
                                             "text": 1,
                                             "rawText": "1",
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 126,
                                             "end": 128
                                         },
@@ -676,34 +563,26 @@ enum void {}
                                             "flags": 6,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 129,
                                             "end": 129
                                         }
                                     ],
-                                    "flags": 65538,
+                                    "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 126,
                                     "end": 129
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 126,
                                 "end": 129
                             },
                             "isWebCompat": true,
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 120,
                             "end": 129
                         },
@@ -715,45 +594,35 @@ enum void {}
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 136,
                                 "end": 136
                             },
                             "caseBlock": {
                                 "kind": 2093,
                                 "clauses": [],
-                                "flags": 65538,
+                                "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 136,
                                 "end": 136
                             },
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 129,
                             "end": 136
                         }
                     ],
                     "multiline": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 120,
                     "end": 136
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 118,
                 "end": 136
             },
@@ -770,34 +639,26 @@ enum void {}
                                 "flags": 6,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 148,
                                 "end": 148
                             },
-                            "flags": 65538,
+                            "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 139,
                             "end": 148
                         }
                     ],
                     "multiline": false,
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 139,
                     "end": 148
                 },
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 137,
                 "end": 148
             },
@@ -807,29 +668,23 @@ enum void {}
                     "kind": 4261540,
                     "text": 2,
                     "rawText": "2",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 149,
                     "end": 151
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 149,
                 "end": 151
             },
             {
                 "kind": 6291526,
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 154,
                 "end": 155
             },
@@ -846,19 +701,15 @@ enum void {}
                                     "kind": 29,
                                     "elements": [],
                                     "trailingComma": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 161,
                                     "end": 161
                                 },
-                                "flags": 65538,
+                                "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 159,
                                 "end": 161
                             },
@@ -868,35 +719,27 @@ enum void {}
                             "flags": 159,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 65538,
+                            "start": 2,
                             "end": 161
                         }
                     ],
-                    "flags": 65538,
+                    "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 159,
                     "end": 161
                 },
-                "flags": 81922,
+                "flags": 16386,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 155,
                 "end": 161
             },
             {
                 "kind": 6291518,
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 161,
                 "end": 169
             },
@@ -908,8 +751,6 @@ enum void {}
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 173,
                     "end": 173
                 },
@@ -921,26 +762,20 @@ enum void {}
                         "flags": 6,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 173,
                         "end": 173
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 173,
                     "end": 173
                 },
                 "alternate": null,
                 "isWebCompat": true,
-                "flags": 65538,
+                "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 170,
                 "end": 173
             },
@@ -955,11 +790,9 @@ enum void {}
                                 "kind": 4261540,
                                 "text": 1,
                                 "rawText": "1",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 178,
                                 "end": 179
                             },
@@ -967,38 +800,30 @@ enum void {}
                                 "kind": 4261540,
                                 "text": 2,
                                 "rawText": "2",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 180,
                                 "end": 182
                             }
                         ],
                         "trailingComma": false,
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 178,
                         "end": 182
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 176,
                     "end": 183
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 176,
                 "end": 184
             },
@@ -1008,19 +833,15 @@ enum void {}
                     "kind": 196712,
                     "text": "enum",
                     "rawText": "enum",
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 184,
                     "end": 189
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 184,
                 "end": 189
             },
@@ -1036,44 +857,34 @@ enum void {}
                             "properties": [],
                             "trailingComma": false,
                             "multiline": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 196,
                             "end": 196
                         },
-                        "flags": 81920,
+                        "flags": 16384,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 194,
                         "end": 197
                     },
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 189,
                     "end": 197
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 189,
                 "end": 197
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 197
     },
@@ -1088,8 +899,6 @@ enum void {}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -1103,69 +912,13 @@ enum void {}
 
 
 ```javascript
-
-var ;
-
-typeof undefined = 10
-
-function () {  {} var { }; while (undefined, undefined)
-    return; }
-
-{
-    while (undefined)
-        undefined
-}
-
-1, undefined
-
-return undefined;
-
-2
-
-;
-
-var { this };
-
-switch (undefined) {
-}
-
-{
-    continue;
-}
-
-{
-    this: 1, undefined
-    switch (undefined) {
-    }
-}
-
-{
-    continue undefined;
-}
-
-2
-
-;
-
-var [];
-
-debugger;
-
-if (undefined)
-    undefined
-
-[1, 2]
-
-enum
-
-void { }
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

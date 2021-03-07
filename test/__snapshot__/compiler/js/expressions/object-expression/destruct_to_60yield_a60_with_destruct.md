@@ -31,8 +31,6 @@ s = {"foo": yield a = x} = x
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 1
                     },
@@ -47,14 +45,12 @@ s = {"foo": yield a = x} = x
                                     {
                                         "kind": 65721,
                                         "left": {
-                                            "kind": 67279,
+                                            "kind": 4261583,
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 5,
                                             "end": 10
                                         },
@@ -65,8 +61,6 @@ s = {"foo": yield a = x} = x
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 11,
                                             "end": 17
                                         },
@@ -75,13 +69,11 @@ s = {"foo": yield a = x} = x
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 5,
                                         "end": 17
                                     },
                                     {
-                                        "kind": 61,
+                                        "kind": 65597,
                                         "left": {
                                             "kind": 196712,
                                             "text": "a",
@@ -89,8 +81,6 @@ s = {"foo": yield a = x} = x
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 19
                                         },
@@ -103,8 +93,6 @@ s = {"foo": yield a = x} = x
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 21,
                                             "end": 23
                                         },
@@ -112,8 +100,6 @@ s = {"foo": yield a = x} = x
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 17,
                                         "end": 23
                                     }
@@ -123,16 +109,12 @@ s = {"foo": yield a = x} = x
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 23
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 3,
                             "end": 24
                         },
@@ -144,32 +126,24 @@ s = {"foo": yield a = x} = x
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 26,
                             "end": 28
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 3,
                         "end": 28
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 0,
                     "end": 28
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 28
             }
@@ -177,8 +151,6 @@ s = {"foo": yield a = x} = x
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 28
     },
@@ -193,8 +165,6 @@ s = {"foo": yield a = x} = x
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

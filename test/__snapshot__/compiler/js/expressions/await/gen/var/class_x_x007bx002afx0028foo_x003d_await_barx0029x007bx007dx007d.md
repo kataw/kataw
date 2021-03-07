@@ -38,8 +38,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 9
                             },
@@ -49,8 +47,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 9
                         }
@@ -58,16 +54,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 10
             },
@@ -85,8 +77,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 16
                             },
@@ -104,8 +94,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 35,
                                         "end": 36
                                     },
@@ -123,8 +111,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1025,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 44,
                                                         "end": 46
                                                     },
@@ -149,8 +135,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 49,
                                                                         "end": 50
                                                                     },
@@ -167,8 +151,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 51,
                                                                                     "end": 54
                                                                                 },
@@ -181,8 +163,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                     "flags": 0,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 0,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 56,
                                                                                     "end": 62
                                                                                 },
@@ -192,8 +172,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 51,
                                                                                 "end": 62
                                                                             },
@@ -207,8 +185,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                     "flags": 2,
                                                                                     "intersects": false,
                                                                                     "transformFlags": 1025,
-                                                                                    "parent": null,
-                                                                                    "emitNode": null,
                                                                                     "start": 62,
                                                                                     "end": 66
                                                                                 },
@@ -221,8 +197,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                                 "flags": 0,
                                                                                 "intersects": false,
                                                                                 "transformFlags": 1,
-                                                                                "parent": null,
-                                                                                "emitNode": null,
                                                                                 "start": 62,
                                                                                 "end": 66
                                                                             }
@@ -231,8 +205,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 51,
                                                                         "end": 67
                                                                     },
@@ -247,16 +219,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                             "flags": 0,
                                                                             "intersects": false,
                                                                             "transformFlags": 0,
-                                                                            "parent": null,
-                                                                            "emitNode": null,
                                                                             "start": 68,
                                                                             "end": 68
                                                                         },
                                                                         "flags": 0,
                                                                         "intersects": false,
                                                                         "transformFlags": 0,
-                                                                        "parent": null,
-                                                                        "emitNode": null,
                                                                         "start": 67,
                                                                         "end": 69
                                                                     },
@@ -267,16 +235,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 2097152,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 50,
                                                                     "end": 69
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 48,
                                                                 "end": 69
                                                             }
@@ -284,8 +248,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 1,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 48,
                                                         "end": 70
                                                     },
@@ -293,8 +255,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 38,
                                                     "end": 70
                                                 }
@@ -303,16 +263,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 38,
                                             "end": 70
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 36,
                                         "end": 72
                                     },
@@ -321,24 +277,18 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 4,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 72
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 18,
                                 "end": 73
                             },
                             "flags": 14,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 0,
                             "end": 73
                         }
@@ -346,16 +296,12 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 73
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 10,
                 "end": 74
             }
@@ -363,8 +309,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 74
     },
@@ -379,8 +323,6 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

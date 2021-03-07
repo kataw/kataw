@@ -30,7 +30,7 @@ for (+a().b in c);
                     "kind": 65774,
                     "operator": "+",
                     "operand": {
-                        "kind": 74424,
+                        "kind": 66232,
                         "member": {
                             "kind": 66091,
                             "expression": {
@@ -40,8 +40,6 @@ for (+a().b in c);
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 6,
                                 "end": 7
                             },
@@ -53,16 +51,12 @@ for (+a().b in c);
                                 "transformFlags": 0,
                                 "flags": 0,
                                 "intersects": false,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 9,
                                 "end": 9
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 7,
                             "end": 9
                         },
@@ -73,24 +67,23 @@ for (+a().b in c);
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 10,
                             "end": 11
                         },
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 9,
-                        "end": 11
+                        "end": 11,
+                        "period": {
+                            "kind": 254,
+                            "pos": 9,
+                            "end": 10
+                        }
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 11
                 },
@@ -101,8 +94,6 @@ for (+a().b in c);
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 14,
                     "end": 16
                 },
@@ -111,16 +102,12 @@ for (+a().b in c);
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 18
             }
@@ -128,16 +115,12 @@ for (+a().b in c);
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 18
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

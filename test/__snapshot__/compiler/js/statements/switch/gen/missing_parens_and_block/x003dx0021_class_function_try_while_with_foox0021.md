@@ -32,8 +32,6 @@ switch case =! class function try while with foo!
                     "flags": 6,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 6
                 },
@@ -50,8 +48,6 @@ switch case =! class function try while with foo!
                                     "flags": 6,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 11,
                                     "end": 11
                                 },
@@ -71,8 +67,6 @@ switch case =! class function try while with foo!
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 14,
                                             "end": 14
                                         },
@@ -80,24 +74,18 @@ switch case =! class function try while with foo!
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 1,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 14,
                                         "end": 20
                                     },
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 13,
                                     "end": 20
                                 },
                                 "flags": 2,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 11,
                                 "end": 20
                             },
@@ -111,8 +99,6 @@ switch case =! class function try while with foo!
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 1025,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 29
                                     },
@@ -123,8 +109,6 @@ switch case =! class function try while with foo!
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 29
                                     },
@@ -142,15 +126,13 @@ switch case =! class function try while with foo!
                                                         "flags": 6,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 39,
                                                         "end": 39
                                                     },
                                                     "statement": {
                                                         "kind": 2097400,
                                                         "expression": {
-                                                            "kind": 66206,
+                                                            "kind": 74398,
                                                             "expression": {
                                                                 "kind": 196712,
                                                                 "text": "foo",
@@ -158,16 +140,12 @@ switch case =! class function try while with foo!
                                                                 "flags": 2,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 44,
                                                                 "end": 48
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 2097152,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 48,
                                                             "end": 49
                                                         },
@@ -179,32 +157,24 @@ switch case =! class function try while with foo!
                                                                 "flags": 6,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 49,
                                                                 "end": 49
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 49,
                                                             "end": 49
                                                         },
                                                         "flags": 2,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 39,
                                                         "end": 49
                                                     },
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 33,
                                                     "end": 49
                                                 }
@@ -213,16 +183,12 @@ switch case =! class function try while with foo!
                                             "flags": 2,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 33,
                                             "end": 49
                                         },
                                         "flags": 2,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 29,
                                         "end": 49
                                     },
@@ -230,8 +196,6 @@ switch case =! class function try while with foo!
                                     "flags": 2,
                                     "intersects": false,
                                     "transformFlags": 256,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 49
                                 }
@@ -239,8 +203,6 @@ switch case =! class function try while with foo!
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 6,
                             "end": 49
                         }
@@ -248,16 +210,12 @@ switch case =! class function try while with foo!
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 6,
                     "end": 49
                 },
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 49
             }
@@ -265,8 +223,6 @@ switch case =! class function try while with foo!
         "transformFlags": 0,
         "flags": 2,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 49
     },
@@ -323,8 +279,6 @@ switch case =! class function try while with foo!
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

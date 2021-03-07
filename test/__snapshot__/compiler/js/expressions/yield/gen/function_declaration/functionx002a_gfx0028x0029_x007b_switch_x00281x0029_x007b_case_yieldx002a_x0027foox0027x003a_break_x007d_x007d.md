@@ -33,8 +33,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -65,8 +61,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 1025,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 30,
                                     "end": 33
                                 },
@@ -77,8 +71,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -97,8 +89,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 46,
                                                     "end": 47
                                                 },
@@ -111,22 +101,18 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                 "kind": 65785,
                                                                 "delegate": true,
                                                                 "expression": {
-                                                                    "kind": 67279,
+                                                                    "kind": 4261583,
                                                                     "text": "foo",
                                                                     "rawText": "foo",
                                                                     "flags": 16777216,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 62,
                                                                     "end": 68
                                                                 },
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 16393,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 55,
                                                                 "end": 68
                                                             },
@@ -137,8 +123,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 0,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 69,
                                                                     "end": 76
                                                                 }
@@ -146,8 +130,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 50,
                                                             "end": 76
                                                         }
@@ -155,16 +137,12 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 48,
                                                     "end": 78
                                                 },
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 37,
                                                 "end": 78
                                             }
@@ -173,16 +151,12 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 37,
                                         "end": 78
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 35,
                                     "end": 80
                                 },
@@ -190,8 +164,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 384,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 80
                             }
@@ -200,16 +172,12 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 80
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 82
                 },
@@ -217,8 +185,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 82
             }
@@ -226,8 +192,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 83
     },
@@ -242,8 +206,6 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

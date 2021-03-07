@@ -15,11 +15,11 @@ var v = { get foo() { yield foo; } }
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "var v = { get foo() { yield foo; } }\n",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 2097397,
@@ -32,11 +32,9 @@ var v = { get foo() { yield foo; } }
                                 "kind": 131102,
                                 "text": "v",
                                 "rawText": "v",
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 3,
                                 "end": 5
                             },
@@ -53,11 +51,9 @@ var v = { get foo() { yield foo; } }
                                                 "kind": 196711,
                                                 "text": "foo",
                                                 "rawText": "foo",
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 13,
                                                 "end": 17
                                             },
@@ -65,11 +61,9 @@ var v = { get foo() { yield foo; } }
                                                 "kind": 90,
                                                 "formalParameterList": [],
                                                 "trailingComma": false,
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 18,
                                                 "end": 19
                                             },
@@ -86,19 +80,15 @@ var v = { get foo() { yield foo; } }
                                                                 "kind": 196712,
                                                                 "text": "yield",
                                                                 "rawText": "yield",
-                                                                "flags": 65536,
+                                                                "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 21,
                                                                 "end": 27
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 21,
                                                             "end": 27
                                                         },
@@ -108,37 +98,29 @@ var v = { get foo() { yield foo; } }
                                                                 "kind": 196712,
                                                                 "text": "foo",
                                                                 "rawText": "foo",
-                                                                "flags": 65538,
+                                                                "flags": 2,
                                                                 "intersects": false,
                                                                 "transformFlags": 0,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 27,
                                                                 "end": 31
                                                             },
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 27,
                                                             "end": 32
                                                         }
                                                     ],
                                                     "multiline": false,
-                                                    "flags": 65536,
+                                                    "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 21,
                                                     "end": 32
                                                 },
-                                                "flags": 65536,
+                                                "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 19,
                                                 "end": 34
                                             },
@@ -146,64 +128,50 @@ var v = { get foo() { yield foo; } }
                                             "type": null,
                                             "accessModifier": null,
                                             "typeParameters": null,
-                                            "flags": 65536,
+                                            "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 34
                                         }
                                     ],
                                     "trailingComma": false,
                                     "multiline": false,
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 9,
                                     "end": 34
                                 },
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 7,
                                 "end": 36
                             },
                             "flags": 3,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
-                            "start": 81920,
+                            "start": 16384,
                             "end": 36
                         }
                     ],
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 3,
                     "end": 36
                 },
-                "flags": 81920,
+                "flags": 16384,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 36
             }
         ],
         "transformFlags": 0,
-        "flags": 81920,
+        "flags": 16384,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 36
     },
@@ -218,8 +186,6 @@ var v = { get foo() { yield foo; } }
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -233,16 +199,13 @@ var v = { get foo() { yield foo; } }
 
 
 ```javascript
-
-var v = { get foo() { yield foo } };
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2716}@ ';' expected. - start: 29, end: 0
 
 ```
 

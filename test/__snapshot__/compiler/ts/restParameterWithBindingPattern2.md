@@ -35,8 +35,6 @@ function a(...[a, b]) { }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 10
                 },
@@ -61,8 +59,6 @@ function a(...[a, b]) { }
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 15,
                                                 "end": 16
                                             },
@@ -70,8 +66,6 @@ function a(...[a, b]) { }
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 15,
                                             "end": 16
                                         },
@@ -85,8 +79,6 @@ function a(...[a, b]) { }
                                                 "flags": 65536,
                                                 "intersects": false,
                                                 "transformFlags": 1025,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 17,
                                                 "end": 19
                                             },
@@ -94,8 +86,6 @@ function a(...[a, b]) { }
                                             "flags": 65536,
                                             "intersects": false,
                                             "transformFlags": 1,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 17,
                                             "end": 19
                                         }
@@ -104,16 +94,12 @@ function a(...[a, b]) { }
                                     "flags": 65536,
                                     "intersects": false,
                                     "transformFlags": 1,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 15,
                                     "end": 19
                                 },
                                 "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 14,
                                 "end": 20
                             },
@@ -126,8 +112,6 @@ function a(...[a, b]) { }
                             "flags": 65536,
                             "intersects": false,
                             "transformFlags": 4097,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 11,
                             "end": 20
                         }
@@ -136,8 +120,6 @@ function a(...[a, b]) { }
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 11,
                     "end": 21
                 },
@@ -151,16 +133,12 @@ function a(...[a, b]) { }
                         "flags": 65536,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 21,
                     "end": 25
                 },
@@ -168,8 +146,6 @@ function a(...[a, b]) { }
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 25
             }
@@ -177,16 +153,12 @@ function a(...[a, b]) { }
         "transformFlags": 0,
         "flags": 65536,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 25
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -200,15 +172,13 @@ function a(...[a, b]) { }
 
 
 ```javascript
-
-function a(...[a, b]) { }
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

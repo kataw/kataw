@@ -33,8 +33,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 16
                 },
@@ -45,8 +43,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 17,
                     "end": 18
                 },
@@ -67,8 +63,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 28
                                     },
@@ -82,8 +76,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 29,
                                             "end": 32
                                         },
@@ -95,32 +87,24 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                             "transformFlags": 0,
                                             "flags": 0,
                                             "intersects": false,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 34,
                                             "end": 34
                                         },
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 32,
                                         "end": 34
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 20,
                                     "end": 34
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 20,
                                 "end": 34
                             },
@@ -143,8 +127,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 1025,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 40,
                                                             "end": 42
                                                         },
@@ -157,16 +139,12 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 0,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 44,
                                                             "end": 50
                                                         },
                                                         "flags": 40,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 16777216,
                                                         "end": 50
                                                     }
@@ -174,38 +152,30 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                                 "flags": 16777218,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 40,
                                                 "end": 50
                                             },
                                             "flags": 16777218,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 36,
                                             "end": 50
                                         },
                                         {
                                             "kind": 2097233,
                                             "expression": {
-                                                "kind": 67279,
+                                                "kind": 4261583,
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 16777218,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 50,
                                                 "end": 56
                                             },
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 0,
-                                            "parent": null,
-                                            "emitNode": null,
                                             "start": 50,
                                             "end": 57
                                         }
@@ -214,16 +184,12 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 36,
                                     "end": 57
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 34,
                                 "end": 59
                             }
@@ -232,16 +198,12 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 20,
                         "end": 59
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 18,
                     "end": 61
                 },
@@ -249,8 +211,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 61
             }
@@ -258,8 +218,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 62
     },
@@ -288,8 +246,6 @@ function not_gen() { unction* gf() { var a = yield 'foo'; } }}
             "length": 0
         }
     ],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

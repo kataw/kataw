@@ -14,11 +14,11 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 48,
@@ -26,11 +26,9 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                     "kind": 131102,
                     "text": "ClassWithParentAndInterface",
                     "rawText": "ClassWithParentAndInterface",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 33
                 },
@@ -41,20 +39,16 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                         "kind": 196712,
                         "text": "MyOtherClass",
                         "rawText": "MyOtherClass",
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 41,
                         "end": 54
                     },
                     "typeArguments": null,
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 41,
                     "end": 54
                 },
@@ -64,79 +58,63 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                         {
                             "kind": 106,
                             "type": {
-                                "kind": 236,
+                                "kind": 8428,
                                 "typeName": {
                                     "kind": 196711,
                                     "text": "MyInterface",
                                     "rawText": "MyInterface",
-                                    "flags": 65536,
+                                    "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 65,
                                     "end": 77
                                 },
                                 "typeArguments": null,
-                                "flags": 65536,
+                                "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 65,
                                 "end": 79
                             },
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 2097152,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 65,
                             "end": 77
                         }
                     ],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 2097152,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 65,
                     "end": 77
                 },
                 "members": {
                     "kind": 50,
                     "elements": [],
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 79,
                     "end": 80
                 },
                 "decorators": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 80
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 80
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -150,17 +128,13 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
 
 
 ```javascript
-
-class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {
-
-}
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

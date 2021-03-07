@@ -18,11 +18,11 @@ b /* parameter b */,
 
 ```javascript
 {
-    "kind": 149,
+    "kind": 196,
     "source": "function commentedParameters(\na /* parameter a */,\nb /* parameter b */,\n/* extra comment */\n) { }",
     "filename": "",
-    "moduleBody": {
-        "kind": 150,
+    "scriptBody": {
+        "kind": 197,
         "statements": [
             {
                 "kind": 264284,
@@ -30,11 +30,9 @@ b /* parameter b */,
                     "kind": 131102,
                     "text": "commentedParameters",
                     "rawText": "commentedParameters",
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 1025,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 8,
                     "end": 28
                 },
@@ -48,11 +46,9 @@ b /* parameter b */,
                                 "kind": 131102,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 29,
                                 "end": 31
                             },
@@ -62,11 +58,9 @@ b /* parameter b */,
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 29,
                             "end": 31
                         },
@@ -77,11 +71,9 @@ b /* parameter b */,
                                 "kind": 131102,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 81920,
+                                "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 50,
                                 "end": 52
                             },
@@ -91,21 +83,17 @@ b /* parameter b */,
                             "decorators": null,
                             "accessModifier": null,
                             "isReadOnly": false,
-                            "flags": 65536,
+                            "flags": 0,
                             "intersects": false,
                             "transformFlags": 1,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 50,
                             "end": 52
                         }
                     ],
                     "trailingComma": true,
-                    "flags": 81920,
+                    "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 29,
                     "end": 93
                 },
@@ -116,45 +104,35 @@ b /* parameter b */,
                         "kind": 94,
                         "statements": [],
                         "multiline": false,
-                        "flags": 65536,
+                        "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 95,
                         "end": 95
                     },
-                    "flags": 65536,
+                    "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 93,
                     "end": 97
                 },
                 "typeParameters": null,
-                "flags": 65536,
+                "flags": 0,
                 "intersects": false,
                 "transformFlags": 256,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 97
             }
         ],
         "transformFlags": 0,
-        "flags": 65536,
+        "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 97
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
@@ -168,15 +146,13 @@ b /* parameter b */,
 
 
 ```javascript
-
-function commentedParameters(a, b) { }
-
+@{x2716}@ Soon to be open sourced
 ```
 
 ### Diagnostics
 
 
 ```javascript
-@{x2714}@ No errors
+
 ```
 

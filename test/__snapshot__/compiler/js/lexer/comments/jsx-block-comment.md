@@ -47,8 +47,6 @@ const pure = () => {
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1025,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 10
                             },
@@ -56,9 +54,9 @@ const pure = () => {
                             "type": null,
                             "initializer": {
                                 "kind": 67592,
+                                "typeParameters": null,
                                 "arrowParameters": {
                                     "kind": 65545,
-                                    "typeParameters": 1,
                                     "elements": [],
                                     "type": null,
                                     "accessModifier": null,
@@ -66,8 +64,6 @@ const pure = () => {
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 12,
                                     "end": 12
                                 },
@@ -90,8 +86,6 @@ const pure = () => {
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 8192,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 43,
                                                                 "end": 46
                                                             },
@@ -101,8 +95,6 @@ const pure = () => {
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 8192,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 46,
                                                                 "end": 46
                                                             },
@@ -110,8 +102,6 @@ const pure = () => {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 33,
                                                             "end": 47
                                                         },
@@ -125,7 +115,6 @@ const pure = () => {
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
                                                                     "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 47,
                                                                     "end": 60
                                                                 },
@@ -136,8 +125,6 @@ const pure = () => {
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
-                                                                    "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 60,
                                                                     "end": 73
                                                                 },
@@ -148,7 +135,6 @@ const pure = () => {
                                                                     "intersects": false,
                                                                     "transformFlags": 8192,
                                                                     "parent": null,
-                                                                    "emitNode": null,
                                                                     "start": 73,
                                                                     "end": 82
                                                                 }
@@ -156,8 +142,6 @@ const pure = () => {
                                                             "flags": 0,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 47,
                                                             "end": 82
                                                         },
@@ -169,40 +153,30 @@ const pure = () => {
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 8192,
-                                                                "parent": null,
-                                                                "emitNode": null,
                                                                 "start": 84,
                                                                 "end": 87
                                                             },
                                                             "flags": 16384,
                                                             "intersects": false,
                                                             "transformFlags": 8192,
-                                                            "parent": null,
-                                                            "emitNode": null,
                                                             "start": 82,
                                                             "end": 88
                                                         },
                                                         "flags": 16384,
                                                         "intersects": false,
                                                         "transformFlags": 8192,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 33,
                                                         "end": 88
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 31,
                                                     "end": 94
                                                 },
                                                 "flags": 16384,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 20,
                                                 "end": 95
                                             }
@@ -211,32 +185,24 @@ const pure = () => {
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 20,
                                         "end": 95
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 18,
                                     "end": 97
                                 },
                                 "flags": 536870912,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 12,
                                 "end": 97
                             },
                             "flags": 0,
                             "intersects": false,
                             "transformFlags": 0,
-                            "parent": null,
-                            "emitNode": null,
                             "start": 5,
                             "end": 97
                         }
@@ -244,16 +210,12 @@ const pure = () => {
                     "flags": 16,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 5,
                     "end": 97
                 },
                 "flags": 16,
                 "intersects": false,
                 "transformFlags": 769,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 97
             }
@@ -261,16 +223,12 @@ const pure = () => {
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 97
     },
     "jsx": true,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,

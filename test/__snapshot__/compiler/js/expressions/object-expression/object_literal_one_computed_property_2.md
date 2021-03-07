@@ -31,8 +31,6 @@ wrap({[a]:b, [15]:d}=obj);
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 0,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 0,
                         "end": 4
                     },
@@ -50,7 +48,7 @@ wrap({[a]:b, [15]:d}=obj);
                                             {
                                                 "kind": 65721,
                                                 "left": {
-                                                    "kind": 55,
+                                                    "kind": 65591,
                                                     "expression": {
                                                         "kind": 196712,
                                                         "text": "a",
@@ -58,16 +56,12 @@ wrap({[a]:b, [15]:d}=obj);
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 7,
                                                         "end": 8
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 131073,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 6,
                                                     "end": 9
                                                 },
@@ -78,8 +72,6 @@ wrap({[a]:b, [15]:d}=obj);
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 10,
                                                     "end": 11
                                                 },
@@ -88,15 +80,13 @@ wrap({[a]:b, [15]:d}=obj);
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 6,
                                                 "end": 11
                                             },
                                             {
                                                 "kind": 65721,
                                                 "left": {
-                                                    "kind": 55,
+                                                    "kind": 65591,
                                                     "expression": {
                                                         "kind": 4261540,
                                                         "text": 15,
@@ -104,16 +94,12 @@ wrap({[a]:b, [15]:d}=obj);
                                                         "flags": 0,
                                                         "intersects": false,
                                                         "transformFlags": 0,
-                                                        "parent": null,
-                                                        "emitNode": null,
                                                         "start": 14,
                                                         "end": 16
                                                     },
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 131073,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 12,
                                                     "end": 17
                                                 },
@@ -124,8 +110,6 @@ wrap({[a]:b, [15]:d}=obj);
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 0,
-                                                    "parent": null,
-                                                    "emitNode": null,
                                                     "start": 18,
                                                     "end": 19
                                                 },
@@ -134,8 +118,6 @@ wrap({[a]:b, [15]:d}=obj);
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 0,
-                                                "parent": null,
-                                                "emitNode": null,
                                                 "start": 12,
                                                 "end": 19
                                             }
@@ -145,16 +127,12 @@ wrap({[a]:b, [15]:d}=obj);
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 0,
-                                        "parent": null,
-                                        "emitNode": null,
                                         "start": 6,
                                         "end": 19
                                     },
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 5,
                                     "end": 20
                                 },
@@ -166,16 +144,12 @@ wrap({[a]:b, [15]:d}=obj);
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 0,
-                                    "parent": null,
-                                    "emitNode": null,
                                     "start": 21,
                                     "end": 24
                                 },
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 0,
-                                "parent": null,
-                                "emitNode": null,
                                 "start": 5,
                                 "end": 24
                             }
@@ -184,24 +158,18 @@ wrap({[a]:b, [15]:d}=obj);
                         "transformFlags": 0,
                         "flags": 0,
                         "intersects": false,
-                        "parent": null,
-                        "emitNode": null,
                         "start": 6,
                         "end": 25
                     },
                     "flags": 0,
                     "intersects": false,
                     "transformFlags": 0,
-                    "parent": null,
-                    "emitNode": null,
                     "start": 4,
                     "end": 25
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "parent": null,
-                "emitNode": null,
                 "start": 0,
                 "end": 26
             }
@@ -209,16 +177,12 @@ wrap({[a]:b, [15]:d}=obj);
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
-        "parent": null,
-        "emitNode": null,
         "start": 0,
         "end": 26
     },
     "jsx": false,
     "printable": true,
     "diagnostics": [],
-    "parent": null,
-    "emitNode": null,
     "incremental": false,
     "flags": 0,
     "intersects": false,
