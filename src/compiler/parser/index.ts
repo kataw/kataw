@@ -1374,7 +1374,7 @@ function parseAssignmentExpression(parser: ParserState, context: Context): Expre
           curPos,
           parser.curPos
         ),
-        token === Token.AsyncKeyword,
+        false /* isAsync */,
         /* isParenthesized */ false,
         curPos
       );
@@ -1844,7 +1844,7 @@ function parseCoverCallExpressionAndAsyncArrowHead(
 
             if (parser.token === Token.Arrow) {
               expression.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
-              expression =  parseArrowFunction(
+              expression = parseArrowFunction(
                 parser,
                 context,
                 null,
@@ -2009,7 +2009,6 @@ function parseCoverCallExpressionAndAsyncArrowHead(
                 parser.curPos
               );
             }
-
           }
         }
 
@@ -2352,7 +2351,6 @@ function parseArgumentOrArrayLiteralElement(parser: ParserState, context: Contex
 }
 
 function parseArgumentList(parser: ParserState, context: Context): ArgumentList {
-
   const pos = parser.curPos;
 
   let trailingComma = false;
