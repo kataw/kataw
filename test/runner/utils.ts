@@ -32,16 +32,18 @@ export function san(dir: any) {
     .replace(/[^a-zA-Z0-9_-]/g, (s: any) => 'x' + s.charCodeAt(0).toString(16).padStart(4, '0'));
 }
 
-export function getTestFiles(path: any, file: any, files: any, silent: any, dirsToo?: any): any {
+export function getTestFiles(path: any, file: any, silent: any, dirsToo?: any): any {
+  const files: string[] = [];
   const combo = path + file;
   if (statSync(combo).isFile()) {
     if (combo.slice(-3) === '.md' && combo.slice(-'README.md'.length) !== 'README.md') {
       files.push(combo);
     }
   } else {
-    readdirSync(combo + '/').forEach((s) => getTestFiles(combo + '/', s, files, silent, dirsToo));
+    readdirSync(combo + '/').forEach((s) => files.push(...getTestFiles(combo + '/', s, silent, dirsToo)));
     if (dirsToo) files.push(combo);
   }
+  return files;
 }
 
 // Make all non-printable ascii chars encoded in tests

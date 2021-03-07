@@ -1,43 +1,15 @@
-import { parseScript, parseModule } from '../src/kataw';
-import { printSourceFile } from '../src/compiler/printer';
-import { Options } from '../src/compiler/types';
-import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './lib/utils';
-import { autogen } from './lib/autogenerate';
-import { resolve } from 'path';
+import { parseScript, parseModule } from '../../src/kataw';
+import { printSourceFile } from '../../src/compiler/printer';
+import { Options } from '../../src/compiler/types';
+import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './utils';
 
-let files: any = [];
-
-const AUTO_UPDATE = process.argv.includes('-u');
-const AUTO_GENERATE = process.argv.includes('-g');
-const AUTO_GENERATE_CONSERVATIVE = process.argv.includes('-G');
-const TARGET_FILE = process.argv.includes('-f') ? process.argv[process.argv.indexOf('-f') + 1] : '';
-
-if (process.argv.includes('-?') || process.argv.includes('--help')) {
-  console.log(`
-  Kataw Test Runner
-  Usage:
-    \`tests/kataw.spec.mjs\` [options]
-  But for the time being:
-    \`ts-node tests/run.ts\`
-  Options:
-    -f "path"     Only test this file / dir
-    -g            Regenerate computed test case blocks (process all autogen.md files)
-    -G            Same as -g except it skips existing files
-    -u            Auto-update tests with the results (tests silently updated inline, use source control to diff)
-`);
-  process.exit();
-}
-
-if (AUTO_UPDATE && (AUTO_GENERATE || AUTO_GENERATE_CONSERVATIVE))
-  throw new Error('Cannot use auto update and auto generate together');
-
-async function extractFiles(list: any) {
+export async function extractFiles(list: any) {
   list.forEach((obj: any) => {
     ({ options: obj.options, input: obj.input } = parseTestFile(obj));
   });
 }
 
-async function runTest(list: any) {
+export async function runTest(list: any) {
   console.time(
     ColorCodes.GREEN + 'Running ' + ColorCodes.RESET + list.length + ' test cases.' + ColorCodes.yellow + ' Total time'
   );
@@ -92,22 +64,23 @@ async function generateSourceFile(
   return (isModule ? parseModule : parseScript)(input, options);
 }
 
-async function generateNewOutput(list: any) {
+export async function generateNewOutput(list: any) {
   list.forEach((obj: any) => {
     obj.data = generateOutputBlock(obj.data, obj.newoutput.ast, obj.newoutput.pretty, obj.options);
   });
 }
 
-async function writeNewOutput(list: any) {
+export async function writeNewOutput(list: any, update: boolean) {
   let updated = 0;
   await Promise.all(
     list.map((obj: any): any => {
       const { data, previous, file } = obj;
       if (data !== previous) {
-        if (AUTO_UPDATE) {
+        if (update) {
           ++updated;
           promiseToWriteFile(file, data);
         } else {
+          process.exitCode = 1;
           console.log('Output mismatch for', file);
           return Promise.resolve();
         }
@@ -115,29 +88,6 @@ async function writeNewOutput(list: any) {
     })
   );
   console.log('Updated', updated, 'files');
-}
-
-async function main() {
-  if (TARGET_FILE) {
-    console.log('Using explicit file:', TARGET_FILE);
-    files = [TARGET_FILE];
-  } else {
-    files = files.filter((f: any) => !f.endsWith('autogen.md'));
-  }
-
-  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
-    throw new Error(e);
-  });
-
-  await extractFiles(list);
-
-  list.forEach((obj: any) => (obj.newoutput = {}));
-  await runTest(list);
-
-  await generateNewOutput(list);
-  await writeNewOutput(list);
-
-  console.timeEnd('Whole test run');
 }
 
 function parseTestFile(obj: any): any {
@@ -168,19 +118,18 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
   if (outputIndex < 0) outputIndex = currentOutput.length;
 
   let diagnosticString = '';
+
   if (printed !== '✖ Soon to be open sourced') {
     const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
-
     if (diagnostics.length) {
       diagnostics.forEach(function (a: any) {
         diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
         diagnosticString += '\n';
       });
     } else {
-      diagnosticString += 'No errors';
+      diagnosticString += '✔ No errors';
     }
   }
-
   return options.printer
     ? '' +
         currentOutput.slice(0, outputIndex) +
@@ -219,12 +168,13 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
         '';
 }
 
-console.time('Whole test run');
+// parsing files => testing objects
+export async function file2Tests(files: any) {
+  const list = await Promise.all(files.map(promiseToReadFile)).catch((e) => {
+    throw new Error(e);
+  });
 
-getTestFiles(resolve('test/__snapshot__'), '', files, true);
-
-if (AUTO_GENERATE) {
-  autogen(files, AUTO_GENERATE_CONSERVATIVE);
-} else {
-  main();
+  await extractFiles(list);
+  list.forEach((obj: any) => (obj.newoutput = {}));
+  return list;
 }
