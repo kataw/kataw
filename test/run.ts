@@ -1,12 +1,12 @@
 import { parseScript, parseModule } from '../src/kataw';
-//import { toJs } from '../src/compiler/printer/';
+import { printSourceFile } from '../src/compiler/printer';
 import { Options } from '../src/compiler/types';
 import { getTestFiles, promiseToReadFile, Constants, ColorCodes, promiseToWriteFile } from './lib/utils';
 import { autogen } from './lib/autogenerate';
-import { writeFile } from 'fs';
 import { resolve } from 'path';
 
 let files: any = [];
+
 const AUTO_UPDATE = process.argv.includes('-u');
 const AUTO_GENERATE = process.argv.includes('-g');
 const AUTO_GENERATE_CONSERVATIVE = process.argv.includes('-G');
@@ -18,9 +18,7 @@ if (process.argv.includes('-?') || process.argv.includes('--help')) {
   Usage:
     \`tests/kataw.spec.mjs\` [options]
   But for the time being:
-    \`node --experimental-modules tests/zeparser.spec.mjs\`
-  And suggested if also testing builds:
-    \`node --experimental-modules cli/build.mjs; node --experimental-modules tests/zeparser.spec.mjs\` [options]
+    \`ts-node tests/run.ts\`
   Options:
     -f "path"     Only test this file / dir
     -g            Regenerate computed test case blocks (process all autogen.md files)
@@ -59,6 +57,7 @@ async function runTest(list: any) {
           impliedStrict: options.impliedStrict
         },
         obj.options.module,
+        obj.options.printer,
         obj.options.incremental
       );
 
@@ -72,8 +71,13 @@ async function runTest(list: any) {
 
   await Promise.all(
     set.map(async ({ obj, result }: any) => {
-      (obj.newoutput.ast = result), obj.file;
-      obj.newoutput.pretty = '✖ Soon to be open sourced'; //toJs(result);
+      obj.newoutput.ast = result;
+      obj.newoutput.pretty = printSourceFile(result, {
+        tabWidth: 2,
+        printWidth: 80,
+        useTabs: false,
+        bracketSpacing: true
+      } as any);
     })
   );
 }
@@ -82,9 +86,10 @@ async function generateSourceFile(
   input: string,
   options: Options,
   isModule: boolean,
+  _printer: boolean,
   /* TODO */ _isIncremental: boolean
 ) {
-  return isModule ? parseModule(input, options) : parseScript(input, options);
+  return (isModule ? parseModule : parseScript)(input, options);
 }
 
 async function generateNewOutput(list: any) {
@@ -163,42 +168,55 @@ function generateOutputBlock(currentOutput: any, ast: any, printed: any, options
   if (outputIndex < 0) outputIndex = currentOutput.length;
 
   let diagnosticString = '';
-
   if (printed !== '✖ Soon to be open sourced') {
     const diagnostics = (options.module ? parseModule(printed) : parseScript(printed)).diagnostics;
+
     if (diagnostics.length) {
       diagnostics.forEach(function (a: any) {
         diagnosticString += '✖ ' + a.message + ' - start: ' + a.start + ', end: ' + a.length;
         diagnosticString += '\n';
       });
     } else {
-      diagnosticString += '✔ No errors';
+      diagnosticString += 'No errors';
     }
   }
-  return (
-    '' +
-    currentOutput.slice(0, outputIndex) +
-    Constants.Output +
-    '\n' +
-    Constants.Header +
-    '\n' +
-    Constants.JavascriptStart +
-    '' +
-    ast +
-    Constants.JavascriptEnd +
-    Constants.Printed +
-    '\n' +
-    Constants.JavascriptStart +
-    printed +
-    Constants.JavascriptEnd +
-    Constants.Diagnostics +
-    '\n' +
-    Constants.JavascriptStart +
-    diagnosticString +
-    Constants.JavascriptEnd +
-    '\n' +
-    ''
-  );
+
+  return options.printer
+    ? '' +
+        currentOutput.slice(0, outputIndex) +
+        Constants.Output +
+        '\n' +
+        Constants.JavascriptStart +
+        printed +
+        Constants.JavascriptEnd +
+        '\n' +
+        Constants.JavascriptStart +
+        diagnosticString +
+        Constants.JavascriptEnd +
+        '\n' +
+        ''
+    : '' +
+        currentOutput.slice(0, outputIndex) +
+        Constants.Output +
+        '\n' +
+        Constants.Header +
+        '\n' +
+        Constants.JavascriptStart +
+        '' +
+        ast +
+        Constants.JavascriptEnd +
+        Constants.Printed +
+        '\n' +
+        Constants.JavascriptStart +
+        printed +
+        Constants.JavascriptEnd +
+        Constants.Diagnostics +
+        '\n' +
+        Constants.JavascriptStart +
+        diagnosticString +
+        Constants.JavascriptEnd +
+        '\n' +
+        '';
 }
 
 console.time('Whole test run');

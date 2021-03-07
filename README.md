@@ -13,18 +13,17 @@ Kataw is a Javascript toolchain with insane performance that can
 
 - parse Javascript, Typescript and JSX
 
-- transform current ECMA code to older ECMA versions (*like Babel*)
+- transform current ECMA code to older ECMA versions (_like Babel_)
 
 - global API to perform AST manipulation and tree walkers
 
-- Pretty printing (*like Prettier*)
+- Pretty printing (_like Prettier_)
 
 - Grammar checker
 
-- Linting (*like ESLint*)
+- Linting (_like ESLint_)
 
-- Minify (*Like Terser*)
-
+- Minify (_Like Terser_)
 
 ## Current state
 
@@ -32,10 +31,8 @@ Only the Kataw parser, transformers, walkers, AST manipulation through global AP
 
 Soon as this code is in a "stable state" I will add the rest of the tools
 
-
 ## Future
 
 - A "hook system" for adding additional rules for the linter and the grammar checker will be published.
 
 - Hooks to support experimental syntax and ECMA proposals in an sandboxed envirnonment
-
