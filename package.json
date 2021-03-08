@@ -63,6 +63,7 @@
     "prepare-nightly": "node scripts/bump-dev-version",
     "coverage": "c8 ts-node test/cli",
     "coverage:report": "c8 report",
+    "coverage:html": "c8 report -r html",
     "coverage:treshold": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
     "post_coverage": "cross-env cat ./coverage/lcov.info | coveralls"
   },

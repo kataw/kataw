@@ -4284,7 +4284,7 @@ function parseImportDeclaration(parser: ParserState, context: Context): ImportDe
     parser.token === Token.Multiply || // import *
     parser.token === Token.LeftBrace // import {
   ) {
-    let defaultBinding!: BindingIdentifier;
+    let defaultBinding: BindingIdentifier | null = null;
     let namespace: BindingIdentifier | null = null;
     let namedImports: NamedImports | null = null;
     let isCommaSeparated = true;
@@ -4426,16 +4426,19 @@ function parseImportsList(parser: ParserState, context: Context): ImportsList {
 //   IdentifierName `as` ImportedBinding
 function parseImportSpecifier(parser: ParserState, context: Context): ImportSpecifier {
   const pos = parser.curPos;
-  let importedBinding: BindingIdentifier | null = null;
   const identifierName = parseIdentifierName(parser, context);
   if (consumeOpt(parser, context, Token.AsKeyword)) {
-    importedBinding = parseBindingIdentifier(parser, context);
-  } else {
-    identifierName.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
-    importedBinding = identifierName;
+    return createImportSpecifier(
+      null,
+      identifierName,
+      parseBindingIdentifier(parser, context),
+      parser.nodeFlags,
+      pos,
+      parser.curPos
+    );
   }
-
-  return createImportSpecifier(null, identifierName, importedBinding, parser.nodeFlags, pos, parser.curPos);
+  identifierName.kind = NodeKind.BindingIdentifier | NodeKind.IsChildless;
+  return createImportSpecifier(null, null, identifierName, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ModulemoduleExportName : StringLiteral
