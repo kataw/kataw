@@ -61,7 +61,9 @@
     "test:update": "ts-node test/cli -u",
     "test:autogen": "ts-node test/cli -g",
     "prepare-nightly": "node scripts/bump-dev-version",
-    "coverage": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
+    "coverage": "c8 ts-node test/cli",
+    "coverage:report": "c8 report",
+    "coverage:treshold": "c8 check-coverage --lines 95 --per-file ts-node test/cli",
     "post_coverage": "cross-env cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
