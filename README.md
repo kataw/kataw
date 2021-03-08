@@ -9,7 +9,11 @@
   
 **WIP**
 
-Kataw is a Javascript toolchain with insane performance that can
+Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
+
+This project is still under development by one main developer and a chinese volunteer that would be happy with a [contribution on OpenCollective](https://opencollective.com/kataw).
+
+This is what Kataw can do:
 
 - parse Javascript, Typescript and JSX
 
