@@ -12,22 +12,9 @@ parentheses have been removed.
 The pretty printer tries to be smart enough to be able to understand what you want. As a result the formatter will
 change based on your code style.
 
-For example if you insert a line break
-
-```js
-[
-a,b,c]
-```
-
-the code formatter will insert a new line after `[` and before `]` in multi-line contexts.
-
-```js
-[
-  a, b, c
-];
-```
-
 ## API
+
+### Browser
 
 ```js
 
@@ -37,6 +24,11 @@ kataw.printScript(source, OPTIONS);
 // Module goal
 kataw.printModule(source, OPTIONS);
 ```
+
+
+### CLI
+
+**internal**.
 
 ## Options
 
@@ -60,27 +52,31 @@ The second argument allows you to specify various options:
 | `minify`  | false | Removes unnecessary whitespace, semicolons and line endings |
 | `sourceMap`  | false | Prins source map |
 
-## Parentheses
 
-The goal of this pretty printer is to avoid increasing the size of the AST, so no extra parentheses have been
-added to increase readability - instead other clever tricks have been used.
+## Fragment printing
 
-Here is an example and a comparison with Prettier:
+Kataw introduces "fragment printing", and allows you to only print part of your AST. This will help in testing environments and if you are developing
+your own transformers.
 
-**Prettier's output:**
-
-`````js
-a => (a ? a : a);
-
-a <= a ? a : a;
-`````
-
-**Kataw's output:**
 
 ```js
-a => a ? a : a;
 
-a <= a
-  ? a
-  : a;
+const AST = {
+  kind: 196712,
+  text: "identifier",
+  rawText: "identifier",
+  flags: 0,
+  intersects: false,
+  transformFlags: 0,
+  emitNode: null,
+  start: 0,
+  end: 10,
+};
+
+kataw.prettify(AST, OPTIONS); // 'identifier*
+
 ```
+
+## Unique identifer and integration with transformers
+
+Coming...
