@@ -4619,31 +4619,17 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
   return createExportsList(specifiers, parser.nodeFlags, pos, parser.curPos);
 }
 
-// ExportSpecifier :
-//   IdentifierName
-//   IdentifierName `as` IdentifierName
+ // ExportSpecifier :
+  //   IdentifierName
+  //   IdentifierName `as` IdentifierName
+  //   IdentifierName `as` ModuleExportName
+  //   ModuleExportName
+  //   ModuleExportName `as` ModuleExportName
+  //   ModuleExportName `as` IdentifierName
 function parseExportSpecifier(parser: ParserState, context: Context): ExportSpecifier {
   const pos = parser.curPos;
-  // ImportSpecifier:
-  //   BindingIdentifier
-  //   IdentifierName as BindingIdentifier
-  // ExportSpecifier:
-  //   IdentifierName
-  //   IdentifierName as IdentifierName
   let moduleExportName: StringLiteral | null = null;
-  if (parser.token === Token.StringLiteral) {
-    const name = parseModuleExportName(parser, context);
-    let exportedName = null;
-    if (consumeOpt(parser, context, Token.AsKeyword)) {
-      if (parser.token === Token.StringLiteral) {
-        moduleExportName = parseModuleExportName(parser, context);
-      } else {
-        exportedName = parseIdentifierName(parser, context);
-      }
-    }
-    return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.curPos);
-  }
-  const name = parseIdentifierName(parser, context);
+  let localName = parser.token === Token.StringLiteral ? parseModuleExportName(parser, context) : parseIdentifierName(parser, context);
   let exportedName = null;
   if (consumeOpt(parser, context, Token.AsKeyword)) {
     if (parser.token === Token.StringLiteral) {
@@ -4652,7 +4638,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
       exportedName = parseIdentifierName(parser, context);
     }
   }
-  return createExportSpecifier(name, moduleExportName, exportedName, parser.nodeFlags, pos, parser.curPos);
+  return createExportSpecifier(localName, moduleExportName, exportedName , parser.nodeFlags, pos, parser.curPos);
 }
 
 // ExportDefault :
