@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     "outDir": "dist",
     "preserveConstEnums": false,
     "preserveWatchOutput": true,

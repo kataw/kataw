@@ -18,7 +18,6 @@ abstract class C {
 
 ## Output
 
-
 ### Hybrid CST
 
 
@@ -626,6 +625,7 @@ abstract class C {
 }
 ```
 
+  
 ### Printed
 
 
@@ -633,6 +633,7 @@ abstract class C {
 @{x2716}@ Soon to be open sourced
 ```
 
+  
 ### Diagnostics
 
 
