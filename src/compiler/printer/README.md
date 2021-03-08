@@ -61,7 +61,7 @@ your own transformers.
 
 ```js
 
-const AST = {
+const fragment = {
   kind: 196712,
   text: "identifier",
   rawText: "identifier",
@@ -73,7 +73,7 @@ const AST = {
   end: 10,
 };
 
-kataw.prettify(AST, OPTIONS); // 'identifier*
+kataw.printFragment(fragment, OPTIONS); // 'identifier*
 
 ```
 
