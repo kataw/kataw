@@ -5,21 +5,21 @@ import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
  */
 
 export interface TrueType extends Node {
-  readonly value: string;
-  readonly rawValue: string;
+  readonly text: string;
+  readonly rawText: string;
 }
 
 export function createTrueType(
-  value: string,
-  rawValue: string,
+  text: string,
+  rawText: string,
   flags: NodeFlags,
   start: number,
   end: number
 ): TrueType {
   return {
     kind: NodeKind.TrueType,
-    value,
-    rawValue,
+    text,
+    rawText,
     flags,
     intersects: false,
     transformFlags: TransformFlags.TypeScript,

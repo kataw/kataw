@@ -34,8 +34,8 @@ interface BigIntKeyword <: TypeNode {
 ```js
 interface BigIntType <: TypeNode {
   kind: NodeKind.BigIntType;
-  value: string;
-  rawValue: string;
+  text: string;
+  rawText: string;
 }
 ```
 
@@ -329,8 +329,8 @@ interface NumberKeyword <: TypeNode {
 ```js
 interface NumberType <: TypeNode {
   kind: NodeKind.NumberType;
-  value: string;
-  rawValue: string;
+  text: string;
+  rawText: string;
 }
 
 ```
@@ -441,8 +441,8 @@ interface StringKeyword <: TypeNode {
 ```js
 interface StringType <: TypeNode {
   kind: NodeKind.StringType;
-  value: string;
-  rawValue: string;
+  text: string;
+  rawText: string;
 }
 ```
 
@@ -488,8 +488,8 @@ interface ThisType <: TypeNode {
 ```js
 interface TrueType <: TypeNode {
   kind: NodeKind.TrueType;
-  value: string;
-  rawValue: string;
+  text: string;
+  rawText: string;
 }
 ```
 
