@@ -41,8 +41,8 @@ let x: 0;
                             "exclamation": false,
                             "type": {
                                 "kind": 8355,
-                                "value": 0,
-                                "rawValue": "0",
+                                "text": 0,
+                                "rawText": "0",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,

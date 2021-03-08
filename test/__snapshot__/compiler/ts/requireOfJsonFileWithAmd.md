@@ -105,8 +105,8 @@ class DD extends D {
                             },
                             "returnType": {
                                 "kind": 8355,
-                                "value": 421,
-                                "rawValue": "421",
+                                "text": 421,
+                                "rawText": "421",
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 2097152,

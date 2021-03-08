@@ -41,6 +41,7 @@ import {default as foo} from "foo";
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,

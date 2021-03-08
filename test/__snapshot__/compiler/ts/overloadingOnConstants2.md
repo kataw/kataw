@@ -274,8 +274,8 @@ var f: C = bar("um", []); // C
                             "isOptional": false,
                             "type": {
                                 "kind": 8400,
-                                "value": "hi",
-                                "rawValue": "hi",
+                                "text": "hi",
+                                "rawText": "hi",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
@@ -398,8 +398,8 @@ var f: C = bar("um", []); // C
                             "isOptional": false,
                             "type": {
                                 "kind": 8400,
-                                "value": "bye",
-                                "rawValue": "bye",
+                                "text": "bye",
+                                "rawText": "bye",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,
@@ -1006,8 +1006,8 @@ var f: C = bar("um", []); // C
                             "isOptional": false,
                             "type": {
                                 "kind": 8400,
-                                "value": "bye",
-                                "rawValue": "bye",
+                                "text": "bye",
+                                "rawText": "bye",
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 2097152,

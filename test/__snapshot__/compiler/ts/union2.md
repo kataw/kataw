@@ -74,8 +74,8 @@ type UploadState2<E, EM, D>
                                         "accessModifier": null,
                                         "type": {
                                             "kind": 8400,
-                                            "value": "Not_begun",
-                                            "rawValue": "Not_begun",
+                                            "text": "Not_begun",
+                                            "rawText": "Not_begun",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
@@ -126,8 +126,8 @@ type UploadState2<E, EM, D>
                                         "accessModifier": null,
                                         "type": {
                                             "kind": 8400,
-                                            "value": "Timed_out",
-                                            "rawValue": "Timed_out",
+                                            "text": "Timed_out",
+                                            "rawText": "Timed_out",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
@@ -178,8 +178,8 @@ type UploadState2<E, EM, D>
                                         "accessModifier": null,
                                         "type": {
                                             "kind": 8400,
-                                            "value": "Failed",
-                                            "rawValue": "Failed",
+                                            "text": "Failed",
+                                            "rawText": "Failed",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,
@@ -314,8 +314,8 @@ type UploadState2<E, EM, D>
                                         "accessModifier": null,
                                         "type": {
                                             "kind": 8400,
-                                            "value": "Success",
-                                            "rawValue": "Success",
+                                            "text": "Success",
+                                            "rawText": "Success",
                                             "flags": 0,
                                             "intersects": false,
                                             "transformFlags": 2097152,

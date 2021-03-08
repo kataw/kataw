@@ -157,8 +157,8 @@ class D {
                                 "types": [
                                     {
                                         "kind": 8355,
-                                        "value": 42,
-                                        "rawValue": "42",
+                                        "text": 42,
+                                        "rawText": "42",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
@@ -167,8 +167,8 @@ class D {
                                     },
                                     {
                                         "kind": 8355,
-                                        "value": 233,
-                                        "rawValue": "233",
+                                        "text": 233,
+                                        "rawText": "233",
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 2097152,
@@ -333,8 +333,8 @@ class D {
                                 "types": [
                                     {
                                         "kind": 8355,
-                                        "value": 42,
-                                        "rawValue": "42",
+                                        "text": 42,
+                                        "rawText": "42",
                                         "flags": 0,
                                         "intersects": false,
                                         "transformFlags": 2097152,
@@ -343,8 +343,8 @@ class D {
                                     },
                                     {
                                         "kind": 8355,
-                                        "value": 233,
-                                        "rawValue": "233",
+                                        "text": 233,
+                                        "rawText": "233",
                                         "flags": 16384,
                                         "intersects": false,
                                         "transformFlags": 2097152,

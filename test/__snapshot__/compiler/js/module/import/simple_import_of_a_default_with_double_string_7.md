@@ -41,6 +41,7 @@ import {x as z,} from "y"
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,

@@ -54,6 +54,7 @@ const TestRender = () => <TestComponent />;
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": {
                         "kind": 131102,
                         "text": "React",

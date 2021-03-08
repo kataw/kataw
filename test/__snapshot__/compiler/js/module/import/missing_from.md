@@ -41,6 +41,7 @@ import {a, b} fromx "c"
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,
@@ -50,16 +51,7 @@ import {a, b} fromx "c"
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "a",
@@ -79,16 +71,7 @@ import {a, b} fromx "c"
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 10,
-                                        "end": 12
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "b",

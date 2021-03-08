@@ -57,8 +57,8 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     "kind": 8249,
                                     "checkType": {
                                         "kind": 8355,
-                                        "value": 1,
-                                        "rawValue": "1",
+                                        "text": 1,
+                                        "rawText": "1",
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,
@@ -67,8 +67,8 @@ type TupleWithRest = [number, ...(1 extends 2 ? string[] : number[])];
                                     },
                                     "extendsType": {
                                         "kind": 8355,
-                                        "value": 2,
-                                        "rawValue": "2",
+                                        "text": 2,
+                                        "rawText": "2",
                                         "flags": 65536,
                                         "intersects": false,
                                         "transformFlags": 2097152,

@@ -52,8 +52,8 @@ type X = A<import("").B<any>>;
                                 "isTypeOf": false,
                                 "argument": {
                                     "kind": 8400,
-                                    "value": "",
-                                    "rawValue": "",
+                                    "text": "",
+                                    "rawText": "",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

@@ -41,6 +41,7 @@ import { for } from "iteration"
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,
@@ -50,16 +51,7 @@ import { for } from "iteration"
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "for",
-                                        "rawText": "for",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 12
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "for",

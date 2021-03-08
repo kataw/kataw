@@ -302,8 +302,8 @@ type PickByValueType<T, U> = {
                                 },
                                 {
                                     "kind": 8400,
-                                    "value": "kind",
-                                    "rawValue": "kind",
+                                    "text": "kind",
+                                    "rawText": "kind",
                                     "flags": 0,
                                     "intersects": false,
                                     "transformFlags": 2097152,

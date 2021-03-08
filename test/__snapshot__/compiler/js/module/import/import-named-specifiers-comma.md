@@ -41,6 +41,7 @@ import {bar, baz,} from "foo";
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,
@@ -50,16 +51,7 @@ import {bar, baz,} from "foo";
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "bar",
-                                        "rawText": "bar",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 11
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "bar",
@@ -79,16 +71,7 @@ import {bar, baz,} from "foo";
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "baz",
-                                        "rawText": "baz",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 12,
-                                        "end": 16
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "baz",

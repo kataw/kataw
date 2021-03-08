@@ -40,6 +40,7 @@ import {a: b} from "bar";
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": null,
                     "namedImports": {
                         "kind": 153,
@@ -49,16 +50,7 @@ import {a: b} from "bar";
                                 {
                                     "kind": 113,
                                     "moduleExportName": null,
-                                    "name": {
-                                        "kind": 4325406,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 65536,
-                                        "intersects": false,
-                                        "transformFlags": 0,
-                                        "start": 8,
-                                        "end": 9
-                                    },
+                                    "name": null,
                                     "binding": {
                                         "kind": 4325406,
                                         "text": "a",

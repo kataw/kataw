@@ -41,6 +41,7 @@ import * as a from "y"
                 "moduleSpecifier": null,
                 "importClause": {
                     "kind": 109,
+                    "defaultBinding": null,
                     "nameSpaceImport": {
                         "kind": 131102,
                         "text": "a",

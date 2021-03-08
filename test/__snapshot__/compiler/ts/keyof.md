@@ -535,8 +535,8 @@ type J = ((((keyof T1))))["foo"];
                     },
                     "indexType": {
                         "kind": 8400,
-                        "value": "foo",
-                        "rawValue": "foo",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
@@ -616,8 +616,8 @@ type J = ((((keyof T1))))["foo"];
                     },
                     "indexType": {
                         "kind": 8400,
-                        "value": "foo",
-                        "rawValue": "foo",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
@@ -705,8 +705,8 @@ type J = ((((keyof T1))))["foo"];
                     },
                     "indexType": {
                         "kind": 8400,
-                        "value": "foo",
-                        "rawValue": "foo",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
@@ -802,8 +802,8 @@ type J = ((((keyof T1))))["foo"];
                     },
                     "indexType": {
                         "kind": 8400,
-                        "value": "foo",
-                        "rawValue": "foo",
+                        "text": "foo",
+                        "rawText": "foo",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,

@@ -38,8 +38,8 @@ type B = import("B").X<Y>;
                     "isTypeOf": true,
                     "argument": {
                         "kind": 8400,
-                        "value": "A",
-                        "rawValue": "A",
+                        "text": "A",
+                        "rawText": "A",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
@@ -78,8 +78,8 @@ type B = import("B").X<Y>;
                     "isTypeOf": false,
                     "argument": {
                         "kind": 8400,
-                        "value": "B",
-                        "rawValue": "B",
+                        "text": "B",
+                        "rawText": "B",
                         "flags": 0,
                         "intersects": false,
                         "transformFlags": 2097152,
