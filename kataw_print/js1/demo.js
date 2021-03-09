@@ -157,7 +157,7 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.toSource(this.$input.val(), { jsx: false});
+        result = kataw.toSource1(this.$input.val(), { jsx: false});
       } catch (e) {
         result = e.message || e;
       }
