@@ -385,7 +385,6 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
     case NodeKind.CallSignature:
     case NodeKind.IndexSignature:
     case NodeKind.ConstructorType:
-    case NodeKind.AbstractConstructorType:
       return (
         visitNode(node.accessModifier, node, visitor) ||
         visitNode(node.typeParameters, node, visitor) ||

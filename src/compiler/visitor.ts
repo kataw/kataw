@@ -648,10 +648,10 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.type, visitor)
       );
 
-    case NodeKind.AbstractConstructorType:
     case NodeKind.ConstructorType:
       return updateConstructorType(
         node,
+        node.isAbstract,
         node.isReadOnly,
         visitNode(node.accessModifier, visitor),
         visitNode(node.typeParameters, visitor),

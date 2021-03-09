@@ -5353,17 +5353,17 @@ function parseFunctionType(parser: ParserState, context: Context, pos: number): 
 function parseConstructorType(
   parser: ParserState,
   context: Context,
+  isAbstract: boolean,
   accessModifier: AccessModifier | null
 ): ConstructorType {
   const pos = parser.curPos;
-  const isAbstract = consumeOpt(parser, context, Token.AbstractKeyword);
   nextToken(parser, context);
   const typeParameters = parseTypeParameters(parser, context | Context.AllowConditionalTypes);
   const parameters = parseParameterList(parser, context);
   consume(parser, context, Token.Arrow);
   const type = parseTypeOrTypePredicate(parser, context);
-  if (isAbstract) parser.nodeFlags |= NodeFlags.Abstract;
   return createConstructorType(
+    isAbstract,
     /* isReadOnly */ false,
     accessModifier,
     typeParameters,
@@ -5407,6 +5407,11 @@ function parseTypeParameterOfInferType(parser: ParserState, context: Context): T
   );
 }
 
+function nextTokenIsNewKeywordOnSameLine(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return parser.token === Token.NewKeyword && (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0;
+}
+
 function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
   switch (parser.token) {
     case Token.AnyKeyword:
@@ -5438,8 +5443,12 @@ function parsePrimaryType(parser: ParserState, context: Context): TypeNode {
     case Token.LessThan:
       return parseFunctionTypeWithTypeParameters(parser, context);
     case Token.AbstractKeyword:
+      if (tryParse(parser, context, nextTokenIsNewKeywordOnSameLine)) {
+        return parseConstructorType(parser, context, /* isAbstract */ true, null);
+      }
+      return parseTypeReference(parser, context);
     case Token.NewKeyword:
-      return parseConstructorType(parser, context, null);
+      return parseConstructorType(parser, context, /* isAbstract */ false, null);
     case Token.BigIntLiteral:
       return parseBigIntType(parser, context);
     case Token.TrueKeyword:
