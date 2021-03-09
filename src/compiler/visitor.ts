@@ -447,7 +447,8 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
         visitNode(node.classHeritage, visitor),
         visitNode(node.implementClauses, visitor),
         visitNode(node.members, visitor),
-        visitNode(node.decorators, visitor)
+        visitNode(node.decorators, visitor),
+        node.isAbstract
       );
     case NodeKind.CommaOperator:
       return updateCommaOperator(node, visitNodes(node.expressions, visitor));

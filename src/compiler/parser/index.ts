@@ -73,6 +73,10 @@ import { createSemicolon, Semicolon } from '../ast/expressions/semicolon';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
 import { Expression, MethodName } from '../ast/expressions/index';
 import { createNamedExports, NamedExports } from '../ast/module/named-exports';
+import {
+  createNamespaceExportDeclaration,
+  NamespaceExportDeclaration
+} from '../ast/module/namespace-export-declaration';
 import { createExternalModuleReference, ExternalModuleReference } from '../ast/module/external-module-reference';
 import { createExportAssignment, ExportAssignment } from '../ast/module/export-assignment';
 import { createImportEqualsDeclaration, ImportEqualsDeclaration } from '../ast/module/import-equals-declaration';
@@ -301,8 +305,11 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     case Token.ClassKeyword:
       return parseClassDeclaration(parser, context);
     case Token.AbstractKeyword:
+      // We are doing a lookahead here, so we need to check if the declared mask is set
+      // and prevent it from being unset for cases like 'export declare abstract class y {}'
+      const isDeclared = (parser.nodeFlags & NodeFlags.Declared) !== 0;
       if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
-        parser.nodeFlags |= NodeFlags.Abstract;
+        parser.nodeFlags |= NodeFlags.Abstract | (isDeclared ? NodeFlags.Declared : NodeFlags.None);
         if (parser.token !== Token.ClassKeyword) {
           reportErrorDiagnostic(
             parser,
@@ -337,6 +344,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
           ? parseModuleItemList(parser, context)
           : parseStatementListItem(parser, context);
       }
+      return parseStatement(parser, context, /* allowFunction */ true);
     case Token.TypeKeyword:
       return parseTypeAliasDeclaration(parser, context);
     case Token.InterfaceKeyword:
@@ -371,6 +379,7 @@ function canFollowAbstractOrDeclareKeyword(token: Token): boolean {
     // allow this so that we can report them in the grammar checker.
     case Token.VarKeyword:       // declare var x;
     case Token.LetKeyword:       // declare let x;
+    case Token.AbstractKeyword:  // declare abstract class y {}
     case Token.ConstKeyword:     // declare const x = y;
     case Token.ExportKeyword:    // declare export let x;
     case Token.ImportKeyword:    // declare import x from "y";
@@ -4472,7 +4481,13 @@ function parseFromClause(parser: ParserState, context: Context): StringLiteral |
 function parseExportDeclaration(
   parser: ParserState,
   context: Context
-): ExportDeclaration | ExportDefault | ExpressionStatement | LabelledStatement | ImportEqualsDeclaration {
+):
+  | ExportDeclaration
+  | ExportDefault
+  | ExpressionStatement
+  | NamespaceExportDeclaration
+  | LabelledStatement
+  | ImportEqualsDeclaration {
   const pos = parser.curPos;
   const nodeFlags = parser.nodeFlags;
   nextToken(parser, context | Context.AllowRegExp);
@@ -4526,6 +4541,7 @@ function parseExportDeclaration(
       }
       reportErrorDiagnostic(parser, 0, DiagnosticCode.Declaration_or_statement_expected);
       return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+    // `export import A = B;`
     case Token.ImportKeyword:
       nextToken(parser, context);
       return parseImportEqualsDeclaration(
@@ -4535,6 +4551,10 @@ function parseExportDeclaration(
         /* isTypeOnly */ false,
         pos
       );
+    // `export as namespace A;`
+    case Token.AsKeyword:
+      return parseNamespaceExportDeclaration(parser, context);
+    // `export = x;`
     case Token.Assign:
       return parseExportAssignment(parser, context);
     case Token.TypeKeyword:
@@ -4563,6 +4583,15 @@ function parseExportDeclaration(
     pos,
     parser.curPos
   );
+}
+
+function parseNamespaceExportDeclaration(parser: ParserState, context: Context): NamespaceExportDeclaration {
+  const pos = parser.curPos;
+  nextToken(parser, context);
+  consume(parser, context, Token.NamespaceKeyword);
+  const name = parseIdentifierReference(parser, context);
+  parseSemicolon(parser, context);
+  return createNamespaceExportDeclaration(name, parser.nodeFlags, pos, parser.curPos);
 }
 
 function parseExportAssignment(parser: ParserState, context: Context): ExportAssignment {
@@ -4619,17 +4648,20 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
   return createExportsList(specifiers, parser.nodeFlags, pos, parser.curPos);
 }
 
- // ExportSpecifier :
-  //   IdentifierName
-  //   IdentifierName `as` IdentifierName
-  //   IdentifierName `as` ModuleExportName
-  //   ModuleExportName
-  //   ModuleExportName `as` ModuleExportName
-  //   ModuleExportName `as` IdentifierName
+// ExportSpecifier :
+//   IdentifierName
+//   IdentifierName `as` IdentifierName
+//   IdentifierName `as` ModuleExportName
+//   ModuleExportName
+//   ModuleExportName `as` ModuleExportName
+//   ModuleExportName `as` IdentifierName
 function parseExportSpecifier(parser: ParserState, context: Context): ExportSpecifier {
   const pos = parser.curPos;
   let moduleExportName: StringLiteral | null = null;
-  let localName = parser.token === Token.StringLiteral ? parseModuleExportName(parser, context) : parseIdentifierName(parser, context);
+  let localName =
+    parser.token === Token.StringLiteral
+      ? parseModuleExportName(parser, context)
+      : parseIdentifierName(parser, context);
   let exportedName = null;
   if (consumeOpt(parser, context, Token.AsKeyword)) {
     if (parser.token === Token.StringLiteral) {
@@ -4638,7 +4670,7 @@ function parseExportSpecifier(parser: ParserState, context: Context): ExportSpec
       exportedName = parseIdentifierName(parser, context);
     }
   }
-  return createExportSpecifier(localName, moduleExportName, exportedName , parser.nodeFlags, pos, parser.curPos);
+  return createExportSpecifier(localName, moduleExportName, exportedName, parser.nodeFlags, pos, parser.curPos);
 }
 
 // ExportDefault :
@@ -4710,6 +4742,7 @@ function parseClassDeclaration(parser: ParserState, context: Context): ClassDecl
       : // Empty list
         createClassElementList([], parser.nodeFlags, curPos, curPos),
     decorator,
+    (nodeFlags & NodeFlags.Abstract) !== 0,
     nodeFlags | parser.nodeFlags,
     curPos,
     parser.curPos

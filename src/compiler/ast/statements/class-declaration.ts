@@ -17,6 +17,7 @@ export interface ClassDeclaration extends Node {
   readonly implementClauses: ImplementClauses | null;
   readonly members: ClassElementList;
   readonly decorators: DecoratorList | null;
+  readonly isAbstract: boolean;
 }
 
 export function createClassDeclaration(
@@ -27,6 +28,7 @@ export function createClassDeclaration(
   implementClauses: ImplementClauses | null,
   members: ClassElementList,
   decorators: DecoratorList | null,
+  isAbstract: boolean,
   flags: NodeFlags,
   start: number,
   end: number
@@ -39,6 +41,7 @@ export function createClassDeclaration(
     implementClauses,
     members,
     decorators,
+    isAbstract,
     flags,
     intersects: false,
     transformFlags:
@@ -55,14 +58,16 @@ export function updateClassDeclaration(
   classHeritage: Expression | null,
   implementClauses: ImplementClauses | null,
   members: ClassElementList,
-  decorators: DecoratorList | null
+  decorators: DecoratorList | null,
+  isAbstract: boolean
 ): ClassDeclaration {
   return node.name !== name ||
     node.typeParameters !== typeParameters ||
     node.classHeritage !== classHeritage ||
     node.implementClauses !== implementClauses ||
     node.members !== members ||
-    node.decorators !== decorators
+    node.decorators !== decorators ||
+    node.isAbstract !== isAbstract
     ? updateNode(
         createClassDeclaration(
           name,
@@ -71,6 +76,7 @@ export function updateClassDeclaration(
           implementClauses,
           members,
           decorators,
+          isAbstract,
           node.flags,
           node.start,
           node.end

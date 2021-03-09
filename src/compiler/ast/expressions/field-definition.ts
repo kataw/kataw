@@ -12,6 +12,7 @@ import { AccessModifier } from '../types/access-modifier';
  */
 export interface FieldDefinition extends Node {
   readonly key: Expression | PrivateIdentifier;
+  readonly isAbstract: boolean;
   readonly isReadOnly: boolean;
   readonly isOptional: boolean;
   readonly exclamation: boolean;
@@ -38,11 +39,11 @@ export function createFieldDefinition(
   start: number,
   end: number
 ): FieldDefinition {
-  if (isAbstract) flags |= NodeFlags.Abstract;
   if (isDeclared) flags |= NodeFlags.Declared;
   return {
     kind: NodeKind.FieldDefinition,
     key,
+    isAbstract,
     isReadOnly,
     isOptional,
     exclamation,

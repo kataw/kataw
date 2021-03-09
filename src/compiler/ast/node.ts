@@ -1,4 +1,3 @@
-
 // Every single valid AST Node Kind
 // Please keep it sorted alphabetically.
 export const enum NodeKind {
@@ -282,6 +281,7 @@ export const enum NodeKind {
   CatchParameter = 251 | IsStatement,
   NamespaceBlock = 252 | IsStatement | IsTypescript,
   NamespaceDeclaration = 253 | IsStatement | IsTypescript,
+  NamespaceExportDeclaration = 254 | IsTypescript,
 
   // Tokens
 
@@ -291,7 +291,7 @@ export const enum NodeKind {
 /**
  * Properties for every single valid AST Node type.
  */
- export interface Node {
+export interface Node {
   kind: NodeKind;
   flags: NodeFlags;
   intersects: boolean;
@@ -426,7 +426,7 @@ export const enum NodeFlags {
   Module = 1 << 17,
 
   /**
-   * This node contains a construcor (Methoddefinition)
+   * This node contains a construcor (Method definition)
    */
 
   Constructor = 1 << 18,
