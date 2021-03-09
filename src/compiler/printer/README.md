@@ -56,9 +56,7 @@ The second argument allows you to specify various options:
 ## Fragment printing
 
 Kataw introduces "fragment printing", and allows you to only print part of your AST. This will help in testing environments and if you are developing
-your own transformers.
-
-
+your own transformers or if you want to pretty print either a module or a script without the ECMA limitation of module / script parsing.
 ```js
 
 const fragment = {
