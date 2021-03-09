@@ -73,6 +73,7 @@ class x {}
                     "start": 1,
                     "end": 2
                 },
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

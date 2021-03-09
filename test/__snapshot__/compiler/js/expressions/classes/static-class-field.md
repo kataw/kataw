@@ -50,6 +50,7 @@ class x { static #foo = bar }
                                 "start": 16,
                                 "end": 21
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -81,6 +82,7 @@ class x { static #foo = bar }
                     "end": 29
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

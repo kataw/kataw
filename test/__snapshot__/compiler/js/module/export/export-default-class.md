@@ -44,6 +44,7 @@ export default class {}
                         "end": 23
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,

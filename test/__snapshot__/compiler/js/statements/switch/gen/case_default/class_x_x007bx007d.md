@@ -49,6 +49,7 @@ case class x {} default
                     "end": 15
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

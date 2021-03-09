@@ -64,6 +64,7 @@ class A extends A { }
                     "end": 21
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -113,6 +114,7 @@ class A extends A { }
                     "end": 43
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

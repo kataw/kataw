@@ -105,6 +105,7 @@ class A extends function f(){} {}
                     "end": 33
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

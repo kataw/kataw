@@ -198,6 +198,7 @@ class D {
                     "end": 94
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -374,6 +375,7 @@ class D {
                     "end": 172
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

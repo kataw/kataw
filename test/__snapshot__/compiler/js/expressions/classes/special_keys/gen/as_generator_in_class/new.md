@@ -114,6 +114,7 @@ class x {* new(){}}
                     "end": 19
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

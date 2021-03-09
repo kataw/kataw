@@ -72,6 +72,7 @@ class C extends Base { a\n get }
                                 "start": 22,
                                 "end": 24
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class C extends Base { a\n get }
                     "end": 24
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

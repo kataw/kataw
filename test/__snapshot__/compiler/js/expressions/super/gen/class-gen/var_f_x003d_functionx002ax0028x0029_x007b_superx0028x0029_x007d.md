@@ -228,6 +228,7 @@ class C { *method() { var f = function*() { super(); } } }
                     "end": 58
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

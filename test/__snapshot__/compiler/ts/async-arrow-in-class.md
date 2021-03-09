@@ -52,6 +52,7 @@ class Test {
                                 "start": 23,
                                 "end": 30
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -145,6 +146,7 @@ class Test {
                     "end": 60
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

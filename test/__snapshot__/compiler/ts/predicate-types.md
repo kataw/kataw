@@ -145,6 +145,7 @@ class Foo {
                                 "start": 43,
                                 "end": 51
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -231,6 +232,7 @@ class Foo {
                     "end": 83
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

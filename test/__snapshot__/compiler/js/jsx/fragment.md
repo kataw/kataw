@@ -391,6 +391,7 @@ class Columns extends React.Component {
                     "end": 181
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

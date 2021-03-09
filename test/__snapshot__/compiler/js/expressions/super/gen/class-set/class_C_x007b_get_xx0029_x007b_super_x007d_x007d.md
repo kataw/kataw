@@ -133,6 +133,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
+                                                            "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,
                                                             "exclamation": false,
@@ -155,6 +156,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                     "end": 36
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -199,6 +201,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                     "end": 36
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

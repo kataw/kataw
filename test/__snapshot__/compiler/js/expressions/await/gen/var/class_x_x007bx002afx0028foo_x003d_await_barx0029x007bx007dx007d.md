@@ -252,6 +252,7 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                                         "end": 70
                                                     },
                                                     "decorators": null,
+                                                    "isAbstract": false,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,

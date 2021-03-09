@@ -40,6 +40,7 @@ class class {}
                     "end": 0
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,
@@ -62,6 +63,7 @@ class class {}
                     "end": 14
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

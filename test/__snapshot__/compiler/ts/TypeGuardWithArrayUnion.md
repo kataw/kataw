@@ -58,6 +58,7 @@ function saySize(message: Message | Message[]) {
                                 "start": 15,
                                 "end": 25
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -87,6 +88,7 @@ function saySize(message: Message | Message[]) {
                     "end": 36
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

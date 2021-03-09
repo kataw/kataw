@@ -377,6 +377,7 @@ class parser {
                                 "start": 203,
                                 "end": 211
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1139,6 +1140,7 @@ class parser {
                     "end": 588
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

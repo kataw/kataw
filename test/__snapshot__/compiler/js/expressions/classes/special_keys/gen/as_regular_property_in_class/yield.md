@@ -54,6 +54,7 @@ class x {yield: x}
                                 "start": 9,
                                 "end": 14
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class x {yield: x}
                     "end": 18
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

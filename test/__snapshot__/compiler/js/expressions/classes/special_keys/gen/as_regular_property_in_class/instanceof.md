@@ -54,6 +54,7 @@ class x {instanceof: x}
                                 "start": 9,
                                 "end": 19
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class x {instanceof: x}
                     "end": 23
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

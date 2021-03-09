@@ -282,6 +282,7 @@ class X { '__' = null }
                                 "start": 67,
                                 "end": 72
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -312,6 +313,7 @@ class X { '__' = null }
                     "end": 81
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -320,6 +320,7 @@ const TestRender = () => <TestComponent />;
                                 "start": 126,
                                 "end": 139
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -596,6 +597,7 @@ const TestRender = () => <TestComponent />;
                     "end": 312
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,

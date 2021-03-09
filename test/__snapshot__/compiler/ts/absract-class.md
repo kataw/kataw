@@ -117,6 +117,7 @@ abstract class AbstractRule {
                     "end": 206
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,

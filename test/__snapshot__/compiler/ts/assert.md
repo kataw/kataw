@@ -1194,6 +1194,7 @@ class AssertsFoo {
                                 "start": 516,
                                 "end": 524
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1281,6 +1282,7 @@ class AssertsFoo {
                     "end": 566
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,

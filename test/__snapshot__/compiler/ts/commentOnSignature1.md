@@ -824,6 +824,7 @@ function foo2(a: any): void {
                     "end": 523
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

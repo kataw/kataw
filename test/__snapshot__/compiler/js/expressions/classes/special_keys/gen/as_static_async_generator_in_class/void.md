@@ -114,6 +114,7 @@ class x {static async * void(){}}
                     "end": 33
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

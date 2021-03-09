@@ -1003,6 +1003,7 @@ class A {
                     "end": 311
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,

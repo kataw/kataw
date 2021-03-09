@@ -114,6 +114,7 @@ class x {static get if(){}}
                     "end": 27
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

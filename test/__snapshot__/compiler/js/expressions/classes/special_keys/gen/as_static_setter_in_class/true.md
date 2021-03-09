@@ -140,6 +140,7 @@ class x {static set true(x){}}
                     "end": 30
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

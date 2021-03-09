@@ -748,6 +748,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 220,
                                 "end": 222
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -777,6 +778,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                     "end": 225
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1809,6 +1811,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 561,
                                 "end": 563
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1838,6 +1841,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                     "end": 566
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1892,6 +1896,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 604,
                                 "end": 606
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1921,6 +1926,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                     "end": 608
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1983,6 +1989,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 647,
                                 "end": 649
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -2012,6 +2019,7 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                     "end": 651
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

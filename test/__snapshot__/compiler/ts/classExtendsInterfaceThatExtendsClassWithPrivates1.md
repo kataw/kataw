@@ -186,6 +186,7 @@ class D2 implements I {
                                 "start": 58,
                                 "end": 60
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -224,6 +225,7 @@ class D2 implements I {
                     "end": 67
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -559,6 +561,7 @@ class D2 implements I {
                                 "start": 191,
                                 "end": 193
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -713,6 +716,7 @@ class D2 implements I {
                     "end": 231
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

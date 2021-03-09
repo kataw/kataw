@@ -132,6 +132,7 @@ class C extends Base { get static() {} }
                     "end": 40
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

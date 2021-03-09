@@ -99,6 +99,7 @@ class ClassWithParentAndInterface extends MyOtherClass implements MyInterface {}
                     "end": 80
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

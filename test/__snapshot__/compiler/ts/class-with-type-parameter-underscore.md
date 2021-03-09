@@ -76,6 +76,7 @@ class A<__P> {}
                     "end": 16
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -116,6 +116,7 @@ class x { "prot\u{6f}type"(){} }
                     "end": 32
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,

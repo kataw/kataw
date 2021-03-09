@@ -176,6 +176,7 @@ class C { set x(_) { new super(); } }
                     "end": 37
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

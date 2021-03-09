@@ -1051,6 +1051,7 @@ abstract class Test {
                     "end": 915
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,

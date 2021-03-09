@@ -157,6 +157,7 @@ class x {async f(foo = await bar){}}
                     "end": 36
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

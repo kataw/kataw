@@ -184,6 +184,7 @@ class C {
                     "end": 67
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -328,6 +329,7 @@ class C {
                     "end": 134
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

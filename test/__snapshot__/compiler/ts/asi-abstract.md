@@ -125,6 +125,7 @@ class C3 {
                     "end": 51
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -161,6 +162,7 @@ class C3 {
                                 "start": 63,
                                 "end": 76
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -247,6 +249,7 @@ class C3 {
                     "end": 112
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -283,6 +286,7 @@ class C3 {
                                 "start": 124,
                                 "end": 137
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -305,6 +309,7 @@ class C3 {
                     "end": 139
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

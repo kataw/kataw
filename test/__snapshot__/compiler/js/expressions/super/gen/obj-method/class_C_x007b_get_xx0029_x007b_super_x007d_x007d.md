@@ -92,6 +92,7 @@
                                                                     "start": 27,
                                                                     "end": 29
                                                                 },
+                                                                "isAbstract": false,
                                                                 "isReadOnly": false,
                                                                 "isOptional": false,
                                                                 "exclamation": false,
@@ -114,6 +115,7 @@
                                                         "end": 29
                                                     },
                                                     "decorators": null,
+                                                    "isAbstract": false,
                                                     "flags": 2,
                                                     "intersects": false,
                                                     "transformFlags": 1,

@@ -950,6 +950,7 @@ export class Test  {
                         "end": 461
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,

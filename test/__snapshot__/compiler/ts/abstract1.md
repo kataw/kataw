@@ -187,6 +187,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 62
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -223,6 +224,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 90,
                                 "end": 95
                             },
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -238,7 +240,7 @@ abstract class B extends A { abstract bar(); }
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268500992,
+                            "flags": 65536,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 81,
@@ -252,6 +254,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 106
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -288,6 +291,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 125,
                                 "end": 131
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -346,6 +350,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 138,
                                 "end": 141
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -419,6 +424,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 162
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -455,6 +461,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 181,
                                 "end": 187
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -531,6 +538,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 197,
                                 "end": 200
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -604,6 +612,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 221
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -640,6 +649,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 240,
                                 "end": 246
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -696,6 +706,7 @@ abstract class B extends A { abstract bar(); }
                                 "start": 259,
                                 "end": 262
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -769,6 +780,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 283
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -818,6 +830,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 313
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -915,6 +928,7 @@ abstract class B extends A { abstract bar(); }
                     "end": 360
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268500992,
                 "intersects": false,
                 "transformFlags": 2097153,

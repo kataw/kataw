@@ -80,6 +80,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 11,
                                 "end": 18
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -113,6 +114,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 35,
                                 "end": 37
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -549,6 +551,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                     "end": 198
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -585,6 +588,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 210,
                                 "end": 219
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -841,6 +845,7 @@ static set Bar(bar:string) {barback = bar;} // not ok
                     "end": 330
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -54,6 +54,7 @@ class C { await; }
                                 "start": 9,
                                 "end": 15
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -76,6 +77,7 @@ class C { await; }
                     "end": 18
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

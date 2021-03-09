@@ -45,6 +45,7 @@ class x {}
                     "end": 10
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

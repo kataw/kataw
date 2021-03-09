@@ -117,6 +117,7 @@ class C123 {
                                 "start": 37,
                                 "end": 43
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -150,6 +151,7 @@ class C123 {
                                 "start": 52,
                                 "end": 58
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -243,6 +245,7 @@ class C123 {
                     "end": 95
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

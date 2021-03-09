@@ -110,6 +110,7 @@ class A {*foo(){}}
                     "end": 18
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

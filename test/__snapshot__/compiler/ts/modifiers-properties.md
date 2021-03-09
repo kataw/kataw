@@ -70,6 +70,7 @@ abstract class C {
                                 "start": 31,
                                 "end": 33
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -96,6 +97,7 @@ abstract class C {
                                 "start": 47,
                                 "end": 50
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": true,
                             "exclamation": false,
@@ -129,6 +131,7 @@ abstract class C {
                                 "start": 73,
                                 "end": 75
                             },
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -137,7 +140,7 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 60,
@@ -155,6 +158,7 @@ abstract class C {
                                 "start": 87,
                                 "end": 89
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -181,6 +185,7 @@ abstract class C {
                                 "start": 102,
                                 "end": 105
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -214,6 +219,7 @@ abstract class C {
                                 "start": 120,
                                 "end": 123
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -247,6 +253,7 @@ abstract class C {
                                 "start": 136,
                                 "end": 139
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -280,6 +287,7 @@ abstract class C {
                                 "start": 163,
                                 "end": 166
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -288,7 +296,7 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 140,
@@ -306,6 +314,7 @@ abstract class C {
                                 "start": 189,
                                 "end": 192
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -314,7 +323,7 @@ abstract class C {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 167,
@@ -332,6 +341,7 @@ abstract class C {
                                 "start": 213,
                                 "end": 216
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -358,6 +368,7 @@ abstract class C {
                                 "start": 238,
                                 "end": 242
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -391,6 +402,7 @@ abstract class C {
                                 "start": 263,
                                 "end": 267
                             },
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -406,7 +418,7 @@ abstract class C {
                                 "end": 254
                             },
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 243,
@@ -424,6 +436,7 @@ abstract class C {
                                 "start": 286,
                                 "end": 290
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -457,6 +470,7 @@ abstract class C {
                                 "start": 320,
                                 "end": 325
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -472,7 +486,7 @@ abstract class C {
                                 "end": 302
                             },
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 291,
@@ -490,6 +504,7 @@ abstract class C {
                                 "start": 355,
                                 "end": 360
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -505,7 +520,7 @@ abstract class C {
                                 "end": 337
                             },
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 326,
@@ -523,6 +538,7 @@ abstract class C {
                                 "start": 388,
                                 "end": 393
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -552,6 +568,7 @@ abstract class C {
                     "end": 396
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,

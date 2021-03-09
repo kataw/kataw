@@ -71,6 +71,7 @@
                                 "end": 11
                             },
                             "decorators": null,
+                            "isAbstract": false,
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,

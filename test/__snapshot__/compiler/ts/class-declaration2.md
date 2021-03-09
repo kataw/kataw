@@ -52,6 +52,7 @@ class Foo { private readonly foo; } // correct
                                 "start": 20,
                                 "end": 28
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -78,6 +79,7 @@ class Foo { private readonly foo; } // correct
                                 "start": 28,
                                 "end": 32
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -100,6 +102,7 @@ class Foo { private readonly foo; } // correct
                     "end": 35
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -136,6 +139,7 @@ class Foo { private readonly foo; } // correct
                                 "start": 74,
                                 "end": 78
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -165,6 +169,7 @@ class Foo { private readonly foo; } // correct
                     "end": 81
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

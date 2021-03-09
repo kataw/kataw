@@ -262,6 +262,7 @@ class List<U> implements IList<U> {
                     "end": 68
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

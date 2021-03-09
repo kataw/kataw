@@ -99,6 +99,7 @@ x; {}
                                     "end": 14
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 16386,
                                 "intersects": false,
                                 "transformFlags": 1,

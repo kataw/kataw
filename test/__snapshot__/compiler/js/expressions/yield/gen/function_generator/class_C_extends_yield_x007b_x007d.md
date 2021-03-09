@@ -123,6 +123,7 @@ function * gen() { function not_gen() { class C extends yield { } }}
                                                     "end": 65
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,

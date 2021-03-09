@@ -52,6 +52,7 @@ declare class D extends C { }
                     "end": 19
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 1,
@@ -101,6 +102,7 @@ declare class D extends C { }
                     "end": 49
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 1,
@@ -137,6 +139,7 @@ declare class D extends C { }
                                 "start": 79,
                                 "end": 83
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -166,6 +169,7 @@ declare class D extends C { }
                     "end": 86
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 1,
@@ -283,6 +287,7 @@ declare class D extends C { }
                     "end": 139
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 1,

@@ -117,6 +117,7 @@ class x { get prototype(){} }
                     "end": 29
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,

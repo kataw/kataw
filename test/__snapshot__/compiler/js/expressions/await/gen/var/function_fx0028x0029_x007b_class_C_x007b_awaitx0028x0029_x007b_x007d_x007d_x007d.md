@@ -220,6 +220,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                         "end": 77
                                                                     },
                                                                     "decorators": null,
+                                                                    "isAbstract": false,
                                                                     "flags": 0,
                                                                     "intersects": false,
                                                                     "transformFlags": 1,

@@ -169,6 +169,7 @@ export namespace E {}
                         "end": 54
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 81920,
                     "intersects": false,
                     "transformFlags": 1,

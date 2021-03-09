@@ -226,6 +226,7 @@ class C extends (function B() {
                     "end": 72
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

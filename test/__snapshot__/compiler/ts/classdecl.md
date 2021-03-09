@@ -440,6 +440,7 @@ class e {
                                 "start": 158,
                                 "end": 161
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -988,6 +989,7 @@ class e {
                                 "start": 419,
                                 "end": 423
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1370,6 +1372,7 @@ class e {
                     "end": 562
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1627,6 +1630,7 @@ class e {
                                 "start": 681,
                                 "end": 684
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1660,6 +1664,7 @@ class e {
                                 "start": 696,
                                 "end": 698
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1700,6 +1705,7 @@ class e {
                                 "start": 719,
                                 "end": 722
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1853,6 +1859,7 @@ class e {
                                 "start": 779,
                                 "end": 782
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1879,6 +1886,7 @@ class e {
                                 "start": 795,
                                 "end": 799
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1988,6 +1996,7 @@ class e {
                     "end": 822
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2373,6 +2382,7 @@ class e {
                     "end": 970
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2758,6 +2768,7 @@ class e {
                     "end": 1118
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

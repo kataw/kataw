@@ -254,6 +254,7 @@ class C { set x(_) { var f = function*() { super(); } } }
                     "end": 57
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

@@ -67,6 +67,7 @@ class x extends package {}
                     "end": 26
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

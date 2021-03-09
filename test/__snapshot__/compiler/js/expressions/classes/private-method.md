@@ -117,6 +117,7 @@ class x { #foo() {}}
                     "end": 20
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,

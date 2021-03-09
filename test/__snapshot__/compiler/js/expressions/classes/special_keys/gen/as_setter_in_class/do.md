@@ -140,6 +140,7 @@ class x {set do(x){}}
                     "end": 21
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

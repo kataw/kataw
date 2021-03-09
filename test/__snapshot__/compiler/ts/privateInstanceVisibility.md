@@ -130,6 +130,7 @@ class C {
                                                 "start": 58,
                                                 "end": 69
                                             },
+                                            "isAbstract": false,
                                             "isReadOnly": false,
                                             "isOptional": false,
                                             "exclamation": false,
@@ -404,6 +405,7 @@ class C {
                                     "end": 259
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
@@ -464,6 +466,7 @@ class C {
                                 "start": 288,
                                 "end": 290
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -794,6 +797,7 @@ class C {
                     "end": 388
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -84,6 +84,7 @@ class ItemSetEvent extends Event {
                                 "start": 37,
                                 "end": 48
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -494,6 +495,7 @@ class ItemSetEvent extends Event {
                     "end": 351
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -773,6 +775,7 @@ class ItemSetEvent extends Event {
                     "end": 465
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -61,6 +61,7 @@ class Square {
                                 "start": 14,
                                 "end": 24
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -620,6 +621,7 @@ class Square {
                     "end": 246
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

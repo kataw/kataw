@@ -80,6 +80,7 @@ var Test = (function () {
                     "end": 40
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -260,6 +261,7 @@ var Test = (function () {
                     "end": 131
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -422,6 +424,7 @@ var Test = (function () {
                     "end": 215
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

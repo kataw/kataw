@@ -103,6 +103,7 @@ catch class x {} finally
                     "end": 16
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

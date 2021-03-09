@@ -119,6 +119,7 @@ class Test {}
                     "end": 34
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,

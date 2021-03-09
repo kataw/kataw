@@ -325,6 +325,7 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                         "end": 86
                                                     },
                                                     "decorators": null,
+                                                    "isAbstract": false,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,

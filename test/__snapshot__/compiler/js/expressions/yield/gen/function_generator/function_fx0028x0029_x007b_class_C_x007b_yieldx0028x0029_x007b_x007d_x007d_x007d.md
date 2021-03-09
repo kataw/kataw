@@ -198,6 +198,7 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                                     "end": 78
                                                                 },
                                                                 "decorators": null,
+                                                                "isAbstract": false,
                                                                 "flags": 0,
                                                                 "intersects": false,
                                                                 "transformFlags": 1,

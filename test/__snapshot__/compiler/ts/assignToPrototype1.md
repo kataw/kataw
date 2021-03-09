@@ -170,6 +170,7 @@ Point.prototype.add = function(dx, dy) {
                     "end": 60
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201342976,
                 "intersects": false,
                 "transformFlags": 1,

@@ -56,6 +56,7 @@ class x { import {x} from "y"; }
                                 "start": 9,
                                 "end": 16
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -78,6 +79,7 @@ class x { import {x} from "y"; }
                     "end": 16
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65538,
                 "intersects": false,
                 "transformFlags": 1,

@@ -67,6 +67,7 @@
                                         "start": 27,
                                         "end": 27
                                     },
+                                    "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,
                                     "exclamation": false,

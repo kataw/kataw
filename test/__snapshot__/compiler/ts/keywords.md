@@ -419,6 +419,7 @@ class G {
                                 "start": 109,
                                 "end": 109
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -576,6 +577,7 @@ class G {
                     "end": 139
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1266,6 +1268,7 @@ class G {
                     "end": 280
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1302,6 +1305,7 @@ class G {
                                 "start": 291,
                                 "end": 300
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1388,6 +1392,7 @@ class G {
                     "end": 317
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1560,6 +1565,7 @@ class G {
                     "end": 377
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1697,6 +1703,7 @@ class G {
                     "end": 420
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1835,6 +1842,7 @@ class G {
                     "end": 462
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

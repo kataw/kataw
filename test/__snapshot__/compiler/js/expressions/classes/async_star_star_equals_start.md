@@ -56,6 +56,7 @@ class A {async **=f(){}}
                                 "start": 14,
                                 "end": 14
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -78,6 +79,7 @@ class A {async **=f(){}}
                     "end": 14
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

@@ -70,6 +70,7 @@ class B {}
                     "end": 19
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,

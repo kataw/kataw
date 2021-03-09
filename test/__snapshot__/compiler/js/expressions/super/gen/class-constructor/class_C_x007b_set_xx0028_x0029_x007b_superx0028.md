@@ -229,6 +229,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                     "end": 57
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -273,6 +274,7 @@ class C { constructor() { class C { set x(_) { super( } }
                     "end": 57
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

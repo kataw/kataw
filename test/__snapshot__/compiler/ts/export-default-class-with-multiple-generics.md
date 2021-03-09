@@ -97,6 +97,7 @@ export default class<T, U> {
                         "end": 31
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,

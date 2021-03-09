@@ -27,38 +27,7 @@ export as namespace A;
         "kind": 150,
         "statements": [
             {
-                "kind": 76,
-                "declaration": null,
-                "namedExports": null,
-                "exportFromClause": null,
-                "fromClause": null,
-                "isTypeOnly": false,
-                "flags": 65538,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 0,
-                "end": 6
-            },
-            {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "as",
-                    "rawText": "as",
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 0,
-                    "start": 6,
-                    "end": 9
-                },
-                "flags": 0,
-                "intersects": false,
-                "transformFlags": 0,
-                "start": 6,
-                "end": 9
-            },
-            {
-                "kind": 2105597,
+                "kind": 8446,
                 "name": {
                     "kind": 196712,
                     "text": "A",
@@ -69,28 +38,10 @@ export as namespace A;
                     "start": 19,
                     "end": 21
                 },
-                "body": {
-                    "kind": 2105596,
-                    "statements": [],
-                    "multiline": false,
-                    "flags": 65538,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 21,
-                    "end": 21
-                },
-                "flags": 65538,
-                "intersects": false,
-                "transformFlags": 2097152,
-                "start": 9,
-                "end": 21
-            },
-            {
-                "kind": 6291526,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 21,
+                "start": 6,
                 "end": 22
             }
         ],
@@ -102,29 +53,7 @@ export as namespace A;
     },
     "jsx": false,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "Unexpected token.",
-            "start": 7,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "';' expected.",
-            "start": 10,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "'{' expected.",
-            "start": 21,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "incremental": false,
     "flags": 0,
     "intersects": false,

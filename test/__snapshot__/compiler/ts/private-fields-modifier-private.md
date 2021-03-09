@@ -52,6 +52,7 @@ class A {
                                 "start": 19,
                                 "end": 22
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -81,6 +82,7 @@ class A {
                     "end": 25
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

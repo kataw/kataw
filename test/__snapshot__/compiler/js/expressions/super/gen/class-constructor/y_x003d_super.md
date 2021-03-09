@@ -168,6 +168,7 @@ class C { constructor() { y = super } }
                     "end": 39
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

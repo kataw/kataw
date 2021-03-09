@@ -132,6 +132,7 @@ declare class C {
                     "end": 39
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 201326592,
                 "intersects": false,
                 "transformFlags": 1,

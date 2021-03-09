@@ -229,6 +229,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                     "end": 53
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -273,6 +274,7 @@ class C { *method() { class C { set x(_) { super( } }
                     "end": 53
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

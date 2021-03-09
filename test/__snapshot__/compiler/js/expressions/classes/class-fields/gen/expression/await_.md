@@ -72,6 +72,7 @@ class C extends Base { await; }
                                 "start": 22,
                                 "end": 28
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class C extends Base { await; }
                     "end": 31
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

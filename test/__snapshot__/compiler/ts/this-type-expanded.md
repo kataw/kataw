@@ -78,6 +78,7 @@ class A {
                                 "start": 18,
                                 "end": 20
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1212,6 +1213,7 @@ class A {
                     "end": 451
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

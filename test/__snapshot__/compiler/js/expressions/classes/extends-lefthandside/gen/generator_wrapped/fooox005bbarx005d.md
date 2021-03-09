@@ -115,6 +115,7 @@ function *P(){
                                     "end": 45
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,

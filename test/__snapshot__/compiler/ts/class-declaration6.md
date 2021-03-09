@@ -126,6 +126,7 @@ class Derived extends Base {
                                 "start": 42,
                                 "end": 47
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -240,6 +241,7 @@ class Derived extends Base {
                     "end": 91
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -472,6 +474,7 @@ class Derived extends Base {
                     "end": 285
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

@@ -164,6 +164,7 @@ class B3 extends A3 {
                                 "start": 56,
                                 "end": 58
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -204,6 +205,7 @@ class B3 extends A3 {
                                 "start": 88,
                                 "end": 91
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -462,6 +464,7 @@ class B3 extends A3 {
                     "end": 209
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -852,6 +855,7 @@ class B3 extends A3 {
                     "end": 411
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -906,6 +910,7 @@ class B3 extends A3 {
                                 "start": 483,
                                 "end": 489
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -939,6 +944,7 @@ class B3 extends A3 {
                                 "start": 509,
                                 "end": 512
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1214,6 +1220,7 @@ class B3 extends A3 {
                     "end": 616
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2027,6 +2034,7 @@ class B3 extends A3 {
                                 "start": 866,
                                 "end": 868
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -2056,6 +2064,7 @@ class B3 extends A3 {
                     "end": 871
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2110,6 +2119,7 @@ class B3 extends A3 {
                                 "start": 892,
                                 "end": 898
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -2132,6 +2142,7 @@ class B3 extends A3 {
                     "end": 901
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2186,6 +2197,7 @@ class B3 extends A3 {
                                 "start": 922,
                                 "end": 928
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -2789,6 +2801,7 @@ class B3 extends A3 {
                     "end": 1187
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -2843,6 +2856,7 @@ class B3 extends A3 {
                                 "start": 1208,
                                 "end": 1214
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -2865,6 +2879,7 @@ class B3 extends A3 {
                     "end": 1217
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3059,6 +3074,7 @@ class B3 extends A3 {
                     "end": 1301
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3095,6 +3111,7 @@ class B3 extends A3 {
                                 "start": 1327,
                                 "end": 1329
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3124,6 +3141,7 @@ class B3 extends A3 {
                     "end": 1332
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3160,6 +3178,7 @@ class B3 extends A3 {
                                 "start": 1343,
                                 "end": 1349
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3182,6 +3201,7 @@ class B3 extends A3 {
                     "end": 1352
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3406,6 +3426,7 @@ class B3 extends A3 {
                                 "start": 1506,
                                 "end": 1508
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3435,6 +3456,7 @@ class B3 extends A3 {
                     "end": 1511
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3489,6 +3511,7 @@ class B3 extends A3 {
                                 "start": 1533,
                                 "end": 1539
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3511,6 +3534,7 @@ class B3 extends A3 {
                     "end": 1542
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3547,6 +3571,7 @@ class B3 extends A3 {
                                 "start": 1554,
                                 "end": 1560
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3569,6 +3594,7 @@ class B3 extends A3 {
                     "end": 1563
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -3623,6 +3649,7 @@ class B3 extends A3 {
                                 "start": 1646,
                                 "end": 1648
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -3652,6 +3679,7 @@ class B3 extends A3 {
                     "end": 1651
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

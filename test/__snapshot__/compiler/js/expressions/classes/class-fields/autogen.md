@@ -290,6 +290,7 @@ class C extends Base { # }
                                         "start": 8,
                                         "end": 10
                                     },
+                                    "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,
                                     "exclamation": false,

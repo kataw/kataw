@@ -107,6 +107,7 @@ class C { *method() { class C { get x) { super; } } } }
                                                                 "start": 35,
                                                                 "end": 37
                                                             },
+                                                            "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,
                                                             "exclamation": false,
@@ -129,6 +130,7 @@ class C { *method() { class C { get x) { super; } } } }
                                                     "end": 37
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -173,6 +175,7 @@ class C { *method() { class C { get x) { super; } } } }
                     "end": 37
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

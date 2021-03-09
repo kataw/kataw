@@ -54,6 +54,7 @@ class x {var: x}
                                 "start": 9,
                                 "end": 12
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class x {var: x}
                     "end": 16
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

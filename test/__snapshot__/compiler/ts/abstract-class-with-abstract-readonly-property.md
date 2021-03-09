@@ -52,6 +52,7 @@ abstract class Foo {
                                 "start": 47,
                                 "end": 51
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -76,7 +77,7 @@ abstract class Foo {
                                 "end": 29
                             },
                             "isStatic": false,
-                            "flags": 268451840,
+                            "flags": 16384,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 20,
@@ -90,6 +91,7 @@ abstract class Foo {
                     "end": 65
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,

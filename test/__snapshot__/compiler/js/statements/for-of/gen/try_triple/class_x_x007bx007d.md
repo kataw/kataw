@@ -184,6 +184,7 @@ try try try class x {}
                     "end": 22
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

@@ -63,6 +63,7 @@ namespace x {
                                 "end": 42
                             },
                             "decorators": null,
+                            "isAbstract": true,
                             "flags": 268451872,
                             "intersects": false,
                             "transformFlags": 2097153,

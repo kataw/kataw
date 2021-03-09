@@ -49,6 +49,7 @@ class private {}
                     "end": 16
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

@@ -174,6 +174,7 @@ class ClassWithThreeMembers {
                     "end": 54
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -210,6 +211,7 @@ class ClassWithThreeMembers {
                                 "start": 79,
                                 "end": 90
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -303,6 +305,7 @@ class ClassWithThreeMembers {
                     "end": 132
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -424,6 +427,7 @@ class ClassWithThreeMembers {
                     "end": 190
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -460,6 +464,7 @@ class ClassWithThreeMembers {
                                 "start": 216,
                                 "end": 228
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -553,6 +558,7 @@ class ClassWithThreeMembers {
                     "end": 270
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -674,6 +680,7 @@ class ClassWithThreeMembers {
                     "end": 330
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -710,6 +717,7 @@ class ClassWithThreeMembers {
                                 "start": 358,
                                 "end": 372
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -803,6 +811,7 @@ class ClassWithThreeMembers {
                     "end": 416
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -839,6 +848,7 @@ class ClassWithThreeMembers {
                                 "start": 447,
                                 "end": 458
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -865,6 +875,7 @@ class ClassWithThreeMembers {
                                 "start": 458,
                                 "end": 470
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -891,6 +902,7 @@ class ClassWithThreeMembers {
                                 "start": 470,
                                 "end": 484
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -913,6 +925,7 @@ class ClassWithThreeMembers {
                     "end": 486
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

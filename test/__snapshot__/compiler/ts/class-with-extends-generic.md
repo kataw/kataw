@@ -123,6 +123,7 @@ class Foo<A> extends Bar<B> {
                     "end": 32
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

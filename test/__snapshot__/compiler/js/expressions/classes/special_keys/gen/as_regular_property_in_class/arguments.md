@@ -54,6 +54,7 @@ class x {arguments: x}
                                 "start": 9,
                                 "end": 18
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -94,6 +95,7 @@ class x {arguments: x}
                     "end": 22
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

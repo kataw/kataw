@@ -106,6 +106,7 @@ class n extends ([] = x) {}
                     "end": 27
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 65536,
                 "intersects": false,
                 "transformFlags": 1,

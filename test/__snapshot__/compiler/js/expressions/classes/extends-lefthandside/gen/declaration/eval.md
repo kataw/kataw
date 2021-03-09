@@ -67,6 +67,7 @@ class A extends eval {}
                     "end": 23
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

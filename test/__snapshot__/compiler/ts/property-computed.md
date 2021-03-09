@@ -84,6 +84,7 @@ class C {
                                 "start": 9,
                                 "end": 31
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -148,6 +149,7 @@ class C {
                                 "start": 40,
                                 "end": 62
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": true,
                             "exclamation": false,
@@ -177,6 +179,7 @@ class C {
                     "end": 74
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

@@ -110,6 +110,7 @@ class X { ge\u0074 x() {} }
                     "end": 27
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

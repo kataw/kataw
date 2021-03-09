@@ -243,6 +243,7 @@ class x extends y {
                     "end": 71
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

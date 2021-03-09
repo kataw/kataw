@@ -170,6 +170,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                     "end": 62
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,

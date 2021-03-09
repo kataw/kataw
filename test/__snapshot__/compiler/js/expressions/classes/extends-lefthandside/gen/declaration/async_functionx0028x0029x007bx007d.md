@@ -96,6 +96,7 @@ class A extends async function(){} {}
                     "end": 37
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

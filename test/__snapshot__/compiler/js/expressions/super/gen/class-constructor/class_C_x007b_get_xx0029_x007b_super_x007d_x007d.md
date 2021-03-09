@@ -107,6 +107,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                                 "start": 39,
                                                                 "end": 41
                                                             },
+                                                            "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,
                                                             "exclamation": false,
@@ -129,6 +130,7 @@ class C { constructor() { class C { get x) { super; } } } }
                                                     "end": 41
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 2,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -173,6 +175,7 @@ class C { constructor() { class C { get x) { super; } } } }
                     "end": 41
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

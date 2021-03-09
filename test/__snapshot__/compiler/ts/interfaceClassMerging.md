@@ -328,6 +328,7 @@ obj = bar;
                                 "start": 154,
                                 "end": 177
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -531,6 +532,7 @@ obj = bar;
                     "end": 268
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -718,6 +720,7 @@ obj = bar;
                     "end": 363
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

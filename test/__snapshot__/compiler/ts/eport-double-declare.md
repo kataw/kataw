@@ -27,59 +27,60 @@ export declare declare var name;
         "kind": 150,
         "statements": [
             {
-                "kind": 8417,
-                "name": {
+                "kind": 2097233,
+                "expression": {
                     "kind": 196712,
                     "text": "declare",
                     "rawText": "declare",
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 14,
-                    "end": 22
+                    "start": 6,
+                    "end": 14
                 },
-                "type": {
-                    "kind": 8428,
-                    "typeName": {
-                        "kind": 196711,
-                        "text": "var",
-                        "rawText": "var",
-                        "flags": 65538,
-                        "intersects": false,
-                        "transformFlags": 0,
-                        "start": 22,
-                        "end": 26
-                    },
-                    "typeArguments": null,
-                    "flags": 65536,
-                    "intersects": false,
-                    "transformFlags": 2097152,
-                    "start": 22,
-                    "end": 31
-                },
-                "typeParameters": null,
-                "flags": 65570,
+                "flags": 32,
                 "intersects": false,
-                "transformFlags": 2097152,
+                "transformFlags": 0,
                 "start": 6,
-                "end": 26
+                "end": 14
             },
             {
-                "kind": 2097233,
-                "expression": {
-                    "kind": 196712,
-                    "text": "name",
-                    "rawText": "name",
-                    "flags": 65538,
+                "kind": 2097397,
+                "declarationList": {
+                    "kind": 244,
+                    "declarations": [
+                        {
+                            "kind": 243,
+                            "binding": {
+                                "kind": 131102,
+                                "text": "name",
+                                "rawText": "name",
+                                "flags": 65536,
+                                "intersects": false,
+                                "transformFlags": 1025,
+                                "start": 26,
+                                "end": 31
+                            },
+                            "exclamation": false,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 26,
+                            "intersects": false,
+                            "transformFlags": 0,
+                            "start": 65536,
+                            "end": 31
+                        }
+                    ],
+                    "flags": 65536,
                     "intersects": false,
                     "transformFlags": 0,
                     "start": 26,
                     "end": 31
                 },
-                "flags": 0,
+                "flags": 201392128,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 26,
+                "start": 22,
                 "end": 32
             }
         ],
@@ -95,15 +96,8 @@ export declare declare var name;
         {
             "kind": 2,
             "source": 2,
-            "message": "'=' expected.",
-            "start": 23,
-            "length": 0
-        },
-        {
-            "kind": 2,
-            "source": 2,
             "message": "';' expected.",
-            "start": 27,
+            "start": 15,
             "length": 0
         }
     ],

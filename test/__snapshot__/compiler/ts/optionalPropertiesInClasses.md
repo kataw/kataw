@@ -195,6 +195,7 @@ class C3 implements ifoo {
                                 "start": 77,
                                 "end": 79
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -231,6 +232,7 @@ class C3 implements ifoo {
                     "end": 89
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -303,6 +305,7 @@ class C3 implements ifoo {
                                 "start": 151,
                                 "end": 153
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -339,6 +342,7 @@ class C3 implements ifoo {
                     "end": 163
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -411,6 +415,7 @@ class C3 implements ifoo {
                                 "start": 199,
                                 "end": 201
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -451,6 +456,7 @@ class C3 implements ifoo {
                                 "start": 217,
                                 "end": 219
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -487,6 +493,7 @@ class C3 implements ifoo {
                     "end": 229
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

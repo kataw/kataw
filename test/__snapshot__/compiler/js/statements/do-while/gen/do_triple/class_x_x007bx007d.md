@@ -82,6 +82,7 @@ do do do class x {} while while while
                                 "end": 19
                             },
                             "decorators": null,
+                            "isAbstract": false,
                             "flags": 2,
                             "intersects": false,
                             "transformFlags": 1,

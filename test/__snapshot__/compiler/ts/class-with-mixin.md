@@ -370,6 +370,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "end": 128
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -401,6 +402,7 @@ type Constructor<T> = new (...args: any[]) => T;
                     "end": 141
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

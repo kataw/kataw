@@ -229,6 +229,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                     "end": 54
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -273,6 +274,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                     "end": 58
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

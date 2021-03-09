@@ -154,6 +154,7 @@ get testProp() { return this.testProp; }
                     "end": 58
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

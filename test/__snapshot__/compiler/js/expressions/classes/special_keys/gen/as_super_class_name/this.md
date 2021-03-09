@@ -65,6 +65,7 @@ class x extends this {}
                     "end": 23
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

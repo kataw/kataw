@@ -69,6 +69,7 @@ x; {}
                     "end": 0
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16386,
                 "intersects": false,
                 "transformFlags": 1,

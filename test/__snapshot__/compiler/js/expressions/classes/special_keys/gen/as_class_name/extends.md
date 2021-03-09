@@ -67,6 +67,7 @@ class extends {}
                     "end": 0
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

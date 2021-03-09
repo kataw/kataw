@@ -96,6 +96,7 @@ function *P(){
                                     "end": 48
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,

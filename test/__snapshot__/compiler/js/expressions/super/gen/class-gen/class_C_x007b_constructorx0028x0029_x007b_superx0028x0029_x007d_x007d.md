@@ -203,6 +203,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                                                     "end": 60
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -247,6 +248,7 @@ class C { *method() { class C { constructor() { super(); } } } }
                     "end": 64
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

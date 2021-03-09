@@ -126,6 +126,7 @@ class A {
                                 "start": 55,
                                 "end": 57
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -175,6 +176,7 @@ class A {
                                 "start": 88,
                                 "end": 90
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -224,6 +226,7 @@ class A {
                                 "start": 122,
                                 "end": 125
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -269,6 +272,7 @@ class A {
                     "end": 140
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

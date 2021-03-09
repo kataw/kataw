@@ -76,6 +76,7 @@ var f: C = bar("um", []); // C
                                 "start": 20,
                                 "end": 22
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -114,6 +115,7 @@ var f: C = bar("um", []); // C
                     "end": 29
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -163,6 +165,7 @@ var f: C = bar("um", []); // C
                     "end": 50
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -199,6 +202,7 @@ var f: C = bar("um", []); // C
                                 "start": 71,
                                 "end": 73
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -237,6 +241,7 @@ var f: C = bar("um", []); // C
                     "end": 80
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

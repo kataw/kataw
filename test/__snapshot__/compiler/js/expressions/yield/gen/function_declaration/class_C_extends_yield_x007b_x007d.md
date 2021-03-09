@@ -95,6 +95,7 @@ function not_gen() { class C extends yield { } }}
                                     "end": 46
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,

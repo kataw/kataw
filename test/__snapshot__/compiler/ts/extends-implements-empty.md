@@ -72,6 +72,7 @@ class Foo extends Bar implements {
                     "end": 36
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

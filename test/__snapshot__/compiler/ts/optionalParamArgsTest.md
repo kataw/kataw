@@ -664,6 +664,7 @@ fnOpt2(1, [2, 3], [1], true);
                                 "start": 264,
                                 "end": 266
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -1718,6 +1719,7 @@ fnOpt2(1, [2, 3], [1], true);
                     "end": 982
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1921,6 +1923,7 @@ fnOpt2(1, [2, 3], [1], true);
                     "end": 1066
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

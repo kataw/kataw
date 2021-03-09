@@ -941,6 +941,7 @@ var LanguageSpec_section_4_5_error_cases = (function () {
                     "end": 543
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

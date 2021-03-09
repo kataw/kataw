@@ -45,6 +45,7 @@
                                 "end": 10
                             },
                             "decorators": null,
+                            "isAbstract": true,
                             "flags": 268435458,
                             "intersects": false,
                             "transformFlags": 2097153,

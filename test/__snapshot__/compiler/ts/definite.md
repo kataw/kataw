@@ -56,6 +56,7 @@ var y!: MyComponent
                                 "start": 19,
                                 "end": 27
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": true,
@@ -114,6 +115,7 @@ var y!: MyComponent
                     "end": 54
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

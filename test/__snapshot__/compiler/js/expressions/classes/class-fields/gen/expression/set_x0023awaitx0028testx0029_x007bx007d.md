@@ -158,6 +158,7 @@ class C extends Base { set #await(test) {} }
                     "end": 44
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

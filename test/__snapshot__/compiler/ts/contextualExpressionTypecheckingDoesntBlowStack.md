@@ -1152,6 +1152,7 @@ export default class Operation {
                         "end": 740
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 65536,
                     "intersects": false,
                     "transformFlags": 1,

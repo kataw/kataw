@@ -246,6 +246,7 @@ class C extends B {
                                 "start": 110,
                                 "end": 115
                             },
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -261,7 +262,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 97,
@@ -279,6 +280,7 @@ class C extends B {
                                 "start": 137,
                                 "end": 141
                             },
+                            "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -294,7 +296,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 124,
@@ -312,6 +314,7 @@ class C extends B {
                                 "start": 172,
                                 "end": 175
                             },
+                            "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -327,7 +330,7 @@ class C extends B {
                             "decorators": null,
                             "accessModifier": null,
                             "isStatic": false,
-                            "flags": 268517376,
+                            "flags": 81920,
                             "intersects": false,
                             "transformFlags": 524352,
                             "start": 150,
@@ -529,6 +532,7 @@ class C extends B {
                     "end": 295
                 },
                 "decorators": null,
+                "isAbstract": true,
                 "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
@@ -756,6 +760,7 @@ class C extends B {
                                 "start": 368,
                                 "end": 376
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -791,6 +796,7 @@ class C extends B {
                                 "start": 399,
                                 "end": 402
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -826,6 +832,7 @@ class C extends B {
                                 "start": 423,
                                 "end": 440
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": false,
@@ -919,6 +926,7 @@ class C extends B {
                     "end": 502
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 81920,
                 "intersects": false,
                 "transformFlags": 1,

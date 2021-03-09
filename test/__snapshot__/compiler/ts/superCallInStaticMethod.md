@@ -163,6 +163,7 @@ class Other extends Doing {
                     "end": 56
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -1325,6 +1326,7 @@ class Other extends Doing {
                     "end": 948
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

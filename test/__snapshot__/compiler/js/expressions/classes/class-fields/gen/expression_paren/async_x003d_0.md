@@ -49,6 +49,7 @@
                                         "start": 8,
                                         "end": 14
                                     },
+                                    "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,
                                     "exclamation": false,

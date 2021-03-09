@@ -164,6 +164,7 @@ class b extends a {
                     "end": 73
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -297,6 +298,7 @@ class b extends a {
                     "end": 140
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

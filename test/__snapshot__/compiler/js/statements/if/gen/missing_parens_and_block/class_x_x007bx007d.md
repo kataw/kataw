@@ -77,6 +77,7 @@ if else class x {}
                         "end": 18
                     },
                     "decorators": null,
+                    "isAbstract": false,
                     "flags": 2,
                     "intersects": false,
                     "transformFlags": 1,

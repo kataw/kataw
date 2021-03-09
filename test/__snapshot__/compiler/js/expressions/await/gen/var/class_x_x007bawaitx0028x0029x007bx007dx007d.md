@@ -192,6 +192,7 @@ var await; var f = (async function() { class x {await(){}} });
                                                         "end": 58
                                                     },
                                                     "decorators": null,
+                                                    "isAbstract": false,
                                                     "flags": 0,
                                                     "intersects": false,
                                                     "transformFlags": 1,

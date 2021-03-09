@@ -143,6 +143,7 @@ class C2 extends A {
                     "end": 39
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -210,6 +211,7 @@ class C2 extends A {
                     "end": 63
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,
@@ -343,6 +345,7 @@ class C2 extends A {
                     "end": 132
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 16384,
                 "intersects": false,
                 "transformFlags": 1,

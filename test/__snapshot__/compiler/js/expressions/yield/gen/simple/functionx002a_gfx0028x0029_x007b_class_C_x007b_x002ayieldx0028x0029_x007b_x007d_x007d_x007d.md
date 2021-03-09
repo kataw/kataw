@@ -142,6 +142,7 @@ function* gf() { class C { *yield() { } } }
                                     "end": 41
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 0,
                                 "intersects": false,
                                 "transformFlags": 1,

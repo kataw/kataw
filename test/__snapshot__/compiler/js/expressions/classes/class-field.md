@@ -54,6 +54,7 @@
                                         "start": 10,
                                         "end": 12
                                     },
+                                    "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,
                                     "exclamation": false,

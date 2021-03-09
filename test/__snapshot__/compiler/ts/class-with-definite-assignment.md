@@ -52,6 +52,7 @@ class X {
                                 "start": 9,
                                 "end": 13
                             },
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
                             "exclamation": true,
@@ -81,6 +82,7 @@ class X {
                     "end": 25
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

@@ -114,6 +114,7 @@ class x {async case(){}}
                     "end": 24
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

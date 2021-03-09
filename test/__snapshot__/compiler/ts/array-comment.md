@@ -57,6 +57,7 @@ class ViewTokensChangedEvent {
                                 "start": 48,
                                 "end": 55
                             },
+                            "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
                             "exclamation": false,
@@ -143,6 +144,7 @@ class ViewTokensChangedEvent {
                     "end": 154
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 1,

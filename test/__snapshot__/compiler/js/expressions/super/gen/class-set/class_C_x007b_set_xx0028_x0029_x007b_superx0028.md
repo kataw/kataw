@@ -255,6 +255,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                     "end": 52
                                                 },
                                                 "decorators": null,
+                                                "isAbstract": false,
                                                 "flags": 0,
                                                 "intersects": false,
                                                 "transformFlags": 1,
@@ -299,6 +300,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                     "end": 52
                 },
                 "decorators": null,
+                "isAbstract": false,
                 "flags": 2,
                 "intersects": false,
                 "transformFlags": 1,

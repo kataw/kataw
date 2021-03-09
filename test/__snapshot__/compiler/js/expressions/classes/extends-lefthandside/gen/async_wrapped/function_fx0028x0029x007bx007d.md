@@ -135,6 +135,7 @@ async function p(){
                                     "end": 55
                                 },
                                 "decorators": null,
+                                "isAbstract": false,
                                 "flags": 16384,
                                 "intersects": false,
                                 "transformFlags": 1,
