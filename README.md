@@ -13,6 +13,8 @@ Kataw is a javascript toolchain with high focus on performance, and it's main go
 
 This project is still under development by one main developer and a chinese volunteer that would be happy with a [contribution on OpenCollective](https://opencollective.com/kataw).
 
+A demo of a JS / TS printer (*WIP*) can be [tested here](https://kataw.github.io/kataw/kataw_print/)
+
 This is what Kataw can do:
 
 - parse Javascript, Typescript and JSX
