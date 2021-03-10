@@ -5203,8 +5203,9 @@ function parseFieldDefinition(
     }
     optional = true;
   }
-
-  const isIn = key.kind === NodeKind.PrivateIdentifier && consumeOpt(parser, context, Token.InKeyword);
+  // Only a private field - '#ch' - is allowed with the 'in' keyword, but we will handle
+  // this in the grammar checker.
+  const isIn = consumeOpt(parser, context, Token.InKeyword);
   const expression = isIn ? parseExpression(parser, context) : null;
   const exclamation = consumeOpt(parser, context, Token.Negate);
   const type = parseTypeAnnotation(parser, context);
