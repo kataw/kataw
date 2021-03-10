@@ -66,6 +66,7 @@ var r6b = r5();
                             "exclamation": false,
                             "type": {
                                 "kind": 8251,
+                                "isAbstract": false,
                                 "isReadOnly": false,
                                 "accessModifier": null,
                                 "typeParameters": null,
@@ -650,6 +651,7 @@ var r6b = r5();
                                     "typeArgumentsList": [
                                         {
                                             "kind": 8251,
+                                            "isAbstract": false,
                                             "isReadOnly": false,
                                             "accessModifier": null,
                                             "typeParameters": null,

@@ -2689,6 +2689,7 @@ type U2 = (new () => X) extends T ? U : V;
                 },
                 "type": {
                     "kind": 8251,
+                    "isAbstract": false,
                     "isReadOnly": false,
                     "accessModifier": null,
                     "typeParameters": null,
@@ -2813,6 +2814,7 @@ type U2 = (new () => X) extends T ? U : V;
                 },
                 "type": {
                     "kind": 8251,
+                    "isAbstract": false,
                     "isReadOnly": false,
                     "accessModifier": null,
                     "typeParameters": null,
@@ -2945,6 +2947,7 @@ type U2 = (new () => X) extends T ? U : V;
                 },
                 "type": {
                     "kind": 8251,
+                    "isAbstract": false,
                     "isReadOnly": false,
                     "accessModifier": null,
                     "typeParameters": null,
@@ -3081,6 +3084,7 @@ type U2 = (new () => X) extends T ? U : V;
                         "kind": 8369,
                         "type": {
                             "kind": 8251,
+                            "isAbstract": false,
                             "isReadOnly": false,
                             "accessModifier": null,
                             "typeParameters": null,

@@ -744,6 +744,7 @@ abstract class Test {
                             "exclamation": false,
                             "type": {
                                 "kind": 8251,
+                                "isAbstract": false,
                                 "isReadOnly": false,
                                 "accessModifier": null,
                                 "typeParameters": null,
@@ -812,6 +813,7 @@ abstract class Test {
                             "exclamation": false,
                             "type": {
                                 "kind": 8251,
+                                "isAbstract": false,
                                 "isReadOnly": false,
                                 "accessModifier": null,
                                 "typeParameters": null,

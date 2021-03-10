@@ -453,6 +453,7 @@ type Constructor<T> = new (...args: any[]) => T;
                 },
                 "type": {
                     "kind": 8251,
+                    "isAbstract": false,
                     "isReadOnly": false,
                     "accessModifier": null,
                     "typeParameters": null,
