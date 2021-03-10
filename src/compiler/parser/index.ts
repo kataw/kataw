@@ -4877,7 +4877,11 @@ function parseClassElement(parser: ParserState, context: Context): ClassElement 
 
   if (parser.token & 0b00000000000000000111000000000000) {
     let token = parser.token;
-    let key: any = parseIdentifierName(parser, context);
+
+    let key: any =
+      token === Token.PrivateIdentifier
+        ? parsePrivateIdentifier(parser, context)
+        : parseIdentifierName(parser, context);
 
     // Simple cases like "{ static foo(" or "{ static foo<x>(" or "{ private static set(" or
     // "{ private static constructor<x>(".
@@ -5199,6 +5203,10 @@ function parseFieldDefinition(
     }
     optional = true;
   }
+  // Only a private field - '#ch' - is allowed with the 'in' keyword, but we will handle
+  // this in the grammar checker.
+  const isIn = consumeOpt(parser, context, Token.InKeyword);
+  const expression = isIn ? parseExpression(parser, context) : null;
   const exclamation = consumeOpt(parser, context, Token.Negate);
   const type = parseTypeAnnotation(parser, context);
   const initializer = parseInitializer(parser, context);
@@ -5207,6 +5215,8 @@ function parseFieldDefinition(
 
   return createFieldDefinition(
     key,
+    isIn,
+    expression,
     optional,
     isDeclared,
     isReadOnly,

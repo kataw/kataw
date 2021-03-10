@@ -12,6 +12,8 @@ import { AccessModifier } from '../types/access-modifier';
  */
 export interface FieldDefinition extends Node {
   readonly key: Expression | PrivateIdentifier;
+  readonly isInKeyword: boolean;
+  readonly expression: Expression | null;
   readonly isAbstract: boolean;
   readonly isReadOnly: boolean;
   readonly isOptional: boolean;
@@ -25,6 +27,8 @@ export interface FieldDefinition extends Node {
 
 export function createFieldDefinition(
   key: Expression | PrivateIdentifier,
+  isInKeyword: boolean,
+  expression: Expression | null,
   isOptional: boolean,
   isDeclared: boolean,
   isReadOnly: boolean,
@@ -43,6 +47,8 @@ export function createFieldDefinition(
   return {
     kind: NodeKind.FieldDefinition,
     key,
+    isInKeyword,
+    expression,
     isAbstract,
     isReadOnly,
     isOptional,
@@ -63,6 +69,8 @@ export function createFieldDefinition(
 export function updateFieldDefinition(
   node: FieldDefinition,
   key: Expression | PrivateIdentifier,
+  isInKeyword: boolean,
+  expression: Expression | null,
   isOptional: boolean,
   isDeclared: boolean,
   isReadOnly: boolean,
@@ -85,6 +93,8 @@ export function updateFieldDefinition(
     ? updateNode(
         createFieldDefinition(
           key,
+          isInKeyword,
+          expression,
           isOptional,
           isDeclared,
           isReadOnly,
