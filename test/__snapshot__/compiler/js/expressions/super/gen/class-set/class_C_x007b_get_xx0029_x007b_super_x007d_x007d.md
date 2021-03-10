@@ -133,6 +133,8 @@ class C { set x(_) { class C { get x) { super; } } } }
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
+                                                            "isInKeyword": false,
+                                                            "expression": null,
                                                             "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,

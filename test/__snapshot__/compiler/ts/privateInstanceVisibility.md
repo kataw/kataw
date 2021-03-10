@@ -130,6 +130,8 @@ class C {
                                                 "start": 58,
                                                 "end": 69
                                             },
+                                            "isInKeyword": false,
+                                            "expression": null,
                                             "isAbstract": false,
                                             "isReadOnly": false,
                                             "isOptional": false,
@@ -466,6 +468,8 @@ class C {
                                 "start": 288,
                                 "end": 290
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

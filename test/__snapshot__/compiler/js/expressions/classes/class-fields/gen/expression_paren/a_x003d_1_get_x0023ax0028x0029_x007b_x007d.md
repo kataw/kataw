@@ -49,6 +49,8 @@
                                         "start": 8,
                                         "end": 10
                                     },
+                                    "isInKeyword": false,
+                                    "expression": null,
                                     "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,

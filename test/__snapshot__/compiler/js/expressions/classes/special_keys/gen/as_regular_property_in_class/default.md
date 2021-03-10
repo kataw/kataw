@@ -54,6 +54,8 @@ class x {default: x}
                                 "start": 9,
                                 "end": 16
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

@@ -75,15 +75,17 @@
                                                 {
                                                     "kind": 84,
                                                     "key": {
-                                                        "kind": 196711,
+                                                        "kind": 131252,
                                                         "text": "#a",
                                                         "rawText": "#a",
                                                         "flags": 0,
                                                         "intersects": false,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 524288,
                                                         "start": 27,
                                                         "end": 30
                                                     },
+                                                    "isInKeyword": false,
+                                                    "expression": null,
                                                     "isAbstract": false,
                                                     "isReadOnly": false,
                                                     "isOptional": false,

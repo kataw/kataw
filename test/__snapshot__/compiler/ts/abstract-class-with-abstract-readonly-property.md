@@ -52,6 +52,8 @@ abstract class Foo {
                                 "start": 47,
                                 "end": 51
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,

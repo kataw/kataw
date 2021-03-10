@@ -164,6 +164,8 @@ class B3 extends A3 {
                                 "start": 56,
                                 "end": 58
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -205,6 +207,8 @@ class B3 extends A3 {
                                 "start": 88,
                                 "end": 91
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -910,6 +914,8 @@ class B3 extends A3 {
                                 "start": 483,
                                 "end": 489
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -944,6 +950,8 @@ class B3 extends A3 {
                                 "start": 509,
                                 "end": 512
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -2034,6 +2042,8 @@ class B3 extends A3 {
                                 "start": 866,
                                 "end": 868
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -2119,6 +2129,8 @@ class B3 extends A3 {
                                 "start": 892,
                                 "end": 898
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -2197,6 +2209,8 @@ class B3 extends A3 {
                                 "start": 922,
                                 "end": 928
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -2856,6 +2870,8 @@ class B3 extends A3 {
                                 "start": 1208,
                                 "end": 1214
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3111,6 +3127,8 @@ class B3 extends A3 {
                                 "start": 1327,
                                 "end": 1329
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3178,6 +3196,8 @@ class B3 extends A3 {
                                 "start": 1343,
                                 "end": 1349
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3426,6 +3446,8 @@ class B3 extends A3 {
                                 "start": 1506,
                                 "end": 1508
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3511,6 +3533,8 @@ class B3 extends A3 {
                                 "start": 1533,
                                 "end": 1539
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3571,6 +3595,8 @@ class B3 extends A3 {
                                 "start": 1554,
                                 "end": 1560
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -3649,6 +3675,8 @@ class B3 extends A3 {
                                 "start": 1646,
                                 "end": 1648
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

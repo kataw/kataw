@@ -107,6 +107,8 @@ class C { constructor() { class C { get x) { super; } } } }
                                                                 "start": 39,
                                                                 "end": 41
                                                             },
+                                                            "isInKeyword": false,
+                                                            "expression": null,
                                                             "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,

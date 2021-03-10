@@ -224,6 +224,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 90,
                                 "end": 95
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -291,6 +293,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 125,
                                 "end": 131
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -350,6 +354,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 138,
                                 "end": 141
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -461,6 +467,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 181,
                                 "end": 187
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -538,6 +546,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 197,
                                 "end": 200
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -649,6 +659,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 240,
                                 "end": 246
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -706,6 +718,8 @@ abstract class B extends A { abstract bar(); }
                                 "start": 259,
                                 "end": 262
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

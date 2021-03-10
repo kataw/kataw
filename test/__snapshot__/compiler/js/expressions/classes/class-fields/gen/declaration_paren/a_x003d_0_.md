@@ -67,6 +67,8 @@
                                         "start": 21,
                                         "end": 23
                                     },
+                                    "isInKeyword": false,
+                                    "expression": null,
                                     "isAbstract": false,
                                     "isReadOnly": false,
                                     "isOptional": false,

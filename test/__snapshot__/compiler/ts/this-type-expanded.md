@@ -78,6 +78,8 @@ class A {
                                 "start": 18,
                                 "end": 20
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

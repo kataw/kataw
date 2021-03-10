@@ -145,6 +145,8 @@ class Foo {
                                 "start": 43,
                                 "end": 51
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

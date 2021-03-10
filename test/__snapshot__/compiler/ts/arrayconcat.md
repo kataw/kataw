@@ -377,6 +377,8 @@ class parser {
                                 "start": 203,
                                 "end": 211
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

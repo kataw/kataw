@@ -44,15 +44,17 @@ class A {
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 196711,
+                                "kind": 131252,
                                 "text": "#x",
                                 "rawText": "#x",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 524288,
                                 "start": 18,
                                 "end": 21
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -71,15 +73,17 @@ class A {
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 196711,
+                                "kind": 131252,
                                 "text": "#y",
                                 "rawText": "#y",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 524288,
                                 "start": 31,
                                 "end": 34
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

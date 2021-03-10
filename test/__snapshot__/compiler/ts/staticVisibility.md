@@ -80,6 +80,8 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 11,
                                 "end": 18
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -114,6 +116,8 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 35,
                                 "end": 37
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -588,6 +592,8 @@ static set Bar(bar:string) {barback = bar;} // not ok
                                 "start": 210,
                                 "end": 219
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

@@ -72,6 +72,8 @@ class C extends Base { a\n get }
                                 "start": 22,
                                 "end": 24
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

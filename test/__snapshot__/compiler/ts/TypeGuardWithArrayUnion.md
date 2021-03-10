@@ -58,6 +58,8 @@ function saySize(message: Message | Message[]) {
                                 "start": 15,
                                 "end": 25
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

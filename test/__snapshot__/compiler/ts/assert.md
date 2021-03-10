@@ -1194,6 +1194,8 @@ class AssertsFoo {
                                 "start": 516,
                                 "end": 524
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

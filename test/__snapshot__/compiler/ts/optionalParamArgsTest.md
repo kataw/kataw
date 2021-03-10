@@ -664,6 +664,8 @@ fnOpt2(1, [2, 3], [1], true);
                                 "start": 264,
                                 "end": 266
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

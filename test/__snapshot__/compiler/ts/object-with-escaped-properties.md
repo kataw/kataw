@@ -282,6 +282,8 @@ class X { '__' = null }
                                 "start": 67,
                                 "end": 72
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

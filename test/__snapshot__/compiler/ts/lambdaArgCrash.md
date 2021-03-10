@@ -84,6 +84,8 @@ class ItemSetEvent extends Event {
                                 "start": 37,
                                 "end": 48
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

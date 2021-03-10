@@ -328,6 +328,8 @@ obj = bar;
                                 "start": 154,
                                 "end": 177
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

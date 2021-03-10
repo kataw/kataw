@@ -117,6 +117,8 @@ class C123 {
                                 "start": 37,
                                 "end": 43
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -151,6 +153,8 @@ class C123 {
                                 "start": 52,
                                 "end": 58
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

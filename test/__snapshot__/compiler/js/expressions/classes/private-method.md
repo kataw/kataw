@@ -54,12 +54,12 @@ class x { #foo() {}}
                             "method": {
                                 "kind": 16844946,
                                 "name": {
-                                    "kind": 196711,
+                                    "kind": 131252,
                                     "text": "#foo",
                                     "rawText": "#foo",
                                     "flags": 65536,
                                     "intersects": false,
-                                    "transformFlags": 0,
+                                    "transformFlags": 524288,
                                     "start": 9,
                                     "end": 14
                                 },

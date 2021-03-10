@@ -52,15 +52,17 @@ class Square {
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 196711,
+                                "kind": 131252,
                                 "text": "#size",
                                 "rawText": "#size",
-                                "flags": 16384,
+                                "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 524288,
                                 "start": 14,
                                 "end": 24
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

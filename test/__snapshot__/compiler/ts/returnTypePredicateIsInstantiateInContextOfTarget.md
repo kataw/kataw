@@ -320,6 +320,8 @@ const TestRender = () => <TestComponent />;
                                 "start": 126,
                                 "end": 139
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

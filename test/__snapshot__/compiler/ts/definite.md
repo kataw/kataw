@@ -56,6 +56,8 @@ var y!: MyComponent
                                 "start": 19,
                                 "end": 27
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

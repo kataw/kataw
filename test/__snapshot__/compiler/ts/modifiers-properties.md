@@ -70,6 +70,8 @@ abstract class C {
                                 "start": 31,
                                 "end": 33
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -97,6 +99,8 @@ abstract class C {
                                 "start": 47,
                                 "end": 50
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": true,
@@ -131,6 +135,8 @@ abstract class C {
                                 "start": 73,
                                 "end": 75
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -158,6 +164,8 @@ abstract class C {
                                 "start": 87,
                                 "end": 89
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -185,6 +193,8 @@ abstract class C {
                                 "start": 102,
                                 "end": 105
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -219,6 +229,8 @@ abstract class C {
                                 "start": 120,
                                 "end": 123
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -253,6 +265,8 @@ abstract class C {
                                 "start": 136,
                                 "end": 139
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -287,6 +301,8 @@ abstract class C {
                                 "start": 163,
                                 "end": 166
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -314,6 +330,8 @@ abstract class C {
                                 "start": 189,
                                 "end": 192
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -341,6 +359,8 @@ abstract class C {
                                 "start": 213,
                                 "end": 216
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -368,6 +388,8 @@ abstract class C {
                                 "start": 238,
                                 "end": 242
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -402,6 +424,8 @@ abstract class C {
                                 "start": 263,
                                 "end": 267
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -436,6 +460,8 @@ abstract class C {
                                 "start": 286,
                                 "end": 290
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -470,6 +496,8 @@ abstract class C {
                                 "start": 320,
                                 "end": 325
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -504,6 +532,8 @@ abstract class C {
                                 "start": 355,
                                 "end": 360
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -538,6 +568,8 @@ abstract class C {
                                 "start": 388,
                                 "end": 393
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,

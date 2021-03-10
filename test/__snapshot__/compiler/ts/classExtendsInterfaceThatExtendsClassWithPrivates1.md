@@ -186,6 +186,8 @@ class D2 implements I {
                                 "start": 58,
                                 "end": 60
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -561,6 +563,8 @@ class D2 implements I {
                                 "start": 191,
                                 "end": 193
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

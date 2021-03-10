@@ -118,6 +118,8 @@
                                                                     "start": 27,
                                                                     "end": 29
                                                                 },
+                                                                "isInKeyword": false,
+                                                                "expression": null,
                                                                 "isAbstract": false,
                                                                 "isReadOnly": false,
                                                                 "isOptional": false,

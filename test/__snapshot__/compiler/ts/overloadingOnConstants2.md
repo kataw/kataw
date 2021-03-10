@@ -76,6 +76,8 @@ var f: C = bar("um", []); // C
                                 "start": 20,
                                 "end": 22
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -202,6 +204,8 @@ var f: C = bar("um", []); // C
                                 "start": 71,
                                 "end": 73
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

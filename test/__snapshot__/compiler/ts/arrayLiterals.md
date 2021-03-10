@@ -748,6 +748,8 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 220,
                                 "end": 222
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1811,6 +1813,8 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 561,
                                 "end": 563
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1896,6 +1900,8 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 604,
                                 "end": 606
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1989,6 +1995,8 @@ var context4: Base[] = [new Derived1(), new Derived1()];
                                 "start": 647,
                                 "end": 649
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

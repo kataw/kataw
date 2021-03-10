@@ -139,6 +139,8 @@ declare class D extends C { }
                                 "start": 79,
                                 "end": 83
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

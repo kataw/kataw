@@ -55,6 +55,8 @@ class A {
                                 "start": 40,
                                 "end": 46
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -138,6 +140,8 @@ class A {
                                 "start": 84,
                                 "end": 90
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

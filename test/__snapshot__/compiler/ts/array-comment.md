@@ -57,6 +57,8 @@ class ViewTokensChangedEvent {
                                 "start": 48,
                                 "end": 55
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,

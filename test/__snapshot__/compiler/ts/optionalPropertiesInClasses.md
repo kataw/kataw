@@ -195,6 +195,8 @@ class C3 implements ifoo {
                                 "start": 77,
                                 "end": 79
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -305,6 +307,8 @@ class C3 implements ifoo {
                                 "start": 151,
                                 "end": 153
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -415,6 +419,8 @@ class C3 implements ifoo {
                                 "start": 199,
                                 "end": 201
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -456,6 +462,8 @@ class C3 implements ifoo {
                                 "start": 217,
                                 "end": 219
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

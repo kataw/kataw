@@ -126,6 +126,8 @@ class A {
                                 "start": 55,
                                 "end": 57
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -176,6 +178,8 @@ class A {
                                 "start": 88,
                                 "end": 90
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -226,6 +230,8 @@ class A {
                                 "start": 122,
                                 "end": 125
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

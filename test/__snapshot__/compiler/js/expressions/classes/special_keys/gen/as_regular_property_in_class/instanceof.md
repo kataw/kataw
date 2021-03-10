@@ -54,6 +54,8 @@ class x {instanceof: x}
                                 "start": 9,
                                 "end": 19
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

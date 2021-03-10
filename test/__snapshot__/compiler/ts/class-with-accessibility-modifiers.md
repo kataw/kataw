@@ -59,6 +59,8 @@ class Foo {
                                 "start": 21,
                                 "end": 25
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -100,6 +102,8 @@ class Foo {
                                 "start": 51,
                                 "end": 55
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

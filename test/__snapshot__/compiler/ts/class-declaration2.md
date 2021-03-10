@@ -52,6 +52,8 @@ class Foo { private readonly foo; } // correct
                                 "start": 20,
                                 "end": 28
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -79,6 +81,8 @@ class Foo { private readonly foo; } // correct
                                 "start": 28,
                                 "end": 32
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -139,6 +143,8 @@ class Foo { private readonly foo; } // correct
                                 "start": 74,
                                 "end": 78
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,

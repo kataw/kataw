@@ -56,6 +56,8 @@ class A {async **=f(){}}
                                 "start": 14,
                                 "end": 14
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

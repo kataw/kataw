@@ -52,6 +52,8 @@ class Test {
                                 "start": 23,
                                 "end": 30
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

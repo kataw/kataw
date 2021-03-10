@@ -246,6 +246,8 @@ class C extends B {
                                 "start": 110,
                                 "end": 115
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -280,6 +282,8 @@ class C extends B {
                                 "start": 137,
                                 "end": 141
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -314,6 +318,8 @@ class C extends B {
                                 "start": 172,
                                 "end": 175
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -760,6 +766,8 @@ class C extends B {
                                 "start": 368,
                                 "end": 376
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -796,6 +804,8 @@ class C extends B {
                                 "start": 399,
                                 "end": 402
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,
@@ -832,6 +842,8 @@ class C extends B {
                                 "start": 423,
                                 "end": 440
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

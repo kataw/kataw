@@ -54,6 +54,8 @@ class x {static: x}
                                 "start": 9,
                                 "end": 15
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

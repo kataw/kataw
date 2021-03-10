@@ -107,6 +107,8 @@ class C { *method() { class C { get x) { super; } } } }
                                                                 "start": 35,
                                                                 "end": 37
                                                             },
+                                                            "isInKeyword": false,
+                                                            "expression": null,
                                                             "isAbstract": false,
                                                             "isReadOnly": false,
                                                             "isOptional": false,

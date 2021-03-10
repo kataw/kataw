@@ -440,6 +440,8 @@ class e {
                                 "start": 158,
                                 "end": 161
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -989,6 +991,8 @@ class e {
                                 "start": 419,
                                 "end": 423
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1630,6 +1634,8 @@ class e {
                                 "start": 681,
                                 "end": 684
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1664,6 +1670,8 @@ class e {
                                 "start": 696,
                                 "end": 698
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1705,6 +1713,8 @@ class e {
                                 "start": 719,
                                 "end": 722
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1859,6 +1869,8 @@ class e {
                                 "start": 779,
                                 "end": 782
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1886,6 +1898,8 @@ class e {
                                 "start": 795,
                                 "end": 799
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

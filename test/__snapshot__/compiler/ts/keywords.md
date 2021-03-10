@@ -419,6 +419,8 @@ class G {
                                 "start": 109,
                                 "end": 109
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -1305,6 +1307,8 @@ class G {
                                 "start": 291,
                                 "end": 300
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

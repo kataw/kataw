@@ -41,15 +41,17 @@ class x { static #foo = bar }
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 196711,
+                                "kind": 131252,
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 524288,
                                 "start": 16,
                                 "end": 21
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

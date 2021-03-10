@@ -72,6 +72,8 @@ class C extends Base { await\n a }
                                 "start": 22,
                                 "end": 28
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

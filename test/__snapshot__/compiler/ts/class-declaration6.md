@@ -126,6 +126,8 @@ class Derived extends Base {
                                 "start": 42,
                                 "end": 47
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

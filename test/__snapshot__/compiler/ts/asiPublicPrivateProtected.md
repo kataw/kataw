@@ -211,6 +211,8 @@ class ClassWithThreeMembers {
                                 "start": 79,
                                 "end": 90
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -464,6 +466,8 @@ class ClassWithThreeMembers {
                                 "start": 216,
                                 "end": 228
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -717,6 +721,8 @@ class ClassWithThreeMembers {
                                 "start": 358,
                                 "end": 372
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -848,6 +854,8 @@ class ClassWithThreeMembers {
                                 "start": 447,
                                 "end": 458
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -875,6 +883,8 @@ class ClassWithThreeMembers {
                                 "start": 458,
                                 "end": 470
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -902,6 +912,8 @@ class ClassWithThreeMembers {
                                 "start": 470,
                                 "end": 484
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

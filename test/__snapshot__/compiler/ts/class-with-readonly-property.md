@@ -52,6 +52,8 @@ class Foo {
                                 "start": 31,
                                 "end": 35
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": true,
                             "isOptional": false,

@@ -43,15 +43,17 @@ abstract class A {
                         {
                             "kind": 84,
                             "key": {
-                                "kind": 196711,
+                                "kind": 131252,
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 0,
                                 "intersects": false,
-                                "transformFlags": 0,
+                                "transformFlags": 524288,
                                 "start": 29,
                                 "end": 32
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": true,
                             "isReadOnly": false,
                             "isOptional": false,

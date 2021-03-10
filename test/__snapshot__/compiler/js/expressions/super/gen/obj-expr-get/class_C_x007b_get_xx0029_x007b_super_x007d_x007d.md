@@ -92,6 +92,8 @@
                                                                     "start": 26,
                                                                     "end": 28
                                                                 },
+                                                                "isInKeyword": false,
+                                                                "expression": null,
                                                                 "isAbstract": false,
                                                                 "isReadOnly": false,
                                                                 "isOptional": false,

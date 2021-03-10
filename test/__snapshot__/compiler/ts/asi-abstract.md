@@ -162,6 +162,8 @@ class C3 {
                                 "start": 63,
                                 "end": 76
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
@@ -286,6 +288,8 @@ class C3 {
                                 "start": 124,
                                 "end": 137
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,

@@ -63,12 +63,12 @@ const C = class {
                                             "method": {
                                                 "kind": 16844946,
                                                 "name": {
-                                                    "kind": 196711,
+                                                    "kind": 131252,
                                                     "text": "#bar",
                                                     "rawText": "#bar",
-                                                    "flags": 16384,
+                                                    "flags": 0,
                                                     "intersects": false,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 524288,
                                                     "start": 17,
                                                     "end": 26
                                                 },

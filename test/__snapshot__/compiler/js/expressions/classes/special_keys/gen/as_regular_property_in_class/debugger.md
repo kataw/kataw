@@ -54,6 +54,8 @@ class x {debugger: x}
                                 "start": 9,
                                 "end": 17
                             },
+                            "isInKeyword": false,
+                            "expression": null,
                             "isAbstract": false,
                             "isReadOnly": false,
                             "isOptional": false,
