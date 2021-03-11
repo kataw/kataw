@@ -52,6 +52,10 @@ The second argument allows you to specify various options:
 | `minify`  | false | Removes unnecessary whitespace, semicolons and line endings |
 | `sourceMap`  | false | Prins source map |
 
+## Comments
+
+The algorithm used to insert comments will ensure that all comments are inserted **100%** correctly in the expected places.
+and they are automatically added, but can be turned off by setting `ignoreComments` to `false`. 
 
 ## Fragment printing
 
