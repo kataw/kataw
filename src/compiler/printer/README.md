@@ -54,8 +54,6 @@ The second argument allows you to specify various options:
 
 ## Comments
 
-The 
-
 The comments are automatically added, but can be turned off by setting `ignoreComments` to `false`, and the algorithm used to insert 
 thems will ensure that all comments are inserted **100%** correctly in the expected places.
 
