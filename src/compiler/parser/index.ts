@@ -73,10 +73,6 @@ import { createSemicolon, Semicolon } from '../ast/expressions/semicolon';
 import { createFieldDefinition, FieldDefinition } from '../ast/expressions/field-definition';
 import { Expression, MethodName } from '../ast/expressions/index';
 import { createNamedExports, NamedExports } from '../ast/module/named-exports';
-import {
-  createNamespaceExportDeclaration,
-  NamespaceExportDeclaration
-} from '../ast/module/namespace-export-declaration';
 import { createExternalModuleReference, ExternalModuleReference } from '../ast/module/external-module-reference';
 import { createExportAssignment, ExportAssignment } from '../ast/module/export-assignment';
 import { createImportEqualsDeclaration, ImportEqualsDeclaration } from '../ast/module/import-equals-declaration';
@@ -212,6 +208,10 @@ import { createConstructSignature, ConstructSignature } from '../ast/types/const
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
 import {
+  createNamespaceExportDeclaration,
+  NamespaceExportDeclaration
+} from '../ast/module/namespace-export-declaration';
+import {
   createAssignmentExpression,
   AssignmentExpression,
   AssignOp,
@@ -242,11 +242,12 @@ const enum Tristate {
 export function parseScriptOrModuleBody(
   parser: ParserState,
   context: Context,
+  pos: number,
   cb: any,
   factory: any
 ): ScriptBody | ModuleBody {
-  const pos = parser.curPos;
   const statements: Statement[] = [];
+
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
       statements.push(getCurrentNode(parser, context, cb));
@@ -307,9 +308,9 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     case Token.AbstractKeyword:
       // We are doing a lookahead here, so we need to check if the declared mask is set
       // and prevent it from being unset for cases like 'export declare abstract class y {}'
-      const isDeclared = (parser.nodeFlags & NodeFlags.Declared) !== 0;
+      const nodeFlags = parser.nodeFlags;
       if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
-        parser.nodeFlags |= NodeFlags.Abstract | (isDeclared ? NodeFlags.Declared : NodeFlags.None);
+        parser.nodeFlags |= nodeFlags | NodeFlags.Abstract;
         if (parser.token !== Token.ClassKeyword) {
           reportErrorDiagnostic(
             parser,
@@ -347,13 +348,14 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       return parseStatement(parser, context, /* allowFunction */ true);
     case Token.TypeKeyword:
       return parseTypeAliasDeclaration(parser, context);
-    case Token.InterfaceKeyword:
+    case Token.InterfaceKeyword: {
       const pos = parser.curPos;
       const nodeFlags = parser.nodeFlags;
       if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
         return parseInterfaceDeclaration(parser, context, nodeFlags, pos);
       }
       return parseStatement(parser, context, /* allowFunction */ true);
+    }
     case Token.ImportKeyword:
       if (lookAhead(parser, context, nextTokenCanFollowImportKeyword)) {
         reportErrorDiagnostic(parser, 0, DiagnosticCode.The_import_keyword_can_only_be_used_with_the_module_goal);

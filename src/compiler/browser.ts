@@ -81,7 +81,7 @@ export function parseScript(source: string, options?: Options, nodeCursor?: Node
   return createScript(
     source,
     /* filename */ '',
-    parseScriptOrModuleBody(parser, context, parseStatementListItem, createScriptBody),
+    parseScriptOrModuleBody(parser, context, pos, parseStatementListItem, createScriptBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );
@@ -115,7 +115,7 @@ export function parseModule(source: string, options?: Options, nodeCursor?: Node
   return createModule(
     source,
     /* filename */ '',
-    parseScriptOrModuleBody(parser, context, parseModuleItemList, createModuleBody),
+    parseScriptOrModuleBody(parser, context, pos, parseModuleItemList, createModuleBody),
     (context & Context.OptionsJSX) === Context.OptionsJSX,
     parser.diagnostics
   );
