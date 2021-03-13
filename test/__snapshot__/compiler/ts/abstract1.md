@@ -943,7 +943,7 @@ abstract class B extends A { abstract bar(); }
                 },
                 "decorators": null,
                 "isAbstract": true,
-                "flags": 268500992,
+                "flags": 268517376,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "start": 322,

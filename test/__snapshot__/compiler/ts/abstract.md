@@ -91,7 +91,7 @@ export default abstract class C5 { abstract foo(): void; }
                 },
                 "decorators": null,
                 "isAbstract": true,
-                "flags": 335626240,
+                "flags": 469843968,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "start": 37,
