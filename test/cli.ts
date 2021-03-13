@@ -33,10 +33,8 @@ export function cliOpts() {
     gen,
     update: process.argv.includes('-u'),
     conservative: process.argv.includes('-G'), // skip existing
-    files: process.argv.includes('-f')
-      ? process.argv[process.argv.indexOf('-f') + 1]
-      : // defaults to all tests(if not specified)
-        getTestFiles(resolve('test/__snapshot__'), '', gen)
+     // defaults to all tests(if not specified)
+    files: getTestFiles(process.argv.includes('-f') ? process.argv[process.argv.indexOf('-f') + 1] : resolve('test/__snapshot__'), '', gen)
   };
 
   gen && (opts.files = opts.files.filter((f: any) => !f.endsWith('autogen.md')));
