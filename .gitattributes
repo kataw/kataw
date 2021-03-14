@@ -1,4 +1,2 @@
 # Convert text file line endings to lf
-* text=auto
-
-*.js *.ts *.md text eol=lf
+* text=auto eol=lf
