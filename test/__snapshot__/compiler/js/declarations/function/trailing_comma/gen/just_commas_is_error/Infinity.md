@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\declarations\function\trailing_comma\gen\just_commas_is_error
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/gen/just_commas_is_error
->>>>>>> chore: autogen & update snapshots
 > :: test: just commas is error
 > :: case: Infinity
 ## Input

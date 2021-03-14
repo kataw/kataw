@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\statements\for\gen\for_await_with_arr_destruct_lhs
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/statements/for/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/statements/for/gen/for_await_with_arr_destruct_lhs
->>>>>>> chore: autogen & update snapshots
 > :: test: for await with arr destruct lhs
 > :: case: false
 ## Input

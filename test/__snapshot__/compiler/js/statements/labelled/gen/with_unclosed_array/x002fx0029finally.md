@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/statements/labelled/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\statements\labelled\gen\with_unclosed_array
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/statements/labelled/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/statements/labelled/gen/with_unclosed_array
->>>>>>> chore: autogen & update snapshots
 > :: test: with unclosed array
 > :: case: /)finally
 ## Input

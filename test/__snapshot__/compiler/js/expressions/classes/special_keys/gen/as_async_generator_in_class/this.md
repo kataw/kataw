@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_async_generator_in_class
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/gen/as_async_generator_in_class
->>>>>>> chore: autogen & update snapshots
 > :: test: as async generator in class
 > :: case: this
 ## Input

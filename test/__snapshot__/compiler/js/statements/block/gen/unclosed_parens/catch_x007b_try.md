@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\statements\block\gen\unclosed_parens
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/statements/block/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/statements/block/gen/unclosed_parens
->>>>>>> chore: autogen & update snapshots
 > :: test: unclosed parens
 > :: case: catch { try
 ## Input

@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\statements\for\gen\lhs_arr_with_rest_with_number_init
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/statements/for/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/statements/for/gen/lhs_arr_with_rest_with_number_init
->>>>>>> chore: autogen & update snapshots
 > :: test: lhs arr with rest with number init
 > :: case: false
 ## Input

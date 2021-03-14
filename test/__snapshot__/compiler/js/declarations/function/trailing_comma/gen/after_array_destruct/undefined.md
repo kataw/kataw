@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\declarations\function\trailing_comma\gen\after_array_destruct
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/gen/after_array_destruct
->>>>>>> chore: autogen & update snapshots
 > :: test: after array destruct
 > :: case: undefined
 ## Input

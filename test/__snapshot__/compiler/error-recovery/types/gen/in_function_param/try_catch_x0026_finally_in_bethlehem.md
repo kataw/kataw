@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/error-recovery/types/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\error-recovery\types\gen\in_function_param
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/error-recovery/types/autogen.md
 - Path: kataw/test/__snapshot__/compiler/error-recovery/types/gen/in_function_param
->>>>>>> chore: autogen & update snapshots
 > :: test: in function param
 > :: case: try catch & finally in bethlehem
 ## Input

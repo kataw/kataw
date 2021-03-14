@@ -1,13 +1,7 @@
 # Auto-generated test cases ( Kataw )
-<<<<<<< HEAD
-- Regenerated: 2021-03-15
-- From: kataw15/test\__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
-- Path: kataw15/test\__snapshot__\compiler\js\declarations\function\trailing_comma\gen\not_allowed_after_rest
-=======
 - Regenerated: 2021-03-14
 - From: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/autogen.md
 - Path: kataw/test/__snapshot__/compiler/js/declarations/function/trailing_comma/gen/not_allowed_after_rest
->>>>>>> chore: autogen & update snapshots
 > :: test: not allowed after rest
 > :: case: undefined
 ## Input
