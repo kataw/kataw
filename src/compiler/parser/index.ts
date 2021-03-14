@@ -247,7 +247,6 @@ export function parseScriptOrModuleBody(
   factory: any
 ): ScriptBody | ModuleBody {
   const statements: Statement[] = [];
-
   while (parser.token !== Token.EndOfSource) {
     if (parser.token & Constants.SourceElements) {
       statements.push(getCurrentNode(parser, context, cb));
@@ -271,10 +270,7 @@ export function parseScriptOrModuleBody(
 export function parseModuleItemList(parser: ParserState, context: Context): Statement {
   switch (parser.token) {
     case Token.ImportKeyword:
-      if (lookAhead(parser, context, nextTokenCanFollowImportKeyword)) {
-        return parseImportDeclaration(parser, context);
-      }
-      return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+      return parseImportDeclaration(parser, context);
     case Token.Decorator:
     case Token.ExportKeyword:
       return parseExportDeclaration(parser, context);
@@ -306,22 +302,7 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
     case Token.ClassKeyword:
       return parseClassDeclaration(parser, context);
     case Token.AbstractKeyword:
-      // We are doing a lookahead here, so we need to check if the declared mask is set
-      // and prevent it from being unset for cases like 'export declare abstract class y {}'
-      const nodeFlags = parser.nodeFlags;
-      if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
-        parser.nodeFlags |= nodeFlags | NodeFlags.Abstract;
-        if (parser.token !== Token.ClassKeyword) {
-          reportErrorDiagnostic(
-            parser,
-            8,
-            DiagnosticCode._abstract_modifier_can_only_appear_on_a_class_method_or_property_declaration
-          );
-          return parseModuleItemList(parser, context);
-        }
-        return parseClassDeclaration(parser, context);
-      }
-      return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
+      return parseAbstractDeclaration(parser, context);
     case Token.ConstKeyword:
       return parseLexicalOrEnumDeclaration(parser, context);
     case Token.AsyncKeyword: {
@@ -339,29 +320,18 @@ export function parseStatementListItem(parser: ParserState, context: Context): S
       return parseStatement(parser, context, /* allowFunction */ true);
     }
     case Token.DeclareKeyword:
-      if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
-        parser.nodeFlags |= NodeFlags.Declared | NodeFlags.Ambient;
-        return context & Context.Module
-          ? parseModuleItemList(parser, context)
-          : parseStatementListItem(parser, context);
-      }
-      return parseStatement(parser, context, /* allowFunction */ true);
+      return parseDeclareDeclaration(parser, context);
     case Token.TypeKeyword:
       return parseTypeAliasDeclaration(parser, context);
-    case Token.InterfaceKeyword: {
+    case Token.InterfaceKeyword:
       const pos = parser.curPos;
       const nodeFlags = parser.nodeFlags;
       if (tryParse(parser, context, nextTokenIsIdentifierOnSameLine)) {
         return parseInterfaceDeclaration(parser, context, nodeFlags, pos);
       }
       return parseStatement(parser, context, /* allowFunction */ true);
-    }
     case Token.ImportKeyword:
-      if (lookAhead(parser, context, nextTokenCanFollowImportKeyword)) {
-        reportErrorDiagnostic(parser, 0, DiagnosticCode.The_import_keyword_can_only_be_used_with_the_module_goal);
-        return parseImportDeclaration(parser, context);
-      }
-      return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
+      return parseImportDeclaration(parser, context);
     case Token.ExportKeyword:
       reportErrorDiagnostic(parser, 0, DiagnosticCode.The_export_keyword_can_only_be_used_with_the_module_goal);
       return parseExportDeclaration(parser, context);
@@ -403,6 +373,11 @@ function nextTokenCanFollowImportKeyword(parser: ParserState, context: Context):
 function nextTokenIsDeclareOrAbstractKeywordOnSameLine(parser: ParserState, context: Context): boolean {
   nextToken(parser, context);
   return (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 && canFollowAbstractOrDeclareKeyword(parser.token);
+}
+
+function isClassKeyword(parser: ParserState, context: Context): boolean {
+  nextToken(parser, context);
+  return (parser.nodeFlags & NodeFlags.PrecedingLineBreak) === 0 && parser.token === Token.ClassKeyword;
 }
 
 function nextKeywordCanFollowLexicalLet(parser: ParserState, context: Context): number | boolean {
@@ -586,6 +561,43 @@ function parseNamespaceBlock(parser: ParserState, context: Context): NamespaceBl
     return result;
   }
   return createNamespaceBlock([], /* multiline */ false, parser.nodeFlags, parser.curPos, parser.curPos);
+}
+
+function parseDeclareDeclaration(parser: ParserState, context: Context): any {
+  // 'declare' is a legal JavaScript identifiers;
+  // however, an identifier cannot be followed by another identifier on the same line.
+  // So if 'declare' can't start a declaration, it's an identifier in an expression statement
+  if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
+    parser.nodeFlags |= NodeFlags.Declared | NodeFlags.Ambient;
+    // Check if this could be a case like 'declare abstract class x {}', and set the necessary
+    // bitwise masks if that's the case. Note that we only check for 'class' here because this is
+    // what's legal - all other productions are invalid and will be handled in the grammar checker.
+    if (parser.token === Token.AbstractKeyword && tryParse(parser, context, isClassKeyword)) {
+      // The bitwise masks for 'declare' got unset when we tried  'tryParse', so we need
+      // to set them again.
+      parser.nodeFlags |= NodeFlags.Abstract | NodeFlags.Declared | NodeFlags.Ambient;
+      return parseClassDeclaration(parser, context);
+    }
+    // No match for 'abstract', but we got a 'match for 'declare, so we continue parsing as normal
+    return context & Context.Module ? parseModuleItemList(parser, context) : parseStatementListItem(parser, context);
+  }
+  return parseStatement(parser, context, /* allowFunction */ true);
+}
+
+function parseAbstractDeclaration(parser: ParserState, context: Context) {
+  if (tryParse(parser, context, nextTokenIsDeclareOrAbstractKeywordOnSameLine)) {
+    parser.nodeFlags |= NodeFlags.Abstract;
+    if (parser.token !== Token.ClassKeyword) {
+      reportErrorDiagnostic(
+        parser,
+        8,
+        DiagnosticCode._abstract_modifier_can_only_appear_on_a_class_method_or_property_declaration
+      );
+      return parseModuleItemList(parser, context);
+    }
+    return parseClassDeclaration(parser, context);
+  }
+  return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ true);
 }
 
 function parseTypeAliasDeclaration(
@@ -4277,14 +4289,19 @@ function parseJsxIdentifier(parser: ParserState, context: Context): JsxIdentifie
 // ImportDeclaration :
 //   `import` ImportClause FromClause `;`
 //   `import` ModuleSpecifier `;`
-function parseImportDeclaration(parser: ParserState, context: Context): ImportDeclaration | ImportEqualsDeclaration {
+function parseImportDeclaration(
+  parser: ParserState,
+  context: Context
+): ImportDeclaration | ImportEqualsDeclaration | any {
   let moduleSpecifier = null;
   let importClause = null;
   let fromClause: StringLiteral | Expression | null = null;
   const nodeFlags = parser.nodeFlags;
   const pos = parser.curPos;
 
-  nextToken(parser, context);
+  if (!tryParse(parser, context, nextTokenCanFollowImportKeyword)) {
+    return parseExpressionOrLabeledStatement(parser, context, /* allowFunction */ false);
+  }
 
   const afterImportPos = parser.curPos;
 
