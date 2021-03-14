@@ -106,7 +106,7 @@ class import {}
         {
             "kind": 2,
             "source": 2,
-            "message": "The `import` keyword can only be used with the module goal",
+            "message": "'{' expected.",
             "start": 6,
             "length": 0
         },

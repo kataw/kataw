@@ -116,7 +116,7 @@ function f(){import {x} from "y";}
                                     "start": 19,
                                     "end": 23
                                 },
-                                "flags": 65538,
+                                "flags": 65536,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 13,
@@ -152,15 +152,7 @@ function f(){import {x} from "y";}
     },
     "jsx": true,
     "printable": true,
-    "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `import` keyword can only be used with the module goal",
-            "start": 13,
-            "length": 0
-        }
-    ],
+    "diagnostics": [],
     "incremental": false,
     "flags": 0,
     "intersects": false,

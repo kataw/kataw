@@ -59,7 +59,7 @@ function *f(){
                                 "fromClause": null,
                                 "moduleSpecifier": null,
                                 "importClause": null,
-                                "flags": 37765122,
+                                "flags": 37765120,
                                 "intersects": false,
                                 "transformFlags": 0,
                                 "start": 14,
@@ -114,13 +114,6 @@ function *f(){
     "jsx": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `import` keyword can only be used with the module goal",
-            "start": 17,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

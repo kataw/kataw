@@ -29,7 +29,7 @@ impo\u0072t = x;
                 "fromClause": null,
                 "moduleSpecifier": null,
                 "importClause": null,
-                "flags": 37748738,
+                "flags": 37748736,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
@@ -63,13 +63,6 @@ impo\u0072t = x;
     "jsx": false,
     "printable": true,
     "diagnostics": [
-        {
-            "kind": 2,
-            "source": 2,
-            "message": "The `import` keyword can only be used with the module goal",
-            "start": 0,
-            "length": 0
-        },
         {
             "kind": 2,
             "source": 2,

@@ -601,7 +601,7 @@ abstract class C {
                 },
                 "decorators": null,
                 "isAbstract": true,
-                "flags": 268451840,
+                "flags": 268435456,
                 "intersects": false,
                 "transformFlags": 2097153,
                 "start": 48,
