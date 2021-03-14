@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/super/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\super\gen\obj-expr-method-gen
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/super/gen/obj-expr-method-gen
+>>>>>>> chore: autogen & update snapshots
 > :: test: obj-expr-method-gen
 > :: case: var f = function*() { super(); }
 ## Input

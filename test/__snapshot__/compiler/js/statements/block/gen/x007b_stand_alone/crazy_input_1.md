@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/statements/block/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\statements\block\gen\x007b_stand_alone
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/block/gen/x007b_stand_alone
+>>>>>>> chore: autogen & update snapshots
 > :: test: { stand alone
 > :: case: crazy input 1
 ## Input

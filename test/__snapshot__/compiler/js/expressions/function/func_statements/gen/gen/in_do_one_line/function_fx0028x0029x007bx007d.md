@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/function/func_statements/gen/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\function\func_statements\gen\gen\in_do_one_line
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/function/func_statements/gen/gen/in_do_one_line
+>>>>>>> chore: autogen & update snapshots
 > :: test: in do one line
 > :: case: function f(){}
 ## Input

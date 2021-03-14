@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/classes/method-name/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\method-name\gen\prologue-method-gen
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/classes/method-name/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/classes/method-name/gen/prologue-method-gen
+>>>>>>> chore: autogen & update snapshots
 > :: test: prologue-method-gen
 > :: case: static
 ## Input

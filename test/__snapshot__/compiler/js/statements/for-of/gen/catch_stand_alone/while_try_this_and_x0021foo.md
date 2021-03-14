@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/statements/for-of/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\statements\for-of\gen\catch_stand_alone
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/for-of/gen/catch_stand_alone
+>>>>>>> chore: autogen & update snapshots
 > :: test: catch stand alone
 > :: case: while try this and !foo
 ## Input

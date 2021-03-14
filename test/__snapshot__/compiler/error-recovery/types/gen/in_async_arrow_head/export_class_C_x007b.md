@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/error-recovery/types/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\error-recovery\types\gen\in_async_arrow_head
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/error-recovery/types/autogen.md
+- Path: kataw/test/__snapshot__/compiler/error-recovery/types/gen/in_async_arrow_head
+>>>>>>> chore: autogen & update snapshots
 > :: test: in async arrow head
 > :: case: export class C {
 ## Input

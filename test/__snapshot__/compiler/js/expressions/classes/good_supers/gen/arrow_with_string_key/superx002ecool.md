@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/classes/good_supers/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\good_supers\gen\arrow_with_string_key
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/classes/good_supers/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/classes/good_supers/gen/arrow_with_string_key
+>>>>>>> chore: autogen & update snapshots
 > :: test: arrow with string key
 > :: case: super.cool
 ## Input

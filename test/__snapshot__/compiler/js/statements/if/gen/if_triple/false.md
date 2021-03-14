@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/statements/if/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\statements\if\gen\if_triple
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/if/gen/if_triple
+>>>>>>> chore: autogen & update snapshots
 > :: test: if triple
 > :: case: false
 ## Input

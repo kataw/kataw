@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_class_name
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/gen/as_class_name
+>>>>>>> chore: autogen & update snapshots
 > :: test: as class name
 > :: case: in
 ## Input

@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/call/trailing_comma/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\call\trailing_comma\gen\can_after_spread
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/call/trailing_comma/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/call/trailing_comma/gen/can_after_spread
+>>>>>>> chore: autogen & update snapshots
 > :: test: can after spread
 > :: case: undefined
 ## Input

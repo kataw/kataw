@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/classes/extends-lefthandside/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\extends-lefthandside\gen\declaration
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/classes/extends-lefthandside/gen/declaration
+>>>>>>> chore: autogen & update snapshots
 > :: test: declaration
 > :: case: fooo[bar]
 ## Input

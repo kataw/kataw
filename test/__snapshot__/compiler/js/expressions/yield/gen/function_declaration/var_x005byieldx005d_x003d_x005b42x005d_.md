@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/yield/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\yield\gen\function_declaration
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/yield/gen/function_declaration
+>>>>>>> chore: autogen & update snapshots
 > :: test: function declaration
 > :: case: var [yield] = [42];
 ## Input

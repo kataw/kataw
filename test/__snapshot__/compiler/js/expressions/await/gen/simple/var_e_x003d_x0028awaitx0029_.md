@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/await/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\await\gen\simple
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/await/gen/simple
+>>>>>>> chore: autogen & update snapshots
 > :: test: simple
 > :: case: var e = (await);
 ## Input

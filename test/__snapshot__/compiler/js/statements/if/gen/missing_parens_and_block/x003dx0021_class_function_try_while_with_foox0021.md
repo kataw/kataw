@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/statements/if/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\statements\if\gen\missing_parens_and_block
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/statements/if/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/if/gen/missing_parens_and_block
+>>>>>>> chore: autogen & update snapshots
 > :: test: missing parens and block
 > :: case: =! class function try while with foo!
 ## Input

@@ -1,7 +1,13 @@
 # Auto-generated test cases ( Kataw )
+<<<<<<< HEAD
 - Regenerated: 2021-03-15
 - From: kataw15/test\__snapshot__/compiler/js/expressions/function/func_statements/gen/autogen.md
 - Path: kataw15/test\__snapshot__\compiler\js\expressions\function\func_statements\gen\gen\in_finally
+=======
+- Regenerated: 2021-03-14
+- From: kataw/test/__snapshot__/compiler/js/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/function/func_statements/gen/gen/in_finally
+>>>>>>> chore: autogen & update snapshots
 > :: test: in finally
 > :: case: function f(){}
 ## Input
