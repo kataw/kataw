@@ -202,10 +202,6 @@ annex B has no exception for `with`, either.
 
 https://www.ecma-international.org/ecma-262/6.0/#sec-statement-rules
 
-
-`````js
-with (x) #
-`````
 ## Output
 
 ### Hybrid CST
