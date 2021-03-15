@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\switch\gen\unclosed_parens
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\switch\gen\unclosed_parens
 > :: test: unclosed parens
 > :: case: try { !xxx
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/expressions/import-call/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\expressions\import-call\gen\new-expr
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/expressions/import-call/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\expressions\import-call\gen\new-expr
 > :: test: new-expr
 > :: case: x = import(x)
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_valid_strange_lhs
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\for\gen\for_await_with_valid_strange_lhs
 > :: test: for await with valid strange lhs
 > :: case: false
 ## Input

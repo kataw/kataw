@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\do-while\gen\do_with_unclosed_block
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\do-while\gen\do_with_unclosed_block
 > :: test: do with unclosed block
 > :: case: =! class function try while with foo!
 ## Input

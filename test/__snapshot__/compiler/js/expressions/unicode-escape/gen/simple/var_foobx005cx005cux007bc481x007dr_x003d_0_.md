@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/expressions/unicode-escape/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\expressions\unicode-escape\gen\simple
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/expressions/unicode-escape/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\expressions\unicode-escape\gen\simple
 > :: test: simple
 > :: case: var foob\\u{c481}r = 0;
 ## Input

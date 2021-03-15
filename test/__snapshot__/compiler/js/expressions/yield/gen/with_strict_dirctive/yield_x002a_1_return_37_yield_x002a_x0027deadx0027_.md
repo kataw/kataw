@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/expressions/yield/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\expressions\yield\gen\with_strict_dirctive
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/expressions/yield/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\expressions\yield\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: yield * 1; return 37; yield * 'dead';
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/expressions/super/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\expressions\super\gen\class-constructor
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/expressions/super/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\expressions\super\gen\class-constructor
 > :: test: class-constructor
 > :: case: class C { set x(_) { super(
 ## Input

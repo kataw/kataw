@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\for\gen\lhs_plus-prefixed_expr
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\for\gen\lhs_plus-prefixed_expr
 > :: test: lhs plus-prefixed expr
 > :: case: false
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/for-of/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\for-of\gen\try_with_invalid_array
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/for-of/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\for-of\gen\try_with_invalid_array
 > :: test: try with invalid array
 > :: case: catch
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-02-18
-- From: kataw8\test\__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw8\test\__snapshot__\compiler\js\statements\return\gen\with_unclosed_array
+- Regenerated: 2021-03-15
+- From: kataw15\test\__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw15\test\__snapshot__\compiler\js\statements\return\gen\with_unclosed_array
 > :: test: with unclosed array
 > :: case: while try this and !foo
 ## Input
