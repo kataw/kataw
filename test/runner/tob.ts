@@ -88,7 +88,12 @@ function md2cst(str: string) {
   const start = str.indexOf(Constants.JavascriptStart, offset);
   const end = str.indexOf(Constants.JavascriptEnd, offset);
   const t = str.slice(start + Constants.JavascriptStart.length, end);
-  return offset === -1 ? {} : JSON.parse(t);
+  try {
+    return offset === -1 ? {} : JSON.parse(t);
+  } catch (e) {
+    console.log(e);
+    return {};
+  }
 }
 
 function md2printed(str: string) {

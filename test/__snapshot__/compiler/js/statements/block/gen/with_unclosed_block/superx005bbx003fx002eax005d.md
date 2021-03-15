@@ -169,7 +169,9 @@
                                                 "end": 28
                                             },
                                             "flags": 0,
-                                            "pos": 25,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 25,
                                             "end": 28
                                         },
                                         "flags": 0,

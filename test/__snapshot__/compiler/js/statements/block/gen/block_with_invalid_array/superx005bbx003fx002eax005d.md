@@ -170,7 +170,9 @@
                         "end": 20
                     },
                     "flags": 0,
-                    "pos": 17,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 17,
                     "end": 20
                 },
                 "flags": 0,

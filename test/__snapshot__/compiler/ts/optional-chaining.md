@@ -81,7 +81,9 @@ example.inner?.greet<string>()
                         "end": 20
                     },
                     "flags": 0,
-                    "pos": 13,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 13,
                     "end": 20
                 },
                 "typeArguments": {

@@ -75,7 +75,9 @@
                                     "end": 12
                                 },
                                 "flags": 0,
-                                "pos": 9,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 9,
                                 "end": 12
                             },
                             "flags": 0,

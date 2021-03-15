@@ -154,7 +154,9 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
                                                 "end": 28
                                             },
                                             "flags": 0,
-                                            "pos": 22,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 22,
                                             "end": 28
                                         },
                                         "operator": "===",
@@ -446,7 +448,9 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
                                                 "end": 170
                                             },
                                             "flags": 0,
-                                            "pos": 164,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 164,
                                             "end": 170
                                         },
                                         "operator": "===",
@@ -1019,7 +1023,9 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
                                                     "end": 644
                                                 },
                                                 "flags": 0,
-                                                "pos": 638,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 638,
                                                 "end": 644
                                             },
                                             "operator": "===",
@@ -1319,7 +1325,9 @@ foo = (coooooooooooooooooooooooooooooooooooooooooooooooooooond
                                                     "end": 787
                                                 },
                                                 "flags": 0,
-                                                "pos": 781,
+                                                "symbol": null,
+                                                "transformFlags": 0,
+                                                "start": 781,
                                                 "end": 787
                                             },
                                             "operator": "===",
