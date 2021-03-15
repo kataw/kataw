@@ -57,7 +57,7 @@ export function cliOpts() {
     files: getTestFiles(process.argv.includes('-f') ? [process.argv[process.argv.indexOf('-f') + 1]] : resolve('test/__snapshot__'), '', gen)
   };
 
-  gen && (opts.files = opts.files.filter((f: any) => !f.endsWith('autogen.md')));
+  // gen && (opts.files = opts.files.filter((f: any) => !f.endsWith('autogen.md')));
 
   if (opts.updateItems.length) {
     if(opts.gen){
