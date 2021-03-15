@@ -9,3 +9,92 @@
 `````js
 ++async => ok
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "++async => ok",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65715,
+                "operator": "++",
+                "operand": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 2,
+                    "end": 7
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 7
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 7
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "ok",
+                "rawText": "ok",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 10,
+                "end": 13
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 10,
+            "end": 13
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 8,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 13
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

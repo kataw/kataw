@@ -11,3 +11,139 @@ function *P(){
   class D extends `temp {waitforit} late` {}
 }
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "function *P(){\n  class D extends `temp {waitforit} late` {}\n}",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 788576,
+            "name": {
+                "kind": 131102,
+                "text": "P",
+                "rawText": "P",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 10,
+                "end": 11
+            },
+            "formalParameters": {
+                "kind": 90,
+                "formalParameterList": [],
+                "trailingComma": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 13
+            },
+            "type": null,
+            "contents": {
+                "kind": 91,
+                "functionStatementList": {
+                    "kind": 94,
+                    "statements": [
+                        {
+                            "kind": 48,
+                            "name": {
+                                "kind": 131102,
+                                "text": "D",
+                                "rawText": "D",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1025,
+                                "start": 22,
+                                "end": 24
+                            },
+                            "typeParameters": null,
+                            "classHeritage": {
+                                "kind": 52,
+                                "expression": {
+                                    "kind": 4260568,
+                                    "rawText": "temp {waitforit} late",
+                                    "text": "temp {waitforit} late",
+                                    "literal": true,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 1,
+                                    "start": 32,
+                                    "end": 56
+                                },
+                                "typeArguments": null,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 32,
+                                "end": 56
+                            },
+                            "implementClauses": null,
+                            "members": {
+                                "kind": 50,
+                                "elements": [],
+                                "flags": 32768,
+                                "symbol": null,
+                                "transformFlags": 1,
+                                "start": 58,
+                                "end": 59
+                            },
+                            "decorators": null,
+                            "isAbstract": false,
+                            "flags": 32768,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 14,
+                            "end": 59
+                        }
+                    ],
+                    "multiline": true,
+                    "flags": 32768,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 14,
+                    "end": 59
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 13,
+                "end": 61
+            },
+            "typeParameters": null,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 384,
+            "start": 0,
+            "end": 61
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 61
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

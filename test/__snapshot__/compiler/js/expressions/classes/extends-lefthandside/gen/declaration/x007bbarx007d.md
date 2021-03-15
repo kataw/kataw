@@ -9,3 +9,109 @@
 `````js
 class A extends {bar} {}
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "class A extends {bar} {}",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 98984,
+                    "propertyList": {
+                        "kind": 65722,
+                        "properties": [
+                            {
+                                "kind": 196712,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 17,
+                                "end": 20
+                            }
+                        ],
+                        "trailingComma": false,
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 17,
+                        "end": 20
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 15,
+                    "end": 21
+                },
+                "typeArguments": null,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 21
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1,
+                "start": 23,
+                "end": 24
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 24
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 24
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

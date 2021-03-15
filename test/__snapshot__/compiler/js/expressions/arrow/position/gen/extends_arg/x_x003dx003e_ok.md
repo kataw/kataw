@@ -9,3 +9,140 @@
 `````js
 class A extends x => ok {}
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "class A extends x => ok {}",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "A",
+                "rawText": "A",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": {
+                "kind": 52,
+                "expression": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 15,
+                    "end": 17
+                },
+                "typeArguments": null,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 15,
+                "end": 17
+            },
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [],
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 1,
+                "start": 0,
+                "end": 0
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 1,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "ok",
+                "rawText": "ok",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 20,
+                "end": 23
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 20,
+            "end": 23
+        },
+        {
+            "kind": 2099237,
+            "block": {
+                "kind": 2084,
+                "statements": [],
+                "multiline": false,
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 25,
+                "end": 25
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 23,
+            "end": 26
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "'{' expected.",
+            "start": 18,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 24,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 26
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

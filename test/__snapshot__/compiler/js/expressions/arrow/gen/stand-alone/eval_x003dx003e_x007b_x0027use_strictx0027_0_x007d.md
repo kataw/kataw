@@ -9,3 +9,149 @@
 `````js
 eval => { 'use strict'; 0 } ;
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "eval => { 'use strict'; 0 } ;",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "eval",
+                                "rawText": "eval",
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 0,
+                                "end": 4
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 4,
+                            "end": 4
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 4
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [
+                            {
+                                "kind": 2097233,
+                                "expression": {
+                                    "kind": 4261583,
+                                    "text": "use strict",
+                                    "rawText": "use strict",
+                                    "flags": 33554432,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 9,
+                                    "end": 22
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 9,
+                                "end": 23
+                            },
+                            {
+                                "kind": 2097233,
+                                "expression": {
+                                    "kind": 4261540,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 23,
+                                    "end": 25
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 23,
+                                "end": 25
+                            }
+                        ],
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 9,
+                        "end": 25
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 7,
+                    "end": 27
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 27
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 29
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 29
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

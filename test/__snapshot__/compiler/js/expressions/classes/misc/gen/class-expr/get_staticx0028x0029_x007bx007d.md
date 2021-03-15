@@ -9,3 +9,142 @@
 `````js
 (class { get static() {} });
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "(class { get static() {} });",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
+                "expression": {
+                    "kind": 66099,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "implementClauses": null,
+                    "members": {
+                        "kind": 50,
+                        "elements": [
+                            {
+                                "kind": 49,
+                                "isStatic": false,
+                                "isAbstract": false,
+                                "isReadOnly": false,
+                                "isOptional": false,
+                                "method": {
+                                    "kind": 16844946,
+                                    "name": {
+                                        "kind": 196711,
+                                        "text": "static",
+                                        "rawText": "static",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 12,
+                                        "end": 19
+                                    },
+                                    "formalParameters": {
+                                        "kind": 90,
+                                        "formalParameterList": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    "isSetter": false,
+                                    "isGetter": true,
+                                    "contents": {
+                                        "kind": 91,
+                                        "functionStatementList": {
+                                            "kind": 94,
+                                            "statements": [],
+                                            "multiline": false,
+                                            "flags": 0,
+                                            "symbol": null,
+                                            "transformFlags": 0,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 21,
+                                        "end": 24
+                                    },
+                                    "decorators": null,
+                                    "type": null,
+                                    "accessModifier": null,
+                                    "typeParameters": null,
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 19,
+                                    "end": 24
+                                },
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1,
+                                "start": 8,
+                                "end": 24
+                            }
+                        ],
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 8,
+                        "end": 26
+                    },
+                    "decorators": null,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 1,
+                    "start": 1,
+                    "end": 26
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 27
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 28
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 28
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

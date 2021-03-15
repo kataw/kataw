@@ -9,3 +9,168 @@
 `````js
 x = (interface) => { 'use strict'; 0 } ;
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "x = (interface) => { 'use strict'; 0 } ;",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65550,
+                "left": {
+                    "kind": 196712,
+                    "text": "x",
+                    "rawText": "x",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 0,
+                    "end": 1
+                },
+                "operator": "=",
+                "right": {
+                    "kind": 83976,
+                    "typeParameters": null,
+                    "arrowParameters": {
+                        "kind": 81929,
+                        "elements": [
+                            {
+                                "kind": 16473,
+                                "ellipsis": false,
+                                "binding": {
+                                    "kind": 4325406,
+                                    "text": "interface",
+                                    "rawText": "interface",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 5,
+                                    "end": 14
+                                },
+                                "isOptional": false,
+                                "type": null,
+                                "initializer": null,
+                                "decorators": null,
+                                "accessModifier": null,
+                                "isReadOnly": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 1,
+                                "start": 3,
+                                "end": 15
+                            }
+                        ],
+                        "type": null,
+                        "accessModifier": null,
+                        "trailingComma": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 3,
+                        "end": 15
+                    },
+                    "contents": {
+                        "kind": 91,
+                        "functionStatementList": {
+                            "kind": 94,
+                            "statements": [
+                                {
+                                    "kind": 2097233,
+                                    "expression": {
+                                        "kind": 4261583,
+                                        "text": "use strict",
+                                        "rawText": "use strict",
+                                        "flags": 33554432,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 20,
+                                        "end": 33
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 20,
+                                    "end": 34
+                                },
+                                {
+                                    "kind": 2097233,
+                                    "expression": {
+                                        "kind": 4261540,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 0,
+                                        "symbol": null,
+                                        "transformFlags": 0,
+                                        "start": 34,
+                                        "end": 36
+                                    },
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 34,
+                                    "end": 36
+                                }
+                            ],
+                            "multiline": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 20,
+                            "end": 36
+                        },
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 18,
+                        "end": 38
+                    },
+                    "flags": 1073741824,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 3,
+                    "end": 38
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 38
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 40
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 40
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

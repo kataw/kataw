@@ -9,3 +9,116 @@
 `````js
 (class { await = 0; });
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "(class { await = 0; });",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 66224,
+                "expression": {
+                    "kind": 66099,
+                    "name": null,
+                    "typeParameters": null,
+                    "classHeritage": null,
+                    "implementClauses": null,
+                    "members": {
+                        "kind": 50,
+                        "elements": [
+                            {
+                                "kind": 16468,
+                                "key": {
+                                    "kind": 196711,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 8,
+                                    "end": 14
+                                },
+                                "isInKeyword": false,
+                                "expression": null,
+                                "isAbstract": false,
+                                "isReadOnly": false,
+                                "isOptional": false,
+                                "exclamation": false,
+                                "type": null,
+                                "initializer": {
+                                    "kind": 4261540,
+                                    "text": 0,
+                                    "rawText": "0",
+                                    "flags": 0,
+                                    "symbol": null,
+                                    "transformFlags": 0,
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "decorators": null,
+                                "accessModifier": null,
+                                "isStatic": false,
+                                "flags": 0,
+                                "symbol": null,
+                                "transformFlags": 524352,
+                                "start": 8,
+                                "end": 19
+                            }
+                        ],
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 1,
+                        "start": 8,
+                        "end": 21
+                    },
+                    "decorators": null,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 1,
+                    "start": 1,
+                    "end": 21
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 22
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 23
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 23
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

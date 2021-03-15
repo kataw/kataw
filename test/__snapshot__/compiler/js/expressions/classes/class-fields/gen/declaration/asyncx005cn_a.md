@@ -9,3 +9,166 @@
 `````js
 class C { async\n a }
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "class C { async\\n a }",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 48,
+            "name": {
+                "kind": 131102,
+                "text": "C",
+                "rawText": "C",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1025,
+                "start": 5,
+                "end": 7
+            },
+            "typeParameters": null,
+            "classHeritage": null,
+            "implementClauses": null,
+            "members": {
+                "kind": 50,
+                "elements": [
+                    {
+                        "kind": 16468,
+                        "key": {
+                            "kind": 196712,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 1,
+                            "symbol": null,
+                            "transformFlags": 0,
+                            "start": 15,
+                            "end": 15
+                        },
+                        "isInKeyword": false,
+                        "expression": null,
+                        "isAbstract": false,
+                        "isReadOnly": false,
+                        "isOptional": false,
+                        "exclamation": false,
+                        "type": null,
+                        "initializer": null,
+                        "decorators": null,
+                        "accessModifier": null,
+                        "isStatic": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 524352,
+                        "start": 9,
+                        "end": 15
+                    }
+                ],
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 1,
+                "start": 9,
+                "end": 15
+            },
+            "decorators": null,
+            "isAbstract": false,
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 1,
+            "start": 0,
+            "end": 15
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "n",
+                "rawText": "n",
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 16,
+                "end": 17
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 16,
+            "end": 17
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 196712,
+                "text": "a",
+                "rawText": "a",
+                "flags": 1,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 17,
+                "end": 19
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 17,
+            "end": 19
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 15,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 0,
+            "message": "Invalid character",
+            "start": 15,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 18,
+            "length": 0
+        },
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "Declaration or statement expected",
+            "start": 20,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 21
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+

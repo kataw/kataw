@@ -9,3 +9,147 @@
 `````js
 delete async x => {}
 `````
+
+## Output
+
+### Hybrid CST
+
+```javascript
+{
+    "kind": 2243,
+    "source": "delete async x => {}",
+    "filename": "",
+    "statements": [
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 65774,
+                "operator": "delete",
+                "operand": {
+                    "kind": 196712,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 6,
+                    "end": 12
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 0,
+                "end": 12
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 0,
+            "end": 12
+        },
+        {
+            "kind": 2097233,
+            "expression": {
+                "kind": 83976,
+                "typeParameters": null,
+                "arrowParameters": {
+                    "kind": 81929,
+                    "elements": [
+                        {
+                            "kind": 16473,
+                            "ellipsis": false,
+                            "binding": {
+                                "kind": 4325406,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 1,
+                                "symbol": null,
+                                "transformFlags": 0,
+                                "start": 12,
+                                "end": 14
+                            },
+                            "isOptional": false,
+                            "type": null,
+                            "initializer": null,
+                            "decorators": null,
+                            "accessModifier": null,
+                            "isReadOnly": false,
+                            "flags": 0,
+                            "symbol": null,
+                            "transformFlags": 1,
+                            "start": 14,
+                            "end": 14
+                        }
+                    ],
+                    "type": null,
+                    "accessModifier": null,
+                    "trailingComma": false,
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 12,
+                    "end": 14
+                },
+                "contents": {
+                    "kind": 91,
+                    "functionStatementList": {
+                        "kind": 94,
+                        "statements": [],
+                        "multiline": false,
+                        "flags": 0,
+                        "symbol": null,
+                        "transformFlags": 0,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "flags": 0,
+                    "symbol": null,
+                    "transformFlags": 0,
+                    "start": 17,
+                    "end": 20
+                },
+                "flags": 0,
+                "symbol": null,
+                "transformFlags": 0,
+                "start": 12,
+                "end": 20
+            },
+            "flags": 0,
+            "symbol": null,
+            "transformFlags": 0,
+            "start": 12,
+            "end": 20
+        }
+    ],
+    "isModule": false,
+    "printable": true,
+    "diagnostics": [
+        {
+            "kind": 2,
+            "source": 2,
+            "message": "';' expected.",
+            "start": 13,
+            "length": 0
+        }
+    ],
+    "original": null,
+    "symbol": null,
+    "flags": 0,
+    "transformFlags": 0,
+    "start": 0,
+    "end": 20
+}
+```
+
+### Printed
+
+```javascript
+@{x2716}@ Soon to be open sourced
+```
+
+### Diagnostics
+
+```javascript
+
+```
+
