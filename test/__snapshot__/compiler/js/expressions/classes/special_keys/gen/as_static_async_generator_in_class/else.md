@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/expressions/classes/special_keys/gen/as_static_async_generator_in_class
+- From: kataw15/test\__snapshot__/compiler/js/expressions/classes/special_keys/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\expressions\classes\special_keys\gen\as_static_async_generator_in_class
 > :: test: as static async generator in class
 > :: case: else
 ## Input

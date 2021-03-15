@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/expressions/await/gen/simple
+- From: kataw15/test\__snapshot__/compiler/js/expressions/await/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\expressions\await\gen\simple
 > :: test: simple
 > :: case: return async (await) => {};
 ## Input

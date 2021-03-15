@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/statements/for/gen/lhs_obj_with_prop_init
+- From: kataw15/test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\statements\for\gen\lhs_obj_with_prop_init
 > :: test: lhs obj with prop init
 > :: case: false
 ## Input

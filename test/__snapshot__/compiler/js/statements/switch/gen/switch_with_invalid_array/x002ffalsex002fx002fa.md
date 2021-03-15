@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/statements/switch/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/statements/switch/gen/switch_with_invalid_array
+- From: kataw15/test\__snapshot__/compiler/js/statements/switch/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\statements\switch\gen\switch_with_invalid_array
 > :: test: switch with invalid array
 > :: case: /false//a
 ## Input

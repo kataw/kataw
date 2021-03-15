@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/expressions/yield/gen/with_strict_dirctive
+- From: kataw15/test\__snapshot__/compiler/js/expressions/yield/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\expressions\yield\gen\with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 ## Input

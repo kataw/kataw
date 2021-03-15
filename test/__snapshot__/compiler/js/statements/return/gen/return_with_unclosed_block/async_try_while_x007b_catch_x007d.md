@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/statements/return/gen/return_with_unclosed_block
+- From: kataw15/test\__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\statements\return\gen\return_with_unclosed_block
 > :: test: return with unclosed block
 > :: case: async try while { catch }
 ## Input

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/statements/labelled/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/statements/labelled/gen/catch_stand_alone
+- From: kataw15/test\__snapshot__/compiler/js/statements/labelled/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\statements\labelled\gen\catch_stand_alone
 > :: test: catch stand alone
 > :: case: async try while { catch }
 ## Input

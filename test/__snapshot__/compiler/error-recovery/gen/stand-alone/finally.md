@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/compiler/error-recovery/gen/stand-alone
+- From: kataw15/test\__snapshot__/compiler/error-recovery/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\error-recovery\gen\stand-alone
 > :: test: stand-alone
 > :: case: finally
 ## Input

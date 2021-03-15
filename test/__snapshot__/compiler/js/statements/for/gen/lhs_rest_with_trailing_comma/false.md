@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw/test/__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw/test/__snapshot__/compiler/js/statements/for/gen/lhs_rest_with_trailing_comma
+- From: kataw15/test\__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw15/test\__snapshot__\compiler\js\statements\for\gen\lhs_rest_with_trailing_comma
 > :: test: lhs rest with trailing comma
 > :: case: false
 ## Input
