@@ -59,13 +59,7 @@ export function forEachChild(node: any, visitor: (node: Node) => Node): any {
         visitNode(node.defaultType, node, visitor) ||
         visitNode(node.expression, node, visitor)
       );
-    case NodeKind.Script:
-      return visitNode(node.scriptBody, node, visitor);
-    case NodeKind.Module:
-      return visitNode(node.moduleBody, node, visitor);
-    case NodeKind.ScriptBody:
-      return visitNodes(node.statements, node, visitor);
-    case NodeKind.ModuleBody:
+    case NodeKind.RootNode:
       return visitNodes(node.statements, node, visitor);
     case NodeKind.FunctionStatementList:
       return visitNodes(node.statements, node, visitor);
