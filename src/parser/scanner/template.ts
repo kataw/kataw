@@ -28,7 +28,7 @@ export function scanTemplate(parser: ParserState, context: Context, source: stri
     if (cp === Char.Dollar) {
       if (parser.source.charCodeAt(parser.pos + 1) === Char.LeftBrace) {
         parser.templateRaw = parser.source.slice(start, parser.pos);
-        parser.pos = parser.pos += 2; // Consume '$' and '{'
+        parser.pos += 2; // Consume '$' and '{'
         parser.tokenValue = ret;
         return Token.TemplateCont;
       }

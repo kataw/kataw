@@ -19,7 +19,7 @@ export interface Tob {
 }
 
 export function updateTob(tob: any, updateItems: any): void {
-  let outputIndex = tob.content.indexOf(Constants.Output);
+  const outputIndex = tob.content.indexOf(Constants.Output);
   const output = outputBlock(tob, updateItems);
   tob.content = tob.content.slice(0, outputIndex) + output;
   return promiseToWriteFile(tob.filename, tob.content);
@@ -109,17 +109,15 @@ function outputBlock(tob: Tob, updateItems: any) {
 ## Output
 
 ### Hybrid CST
-${Constants.JavascriptStart}${
-  JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)
-}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${JSON.stringify(updateItems.includes('parser') ? tob.$cst : tob.cst, null, 4)}${
+    Constants.JavascriptEnd
+  }
 ### Printed
-${Constants.JavascriptStart}${
-  updateItems.includes('printer') ? tob.$printed : tob.printed
-}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$printed : tob.printed}${Constants.JavascriptEnd}
 ### Diagnostics
-${Constants.JavascriptStart}${
-  updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics
-}${Constants.JavascriptEnd}
+${Constants.JavascriptStart}${updateItems.includes('printer') ? tob.$diagnostics : tob.diagnostics}${
+    Constants.JavascriptEnd
+  }
 `;
 }
 

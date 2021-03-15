@@ -1,5 +1,4 @@
 import { Node, NodeFlags, NodeKind, TransformFlags } from '../node';
-import { JsxFragment } from './jsx-fragment';
 
 /**
  * The opening element of a <>...</> JsxFragment

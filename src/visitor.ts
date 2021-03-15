@@ -1,7 +1,6 @@
-import { RootNode } from './ast/rootNode';
-import { createNodeArray, concatenate, updateNode, extractSingleNode } from './utils';
+import { createNodeArray, concatenate, extractSingleNode } from './utils';
 import { LexicalEnvironmentFlags } from './transform/context';
-import { Node, NodeFlags, NodeKind, TransformFlags } from './ast/node';
+import { Node, NodeFlags, NodeKind } from './ast/node';
 import { updateRootNode } from './ast/rootNode';
 import { updateExpressionStatement } from './ast/statements/expr-stmt';
 import { updateBinaryExpression } from './ast/expressions/binary-expr';
@@ -359,6 +358,10 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
       );
     case NodeKind.BindingElementList:
       return updateBindingElementList(node, visitNodes(node.elements, visitor));
+    case NodeKind.HeritageClause:
+      return updateHeritageClause(node, visitNode(node.type, visitor));
+    case NodeKind.ImplementClauses:
+      return updateImplementClauses(node, visitNodes(node.clauses, visitor));
     case NodeKind.VariableStatement:
       return updateVariableStatement(node, visitNode(node.declarationList, visitor));
     case NodeKind.VariableDeclaration:
@@ -841,8 +844,7 @@ export function visitEachChild(node: any, visitor: (node: Node) => Node, context
 
     case NodeKind.HeritageClauses:
       return updateHeritageClauses(node, visitNodes(node.clauses, visitor));
-    case NodeKind.HeritageClause:
-      return updateHeritageClause(node, visitNode(node.type, visitor));
+
     case NodeKind.ImplementClause:
       return updateImplementClause(node, visitNode(node.type, visitor));
 

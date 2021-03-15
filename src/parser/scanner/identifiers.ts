@@ -57,7 +57,7 @@ export function scanIdentifier(parser: ParserState, cp: number, source: string):
 export function scanIdentifierParts(parser: ParserState, source: string): string {
   let result = '';
   let start = parser.pos;
-  let code: number | null = Escape.Failure;
+  let code!: number | null;
   let cp = source.charCodeAt(parser.pos);
   do {
     if (isIdentifierPart(cp)) {

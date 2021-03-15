@@ -1,7 +1,7 @@
 import { ParserState } from '../types';
 import { Token, KeywordDescTable } from '../ast/token';
 import { createRootNode, RootNode } from '../ast/rootNode';
-import { NodeKind, NodeFlags, AccessModifierTypes, AccessModifiers } from '../ast/node';
+import { NodeKind, NodeFlags, AccessModifiers } from '../ast/node';
 import { TypeNode } from '../ast/types';
 import { Statement } from '../ast/statements/index';
 import { createCatchParameter, CatchParameter } from '../ast/statements/catch-parameter';
@@ -22,7 +22,7 @@ import { createClassHeritage, ClassHeritage } from '../ast/expressions/class-her
 import { createHeritageClauses, HeritageClauses } from '../ast/types/heritage-clauses';
 import { createHeritageClause, HeritageClause } from '../ast/types/heritage-clause';
 import { createNamespaceBlock, NamespaceBlock } from '../ast/types/namespace-block';
-import { createNamespaceDeclaration, NamespaceDeclaration } from '../ast/types/namespace-declaration';
+import { createNamespaceDeclaration } from '../ast/types/namespace-declaration';
 import { createImplementClauses, ImplementClauses } from '../ast/types/implement-clauses';
 import { createImplementClause, ImplementClause } from '../ast/types/implement-clause';
 import { createThisType, ThisType } from '../ast/types/this-type';
@@ -113,15 +113,14 @@ import { createBooleanLiteral, BooleanLiteral } from '../ast/expressions/boolean
 import { createThisExpression, ThisExpression } from '../ast/expressions/this-expr';
 import { createNullLiteral, NullLiteral } from '../ast/expressions/null-literal';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
-import { createForBinding, ForBinding } from '../ast/statements/forBinding';
+import { createForBinding } from '../ast/statements/forBinding';
 import { createParenthesizedExpression, ParenthesizedExpression } from '../ast/expressions/parenthesized-expr';
 import { createFunctionBody, FunctionBody } from '../ast/expressions/function-body';
 import { createFunctionStatementList, FunctionStatementList } from '../ast/expressions/function-stmt-list';
-import { createTaggedTemplate, TaggedTemplate } from '../ast/expressions/tagged-template';
-import { createOptionalChain, OptionalChain } from '../ast/expressions/optional-chain';
-import { createElementAccessChain, ElementAccessChain } from '../ast/expressions/element-access-chain';
-import { createPropertyAccessChain, PropertyAccessChain } from '../ast/expressions/property-access-chain';
-import { createCallChain, CallChain } from '../ast/expressions/call-chain';
+import { createTaggedTemplate } from '../ast/expressions/tagged-template';
+import { createElementAccessChain } from '../ast/expressions/element-access-chain';
+import { createPropertyAccessChain } from '../ast/expressions/property-access-chain';
+import { createCallChain } from '../ast/expressions/call-chain';
 import { createOptionalExpression, OptionalExpression } from '../ast/expressions/optional-expr';
 import { createNewExpression, NewExpression } from '../ast/expressions/new-expr';
 import { createNewTarget, NewTarget } from '../ast/expressions/new-target';
@@ -153,12 +152,12 @@ import { createStringLiteral, StringLiteral } from '../ast/expressions/string-li
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
 import { createBigIntLiteral, BigIntLiteral } from '../ast/expressions/bigint-literal';
 import { createExpressionStatement, ExpressionStatement } from '../ast/statements/expr-stmt';
-import { createCommaOperator, CommaOperator } from '../ast/expressions/commaOperator';
+import { createCommaOperator } from '../ast/expressions/commaOperator';
 import { createConditionalExpression, ConditionalExpression } from '../ast/expressions/conditional-expr';
 import { createBinaryExpression, BinaryExpression, BinaryOperator } from '../ast/expressions/binary-expr';
 import { createPropertyAccessExpression, PropertyAccessExpression } from '../ast/expressions/property-access-expr';
-import { createElementAccessExpression, ElementAccessExpression } from '../ast/expressions/element-access-expr';
-import { createCallExpression, CallExpression } from '../ast/expressions/call-expr';
+import { createElementAccessExpression } from '../ast/expressions/element-access-expr';
+import { createCallExpression } from '../ast/expressions/call-expr';
 import { ForOfStatement, createForOfStatement } from '../ast/statements/for-of-stmt';
 import { ForInStatement, createForInStatement } from '../ast/statements/for-in-stmt';
 import { ForStatement, createForStatement } from '../ast/statements/for-stmt';
@@ -186,14 +185,14 @@ import { VariableDeclaration, createVariableDeclaration } from '../ast/statement
 import { VariableDeclarationList, createVariableDeclarationList } from '../ast/statements/variable-declarationList';
 import { LabelledStatement, createLabelledStatement } from '../ast/statements/labelled-stmt';
 import { BindingList, createBindingList } from '../ast/statements/binding-list';
-import { lookAhead, tryParse } from '../parser/scanner/common';
+import { lookAhead, tryParse, isLineTerminator } from '../parser/scanner/common';
 import { createUnaryExpression, UnaryExpression, UnaryOperator } from '../ast/expressions/unary-expr';
 import { createSpreadElement, SpreadElement } from '../ast/expressions/spread-element';
 import { ArgumentList, createArgumentList } from '../ast/expressions/argument-list';
 import { createPrefixUpdateExpression, PrefixUpdateExpression, UpdateOp } from '../ast/expressions/prefix-update-expr';
 import { createPostfixUpdateExpression, PostfixUpdateExpression } from '../ast/expressions/postfix-update-expr';
 import { DiagnosticCode } from '../diagnostics/diagnosticMessages.generated';
-import { parseErrorAtPosition, reportErrorDiagnostic, reportWarningDiagnostic } from '../diagnostics/diagnostic';
+import { reportErrorDiagnostic } from '../diagnostics/diagnostic';
 import { createTemplateSpan, TemplateSpan } from '../ast/expressions/template-span';
 import { createTemplateTail, TemplateTail } from '../ast/expressions/template-tail';
 import { createTemplateExpression, TemplateExpression } from '../ast/expressions/template-expression';
@@ -205,7 +204,7 @@ import { Constants } from './constants';
 import { createConstructSignature, ConstructSignature } from '../ast/types/construct-signature';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
-import { isLineTerminator } from './scanner/common';
+
 import { Char } from './scanner/char';
 import {
   createNamespaceExportDeclaration,
@@ -1735,14 +1734,13 @@ function parseLeftHandSideExpression(parser: ParserState, context: Context, allo
 
       /* Optional Property */
       case Token.QuestionMarkPeriod:
-        member = {
-          kind: NodeKind.OptionalExpression,
+        member = createOptionalExpression(
           member,
-          chain: parseOptionalChain(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
-          flags: NodeFlags.None,
+          parseOptionalChain(parser, (context | Context.DisallowIn) ^ Context.DisallowIn),
+          NodeFlags.None,
           pos,
-          end: parser.curPos
-        };
+          parser.curPos
+        );
         break;
 
       default:
@@ -4722,7 +4720,7 @@ function parseExportsList(parser: ParserState, context: Context): ExportsList {
 function parseExportSpecifier(parser: ParserState, context: Context): ExportSpecifier {
   const pos = parser.curPos;
   let moduleExportName: StringLiteral | null = null;
-  let localName =
+  const localName =
     parser.token === Token.StringLiteral
       ? parseModuleExportName(parser, context)
       : parseIdentifierName(parser, context);
