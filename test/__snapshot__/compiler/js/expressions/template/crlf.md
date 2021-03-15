@@ -4,13 +4,11 @@
 
 `````js
 a
-`foo@{xd}@
-bar`
+`foo\r\nbar`
 b
 `````
 
 ## Output
-
 
 ### Hybrid CST
 
@@ -18,7 +16,7 @@ b
 ```javascript
 {
     "kind": 196,
-    "source": "a\n`foo\r\nbar`\nb",
+    "source": "a\n`foo\\r\\nbar`\nb",
     "filename": "",
     "scriptBody": {
         "kind": 197,
@@ -40,27 +38,27 @@ b
                     "typeArguments": null,
                     "template": {
                         "kind": 4260568,
-                        "rawText": "foo\r\nbar",
-                        "text": "foo\rbar",
+                        "rawText": "foo\\r\\nbar",
+                        "text": "foo\r\nbar",
                         "literal": false,
                         "flags": 16384,
                         "intersects": false,
                         "transformFlags": 1,
                         "start": 1,
-                        "end": 12
+                        "end": 14
                     },
                     "optional": false,
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 1,
                     "start": 1,
-                    "end": 12
+                    "end": 14
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
                 "start": 0,
-                "end": 12
+                "end": 14
             },
             {
                 "kind": 2097233,
@@ -71,21 +69,21 @@ b
                     "flags": 16384,
                     "intersects": false,
                     "transformFlags": 0,
-                    "start": 12,
-                    "end": 14
+                    "start": 14,
+                    "end": 16
                 },
                 "flags": 0,
                 "intersects": false,
                 "transformFlags": 0,
-                "start": 12,
-                "end": 14
+                "start": 14,
+                "end": 16
             }
         ],
         "transformFlags": 0,
         "flags": 0,
         "intersects": false,
         "start": 0,
-        "end": 14
+        "end": 16
     },
     "jsx": false,
     "printable": true,
@@ -95,9 +93,10 @@ b
     "intersects": false,
     "transformFlags": 0,
     "start": 0,
-    "end": 14
+    "end": 16
 }
 ```
+
 
 ### Printed
 
@@ -105,6 +104,7 @@ b
 ```javascript
 @{x2716}@ Soon to be open sourced
 ```
+
 
 ### Diagnostics
 
