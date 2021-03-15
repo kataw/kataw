@@ -108,8 +108,8 @@ export async function autogen(files: string[], conservative: boolean) {
           testFile,
           `# Auto-generated test cases ( Kataw )
 - Regenerated: ${new Date().toISOString().slice(0, 10)}
-- From: ${obj.file.slice(obj.file.indexOf('kataw')).replace("\\","/")}
-- Path: ${caseDir.slice(caseDir.indexOf('kataw')).replace("\\","/")}
+- From: ${obj.file.slice(obj.file.indexOf('kataw')).replace('\\', '/')}
+- Path: ${caseDir.slice(caseDir.indexOf('kataw')).replace('\\', '/')}
 > :: test: ${title.split('\n').join('\n>          ')}
 > :: case: ${c.split('\n').join('\n>          ')}
 ## Input

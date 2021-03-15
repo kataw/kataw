@@ -1,8 +1,8 @@
 const isUnicodeIDStartRegex = require(`unicode-13.0.0/Binary_Property/ID_Start/regex`);
 const isUnicodeIDContinueRegex = require(`unicode-13.0.0/Binary_Property/ID_Continue/regex`);
 const MAX_UNICODE_CODEPOINT = 0x10ffff;
-const isUnicodeIDStart = c => isUnicodeIDStartRegex.test(c);
-const isUnicodeIDContinue = c => isUnicodeIDContinueRegex.test(c) || isUnicodeIDStart(c);
+const isUnicodeIDStart = (c) => isUnicodeIDStartRegex.test(c);
+const isUnicodeIDContinue = (c) => isUnicodeIDContinueRegex.test(c) || isUnicodeIDStart(c);
 
 let partsActive = false;
 let startsActive = false;

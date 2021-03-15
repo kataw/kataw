@@ -141,7 +141,7 @@ function decompress(compressed) {
   return new Function(`return ${makeDecompress(compressed)}`)();
 }
 
-const makeDecompress = compressed => `((compressed, dict) => {
+const makeDecompress = (compressed) => `((compressed, dict) => {
     const result = new Uint32Array(${compressed.size})
     let i = 0, j = 0
     while (i < ${compressed.result.length}) {
@@ -211,7 +211,7 @@ ${opts.eval ? 'return' : 'export'} {${Object.keys(opts.exports)}};
 
 if (require.main === module) {
   const path = require('path');
-  const load = name => {
+  const load = (name) => {
     const mod = require.resolve(`unicode-13.0.0/${name}/code-points`);
     const list = require(mod);
 
@@ -223,9 +223,9 @@ if (require.main === module) {
   const stream = require('fs').createWriteStream(path.resolve(__dirname, '../src/unicode-generated.ts'));
 
   generate({
-    write: str =>
+    write: (str) =>
       new Promise((resolve, reject) => {
-        stream.write(str, err => (err != null ? reject(err) : resolve()));
+        stream.write(str, (err) => (err != null ? reject(err) : resolve()));
       }),
     exports: {
       isIDContinue: [load('Binary_Property/ID_Continue')],
@@ -250,7 +250,7 @@ if (require.main === module) {
     }
   })
     // Node only started exiting on collected rejections in v8
-    .catch(e =>
+    .catch((e) =>
       process.nextTick(() => {
         throw e;
       })
