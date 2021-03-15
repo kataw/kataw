@@ -23,7 +23,8 @@ export async function runCli() {
       opts.files.length +
       ' test cases.' +
       ColorCodes.yellow +
-      ' Total time'
+      ' Total time' +
+      ColorCodes.RESET
   );
   if (opts.gen) {
     autogen(opts.files, opts.conservative);
@@ -45,7 +46,8 @@ export async function runCli() {
         opts.files.length +
         ' test cases.' +
         ColorCodes.yellow +
-        ' Total time'
+        ' Total time' +
+        ColorCodes.RESET
     );
     console.log(`mismatch: ${cnt}/${opts.files.length}`);
 
