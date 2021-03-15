@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/expressions/super/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\expressions\super\gen\class-set
+- From: kataw/test/__snapshot__/compiler/js/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/expressions/super/gen/class-set
 > :: test: class-set
 > :: case: y = super
 ## Input

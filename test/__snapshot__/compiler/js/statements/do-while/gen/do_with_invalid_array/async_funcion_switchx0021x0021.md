@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/do-while/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\do-while\gen\do_with_invalid_array
+- From: kataw/test/__snapshot__/compiler/js/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/do-while/gen/do_with_invalid_array
 > :: test: do with invalid array
 > :: case: async funcion switch!!
 ## Input

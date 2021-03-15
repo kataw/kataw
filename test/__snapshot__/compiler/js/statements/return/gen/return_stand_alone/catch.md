@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/return/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\return\gen\return_stand_alone
+- From: kataw/test/__snapshot__/compiler/js/statements/return/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/return/gen/return_stand_alone
 > :: test: return stand alone
 > :: case: catch
 ## Input

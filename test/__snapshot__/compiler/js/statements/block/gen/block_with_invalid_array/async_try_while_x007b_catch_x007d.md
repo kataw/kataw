@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/block/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\block\gen\block_with_invalid_array
+- From: kataw/test/__snapshot__/compiler/js/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/block/gen/block_with_invalid_array
 > :: test: block with invalid array
 > :: case: async try while { catch }
 ## Input

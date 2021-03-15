@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
 - Regenerated: 2021-03-15
-- From: kataw15\test\__snapshot__/compiler/js/statements/for/autogen.md
-- Path: kataw15\test\__snapshot__\compiler\js\statements\for\gen\sneaky_lhs_contains_x0060inx0060
+- From: kataw/test/__snapshot__/compiler/js/statements/for/autogen.md
+- Path: kataw/test/__snapshot__/compiler/js/statements/for/gen/sneaky_lhs_contains_x0060inx0060
 > :: test: sneaky lhs contains `in`
 > :: case: false
 ## Input
